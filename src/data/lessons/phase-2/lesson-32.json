@@ -1,0 +1,882 @@
+{
+  "number": 32,
+  "phase": 2,
+  "module": "2.3",
+  "title": "Choose a Simple Test Format",
+  "hero": {
+    "eyebrow": "Module 2.3 · Testing Value and Behaviour · Lesson 32",
+    "title": "Choose a Simple Test Format.",
+    "intro": "Compare simple formats and choose one that fits your claim, access and resources. Define what the test can reveal, what it cannot, and when to stop before building or running it.",
+    "badges": [
+      "Beginner friendly"
+    ],
+    "meta": "35–45 min · Recommended: Lesson 31"
+  },
+  "fields": [
+    {
+      "id": "goal",
+      "label": "Claim and learning goal from Lesson 31: understanding / relevance / behaviour",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Compare honest options; keep access pending and the selected test unexecuted."
+    },
+    {
+      "id": "options",
+      "label": "Compare at least two formats: evidence fit, effort, access and limits",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Compare honest options; keep access pending and the selected test unexecuted."
+    },
+    {
+      "id": "selected",
+      "label": "Chosen format and why it is the smallest adequate check; fallback if access is unavailable",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Compare honest options; keep access pending and the selected test unexecuted."
+    },
+    {
+      "id": "scope",
+      "label": "Stimulus/task scope, prototype or manual-service disclosure and excluded capabilities",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Compare honest options; keep access pending and the selected test unexecuted."
+    },
+    {
+      "id": "access",
+      "label": "Relevant participants/context, permitted channel, access and consent status",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Compare honest options; keep access pending and the selected test unexecuted."
+    },
+    {
+      "id": "procedure",
+      "label": "Neutral steps, facilitator instructions, observable evidence and recording method",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Compare honest options; keep access pending and the selected test unexecuted."
+    },
+    {
+      "id": "reviewRule",
+      "label": "Before-test review rule, alternative explanations, inconclusive conditions and stop rules",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Compare honest options; keep access pending and the selected test unexecuted."
+    },
+    {
+      "id": "resources",
+      "label": "Owner, time/resource limit, privacy review and next preparation step",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Compare honest options; keep access pending and the selected test unexecuted."
+    },
+    {
+      "id": "support",
+      "label": "Optional references or support",
+      "kind": "textarea",
+      "required": false,
+      "maxLength": 2000
+    },
+    {
+      "id": "bias",
+      "label": "Where could coaching, hidden manual work or unclear availability mislead the participant?",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "counter",
+      "label": "Could a simpler option answer the claim, and what result would make this format inconclusive?",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "constraint",
+      "label": "Which access, delivery, resource or privacy issue would require stopping or switching to rehearsal?",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    }
+  ],
+  "questions": [
+    {
+      "prompt": "For an offer-understanding claim, what is a small appropriate format?",
+      "options": [
+        "A complete product build",
+        "A labeled concept card with an own-word explanation prompt",
+        "A like counted as payment"
+      ],
+      "answer": 1,
+      "explanation": "Match a simple stimulus and response to the clarity claim."
+    },
+    {
+      "prompt": "What must a manual service trial disclose?",
+      "options": [
+        "Which parts are manual, delivery scope and unavailable capabilities",
+        "That all automation works",
+        "Only the promotional benefit"
+      ],
+      "answer": 0,
+      "explanation": "Be transparent about actual delivery and limitations."
+    },
+    {
+      "prompt": "No participant access is confirmed. What is honest?",
+      "options": [
+        "Invent a test result",
+        "Claim recruitment is complete",
+        "Prepare a labeled rehearsal and keep customer evidence unknown"
+      ],
+      "answer": 2,
+      "explanation": "A rehearsal is practice; it does not create customer evidence."
+    }
+  ],
+  "checklist": [
+    {
+      "kind": "studied",
+      "label": "Storyboard/transcript reviewed"
+    },
+    {
+      "kind": "fields",
+      "label": "Eight worksheet fields complete",
+      "ids": [
+        "goal",
+        "options",
+        "selected",
+        "scope",
+        "access",
+        "procedure",
+        "reviewRule",
+        "resources"
+      ]
+    },
+    {
+      "kind": "fields",
+      "label": "Three red-team reflections complete",
+      "ids": [
+        "bias",
+        "counter",
+        "constraint"
+      ]
+    },
+    {
+      "kind": "quiz",
+      "label": "Quiz 3 / 3 correct"
+    },
+    {
+      "kind": "honest",
+      "label": "Final self-review confirmed"
+    }
+  ],
+  "deliverable": {
+    "title": "LYNQ Academy — Test Format Selection Brief",
+    "filename": "LYNQ-Test-Format-Selection-Brief.md",
+    "headerLines": [
+      "Phase 02 · Module {module} · Lesson {lesson}",
+      "Status: {status}"
+    ],
+    "fieldIds": [
+      "goal",
+      "options",
+      "selected",
+      "scope",
+      "access",
+      "procedure",
+      "reviewRule",
+      "resources"
+    ],
+    "footer": "No real AI, test execution, source verification or demand validation.",
+    "previewFooter": "This plan does not prove demand or represent completed research."
+  },
+  "sections": [
+    {
+      "id": "watch",
+      "label": "01 / WATCH",
+      "heading": "What is the smallest honest way to check your claim?",
+      "blocks": [
+        {
+          "type": "video",
+          "title": "Choose a Simple Test Format",
+          "subtitle": "Planned 2½-minute explainer + worksheet demo",
+          "note": "No playable video or generated media is attached."
+        },
+        {
+          "type": "storyboard",
+          "scenes": [
+            {
+              "title": "Start with the claim",
+              "visual": "Understanding / Relevance / Behaviour cards",
+              "narration": "Choose a format after stating the claim. A concept explanation can check understanding. A recent-context conversation explores relevance. A task walkthrough can observe a bounded action. No single format proves every part of a venture."
+            },
+            {
+              "title": "Compare small options",
+              "visual": "Editable format comparison table",
+              "narration": "Compare a concept card, a low-fidelity task prototype and a transparent manual service trial. Consider evidence fit, effort, access and limitations. A large build is unnecessary when a small honest stimulus answers the question."
+            },
+            {
+              "title": "Choose adequate evidence",
+              "visual": "Fictional concept and task cards",
+              "narration": "For clarity, ask someone to explain the concept in their own words. For task behaviour, observe an appropriately permitted prototype task without coaching. If the interface is simulated, disclose it and do not treat the action as real adoption."
+            },
+            {
+              "title": "Be transparent about delivery",
+              "visual": "Editable prototype and manual-service labels",
+              "narration": "A manual service trial may explore a real workflow only if you can deliver the agreed scope responsibly. Explain which parts are manual, what is unavailable and any terms. Do not pretend automation or a live product exists."
+            },
+            {
+              "title": "Plan limits and stops",
+              "visual": "Editable access/effort/stop cards",
+              "narration": "Check participant fit, access, permission and data handling. Set a time and resource boundary and stop when safeguards or delivery are unresolved. If access is missing, prepare a labeled rehearsal and keep customer evidence unknown."
+            },
+            {
+              "title": "Write the selection brief",
+              "visual": "Approved actual Lesson 32 worksheet demo",
+              "narration": "Document two options, choose one format, define scope, neutral steps, evidence and a before-test review rule. This lesson selects a format only. It publishes no page, recruits nobody, collects no payment and runs no experiment."
+            }
+          ],
+          "summary": "Explore the six-scene storyboard placeholder",
+          "sceneMeta": "Planned scene {scene} · about 25 seconds in final edit"
+        },
+        {
+          "type": "transcript",
+          "scenes": [
+            {
+              "title": "Start with the claim",
+              "visual": "Understanding / Relevance / Behaviour cards",
+              "narration": "Choose a format after stating the claim. A concept explanation can check understanding. A recent-context conversation explores relevance. A task walkthrough can observe a bounded action. No single format proves every part of a venture."
+            },
+            {
+              "title": "Compare small options",
+              "visual": "Editable format comparison table",
+              "narration": "Compare a concept card, a low-fidelity task prototype and a transparent manual service trial. Consider evidence fit, effort, access and limitations. A large build is unnecessary when a small honest stimulus answers the question."
+            },
+            {
+              "title": "Choose adequate evidence",
+              "visual": "Fictional concept and task cards",
+              "narration": "For clarity, ask someone to explain the concept in their own words. For task behaviour, observe an appropriately permitted prototype task without coaching. If the interface is simulated, disclose it and do not treat the action as real adoption."
+            },
+            {
+              "title": "Be transparent about delivery",
+              "visual": "Editable prototype and manual-service labels",
+              "narration": "A manual service trial may explore a real workflow only if you can deliver the agreed scope responsibly. Explain which parts are manual, what is unavailable and any terms. Do not pretend automation or a live product exists."
+            },
+            {
+              "title": "Plan limits and stops",
+              "visual": "Editable access/effort/stop cards",
+              "narration": "Check participant fit, access, permission and data handling. Set a time and resource boundary and stop when safeguards or delivery are unresolved. If access is missing, prepare a labeled rehearsal and keep customer evidence unknown."
+            },
+            {
+              "title": "Write the selection brief",
+              "visual": "Approved actual Lesson 32 worksheet demo",
+              "narration": "Document two options, choose one format, define scope, neutral steps, evidence and a before-test review rule. This lesson selects a format only. It publishes no page, recruits nobody, collects no payment and runs no experiment."
+            }
+          ],
+          "summary": "Read the full narration / transcript"
+        },
+        {
+          "type": "videoPrompt",
+          "prompt": "Create an engaging LYNQ Academy explainer and format-selection demo: Module 2.3 Lesson 32 — Choose a Simple Test Format. Editorial target 150 seconds, 16:9 1080p. Navy #0B2338, teal #087D79, mint #BCF2DF, white. Diverse adults in a contemporary Dubai workspace; warm plain English narration. Fictional examples labeled Illustrative planned test in post. Compare concept card, low-fidelity task prototype and transparent manual service trial; match claim to evidence, effort, access, limits and safeguards. No fabricated tests, performance, demand, payment or live automation claims.\n\nSCENE 1: Start with the claim\nVisual placeholder: Understanding / Relevance / Behaviour cards\nNarration: Choose a format after stating the claim. A concept explanation can check understanding. A recent-context conversation explores relevance. A task walkthrough can observe a bounded action. No single format proves every part of a venture.\n\nSCENE 2: Compare small options\nVisual placeholder: Editable format comparison table\nNarration: Compare a concept card, a low-fidelity task prototype and a transparent manual service trial. Consider evidence fit, effort, access and limitations. A large build is unnecessary when a small honest stimulus answers the question.\n\nSCENE 3: Choose adequate evidence\nVisual placeholder: Fictional concept and task cards\nNarration: For clarity, ask someone to explain the concept in their own words. For task behaviour, observe an appropriately permitted prototype task without coaching. If the interface is simulated, disclose it and do not treat the action as real adoption.\n\nSCENE 4: Be transparent about delivery\nVisual placeholder: Editable prototype and manual-service labels\nNarration: A manual service trial may explore a real workflow only if you can deliver the agreed scope responsibly. Explain which parts are manual, what is unavailable and any terms. Do not pretend automation or a live product exists.\n\nSCENE 5: Plan limits and stops\nVisual placeholder: Editable access/effort/stop cards\nNarration: Check participant fit, access, permission and data handling. Set a time and resource boundary and stop when safeguards or delivery are unresolved. If access is missing, prepare a labeled rehearsal and keep customer evidence unknown.\n\nSCENE 6: Write the selection brief\nVisual placeholder: Approved actual Lesson 32 worksheet demo\nNarration: Document two options, choose one format, define scope, neutral steps, evidence and a before-test review rule. This lesson selects a format only. It publishes no page, recruits nobody, collects no payment and runs no experiment.\n\nFirst provide timings, storyboard and shot prompts. Generate short shots supported by the selected Gemini/Veo account; assemble with approved separately recorded narration. Composite exact branding, captions and editable Claim / Format / Evidence / Effort / Access / Limits cards in post; no generated UI/text/logos. Record approved actual Lesson 32 worksheet with fictional planned data, no results. Deliver H.264 MP4, editable project, audio, transcript, VTT/SRT, thumbnail and rights/provenance. Native-reviewed Arabic narration and RTL graphics separately. Review transparency, source honesty, privacy, pacing, audio and mobile readability. Prototype generates no video or experiment.",
+          "filename": "LYNQ-Lesson-32-Gemini-Video-Prompt.md",
+          "summary": "Gemini video prompt — ready to copy"
+        },
+        {
+          "type": "studied",
+          "label": "I reviewed the storyboard or transcript."
+        }
+      ]
+    },
+    {
+      "id": "learn",
+      "label": "02 / LEARN",
+      "heading": "Choose a format that answers your question.",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "A ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "test format"
+                  ]
+                },
+                " is the structure of your check. The ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "smallest adequate test"
+                  ]
+                },
+                " provides evidence for one claim without unnecessary building. ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "Format limits"
+                  ]
+                },
+                " explain what you still cannot conclude."
+              ]
+            },
+            {
+              "tag": "div",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "table",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "tag": "caption",
+                      "attrs": {},
+                      "children": [
+                        "Simple formats to compare"
+                      ]
+                    },
+                    {
+                      "tag": "thead",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "tag": "tr",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "tag": "th",
+                              "attrs": {
+                                "scope": "col"
+                              },
+                              "children": [
+                                "Format"
+                              ]
+                            },
+                            {
+                              "tag": "th",
+                              "attrs": {
+                                "scope": "col"
+                              },
+                              "children": [
+                                "Useful for"
+                              ]
+                            },
+                            {
+                              "tag": "th",
+                              "attrs": {
+                                "scope": "col"
+                              },
+                              "children": [
+                                "Limits"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "tbody",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "tag": "tr",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "tag": "th",
+                              "attrs": {
+                                "scope": "row"
+                              },
+                              "children": [
+                                "Concept card + own-word explanation"
+                              ]
+                            },
+                            {
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                "Understanding the offer/audience"
+                              ]
+                            },
+                            {
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                "Clarity is not adoption or payment"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "tr",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "tag": "th",
+                              "attrs": {
+                                "scope": "row"
+                              },
+                              "children": [
+                                "Recent-context conversation"
+                              ]
+                            },
+                            {
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                "Reported relevance and current alternatives"
+                              ]
+                            },
+                            {
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                "Accounts are not observed task behaviour"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "tr",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "tag": "th",
+                              "attrs": {
+                                "scope": "row"
+                              },
+                              "children": [
+                                "Low-fidelity task prototype"
+                              ]
+                            },
+                            {
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                "Observed actions in a specific simulated task"
+                              ]
+                            },
+                            {
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                "Prototype performance is not real product usage"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "tr",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "tag": "th",
+                              "attrs": {
+                                "scope": "row"
+                              },
+                              "children": [
+                                "Transparent manual service trial"
+                              ]
+                            },
+                            {
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                "A bounded workflow you can responsibly deliver"
+                              ]
+                            },
+                            {
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                "Manual delivery does not establish automated scalability"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "ol",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Bring one claim from Lesson 31."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Compare at least two options on evidence fit, effort, access and limits."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Choose the smallest adequate check; disclose prototype/manual status."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Define neutral steps and observable evidence without coaching."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Set a before-test review rule, resource boundary and stop conditions."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Resolve access and safeguards before any real execution."
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "note"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "children": [
+                    "Illustrative planned selection"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    "Claim: a relevant adult can explain the registration-entry concept. Option A: concept card and own-word prompt. Option B: clickable prototype, requiring more preparation without adding necessary clarity evidence. Choose A for this claim. Access pending; no test conducted. If later checking task actions, reconsider a task prototype."
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "A landing-page click, sign-up or expression of interest can be a bounded response, but it does not automatically show purchase or retention. Any future public page must accurately explain availability and data use. This lesson publishes nothing. No deceptive availability or unfulfillable offer is needed."
+              ]
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "If you cannot access participants, prepare a clearly labeled rehearsal and keep real customer evidence unknown. Use anonymous planning notes here; private contacts and source material belong in an approved secure system."
+              ]
+            },
+            {
+              "tag": "lesson-link",
+              "attrs": {
+                "lesson": "31",
+                "class": "btn secondary"
+              },
+              "children": [
+                "Review value proposition test brief"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "practice",
+          "legend": "Practice: your claim concerns understanding the offer.",
+          "prompt": "",
+          "options": [
+            {
+              "label": "Build the whole product first",
+              "feedback": "Choose an adequate small format and match evidence to the claim; neither a full build nor a like proves payment."
+            },
+            {
+              "label": "Use a labeled concept card and own-word explanation",
+              "feedback": "A labeled concept card and own-word explanation fit an understanding claim; clarity remains separate from adoption/payment."
+            },
+            {
+              "label": "Treat a like as payment proof",
+              "feedback": "Choose an adequate small format and match evidence to the claim; neither a full build nor a like proves payment."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "build",
+      "label": "03 / BUILD",
+      "heading": "Your Test Format Selection Brief.",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Compare two formats and select one for a single claim. Review Lesson 31 manually; no draft is auto-imported. Document access blockers, resource limits and a fallback."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "saveStatus"
+        },
+        {
+          "type": "fields",
+          "ids": [
+            "goal",
+            "options",
+            "selected",
+            "scope",
+            "access",
+            "procedure",
+            "reviewRule",
+            "resources",
+            "support"
+          ]
+        },
+        {
+          "type": "deliverable",
+          "previewLabel": "Preview my format brief",
+          "downloadLabel": "Download Test Format Selection Brief"
+        },
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "note"
+              },
+              "children": [
+                "Local storage is plaintext. No test, public page, recruitment, service delivery or payment is connected. Use anonymous planning notes only."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "reset",
+          "label": "Clear local draft"
+        }
+      ]
+    },
+    {
+      "id": "coach",
+      "label": "04 / ASK AI",
+      "heading": "Venture Coach · simulated",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Scripted demonstration only. No live AI, source verification, experiment execution or backend is connected."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "extension",
+          "id": "coach",
+          "props": {
+            "modes": [
+              {
+                "id": "teach",
+                "label": "Teach",
+                "response": "Compare two formats on evidence fit, effort, access and limits. Choose the smallest adequate honest check; disclose manual/prototype status and define stops before execution."
+              },
+              {
+                "id": "guide",
+                "label": "Guide",
+                "response": "Compare two formats on evidence fit, effort, access and limits. Choose the smallest adequate honest check; disclose manual/prototype status and define stops before execution."
+              },
+              {
+                "id": "review",
+                "label": "Review",
+                "response": "Format Brief check: {missing} required fields empty. Scripted field counting cannot verify evidence fit, permission, deliverability, test validity or demand."
+              },
+              {
+                "id": "challenge",
+                "label": "Challenge",
+                "response": "Compare two formats on evidence fit, effort, access and limits. Choose the smallest adequate honest check; disclose manual/prototype status and define stops before execution."
+              }
+            ],
+            "initial": "teach",
+            "questionResponse": "This is a scripted demonstration, not an AI answer to your question.",
+            "countIds": [
+              "goal",
+              "options",
+              "selected",
+              "scope",
+              "access",
+              "procedure",
+              "reviewRule",
+              "resources"
+            ],
+            "questionLabel": "Optional question for the demonstration",
+            "submitLabel": "Show simulated guidance"
+          }
+        }
+      ]
+    },
+    {
+      "id": "challenge",
+      "label": "05 / CHALLENGE",
+      "heading": "Challenge the chosen format.",
+      "blocks": [
+        {
+          "type": "fields",
+          "ids": [
+            "bias",
+            "counter",
+            "constraint"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz",
+      "label": "06 / KNOWLEDGE CHECK",
+      "heading": "Check your understanding.",
+      "blocks": [
+        {
+          "type": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "label": "07 / DELIVER & PROGRESS",
+      "heading": "Your deliverable: a Test Format Selection Brief.",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Download option comparisons, chosen format, scope, access, neutral procedure, evidence/review rule and resource boundary. Earlier briefs save separately."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checklist"
+        },
+        {
+          "type": "honest",
+          "label": "I compared formats against one claim, disclosed prototype/manual limits, kept access and execution status honest, and defined evidence, resource and stop boundaries."
+        },
+        {
+          "type": "complete",
+          "label": "Mark Lesson 32 complete locally",
+          "completedLabel": "Lesson 32 self-completed locally",
+          "completedNotice": "Lesson 32 self-completed locally. This is not validated demand or a submitted assignment.",
+          "incompleteNotice": "Complete the remaining requirements before local self-completion."
+        },
+        {
+          "type": "extension",
+          "id": "moduleNote",
+          "props": {
+            "heading": "Module 2.3 · Testing Value and Behaviour",
+            "lessons": [
+              31,
+              32,
+              33,
+              34,
+              35
+            ],
+            "complete": "All five lessons self-completed locally. Module 2.3 learning pack complete; execution, evidence verification, demand and venture approval remain separate.",
+            "incomplete": "{count} / 5 lessons self-completed locally. Complete each separately to close the learning module.",
+            "notes": [
+              {
+                "tag": "p",
+                "attrs": {},
+                "children": [
+                  "Self-completion records format selection, not an executed test, working service, adoption or payment."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {
+                "class": "help"
+              },
+              "children": [
+                "Learning completion is separate from validated demand."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "next"
+        }
+      ]
+    }
+  ],
+  "nav": [
+    {
+      "id": "watch",
+      "label": "Watch"
+    },
+    {
+      "id": "learn",
+      "label": "Learn"
+    },
+    {
+      "id": "build",
+      "label": "Build"
+    },
+    {
+      "id": "coach",
+      "label": "Ask AI"
+    },
+    {
+      "id": "challenge",
+      "label": "Challenge"
+    },
+    {
+      "id": "quiz",
+      "label": "Knowledge check"
+    },
+    {
+      "id": "finish",
+      "label": "Deliver"
+    }
+  ]
+}

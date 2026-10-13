@@ -1,0 +1,740 @@
+{
+  "number": 29,
+  "phase": 2,
+  "module": "2.2",
+  "title": "Separate Findings from Interpretation",
+  "hero": {
+    "eyebrow": "Module 2.2 · Learning from Customers · Lesson 29",
+    "title": "Separate Findings from Interpretation.",
+    "intro": "Organise source-backed findings, distinguish them from your explanations, and preserve contradictions and uncertainty. Rehearsal material stays practice, not customer evidence.",
+    "badges": [
+      "Beginner friendly"
+    ],
+    "meta": "35–45 min · Recommended: Lesson 28"
+  },
+  "fields": [
+    {
+      "id": "inventory",
+      "label": "Source inventory: anonymous codes, context, actual/planned/rehearsal and authorised source status",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Link anonymous sources; label inference, rehearsal and unknowns honestly."
+    },
+    {
+      "id": "findings",
+      "label": "Findings: what the source reports or you directly observed, with source code and scope",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Link anonymous sources; label inference, rehearsal and unknowns honestly."
+    },
+    {
+      "id": "quality",
+      "label": "Source quality: exact captured quote / paraphrase / observation / unknown and limits",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Link anonymous sources; label inference, rehearsal and unknowns honestly."
+    },
+    {
+      "id": "meaning",
+      "label": "Interpretations: your explanations, linked to findings and explicitly tentative",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Link anonymous sources; label inference, rehearsal and unknowns honestly."
+    },
+    {
+      "id": "patterns",
+      "label": "Possible patterns: independent sources and contexts; no invented counts or market percentages",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Link anonymous sources; label inference, rehearsal and unknowns honestly."
+    },
+    {
+      "id": "alternatives",
+      "label": "Contradictions, exceptions and alternative explanations",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Link anonymous sources; label inference, rehearsal and unknowns honestly."
+    },
+    {
+      "id": "gaps",
+      "label": "Unknowns and unsupported claims: what these sources cannot establish",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Link anonymous sources; label inference, rehearsal and unknowns honestly."
+    },
+    {
+      "id": "next",
+      "label": "Next check: question, permitted method, owner, timing and review boundary",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Link anonymous sources; label inference, rehearsal and unknowns honestly."
+    },
+    {
+      "id": "support",
+      "label": "Optional references or support",
+      "kind": "textarea",
+      "required": false,
+      "maxLength": 2000
+    },
+    {
+      "id": "bias",
+      "label": "Which statement adds a cause, emotion or generalisation the source does not establish?",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "counter",
+      "label": "Which exception or alternative explanation could change your interpretation?",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "constraint",
+      "label": "What source, permission, independence or sample limit must remain visible?",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    }
+  ],
+  "questions": [
+    {
+      "prompt": "“Route visibility may explain the reported steps” is what?",
+      "options": [
+        "A proven cause",
+        "A tentative interpretation linked to a finding",
+        "An exact customer quote"
+      ],
+      "answer": 1,
+      "explanation": "Keep your explanation distinct from what the source establishes."
+    },
+    {
+      "prompt": "Three notes from one participant represent how many independent participant sources?",
+      "options": [
+        "One",
+        "Three",
+        "A representative market sample"
+      ],
+      "answer": 0,
+      "explanation": "Repeated notes do not create independent participants."
+    },
+    {
+      "prompt": "What should happen to a contradictory account?",
+      "options": [
+        "Delete it",
+        "Rewrite it to fit the theme",
+        "Preserve its context and consider alternative explanations"
+      ],
+      "answer": 2,
+      "explanation": "Contradictions help bound a theme and improve the next check."
+    }
+  ],
+  "checklist": [
+    {
+      "kind": "studied",
+      "label": "Storyboard/transcript reviewed"
+    },
+    {
+      "kind": "fields",
+      "label": "Eight worksheet fields complete",
+      "ids": [
+        "inventory",
+        "findings",
+        "quality",
+        "meaning",
+        "patterns",
+        "alternatives",
+        "gaps",
+        "next"
+      ]
+    },
+    {
+      "kind": "fields",
+      "label": "Three red-team reflections complete",
+      "ids": [
+        "bias",
+        "counter",
+        "constraint"
+      ]
+    },
+    {
+      "kind": "quiz",
+      "label": "Quiz 3 / 3 correct"
+    },
+    {
+      "kind": "honest",
+      "label": "Final self-review confirmed"
+    }
+  ],
+  "deliverable": {
+    "title": "LYNQ Academy — Findings and Interpretation Review",
+    "filename": "LYNQ-Findings-and-Interpretation-Review.md",
+    "headerLines": [
+      "Phase 02 · Module {module} · Lesson {lesson}",
+      "Status: {status}"
+    ],
+    "fieldIds": [
+      "inventory",
+      "findings",
+      "quality",
+      "meaning",
+      "patterns",
+      "alternatives",
+      "gaps",
+      "next"
+    ],
+    "footer": "No real AI, test execution, source verification or demand validation.",
+    "previewFooter": "This plan does not prove demand or represent completed research."
+  },
+  "sections": [
+    {
+      "id": "watch",
+      "label": "01 / WATCH",
+      "heading": "What does the evidence say, and what are you adding?",
+      "blocks": [
+        {
+          "type": "video",
+          "title": "Separate Findings from Interpretation",
+          "subtitle": "Planned 2½-minute explainer + worksheet demo",
+          "note": "No playable video or generated media is attached."
+        },
+        {
+          "type": "storyboard",
+          "scenes": [
+            {
+              "title": "Start with source status",
+              "visual": "Anonymous source inventory cards",
+              "narration": "Start with your conversation log. Label actual, planned or rehearsal material, context and source quality. Planned sessions have no findings yet. Fictional role-play can teach sorting but is not customer evidence."
+            },
+            {
+              "title": "State a finding carefully",
+              "visual": "Editable Source / Finding columns",
+              "narration": "A finding should stay close to the source: one person reports checking two pages to find registration. A reported account is not independent observation of that event. Include its anonymous source code and context."
+            },
+            {
+              "title": "Label your interpretation",
+              "visual": "Editable Finding / Interpretation cards",
+              "narration": "An interpretation explains what the finding might mean: route visibility may need exploration. It is your explanation, not the person’s statement. Link it to the source and keep its uncertainty visible."
+            },
+            {
+              "title": "Test other explanations",
+              "visual": "Fictional alternative-context cards",
+              "narration": "The person may have used an old link, unfamiliar event type or different device. Preserve exceptions and accounts where the current process works. Do not discard contradictions to strengthen your story."
+            },
+            {
+              "title": "Keep patterns bounded",
+              "visual": "Independent-source cards, no market chart",
+              "narration": "Repeated mentions may suggest a theme, but repeated notes from one source are not multiple participants. If you use counts, report verified independent sources and context, not a market-wide percentage. Do not invent counts."
+            },
+            {
+              "title": "Write the review",
+              "visual": "Actual approved Lesson 29 worksheet demo",
+              "narration": "Build your Findings and Interpretation Review with sources, findings, quality, tentative meanings, possible patterns, contradictions, unknowns and next check. These notes do not establish payment or representative demand."
+            }
+          ],
+          "summary": "Explore the six-scene storyboard placeholder",
+          "sceneMeta": "Planned scene {scene} · about 25 seconds in final edit"
+        },
+        {
+          "type": "transcript",
+          "scenes": [
+            {
+              "title": "Start with source status",
+              "visual": "Anonymous source inventory cards",
+              "narration": "Start with your conversation log. Label actual, planned or rehearsal material, context and source quality. Planned sessions have no findings yet. Fictional role-play can teach sorting but is not customer evidence."
+            },
+            {
+              "title": "State a finding carefully",
+              "visual": "Editable Source / Finding columns",
+              "narration": "A finding should stay close to the source: one person reports checking two pages to find registration. A reported account is not independent observation of that event. Include its anonymous source code and context."
+            },
+            {
+              "title": "Label your interpretation",
+              "visual": "Editable Finding / Interpretation cards",
+              "narration": "An interpretation explains what the finding might mean: route visibility may need exploration. It is your explanation, not the person’s statement. Link it to the source and keep its uncertainty visible."
+            },
+            {
+              "title": "Test other explanations",
+              "visual": "Fictional alternative-context cards",
+              "narration": "The person may have used an old link, unfamiliar event type or different device. Preserve exceptions and accounts where the current process works. Do not discard contradictions to strengthen your story."
+            },
+            {
+              "title": "Keep patterns bounded",
+              "visual": "Independent-source cards, no market chart",
+              "narration": "Repeated mentions may suggest a theme, but repeated notes from one source are not multiple participants. If you use counts, report verified independent sources and context, not a market-wide percentage. Do not invent counts."
+            },
+            {
+              "title": "Write the review",
+              "visual": "Actual approved Lesson 29 worksheet demo",
+              "narration": "Build your Findings and Interpretation Review with sources, findings, quality, tentative meanings, possible patterns, contradictions, unknowns and next check. These notes do not establish payment or representative demand."
+            }
+          ],
+          "summary": "Read the full narration / transcript"
+        },
+        {
+          "type": "videoPrompt",
+          "prompt": "Create an engaging LYNQ Academy explainer and evidence-sorting demo: Module 2.2 Lesson 29 — Separate Findings from Interpretation. Editorial target 150 seconds, 16:9 1080p. Navy #0B2338, teal #087D79, mint #BCF2DF, white. Diverse adults in a contemporary Dubai workspace; warm plain English narration. Fictional demonstration sources only, labeled Illustrative rehearsal in post. Teach source status, bounded findings, tentative interpretations, alternative explanations, independent-source patterns, contradictions and unknowns. No fabricated customer evidence, quotes, counts, percentages, demand or payment claims.\n\nSCENE 1: Start with source status\nVisual placeholder: Anonymous source inventory cards\nNarration: Start with your conversation log. Label actual, planned or rehearsal material, context and source quality. Planned sessions have no findings yet. Fictional role-play can teach sorting but is not customer evidence.\n\nSCENE 2: State a finding carefully\nVisual placeholder: Editable Source / Finding columns\nNarration: A finding should stay close to the source: one person reports checking two pages to find registration. A reported account is not independent observation of that event. Include its anonymous source code and context.\n\nSCENE 3: Label your interpretation\nVisual placeholder: Editable Finding / Interpretation cards\nNarration: An interpretation explains what the finding might mean: route visibility may need exploration. It is your explanation, not the person’s statement. Link it to the source and keep its uncertainty visible.\n\nSCENE 4: Test other explanations\nVisual placeholder: Fictional alternative-context cards\nNarration: The person may have used an old link, unfamiliar event type or different device. Preserve exceptions and accounts where the current process works. Do not discard contradictions to strengthen your story.\n\nSCENE 5: Keep patterns bounded\nVisual placeholder: Independent-source cards, no market chart\nNarration: Repeated mentions may suggest a theme, but repeated notes from one source are not multiple participants. If you use counts, report verified independent sources and context, not a market-wide percentage. Do not invent counts.\n\nSCENE 6: Write the review\nVisual placeholder: Actual approved Lesson 29 worksheet demo\nNarration: Build your Findings and Interpretation Review with sources, findings, quality, tentative meanings, possible patterns, contradictions, unknowns and next check. These notes do not establish payment or representative demand.\n\nFirst provide timings, storyboard and shot prompts. Generate short shots supported by the selected Gemini/Veo account and assemble with separately recorded approved narration. Composite exact brand, captions and editable Source / Finding / Interpretation / Alternative / Unknown cards in post; no generated UI/text/logos. Use approved actual Lesson 29 screen recording with labeled fictional rehearsal data. Deliver H.264 MP4, editable project, audio, transcript, VTT/SRT, thumbnail and rights/provenance. Native-reviewed Arabic narration and RTL graphics separately. Review source honesty, privacy, pacing, audio and mobile readability. Prototype generates no video and performs no automated evidence analysis.",
+          "filename": "LYNQ-Lesson-29-Gemini-Video-Prompt.md",
+          "summary": "Gemini video prompt — ready to copy"
+        },
+        {
+          "type": "studied",
+          "label": "I reviewed the storyboard or transcript."
+        }
+      ]
+    },
+    {
+      "id": "learn",
+      "label": "02 / LEARN",
+      "heading": "Keep the source and your explanation visible.",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "A ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "finding"
+                  ]
+                },
+                " states what a source reports or what you directly observed, within its context. An ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "interpretation"
+                  ]
+                },
+                " is your explanation. A ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "possible pattern"
+                  ]
+                },
+                " is a recurring theme across identified independent sources. An ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "unknown"
+                  ]
+                },
+                " marks what you cannot establish."
+              ]
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "grid2"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "note"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "children": [
+                        "Finding — fictional practice"
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "children": [
+                        "R01 role-play notes: the fictional participant describes checking two pages for registration. This is a paraphrased reported account, not observed behaviour or real customer evidence."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "note"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "children": [
+                        "Interpretation"
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "children": [
+                        "Route visibility may need exploration. Alternative: an old link, different device or unfamiliar event context. Neither explanation is established by the practice note."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "ol",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Inventory source codes, context and actual/planned/rehearsal status."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Write narrow findings with source links and source quality."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Put your explanation in a separate interpretation field."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Check independent sources before claiming a repeated theme."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Preserve exceptions, contradictory accounts and alternative explanations."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "State unknowns and choose the next permitted check."
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Three notes from one person remain one source. Two people mentioning something does not establish how common it is in a market. Use verified counts only with their scope and avoid market percentages from convenience interviews. Do not infer payment from praise or future preference."
+              ]
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Review anonymous summaries only here. Original identifiable notes and recordings belong in an approved secure system. If you have no actual research, use a clearly labeled practice review or mark findings unknown; never invent evidence to complete fields."
+              ]
+            },
+            {
+              "tag": "lesson-link",
+              "attrs": {
+                "lesson": "28",
+                "class": "btn secondary"
+              },
+              "children": [
+                "Review conversation log"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "practice",
+          "legend": "Practice: “People checked two pages because the design is confusing.”",
+          "prompt": "What needs separating in this statement?",
+          "options": [
+            {
+              "label": "Treat the cause as proven",
+              "feedback": "The account does not prove its cause or a market-wide percentage."
+            },
+            {
+              "label": "Separate the reported steps from the proposed cause",
+              "feedback": "Keep the reported steps as a bounded finding; the proposed cause is an interpretation needing another check."
+            },
+            {
+              "label": "Convert it into a market percentage",
+              "feedback": "The account does not prove its cause or a market-wide percentage."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "build",
+      "label": "03 / BUILD",
+      "heading": "Your Findings and Interpretation Review.",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Review one or more anonymous source summaries. Use “unknown / no actual research yet” where appropriate. Keep fictional practice separate and do not invent findings or counts."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "saveStatus"
+        },
+        {
+          "type": "fields",
+          "ids": [
+            "inventory",
+            "findings",
+            "quality",
+            "meaning",
+            "patterns",
+            "alternatives",
+            "gaps",
+            "next",
+            "support"
+          ]
+        },
+        {
+          "type": "deliverable",
+          "previewLabel": "Preview my evidence review",
+          "downloadLabel": "Download Findings and Interpretation Review"
+        },
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "note"
+              },
+              "children": [
+                "Local storage is plaintext. No source verification, automated theme extraction or AI analysis is connected. Use anonymous summaries only."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "reset",
+          "label": "Clear local draft"
+        }
+      ]
+    },
+    {
+      "id": "coach",
+      "label": "04 / ASK AI",
+      "heading": "Venture Coach · simulated",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Scripted demonstration only. No live AI, source verification, experiment execution or backend is connected."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "extension",
+          "id": "coach",
+          "props": {
+            "modes": [
+              {
+                "id": "teach",
+                "label": "Teach",
+                "response": "Link narrow findings to anonymous sources; label tentative explanations separately. Preserve exceptions, uncertainty and sample limits. No automated evidence analysis is connected."
+              },
+              {
+                "id": "guide",
+                "label": "Guide",
+                "response": "Link narrow findings to anonymous sources; label tentative explanations separately. Preserve exceptions, uncertainty and sample limits. No automated evidence analysis is connected."
+              },
+              {
+                "id": "review",
+                "label": "Review",
+                "response": "Evidence Review check: {missing} required fields empty. Scripted field counting cannot verify sources, independence, causal claims, themes or demand."
+              },
+              {
+                "id": "challenge",
+                "label": "Challenge",
+                "response": "Link narrow findings to anonymous sources; label tentative explanations separately. Preserve exceptions, uncertainty and sample limits. No automated evidence analysis is connected."
+              }
+            ],
+            "initial": "teach",
+            "questionResponse": "This is a scripted demonstration, not an AI answer to your question.",
+            "countIds": [
+              "inventory",
+              "findings",
+              "quality",
+              "meaning",
+              "patterns",
+              "alternatives",
+              "gaps",
+              "next"
+            ],
+            "questionLabel": "Optional question for the demonstration",
+            "submitLabel": "Show simulated guidance"
+          }
+        }
+      ]
+    },
+    {
+      "id": "challenge",
+      "label": "05 / CHALLENGE",
+      "heading": "Challenge your explanation.",
+      "blocks": [
+        {
+          "type": "fields",
+          "ids": [
+            "bias",
+            "counter",
+            "constraint"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz",
+      "label": "06 / KNOWLEDGE CHECK",
+      "heading": "Check your understanding.",
+      "blocks": [
+        {
+          "type": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "label": "07 / DELIVER & PROGRESS",
+      "heading": "Your deliverable: a Findings and Interpretation Review.",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Download sources, bounded findings, source quality, tentative explanations, possible patterns, contradictions, unknowns and next check. Earlier logs remain saved separately."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checklist"
+        },
+        {
+          "type": "honest",
+          "label": "I linked findings to honest source status, separated inference, preserved contradictions and unknowns, and avoided invented quotes, counts or market claims."
+        },
+        {
+          "type": "complete",
+          "label": "Mark Lesson 29 complete locally",
+          "completedLabel": "Lesson 29 self-completed locally",
+          "completedNotice": "Lesson 29 self-completed locally. This is not validated demand or a submitted assignment.",
+          "incompleteNotice": "Complete the remaining requirements before local self-completion."
+        },
+        {
+          "type": "extension",
+          "id": "moduleNote",
+          "props": {
+            "heading": "Module 2.2 · Learning from Customers",
+            "lessons": [
+              26,
+              27,
+              28,
+              29,
+              30
+            ],
+            "complete": "All five lessons self-completed locally. Module 2.2 learning pack complete; source verification, demand and venture approval remain separate.",
+            "incomplete": "{count} / 5 lessons self-completed locally. Complete each separately; evidence verification remains separate.",
+            "notes": [
+              {
+                "tag": "p",
+                "attrs": {},
+                "children": [
+                  "Self-completion records learning work, not verified evidence, causal proof, representative demand or payment. Rehearsal sources supply no customer evidence."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {
+                "class": "help"
+              },
+              "children": [
+                "Learning completion is separate from validated demand."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "next"
+        }
+      ]
+    }
+  ],
+  "nav": [
+    {
+      "id": "watch",
+      "label": "Watch"
+    },
+    {
+      "id": "learn",
+      "label": "Learn"
+    },
+    {
+      "id": "build",
+      "label": "Build"
+    },
+    {
+      "id": "coach",
+      "label": "Ask AI"
+    },
+    {
+      "id": "challenge",
+      "label": "Challenge"
+    },
+    {
+      "id": "quiz",
+      "label": "Knowledge check"
+    },
+    {
+      "id": "finish",
+      "label": "Deliver"
+    }
+  ]
+}

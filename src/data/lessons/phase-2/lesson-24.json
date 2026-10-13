@@ -1,0 +1,692 @@
+{
+  "number": 24,
+  "phase": 2,
+  "module": "2.1",
+  "title": "Design a Small Validation Experiment",
+  "hero": {
+    "eyebrow": "Module 2.1 · Designing Your Validation · Lesson 24",
+    "title": "Design a Small Validation Experiment.",
+    "intro": "Turn your first learning priority into a bounded experiment design. Define the question, method, signals, limits, permissions and decision rule before running anything.",
+    "badges": [
+      "Beginner friendly"
+    ],
+    "meta": "35–45 min · Recommended: Lesson 23"
+  },
+  "fields": [
+    {
+      "id": "focus",
+      "label": "Priority assumption, specific group/context and source from Lesson 23",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Plan the check honestly; preserve uncertainty and constraints."
+    },
+    {
+      "id": "hypothesis",
+      "label": "Testable hypothesis and decision it affects — what could be wrong?",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Plan the check honestly; preserve uncertainty and constraints."
+    },
+    {
+      "id": "method",
+      "label": "Small experiment format, steps and why it fits the question",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Plan the check honestly; preserve uncertainty and constraints."
+    },
+    {
+      "id": "participants",
+      "label": "Relevant participants/sources, access route, inclusion limits and selection bias",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Plan the check honestly; preserve uncertainty and constraints."
+    },
+    {
+      "id": "signals",
+      "label": "Observable measures/signals, baseline/comparison where appropriate and evidence limits",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Plan the check honestly; preserve uncertainty and constraints."
+    },
+    {
+      "id": "rule",
+      "label": "Predefined interpretation: supportive, weakening or inconclusive; justified thresholds or qualitative criteria",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Plan the check honestly; preserve uncertainty and constraints."
+    },
+    {
+      "id": "safeguards",
+      "label": "Permission/voluntary participation/privacy, effort/resources, dependencies and stop/fallback conditions",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Plan the check honestly; preserve uncertainty and constraints."
+    },
+    {
+      "id": "review",
+      "label": "Owner, timing, recording plan, review decision and what remains unvalidated",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Plan the check honestly; preserve uncertainty and constraints."
+    },
+    {
+      "id": "support",
+      "label": "Optional references or support",
+      "kind": "textarea",
+      "required": false,
+      "maxLength": 2000
+    },
+    {
+      "id": "bias",
+      "label": "Does the method test the claim, or only something easier such as clarity?",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "counter",
+      "label": "What alternative explanation or inconclusive result could prevent a confident decision?",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "constraint",
+      "label": "Which permission, privacy or resource issue must stop or change the check?",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    }
+  ],
+  "questions": [
+    {
+      "prompt": "What should the method do?",
+      "options": [
+        "Test whatever is easiest",
+        "Gather evidence relevant to the specific claim",
+        "Guarantee positive results"
+      ],
+      "answer": 1,
+      "explanation": "Method and claim must match; preserve what the check cannot establish."
+    },
+    {
+      "prompt": "When should interpretation criteria be defined?",
+      "options": [
+        "Before collecting results, with reasons and an inconclusive path",
+        "After results to ensure success",
+        "Only after launch"
+      ],
+      "answer": 0,
+      "explanation": "Define criteria before results and record later revisions transparently."
+    },
+    {
+      "prompt": "What does a completed experiment design establish?",
+      "options": [
+        "Executed findings",
+        "Validated demand",
+        "A plan; execution, evidence and permission remain separate"
+      ],
+      "answer": 2,
+      "explanation": "Design completion is not results or permission."
+    }
+  ],
+  "checklist": [
+    {
+      "kind": "studied",
+      "label": "Storyboard/transcript reviewed"
+    },
+    {
+      "kind": "fields",
+      "label": "Eight worksheet fields complete",
+      "ids": [
+        "focus",
+        "hypothesis",
+        "method",
+        "participants",
+        "signals",
+        "rule",
+        "safeguards",
+        "review"
+      ]
+    },
+    {
+      "kind": "fields",
+      "label": "Three red-team reflections complete",
+      "ids": [
+        "bias",
+        "counter",
+        "constraint"
+      ]
+    },
+    {
+      "kind": "quiz",
+      "label": "Quiz 3 / 3 correct"
+    },
+    {
+      "kind": "honest",
+      "label": "Final self-review confirmed"
+    }
+  ],
+  "deliverable": {
+    "title": "LYNQ Academy — Small Experiment Design",
+    "filename": "LYNQ-Small-Experiment-Design.md",
+    "headerLines": [
+      "Phase 02 · Module {module} · Lesson {lesson}",
+      "Status: {status}"
+    ],
+    "fieldIds": [
+      "focus",
+      "hypothesis",
+      "method",
+      "participants",
+      "signals",
+      "rule",
+      "safeguards",
+      "review"
+    ],
+    "footer": "No real AI, test execution, source verification or demand validation.",
+    "previewFooter": "This plan does not prove demand or represent completed research."
+  },
+  "sections": [
+    {
+      "id": "watch",
+      "label": "01 / WATCH",
+      "heading": "How will this small check inform your decision?",
+      "blocks": [
+        {
+          "type": "video",
+          "title": "Design a Small Validation Experiment",
+          "subtitle": "Planned 2½-minute explainer + worksheet demo",
+          "note": "No playable video or generated media is attached."
+        },
+        {
+          "type": "storyboard",
+          "scenes": [
+            {
+              "title": "Turn a priority into a design",
+              "visual": "Founder reviews an anonymous priority plan.",
+              "narration": "You chose a learning priority. Now design a small check that can inform the next decision. An experiment design states the assumption, method, evidence and interpretation before execution. This lesson creates a plan; it does not run the experiment or validate a venture."
+            },
+            {
+              "title": "Make the hypothesis specific",
+              "visual": "Editable group, context and claim cards.",
+              "narration": "State a claim that could be wrong for a specific group and context. Define what decision the result affects. Checking whether instructions are understood is different from checking actual use or payment. Keep the question narrow enough that the method can answer it."
+            },
+            {
+              "title": "Choose the smallest fitting format",
+              "visual": "Editable observation, prototype and manual-process cards.",
+              "narration": "Choose a bounded format such as a permitted observation, a clarity task or a manual process trial. Explain why it fits and what it cannot establish. An early learning check is not automatically a controlled experiment, and a convenient sample is not representative."
+            },
+            {
+              "title": "Define signals and interpretation",
+              "visual": "Editable supportive, weakening and inconclusive cards.",
+              "narration": "Decide what you will observe and how you will interpret it before collecting results. Use a baseline or comparison when relevant and feasible. Explain any threshold rather than inventing a universal pass number. Include ambiguous results, alternative explanations and what the check cannot prove."
+            },
+            {
+              "title": "Set safeguards and limits",
+              "visual": "Editable permission, stop and fallback cards.",
+              "narration": "Confirm permission, voluntary participation, privacy and the resources needed. Keep pending access pending. State stop conditions and a fallback. Do not collect money, contact participants or record people merely because the worksheet is complete. Avoid deception and unnecessary personal information."
+            },
+            {
+              "title": "Create the experiment design",
+              "visual": "Actual approved Lesson 24 worksheet recording.",
+              "narration": "Build your Small Experiment Design with the priority claim, hypothesis, method, participants, signals, interpretation rule, safeguards and review plan. Record only planned actions here, not invented findings. Next you will combine the design into a practical validation test plan."
+            }
+          ],
+          "summary": "Explore the six-scene storyboard placeholder",
+          "sceneMeta": "Planned scene {scene} · about 25 seconds in final edit"
+        },
+        {
+          "type": "transcript",
+          "scenes": [
+            {
+              "title": "Turn a priority into a design",
+              "visual": "Founder reviews an anonymous priority plan.",
+              "narration": "You chose a learning priority. Now design a small check that can inform the next decision. An experiment design states the assumption, method, evidence and interpretation before execution. This lesson creates a plan; it does not run the experiment or validate a venture."
+            },
+            {
+              "title": "Make the hypothesis specific",
+              "visual": "Editable group, context and claim cards.",
+              "narration": "State a claim that could be wrong for a specific group and context. Define what decision the result affects. Checking whether instructions are understood is different from checking actual use or payment. Keep the question narrow enough that the method can answer it."
+            },
+            {
+              "title": "Choose the smallest fitting format",
+              "visual": "Editable observation, prototype and manual-process cards.",
+              "narration": "Choose a bounded format such as a permitted observation, a clarity task or a manual process trial. Explain why it fits and what it cannot establish. An early learning check is not automatically a controlled experiment, and a convenient sample is not representative."
+            },
+            {
+              "title": "Define signals and interpretation",
+              "visual": "Editable supportive, weakening and inconclusive cards.",
+              "narration": "Decide what you will observe and how you will interpret it before collecting results. Use a baseline or comparison when relevant and feasible. Explain any threshold rather than inventing a universal pass number. Include ambiguous results, alternative explanations and what the check cannot prove."
+            },
+            {
+              "title": "Set safeguards and limits",
+              "visual": "Editable permission, stop and fallback cards.",
+              "narration": "Confirm permission, voluntary participation, privacy and the resources needed. Keep pending access pending. State stop conditions and a fallback. Do not collect money, contact participants or record people merely because the worksheet is complete. Avoid deception and unnecessary personal information."
+            },
+            {
+              "title": "Create the experiment design",
+              "visual": "Actual approved Lesson 24 worksheet recording.",
+              "narration": "Build your Small Experiment Design with the priority claim, hypothesis, method, participants, signals, interpretation rule, safeguards and review plan. Record only planned actions here, not invented findings. Next you will combine the design into a practical validation test plan."
+            }
+          ],
+          "summary": "Read the full narration / transcript"
+        },
+        {
+          "type": "videoPrompt",
+          "prompt": "Create a beginner-friendly LYNQ Academy explainer plus worksheet demo, Module 2.1 Lesson 24: Design a Small Validation Experiment. Editorial target 150 seconds, 16:9 1080p. Navy #0B2338, teal #087D79, mint #BCF2DF, white; diverse adults in contemporary Dubai workspace, warm clear English narration. Fictional anonymous examples labeled Illustrative example in post. Teach claim/method fit, bounded design, participants and bias, observable signals, justified interpretation criteria, supportive/weakening/inconclusive outcomes, permission and stop conditions. No fabricated results, universal sample sizes/pass thresholds, controlled-experiment claims, payment or demand proof.\n\nSCENE 1: Turn a priority into a design\nVisual placeholder: Founder reviews an anonymous priority plan.\nNarration: You chose a learning priority. Now design a small check that can inform the next decision. An experiment design states the assumption, method, evidence and interpretation before execution. This lesson creates a plan; it does not run the experiment or validate a venture.\n\nSCENE 2: Make the hypothesis specific\nVisual placeholder: Editable group, context and claim cards.\nNarration: State a claim that could be wrong for a specific group and context. Define what decision the result affects. Checking whether instructions are understood is different from checking actual use or payment. Keep the question narrow enough that the method can answer it.\n\nSCENE 3: Choose the smallest fitting format\nVisual placeholder: Editable observation, prototype and manual-process cards.\nNarration: Choose a bounded format such as a permitted observation, a clarity task or a manual process trial. Explain why it fits and what it cannot establish. An early learning check is not automatically a controlled experiment, and a convenient sample is not representative.\n\nSCENE 4: Define signals and interpretation\nVisual placeholder: Editable supportive, weakening and inconclusive cards.\nNarration: Decide what you will observe and how you will interpret it before collecting results. Use a baseline or comparison when relevant and feasible. Explain any threshold rather than inventing a universal pass number. Include ambiguous results, alternative explanations and what the check cannot prove.\n\nSCENE 5: Set safeguards and limits\nVisual placeholder: Editable permission, stop and fallback cards.\nNarration: Confirm permission, voluntary participation, privacy and the resources needed. Keep pending access pending. State stop conditions and a fallback. Do not collect money, contact participants or record people merely because the worksheet is complete. Avoid deception and unnecessary personal information.\n\nSCENE 6: Create the experiment design\nVisual placeholder: Actual approved Lesson 24 worksheet recording.\nNarration: Build your Small Experiment Design with the priority claim, hypothesis, method, participants, signals, interpretation rule, safeguards and review plan. Record only planned actions here, not invented findings. Next you will combine the design into a practical validation test plan.\n\nFirst return storyboard, timings and individual shot prompts. Generate supported short shots for selected Gemini/Veo account only, assemble with separately recorded narration. No generated text/logos/captions/fake UI; add exact branding and editable Hypothesis / Method / Signal / Support / Weaken / Inconclusive / Stop cards in post. Use approved actual Lesson 24 screen recording with fictional planned entries. Deliver H.264 MP4, editable project, audio, transcript, VTT/SRT, thumbnail and rights/provenance. Separate native-reviewed Arabic narration and RTL graphics. Review experiment limitations, criteria honesty, privacy, accuracy, brand, audio, pacing and mobile readability. Prototype generates no video.",
+          "filename": "LYNQ-Lesson-24-Gemini-Video-Prompt.md",
+          "summary": "Gemini video prompt — ready to copy"
+        },
+        {
+          "type": "studied",
+          "label": "I reviewed the storyboard or transcript."
+        }
+      ]
+    },
+    {
+      "id": "learn",
+      "label": "02 / LEARN",
+      "heading": "Design for a decision, not a success story.",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "A ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "hypothesis"
+                  ]
+                },
+                " is a specific claim that could be wrong. A ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "method"
+                  ]
+                },
+                " gathers information relevant to it. A ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "signal"
+                  ]
+                },
+                " is an observable outcome. An ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "interpretation rule"
+                  ]
+                },
+                " explains what supportive, weakening or inconclusive information would mean."
+              ]
+            },
+            {
+              "tag": "ol",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Use the first priority from Lesson 23 and define group/context."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Write a testable claim and the decision it affects."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Choose a small method that fits; record its limits."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Define participants/access and selection bias."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Set signals and interpretation before collecting results."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Set permission, privacy, resources, stop conditions and review."
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "note"
+              },
+              "children": [
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "Illustrative design:"
+                  ]
+                },
+                " a voluntary directions-clarity task could check whether adults understand a proposed instruction. It does not prove real-world adoption, payment or time savings. Its setting and selection may affect results."
+              ]
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Use a baseline or comparison where appropriate; explain when it is absent. A learning check is not automatically a controlled experiment. Do not invent a universal sample size or passing threshold. Qualitative criteria are acceptable with reasons and limits."
+              ]
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Keep supportive, weakening and inconclusive paths visible. Avoid changing criteria after seeing results without recording the change. Pending permission remains pending; this prototype does not recruit, charge, record or run a test."
+              ]
+            },
+            {
+              "tag": "lesson-link",
+              "attrs": {
+                "lesson": "23",
+                "class": "btn secondary"
+              },
+              "children": [
+                "Review validation priority plan"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "practice",
+          "legend": "Practice: results are ambiguous",
+          "prompt": "",
+          "options": [
+            {
+              "label": "Change the pass rule to claim success",
+              "feedback": "Keep criteria honest; ambiguous evidence or lesson completion does not prove demand."
+            },
+            {
+              "label": "Record inconclusive evidence and review limitations",
+              "feedback": "Useful review: preserve inconclusive evidence and limitations rather than changing the rule to claim success."
+            },
+            {
+              "label": "Treat completion as proven demand",
+              "feedback": "Keep criteria honest; ambiguous evidence or lesson completion does not prove demand."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "build",
+      "label": "03 / BUILD",
+      "heading": "Your Small Experiment Design.",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Write a bounded plan before execution. Unknown access or criteria need a check, not invented confirmation. No experiment or scoring rule is generated automatically."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "saveStatus"
+        },
+        {
+          "type": "fields",
+          "ids": [
+            "focus",
+            "hypothesis",
+            "method",
+            "participants",
+            "signals",
+            "rule",
+            "safeguards",
+            "review",
+            "support"
+          ]
+        },
+        {
+          "type": "deliverable",
+          "previewLabel": "Preview my experiment design",
+          "downloadLabel": "Download Small Experiment Design"
+        },
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "note"
+              },
+              "children": [
+                "Browser storage is plaintext; avoid private/confidential data. This is planned work, not findings or permission to run a test."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "reset",
+          "label": "Clear local draft"
+        }
+      ]
+    },
+    {
+      "id": "coach",
+      "label": "04 / ASK AI",
+      "heading": "Venture Coach · simulated",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Scripted demonstration only. No live AI, source verification, experiment execution or backend is connected."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "extension",
+          "id": "coach",
+          "props": {
+            "modes": [
+              {
+                "id": "teach",
+                "label": "Teach",
+                "response": "Match the hypothesis and method, set observable signals and justified interpretation before results, preserve an inconclusive path and critical safeguards."
+              },
+              {
+                "id": "guide",
+                "label": "Guide",
+                "response": "Match the hypothesis and method, set observable signals and justified interpretation before results, preserve an inconclusive path and critical safeguards."
+              },
+              {
+                "id": "review",
+                "label": "Review",
+                "response": "Experiment Design check: {missing} required fields still empty. This scripted check counts fields only; it cannot verify methods, criteria, permission or demand."
+              },
+              {
+                "id": "challenge",
+                "label": "Challenge",
+                "response": "Match the hypothesis and method, set observable signals and justified interpretation before results, preserve an inconclusive path and critical safeguards."
+              }
+            ],
+            "initial": "teach",
+            "questionResponse": "This is a scripted demonstration, not an AI answer to your question.",
+            "countIds": [
+              "focus",
+              "hypothesis",
+              "method",
+              "participants",
+              "signals",
+              "rule",
+              "safeguards",
+              "review"
+            ],
+            "questionLabel": "Optional question for the demonstration",
+            "submitLabel": "Show simulated guidance"
+          }
+        }
+      ]
+    },
+    {
+      "id": "challenge",
+      "label": "05 / CHALLENGE",
+      "heading": "Challenge the experiment design.",
+      "blocks": [
+        {
+          "type": "fields",
+          "ids": [
+            "bias",
+            "counter",
+            "constraint"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz",
+      "label": "06 / KNOWLEDGE CHECK",
+      "heading": "Check your understanding.",
+      "blocks": [
+        {
+          "type": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "label": "07 / DELIVER & PROGRESS",
+      "heading": "Your deliverable: a Small Experiment Design.",
+      "blocks": [
+        {
+          "type": "checklist"
+        },
+        {
+          "type": "honest",
+          "label": "I separated claims, preserved evidence limits and consequences, and avoided automatic risk, demand or permission claims."
+        },
+        {
+          "type": "complete",
+          "label": "Mark Lesson 24 complete locally",
+          "completedLabel": "Lesson 24 self-completed locally",
+          "completedNotice": "Lesson 24 self-completed locally. This is not validated demand or a submitted assignment.",
+          "incompleteNotice": "Complete the remaining requirements before local self-completion."
+        },
+        {
+          "type": "extension",
+          "id": "moduleNote",
+          "props": {
+            "heading": "Module 2.1 · Designing Your Validation",
+            "lessons": [
+              21,
+              22,
+              23,
+              24,
+              25
+            ],
+            "complete": "All five lessons self-completed locally. Module 2.1 learning pack complete; execution, permission and validation remain separate.",
+            "incomplete": "{count} / 5 lessons self-completed locally. Complete each separately to finish the learning module.",
+            "notes": [
+              {
+                "tag": "p",
+                "attrs": {},
+                "children": [
+                  "Only this lesson is built. Completion is a learning record, not validation, certification or venture approval."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {
+                "class": "help"
+              },
+              "children": [
+                "Learning completion is separate from validated demand."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "next"
+        }
+      ]
+    }
+  ],
+  "nav": [
+    {
+      "id": "watch",
+      "label": "Watch"
+    },
+    {
+      "id": "learn",
+      "label": "Learn"
+    },
+    {
+      "id": "build",
+      "label": "Build"
+    },
+    {
+      "id": "coach",
+      "label": "Ask AI"
+    },
+    {
+      "id": "challenge",
+      "label": "Challenge"
+    },
+    {
+      "id": "quiz",
+      "label": "Knowledge check"
+    },
+    {
+      "id": "finish",
+      "label": "Deliver"
+    }
+  ]
+}

@@ -1,0 +1,929 @@
+{
+ "number": 11,
+ "phase": 1,
+ "module": "1.3",
+ "title": "Your First Customer Snapshot",
+ "hero": {
+  "eyebrow": "Module 1.3 · Understanding People & Context · Lesson 11",
+  "title": "Your First Customer Snapshot.",
+  "intro": "Describe one specific group whose experience you want to understand. Keep known information, assumptions and unknowns separate in your Customer Snapshot.",
+  "badges": [
+   "Beginner friendly"
+  ],
+  "meta": "35–45 min · Recommended: Lessons 06–10"
+ },
+ "fields": [
+  {
+   "id": "problemlink",
+   "label": "Selected problem and source from Lesson 10",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Use anonymous roles; label evidence and assumptions.",
+   "maxLength": 2000
+  },
+  {
+   "id": "group",
+   "label": "Specific group and situation — who is included and excluded?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Use anonymous roles; label evidence and assumptions.",
+   "maxLength": 2000
+  },
+  {
+   "id": "job",
+   "label": "Task or goal — label unverified motivations",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Use anonymous roles; label evidence and assumptions.",
+   "maxLength": 2000
+  },
+  {
+   "id": "behaviour",
+   "label": "Current behaviour or workaround — known versus assumed",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Use anonymous roles; label evidence and assumptions.",
+   "maxLength": 2000
+  },
+  {
+   "id": "roles",
+   "label": "User, beneficiary and possible buyer/decision-maker — unknown is acceptable",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Use anonymous roles; label evidence and assumptions.",
+   "maxLength": 2000
+  },
+  {
+   "id": "basis",
+   "label": "Evidence ledger: each key claim, status, source and missing evidence",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Use anonymous roles; label evidence and assumptions.",
+   "maxLength": 2000
+  },
+  {
+   "id": "access",
+   "label": "Ethical access plan: setting, permission, voluntary participation and privacy",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Use anonymous roles; label evidence and assumptions.",
+   "maxLength": 2000
+  },
+  {
+   "id": "question",
+   "label": "Neutral recent-experience question and what would change the snapshot",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Use anonymous roles; label evidence and assumptions.",
+   "maxLength": 2000
+  },
+  {
+   "id": "support",
+   "label": "Optional help or access constraint",
+   "kind": "textarea",
+   "required": false,
+   "maxLength": 2000
+  },
+  {
+   "id": "assumption",
+   "label": "Which detail might be a stereotype or unsupported assumption?",
+   "kind": "textarea",
+   "required": true,
+   "maxLength": 2000
+  },
+  {
+   "id": "evidence",
+   "label": "What would show your group definition or role assumptions are wrong?",
+   "kind": "textarea",
+   "required": true,
+   "maxLength": 2000
+  },
+  {
+   "id": "constraint",
+   "label": "How will you avoid collecting private details or pressuring participation?",
+   "kind": "textarea",
+   "required": true,
+   "maxLength": 2000
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "Which group is a useful starting snapshot?",
+   "options": [
+    "Everyone who likes technology",
+    "First-time visitors locating registration before a session",
+    "A made-up biography"
+   ],
+   "answer": 1,
+   "explanation": "Task and context make a group specific enough to investigate."
+  },
+  {
+   "prompt": "Is the user always the buyer?",
+   "options": [
+    "No; identify roles separately and label unknowns",
+    "Yes",
+    "Yes if the problem is frustrating"
+   ],
+   "answer": 0,
+   "explanation": "Use, benefit and purchasing authority can belong to different people."
+  },
+  {
+   "prompt": "How should unsupported profile details be handled?",
+   "options": [
+    "Invent them",
+    "Present guesses as evidence",
+    "Label assumptions or unknowns and plan a check"
+   ],
+   "answer": 2,
+   "explanation": "Do not fabricate demographic or behavioural facts."
+  }
+ ],
+ "checklist": [
+  {
+   "kind": "studied",
+   "label": "Transcript or learning guide reviewed"
+  },
+  {
+   "kind": "fields",
+   "label": "Customer Snapshot fields complete",
+   "ids": [
+    "problemlink",
+    "group",
+    "job",
+    "behaviour",
+    "roles",
+    "basis",
+    "access",
+    "question"
+   ]
+  },
+  {
+   "kind": "fields",
+   "label": "Three red-team reflections complete",
+   "ids": [
+    "assumption",
+    "evidence",
+    "constraint"
+   ]
+  },
+  {
+   "kind": "quiz",
+   "label": "Knowledge check: 3 / 3 correct"
+  },
+  {
+   "kind": "honest",
+   "label": "Final self-review confirmed"
+  }
+ ],
+ "deliverable": {
+  "title": "LYNQ Academy — Customer Snapshot",
+  "filename": "LYNQ-Customer-Snapshot.md",
+  "headerLines": [
+   "Phase 01 · Module {module} · Lesson {lesson}",
+   "Status: {status}",
+   "Created: {created}"
+  ],
+  "fieldIds": [
+   "problemlink",
+   "group",
+   "job",
+   "behaviour",
+   "roles",
+   "basis",
+   "access",
+   "question",
+   "support",
+   "assumption",
+   "evidence",
+   "constraint"
+  ],
+  "footer": "Local prototype export. No reviewer submission or business validation."
+ },
+ "sections": [
+  {
+   "id": "watch",
+   "label": "01 / WATCH",
+   "heading": "Who should you understand first?",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "The planned explainer builds a specific, evidence-labeled customer snapshot without invented biographies or demand claims. Use the transcript or guide while the video is a placeholder."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "video-placeholder"
+       },
+       "children": [
+        {
+         "tag": "span",
+         "attrs": {
+          "class": "badge"
+         },
+         "children": [
+          "Video placeholder · media not produced"
+         ]
+        },
+        {
+         "tag": "h3",
+         "attrs": {},
+         "children": [
+          "Your First Customer Snapshot"
+         ]
+        },
+        {
+         "tag": "p",
+         "attrs": {},
+         "children": [
+          "Planned: 2½-minute explainer + worksheet demo",
+          {
+           "tag": "br",
+           "attrs": {},
+           "children": []
+          },
+          "Group → Context → Roles → Evidence → Next question"
+         ]
+        },
+        {
+         "tag": "small",
+         "attrs": {},
+         "children": [
+          "No playable video or generated media is attached."
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "storyboard",
+     "scenes": [
+      {
+       "title": "Begin with one group",
+       "visual": "Founder reviews an anonymous provisional problem card.",
+       "narration": "You have chosen a problem to explore. Now describe one specific group of people whose experience you want to understand. A customer snapshot is an early working description, not a proven customer segment or an invented biography."
+      },
+      {
+       "title": "Context before stereotypes",
+       "visual": "Adult visitor seeks registration in a fictional Dubai venue.",
+       "narration": "Describe people through their task and situation. First-time visitors finding registration before a session is more useful than everyone who likes technology. Include age, nationality or income only when relevant and supported. Do not invent personal details to make a profile feel real."
+      },
+      {
+       "title": "Separate roles",
+       "visual": "Editable user, beneficiary and decision-maker cards.",
+       "narration": "The person using a service may not buy it. A visitor might use information while an organiser approves or pays for a service. These roles are hypotheses until checked. Record the user, beneficiary and possible decision-maker separately; do not assume a buyer from a problem report."
+      },
+      {
+       "title": "Make evidence visible",
+       "visual": "Editable Known, Assumed and Unknown columns.",
+       "narration": "Label each statement with its basis: observed, reported, a documented source, or an assumption to investigate. Missing evidence stays unknown. One conversation does not represent a whole market. Keep anonymous role labels and avoid private identifying details."
+      },
+      {
+       "title": "Ask about a recent experience",
+       "visual": "Respectful optional adult interview; no visible private data.",
+       "narration": "Plan a neutral question about a recent experience. Ask what the person tried, what mattered and what happened next. Avoid asking whether they love your future app. Name an ethical way to reach the group, permission needed, and what would make you revise the snapshot."
+      },
+      {
+       "title": "Build and revisit",
+       "visual": "Actual Lesson 11 worksheet screen recording with fictional entries.",
+       "narration": "Create your Customer Snapshot: the problem link, group and context, job or goal, current behaviour, roles, evidence status, access plan and next question. Keep it provisional. The next lesson explores customer goals and frustrations; your snapshot will change as you learn."
+      }
+     ],
+     "sceneMeta": "Planned final scene: 25 seconds · narration and precise graphics added in post",
+     "summary": "Explore the six-scene storyboard placeholder"
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {
+        "class": "help"
+       },
+       "children": [
+        "Use an explainer with editable diagrams, documentary cutaways and a real worksheet demo. Generate short assets where supported, then assemble in an editor."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "videoPrompt",
+     "prompt": "Create an engaging beginner-friendly explainer plus worksheet demo for LYNQ Academy Module 1.3 Lesson 11: Your First Customer Snapshot. Editorial target 150 seconds, 16:9 1080p. Navy #0B2338, teal #087D79, mint #BCF2DF, white; diverse adult cast in a contemporary Dubai workspace/venue. Friendly English narration. Teach specific task/context groups, user versus beneficiary versus buyer, evidence labels, privacy and neutral recent-experience questions. All examples fictional and labeled illustrative. No invented names, income, nationality, testimonials, market size, customer validation or payment proof.\n\nSCENE 1: Begin with one group\nVisual placeholder: Founder reviews an anonymous provisional problem card.\nNarration: You have chosen a problem to explore. Now describe one specific group of people whose experience you want to understand. A customer snapshot is an early working description, not a proven customer segment or an invented biography.\n\nSCENE 2: Context before stereotypes\nVisual placeholder: Adult visitor seeks registration in a fictional Dubai venue.\nNarration: Describe people through their task and situation. First-time visitors finding registration before a session is more useful than everyone who likes technology. Include age, nationality or income only when relevant and supported. Do not invent personal details to make a profile feel real.\n\nSCENE 3: Separate roles\nVisual placeholder: Editable user, beneficiary and decision-maker cards.\nNarration: The person using a service may not buy it. A visitor might use information while an organiser approves or pays for a service. These roles are hypotheses until checked. Record the user, beneficiary and possible decision-maker separately; do not assume a buyer from a problem report.\n\nSCENE 4: Make evidence visible\nVisual placeholder: Editable Known, Assumed and Unknown columns.\nNarration: Label each statement with its basis: observed, reported, a documented source, or an assumption to investigate. Missing evidence stays unknown. One conversation does not represent a whole market. Keep anonymous role labels and avoid private identifying details.\n\nSCENE 5: Ask about a recent experience\nVisual placeholder: Respectful optional adult interview; no visible private data.\nNarration: Plan a neutral question about a recent experience. Ask what the person tried, what mattered and what happened next. Avoid asking whether they love your future app. Name an ethical way to reach the group, permission needed, and what would make you revise the snapshot.\n\nSCENE 6: Build and revisit\nVisual placeholder: Actual Lesson 11 worksheet screen recording with fictional entries.\nNarration: Create your Customer Snapshot: the problem link, group and context, job or goal, current behaviour, roles, evidence status, access plan and next question. Keep it provisional. The next lesson explores customer goals and frustrations; your snapshot will change as you learn.\n\nFirst provide storyboard, timings and individual shot prompts. Generate only shot lengths supported by selected Gemini/Veo account; assemble with one separately recorded narrator track. Generated footage has no text, logo, captions or fake UI. Add exact LYNQ branding and editable role/evidence diagrams in post. Use an actual approved Lesson 11 screen recording with anonymous fictional answers. Deliver H.264 MP4, editable project, transcript, VTT/SRT captions, thumbnail, narrator audio and rights/provenance. Produce separately native-reviewed Arabic narration and RTL graphics. Review privacy, stereotype avoidance, accuracy, audio, mobile readability and brand before publishing. No video is generated by the prototype.",
+     "filename": "LYNQ-Lesson-11-Gemini-Video-Prompt.md",
+     "title": "# LYNQ Lesson 11 — Gemini video prompt",
+     "summary": "Gemini video prompt — ready to copy"
+    },
+    {
+     "type": "transcript",
+     "scenes": [
+      {
+       "title": "Begin with one group",
+       "visual": "Founder reviews an anonymous provisional problem card.",
+       "narration": "You have chosen a problem to explore. Now describe one specific group of people whose experience you want to understand. A customer snapshot is an early working description, not a proven customer segment or an invented biography."
+      },
+      {
+       "title": "Context before stereotypes",
+       "visual": "Adult visitor seeks registration in a fictional Dubai venue.",
+       "narration": "Describe people through their task and situation. First-time visitors finding registration before a session is more useful than everyone who likes technology. Include age, nationality or income only when relevant and supported. Do not invent personal details to make a profile feel real."
+      },
+      {
+       "title": "Separate roles",
+       "visual": "Editable user, beneficiary and decision-maker cards.",
+       "narration": "The person using a service may not buy it. A visitor might use information while an organiser approves or pays for a service. These roles are hypotheses until checked. Record the user, beneficiary and possible decision-maker separately; do not assume a buyer from a problem report."
+      },
+      {
+       "title": "Make evidence visible",
+       "visual": "Editable Known, Assumed and Unknown columns.",
+       "narration": "Label each statement with its basis: observed, reported, a documented source, or an assumption to investigate. Missing evidence stays unknown. One conversation does not represent a whole market. Keep anonymous role labels and avoid private identifying details."
+      },
+      {
+       "title": "Ask about a recent experience",
+       "visual": "Respectful optional adult interview; no visible private data.",
+       "narration": "Plan a neutral question about a recent experience. Ask what the person tried, what mattered and what happened next. Avoid asking whether they love your future app. Name an ethical way to reach the group, permission needed, and what would make you revise the snapshot."
+      },
+      {
+       "title": "Build and revisit",
+       "visual": "Actual Lesson 11 worksheet screen recording with fictional entries.",
+       "narration": "Create your Customer Snapshot: the problem link, group and context, job or goal, current behaviour, roles, evidence status, access plan and next question. Keep it provisional. The next lesson explores customer goals and frustrations; your snapshot will change as you learn."
+      }
+     ],
+     "summary": "Read the full narration / transcript"
+    },
+    {
+     "type": "studied",
+     "label": "I read the transcript or reviewed the learning guide. Video is not required."
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "label": "02 / LEARN",
+   "heading": "Describe the people, not an imaginary perfect customer.",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "A ",
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "Customer Snapshot"
+         ]
+        },
+        " is a provisional description of one group connected to your chosen problem. A ",
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "segment"
+         ]
+        },
+        " groups people with relevant shared circumstances; you have not yet proven this is a viable market."
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Start with the task and context. “First-time visitors finding registration before a session” is more useful than “everyone at events.” Do not invent age, income, nationality, names or preferences. Include demographic details only when relevant and supported."
+       ]
+      },
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "grid2"
+       },
+       "children": [
+        {
+         "tag": "div",
+         "attrs": {
+          "class": "note"
+         },
+         "children": [
+          {
+           "tag": "h3",
+           "attrs": {},
+           "children": [
+            "User"
+           ]
+          },
+          {
+           "tag": "p",
+           "attrs": {},
+           "children": [
+            "The person who interacts with a proposed service or current process."
+           ]
+          }
+         ]
+        },
+        {
+         "tag": "div",
+         "attrs": {
+          "class": "note"
+         },
+         "children": [
+          {
+           "tag": "h3",
+           "attrs": {},
+           "children": [
+            "Beneficiary"
+           ]
+          },
+          {
+           "tag": "p",
+           "attrs": {},
+           "children": [
+            "The person or organisation who may gain value."
+           ]
+          }
+         ]
+        },
+        {
+         "tag": "div",
+         "attrs": {
+          "class": "note"
+         },
+         "children": [
+          {
+           "tag": "h3",
+           "attrs": {},
+           "children": [
+            "Buyer / decision-maker"
+           ]
+          },
+          {
+           "tag": "p",
+           "attrs": {},
+           "children": [
+            "The person who might approve or pay. Keep this unknown if you have no evidence."
+           ]
+          }
+         ]
+        },
+        {
+         "tag": "div",
+         "attrs": {
+          "class": "note"
+         },
+         "children": [
+          {
+           "tag": "h3",
+           "attrs": {},
+           "children": [
+            "Evidence status"
+           ]
+          },
+          {
+           "tag": "p",
+           "attrs": {},
+           "children": [
+            "Observed, reported, documented, assumed or unknown. Preserve the basis of each claim."
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "tag": "h3",
+       "attrs": {},
+       "children": [
+        "Illustrative example"
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "A visitor may use directions; an organiser might decide about a service. Neither role nor willingness to pay is established by the example. Ask about the current experience before pitching a solution."
+       ]
+      },
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "actions"
+       },
+       "children": [
+        {
+         "tag": "lesson-link",
+         "attrs": {
+          "lesson": "10",
+          "class": "btn secondary"
+         },
+         "children": [
+          "Review problem selection"
+         ]
+        },
+        {
+         "tag": "lesson-link",
+         "attrs": {
+          "lesson": "7",
+          "class": "btn secondary"
+         },
+         "children": [
+          "Review affected people"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "practice",
+     "legend": "Practice: choose a useful starting group",
+     "prompt": "",
+     "options": [
+      {
+       "label": "Everyone who likes apps",
+       "feedback": "Choose a specific task and context rather than a broad preference or invented biography."
+      },
+      {
+       "label": "First-time visitors locating registration before a session",
+       "feedback": "Useful group: the task and context are specific enough to investigate, but remain provisional."
+      },
+      {
+       "label": "Invent a detailed biography and income",
+       "feedback": "Choose a specific task and context rather than a broad preference or invented biography."
+      }
+     ]
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {
+        "class": "help"
+       },
+       "children": [
+        "A useful starting group is specific enough to investigate. It is not proof of demand or a representative sample."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "build",
+   "label": "03 / BUILD",
+   "heading": "Your Customer Snapshot.",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Write one provisional group. Avoid fictional personal details and keep each claim tied to its evidence status. Nothing is inferred automatically from your earlier work."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "saveStatus"
+    },
+    {
+     "type": "fields",
+     "ids": [
+      "problemlink",
+      "group",
+      "job",
+      "behaviour",
+      "roles",
+      "basis",
+      "access",
+      "question",
+      "support"
+     ]
+    },
+    {
+     "type": "extension",
+     "id": "preview",
+     "props": {
+      "label": "Preview my customer snapshot",
+      "kind": "lines",
+      "joiner": "\n\n",
+      "lines": [
+       {
+        "id": "problemlink",
+        "label": "Selected problem and source from Lesson 10 *"
+       },
+       {
+        "id": "group",
+        "label": "Specific group and situation — who is included and excluded? *"
+       },
+       {
+        "id": "job",
+        "label": "Task or goal — label unverified motivations *"
+       },
+       {
+        "id": "behaviour",
+        "label": "Current behaviour or workaround — known versus assumed *"
+       },
+       {
+        "id": "roles",
+        "label": "User, beneficiary and possible buyer/decision-maker — unknown is acceptable *"
+       },
+       {
+        "id": "basis",
+        "label": "Evidence ledger: each key claim, status, source and missing evidence *"
+       },
+       {
+        "id": "access",
+        "label": "Ethical access plan: setting, permission, voluntary participation and privacy *"
+       },
+       {
+        "id": "question",
+        "label": "Neutral recent-experience question and what would change the snapshot *"
+       }
+      ],
+      "footer": "This provisional snapshot does not prove demand or verify a customer segment."
+     }
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "note"
+       },
+       "children": [
+        "This is not a verified persona, customer list or demand estimate. Browser storage is plaintext; use anonymous labels and download a copy."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "extension",
+     "id": "download",
+     "props": {
+      "label": "Download Customer Snapshot"
+     }
+    },
+    {
+     "type": "reset",
+     "label": "Clear local draft"
+    }
+   ]
+  },
+  {
+   "id": "coach",
+   "label": "04 / ASK AI",
+   "heading": "Your thinking partner",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "span",
+       "attrs": {
+        "class": "badge"
+       },
+       "children": [
+        "Simulated Coach · no AI connection"
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Try four scripted guidance modes. The preview reads your current worksheet locally; it does not send information anywhere."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "extension",
+     "id": "coach",
+     "props": {
+      "modes": [
+       {
+        "id": "teach",
+        "label": "Teach me"
+       },
+       {
+        "id": "guide",
+        "label": "Guide me"
+       },
+       {
+        "id": "review",
+        "label": "Review my work"
+       },
+       {
+        "id": "challenge",
+        "label": "Challenge my idea"
+       }
+      ],
+      "replies": {
+       "teach": "Start with a specific task/context group. Separate user, beneficiary and buyer; label evidence, assumptions and unknowns.",
+       "guide": "Describe your group, task, current behaviour and roles. Keep a claim-by-claim evidence ledger and plan a voluntary, privacy-conscious recent-experience question.",
+       "review": "Customer Snapshot check: {missing} required fields still empty. This scripted check counts fields only; it cannot verify your group, evidence, roles or demand.",
+       "challenge": "Which details are stereotypes? Have you confused user with buyer? What would change your snapshot? Can people decline participation?"
+      },
+      "heading": "SCRIPTED DEMO / ",
+      "questionNote": "Your question was entered locally. This preview does not generate a custom answer.",
+      "questionLabel": "Your question (optional)",
+      "placeholder": "What should I focus on first?",
+      "maxLength": 500,
+      "submitLabel": "Show simulated guidance"
+     }
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {
+        "class": "help"
+       },
+       "children": [
+        "Responses are predefined for this lesson, not generated answers to your question. No customer demand or venture readiness is verified."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "challenge",
+   "label": "05 / CHALLENGE",
+   "heading": "Challenge your picture of the customer.",
+   "blocks": [
+    {
+     "type": "fields",
+     "ids": [
+      "assumption",
+      "evidence",
+      "constraint"
+     ]
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "details",
+       "attrs": {},
+       "children": [
+        {
+         "tag": "summary",
+         "attrs": {},
+         "children": [
+          "More questions to discuss"
+         ]
+        },
+        {
+         "tag": "p",
+         "attrs": {},
+         "children": [
+          "Have you confused user with buyer? Are you treating one account as representative? Is your group too broad to reach? Can people decline, and can you learn without names or contact details?"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "quiz",
+   "label": "06 / CHECK YOUR UNDERSTANDING",
+   "heading": "A quick knowledge check",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Answer all three. You can retry; all three correct are required for local completion."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "quiz"
+    }
+   ]
+  },
+  {
+   "id": "finish",
+   "label": "07 / DELIVER & PROGRESS",
+   "heading": "Your deliverable: a Customer Snapshot.",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Download the group, context, task, behaviour, roles, evidence ledger and next question. This begins Module 1.3; revise the snapshot as evidence arrives."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "checklist"
+    },
+    {
+     "type": "honest",
+     "label": "I kept the snapshot provisional, labeled assumptions and unknowns, and avoided invented personal details or demand claims."
+    },
+    {
+     "type": "complete",
+     "label": "Mark Lesson 11 complete locally",
+     "completedLabel": "Lesson 11 self-completed locally",
+     "completedNotice": "Lesson 11 self-completed locally. Download your Customer Snapshot. No reviewer approval or venture validation is recorded.",
+     "incompleteNotice": "Complete the remaining requirements above before marking this lesson complete."
+    },
+    {
+     "type": "extension",
+     "id": "moduleNote",
+     "props": {
+      "parts": [
+       {
+        "nodes": [
+         {
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+           "Module 1.3 · Understanding People & Context"
+          ]
+         }
+        ]
+       },
+       {
+        "status": "1.3",
+        "complete": "All five lessons self-completed locally. Module 1.3 learning pack complete; research execution, permissions and validation remain separate.",
+        "incomplete": "{count} / 5 lessons self-completed locally. Complete each lesson separately to finish this learning module."
+       },
+       {
+        "nodes": [
+         {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+           "Lesson completion records learning, not customer validation, payment intent or certification."
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "type": "next"
+    }
+   ]
+  }
+ ],
+ "nav": [
+  {
+   "id": "watch",
+   "label": "Watch"
+  },
+  {
+   "id": "learn",
+   "label": "Learn"
+  },
+  {
+   "id": "build",
+   "label": "Build"
+  },
+  {
+   "id": "coach",
+   "label": "Ask AI"
+  },
+  {
+   "id": "challenge",
+   "label": "Challenge"
+  },
+  {
+   "id": "quiz",
+   "label": "Knowledge check"
+  },
+  {
+   "id": "finish",
+   "label": "Deliver"
+  }
+ ]
+}

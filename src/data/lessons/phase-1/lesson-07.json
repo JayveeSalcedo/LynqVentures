@@ -1,0 +1,1145 @@
+{
+ "number": 7,
+ "phase": 1,
+ "module": "1.2",
+ "title": "Who Experiences the Problem?",
+ "hero": {
+  "eyebrow": "Module 1.2 · Finding Problems Worth Solving · Lesson 07",
+  "title": "Who Experiences the Problem?",
+  "intro": "Choose a specific group affected by one problem, describe their situation, and distinguish the person experiencing it from the user, buyer, or decision-maker. Your deliverable is an Affected-People Map.",
+  "badges": [
+   "Beginner friendly"
+  ],
+  "meta": "35–45 min · Recommended: Lesson 06"
+ },
+ "fields": [
+  {
+   "id": "problemclue",
+   "label": "Which problem clue are you exploring?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Entry 1, planned: explore how first-time visitors find check-in.",
+   "maxLength": 2000,
+   "hint": "Refer to a Lesson 06 entry and its source/status. If still planned, say so."
+  },
+  {
+   "id": "affected",
+   "label": "Which specific group experiences, or may experience, it?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "First-time adult visitors finding check-in at evening events.",
+   "maxLength": 2000,
+   "hint": "Use a role/context/task description rather than “everyone.”"
+  },
+  {
+   "id": "situation",
+   "label": "What task and trigger define the situation?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Arriving at an unfamiliar venue and locating the correct queue.",
+   "maxLength": 2000,
+   "hint": "Describe when the difficulty appears and what the person is trying to do."
+  },
+  {
+   "id": "impact",
+   "label": "What impact and workaround are known or unknown?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Possible extra step asking staff; delay and frequency unknown.",
+   "maxLength": 2000,
+   "hint": "Separate actual/reported impact from guesses. “Unknown/to check” is valid."
+  },
+  {
+   "id": "roles",
+   "label": "Who is the experiencer, user, possible buyer, and decision-maker?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Experiencer: visitor. Future user, buyer and approver: unknown, to investigate.",
+   "maxLength": 2000,
+   "hint": "Roles may overlap. Mark unknown or hypothetical roles; do not invent willingness to pay."
+  },
+  {
+   "id": "access",
+   "label": "How can you respectfully reach or observe the group?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Ask an organiser about a suitable observation area; permission not yet requested.",
+   "maxLength": 2000,
+   "hint": "Choose a practical route and permission/access needed. This does not send invitations."
+  },
+  {
+   "id": "basis",
+   "label": "What evidence supports this group, and what is still assumed?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "This group is a planned research focus; no direct observation yet.",
+   "maxLength": 2000,
+   "hint": "State firsthand, reported or planned basis and what would need checking."
+  },
+  {
+   "id": "question",
+   "label": "What is your next neutral question or observation?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "What happened the last time you arrived at an unfamiliar event?",
+   "maxLength": 2000,
+   "hint": "Ask about actual experience, not approval of a preferred solution."
+  },
+  {
+   "id": "support",
+   "label": "Which other affected group or access constraint should you note?",
+   "kind": "textarea",
+   "required": false,
+   "placeholder": "Optional: staff may also be affected; access or role still unknown…",
+   "maxLength": 2000
+  },
+  {
+   "id": "assumption",
+   "label": "Which claim about the group or buyer is still an assumption?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "I am assuming… but have only observed or planned…",
+   "maxLength": 2000
+  },
+  {
+   "id": "evidence",
+   "label": "What would show that this group is less affected than you expect?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "If people describe… or already solve it by… I will reconsider…",
+   "maxLength": 2000
+  },
+  {
+   "id": "constraint",
+   "label": "If you cannot reach this group, how will you adjust without inventing evidence?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "I will seek appropriate access, choose a reachable alternative, or keep the claim marked…",
+   "maxLength": 2000
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "Which group gives you a specific starting point for discovery?",
+   "options": [
+    "Everyone",
+    "First-time visitors finding check-in at an unfamiliar event",
+    "All people who might buy something"
+   ],
+   "answer": 1,
+   "explanation": "A role, task and context help you choose whom to understand; they do not prove the whole group has the problem."
+  },
+  {
+   "prompt": "Does the person experiencing a problem always pay for the solution?",
+   "options": [
+    "Yes, by definition",
+    "Yes, if the problem is frustrating",
+    "No; experiencer, user, buyer and decision-maker may differ"
+   ],
+   "answer": 2,
+   "explanation": "Investigate the roles separately and keep unverified buyer or approval assumptions visible."
+  },
+  {
+   "prompt": "If your group is based only on planned observations, how should you describe it?",
+   "options": [
+    "As an exploratory group hypothesis with evidence still to collect",
+    "As a validated customer segment",
+    "As proof of willingness to pay"
+   ],
+   "answer": 0,
+   "explanation": "Planning whom to understand is useful, but it is not collected evidence or purchasing commitment."
+  }
+ ],
+ "checklist": [
+  {
+   "kind": "studied",
+   "label": "Transcript or learning guide reviewed"
+  },
+  {
+   "kind": "fields",
+   "label": "Affected-People Map fields complete",
+   "ids": [
+    "problemclue",
+    "affected",
+    "situation",
+    "impact",
+    "roles",
+    "access",
+    "basis",
+    "question"
+   ]
+  },
+  {
+   "kind": "fields",
+   "label": "Three red-team reflections complete",
+   "ids": [
+    "assumption",
+    "evidence",
+    "constraint"
+   ]
+  },
+  {
+   "kind": "quiz",
+   "label": "Knowledge check: 3 / 3 correct"
+  },
+  {
+   "kind": "honest",
+   "label": "Final self-review confirmed"
+  }
+ ],
+ "deliverable": {
+  "title": "LYNQ Academy — Affected-People Map",
+  "filename": "LYNQ-Affected-People-Map.md",
+  "headerLines": [
+   "Phase 01 · Module {module} · Lesson {lesson}",
+   "Status: {status}",
+   "Created: {created}"
+  ],
+  "fieldIds": [
+   "problemclue",
+   "affected",
+   "situation",
+   "impact",
+   "roles",
+   "access",
+   "basis",
+   "question",
+   "support",
+   "assumption",
+   "evidence",
+   "constraint"
+  ],
+  "footer": "Local prototype export. No reviewer submission or business validation."
+ },
+ "sections": [
+  {
+   "id": "watch",
+   "label": "01 / WATCH",
+   "heading": "Understand the person behind the problem.",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "The planned explainer narrows a problem clue to a specific group and separates users, buyers and decision-makers. Use the transcript or guide while the video is a placeholder."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "video-placeholder"
+       },
+       "children": [
+        {
+         "tag": "span",
+         "attrs": {
+          "class": "badge"
+         },
+         "children": [
+          "Video placeholder · media not produced"
+         ]
+        },
+        {
+         "tag": "h3",
+         "attrs": {},
+         "children": [
+          "Who Experiences the Problem?"
+         ]
+        },
+        {
+         "tag": "p",
+         "attrs": {},
+         "children": [
+          "Planned: 2½-minute explainer + worksheet demo",
+          {
+           "tag": "br",
+           "attrs": {},
+           "children": []
+          },
+          "Problem clue → Specific people → Roles → Next question"
+         ]
+        },
+        {
+         "tag": "small",
+         "attrs": {},
+         "children": [
+          "No playable video or generated media is attached."
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "storyboard",
+     "scenes": [
+      {
+       "title": "Choose one problem clue",
+       "visual": "Founder reviews a notebook in a Dubai workspace; one fictional observation card is highlighted in post.",
+       "narration": "Your discovery journal contains clues about everyday friction. Now choose one clue and ask who experiences it. “Everyone” is too broad to guide useful research. Start with a group in a specific situation, while keeping the limits of your evidence visible."
+      },
+      {
+       "title": "Make the group specific",
+       "visual": "Adult first-time event visitors approach a check-in area; unbranded signs and realistic gestures.",
+       "narration": "Imagine first-time adult visitors trying to find the correct check-in queue at an evening event. That is more useful than “all event visitors.” Describe the situation, the task they are trying to complete, and the moment the difficulty appears. Do not assume everyone in the group has the same experience."
+      },
+      {
+       "title": "Describe impact without guessing",
+       "visual": "Editable known-versus-unknown cards; visitor asks staff for directions.",
+       "narration": "Ask what the problem changes for the person. It might add effort, delay a task, or create uncertainty. If you do not know the size or frequency of that impact, say so. Record the workaround as well. Asking staff may already be an effective way to get help."
+      },
+      {
+       "title": "Separate roles",
+       "visual": "Editable four-role diagram: experiencer, user, buyer, decision-maker; no fabricated product screen.",
+       "narration": "The person with the problem may not be the person who pays for a solution. In a fictional service example, visitors use the service, an organiser buys it, and a venue manager approves deployment. These roles can overlap, but do not assume they do. In your own map, mark roles as unknown until you have evidence."
+      },
+      {
+       "title": "Plan a respectful way to learn",
+       "visual": "Founder asks permission for a brief conversation; no identifying contact information appears.",
+       "narration": "Choose a realistic way to reach people in the group. Ask about a recent actual experience rather than pitching your preferred product. Use role labels instead of private names or contact details. Follow access rules and seek permission where appropriate. A planned conversation is not a completed interview."
+      },
+      {
+       "title": "Build your people map",
+       "visual": "Actual Lesson 07 worksheet recording with fictional entries; source labels retained on editable cards.",
+       "narration": "Create your Affected-People Map. Name the problem clue, group, situation, known impact, possible roles, access route, evidence status, and next question. You are selecting whom to understand, not proving demand or willingness to pay. If the clue is still only planned, keep the whole map clearly exploratory."
+      }
+     ],
+     "sceneMeta": "Planned final scene: 25 seconds · narration and precise graphics added in post",
+     "summary": "Explore the six-scene storyboard placeholder"
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {
+        "class": "help"
+       },
+       "children": [
+        "Use an explainer with editable diagrams, documentary cutaways and a real worksheet demo. Generate short assets where supported, then assemble in an editor."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "videoPrompt",
+     "prompt": "Create an engaging beginner-friendly explainer for LYNQ Venture Studio Academy, Module 1.2 Lesson 07: “Who Experiences the Problem?” Desired final edit about 150 seconds, 16:9, 1080p. Combine natural documentary process footage, simple editable people/role diagrams and actual worksheet screen recording. Palette navy #0B2338, teal #087D79, mint #BCF2DF and white. Contemporary Dubai venue/workspace, diverse adult cast, warm clear English narrator. No exaggerated frustration, success imagery or invented client context.\n\nTeaching goals: select a specific affected group from a problem clue; describe context/task/trigger and known/unknown impact; distinguish experiencer, user, buyer and decision-maker; choose a respectful access route; preserve firsthand/reported/planned uncertainty. Use FICTIONAL first-time adult visitors finding event check-in. Label it “Illustrative example.” A second fictional role diagram may explicitly suppose visitors use a service, an organiser buys it, and a venue manager approves deployment. Do not present that scenario as real demand, a real customer or a confirmed commercial arrangement. In learner work all unverified roles stay hypotheses or unknown.\n\nUse the following six scenes and exact narration in sequence. Target around 25 seconds per final scene, confirm with narrator read-through and natural diagram holds. Record one consistent voice track separately. Generate short shots only in durations supported by the selected Gemini/Veo model/account; an eight-second shot plan is optional where supported. Assemble clips, diagrams, captions and voice in an editor; do not claim one prompt produces a complete polished video.\n\nSCENE 1 — Choose one problem clue. Visual: Founder reviews a notebook in a Dubai workspace; one fictional observation card is highlighted in post. Narration: “Your discovery journal contains clues about everyday friction. Now choose one clue and ask who experiences it. “Everyone” is too broad to guide useful research. Start with a group in a specific situation, while keeping the limits of your evidence visible.”\n\nSCENE 2 — Make the group specific. Visual: Adult first-time event visitors approach a check-in area; unbranded signs and realistic gestures. Narration: “Imagine first-time adult visitors trying to find the correct check-in queue at an evening event. That is more useful than “all event visitors.” Describe the situation, the task they are trying to complete, and the moment the difficulty appears. Do not assume everyone in the group has the same experience.”\n\nSCENE 3 — Describe impact without guessing. Visual: Editable known-versus-unknown cards; visitor asks staff for directions. Narration: “Ask what the problem changes for the person. It might add effort, delay a task, or create uncertainty. If you do not know the size or frequency of that impact, say so. Record the workaround as well. Asking staff may already be an effective way to get help.”\n\nSCENE 4 — Separate roles. Visual: Editable four-role diagram: experiencer, user, buyer, decision-maker; no fabricated product screen. Narration: “The person with the problem may not be the person who pays for a solution. In a fictional service example, visitors use the service, an organiser buys it, and a venue manager approves deployment. These roles can overlap, but do not assume they do. In your own map, mark roles as unknown until you have evidence.”\n\nSCENE 5 — Plan a respectful way to learn. Visual: Founder asks permission for a brief conversation; no identifying contact information appears. Narration: “Choose a realistic way to reach people in the group. Ask about a recent actual experience rather than pitching your preferred product. Use role labels instead of private names or contact details. Follow access rules and seek permission where appropriate. A planned conversation is not a completed interview.”\n\nSCENE 6 — Build your people map. Visual: Actual Lesson 07 worksheet recording with fictional entries; source labels retained on editable cards. Narration: “Create your Affected-People Map. Name the problem clue, group, situation, known impact, possible roles, access route, evidence status, and next question. You are selecting whom to understand, not proving demand or willingness to pay. If the clue is still only planned, keep the whole map clearly exploratory.”\n\nReturn a storyboard, timing and separate visual-shot prompts first. Generated footage must contain no visible text, logos, captions, watermark, speaking presenter or invented UI. Add exact LYNQ branding and diagrams as editable post-production graphics. Suggested overlays: Everyone → Specific group in a situation; Task → Trigger → Impact; Experiencer / User / Buyer / Decision-maker; Known / Assumed / Unknown; Planned conversation ≠ Completed interview. Keep a consistent approved observer actor/wardrobe and respectful natural interactions.\n\nScene 6 uses actual approved Lesson 07 screen recording with fictional sample answers. Never generate product UI or display real names, phone numbers or confidential research. Show the evidence-status field and explicitly exploratory roles. End card in post: “Choose whom to understand. Ask about a real experience.”\n\nHuman-produced deliverables: H.264 1920×1080 MP4, editable project/diagrams, narrator audio, thumbnail, timed English VTT/SRT and transcript, rights/generation provenance. Separately native-reviewed Arabic narration/captions and RTL graphics; do not auto-mirror the English worksheet. Review group specificity, role distinction, uncertainty labels, privacy, mobile captions, narration pacing and brand before publishing. No video is generated by the prototype.",
+     "filename": "LYNQ-Lesson-07-Gemini-Video-Prompt.md",
+     "title": "# LYNQ Lesson 07 — Gemini video prompt",
+     "summary": "Gemini video prompt — ready to copy"
+    },
+    {
+     "type": "transcript",
+     "scenes": [
+      {
+       "title": "Choose one problem clue",
+       "visual": "Founder reviews a notebook in a Dubai workspace; one fictional observation card is highlighted in post.",
+       "narration": "Your discovery journal contains clues about everyday friction. Now choose one clue and ask who experiences it. “Everyone” is too broad to guide useful research. Start with a group in a specific situation, while keeping the limits of your evidence visible."
+      },
+      {
+       "title": "Make the group specific",
+       "visual": "Adult first-time event visitors approach a check-in area; unbranded signs and realistic gestures.",
+       "narration": "Imagine first-time adult visitors trying to find the correct check-in queue at an evening event. That is more useful than “all event visitors.” Describe the situation, the task they are trying to complete, and the moment the difficulty appears. Do not assume everyone in the group has the same experience."
+      },
+      {
+       "title": "Describe impact without guessing",
+       "visual": "Editable known-versus-unknown cards; visitor asks staff for directions.",
+       "narration": "Ask what the problem changes for the person. It might add effort, delay a task, or create uncertainty. If you do not know the size or frequency of that impact, say so. Record the workaround as well. Asking staff may already be an effective way to get help."
+      },
+      {
+       "title": "Separate roles",
+       "visual": "Editable four-role diagram: experiencer, user, buyer, decision-maker; no fabricated product screen.",
+       "narration": "The person with the problem may not be the person who pays for a solution. In a fictional service example, visitors use the service, an organiser buys it, and a venue manager approves deployment. These roles can overlap, but do not assume they do. In your own map, mark roles as unknown until you have evidence."
+      },
+      {
+       "title": "Plan a respectful way to learn",
+       "visual": "Founder asks permission for a brief conversation; no identifying contact information appears.",
+       "narration": "Choose a realistic way to reach people in the group. Ask about a recent actual experience rather than pitching your preferred product. Use role labels instead of private names or contact details. Follow access rules and seek permission where appropriate. A planned conversation is not a completed interview."
+      },
+      {
+       "title": "Build your people map",
+       "visual": "Actual Lesson 07 worksheet recording with fictional entries; source labels retained on editable cards.",
+       "narration": "Create your Affected-People Map. Name the problem clue, group, situation, known impact, possible roles, access route, evidence status, and next question. You are selecting whom to understand, not proving demand or willingness to pay. If the clue is still only planned, keep the whole map clearly exploratory."
+      }
+     ],
+     "summary": "Read the full narration / transcript"
+    },
+    {
+     "type": "studied",
+     "label": "I read the transcript or reviewed the learning guide. Video is not required."
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "label": "02 / LEARN",
+   "heading": "A problem becomes clearer when you know whom to understand.",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Choose one clue from your Problem Discovery Journal. The next question is not “What should I build?” It is “Who experiences this difficulty, in what situation, and what does it change for them?”"
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "A specific group helps you decide whom to observe or speak with. It is a working research focus, not proof that everyone in the group needs a solution."
+       ]
+      },
+      {
+       "tag": "lesson-link",
+       "attrs": {
+        "lesson": "6",
+        "class": "btn secondary"
+       },
+       "children": [
+        "Review my discovery journal"
+       ]
+      },
+      {
+       "tag": "h3",
+       "attrs": {},
+       "children": [
+        "By the end, you can"
+       ]
+      },
+      {
+       "tag": "ul",
+       "attrs": {},
+       "children": [
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Describe a specific affected group and situation."
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Connect the group to a task, trigger and possible impact."
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Distinguish an experiencer, user, buyer and decision-maker."
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Keep evidence, assumptions and unknowns separate."
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Plan one respectful way to reach and learn from people."
+         ]
+        }
+       ]
+      },
+      {
+       "tag": "h3",
+       "attrs": {},
+       "children": [
+        "Make the group useful for research"
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "“Everyone” and “all people in Dubai” are too broad. “First-time adult visitors finding the correct check-in queue at an evening event” gives you a situation to investigate. Describe role, context and task before adding characteristics that may not explain the problem."
+       ]
+      },
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "note"
+       },
+       "children": [
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "Use this structure:"
+         ]
+        },
+        " [people in a role or situation] trying to [task] when [trigger/context].",
+        {
+         "tag": "br",
+         "attrs": {},
+         "children": []
+        },
+        {
+         "tag": "small",
+         "attrs": {},
+         "children": [
+          "A narrow starting group can be revised when evidence points elsewhere."
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "practice",
+     "legend": "Practise choosing a research group",
+     "prompt": "For a clue about check-in confusion, which group is most specific and useful to begin understanding?",
+     "options": [
+      {
+       "label": "Everyone",
+       "feedback": "That group is too broad to guide a specific observation. Start with people in a role, trying to complete a task, in a particular situation."
+      },
+      {
+       "label": "First-time visitors finding event check-in",
+       "feedback": "Useful starting group: the role, task and event context make it possible to plan discovery. You still need to check who actually experiences the difficulty."
+      },
+      {
+       "label": "All residents of Dubai",
+       "feedback": "That group is too broad to guide a specific observation. Start with people in a role, trying to complete a task, in a particular situation."
+      }
+     ]
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {
+        "class": "help"
+       },
+       "children": [
+        "Optional practice. This fictional example does not establish demand."
+       ]
+      },
+      {
+       "tag": "h3",
+       "attrs": {},
+       "children": [
+        "Separate four roles"
+       ]
+      },
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "grid2"
+       },
+       "children": [
+        {
+         "tag": "div",
+         "attrs": {
+          "class": "note"
+         },
+         "children": [
+          {
+           "tag": "h3",
+           "attrs": {},
+           "children": [
+            "Experiencer"
+           ]
+          },
+          {
+           "tag": "p",
+           "attrs": {},
+           "children": [
+            "Who feels the difficulty? They may or may not use a future solution."
+           ]
+          }
+         ]
+        },
+        {
+         "tag": "div",
+         "attrs": {
+          "class": "note"
+         },
+         "children": [
+          {
+           "tag": "h3",
+           "attrs": {},
+           "children": [
+            "User"
+           ]
+          },
+          {
+           "tag": "p",
+           "attrs": {},
+           "children": [
+            "Who would interact with the proposed service or product? At discovery stage this may be unknown."
+           ]
+          }
+         ]
+        },
+        {
+         "tag": "div",
+         "attrs": {
+          "class": "note"
+         },
+         "children": [
+          {
+           "tag": "h3",
+           "attrs": {},
+           "children": [
+            "Buyer"
+           ]
+          },
+          {
+           "tag": "p",
+           "attrs": {},
+           "children": [
+            "Who would pay? Do not infer willingness to pay merely because someone has a problem."
+           ]
+          }
+         ]
+        },
+        {
+         "tag": "div",
+         "attrs": {
+          "class": "note"
+         },
+         "children": [
+          {
+           "tag": "h3",
+           "attrs": {},
+           "children": [
+            "Decision-maker"
+           ]
+          },
+          {
+           "tag": "p",
+           "attrs": {},
+           "children": [
+            "Who can approve access, purchase or deployment? This may overlap with another role or involve several people."
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "Fictional role example:"
+         ]
+        },
+        " suppose visitors use a wayfinding service, an organiser purchases it, and a venue manager approves deployment. Visitors are users; the organiser is the buyer; the manager is an approving decision-maker. This is a teaching scenario, not a statement that these people will buy your idea."
+       ]
+      },
+      {
+       "tag": "h3",
+       "attrs": {},
+       "children": [
+        "Describe impact and current behaviour"
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "What task becomes harder? What extra effort, uncertainty or consequence have you actually observed or heard about? What do people do today? Asking staff could be a good workaround. If the scale, frequency or severity is unknown, record that honestly."
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "Illustrative clue:"
+         ]
+        },
+        " two visitors ask staff which queue to join. You can investigate first-time visitors, what directions they noticed, and whether the extra step matters. You cannot conclude that all visitors are dissatisfied or want a paid app."
+       ]
+      },
+      {
+       "tag": "h3",
+       "attrs": {},
+       "children": [
+        "Choose a reachable group"
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Can you appropriately observe a setting, ask an organiser for permission, or invite a brief conversation? Start with access you can realistically arrange. Do not claim you have interviewed people when you have only planned to contact them."
+       ]
+      },
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "note"
+       },
+       "children": [
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "Useful question:"
+         ]
+        },
+        " “Tell me what happened the last time you arrived at an unfamiliar event.”",
+        {
+         "tag": "br",
+         "attrs": {},
+         "children": []
+        },
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "Leading question:"
+         ]
+        },
+        " “Wouldn’t our new app make check-in much better?”",
+        {
+         "tag": "br",
+         "attrs": {},
+         "children": []
+        },
+        {
+         "tag": "small",
+         "attrs": {},
+         "children": [
+          "The first explores experience; the second introduces your solution before understanding the problem."
+         ]
+        }
+       ]
+      },
+      {
+       "tag": "h3",
+       "attrs": {},
+       "children": [
+        "Keep this exploratory"
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "If Lesson 06 contains only planned observations, you can still draft a group hypothesis and an access plan. Label them planned or assumed. A group map is preparation for discovery, not a validated customer profile, market size estimate or purchasing commitment. Later work will test and refine it."
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Use roles or aliases rather than personal names, avoid private contact details, follow access rules, and ask permission where appropriate. Different people in the same group may have different needs; seek disconfirming cases as well as supportive ones."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "build",
+   "label": "03 / BUILD",
+   "heading": "Your Affected-People Map",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Choose one journal clue, a specific group, and a next learning step. “Unknown” and “planned” are valid where evidence is missing. Keep the people who experience the problem separate from possible users, buyers and approvers."
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {
+        "class": "help"
+       },
+       "children": [
+        "Arabic entries use automatic text direction. Use role labels instead of private identifiers. Lesson 07 saves separately."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "saveStatus"
+    },
+    {
+     "type": "fields",
+     "ids": [
+      "problemclue",
+      "affected",
+      "situation",
+      "impact",
+      "roles",
+      "access",
+      "basis",
+      "question",
+      "support"
+     ]
+    },
+    {
+     "type": "extension",
+     "id": "preview",
+     "props": {
+      "label": "Preview my affected-people map",
+      "kind": "lines",
+      "joiner": "\n\n",
+      "lines": [
+       {
+        "id": "problemclue",
+        "label": "Problem clue / source"
+       },
+       {
+        "id": "affected",
+        "label": "Affected group hypothesis"
+       },
+       {
+        "id": "situation",
+        "label": "Task and situation"
+       },
+       {
+        "id": "impact",
+        "label": "Known/unknown impact and workaround"
+       },
+       {
+        "id": "roles",
+        "label": "Roles to investigate"
+       },
+       {
+        "id": "access",
+        "label": "Access plan (no one contacted)"
+       },
+       {
+        "id": "basis",
+        "label": "Evidence and assumptions"
+       },
+       {
+        "id": "question",
+        "label": "Next question"
+       }
+      ],
+      "footer": "This map is exploratory. Learner statements are not verified demand or buyer commitment."
+     }
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "note"
+       },
+       "children": [
+        "This is a research focus, not verified demand or a buyer commitment. No one is contacted. Local storage is plaintext; download a copy before changing browsers."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "extension",
+     "id": "download",
+     "props": {
+      "label": "Download Affected-People Map"
+     }
+    },
+    {
+     "type": "reset",
+     "label": "Clear local draft"
+    }
+   ]
+  },
+  {
+   "id": "coach",
+   "label": "04 / ASK AI",
+   "heading": "Your thinking partner",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "span",
+       "attrs": {
+        "class": "badge"
+       },
+       "children": [
+        "Simulated Coach · no AI connection"
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Try four scripted guidance modes. The preview reads your current worksheet locally; it does not send information anywhere."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "extension",
+     "id": "coach",
+     "props": {
+      "modes": [
+       {
+        "id": "teach",
+        "label": "Teach me"
+       },
+       {
+        "id": "guide",
+        "label": "Guide me"
+       },
+       {
+        "id": "review",
+        "label": "Review my work"
+       },
+       {
+        "id": "challenge",
+        "label": "Challenge my idea"
+       }
+      ],
+      "replies": {
+       "teach": "Choose a specific group in a situation. The experiencer feels the difficulty; a user interacts with a future solution; a buyer pays; a decision-maker approves. Roles can overlap, but demand and willingness to pay require evidence.",
+       "guide": "Choose a clue from your journal and retain its source status. Describe the group, task, trigger and known impact. Mark future user/buyer/approval roles as unknown where needed, then choose a respectful access route and neutral question.",
+       "review": "Affected-People Map check: {missing} required fields still empty. All eight map entries are present. Check group specificity, role assumptions, access permissions and evidence labels.\nThis scripted check counts fields only. It cannot verify the group, interviews, buyer interest or willingness to pay.",
+       "challenge": "Could another group be more affected? Are you assuming the user is the buyer? Could the workaround already be sufficient? What would contradict your group hypothesis? If access fails, keep missing evidence visible.",
+       "reviewIncomplete": "Affected-People Map check: {missing} required fields still empty. Complete the problem clue, group, situation, impact, roles, access, evidence status and next question.\nThis scripted check counts fields only. It cannot verify the group, interviews, buyer interest or willingness to pay."
+      },
+      "heading": "SCRIPTED DEMO / ",
+      "questionNote": "Your question was entered locally. This preview does not generate a custom answer.",
+      "questionLabel": "Your question (optional)",
+      "placeholder": "What should I focus on first?",
+      "maxLength": 500,
+      "submitLabel": "Show simulated guidance"
+     }
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {
+        "class": "help"
+       },
+       "children": [
+        "Responses are predefined for this lesson, not generated answers to your question. No customer demand or venture readiness is verified."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "challenge",
+   "label": "05 / CHALLENGE",
+   "heading": "Check that the group fits the clue.",
+   "blocks": [
+    {
+     "type": "fields",
+     "ids": [
+      "assumption",
+      "evidence",
+      "constraint"
+     ]
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "details",
+       "attrs": {},
+       "children": [
+        {
+         "tag": "summary",
+         "attrs": {},
+         "children": [
+          "More questions to discuss"
+         ]
+        },
+        {
+         "tag": "ul",
+         "attrs": {},
+         "children": [
+          {
+           "tag": "li",
+           "attrs": {},
+           "children": [
+            "Are you describing a real situation or only broad demographic labels?"
+           ]
+          },
+          {
+           "tag": "li",
+           "attrs": {},
+           "children": [
+            "Could a different group experience the greater impact?"
+           ]
+          },
+          {
+           "tag": "li",
+           "attrs": {},
+           "children": [
+            "Have you confused the person using a solution with the person paying?"
+           ]
+          },
+          {
+           "tag": "li",
+           "attrs": {},
+           "children": [
+            "What evidence contradicts the group hypothesis?"
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "quiz",
+   "label": "06 / CHECK YOUR UNDERSTANDING",
+   "heading": "A quick knowledge check",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Answer all three. You can retry; all three correct are required for local completion."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "quiz"
+    }
+   ]
+  },
+  {
+   "id": "finish",
+   "label": "07 / DELIVER & PROGRESS",
+   "heading": "Your deliverable: an Affected-People Map.",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Your problem clue, group, situation, impact, roles, evidence status and next question form a starting research map. Download it to keep a copy. Local self-completion does not verify the group, demand or willingness to pay."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "checklist"
+    },
+    {
+     "type": "honest",
+     "label": "I kept role assumptions, evidence and unknowns separate and did not invent interviews or buyer interest."
+    },
+    {
+     "type": "complete",
+     "label": "Mark Lesson 07 complete locally",
+     "completedLabel": "Lesson 07 self-completed locally",
+     "completedNotice": "Lesson 07 self-completed locally. Download your Affected-People Map. No reviewer approval or venture validation is recorded.",
+     "incompleteNotice": "Complete the remaining requirements above before marking this lesson complete."
+    },
+    {
+     "type": "extension",
+     "id": "moduleNote",
+     "props": {
+      "parts": [
+       {
+        "nodes": [
+         {
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+           "Module 1.2 · Finding Problems Worth Solving"
+          ]
+         }
+        ]
+       },
+       {
+        "status": "1.2",
+        "complete": "All five lessons self-completed locally. Module 1.2 learning pack complete; no validation, certification or approval is implied.",
+        "incomplete": "{count} / 5 lessons self-completed locally. Complete each separately to finish this learning module."
+       },
+       {
+        "nodes": [
+         {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+           "Next you will explore symptoms, causes and consequences before choosing a solution."
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "type": "next"
+    }
+   ]
+  }
+ ],
+ "nav": [
+  {
+   "id": "watch",
+   "label": "Watch"
+  },
+  {
+   "id": "learn",
+   "label": "Learn"
+  },
+  {
+   "id": "build",
+   "label": "Build"
+  },
+  {
+   "id": "coach",
+   "label": "Ask AI"
+  },
+  {
+   "id": "challenge",
+   "label": "Challenge"
+  },
+  {
+   "id": "quiz",
+   "label": "Knowledge check"
+  },
+  {
+   "id": "finish",
+   "label": "Deliver"
+  }
+ ]
+}

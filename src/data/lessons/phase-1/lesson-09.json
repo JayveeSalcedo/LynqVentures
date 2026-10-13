@@ -1,0 +1,1146 @@
+{
+ "number": 9,
+ "phase": 1,
+ "module": "1.2",
+ "title": "Current Workarounds & Alternatives",
+ "hero": {
+  "eyebrow": "Module 1.2 · Finding Problems Worth Solving · Lesson 09",
+  "title": "Current Workarounds & Alternatives.",
+  "intro": "Understand how people cope today before proposing something new. Compare existing approaches, their useful features and limits, and the effort required to change. Your deliverable is an Alternatives Log.",
+  "badges": [
+   "Beginner friendly"
+  ],
+  "meta": "35–45 min · Recommended: Lessons 06–08"
+ },
+ "fields": [
+  {
+   "id": "focus",
+   "label": "Which problem, person, task and context are you comparing?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Planned clue: first-time visitor finding evening-event check-in.",
+   "maxLength": 2000,
+   "hint": "Refer to Lessons 06–08 and preserve the source/status."
+  },
+  {
+   "id": "current",
+   "label": "What is the current workaround or status quo?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Asking staff: may be familiar and useful; limits and frequency to check.",
+   "maxLength": 2000,
+   "hint": "State the approach, what helps, limitations, and whether observed/reported/planned/unknown."
+  },
+  {
+   "id": "alternativea",
+   "label": "What is another approach or option to investigate?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Printed directions: availability and usefulness unknown; inspect the setting with permission.",
+   "maxLength": 2000,
+   "hint": "Include benefits, limitations and source/status. Not yet identified is valid with a search plan."
+  },
+  {
+   "id": "alternativeb",
+   "label": "What is a third approach, including delay/avoid/do-nothing if relevant?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Existing digital information: not yet identified; check public event information.",
+   "maxLength": 2000,
+   "hint": "Do not invent an option. Say unknown and how you will check when needed."
+  },
+  {
+   "id": "criteria",
+   "label": "Which fair comparison criteria matter for this person and task?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Clarity, effort and availability; time, cost and performance unknown.",
+   "maxLength": 2000,
+   "hint": "Choose criteria such as effort, clarity or availability. Include numbers only if sourced."
+  },
+  {
+   "id": "basis",
+   "label": "What evidence supports the comparison, and what is missing?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "All approaches are exploratory; no user preference or comparative measures collected.",
+   "maxLength": 2000,
+   "hint": "Keep observations, reports, descriptions and plans separate."
+  },
+  {
+   "id": "switching",
+   "label": "Why might people stay with the current approach or try another?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Staff help may already be sufficient; an unfamiliar tool could add effort. Needs investigation.",
+   "maxLength": 2000,
+   "hint": "Consider time, learning, trust, permission and habits. Mark benefits/barriers as hypotheses."
+  },
+  {
+   "id": "nextquestion",
+   "label": "What neutral next question and small check will you use?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Ask what the visitor did last time and what worked; arrange appropriate access first.",
+   "maxLength": 2000,
+   "hint": "Ask about recent behaviour rather than approval of your idea; include access needed."
+  },
+  {
+   "id": "support",
+   "label": "What other option or access constraint should remain visible?",
+   "kind": "textarea",
+   "required": false,
+   "placeholder": "Optional: another alternative, source to review, or permission still needed…",
+   "maxLength": 2000
+  },
+  {
+   "id": "assumption",
+   "label": "Where might you be understating what the current workaround does well?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "I assume the current approach is weak because… but need to check…",
+   "maxLength": 2000
+  },
+  {
+   "id": "evidence",
+   "label": "What would show that people prefer to keep the current approach?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "If people describe… or the alternative adds… I will reconsider…",
+   "maxLength": 2000
+  },
+  {
+   "id": "constraint",
+   "label": "How will you compare fairly without inventing metrics or exposing private data?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "I will compare the same task/context, label unknowns, and use…",
+   "maxLength": 2000
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "Which can be an alternative to a future digital service?",
+   "options": [
+    "Asking someone, a manual workaround, or doing nothing",
+    "Only another app with similar features",
+    "Nothing unless it is a paid product"
+   ],
+   "answer": 0,
+   "explanation": "Alternatives include current behaviour and indirect ways to achieve the same job."
+  },
+  {
+   "prompt": "How should you handle unknown price or performance?",
+   "options": [
+    "Make a likely estimate and present it as fact",
+    "Label it unknown and identify a source or check",
+    "Treat it as zero"
+   ],
+   "answer": 1,
+   "explanation": "Unknown is not zero; use appropriately sourced information and keep gaps visible."
+  },
+  {
+   "prompt": "Does a stated preference prove adoption or willingness to pay?",
+   "options": [
+    "Yes, always",
+    "Yes, if the feature sounds better",
+    "No; investigate behaviour and switching burdens separately"
+   ],
+   "answer": 2,
+   "explanation": "Preference alone does not establish adoption/payment; familiar approaches and change effort matter."
+  }
+ ],
+ "checklist": [
+  {
+   "kind": "studied",
+   "label": "Transcript or learning guide reviewed"
+  },
+  {
+   "kind": "fields",
+   "label": "Alternatives Log fields complete",
+   "ids": [
+    "focus",
+    "current",
+    "alternativea",
+    "alternativeb",
+    "criteria",
+    "basis",
+    "switching",
+    "nextquestion"
+   ]
+  },
+  {
+   "kind": "fields",
+   "label": "Three red-team reflections complete",
+   "ids": [
+    "assumption",
+    "evidence",
+    "constraint"
+   ]
+  },
+  {
+   "kind": "quiz",
+   "label": "Knowledge check: 3 / 3 correct"
+  },
+  {
+   "kind": "honest",
+   "label": "Final self-review confirmed"
+  }
+ ],
+ "deliverable": {
+  "title": "LYNQ Academy — Alternatives Log",
+  "filename": "LYNQ-Alternatives-Log.md",
+  "headerLines": [
+   "Phase 01 · Module {module} · Lesson {lesson}",
+   "Status: {status}",
+   "Created: {created}"
+  ],
+  "fieldIds": [
+   "focus",
+   "current",
+   "alternativea",
+   "alternativeb",
+   "criteria",
+   "basis",
+   "switching",
+   "nextquestion",
+   "support",
+   "assumption",
+   "evidence",
+   "constraint"
+  ],
+  "footer": "Local prototype export. No reviewer submission or business validation."
+ },
+ "sections": [
+  {
+   "id": "watch",
+   "label": "01 / WATCH",
+   "heading": "What already works for people?",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "The planned explainer compares familiar workarounds with other approaches and explores why people may prefer the status quo. Use the transcript or guide while the video is a placeholder."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "video-placeholder"
+       },
+       "children": [
+        {
+         "tag": "span",
+         "attrs": {
+          "class": "badge"
+         },
+         "children": [
+          "Video placeholder · media not produced"
+         ]
+        },
+        {
+         "tag": "h3",
+         "attrs": {},
+         "children": [
+          "Current Workarounds & Alternatives"
+         ]
+        },
+        {
+         "tag": "p",
+         "attrs": {},
+         "children": [
+          "Planned: 2½-minute explainer + worksheet demo",
+          {
+           "tag": "br",
+           "attrs": {},
+           "children": []
+          },
+          "Status quo → Alternatives → Fair comparison → Switching effort"
+         ]
+        },
+        {
+         "tag": "small",
+         "attrs": {},
+         "children": [
+          "No playable video or generated media is attached."
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "storyboard",
+     "scenes": [
+      {
+       "title": "Start with what people do today",
+       "visual": "Adult visitor asks a staff member for directions at a fictional Dubai venue.",
+       "narration": "People rarely wait for a founder to solve every difficulty. They already cope: they ask someone, make a note, use a tool, change the task, or do nothing. Before proposing a new solution, understand those existing approaches. Your goal today is an honest alternatives log, not a claim that your idea is better."
+      },
+      {
+       "title": "Look beyond similar products",
+       "visual": "Editable option cards: staff help, printed directions, existing digital information, delay or avoid.",
+       "narration": "An alternative does not have to look like your future product. In our fictional check-in example, a visitor might ask staff, read directions, use existing information, or wait. Those approaches can compete for the same job. Some may work well enough that the person sees little reason to change."
+      },
+      {
+       "title": "Record benefits as well as limits",
+       "visual": "Visitor receives useful directions; observer keeps anonymous process notes.",
+       "narration": "Ask what each approach helps with and where it falls short. Staff help may be familiar and reassuring. Printed directions may be easy to use without an account. Possible limits still need checking. Do not invent complaints, prices or performance measures just to make a new product appear necessary."
+      },
+      {
+       "title": "Compare the same job",
+       "visual": "Editable same-context comparison diagram; labels added in post, no invented product screen.",
+       "narration": "Compare approaches for the same person, task and situation. Choose relevant criteria such as effort, clarity, availability or cost where it is known. Label what you observed, what was reported, and what is only planned. Unknown is not zero, and an incomplete search does not prove there are no alternatives."
+      },
+      {
+       "title": "Understand the effort of switching",
+       "visual": "Editable change-cost cards: time, learning, habits, trust and coordination.",
+       "narration": "A new approach may require time, learning, permission or a change in habits. Ask why someone would leave a familiar workaround and what might stop them. A preference for your idea is not the same as willingness to adopt or pay. Keep any switching benefit as a hypothesis until you investigate."
+      },
+      {
+       "title": "Build the alternatives log",
+       "visual": "Actual Lesson 09 worksheet screen recording with fictional source-labeled answers.",
+       "narration": "Create your Alternatives Log. Define the problem and task, record three approaches or clearly mark options still to find, compare them fairly, and note evidence gaps. Include the status quo. Finish with a neutral question about a recent experience and one small next check. You are learning what exists, not choosing a winner yet."
+      }
+     ],
+     "sceneMeta": "Planned final scene: 25 seconds · narration and precise graphics added in post",
+     "summary": "Explore the six-scene storyboard placeholder"
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {
+        "class": "help"
+       },
+       "children": [
+        "Use an explainer with editable diagrams, documentary cutaways and a real worksheet demo. Generate short assets where supported, then assemble in an editor."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "videoPrompt",
+     "prompt": "Create an engaging beginner-friendly explainer for LYNQ Venture Studio Academy, Module 1.2 Lesson 09: “Current Workarounds & Alternatives.” Final editorial target about 150 seconds, 16:9, 1080p. Use natural documentary process cutaways, editable option/comparison diagrams and a real worksheet recording. Palette navy #0B2338, teal #087D79, mint #BCF2DF and white; contemporary Dubai venue/workspace; diverse adult cast; clear friendly English narrator.\n\nTeach status quo, manual workarounds, tools/services, delay/avoid/do-nothing, fair comparison for the same person/task/context, benefits as well as limitations, evidence status and switching effort. FICTIONAL example: first-time event visitors finding check-in. Possible approaches include staff help, printed directions and existing digital information; availability and performance remain unknown unless explicitly part of the fictional scene. Label graphics “Illustrative example.” No real competitor/product names, invented prices, measured delays, fabricated complaints, endorsements, customer traction or claims of guaranteed adoption/payment. A new product must not automatically appear superior.\n\nUse the six scenes and exact narration below. Target about 25 seconds per scene in the final edit, confirm with narrator read-through and natural holds. Record one consistent voice track separately. Generate short shots only in durations supported by the selected Gemini/Veo account/model; an eight-second shot plan is optional where supported. Assemble footage, editable diagrams, narration and captions in an editor rather than claiming a single prompt generates a polished full lesson.\n\nSCENE 1 — Start with what people do today. Visual: Adult visitor asks a staff member for directions at a fictional Dubai venue. Narration: “People rarely wait for a founder to solve every difficulty. They already cope: they ask someone, make a note, use a tool, change the task, or do nothing. Before proposing a new solution, understand those existing approaches. Your goal today is an honest alternatives log, not a claim that your idea is better.”\n\nSCENE 2 — Look beyond similar products. Visual: Editable option cards: staff help, printed directions, existing digital information, delay or avoid. Narration: “An alternative does not have to look like your future product. In our fictional check-in example, a visitor might ask staff, read directions, use existing information, or wait. Those approaches can compete for the same job. Some may work well enough that the person sees little reason to change.”\n\nSCENE 3 — Record benefits as well as limits. Visual: Visitor receives useful directions; observer keeps anonymous process notes. Narration: “Ask what each approach helps with and where it falls short. Staff help may be familiar and reassuring. Printed directions may be easy to use without an account. Possible limits still need checking. Do not invent complaints, prices or performance measures just to make a new product appear necessary.”\n\nSCENE 4 — Compare the same job. Visual: Editable same-context comparison diagram; labels added in post, no invented product screen. Narration: “Compare approaches for the same person, task and situation. Choose relevant criteria such as effort, clarity, availability or cost where it is known. Label what you observed, what was reported, and what is only planned. Unknown is not zero, and an incomplete search does not prove there are no alternatives.”\n\nSCENE 5 — Understand the effort of switching. Visual: Editable change-cost cards: time, learning, habits, trust and coordination. Narration: “A new approach may require time, learning, permission or a change in habits. Ask why someone would leave a familiar workaround and what might stop them. A preference for your idea is not the same as willingness to adopt or pay. Keep any switching benefit as a hypothesis until you investigate.”\n\nSCENE 6 — Build the alternatives log. Visual: Actual Lesson 09 worksheet screen recording with fictional source-labeled answers. Narration: “Create your Alternatives Log. Define the problem and task, record three approaches or clearly mark options still to find, compare them fairly, and note evidence gaps. Include the status quo. Finish with a neutral question about a recent experience and one small next check. You are learning what exists, not choosing a winner yet.”\n\nFirst return a storyboard, timings and individual shot prompts. Generated footage must have no text, logos, captions, watermark, talking presenters or fabricated product UI. Add exact LYNQ branding, diagrams and text in post. Suggested graphics: Same person + Same task + Same context; Status quo / Other approach / Option to investigate; Helps / Limits / Evidence missing; Time / Learning / Habit / Trust / Permission; Unknown ≠ Zero; Preference ≠ Adoption or Payment. Keep the same approved observer reference actor/wardrobe and show respectful realistic process interactions.\n\nScene 6 uses actual approved Lesson 09 screen recording with fictional answers and evidence labels. Do not generate the UI or expose private client/competitor research. End card in post: “Understand what works today. Compare before you propose.”\n\nHuman-produced deliverables: H.264 1920×1080 MP4, editable project/diagrams, narrator audio, thumbnail, timed English VTT/SRT and transcript, rights/generation provenance. Separately native-reviewed Arabic narration/captions and RTL graphics; do not auto-mirror the English worksheet. Check comparison fairness, source/unknown labels, mobile readability, pacing, audio and brand before publication. No video is generated by the prototype.",
+     "filename": "LYNQ-Lesson-09-Gemini-Video-Prompt.md",
+     "title": "# LYNQ Lesson 09 — Gemini video prompt",
+     "summary": "Gemini video prompt — ready to copy"
+    },
+    {
+     "type": "transcript",
+     "scenes": [
+      {
+       "title": "Start with what people do today",
+       "visual": "Adult visitor asks a staff member for directions at a fictional Dubai venue.",
+       "narration": "People rarely wait for a founder to solve every difficulty. They already cope: they ask someone, make a note, use a tool, change the task, or do nothing. Before proposing a new solution, understand those existing approaches. Your goal today is an honest alternatives log, not a claim that your idea is better."
+      },
+      {
+       "title": "Look beyond similar products",
+       "visual": "Editable option cards: staff help, printed directions, existing digital information, delay or avoid.",
+       "narration": "An alternative does not have to look like your future product. In our fictional check-in example, a visitor might ask staff, read directions, use existing information, or wait. Those approaches can compete for the same job. Some may work well enough that the person sees little reason to change."
+      },
+      {
+       "title": "Record benefits as well as limits",
+       "visual": "Visitor receives useful directions; observer keeps anonymous process notes.",
+       "narration": "Ask what each approach helps with and where it falls short. Staff help may be familiar and reassuring. Printed directions may be easy to use without an account. Possible limits still need checking. Do not invent complaints, prices or performance measures just to make a new product appear necessary."
+      },
+      {
+       "title": "Compare the same job",
+       "visual": "Editable same-context comparison diagram; labels added in post, no invented product screen.",
+       "narration": "Compare approaches for the same person, task and situation. Choose relevant criteria such as effort, clarity, availability or cost where it is known. Label what you observed, what was reported, and what is only planned. Unknown is not zero, and an incomplete search does not prove there are no alternatives."
+      },
+      {
+       "title": "Understand the effort of switching",
+       "visual": "Editable change-cost cards: time, learning, habits, trust and coordination.",
+       "narration": "A new approach may require time, learning, permission or a change in habits. Ask why someone would leave a familiar workaround and what might stop them. A preference for your idea is not the same as willingness to adopt or pay. Keep any switching benefit as a hypothesis until you investigate."
+      },
+      {
+       "title": "Build the alternatives log",
+       "visual": "Actual Lesson 09 worksheet screen recording with fictional source-labeled answers.",
+       "narration": "Create your Alternatives Log. Define the problem and task, record three approaches or clearly mark options still to find, compare them fairly, and note evidence gaps. Include the status quo. Finish with a neutral question about a recent experience and one small next check. You are learning what exists, not choosing a winner yet."
+      }
+     ],
+     "summary": "Read the full narration / transcript"
+    },
+    {
+     "type": "studied",
+     "label": "I read the transcript or reviewed the learning guide. Video is not required."
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "label": "02 / LEARN",
+   "heading": "Your idea competes with what people already do.",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Use the problem, people and possible explanations from Lessons 06–08. Now look at how people manage the task today. A workaround is a way of coping with a difficulty; an alternative is another way to achieve the same job. It may be manual, informal, digital, or simply delaying or avoiding the task."
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "The ",
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "status quo"
+         ]
+        },
+        " is the current approach. Familiarity, low effort and trust can make it attractive even when it is imperfect. “No app exists” does not mean “no alternatives exist.”"
+       ]
+      },
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "actions"
+       },
+       "children": [
+        {
+         "tag": "lesson-link",
+         "attrs": {
+          "lesson": "6",
+          "class": "btn secondary"
+         },
+         "children": [
+          "Review discovery journal"
+         ]
+        },
+        {
+         "tag": "lesson-link",
+         "attrs": {
+          "lesson": "7",
+          "class": "btn secondary"
+         },
+         "children": [
+          "Review affected people"
+         ]
+        },
+        {
+         "tag": "lesson-link",
+         "attrs": {
+          "lesson": "8",
+          "class": "btn secondary"
+         },
+         "children": [
+          "Review problem map"
+         ]
+        }
+       ]
+      },
+      {
+       "tag": "h3",
+       "attrs": {},
+       "children": [
+        "By the end, you can"
+       ]
+      },
+      {
+       "tag": "ul",
+       "attrs": {},
+       "children": [
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Identify the current approach and less obvious alternatives."
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Record benefits as well as limits."
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Compare approaches for the same person, task and context."
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Keep missing evidence visible without inventing measurements."
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Explain switching effort and choose a neutral next question."
+         ]
+        }
+       ]
+      },
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "grid2"
+       },
+       "children": [
+        {
+         "tag": "div",
+         "attrs": {
+          "class": "note"
+         },
+         "children": [
+          {
+           "tag": "h3",
+           "attrs": {},
+           "children": [
+            "Manual or human help"
+           ]
+          },
+          {
+           "tag": "p",
+           "attrs": {},
+           "children": [
+            "Ask a person, write a note, call, message, or use a staff-supported process."
+           ]
+          },
+          {
+           "tag": "small",
+           "attrs": {},
+           "children": [
+            "This may already be effective and trusted."
+           ]
+          }
+         ]
+        },
+        {
+         "tag": "div",
+         "attrs": {
+          "class": "note"
+         },
+         "children": [
+          {
+           "tag": "h3",
+           "attrs": {},
+           "children": [
+            "Existing tools or services"
+           ]
+          },
+          {
+           "tag": "p",
+           "attrs": {},
+           "children": [
+            "A spreadsheet, printed information, a website, an app or a specialised service may serve the same job."
+           ]
+          },
+          {
+           "tag": "small",
+           "attrs": {},
+           "children": [
+            "Record whether it is actually available in the context."
+           ]
+          }
+         ]
+        },
+        {
+         "tag": "div",
+         "attrs": {
+          "class": "note"
+         },
+         "children": [
+          {
+           "tag": "h3",
+           "attrs": {},
+           "children": [
+            "Change the task"
+           ]
+          },
+          {
+           "tag": "p",
+           "attrs": {},
+           "children": [
+            "Use another route, ask someone to handle it, or simplify what needs to be done."
+           ]
+          }
+         ]
+        },
+        {
+         "tag": "div",
+         "attrs": {
+          "class": "note"
+         },
+         "children": [
+          {
+           "tag": "h3",
+           "attrs": {},
+           "children": [
+            "Delay, avoid, or do nothing"
+           ]
+          },
+          {
+           "tag": "p",
+           "attrs": {},
+           "children": [
+            "People may accept the inconvenience or skip the task. Understand why before assuming demand."
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "tag": "h3",
+       "attrs": {},
+       "children": [
+        "Compare fairly"
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "Illustrative case:"
+         ]
+        },
+        " a first-time visitor wants to find check-in. They might ask staff, use printed directions, or look for existing digital information. Staff help could be reassuring. A map could be accessible without an account. Digital information could be unavailable or out of date; that is a question to investigate, not a claim."
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "For each approach, record what helps, limitations, and source status. Use the same person/task/context for the comparison. Only record time, price or performance when you have an appropriate source. Unknown is not zero, and a guessed metric is not evidence."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "practice",
+     "legend": "Which belongs in an alternatives log?",
+     "prompt": "For a clue about finding event check-in, which is relevant even though it is not another app?",
+     "options": [
+      {
+       "label": "Only products that look like my app",
+       "feedback": "Look beyond similar products. Manual help, existing tools, changing the task or doing nothing may all matter; an incomplete search does not prove none exist."
+      },
+      {
+       "label": "Asking venue staff for directions",
+       "feedback": "Useful alternative: staff help can serve the same task even though it is not an app. Investigate its benefits and limits fairly."
+      },
+      {
+       "label": "Assume nothing exists because I have not searched",
+       "feedback": "Look beyond similar products. Manual help, existing tools, changing the task or doing nothing may all matter; an incomplete search does not prove none exist."
+      }
+     ]
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {
+        "class": "help"
+       },
+       "children": [
+        "Optional practice; the fictional example is not competitor research."
+       ]
+      },
+      {
+       "tag": "h3",
+       "attrs": {},
+       "children": [
+        "Find the reason to change"
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "Switching effort"
+         ]
+        },
+        " is what a person must give up or do differently to use a new approach: time, learning, habits, trust, permission, cost or coordination. A slightly better feature may not outweigh those burdens."
+       ]
+      },
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "note"
+       },
+       "children": [
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "Neutral question:"
+         ]
+        },
+        " “What did you do the last time, and what worked or did not work?”",
+        {
+         "tag": "br",
+         "attrs": {},
+         "children": []
+        },
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "Follow-up:"
+         ]
+        },
+        " “What would make you try a different way?”",
+        {
+         "tag": "br",
+         "attrs": {},
+         "children": []
+        },
+        {
+         "tag": "small",
+         "attrs": {},
+         "children": [
+          "Do not turn a polite preference into proof of adoption or willingness to pay."
+         ]
+        }
+       ]
+      },
+      {
+       "tag": "h3",
+       "attrs": {},
+       "children": [
+        "Keep unknown options honest"
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Start with the current approach and investigate two other possibilities. If you do not know another option, write “not yet identified” and specify how you will look. Do not invent competitors, availability, complaints or prices to complete the worksheet."
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "A website description can help identify an offered service, but it does not prove user satisfaction or performance. A planned observation remains a plan. You will decide which problem to explore next in Lesson 10; this log does not choose a winning product."
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Use public or permission-based information, role labels and minimal personal data. Do not enter confidential client notes or private contact details into this local prototype."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "build",
+   "label": "03 / BUILD",
+   "heading": "Your Alternatives Log",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Compare the current approach and two other approaches or honest options-to-investigate. Record what each helps with as well as its limits. No winner is selected automatically."
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {
+        "class": "help"
+       },
+       "children": [
+        "Arabic entries use automatic text direction. Use role labels, preserve source status, and leave unsupported measures unknown. Lesson 09 saves separately."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "saveStatus"
+    },
+    {
+     "type": "fields",
+     "ids": [
+      "focus",
+      "current",
+      "alternativea",
+      "alternativeb",
+      "criteria",
+      "basis",
+      "switching",
+      "nextquestion",
+      "support"
+     ]
+    },
+    {
+     "type": "extension",
+     "id": "preview",
+     "props": {
+      "label": "Preview my alternatives log",
+      "kind": "lines",
+      "joiner": "\n\n",
+      "lines": [
+       {
+        "id": "focus",
+        "label": "Same person / task / context"
+       },
+       {
+        "id": "current",
+        "label": "Current approach — benefits, limits, source"
+       },
+       {
+        "id": "alternativea",
+        "label": "Alternative A / option to investigate"
+       },
+       {
+        "id": "alternativeb",
+        "label": "Alternative B / option to investigate"
+       },
+       {
+        "id": "criteria",
+        "label": "Fair criteria / unknown metrics"
+       },
+       {
+        "id": "basis",
+        "label": "Evidence and gaps"
+       },
+       {
+        "id": "switching",
+        "label": "Switching hypotheses"
+       },
+       {
+        "id": "nextquestion",
+        "label": "Next neutral question / check"
+       }
+      ],
+      "footer": "No approach is scored or selected automatically. This log does not prove adoption or willingness to pay."
+     }
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "note"
+       },
+       "children": [
+        "This log does not verify competitors, performance, adoption or willingness to pay. Local storage is plaintext; download a copy before changing browsers."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "extension",
+     "id": "download",
+     "props": {
+      "label": "Download Alternatives Log"
+     }
+    },
+    {
+     "type": "reset",
+     "label": "Clear local draft"
+    }
+   ]
+  },
+  {
+   "id": "coach",
+   "label": "04 / ASK AI",
+   "heading": "Your thinking partner",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "span",
+       "attrs": {
+        "class": "badge"
+       },
+       "children": [
+        "Simulated Coach · no AI connection"
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Try four scripted guidance modes. The preview reads your current worksheet locally; it does not send information anywhere."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "extension",
+     "id": "coach",
+     "props": {
+      "modes": [
+       {
+        "id": "teach",
+        "label": "Teach me"
+       },
+       {
+        "id": "guide",
+        "label": "Guide me"
+       },
+       {
+        "id": "review",
+        "label": "Review my work"
+       },
+       {
+        "id": "challenge",
+        "label": "Challenge my idea"
+       }
+      ],
+      "replies": {
+       "teach": "Alternatives include the status quo, manual help, tools, changing the task and doing nothing. Compare approaches for the same person/task/context. Record benefits and switching burdens, not just complaints.",
+       "guide": "Define the task and current workaround, then two other approaches or clearly labeled options to investigate. Compare relevant criteria, state evidence gaps, and choose a neutral question about recent behaviour.",
+       "review": "Alternatives Log check: {missing} required fields still empty. All eight log entries are present. Check benefits as well as limits, consistent comparison context, source labels, unknown metrics and switching effort.\nThis scripted check counts fields only. It cannot verify alternatives, performance, adoption or willingness to pay.",
+       "challenge": "Could the current workaround be good enough? Have you ignored habit or doing nothing? Are comparisons fair and sourced? What would make switching not worthwhile? Do not turn a polite preference into a purchase claim.",
+       "reviewIncomplete": "Alternatives Log check: {missing} required fields still empty. Complete the focus, current approach, two other options, criteria, evidence status, switching hypotheses and next question.\nThis scripted check counts fields only. It cannot verify alternatives, performance, adoption or willingness to pay."
+      },
+      "heading": "SCRIPTED DEMO / ",
+      "questionNote": "Your question was entered locally. This preview does not generate a custom answer.",
+      "questionLabel": "Your question (optional)",
+      "placeholder": "What should I focus on first?",
+      "maxLength": 500,
+      "submitLabel": "Show simulated guidance"
+     }
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {
+        "class": "help"
+       },
+       "children": [
+        "Responses are predefined for this lesson, not generated answers to your question. No customer demand or venture readiness is verified."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "challenge",
+   "label": "05 / CHALLENGE",
+   "heading": "Give the existing approach a fair hearing.",
+   "blocks": [
+    {
+     "type": "fields",
+     "ids": [
+      "assumption",
+      "evidence",
+      "constraint"
+     ]
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "details",
+       "attrs": {},
+       "children": [
+        {
+         "tag": "summary",
+         "attrs": {},
+         "children": [
+          "More questions to discuss"
+         ]
+        },
+        {
+         "tag": "ul",
+         "attrs": {},
+         "children": [
+          {
+           "tag": "li",
+           "attrs": {},
+           "children": [
+            "Have you ignored manual help, habit or doing nothing?"
+           ]
+          },
+          {
+           "tag": "li",
+           "attrs": {},
+           "children": [
+            "Are options compared for the same person, task and situation?"
+           ]
+          },
+          {
+           "tag": "li",
+           "attrs": {},
+           "children": [
+            "Are availability, prices or performance sourced or only guessed?"
+           ]
+          },
+          {
+           "tag": "li",
+           "attrs": {},
+           "children": [
+            "What real burden would switching impose?"
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "quiz",
+   "label": "06 / CHECK YOUR UNDERSTANDING",
+   "heading": "A quick knowledge check",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Answer all three. You can retry; all three correct are required for local completion."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "quiz"
+    }
+   ]
+  },
+  {
+   "id": "finish",
+   "label": "07 / DELIVER & PROGRESS",
+   "heading": "Your deliverable: an Alternatives Log.",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Your current approach, other options, fair criteria, evidence gaps, switching hypotheses and next question form a starting comparison log. Download it. Local self-completion does not establish a superior solution, adoption or demand."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "checklist"
+    },
+    {
+     "type": "honest",
+     "label": "I included the status quo, recorded benefits and limits fairly, and kept unsupported metrics and adoption claims unknown."
+    },
+    {
+     "type": "complete",
+     "label": "Mark Lesson 09 complete locally",
+     "completedLabel": "Lesson 09 self-completed locally",
+     "completedNotice": "Lesson 09 self-completed locally. Download your Alternatives Log. No reviewer approval or venture validation is recorded.",
+     "incompleteNotice": "Complete the remaining requirements above before marking this lesson complete."
+    },
+    {
+     "type": "extension",
+     "id": "moduleNote",
+     "props": {
+      "parts": [
+       {
+        "nodes": [
+         {
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+           "Module 1.2 · Finding Problems Worth Solving"
+          ]
+         }
+        ]
+       },
+       {
+        "status": "1.2",
+        "complete": "All five lessons self-completed locally. Module 1.2 learning pack complete; no validation, certification or approval is implied.",
+        "incomplete": "{count} / 5 lessons self-completed locally. Complete each separately to finish this learning module."
+       },
+       {
+        "nodes": [
+         {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+           "Next you will compare your problem candidates and choose one to explore further."
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "type": "next"
+    }
+   ]
+  }
+ ],
+ "nav": [
+  {
+   "id": "watch",
+   "label": "Watch"
+  },
+  {
+   "id": "learn",
+   "label": "Learn"
+  },
+  {
+   "id": "build",
+   "label": "Build"
+  },
+  {
+   "id": "coach",
+   "label": "Ask AI"
+  },
+  {
+   "id": "challenge",
+   "label": "Challenge"
+  },
+  {
+   "id": "quiz",
+   "label": "Knowledge check"
+  },
+  {
+   "id": "finish",
+   "label": "Deliver"
+  }
+ ]
+}

@@ -1,0 +1,1026 @@
+{
+ "number": 13,
+ "phase": 1,
+ "module": "1.3",
+ "title": "Research Without Guessing",
+ "hero": {
+  "eyebrow": "Module 1.3 · Understanding People & Context · Lesson 13",
+  "title": "Research Without Guessing.",
+  "intro": "Turn an important uncertainty into a research question. Record traceable sources, distinguish evidence from interpretation, and plan a check that could change your mind.",
+  "badges": [
+   "Beginner friendly"
+  ],
+  "meta": "35–45 min · Recommended: Lessons 11–12"
+ },
+ "fields": [
+  {
+   "id": "question",
+   "label": "Research question: specific uncertainty and decision it affects",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Use anonymous source codes; label planned work, never invented results.",
+   "maxLength": 2000
+  },
+  {
+   "id": "method",
+   "label": "Method and why it fits — observation, conversation or document; permission needed",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Use anonymous source codes; label planned work, never invented results.",
+   "maxLength": 2000
+  },
+  {
+   "id": "entrya",
+   "label": "Entry A: claim/status, source reference/date, supported statement, inference and limits",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Use anonymous source codes; label planned work, never invented results.",
+   "maxLength": 2000
+  },
+  {
+   "id": "entryb",
+   "label": "Entry B: claim/status, source reference/date, supported statement, inference and limits",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Use anonymous source codes; label planned work, never invented results.",
+   "maxLength": 2000
+  },
+  {
+   "id": "entryc",
+   "label": "Entry C: claim/status, source reference/date, supported statement, inference and limits",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Use anonymous source codes; label planned work, never invented results.",
+   "maxLength": 2000
+  },
+  {
+   "id": "quality",
+   "label": "Relevance, recency, independence, bias and conflicts across entries",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Use anonymous source codes; label planned work, never invented results.",
+   "maxLength": 2000
+  },
+  {
+   "id": "gaps",
+   "label": "What remains unknown? What could contradict your preferred explanation?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Use anonymous source codes; label planned work, never invented results.",
+   "maxLength": 2000
+  },
+  {
+   "id": "nextcheck",
+   "label": "Next ethical check: timing, access, resources and what result would change your decision",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Use anonymous source codes; label planned work, never invented results.",
+   "maxLength": 2000
+  },
+  {
+   "id": "support",
+   "label": "Optional help or access constraint",
+   "kind": "textarea",
+   "required": false,
+   "maxLength": 2000
+  },
+  {
+   "id": "assumption",
+   "label": "Which interpretation have you presented too confidently?",
+   "kind": "textarea",
+   "required": true,
+   "maxLength": 2000
+  },
+  {
+   "id": "evidence",
+   "label": "What conflicting or independent source would change your view?",
+   "kind": "textarea",
+   "required": true,
+   "maxLength": 2000
+  },
+  {
+   "id": "constraint",
+   "label": "How will you preserve source traceability without exposing private or confidential information?",
+   "kind": "textarea",
+   "required": true,
+   "maxLength": 2000
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "What should a research log separate?",
+   "options": [
+    "Facts and guesses presented together",
+    "Supported statements, inferences and unknowns",
+    "Only positive findings"
+   ],
+   "answer": 1,
+   "explanation": "Preserve what the source supports separately from your interpretation."
+  },
+  {
+   "prompt": "Three articles repeat one report. What should you do?",
+   "options": [
+    "Trace the original source; do not count them as independent confirmations",
+    "Count three confirmations",
+    "Treat popularity as demand"
+   ],
+   "answer": 0,
+   "explanation": "Repeated reporting may come from one source."
+  },
+  {
+   "prompt": "Evidence has not yet been collected. What belongs in the log?",
+   "options": [
+    "An invented quote",
+    "A result you expect to see",
+    "A clearly labeled plan and source/check to pursue"
+   ],
+   "answer": 2,
+   "explanation": "Plans are acceptable when kept separate from collected evidence."
+  }
+ ],
+ "checklist": [
+  {
+   "kind": "studied",
+   "label": "Transcript or learning guide reviewed"
+  },
+  {
+   "kind": "fields",
+   "label": "Research & Source Log fields complete",
+   "ids": [
+    "question",
+    "method",
+    "entrya",
+    "entryb",
+    "entryc",
+    "quality",
+    "gaps",
+    "nextcheck"
+   ]
+  },
+  {
+   "kind": "fields",
+   "label": "Three red-team reflections complete",
+   "ids": [
+    "assumption",
+    "evidence",
+    "constraint"
+   ]
+  },
+  {
+   "kind": "quiz",
+   "label": "Knowledge check: 3 / 3 correct"
+  },
+  {
+   "kind": "honest",
+   "label": "Final self-review confirmed"
+  }
+ ],
+ "deliverable": {
+  "title": "LYNQ Academy — Research & Source Log",
+  "filename": "LYNQ-Research-Source-Log.md",
+  "headerLines": [
+   "Phase 01 · Module {module} · Lesson {lesson}",
+   "Status: {status}",
+   "Created: {created}"
+  ],
+  "fieldIds": [
+   "question",
+   "method",
+   "entrya",
+   "entryb",
+   "entryc",
+   "quality",
+   "gaps",
+   "nextcheck",
+   "support",
+   "assumption",
+   "evidence",
+   "constraint"
+  ],
+  "footer": "Local prototype export. No reviewer submission or business validation."
+ },
+ "sections": [
+  {
+   "id": "watch",
+   "label": "01 / WATCH",
+   "heading": "What do you know — and how do you know it?",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "The planned explainer shows how to keep sources traceable and separate supported statements from inferences and research plans. Use the transcript or guide while the video is a placeholder."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "video-placeholder"
+       },
+       "children": [
+        {
+         "tag": "span",
+         "attrs": {
+          "class": "badge"
+         },
+         "children": [
+          "Video placeholder · media not produced"
+         ]
+        },
+        {
+         "tag": "h3",
+         "attrs": {},
+         "children": [
+          "Research Without Guessing"
+         ]
+        },
+        {
+         "tag": "p",
+         "attrs": {},
+         "children": [
+          "Planned: 2½-minute explainer + worksheet demo",
+          {
+           "tag": "br",
+           "attrs": {},
+           "children": []
+          },
+          "Question → Method → Source → Limits → Next check"
+         ]
+        },
+        {
+         "tag": "small",
+         "attrs": {},
+         "children": [
+          "No playable video or generated media is attached."
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "storyboard",
+     "scenes": [
+      {
+       "title": "Start with an uncertainty",
+       "visual": "Founder reviews an anonymous journey map.",
+       "narration": "Research begins with something you do not yet know. Choose one important uncertainty from your customer journey. Ask a specific question that could change your decision. Do not start by searching only for support for an idea you already want to build."
+      },
+      {
+       "title": "Match the method to the question",
+       "visual": "Editable observation, conversation and document cards.",
+       "narration": "An observation can show an action in a setting. A recent-experience conversation can reveal someone’s account. A document can describe a policy or a service. Each method has limits. A product page does not establish customer satisfaction, and a conversation does not by itself prove what happened."
+      },
+      {
+       "title": "Record a traceable source",
+       "visual": "Editable source log with anonymous reference codes.",
+       "narration": "For each entry, record the claim or question, what the source actually supports, the source reference and date, and its status. Use observed, reported, documented, inferred, assumed or planned. Keep private identities out of the log. If you have not collected evidence, record a plan rather than a result."
+      },
+      {
+       "title": "Separate evidence from inference",
+       "visual": "Editable supported statement and interpretation cards.",
+       "narration": "A visitor asked staff for directions is different from visitors hate the signs. The first can be a specific observation; the second is an interpretation requiring more evidence. Preserve the context, limitations and possible alternative explanations. Do not invent numbers or quotes to fill a gap."
+      },
+      {
+       "title": "Look for what could contradict you",
+       "visual": "Founder compares conflicting anonymous notes.",
+       "narration": "Seek information that could weaken your idea. Check relevance, recency, source proximity and possible bias. Three articles repeating the same report are not three independent confirmations. Record conflicts rather than forcing agreement. One account is not representative of a whole market."
+      },
+      {
+       "title": "Plan the next check",
+       "visual": "Actual approved Lesson 13 worksheet recording.",
+       "narration": "Create your Research and Source Log with three sourced entries or clearly labeled plans. Separate supported statements from inferences and unknowns. Finish with a practical, ethical next check and a decision rule. Research improves your questions; completing this log does not validate demand."
+      }
+     ],
+     "sceneMeta": "Planned final scene: 25 seconds · narration and precise graphics added in post",
+     "summary": "Explore the six-scene storyboard placeholder"
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {
+        "class": "help"
+       },
+       "children": [
+        "Use an explainer with editable diagrams, documentary cutaways and a real worksheet demo. Generate short assets where supported, then assemble in an editor."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "videoPrompt",
+     "prompt": "Create a beginner-friendly LYNQ Academy explainer plus evidence-log demo, Module 1.3 Lesson 13: Research Without Guessing. Editorial target 150 seconds, 16:9 1080p. Navy #0B2338, teal #087D79, mint #BCF2DF, white; contemporary Dubai workspace, diverse adult cast, clear friendly English narrator. Fictional anonymous examples only, labeled Illustrative example in post. Teach question/method fit, source traceability, observed/reported/documented/inferred/assumed/planned labels, independence, source limitations and disconfirming evidence. No fabricated citations, URLs, quotes, statistics, research outcomes or demand claims.\n\nSCENE 1: Start with an uncertainty\nVisual placeholder: Founder reviews an anonymous journey map.\nNarration: Research begins with something you do not yet know. Choose one important uncertainty from your customer journey. Ask a specific question that could change your decision. Do not start by searching only for support for an idea you already want to build.\n\nSCENE 2: Match the method to the question\nVisual placeholder: Editable observation, conversation and document cards.\nNarration: An observation can show an action in a setting. A recent-experience conversation can reveal someone’s account. A document can describe a policy or a service. Each method has limits. A product page does not establish customer satisfaction, and a conversation does not by itself prove what happened.\n\nSCENE 3: Record a traceable source\nVisual placeholder: Editable source log with anonymous reference codes.\nNarration: For each entry, record the claim or question, what the source actually supports, the source reference and date, and its status. Use observed, reported, documented, inferred, assumed or planned. Keep private identities out of the log. If you have not collected evidence, record a plan rather than a result.\n\nSCENE 4: Separate evidence from inference\nVisual placeholder: Editable supported statement and interpretation cards.\nNarration: A visitor asked staff for directions is different from visitors hate the signs. The first can be a specific observation; the second is an interpretation requiring more evidence. Preserve the context, limitations and possible alternative explanations. Do not invent numbers or quotes to fill a gap.\n\nSCENE 5: Look for what could contradict you\nVisual placeholder: Founder compares conflicting anonymous notes.\nNarration: Seek information that could weaken your idea. Check relevance, recency, source proximity and possible bias. Three articles repeating the same report are not three independent confirmations. Record conflicts rather than forcing agreement. One account is not representative of a whole market.\n\nSCENE 6: Plan the next check\nVisual placeholder: Actual approved Lesson 13 worksheet recording.\nNarration: Create your Research and Source Log with three sourced entries or clearly labeled plans. Separate supported statements from inferences and unknowns. Finish with a practical, ethical next check and a decision rule. Research improves your questions; completing this log does not validate demand.\n\nFirst return storyboard, timings and individual shot prompts. Generate only supported short shot lengths for the selected Gemini/Veo account. Assemble in an editor with separately recorded consistent narration. Generated footage has no text, logos, captions or fabricated browser/UI. Add exact LYNQ branding, evidence-status labels, Source / Supported statement / Inference / Limit columns and captions in post. Use actual approved Lesson 13 screen recording with fictional anonymous entries clearly marked planned or illustrative. Deliver H.264 MP4, editable project/diagrams, narrator audio, transcript, VTT/SRT captions, thumbnail and rights/provenance. Arabic version requires native-reviewed narration and RTL graphics. Check accuracy, source honesty, privacy, brand, pacing, audio and mobile readability before publication. No video is generated by the prototype.",
+     "filename": "LYNQ-Lesson-13-Gemini-Video-Prompt.md",
+     "title": "# LYNQ Lesson 13 — Gemini video prompt",
+     "summary": "Gemini video prompt — ready to copy"
+    },
+    {
+     "type": "transcript",
+     "scenes": [
+      {
+       "title": "Start with an uncertainty",
+       "visual": "Founder reviews an anonymous journey map.",
+       "narration": "Research begins with something you do not yet know. Choose one important uncertainty from your customer journey. Ask a specific question that could change your decision. Do not start by searching only for support for an idea you already want to build."
+      },
+      {
+       "title": "Match the method to the question",
+       "visual": "Editable observation, conversation and document cards.",
+       "narration": "An observation can show an action in a setting. A recent-experience conversation can reveal someone’s account. A document can describe a policy or a service. Each method has limits. A product page does not establish customer satisfaction, and a conversation does not by itself prove what happened."
+      },
+      {
+       "title": "Record a traceable source",
+       "visual": "Editable source log with anonymous reference codes.",
+       "narration": "For each entry, record the claim or question, what the source actually supports, the source reference and date, and its status. Use observed, reported, documented, inferred, assumed or planned. Keep private identities out of the log. If you have not collected evidence, record a plan rather than a result."
+      },
+      {
+       "title": "Separate evidence from inference",
+       "visual": "Editable supported statement and interpretation cards.",
+       "narration": "A visitor asked staff for directions is different from visitors hate the signs. The first can be a specific observation; the second is an interpretation requiring more evidence. Preserve the context, limitations and possible alternative explanations. Do not invent numbers or quotes to fill a gap."
+      },
+      {
+       "title": "Look for what could contradict you",
+       "visual": "Founder compares conflicting anonymous notes.",
+       "narration": "Seek information that could weaken your idea. Check relevance, recency, source proximity and possible bias. Three articles repeating the same report are not three independent confirmations. Record conflicts rather than forcing agreement. One account is not representative of a whole market."
+      },
+      {
+       "title": "Plan the next check",
+       "visual": "Actual approved Lesson 13 worksheet recording.",
+       "narration": "Create your Research and Source Log with three sourced entries or clearly labeled plans. Separate supported statements from inferences and unknowns. Finish with a practical, ethical next check and a decision rule. Research improves your questions; completing this log does not validate demand."
+      }
+     ],
+     "summary": "Read the full narration / transcript"
+    },
+    {
+     "type": "studied",
+     "label": "I read the transcript or reviewed the learning guide. Video is not required."
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "label": "02 / LEARN",
+   "heading": "Make every claim traceable.",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "Evidence"
+         ]
+        },
+        " is information relevant to a question. An ",
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "inference"
+         ]
+        },
+        " is an interpretation you draw from it. A ",
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "source"
+         ]
+        },
+        " is where information came from. Your research log must preserve the difference."
+       ]
+      },
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "grid2"
+       },
+       "children": [
+        {
+         "tag": "div",
+         "attrs": {
+          "class": "note"
+         },
+         "children": [
+          {
+           "tag": "h3",
+           "attrs": {},
+           "children": [
+            "Observe"
+           ]
+          },
+          {
+           "tag": "p",
+           "attrs": {},
+           "children": [
+            "Useful for actions in a permitted setting. It does not reveal a person’s feelings or intentions by itself."
+           ]
+          }
+         ]
+        },
+        {
+         "tag": "div",
+         "attrs": {
+          "class": "note"
+         },
+         "children": [
+          {
+           "tag": "h3",
+           "attrs": {},
+           "children": [
+            "Ask about recent experience"
+           ]
+          },
+          {
+           "tag": "p",
+           "attrs": {},
+           "children": [
+            "Useful for a person’s account. Recall, selection and question wording may affect the answer."
+           ]
+          }
+         ]
+        },
+        {
+         "tag": "div",
+         "attrs": {
+          "class": "note"
+         },
+         "children": [
+          {
+           "tag": "h3",
+           "attrs": {},
+           "children": [
+            "Read a document"
+           ]
+          },
+          {
+           "tag": "p",
+           "attrs": {},
+           "children": [
+            "Useful for what the document describes. A product page is not evidence that customers are satisfied."
+           ]
+          }
+         ]
+        },
+        {
+         "tag": "div",
+         "attrs": {
+          "class": "note"
+         },
+         "children": [
+          {
+           "tag": "h3",
+           "attrs": {},
+           "children": [
+            "Plan honestly"
+           ]
+          },
+          {
+           "tag": "p",
+           "attrs": {},
+           "children": [
+            "Not collected yet? Label the entry planned, with a source to seek. Never fabricate a reference or result."
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "tag": "h3",
+       "attrs": {},
+       "children": [
+        "Use these status labels"
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "Observed:"
+         ]
+        },
+        " directly noted action. ",
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "Reported:"
+         ]
+        },
+        " someone’s account. ",
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "Documented:"
+         ]
+        },
+        " a source describes it. ",
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "Inferred:"
+         ]
+        },
+        " your interpretation. ",
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "Assumed:"
+         ]
+        },
+        " untested belief. ",
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "Planned:"
+         ]
+        },
+        " collection has not happened."
+       ]
+      },
+      {
+       "tag": "h3",
+       "attrs": {},
+       "children": [
+        "Check quality, not just quantity"
+       ]
+      },
+      {
+       "tag": "ul",
+       "attrs": {},
+       "children": [
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Is the source relevant to your exact group, task and context?"
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "What is its date, proximity to the event and possible bias?"
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Is it independent, or repeating another source?"
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "What does it support, and what remains unknown?"
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "What would contradict your preferred explanation?"
+         ]
+        }
+       ]
+      },
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "note"
+       },
+       "children": [
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "Illustrative example:"
+         ]
+        },
+        " “One visitor asked staff for directions” may support an observed interaction in one setting. It does not establish that signs failed, that visitors are frustrated, or that people will pay for a new app."
+       ]
+      },
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "actions"
+       },
+       "children": [
+        {
+         "tag": "lesson-link",
+         "attrs": {
+          "lesson": "12",
+          "class": "btn secondary"
+         },
+         "children": [
+          "Review journey map"
+         ]
+        },
+        {
+         "tag": "lesson-link",
+         "attrs": {
+          "lesson": "11",
+          "class": "btn secondary"
+         },
+         "children": [
+          "Review customer snapshot"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "practice",
+     "legend": "Practice: three articles repeat one report",
+     "prompt": "",
+     "options": [
+      {
+       "label": "Three independent confirmations",
+       "feedback": "Check source independence before counting confirmations; repeated reporting does not prove demand."
+      },
+      {
+       "label": "Trace the original report; independence is not established",
+       "feedback": "Useful check: trace the original report and preserve the limits. Repetition does not establish independent confirmation."
+      },
+      {
+       "label": "Proof that everyone needs my app",
+       "feedback": "Check source independence before counting confirmations; repeated reporting does not prove demand."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "build",
+   "label": "03 / BUILD",
+   "heading": "Your Research & Source Log.",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Create three entries. If evidence is not collected, record a planned source, question and check; date or reference may remain unknown. Include supported statements separately from inferences. No sources are searched or verified automatically."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "saveStatus"
+    },
+    {
+     "type": "fields",
+     "ids": [
+      "question",
+      "method",
+      "entrya",
+      "entryb",
+      "entryc",
+      "quality",
+      "gaps",
+      "nextcheck",
+      "support"
+     ]
+    },
+    {
+     "type": "extension",
+     "id": "preview",
+     "props": {
+      "label": "Preview my research log",
+      "kind": "lines",
+      "joiner": "\n\n",
+      "lines": [
+       {
+        "id": "question",
+        "label": "Research question: specific uncertainty and decision it affects *"
+       },
+       {
+        "id": "method",
+        "label": "Method and why it fits — observation, conversation or document; permission needed *"
+       },
+       {
+        "id": "entrya",
+        "label": "Entry A: claim/status, source reference/date, supported statement, inference and limits *"
+       },
+       {
+        "id": "entryb",
+        "label": "Entry B: claim/status, source reference/date, supported statement, inference and limits *"
+       },
+       {
+        "id": "entryc",
+        "label": "Entry C: claim/status, source reference/date, supported statement, inference and limits *"
+       },
+       {
+        "id": "quality",
+        "label": "Relevance, recency, independence, bias and conflicts across entries *"
+       },
+       {
+        "id": "gaps",
+        "label": "What remains unknown? What could contradict your preferred explanation? *"
+       },
+       {
+        "id": "nextcheck",
+        "label": "Next ethical check: timing, access, resources and what result would change your decision *"
+       }
+      ],
+      "footer": "This log does not prove demand or verify sources. Planned entries are not collected evidence."
+     }
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "note"
+       },
+       "children": [
+        "This log does not verify sources, establish representativeness or prove demand. Browser storage is plaintext; avoid private identities, confidential documents and credentials."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "extension",
+     "id": "download",
+     "props": {
+      "label": "Download Research & Source Log"
+     }
+    },
+    {
+     "type": "reset",
+     "label": "Clear local draft"
+    }
+   ]
+  },
+  {
+   "id": "coach",
+   "label": "04 / ASK AI",
+   "heading": "Your thinking partner",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "span",
+       "attrs": {
+        "class": "badge"
+       },
+       "children": [
+        "Simulated Coach · no AI connection"
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Try four scripted guidance modes. The preview reads your current worksheet locally; it does not send information anywhere."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "extension",
+     "id": "coach",
+     "props": {
+      "modes": [
+       {
+        "id": "teach",
+        "label": "Teach me"
+       },
+       {
+        "id": "guide",
+        "label": "Guide me"
+       },
+       {
+        "id": "review",
+        "label": "Review my work"
+       },
+       {
+        "id": "challenge",
+        "label": "Challenge my idea"
+       }
+      ],
+      "replies": {
+       "teach": "Match the method to your question. Separate supported statements, inference and plans; check traceability and source limitations.",
+       "guide": "Write three source entries or honest collection plans. Record status, reference/date, support, interpretation and limits; seek disconfirming evidence.",
+       "review": "Research Log check: {missing} required fields still empty. This scripted check counts fields only; it cannot verify sources, independence, research results or demand.",
+       "challenge": "Are you seeking only confirmation? Are repeated articles independent? What does each source actually support? Have plans become invented results?"
+      },
+      "heading": "SCRIPTED DEMO / ",
+      "questionNote": "Your question was entered locally. This preview does not generate a custom answer.",
+      "questionLabel": "Your question (optional)",
+      "placeholder": "What should I focus on first?",
+      "maxLength": 500,
+      "submitLabel": "Show simulated guidance"
+     }
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {
+        "class": "help"
+       },
+       "children": [
+        "Responses are predefined for this lesson, not generated answers to your question. No customer demand or venture readiness is verified."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "challenge",
+   "label": "05 / CHALLENGE",
+   "heading": "Look for evidence against your story.",
+   "blocks": [
+    {
+     "type": "fields",
+     "ids": [
+      "assumption",
+      "evidence",
+      "constraint"
+     ]
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "details",
+       "attrs": {},
+       "children": [
+        {
+         "tag": "summary",
+         "attrs": {},
+         "children": [
+          "More questions to discuss"
+         ]
+        },
+        {
+         "tag": "p",
+         "attrs": {},
+         "children": [
+          "Are sources repeating the same account? Is the context relevant? Did you search only for support? Have planned entries become results? Can participants decline, and can notes stay anonymous?"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "quiz",
+   "label": "06 / CHECK YOUR UNDERSTANDING",
+   "heading": "A quick knowledge check",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Answer all three. You can retry; all three correct are required for local completion."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "quiz"
+    }
+   ]
+  },
+  {
+   "id": "finish",
+   "label": "07 / DELIVER & PROGRESS",
+   "heading": "Your deliverable: a Research & Source Log.",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Download the research question, method, three entries, quality limits, unknowns and next check. Planned entries are learning plans, not evidence collected. Earlier worksheets remain separate."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "checklist"
+    },
+    {
+     "type": "honest",
+     "label": "I kept evidence, inference and planned research separate, preserved source limits, and did not invent citations or demand claims."
+    },
+    {
+     "type": "complete",
+     "label": "Mark Lesson 13 complete locally",
+     "completedLabel": "Lesson 13 self-completed locally",
+     "completedNotice": "Lesson 13 self-completed locally. Download your Research & Source Log. No reviewer approval or venture validation is recorded.",
+     "incompleteNotice": "Complete the remaining requirements above before marking this lesson complete."
+    },
+    {
+     "type": "extension",
+     "id": "moduleNote",
+     "props": {
+      "parts": [
+       {
+        "nodes": [
+         {
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+           "Module 1.3 · Understanding People & Context"
+          ]
+         }
+        ]
+       },
+       {
+        "status": "1.3",
+        "complete": "All five lessons self-completed locally. Module 1.3 learning pack complete; research execution, permissions and validation remain separate.",
+        "incomplete": "{count} / 5 lessons self-completed locally. Complete each lesson separately to finish this learning module."
+       },
+       {
+        "nodes": [
+         {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+           "Self-completion records learning, not verified research, certification or venture approval."
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "type": "next"
+    }
+   ]
+  }
+ ],
+ "nav": [
+  {
+   "id": "watch",
+   "label": "Watch"
+  },
+  {
+   "id": "learn",
+   "label": "Learn"
+  },
+  {
+   "id": "build",
+   "label": "Build"
+  },
+  {
+   "id": "coach",
+   "label": "Ask AI"
+  },
+  {
+   "id": "challenge",
+   "label": "Challenge"
+  },
+  {
+   "id": "quiz",
+   "label": "Knowledge check"
+  },
+  {
+   "id": "finish",
+   "label": "Deliver"
+  }
+ ]
+}

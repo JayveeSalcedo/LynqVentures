@@ -1,0 +1,149 @@
+{
+ "phase": 5,
+ "title": "Phase 05 · Scale",
+ "hero": {
+  "eyebrow": "PHASE 05 · SCALE",
+  "title": "Build capacity for responsible growth.",
+  "intro": "Lessons 81–100 are interactive. No live AI, capacity test or expansion is connected."
+ },
+ "modules": [
+  {
+   "code": "5.1",
+   "title": "Building for Growth",
+   "lessons": [
+    {
+     "number": 81,
+     "title": "What Does Scaling Really Mean?",
+     "summary": "Interactive"
+    },
+    {
+     "number": 82,
+     "title": "Identify Your Growth Constraints",
+     "summary": "Interactive"
+    },
+    {
+     "number": 83,
+     "title": "Build a Sustainable Growth Strategy",
+     "summary": "Interactive"
+    },
+    {
+     "number": 84,
+     "title": "Improve Unit Economics",
+     "summary": "Interactive"
+    },
+    {
+     "number": 85,
+     "title": "Strengthen Customer Retention",
+     "summary": "Interactive"
+    }
+   ]
+  },
+  {
+   "code": "5.2",
+   "title": "Building the Organization",
+   "lessons": [
+    {
+     "number": 86,
+     "title": "Develop Partnerships and Channels",
+     "summary": "Interactive"
+    },
+    {
+     "number": 87,
+     "title": "Build a Scalable Organization",
+     "summary": "Interactive"
+    },
+    {
+     "number": 88,
+     "title": "Recruit and Develop Leaders",
+     "summary": "Interactive"
+    },
+    {
+     "number": 89,
+     "title": "Establish Operating Processes",
+     "summary": "Interactive"
+    },
+    {
+     "number": 90,
+     "title": "Create Executive Performance Dashboards",
+     "summary": "Interactive"
+    }
+   ]
+  },
+  {
+   "code": "5.3",
+   "title": "Capital and Governance",
+   "lessons": [
+    {
+     "number": 91,
+     "title": "Strengthen Financial Controls",
+     "summary": "Interactive"
+    },
+    {
+     "number": 92,
+     "title": "Build a Capital and Fundraising Strategy",
+     "summary": "Interactive"
+    },
+    {
+     "number": 93,
+     "title": "Prepare for Investor Due Diligence",
+     "summary": "Interactive"
+    },
+    {
+     "number": 94,
+     "title": "Evaluate Geographic Expansion",
+     "summary": "Interactive"
+    },
+    {
+     "number": 95,
+     "title": "Strengthen Governance and Risk Management",
+     "summary": "Interactive"
+    }
+   ]
+  },
+  {
+   "code": "5.4",
+   "title": "Long-Term Venture Strategy",
+   "lessons": [
+    {
+     "number": 96,
+     "title": "Explore Strategic Acquisitions and Partnerships",
+     "summary": "Interactive"
+    },
+    {
+     "number": 97,
+     "title": "Understand Valuation and Dilution",
+     "summary": "Interactive"
+    },
+    {
+     "number": 98,
+     "title": "Prepare for Founder Succession or CEO Transition",
+     "summary": "Interactive"
+    },
+    {
+     "number": 99,
+     "title": "Evaluate Hold, Spin-off, or Exit Options",
+     "summary": "Interactive"
+    },
+    {
+     "number": 100,
+     "title": "Final Venture Review and Graduation",
+     "summary": "Interactive"
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Phase 05 · Scale",
+   "nodes": [
+    {
+     "tag": "p",
+     "attrs": {},
+     "children": [
+      "Browser-local prototype. Learning progress is separate from business readiness."
+     ]
+    }
+   ]
+  }
+ ]
+}

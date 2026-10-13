@@ -1,0 +1,578 @@
+{
+  "number": 41,
+  "phase": 3,
+  "module": "3.1",
+  "title": "Define Your Minimum Viable Product",
+  "hero": {
+    "eyebrow": "Module 3.1 · Designing the Product · Lesson 41",
+    "title": "Define Your Minimum Viable Product.",
+    "intro": "Translate the Validate decision into bounded learning work, with conditions, exclusions and acceptance criteria.",
+    "meta": "35–45 minutes · Recommended: Lesson 40"
+  },
+  "fields": [
+    {
+      "id": "focus",
+      "label": "Build scope: customer/task, offer version and Validate decision reference",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "conditions",
+      "label": "Decision conditions: proceed / iterate / pause, blockers and work allowed now",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "outcome",
+      "label": "One learning outcome and priority assumption to check",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "minimum",
+      "label": "Smallest prototype/manual scope needed; explicit exclusions",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "criteria",
+      "label": "Acceptance and evidence criteria; functional check versus customer evidence",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "resources",
+      "label": "Owner, skills, dependencies, time/resource limit and unknown estimates",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "safeguards",
+      "label": "Capability disclosure, data/privacy/access review and stop conditions",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "review",
+      "label": "Next review, test plan, unresolved risks and handoff",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "bias",
+      "label": "Did feature ambition or a polished demo obscure the learning question?",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "counter",
+      "label": "What smaller scope or contradictory evidence could change this plan?",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "constraint",
+      "label": "Which Validate condition, dependency or safeguard blocks execution?",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    }
+  ],
+  "questions": [
+    {
+      "prompt": "Does a working prototype prove demand?",
+      "options": [
+        "Yes",
+        "No; functional checks and customer evidence are separate",
+        "Only if it looks polished"
+      ],
+      "answer": 1,
+      "explanation": "A prototype function is not demand proof."
+    },
+    {
+      "prompt": "A Validate decision is pause with unresolved access. What is responsible?",
+      "options": [
+        "Resolve blockers before dependent execution",
+        "Launch anyway",
+        "Treat lesson access as approval"
+      ],
+      "answer": 0,
+      "explanation": "Lesson navigation does not override decision conditions."
+    },
+    {
+      "prompt": "What belongs in the first build scope?",
+      "options": [
+        "Every possible feature",
+        "Unverified automation claims",
+        "One learning outcome, minimum scope, exclusions, criteria and safeguards"
+      ],
+      "answer": 2,
+      "explanation": "Bound the build around a clear learning question."
+    }
+  ],
+  "checklist": [
+    {
+      "kind": "studied",
+      "label": "Storyboard/transcript reviewed"
+    },
+    {
+      "kind": "fields",
+      "label": "All worksheet fields completed",
+      "ids": [
+        "focus",
+        "conditions",
+        "outcome",
+        "minimum",
+        "criteria",
+        "resources",
+        "safeguards",
+        "review"
+      ]
+    },
+    {
+      "kind": "fields",
+      "label": "Challenge reflections completed",
+      "ids": [
+        "bias",
+        "counter",
+        "constraint"
+      ]
+    },
+    {
+      "kind": "quiz",
+      "label": "Knowledge check answered correctly"
+    },
+    {
+      "kind": "honest",
+      "label": "Honest self-review confirmed"
+    }
+  ],
+  "deliverable": {
+    "title": "First Build Scope Brief",
+    "filename": "LYNQ-First-Build-Scope-Brief.md",
+    "footer": ""
+  },
+  "sections": [
+    {
+      "id": "watch",
+      "label": "01 / WATCH",
+      "heading": "What is the smallest build that helps you learn?",
+      "blocks": [
+        {
+          "type": "video",
+          "title": "Explainer + scope worksheet demo",
+          "subtitle": "No playable video is attached."
+        },
+        {
+          "type": "storyboard",
+          "scenes": [
+            {
+              "title": "Bring the decision",
+              "visual": "Validate decision card",
+              "narration": "Build begins with the Validate decision record. Proceed permits only the defined bounded work; iterate or pause can mean further learning or resolving blockers first. Lesson access does not override those conditions."
+            },
+            {
+              "title": "Choose a learning outcome",
+              "visual": "Outcome and assumption cards",
+              "narration": "Choose one task and one assumption the next build should help check. A prototype can support learning without being a production service. Do not build a broad feature list before defining the question."
+            },
+            {
+              "title": "Bound the first build",
+              "visual": "Included/excluded scope cards",
+              "narration": "Choose the smallest prototype or transparent manual scope needed. State exclusions and missing capabilities. The prototype must not imply real payment, integrations or automation that do not exist."
+            },
+            {
+              "title": "Define acceptance",
+              "visual": "Functional and evidence criteria cards",
+              "narration": "Define what must work for the prototype and separately what customer evidence would address the assumption. Passing a functional check does not prove demand, adoption or production readiness."
+            },
+            {
+              "title": "Assign resources and safeguards",
+              "visual": "Owner/dependency/stop cards",
+              "narration": "Assign an owner, skill and dependency checks, time and resource boundaries. Keep estimates unknown if unsupported. Review access and data handling; stop dependent work when conditions are unresolved."
+            },
+            {
+              "title": "Write the brief",
+              "visual": "Approved actual Lesson 41 worksheet demo",
+              "narration": "Create a First Build Scope Brief with decision conditions, learning outcome, minimum scope, criteria, resources and safeguards. This lesson plans a build; it creates no product, deployment, customer evidence or launch approval."
+            }
+          ],
+          "summary": "Six-scene storyboard placeholder and full transcript"
+        },
+        {
+          "type": "transcript",
+          "scenes": [
+            {
+              "title": "Bring the decision",
+              "visual": "Validate decision card",
+              "narration": "Build begins with the Validate decision record. Proceed permits only the defined bounded work; iterate or pause can mean further learning or resolving blockers first. Lesson access does not override those conditions."
+            },
+            {
+              "title": "Choose a learning outcome",
+              "visual": "Outcome and assumption cards",
+              "narration": "Choose one task and one assumption the next build should help check. A prototype can support learning without being a production service. Do not build a broad feature list before defining the question."
+            },
+            {
+              "title": "Bound the first build",
+              "visual": "Included/excluded scope cards",
+              "narration": "Choose the smallest prototype or transparent manual scope needed. State exclusions and missing capabilities. The prototype must not imply real payment, integrations or automation that do not exist."
+            },
+            {
+              "title": "Define acceptance",
+              "visual": "Functional and evidence criteria cards",
+              "narration": "Define what must work for the prototype and separately what customer evidence would address the assumption. Passing a functional check does not prove demand, adoption or production readiness."
+            },
+            {
+              "title": "Assign resources and safeguards",
+              "visual": "Owner/dependency/stop cards",
+              "narration": "Assign an owner, skill and dependency checks, time and resource boundaries. Keep estimates unknown if unsupported. Review access and data handling; stop dependent work when conditions are unresolved."
+            },
+            {
+              "title": "Write the brief",
+              "visual": "Approved actual Lesson 41 worksheet demo",
+              "narration": "Create a First Build Scope Brief with decision conditions, learning outcome, minimum scope, criteria, resources and safeguards. This lesson plans a build; it creates no product, deployment, customer evidence or launch approval."
+            }
+          ]
+        },
+        {
+          "type": "videoPrompt",
+          "prompt": "Create an engaging LYNQ Academy explainer and scope-planning demo: Module 3.1 Lesson 41 — Define Your Minimum Viable Product. Editorial target 150 seconds, 16:9 1080p. Navy #0B2338, teal #087D79, mint #BCF2DF, white. Diverse adults in Dubai workspace, warm English narration. Fictional planning examples labeled Illustrative planned build in post. No fabricated product, demand, production readiness or launch approval.\n\nSCENE 1: Bring the decision\nVisual placeholder: Validate decision card\nNarration: Build begins with the Validate decision record. Proceed permits only the defined bounded work; iterate or pause can mean further learning or resolving blockers first. Lesson access does not override those conditions.\n\nSCENE 2: Choose a learning outcome\nVisual placeholder: Outcome and assumption cards\nNarration: Choose one task and one assumption the next build should help check. A prototype can support learning without being a production service. Do not build a broad feature list before defining the question.\n\nSCENE 3: Bound the first build\nVisual placeholder: Included/excluded scope cards\nNarration: Choose the smallest prototype or transparent manual scope needed. State exclusions and missing capabilities. The prototype must not imply real payment, integrations or automation that do not exist.\n\nSCENE 4: Define acceptance\nVisual placeholder: Functional and evidence criteria cards\nNarration: Define what must work for the prototype and separately what customer evidence would address the assumption. Passing a functional check does not prove demand, adoption or production readiness.\n\nSCENE 5: Assign resources and safeguards\nVisual placeholder: Owner/dependency/stop cards\nNarration: Assign an owner, skill and dependency checks, time and resource boundaries. Keep estimates unknown if unsupported. Review access and data handling; stop dependent work when conditions are unresolved.\n\nSCENE 6: Write the brief\nVisual placeholder: Approved actual Lesson 41 worksheet demo\nNarration: Create a First Build Scope Brief with decision conditions, learning outcome, minimum scope, criteria, resources and safeguards. This lesson plans a build; it creates no product, deployment, customer evidence or launch approval.\n\nProvide storyboard/timings/shot prompts first. Generate supported short Gemini/Veo shots; assemble with approved recorded narration. Composite exact brand, UI/text/captions and Scope / Outcome / Exclusions / Acceptance / Conditions cards in post. Use approved actual Lesson 41 screen recording with fictional planned data. Deliver MP4, editable project, transcript, VTT/SRT, audio, thumbnail and rights/provenance. Native-reviewed Arabic/RTL version separately. Review decision conditions, capability honesty, privacy and mobile readability. Prototype generates no video.",
+          "filename": "LYNQ-Lesson-41-Gemini-Video-Prompt.md",
+          "summary": "Gemini video prompt — ready to copy"
+        },
+        {
+          "type": "studied",
+          "label": "I reviewed the storyboard/transcript."
+        }
+      ]
+    },
+    {
+      "id": "learn",
+      "label": "02 / LEARN",
+      "heading": "Scope the work before adding features.",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "A ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "build scope"
+                  ]
+                },
+                " defines what you will create and exclude. A ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "learning outcome"
+                  ]
+                },
+                " explains why. ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "Acceptance criteria"
+                  ]
+                },
+                " define what must work; evidence criteria define what a later permitted test must reveal."
+              ]
+            },
+            {
+              "tag": "ol",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Manually review the Validate decision and unresolved conditions."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Choose one customer/task and learning assumption."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Specify the minimum prototype/manual workflow and exclusions."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Separate functional acceptance from customer evidence."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Assign owners, dependencies and resource boundaries."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Resolve safeguards before dependent execution."
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "note"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "children": [
+                    "Illustrative planned scope"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    "Registration-entry concept: build two static screens to explore route understanding, excluding payments, accounts and live integrations. Functional check: route links reach the correct mock screen. Customer evidence: a later permitted uncoached task, with scope and source limits. Access pending; no actual test or product build exists."
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Proceed means the bounded step recorded in Validate. Iterate or pause can require research/blocker resolution first; planning here is still useful but does not grant execution approval. Do not imply real automation or production readiness. No product is built by this worksheet."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "practice",
+          "prompt": "Practice: your demo links work.",
+          "options": [
+            {
+              "label": "Demand proven",
+              "feedback": "A working link does not prove demand."
+            },
+            {
+              "label": "Functional check passed; demand remains separate",
+              "feedback": "Functional check passed; customer evidence and demand remain separate."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "build",
+      "label": "03 / BUILD",
+      "heading": "Your First Build Scope Brief.",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {
+                "class": "muted"
+              },
+              "children": [
+                "Local autosave only; plaintext browser storage. Use anonymous planning notes."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "saveStatus"
+        },
+        {
+          "type": "fields",
+          "ids": [
+            "focus",
+            "conditions",
+            "outcome",
+            "minimum",
+            "criteria",
+            "resources",
+            "safeguards",
+            "review"
+          ]
+        },
+        {
+          "type": "extension",
+          "id": "brief",
+          "props": {
+            "previewLabel": "Preview my build scope",
+            "downloadLabel": "Download First Build Scope Brief"
+          }
+        },
+        {
+          "type": "reset",
+          "label": "Clear local draft"
+        }
+      ]
+    },
+    {
+      "id": "coach",
+      "label": "04 / ASK AI",
+      "heading": "AI Coach · simulated",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Fixed scripted demonstration; no AI/backend. Cannot verify feasibility, permissions, evidence or readiness."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "extension",
+          "id": "coach",
+          "props": {
+            "modes": [
+              {
+                "id": "teach",
+                "label": "Teach Me",
+                "response": "Simulated teach: Priorities express scoped necessity, not popularity or proof of demand. No live AI answer or evidence verification."
+              },
+              {
+                "id": "guide",
+                "label": "Guide Me",
+                "response": "Simulated guide: Start with one MVP task, list candidate features and explain each inclusion or deferral. No live AI answer or evidence verification."
+              },
+              {
+                "id": "review",
+                "label": "Review My Work",
+                "response": "Scripted field check: {missing} required fields empty. Counts only; no source or feasibility verification."
+              },
+              {
+                "id": "challenge",
+                "label": "Challenge My Idea",
+                "response": "Simulated challenge: Which dependency, essential safeguard or contradictory evidence would change the feature set? No live AI answer or evidence verification."
+              }
+            ],
+            "question": {
+              "label": "Your question",
+              "button": "Ask simulated Coach",
+              "response": "Scripted demonstration, not an AI answer to your question. Keep the scope bounded and honour Validate conditions."
+            },
+            "initial": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "challenge",
+      "label": "05 / CHALLENGE",
+      "heading": "Challenge",
+      "blocks": [
+        {
+          "type": "fields",
+          "ids": [
+            "bias",
+            "counter",
+            "constraint"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz",
+      "label": "06 / KNOWLEDGE CHECK",
+      "heading": "Knowledge check",
+      "blocks": [
+        {
+          "type": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "deliver",
+      "label": "07 / DELIVER & PROGRESS",
+      "heading": "Deliver your First Build Scope Brief.",
+      "blocks": [
+        {
+          "type": "checklist"
+        },
+        {
+          "type": "honest",
+          "label": "I kept Validate conditions, minimum scope, exclusions and unknowns visible and separated functional checks from customer evidence."
+        },
+        {
+          "type": "complete",
+          "label": "Mark Lesson 41 complete locally",
+          "completedNotice": "Lesson 41 self-completed locally.",
+          "incompleteNotice": "Complete remaining requirements before self-completing."
+        },
+        {
+          "type": "extension",
+          "id": "moduleStatus",
+          "props": {
+            "module": "3.1",
+            "text": " / 5 self-completed locally. All 20 Build lessons are available. Learning completion is separate from venture readiness; Phase 04 continues with Lesson 61."
+          }
+        },
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Self-completion records planning, not actual build, verified evidence, demand or production approval."
+              ]
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Next: ",
+                {
+                  "tag": "lesson-link",
+                  "attrs": {
+                    "lesson": "42",
+                    "class": "btn secondary"
+                  },
+                  "children": [
+                    "Lesson 42 — Prioritize Essential Features"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

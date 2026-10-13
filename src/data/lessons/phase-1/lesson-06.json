@@ -1,0 +1,1509 @@
+{
+ "number": 6,
+ "phase": 1,
+ "module": "1.2",
+ "title": "See Problems in Everyday Life",
+ "hero": {
+  "eyebrow": "Module 1.2 · Finding Problems Worth Solving · Lesson 06",
+  "title": "See Problems in Everyday Life.",
+  "intro": "Notice friction in familiar situations before choosing a solution. Record what you saw, separate your interpretation, and create a three-entry Problem Discovery Journal.",
+  "badges": [
+   "Beginner friendly"
+  ],
+  "meta": "40–50 min · Recommended: Module 1.1"
+ },
+ "fields": [
+  {
+   "id": "entry1source",
+   "label": "Entry 1 — source/status",
+   "kind": "select",
+   "required": true,
+   "options": [
+    {
+     "value": "",
+     "label": "Choose a source"
+    },
+    {
+     "value": "Observed firsthand",
+     "label": "Observed firsthand"
+    },
+    {
+     "value": "Reported by someone",
+     "label": "Reported by someone"
+    },
+    {
+     "value": "Planned — not yet observed",
+     "label": "Planned — not yet observed"
+    }
+   ]
+  },
+  {
+   "id": "entry1context",
+   "label": "Entry 1 — Context: where and when?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Venue entrance before an event / planned observation next week.",
+   "maxLength": 2000,
+   "hint": "Describe the situation without private identifiers."
+  },
+  {
+   "id": "entry1people",
+   "label": "Entry 1 — Who was involved?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "First-time adult visitors.",
+   "maxLength": 2000,
+   "hint": "Use a role/group, not names or contact details."
+  },
+  {
+   "id": "entry1observation",
+   "label": "Entry 1 — What happened, was reported, or will you observe?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Visitors asked staff which queue to join / I will observe how people find check-in.",
+   "maxLength": 2000,
+   "hint": "Use specific facts for observed/reported entries. For planned entries, state what you will look for."
+  },
+  {
+   "id": "entry1workaround",
+   "label": "Entry 1 — What workaround was used, or what will you check?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Asked staff for directions / to check.",
+   "maxLength": 2000,
+   "hint": "Describe how people cope today; “unknown/to check” is acceptable."
+  },
+  {
+   "id": "entry1impact",
+   "label": "Entry 1 — What impact is known, and what is unknown?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Extra step noticed; delay and frequency unknown.",
+   "maxLength": 2000,
+   "hint": "Do not invent delay, cost or frequency. “Unknown” is valid."
+  },
+  {
+   "id": "entry1interpretation",
+   "label": "Entry 1 — What do you think it might mean?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Directions may be unclear; visitors might not have seen the signs.",
+   "maxLength": 2000,
+   "hint": "Label this as a hypothesis and allow another explanation."
+  },
+  {
+   "id": "entry1next",
+   "label": "Entry 1 — What is your next question or observation?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Which signs were visible, and what did visitors notice?",
+   "maxLength": 2000,
+   "hint": "Choose a small check that can challenge the interpretation."
+  },
+  {
+   "id": "entry2source",
+   "label": "Entry 2 — source/status",
+   "kind": "select",
+   "required": true,
+   "options": [
+    {
+     "value": "",
+     "label": "Choose a source"
+    },
+    {
+     "value": "Observed firsthand",
+     "label": "Observed firsthand"
+    },
+    {
+     "value": "Reported by someone",
+     "label": "Reported by someone"
+    },
+    {
+     "value": "Planned — not yet observed",
+     "label": "Planned — not yet observed"
+    }
+   ]
+  },
+  {
+   "id": "entry2context",
+   "label": "Entry 2 — Context: where and when?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Venue entrance before an event / planned observation next week.",
+   "maxLength": 2000,
+   "hint": "Describe the situation without private identifiers."
+  },
+  {
+   "id": "entry2people",
+   "label": "Entry 2 — Who was involved?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "First-time adult visitors.",
+   "maxLength": 2000,
+   "hint": "Use a role/group, not names or contact details."
+  },
+  {
+   "id": "entry2observation",
+   "label": "Entry 2 — What happened, was reported, or will you observe?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Visitors asked staff which queue to join / I will observe how people find check-in.",
+   "maxLength": 2000,
+   "hint": "Use specific facts for observed/reported entries. For planned entries, state what you will look for."
+  },
+  {
+   "id": "entry2workaround",
+   "label": "Entry 2 — What workaround was used, or what will you check?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Asked staff for directions / to check.",
+   "maxLength": 2000,
+   "hint": "Describe how people cope today; “unknown/to check” is acceptable."
+  },
+  {
+   "id": "entry2impact",
+   "label": "Entry 2 — What impact is known, and what is unknown?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Extra step noticed; delay and frequency unknown.",
+   "maxLength": 2000,
+   "hint": "Do not invent delay, cost or frequency. “Unknown” is valid."
+  },
+  {
+   "id": "entry2interpretation",
+   "label": "Entry 2 — What do you think it might mean?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Directions may be unclear; visitors might not have seen the signs.",
+   "maxLength": 2000,
+   "hint": "Label this as a hypothesis and allow another explanation."
+  },
+  {
+   "id": "entry2next",
+   "label": "Entry 2 — What is your next question or observation?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Which signs were visible, and what did visitors notice?",
+   "maxLength": 2000,
+   "hint": "Choose a small check that can challenge the interpretation."
+  },
+  {
+   "id": "entry3source",
+   "label": "Entry 3 — source/status",
+   "kind": "select",
+   "required": true,
+   "options": [
+    {
+     "value": "",
+     "label": "Choose a source"
+    },
+    {
+     "value": "Observed firsthand",
+     "label": "Observed firsthand"
+    },
+    {
+     "value": "Reported by someone",
+     "label": "Reported by someone"
+    },
+    {
+     "value": "Planned — not yet observed",
+     "label": "Planned — not yet observed"
+    }
+   ]
+  },
+  {
+   "id": "entry3context",
+   "label": "Entry 3 — Context: where and when?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Venue entrance before an event / planned observation next week.",
+   "maxLength": 2000,
+   "hint": "Describe the situation without private identifiers."
+  },
+  {
+   "id": "entry3people",
+   "label": "Entry 3 — Who was involved?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "First-time adult visitors.",
+   "maxLength": 2000,
+   "hint": "Use a role/group, not names or contact details."
+  },
+  {
+   "id": "entry3observation",
+   "label": "Entry 3 — What happened, was reported, or will you observe?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Visitors asked staff which queue to join / I will observe how people find check-in.",
+   "maxLength": 2000,
+   "hint": "Use specific facts for observed/reported entries. For planned entries, state what you will look for."
+  },
+  {
+   "id": "entry3workaround",
+   "label": "Entry 3 — What workaround was used, or what will you check?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Asked staff for directions / to check.",
+   "maxLength": 2000,
+   "hint": "Describe how people cope today; “unknown/to check” is acceptable."
+  },
+  {
+   "id": "entry3impact",
+   "label": "Entry 3 — What impact is known, and what is unknown?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Extra step noticed; delay and frequency unknown.",
+   "maxLength": 2000,
+   "hint": "Do not invent delay, cost or frequency. “Unknown” is valid."
+  },
+  {
+   "id": "entry3interpretation",
+   "label": "Entry 3 — What do you think it might mean?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Directions may be unclear; visitors might not have seen the signs.",
+   "maxLength": 2000,
+   "hint": "Label this as a hypothesis and allow another explanation."
+  },
+  {
+   "id": "entry3next",
+   "label": "Entry 3 — What is your next question or observation?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Which signs were visible, and what did visitors notice?",
+   "maxLength": 2000,
+   "hint": "Choose a small check that can challenge the interpretation."
+  },
+  {
+   "id": "pattern",
+   "label": "What tentative pattern do you notice, and what will you check next?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "I may be noticing… but still need to check… / No pattern yet; my next observation is…",
+   "maxLength": 2000,
+   "hint": "Compare all three entries. “No pattern yet” is valid. Planned entries cannot establish a pattern in observed evidence."
+  },
+  {
+   "id": "support",
+   "label": "What access or resource constraint should you flag?",
+   "kind": "textarea",
+   "required": false,
+   "placeholder": "Optional: permission, time or access still needed…",
+   "maxLength": 2000
+  },
+  {
+   "id": "assumption",
+   "label": "Which interpretation may be an assumption rather than a fact?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "I think… but what I actually saw or know is…",
+   "maxLength": 2000
+  },
+  {
+   "id": "evidence",
+   "label": "What would support or contradict that interpretation?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "I could check… Another explanation might be…",
+   "maxLength": 2000
+  },
+  {
+   "id": "constraint",
+   "label": "How will you investigate without inventing or exposing private information?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "I will use role labels, seek permission where needed, and mark unknowns as…",
+   "maxLength": 2000
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "Which statement is an observation if you directly saw it?",
+   "options": [
+    "Everyone wants an event app",
+    "Two visitors asked staff which queue to join",
+    "The venue must build a digital platform"
+   ],
+   "answer": 1,
+   "explanation": "A specific event you saw is an observation; broad demand claims and proposed solutions are assumptions."
+  },
+  {
+   "prompt": "What should you do when delay or frequency is unknown?",
+   "options": [
+    "Make up a likely number",
+    "Treat unknown as zero",
+    "Label it unknown and plan how to check"
+   ],
+   "answer": 2,
+   "explanation": "Keep uncertainty visible; neither invented measurements nor zero are justified without evidence."
+  },
+  {
+   "prompt": "What does a planned journal entry represent?",
+   "options": [
+    "An investigation plan, not collected evidence",
+    "Proof that the problem occurs frequently",
+    "A validated business opportunity"
+   ],
+   "answer": 0,
+   "explanation": "Planned entries can guide observation but must not be represented as research already completed."
+  }
+ ],
+ "checklist": [
+  {
+   "kind": "studied",
+   "label": "Transcript or learning guide reviewed"
+  },
+  {
+   "kind": "fields",
+   "label": "Problem Discovery Journal fields complete",
+   "ids": [
+    "entry1source",
+    "entry1context",
+    "entry1people",
+    "entry1observation",
+    "entry1workaround",
+    "entry1impact",
+    "entry1interpretation",
+    "entry1next",
+    "entry2source",
+    "entry2context",
+    "entry2people",
+    "entry2observation",
+    "entry2workaround",
+    "entry2impact",
+    "entry2interpretation",
+    "entry2next",
+    "entry3source",
+    "entry3context",
+    "entry3people",
+    "entry3observation",
+    "entry3workaround",
+    "entry3impact",
+    "entry3interpretation",
+    "entry3next",
+    "pattern"
+   ]
+  },
+  {
+   "kind": "fields",
+   "label": "Three red-team reflections complete",
+   "ids": [
+    "assumption",
+    "evidence",
+    "constraint"
+   ]
+  },
+  {
+   "kind": "quiz",
+   "label": "Knowledge check: 3 / 3 correct"
+  },
+  {
+   "kind": "honest",
+   "label": "Final self-review confirmed"
+  }
+ ],
+ "deliverable": {
+  "title": "LYNQ Academy — Problem Discovery Journal",
+  "filename": "LYNQ-Problem-Discovery-Journal.md",
+  "headerLines": [
+   "Phase 01 · Module {module} · Lesson {lesson}",
+   "Status: {status}",
+   "Created: {created}"
+  ],
+  "fieldIds": [
+   "entry1source",
+   "entry1context",
+   "entry1people",
+   "entry1observation",
+   "entry1workaround",
+   "entry1impact",
+   "entry1interpretation",
+   "entry1next",
+   "entry2source",
+   "entry2context",
+   "entry2people",
+   "entry2observation",
+   "entry2workaround",
+   "entry2impact",
+   "entry2interpretation",
+   "entry2next",
+   "entry3source",
+   "entry3context",
+   "entry3people",
+   "entry3observation",
+   "entry3workaround",
+   "entry3impact",
+   "entry3interpretation",
+   "entry3next",
+   "pattern",
+   "support",
+   "assumption",
+   "evidence",
+   "constraint"
+  ],
+  "footer": "Local prototype export. No reviewer submission or business validation."
+ },
+ "sections": [
+  {
+   "id": "watch",
+   "label": "01 / WATCH",
+   "heading": "Notice the small moments that matter.",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "The planned explainer shows how to record everyday friction without jumping to a solution. Use the transcript or guide while the video is a placeholder."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "video-placeholder"
+       },
+       "children": [
+        {
+         "tag": "span",
+         "attrs": {
+          "class": "badge"
+         },
+         "children": [
+          "Video placeholder · media not produced"
+         ]
+        },
+        {
+         "tag": "h3",
+         "attrs": {},
+         "children": [
+          "See Problems in Everyday Life"
+         ]
+        },
+        {
+         "tag": "p",
+         "attrs": {},
+         "children": [
+          "Planned: 2½-minute explainer + worksheet demo",
+          {
+           "tag": "br",
+           "attrs": {},
+           "children": []
+          },
+          "Notice → Record → Separate assumptions → Ask"
+         ]
+        },
+        {
+         "tag": "small",
+         "attrs": {},
+         "children": [
+          "No playable video or generated media is attached."
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "storyboard",
+     "scenes": [
+      {
+       "title": "Notice friction",
+       "visual": "Adult visitor pauses at a venue entrance with several unbranded signs; documentary realism in Dubai.",
+       "narration": "Problems often appear as small moments of friction: waiting, repeating a task, searching for information, or finding a workaround. Today, practise noticing those moments. You are not choosing a product yet. You are collecting clues about what people experience."
+      },
+      {
+       "title": "Describe what happened",
+       "visual": "Observer writes notes without filming people; editable fact-versus-interpretation cards added in post.",
+       "narration": "Write what happened in a specific situation. “Two visitors asked where to check in” is an observation if you saw it. “Everyone needs a new app” is an assumption. Keep the observation separate from what you think it means. A small clue does not prove a market."
+      },
+      {
+       "title": "Look at existing workarounds",
+       "visual": "Visitor asks a staff member, checks a paper map, and follows a direction; no identifiable documents.",
+       "narration": "People may already cope by asking someone, using a spreadsheet, making a note, or avoiding the task. Record that workaround. Ask what it helps with and what may still be difficult. Do not assume your preferred solution would be better before understanding what works today."
+      },
+      {
+       "title": "Keep uncertainty visible",
+       "visual": "Editable source labels: observed firsthand, reported by someone, planned not yet observed.",
+       "narration": "Record the source of each entry. Did you observe it yourself, hear about it, or only plan to investigate? If you do not know the impact or frequency, say so. Do not turn a guess into a number. Planned observation is useful preparation, but it is not collected evidence."
+      },
+      {
+       "title": "Explore respectfully",
+       "visual": "Observer watches a general venue process, notebook closed while walking; no covert camera or personal details.",
+       "narration": "Choose a familiar setting where observation is appropriate. Avoid recording names, faces or private details. Ask permission before interviewing or recording someone, and follow the setting’s access rules. Focus on the process and the situation, not on judging the people involved."
+      },
+      {
+       "title": "Create the discovery journal",
+       "visual": "Actual Lesson 06 journal screen recording with fictional clearly labeled sample data.",
+       "narration": "Now create three journal entries. For each, note the source, context, people involved, what happened, the workaround, possible impact, interpretation, and next question. Look for a pattern without claiming proof. If you have not observed yet, label the entry as planned and choose a small observation to do next."
+      }
+     ],
+     "sceneMeta": "Planned final scene: 25 seconds · narration and precise graphics added in post",
+     "summary": "Explore the six-scene storyboard placeholder"
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {
+        "class": "help"
+       },
+       "children": [
+        "Use an explainer with editable diagrams, documentary cutaways and a real worksheet demo. Generate short assets where supported, then assemble in an editor."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "videoPrompt",
+     "prompt": "Create a beginner-friendly educational explainer for LYNQ Venture Studio Academy, Module 1.2 Lesson 06: “See Problems in Everyday Life.” Desired final edit about 150 seconds, 16:9, 1080p. Combine realistic documentary-style process moments, editable observation-versus-assumption diagrams, and a genuine worksheet screen recording. Palette navy #0B2338, teal #087D79, mint #BCF2DF and white. Contemporary Dubai public/venue setting, diverse adult cast, calm curious English narrator, no exaggerated frustration or success imagery.\n\nTeaching objectives: notice everyday friction before selecting a solution; record specific observations and existing workarounds; distinguish observation, interpretation and next question; label firsthand/reported/planned sources; keep unknown impact/frequency explicit; and observe respectfully. Use FICTIONAL adult event visitors looking for check-in directions. Label example graphics “Illustrative example.” Never imply a real LYNQ client case, validated demand, measured market size or collected research. No invented interview quotes, confidential details, names or identifiable contact data.\n\nUse these six scenes and exact narration in sequence. Target around 25 seconds per final scene, adjusting after narrator read-through with natural diagram holds. Record one consistent voice track separately. Generate short footage only in durations supported by the selected Gemini/Veo model/account. An eight-second shot plan is optional where supported. Assemble clips, editable diagrams, narration and captions in a video editor; do not claim one prompt generates a complete polished film.\n\nSCENE 1 — Notice friction. Visual: Adult visitor pauses at a venue entrance with several unbranded signs; documentary realism in Dubai. Narration: “Problems often appear as small moments of friction: waiting, repeating a task, searching for information, or finding a workaround. Today, practise noticing those moments. You are not choosing a product yet. You are collecting clues about what people experience.”\n\nSCENE 2 — Describe what happened. Visual: Observer writes notes without filming people; editable fact-versus-interpretation cards added in post. Narration: “Write what happened in a specific situation. “Two visitors asked where to check in” is an observation if you saw it. “Everyone needs a new app” is an assumption. Keep the observation separate from what you think it means. A small clue does not prove a market.”\n\nSCENE 3 — Look at existing workarounds. Visual: Visitor asks a staff member, checks a paper map, and follows a direction; no identifiable documents. Narration: “People may already cope by asking someone, using a spreadsheet, making a note, or avoiding the task. Record that workaround. Ask what it helps with and what may still be difficult. Do not assume your preferred solution would be better before understanding what works today.”\n\nSCENE 4 — Keep uncertainty visible. Visual: Editable source labels: observed firsthand, reported by someone, planned not yet observed. Narration: “Record the source of each entry. Did you observe it yourself, hear about it, or only plan to investigate? If you do not know the impact or frequency, say so. Do not turn a guess into a number. Planned observation is useful preparation, but it is not collected evidence.”\n\nSCENE 5 — Explore respectfully. Visual: Observer watches a general venue process, notebook closed while walking; no covert camera or personal details. Narration: “Choose a familiar setting where observation is appropriate. Avoid recording names, faces or private details. Ask permission before interviewing or recording someone, and follow the setting’s access rules. Focus on the process and the situation, not on judging the people involved.”\n\nSCENE 6 — Create the discovery journal. Visual: Actual Lesson 06 journal screen recording with fictional clearly labeled sample data. Narration: “Now create three journal entries. For each, note the source, context, people involved, what happened, the workaround, possible impact, interpretation, and next question. Look for a pattern without claiming proof. If you have not observed yet, label the entry as planned and choose a small observation to do next.”\n\nReturn the scene plan, timing and individual visual-shot prompts first. Generated footage must have no text, logos, captions, watermark, speaking presenters or fabricated UI. Exact LYNQ wordmark, process diagrams, source tags and subtitles are editable post-production elements. Suggested overlays: What happened / What I think / What I still need to ask; Existing workaround; Firsthand / Reported / Planned; Unknown ≠ Zero; Three-entry journal. Keep the same approved observer reference actor and wardrobe; realistic gestures and hands. Do not show covert filming or recording of private details.\n\nScene 6 must use actual approved Lesson 06 screen recording with fictional labeled entries. Show that a planned entry stays planned and is not treated as evidence. Never generate the product UI. End card in post: “Notice one moment. Record it honestly. Ask the next question.”\n\nHuman-produced deliverables: H.264 1920×1080 MP4, editable project/diagrams, narrator audio, thumbnail, timed English VTT/SRT and transcript, generation/reference rights provenance. Separate native-reviewed Arabic narration/captions and RTL graphics; do not auto-mirror English UI. Review mobile legibility, pacing, audio intelligibility, source/uncertainty wording, privacy and brand before publishing. No video is generated by this prototype.",
+     "filename": "LYNQ-Lesson-06-Gemini-Video-Prompt.md",
+     "title": "# LYNQ Lesson 06 — Gemini video prompt",
+     "summary": "Gemini video prompt — ready to copy"
+    },
+    {
+     "type": "transcript",
+     "scenes": [
+      {
+       "title": "Notice friction",
+       "visual": "Adult visitor pauses at a venue entrance with several unbranded signs; documentary realism in Dubai.",
+       "narration": "Problems often appear as small moments of friction: waiting, repeating a task, searching for information, or finding a workaround. Today, practise noticing those moments. You are not choosing a product yet. You are collecting clues about what people experience."
+      },
+      {
+       "title": "Describe what happened",
+       "visual": "Observer writes notes without filming people; editable fact-versus-interpretation cards added in post.",
+       "narration": "Write what happened in a specific situation. “Two visitors asked where to check in” is an observation if you saw it. “Everyone needs a new app” is an assumption. Keep the observation separate from what you think it means. A small clue does not prove a market."
+      },
+      {
+       "title": "Look at existing workarounds",
+       "visual": "Visitor asks a staff member, checks a paper map, and follows a direction; no identifiable documents.",
+       "narration": "People may already cope by asking someone, using a spreadsheet, making a note, or avoiding the task. Record that workaround. Ask what it helps with and what may still be difficult. Do not assume your preferred solution would be better before understanding what works today."
+      },
+      {
+       "title": "Keep uncertainty visible",
+       "visual": "Editable source labels: observed firsthand, reported by someone, planned not yet observed.",
+       "narration": "Record the source of each entry. Did you observe it yourself, hear about it, or only plan to investigate? If you do not know the impact or frequency, say so. Do not turn a guess into a number. Planned observation is useful preparation, but it is not collected evidence."
+      },
+      {
+       "title": "Explore respectfully",
+       "visual": "Observer watches a general venue process, notebook closed while walking; no covert camera or personal details.",
+       "narration": "Choose a familiar setting where observation is appropriate. Avoid recording names, faces or private details. Ask permission before interviewing or recording someone, and follow the setting’s access rules. Focus on the process and the situation, not on judging the people involved."
+      },
+      {
+       "title": "Create the discovery journal",
+       "visual": "Actual Lesson 06 journal screen recording with fictional clearly labeled sample data.",
+       "narration": "Now create three journal entries. For each, note the source, context, people involved, what happened, the workaround, possible impact, interpretation, and next question. Look for a pattern without claiming proof. If you have not observed yet, label the entry as planned and choose a small observation to do next."
+      }
+     ],
+     "summary": "Read the full narration / transcript"
+    },
+    {
+     "type": "studied",
+     "label": "I read the transcript or reviewed the learning guide. Video is not required."
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "label": "02 / LEARN",
+   "heading": "Look for friction before you look for an app.",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "A problem is a difficulty someone experiences in a specific situation. It may show up as wasted time, repeated effort, confusion, missed information, extra cost, or a workaround. Your task today is to notice and record clues, not to decide that every inconvenience deserves a business."
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Use a familiar setting: an event, shop, workplace process, journey, or everyday task. Choose a situation you can observe appropriately. You can explore without a business idea."
+       ]
+      },
+      {
+       "tag": "h3",
+       "attrs": {},
+       "children": [
+        "By the end, you can"
+       ]
+      },
+      {
+       "tag": "ul",
+       "attrs": {},
+       "children": [
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Describe a moment of friction with a specific context."
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Separate what happened from what you think it means."
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Record an existing workaround and unknown impact."
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Label whether an entry is firsthand, reported, or planned."
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Create three entries and a next observation question."
+         ]
+        }
+       ]
+      },
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "grid2"
+       },
+       "children": [
+        {
+         "tag": "div",
+         "attrs": {
+          "class": "note"
+         },
+         "children": [
+          {
+           "tag": "h3",
+           "attrs": {},
+           "children": [
+            "Observation"
+           ]
+          },
+          {
+           "tag": "p",
+           "attrs": {},
+           "children": [
+            "What you directly saw or heard, with a clear source and context. “At check-in, two visitors asked staff which queue to join.”"
+           ]
+          },
+          {
+           "tag": "small",
+           "attrs": {},
+           "children": [
+            "Use this only if it actually happened; this example is fictional."
+           ]
+          }
+         ]
+        },
+        {
+         "tag": "div",
+         "attrs": {
+          "class": "note"
+         },
+         "children": [
+          {
+           "tag": "h3",
+           "attrs": {},
+           "children": [
+            "Interpretation"
+           ]
+          },
+          {
+           "tag": "p",
+           "attrs": {},
+           "children": [
+            "What you think it might mean. “The queue signs may not be clear.” That is a possible explanation, not a confirmed cause."
+           ]
+          }
+         ]
+        },
+        {
+         "tag": "div",
+         "attrs": {
+          "class": "note"
+         },
+         "children": [
+          {
+           "tag": "h3",
+           "attrs": {},
+           "children": [
+            "Workaround"
+           ]
+          },
+          {
+           "tag": "p",
+           "attrs": {},
+           "children": [
+            "How people manage today. “They asked a staff member.” That may work well; understand it before proposing a replacement."
+           ]
+          }
+         ]
+        },
+        {
+         "tag": "div",
+         "attrs": {
+          "class": "note"
+         },
+         "children": [
+          {
+           "tag": "h3",
+           "attrs": {},
+           "children": [
+            "Next question"
+           ]
+          },
+          {
+           "tag": "p",
+           "attrs": {},
+           "children": [
+            "What would help you check the interpretation? “Which directions did they see, and what was unclear?”"
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "tag": "h3",
+       "attrs": {},
+       "children": [
+        "Where to look"
+       ]
+      },
+      {
+       "tag": "ul",
+       "attrs": {},
+       "children": [
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          {
+           "tag": "b",
+           "attrs": {},
+           "children": [
+            "Waiting:"
+           ]
+          },
+          " where does a process slow down, and why might that be?"
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          {
+           "tag": "b",
+           "attrs": {},
+           "children": [
+            "Repeating:"
+           ]
+          },
+          " what information or action gets repeated?"
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          {
+           "tag": "b",
+           "attrs": {},
+           "children": [
+            "Searching:"
+           ]
+          },
+          " what do people struggle to find?"
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          {
+           "tag": "b",
+           "attrs": {},
+           "children": [
+            "Workarounds:"
+           ]
+          },
+          " where do notes, messages, spreadsheets or extra staff bridge a gap?"
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          {
+           "tag": "b",
+           "attrs": {},
+           "children": [
+            "Avoiding:"
+           ]
+          },
+          " what task do people skip, and what do you still need to ask?"
+         ]
+        }
+       ]
+      },
+      {
+       "tag": "h3",
+       "attrs": {},
+       "children": [
+        "A simple illustrative journal entry"
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "Source:"
+         ]
+        },
+        " fictional example, not learner evidence.",
+        {
+         "tag": "br",
+         "attrs": {},
+         "children": []
+        },
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "Context:"
+         ]
+        },
+        " venue entrance before an event.",
+        {
+         "tag": "br",
+         "attrs": {},
+         "children": []
+        },
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "People:"
+         ]
+        },
+        " first-time adult visitors.",
+        {
+         "tag": "br",
+         "attrs": {},
+         "children": []
+        },
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "What happened:"
+         ]
+        },
+        " two visitors asked staff which queue to join.",
+        {
+         "tag": "br",
+         "attrs": {},
+         "children": []
+        },
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "Workaround:"
+         ]
+        },
+        " staff gave directions.",
+        {
+         "tag": "br",
+         "attrs": {},
+         "children": []
+        },
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "Impact:"
+         ]
+        },
+        " an extra step; delay and frequency are unknown.",
+        {
+         "tag": "br",
+         "attrs": {},
+         "children": []
+        },
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "Interpretation:"
+         ]
+        },
+        " directions may be unclear; there may be another explanation.",
+        {
+         "tag": "br",
+         "attrs": {},
+         "children": []
+        },
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "Next question:"
+         ]
+        },
+        " which signs did visitors notice?"
+       ]
+      }
+     ]
+    },
+    {
+     "type": "practice",
+     "legend": "Choose the observation",
+     "prompt": "Which statement describes what happened rather than a solution or broad claim?",
+     "options": [
+      {
+       "label": "Everyone wants an event app",
+       "feedback": "That is a broad assumption or proposed solution. Start with a specific observed event, label its source, and keep interpretation separate."
+      },
+      {
+       "label": "Two visitors asked staff which queue to join",
+       "feedback": "Correct for this fictional example: a specific event can be an observation if you saw it. Its cause, frequency and business value still need checking."
+      },
+      {
+       "label": "The venue needs a digital platform",
+       "feedback": "That is a broad assumption or proposed solution. Start with a specific observed event, label its source, and keep interpretation separate."
+      }
+     ]
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {
+        "class": "help"
+       },
+       "children": [
+        "Optional practice; this fictional example is not research evidence."
+       ]
+      },
+      {
+       "tag": "h3",
+       "attrs": {},
+       "children": [
+        "Keep the source and uncertainty visible"
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "Observed firsthand:"
+         ]
+        },
+        " you directly noticed the situation.",
+        {
+         "tag": "br",
+         "attrs": {},
+         "children": []
+        },
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "Reported by someone:"
+         ]
+        },
+        " someone described an experience; identify the role/source without private details.",
+        {
+         "tag": "br",
+         "attrs": {},
+         "children": []
+        },
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "Planned — not yet observed:"
+         ]
+        },
+        " something you intend to investigate. Write a plan, not a pretend result."
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "If impact, frequency or current alternatives are unknown, say “unknown” or “to check.” One entry cannot prove that a problem is common or worth solving commercially. You will explore affected people and problem priority in later lessons."
+       ]
+      },
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "note"
+       },
+       "children": [
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "Observe respectfully."
+         ]
+        },
+        " Follow access rules; do not record names, faces or private details. Ask permission before interviews or recording. A general process note is enough for this journal."
+       ]
+      },
+      {
+       "tag": "h3",
+       "attrs": {},
+       "children": [
+        "Notice patterns without forcing a conclusion"
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "After three entries, compare them. Do they share a setting, repeated step or type of friction? Write a tentative pattern and a next question. “No pattern yet” is acceptable. Choose further observation rather than inventing certainty."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "build",
+   "label": "03 / BUILD",
+   "heading": "Your Problem Discovery Journal",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Create three entries. Use firsthand observations or clearly labeled reports where you have them. If you have not observed yet, choose “Planned — not yet observed” and write an honest investigation plan."
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {
+        "class": "help"
+       },
+       "children": [
+        "Arabic entries use automatic text direction. Use role labels and avoid sensitive personal information. No entry is automatically treated as verified evidence."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "saveStatus"
+    },
+    {
+     "type": "extension",
+     "id": "fieldGroup",
+     "props": {
+      "summary": "Journal entry 1",
+      "open": true,
+      "ids": [
+       "entry1source",
+       "entry1context",
+       "entry1people",
+       "entry1observation",
+       "entry1workaround",
+       "entry1impact",
+       "entry1interpretation",
+       "entry1next"
+      ]
+     }
+    },
+    {
+     "type": "extension",
+     "id": "fieldGroup",
+     "props": {
+      "summary": "Journal entry 2",
+      "open": false,
+      "ids": [
+       "entry2source",
+       "entry2context",
+       "entry2people",
+       "entry2observation",
+       "entry2workaround",
+       "entry2impact",
+       "entry2interpretation",
+       "entry2next"
+      ]
+     }
+    },
+    {
+     "type": "extension",
+     "id": "fieldGroup",
+     "props": {
+      "summary": "Journal entry 3",
+      "open": false,
+      "ids": [
+       "entry3source",
+       "entry3context",
+       "entry3people",
+       "entry3observation",
+       "entry3workaround",
+       "entry3impact",
+       "entry3interpretation",
+       "entry3next"
+      ]
+     }
+    },
+    {
+     "type": "fields",
+     "ids": [
+      "pattern",
+      "support"
+     ]
+    },
+    {
+     "type": "extension",
+     "id": "preview",
+     "props": {
+      "label": "Preview my discovery journal",
+      "kind": "journal",
+      "entryKeys": [
+       "context",
+       "people",
+       "observation",
+       "workaround",
+       "impact",
+       "interpretation",
+       "next"
+      ],
+      "sourceMissing": "Source not chosen",
+      "patternLabel": "Tentative pattern / next check",
+      "footer": "Source labels are learner-provided. Planned entries are not collected evidence."
+     }
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "note"
+       },
+       "children": [
+        "Local storage is plaintext. Download a copy before changing browsers. Completing this journal records a learning task, not verified demand, frequency or a business opportunity."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "extension",
+     "id": "download",
+     "props": {
+      "label": "Download Problem Discovery Journal"
+     }
+    },
+    {
+     "type": "reset",
+     "label": "Clear local draft"
+    }
+   ]
+  },
+  {
+   "id": "coach",
+   "label": "04 / ASK AI",
+   "heading": "Your thinking partner",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "span",
+       "attrs": {
+        "class": "badge"
+       },
+       "children": [
+        "Simulated Coach · no AI connection"
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Try four scripted guidance modes. The preview reads your current worksheet locally; it does not send information anywhere."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "extension",
+     "id": "coach",
+     "props": {
+      "modes": [
+       {
+        "id": "teach",
+        "label": "Teach me"
+       },
+       {
+        "id": "guide",
+        "label": "Guide me"
+       },
+       {
+        "id": "review",
+        "label": "Review my work"
+       },
+       {
+        "id": "challenge",
+        "label": "Challenge my idea"
+       }
+      ],
+      "replies": {
+       "teach": "Notice friction in a specific context. Keep what happened separate from interpretation. Record existing workarounds and unknown impact. Firsthand, reported and planned entries are different sources; none automatically proves demand.",
+       "guide": "Create three entries. Select a truthful source/status for each. Write context, people as roles, the observation or plan, workaround, impact/unknowns, interpretation and next question. Compare entries without forcing a pattern.",
+       "review": "Problem Discovery Journal check: {missing} required fields still empty. All three entries and the pattern field are present. Check source labels, unknowns, and whether interpretations are separate from facts.\nThis scripted check counts fields only. It cannot verify that observations happened or prove impact, frequency or demand.",
+       "challenge": "Could there be another explanation? Is the current workaround sufficient? Which entries are only planned? What would contradict the pattern you suspect? Avoid turning a solution preference into a problem claim.",
+       "reviewIncomplete": "Problem Discovery Journal check: {missing} required fields still empty. Complete all three journal entries, source labels, tentative pattern and reflections.\nThis scripted check counts fields only. It cannot verify that observations happened or prove impact, frequency or demand."
+      },
+      "heading": "SCRIPTED DEMO / ",
+      "questionNote": "Your question was entered locally. This preview does not generate a custom answer.",
+      "questionLabel": "Your question (optional)",
+      "placeholder": "What should I focus on first?",
+      "maxLength": 500,
+      "submitLabel": "Show simulated guidance"
+     }
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {
+        "class": "help"
+       },
+       "children": [
+        "Responses are predefined for this lesson, not generated answers to your question. No customer demand or venture readiness is verified."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "challenge",
+   "label": "05 / CHALLENGE",
+   "heading": "Challenge the explanation before choosing a solution.",
+   "blocks": [
+    {
+     "type": "fields",
+     "ids": [
+      "assumption",
+      "evidence",
+      "constraint"
+     ]
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "details",
+       "attrs": {},
+       "children": [
+        {
+         "tag": "summary",
+         "attrs": {},
+         "children": [
+          "More questions to discuss"
+         ]
+        },
+        {
+         "tag": "ul",
+         "attrs": {},
+         "children": [
+          {
+           "tag": "li",
+           "attrs": {},
+           "children": [
+            "Are you describing a problem or already pitching a solution?"
+           ]
+          },
+          {
+           "tag": "li",
+           "attrs": {},
+           "children": [
+            "Could the workaround be good enough for people today?"
+           ]
+          },
+          {
+           "tag": "li",
+           "attrs": {},
+           "children": [
+            "Do you know impact and frequency, or only suspect them?"
+           ]
+          },
+          {
+           "tag": "li",
+           "attrs": {},
+           "children": [
+            "Are planned entries clearly separated from observed/reported evidence?"
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "quiz",
+   "label": "06 / CHECK YOUR UNDERSTANDING",
+   "heading": "A quick knowledge check",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Answer all three. You can retry; all three correct are required for local completion."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "quiz"
+    }
+   ]
+  },
+  {
+   "id": "finish",
+   "label": "07 / DELIVER & PROGRESS",
+   "heading": "Your deliverable: a Problem Discovery Journal.",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Your three entries, source labels, tentative pattern and reflections form a starting discovery journal. Download a copy. Local self-completion does not send research to a reviewer or verify a problem."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "checklist"
+    },
+    {
+     "type": "honest",
+     "label": "I distinguished observations, reports, plans and assumptions, and kept unknowns visible."
+    },
+    {
+     "type": "complete",
+     "label": "Mark Lesson 06 complete locally",
+     "completedLabel": "Lesson 06 self-completed locally",
+     "completedNotice": "Lesson 06 self-completed locally. Download your Problem Discovery Journal. No reviewer approval or venture validation is recorded.",
+     "incompleteNotice": "Complete the remaining requirements above before marking this lesson complete."
+    },
+    {
+     "type": "extension",
+     "id": "moduleNote",
+     "props": {
+      "parts": [
+       {
+        "nodes": [
+         {
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+           "Module 1.2 · Finding Problems Worth Solving"
+          ]
+         }
+        ]
+       },
+       {
+        "status": "1.2",
+        "complete": "All five lessons self-completed locally. Module 1.2 learning pack complete; no validation, certification or approval is implied.",
+        "incomplete": "{count} / 5 lessons self-completed locally. Complete each separately to finish this learning module."
+       },
+       {
+        "nodes": [
+         {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+           "This lesson starts your observation journal. Lesson 07 is available to explore affected people."
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "type": "next"
+    }
+   ]
+  }
+ ],
+ "nav": [
+  {
+   "id": "watch",
+   "label": "Watch"
+  },
+  {
+   "id": "learn",
+   "label": "Learn"
+  },
+  {
+   "id": "build",
+   "label": "Build"
+  },
+  {
+   "id": "coach",
+   "label": "Ask AI"
+  },
+  {
+   "id": "challenge",
+   "label": "Challenge"
+  },
+  {
+   "id": "quiz",
+   "label": "Knowledge check"
+  },
+  {
+   "id": "finish",
+   "label": "Deliver"
+  }
+ ]
+}

@@ -1,0 +1,4 @@
+/* Phase 1 (Discover) extension styles. */
+.native-page .p1-group{border:1px solid #d7e4e5;border-radius:12px;padding:12px 16px;margin:0 0 16px}
+.native-page .p1-coach input{max-width:100%}
+.native-page .p1-coach .coach-message{min-height:3em}

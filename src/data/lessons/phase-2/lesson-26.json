@@ -1,0 +1,776 @@
+{
+  "number": 26,
+  "phase": 2,
+  "module": "2.2",
+  "title": "Prepare Neutral Customer Conversations",
+  "hero": {
+    "eyebrow": "Module 2.2 · Learning from Customers · Lesson 26",
+    "title": "Prepare Neutral Customer Conversations.",
+    "intro": "Prepare a conversation guide that explores recent experiences without pitching or leading the answer. Keep consent, evidence limits and anonymous notes clear.",
+    "badges": [
+      "Beginner friendly"
+    ],
+    "meta": "35–45 min · Recommended: Lesson 25"
+  },
+  "fields": [
+    {
+      "id": "focus",
+      "label": "Learning question, assumption, group/context and source from the test plan",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Prepare neutral questions; preserve consent and evidence limits."
+    },
+    {
+      "id": "opening",
+      "label": "Opening: purpose, voluntary participation, time, decline/stop and recording permission",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Prepare neutral questions; preserve consent and evidence limits."
+    },
+    {
+      "id": "warmup",
+      "label": "Neutral context question and recent-experience prompt",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Prepare neutral questions; preserve consent and evidence limits."
+    },
+    {
+      "id": "sequence",
+      "label": "Core questions: what happened, what they tried, outcome and what mattered",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Prepare neutral questions; preserve consent and evidence limits."
+    },
+    {
+      "id": "probes",
+      "label": "Neutral follow-ups: clarify specifics without suggesting feelings or solutions",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Prepare neutral questions; preserve consent and evidence limits."
+    },
+    {
+      "id": "rewrites",
+      "label": "Rewrite two leading/pitch questions into neutral recent-experience questions",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Prepare neutral questions; preserve consent and evidence limits."
+    },
+    {
+      "id": "notes",
+      "label": "Anonymous note structure: reported account, exact quotes only if captured, interpretation and limits",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Prepare neutral questions; preserve consent and evidence limits."
+    },
+    {
+      "id": "close",
+      "label": "Close, unanswered questions, owner/timing, permission status and next review",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Prepare neutral questions; preserve consent and evidence limits."
+    },
+    {
+      "id": "support",
+      "label": "Optional references or support",
+      "kind": "textarea",
+      "required": false,
+      "maxLength": 2000
+    },
+    {
+      "id": "bias",
+      "label": "Which question pitches, suggests a feeling or invites polite agreement?",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "counter",
+      "label": "What answer could weaken your assumption, and how will you avoid arguing with it?",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "constraint",
+      "label": "How will you respect decline/stop, recording permission and minimal anonymous notes?",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    }
+  ],
+  "questions": [
+    {
+      "prompt": "Which is a neutral recent-experience prompt?",
+      "options": [
+        "Wouldn’t my app help?",
+        "Tell me about the last time you did this task",
+        "You were frustrated, right?"
+      ],
+      "answer": 1,
+      "explanation": "Ask about the person’s experience without suggesting a solution or feeling."
+    },
+    {
+      "prompt": "Does permission to converse automatically permit recording?",
+      "options": [
+        "No; obtain appropriate separate recording permission",
+        "Yes",
+        "Yes if the worksheet is complete"
+      ],
+      "answer": 0,
+      "explanation": "Conversation and recording permissions are distinct."
+    },
+    {
+      "prompt": "What is a conversation account?",
+      "options": [
+        "Proof of future payment",
+        "A representative market result",
+        "Reported information with context and limits, separate from your inference"
+      ],
+      "answer": 2,
+      "explanation": "Preserve source status; an account is not universal or purchasing proof."
+    }
+  ],
+  "checklist": [
+    {
+      "kind": "studied",
+      "label": "Storyboard/transcript reviewed"
+    },
+    {
+      "kind": "fields",
+      "label": "Eight worksheet fields complete",
+      "ids": [
+        "focus",
+        "opening",
+        "warmup",
+        "sequence",
+        "probes",
+        "rewrites",
+        "notes",
+        "close"
+      ]
+    },
+    {
+      "kind": "fields",
+      "label": "Three red-team reflections complete",
+      "ids": [
+        "bias",
+        "counter",
+        "constraint"
+      ]
+    },
+    {
+      "kind": "quiz",
+      "label": "Quiz 3 / 3 correct"
+    },
+    {
+      "kind": "honest",
+      "label": "Final self-review confirmed"
+    }
+  ],
+  "deliverable": {
+    "title": "LYNQ Academy — Neutral Conversation Guide",
+    "filename": "LYNQ-Neutral-Conversation-Guide.md",
+    "headerLines": [
+      "Phase 02 · Module {module} · Lesson {lesson}",
+      "Status: {status}"
+    ],
+    "fieldIds": [
+      "focus",
+      "opening",
+      "warmup",
+      "sequence",
+      "probes",
+      "rewrites",
+      "notes",
+      "close"
+    ],
+    "footer": "No real AI, test execution, source verification or demand validation.",
+    "previewFooter": "This plan does not prove demand or represent completed research."
+  },
+  "sections": [
+    {
+      "id": "watch",
+      "label": "01 / WATCH",
+      "heading": "How can you learn without leading the answer?",
+      "blocks": [
+        {
+          "type": "video",
+          "title": "Prepare Neutral Customer Conversations",
+          "subtitle": "Planned 2½-minute explainer + worksheet demo",
+          "note": "No playable video or generated media is attached."
+        },
+        {
+          "type": "storyboard",
+          "scenes": [
+            {
+              "title": "Learn before pitching",
+              "visual": "Founder reviews an anonymous learning question.",
+              "narration": "A customer conversation helps you learn about a person’s experience. Prepare a guide around one question from your validation plan. Do not lead with your product or try to collect agreement. Preparing this guide does not recruit anyone or conduct an interview."
+            },
+            {
+              "title": "Open with permission",
+              "visual": "Adult participant can freely decline a fictional conversation.",
+              "narration": "Explain the purpose and expected time, make participation voluntary, and say they can decline a question or stop. Ask appropriate permission before any recording. Use anonymous notes where possible and do not promise confidentiality you cannot deliver."
+            },
+            {
+              "title": "Ask about a recent experience",
+              "visual": "Editable last-time question card.",
+              "narration": "Ask about the last time the person tried the relevant task. What happened, what did they try and what happened next? Recent accounts are more useful than asking whether everyone likes your idea. Keep the group and context specific."
+            },
+            {
+              "title": "Probe without suggesting answers",
+              "visual": "Editable neutral clarification prompts.",
+              "narration": "Ask what they mean, what mattered, and whether they can describe a specific example. Do not suggest that they were frustrated or that your app would help. Accept that the current approach may work well. Avoid arguing with an answer that weakens your assumption."
+            },
+            {
+              "title": "Keep accounts and interpretations separate",
+              "visual": "Editable anonymous reported-account and inference columns.",
+              "narration": "A conversation gives someone’s reported account, not independent proof of every event or future behaviour. Record source code and context, distinguish notes from exact quotes, and label your interpretation. Do not invent quotes, frequency, payment intent or representative conclusions."
+            },
+            {
+              "title": "Build the guide",
+              "visual": "Actual approved Lesson 26 worksheet recording.",
+              "narration": "Create your Neutral Conversation Guide with the learning question, opening, context prompt, core questions, probes, rewrites, notes and close. Keep access pending until arranged. The next lesson plans ethical recruitment of relevant participants."
+            }
+          ],
+          "summary": "Explore the six-scene storyboard placeholder",
+          "sceneMeta": "Planned scene {scene} · about 25 seconds in final edit"
+        },
+        {
+          "type": "transcript",
+          "scenes": [
+            {
+              "title": "Learn before pitching",
+              "visual": "Founder reviews an anonymous learning question.",
+              "narration": "A customer conversation helps you learn about a person’s experience. Prepare a guide around one question from your validation plan. Do not lead with your product or try to collect agreement. Preparing this guide does not recruit anyone or conduct an interview."
+            },
+            {
+              "title": "Open with permission",
+              "visual": "Adult participant can freely decline a fictional conversation.",
+              "narration": "Explain the purpose and expected time, make participation voluntary, and say they can decline a question or stop. Ask appropriate permission before any recording. Use anonymous notes where possible and do not promise confidentiality you cannot deliver."
+            },
+            {
+              "title": "Ask about a recent experience",
+              "visual": "Editable last-time question card.",
+              "narration": "Ask about the last time the person tried the relevant task. What happened, what did they try and what happened next? Recent accounts are more useful than asking whether everyone likes your idea. Keep the group and context specific."
+            },
+            {
+              "title": "Probe without suggesting answers",
+              "visual": "Editable neutral clarification prompts.",
+              "narration": "Ask what they mean, what mattered, and whether they can describe a specific example. Do not suggest that they were frustrated or that your app would help. Accept that the current approach may work well. Avoid arguing with an answer that weakens your assumption."
+            },
+            {
+              "title": "Keep accounts and interpretations separate",
+              "visual": "Editable anonymous reported-account and inference columns.",
+              "narration": "A conversation gives someone’s reported account, not independent proof of every event or future behaviour. Record source code and context, distinguish notes from exact quotes, and label your interpretation. Do not invent quotes, frequency, payment intent or representative conclusions."
+            },
+            {
+              "title": "Build the guide",
+              "visual": "Actual approved Lesson 26 worksheet recording.",
+              "narration": "Create your Neutral Conversation Guide with the learning question, opening, context prompt, core questions, probes, rewrites, notes and close. Keep access pending until arranged. The next lesson plans ethical recruitment of relevant participants."
+            }
+          ],
+          "summary": "Read the full narration / transcript"
+        },
+        {
+          "type": "videoPrompt",
+          "prompt": "Create an engaging beginner-friendly LYNQ Academy explainer and conversation-guide demo for Module 2.2 Lesson 26: Prepare Neutral Customer Conversations. Editorial target 150 seconds, 16:9 1080p. Navy #0B2338, teal #087D79, mint #BCF2DF, white; diverse adults in contemporary Dubai workspace; clear warm English narration. All interview scenes fictional and labeled Illustrative example in post. Teach voluntary opening, recent-experience questions, neutral probes, leading-question rewrites and reported-account versus interpretation notes. No fabricated testimonials, outcomes, emotions, payment claims or real participant recruitment.\n\nSCENE 1: Learn before pitching\nVisual placeholder: Founder reviews an anonymous learning question.\nNarration: A customer conversation helps you learn about a person’s experience. Prepare a guide around one question from your validation plan. Do not lead with your product or try to collect agreement. Preparing this guide does not recruit anyone or conduct an interview.\n\nSCENE 2: Open with permission\nVisual placeholder: Adult participant can freely decline a fictional conversation.\nNarration: Explain the purpose and expected time, make participation voluntary, and say they can decline a question or stop. Ask appropriate permission before any recording. Use anonymous notes where possible and do not promise confidentiality you cannot deliver.\n\nSCENE 3: Ask about a recent experience\nVisual placeholder: Editable last-time question card.\nNarration: Ask about the last time the person tried the relevant task. What happened, what did they try and what happened next? Recent accounts are more useful than asking whether everyone likes your idea. Keep the group and context specific.\n\nSCENE 4: Probe without suggesting answers\nVisual placeholder: Editable neutral clarification prompts.\nNarration: Ask what they mean, what mattered, and whether they can describe a specific example. Do not suggest that they were frustrated or that your app would help. Accept that the current approach may work well. Avoid arguing with an answer that weakens your assumption.\n\nSCENE 5: Keep accounts and interpretations separate\nVisual placeholder: Editable anonymous reported-account and inference columns.\nNarration: A conversation gives someone’s reported account, not independent proof of every event or future behaviour. Record source code and context, distinguish notes from exact quotes, and label your interpretation. Do not invent quotes, frequency, payment intent or representative conclusions.\n\nSCENE 6: Build the guide\nVisual placeholder: Actual approved Lesson 26 worksheet recording.\nNarration: Create your Neutral Conversation Guide with the learning question, opening, context prompt, core questions, probes, rewrites, notes and close. Keep access pending until arranged. The next lesson plans ethical recruitment of relevant participants.\n\nFirst provide storyboard, timings and shot prompts. Generate supported short shots for selected Gemini/Veo account, assemble with separately recorded narration. No generated text/logos/captions/fake UI. Add exact branding and editable Purpose / Permission / Last time / Neutral probe / Reported account / Interpretation cards in post. Use approved actual Lesson 26 screen recording with fictional planned questions. Deliver H.264 MP4, editable project, audio, transcript, VTT/SRT, thumbnail and rights/provenance. Native-reviewed Arabic narration and RTL graphics separately. Review consent wording, neutrality, privacy, accuracy, audio, pacing and mobile readability. Prototype generates no video.",
+          "filename": "LYNQ-Lesson-26-Gemini-Video-Prompt.md",
+          "summary": "Gemini video prompt — ready to copy"
+        },
+        {
+          "type": "studied",
+          "label": "I reviewed the storyboard or transcript."
+        }
+      ]
+    },
+    {
+      "id": "learn",
+      "label": "02 / LEARN",
+      "heading": "Ask to understand, not to win agreement.",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "A ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "neutral question"
+                  ]
+                },
+                " does not suggest the answer. A ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "recent-experience prompt"
+                  ]
+                },
+                " asks about a specific event. A ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "probe"
+                  ]
+                },
+                " clarifies an account without putting words in someone’s mouth."
+              ]
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "grid2"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "note"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "children": [
+                        "Leading"
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "children": [
+                        "“Wouldn’t our app make registration easier?”"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "note"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "children": [
+                        "Neutral"
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "children": [
+                        "“Tell me about the last time you found registration. What did you try?”"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "note"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "children": [
+                        "Assumed feeling"
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "children": [
+                        "“How frustrated were you?” assumes frustration."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "note"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "children": [
+                        "Open probe"
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "children": [
+                        "“What mattered to you in that situation?” permits a different answer."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "ol",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Use one learning question from your test plan."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Explain purpose/time, voluntary participation and stop/decline."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Ask about a recent relevant experience."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Explore actions, workarounds, outcomes and what mattered."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Use neutral probes; accept that current approaches may work."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Close respectfully and separate reported accounts from interpretations."
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Permission for a conversation is not permission to record. Avoid unnecessary personal details or sensitive topics. Exact quotes must be actually captured and permitted; otherwise label paraphrases as notes. Do not invent accounts or treat one person as representative."
+              ]
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Future preference, compliments and a clear explanation do not prove adoption or payment. Keep those claims separate. This worksheet prepares questions only; it sends no messages and recruits nobody."
+              ]
+            },
+            {
+              "tag": "lesson-link",
+              "attrs": {
+                "lesson": "25",
+                "class": "btn secondary"
+              },
+              "children": [
+                "Review validation test plan"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "practice",
+          "legend": "Practice: choose a neutral prompt",
+          "prompt": "",
+          "options": [
+            {
+              "label": "Wouldn’t my app solve this?",
+              "feedback": "Keep questions neutral; avoid leading with a solution or assumed feeling."
+            },
+            {
+              "label": "Tell me about the last time you did this task",
+              "feedback": "Useful prompt: explore a recent experience without pitching or suggesting the answer."
+            },
+            {
+              "label": "You were frustrated, right?",
+              "feedback": "Keep questions neutral; avoid leading with a solution or assumed feeling."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "build",
+      "label": "03 / BUILD",
+      "heading": "Your Neutral Conversation Guide.",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Prepare questions and note headings, not invented answers. Keep participant access and recording permission honestly pending when unconfirmed."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "saveStatus"
+        },
+        {
+          "type": "fields",
+          "ids": [
+            "focus",
+            "opening",
+            "warmup",
+            "sequence",
+            "probes",
+            "rewrites",
+            "notes",
+            "close",
+            "support"
+          ]
+        },
+        {
+          "type": "deliverable",
+          "previewLabel": "Preview my conversation guide",
+          "downloadLabel": "Download Neutral Conversation Guide"
+        },
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "note"
+              },
+              "children": [
+                "Browser storage is plaintext; use anonymous role labels. This guide does not conduct interviews, grant recording permission or validate demand."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "reset",
+          "label": "Clear local draft"
+        }
+      ]
+    },
+    {
+      "id": "coach",
+      "label": "04 / ASK AI",
+      "heading": "Venture Coach · simulated",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Scripted demonstration only. No live AI, source verification, experiment execution or backend is connected."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "extension",
+          "id": "coach",
+          "props": {
+            "modes": [
+              {
+                "id": "teach",
+                "label": "Teach",
+                "response": "Prepare a voluntary opening, recent-experience prompts and neutral probes. Separate reported notes from interpretation; recording needs appropriate permission."
+              },
+              {
+                "id": "guide",
+                "label": "Guide",
+                "response": "Prepare a voluntary opening, recent-experience prompts and neutral probes. Separate reported notes from interpretation; recording needs appropriate permission."
+              },
+              {
+                "id": "review",
+                "label": "Review",
+                "response": "Conversation Guide check: {missing} required fields still empty. This scripted check counts fields only; it cannot verify neutrality, consent, interview accounts or demand."
+              },
+              {
+                "id": "challenge",
+                "label": "Challenge",
+                "response": "Prepare a voluntary opening, recent-experience prompts and neutral probes. Separate reported notes from interpretation; recording needs appropriate permission."
+              }
+            ],
+            "initial": "teach",
+            "questionResponse": "This is a scripted demonstration, not an AI answer to your question.",
+            "countIds": [
+              "focus",
+              "opening",
+              "warmup",
+              "sequence",
+              "probes",
+              "rewrites",
+              "notes",
+              "close"
+            ],
+            "questionLabel": "Optional question for the demonstration",
+            "submitLabel": "Show simulated guidance"
+          }
+        }
+      ]
+    },
+    {
+      "id": "challenge",
+      "label": "05 / CHALLENGE",
+      "heading": "Challenge your questions.",
+      "blocks": [
+        {
+          "type": "fields",
+          "ids": [
+            "bias",
+            "counter",
+            "constraint"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz",
+      "label": "06 / KNOWLEDGE CHECK",
+      "heading": "Check your understanding.",
+      "blocks": [
+        {
+          "type": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "label": "07 / DELIVER & PROGRESS",
+      "heading": "Your deliverable: a Neutral Conversation Guide.",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Download your opening, questions, probes, rewrites, note structure and close. This begins Module 2.2; earlier deliverables save separately."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checklist"
+        },
+        {
+          "type": "honest",
+          "label": "I prepared neutral questions, respected voluntary participation and recording limits, and kept reported accounts separate from inference."
+        },
+        {
+          "type": "complete",
+          "label": "Mark Lesson 26 complete locally",
+          "completedLabel": "Lesson 26 self-completed locally",
+          "completedNotice": "Lesson 26 self-completed locally. This is not validated demand or a submitted assignment.",
+          "incompleteNotice": "Complete the remaining requirements before local self-completion."
+        },
+        {
+          "type": "extension",
+          "id": "moduleNote",
+          "props": {
+            "heading": "Module 2.2 · Learning from Customers",
+            "lessons": [
+              26,
+              27,
+              28,
+              29,
+              30
+            ],
+            "complete": "All five lessons self-completed locally. Module 2.2 learning pack complete; source verification, demand and venture approval remain separate.",
+            "incomplete": "{count} / 5 lessons self-completed locally. Complete each separately; evidence verification remains separate.",
+            "notes": [
+              {
+                "tag": "p",
+                "attrs": {},
+                "children": [
+                  "Self-completion records preparation, not interviews conducted, consent granted or demand validation."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {
+                "class": "help"
+              },
+              "children": [
+                "Learning completion is separate from validated demand."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "next"
+        }
+      ]
+    }
+  ],
+  "nav": [
+    {
+      "id": "watch",
+      "label": "Watch"
+    },
+    {
+      "id": "learn",
+      "label": "Learn"
+    },
+    {
+      "id": "build",
+      "label": "Build"
+    },
+    {
+      "id": "coach",
+      "label": "Ask AI"
+    },
+    {
+      "id": "challenge",
+      "label": "Challenge"
+    },
+    {
+      "id": "quiz",
+      "label": "Knowledge check"
+    },
+    {
+      "id": "finish",
+      "label": "Deliver"
+    }
+  ]
+}

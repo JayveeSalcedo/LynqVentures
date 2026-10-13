@@ -1,0 +1,1038 @@
+{
+ "number": 2,
+ "phase": 1,
+ "module": "1.1",
+ "title": "What Entrepreneurs Actually Do",
+ "hero": {
+  "eyebrow": "Module 1.1 · Becoming an Entrepreneur · Lesson 02",
+  "title": "What Entrepreneurs Actually Do.",
+  "intro": "Understand the work behind a venture: listen, decide, test, organise, deliver, and learn. Turn those responsibilities into a practical action map for your own idea or an everyday problem.",
+  "badges": [
+   "Beginner friendly"
+  ],
+  "meta": "35–45 min · Recommended: Lesson 01 Founder Profile"
+ },
+ "fields": [
+  {
+   "id": "context",
+   "label": "Your idea or problem area",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Event visitors trying to reconnect after a meeting.",
+   "maxLength": 2000,
+   "hint": "Describe one problem you want to understand. No idea yet? Choose an everyday situation."
+  },
+  {
+   "id": "listen",
+   "label": "Listen — how will you understand people?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Ask two visitors what they did after losing a contact.",
+   "maxLength": 2000,
+   "hint": "Name who you will speak with or observe and one question about a real experience."
+  },
+  {
+   "id": "priority",
+   "label": "Decide — what matters first?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Find out whether reconnecting is a recurring problem.",
+   "maxLength": 2000,
+   "hint": "Choose one uncertainty and explain why it comes before other work."
+  },
+  {
+   "id": "test",
+   "label": "Test — what is the smallest useful experiment?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Try an opt-in manual introduction with two participants.",
+   "maxLength": 2000,
+   "hint": "Describe a small test and what result could challenge your expectation."
+  },
+  {
+   "id": "resources",
+   "label": "Organise — who, when, and with what?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "I will plan this by Friday within two hours and no paid tools.",
+   "maxLength": 2000,
+   "hint": "State an owner, a realistic time limit, and a resource boundary."
+  },
+  {
+   "id": "deliver",
+   "label": "Deliver — what useful result will you provide?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Offer a consent-based introduction to someone they want to reconnect with.",
+   "maxLength": 2000,
+   "hint": "Describe the intended benefit to the person, without promising an outcome."
+  },
+  {
+   "id": "measure",
+   "label": "Learn — what will you observe and decide?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Record whether participants reply; if not, ask why before building.",
+   "maxLength": 2000,
+   "hint": "Name an observable signal and what you would do if it does not appear."
+  },
+  {
+   "id": "delegate",
+   "label": "Delegate — what can someone help with?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "A teammate can review the question list; I will review it Thursday.",
+   "maxLength": 2000,
+   "hint": "Name a task, owner or “me for now,” output, and check-in."
+  },
+  {
+   "id": "support",
+   "label": "What support or constraint should you flag?",
+   "kind": "textarea",
+   "required": false,
+   "placeholder": "Optional: access to people, skills, time, or resources…",
+   "maxLength": 2000
+  },
+  {
+   "id": "assumption",
+   "label": "Which action might create activity without useful learning?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "I might be spending time on… before I know…",
+   "maxLength": 2000
+  },
+  {
+   "id": "evidence",
+   "label": "What result would challenge your current plan?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "If I observe… I will reconsider…",
+   "maxLength": 2000
+  },
+  {
+   "id": "constraint",
+   "label": "If a delegated task does not happen, what will you do?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "I will check in… and adjust the scope or owner by…",
+   "maxLength": 2000
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "Which description best matches a founder’s work?",
+   "options": [
+    "Doing every task personally",
+    "Listening, deciding, testing, organising, delivering, and learning",
+    "Only pitching to investors"
+   ],
+   "answer": 1,
+   "explanation": "Founders guide the venture through practical responsibilities; they can delegate individual tasks."
+  },
+  {
+   "prompt": "You have limited time and an untested problem. What helps most?",
+   "options": [
+    "Build many features first",
+    "Assume your friends represent all customers",
+    "Ask people about a recent experience of the problem"
+   ],
+   "answer": 2,
+   "explanation": "A recent experience helps you understand the problem before committing to a solution."
+  },
+  {
+   "prompt": "What should happen when you delegate a task?",
+   "options": [
+    "Agree the owner, output, timing and check-in; keep responsibility for direction",
+    "Hand it over with no follow-up",
+    "Treat delegation as evidence of market demand"
+   ],
+   "answer": 0,
+   "explanation": "Clear delegation supports execution. The founder still needs to review evidence and decide what comes next."
+  }
+ ],
+ "checklist": [
+  {
+   "kind": "studied",
+   "label": "Transcript or learning guide reviewed"
+  },
+  {
+   "kind": "fields",
+   "label": "Founder Responsibility Map fields complete",
+   "ids": [
+    "context",
+    "listen",
+    "priority",
+    "test",
+    "resources",
+    "deliver",
+    "measure",
+    "delegate"
+   ]
+  },
+  {
+   "kind": "fields",
+   "label": "Three red-team reflections complete",
+   "ids": [
+    "assumption",
+    "evidence",
+    "constraint"
+   ]
+  },
+  {
+   "kind": "quiz",
+   "label": "Knowledge check: 3 / 3 correct"
+  },
+  {
+   "kind": "honest",
+   "label": "Final self-review confirmed"
+  }
+ ],
+ "deliverable": {
+  "title": "LYNQ Academy — Founder Responsibility Map",
+  "filename": "LYNQ-Founder-Responsibility-Map.md",
+  "headerLines": [
+   "Phase 01 · Module {module} · Lesson {lesson}",
+   "Status: {status}",
+   "Created: {created}"
+  ],
+  "fieldIds": [
+   "context",
+   "listen",
+   "priority",
+   "test",
+   "resources",
+   "deliver",
+   "measure",
+   "delegate",
+   "support",
+   "assumption",
+   "evidence",
+   "constraint"
+  ],
+  "footer": "Local prototype export. No reviewer submission or business validation."
+ },
+ "sections": [
+  {
+   "id": "watch",
+   "label": "01 / WATCH",
+   "heading": "See the work behind the title.",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "A short visual explainer will follow one illustrative event problem through the founder’s six responsibilities. For now, read the transcript and explore the storyboard plan."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "video-placeholder"
+       },
+       "children": [
+        {
+         "tag": "span",
+         "attrs": {
+          "class": "badge"
+         },
+         "children": [
+          "Video placeholder · media not produced"
+         ]
+        },
+        {
+         "tag": "h3",
+         "attrs": {},
+         "children": [
+          "What Entrepreneurs Actually Do"
+         ]
+        },
+        {
+         "tag": "p",
+         "attrs": {},
+         "children": [
+          "Planned: 2½-minute explainer + worksheet demo",
+          {
+           "tag": "br",
+           "attrs": {},
+           "children": []
+          },
+          "Listen → Decide → Test → Organise → Deliver → Learn"
+         ]
+        },
+        {
+         "tag": "small",
+         "attrs": {},
+         "children": [
+          "No playable video or generated media is attached."
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "storyboard",
+     "scenes": [
+      {
+       "title": "Behind the title",
+       "visual": "Founder listens, chooses a next step, and organises a small activity.",
+       "narration": "Entrepreneur is a title. What does the work actually look like? A founder listens, makes choices, tests ideas, organises people and resources, delivers value, and learns from what happens. You do not have to do every task yourself. You do need to make sure the important work gets done."
+      },
+      {
+       "title": "Listen before deciding",
+       "visual": "An illustrative event visitor loses a contact; founder listens without pitching.",
+       "narration": "Imagine a visitor who cannot reconnect with someone they met at an event. Listen first. Ask what happened, how they tried to solve it, and why it mattered. One conversation is a clue, not proof that everyone needs a new app. Your responsibility is to understand before choosing a solution."
+      },
+      {
+       "title": "Decide and test",
+       "visual": "Two simple options; a small manual experiment; exact diagrams added in post.",
+       "narration": "Next, choose the most important uncertainty. Could a simple follow-up process help? Design a small test before building a large product. Decide what you will try, how you will observe the result, and what would make you change direction. A useful test can show that your first idea was wrong."
+      },
+      {
+       "title": "Organise and deliver",
+       "visual": "Owner, time limit, resources and consent shown through edited graphics.",
+       "narration": "Organising means choosing an owner, a time limit, and the resources needed. Delivering means helping someone achieve a useful result. A busy team is not enough. For this example, a manual introduction may teach you more than weeks of coding. Ask permission before sharing anyone’s contact details."
+      },
+      {
+       "title": "Learn and delegate",
+       "visual": "Editable learning loop and task handover diagram; founder reviews results.",
+       "narration": "After the test, compare what happened with what you expected. Keep observations separate from opinions. You can delegate design, research or operations, with a clear brief and a check-in. You still own the decision about what the team should do next. Changing direction after learning is progress."
+      },
+      {
+       "title": "Your action map",
+       "visual": "Actual worksheet screen recording using fictional answers, then a next-action card.",
+       "narration": "Now create your Founder Responsibility Map. For each responsibility, write one practical action. Set a time limit, name the owner, and choose a signal you can observe. If you have no idea yet, use an everyday problem you are curious about. Finish by challenging your assumptions and choosing your next small step."
+      }
+     ],
+     "sceneMeta": "Planned final scene: 25 seconds · narration and precise graphics added in post",
+     "summary": "Explore the six-scene storyboard placeholder"
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {
+        "class": "help"
+       },
+       "children": [
+        "Use Gemini to plan an animated explainer, generate short visual shots where supported, and assemble the narration and worksheet demo in an editor. Exact text and UI should be added in post."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "videoPrompt",
+     "prompt": "Create an engaging beginner-friendly explainer for LYNQ Venture Studio Academy, Module 1.1 Lesson 02: “What Entrepreneurs Actually Do.” Audience: first-time founders, including learners with no business idea. Desired final edit: approximately 150 seconds, 16:9, 1080p. Style: clean animated diagrams combined with natural documentary-style workplace moments and a short real worksheet screen recording. Friendly plain-language English narrator; navy #0B2338, teal #087D79, mint #BCF2DF and white. Diverse adult cast in contemporary Dubai; respectful, realistic, no success clichés.\n\nTeaching objective: explain six recurring founder responsibilities—listen, decide, test, organise, deliver, learn—and show that a founder can delegate tasks while staying responsible for direction, decisions and follow-through. Use one FICTIONAL running example: an event visitor struggles to reconnect with someone they met. Never present it as validated market demand or a real client case.\n\nUse these six scenes and narration in order. Target about 25 seconds per scene using diagrams and pauses. Record one consistent voice track separately. Do not force exactly 25 seconds of generated footage per scene.\n\nSCENE 1 — Behind the title. Visual: founder listens to an event attendee, then considers notebook and calendar. Narration: “Entrepreneur is a title. What does the work actually look like? A founder listens, makes choices, tests ideas, organises people and resources, delivers value, and learns from what happens. You do not have to do every task yourself. You do need to make sure the important work gets done.”\n\nSCENE 2 — Listen before deciding. Visual: event visitor with contact notes, founder listening without pitching; editable observation-versus-assumption diagram added in post. Narration: “Imagine a visitor who cannot reconnect with someone they met at an event. Listen first. Ask what happened, how they tried to solve it, and why it mattered. One conversation is a clue, not proof that everyone needs a new app. Your responsibility is to understand before choosing a solution.”\n\nSCENE 3 — Decide and test. Visual: two simple options on blank cards, one small manual experiment; edit exact labels in post. Narration: “Next, choose the most important uncertainty. Could a simple follow-up process help? Design a small test before building a large product. Decide what you will try, how you will observe the result, and what would make you change direction. A useful test can show that your first idea was wrong.”\n\nSCENE 4 — Organise and deliver. Visual: founder and teammate planning a small activity, notebook and calendar; no fabricated product UI. Narration: “Organising means choosing an owner, a time limit, and the resources needed. Delivering means helping someone achieve a useful result. A busy team is not enough. For this example, a manual introduction may teach you more than weeks of coding. Ask permission before sharing anyone’s contact details.”\n\nSCENE 5 — Learn and delegate. Visual: editable loop and ownership diagram built in post, founder checks a teammate’s work. Narration: “After the test, compare what happened with what you expected. Keep observations separate from opinions. You can delegate design, research or operations, with a clear brief and a check-in. You still own the decision about what the team should do next. Changing direction after learning is progress.”\n\nSCENE 6 — Your action map. Visual: real screen recording of the approved Lesson 02 responsibility worksheet, then editable next-action end card. Narration: “Now create your Founder Responsibility Map. For each responsibility, write one practical action. Set a time limit, name the owner, and choose a signal you can observe. If you have no idea yet, use an everyday problem you are curious about. Finish by challenging your assumptions and choosing your next small step.”\n\nProduction instructions: first return a scene plan and separate short visual-generation prompts. Generate visual shots separately in the durations supported by the chosen Gemini/Veo model. An eight-second shot plan may be used where supported; assemble clips, stills, diagrams and narration in an editor. Do not claim one prompt can reliably generate the entire final film. No baked-in text, logos, captions, speaking presenters or generated worksheet screens. Add exact LYNQ wordmark, headings, labels, arrows and EN captions in post. Use actual screen recording for the worksheet demo with fictional data. No invented metrics, revenue, customers, funding or guarantees. Keep the hypothetical case labeled “Illustrative example.” Provide a transcript and editable caption file; create a separate native-reviewed Arabic narration/caption version rather than auto-mirroring the English UI. No video is generated by this prototype. Deliver the final video only after storyboard, narration, privacy and brand review.",
+     "filename": "LYNQ-Lesson-02-Gemini-Video-Prompt.md",
+     "title": "# LYNQ Lesson 02 — Gemini video prompt",
+     "summary": "Gemini video prompt — ready to copy"
+    },
+    {
+     "type": "transcript",
+     "scenes": [
+      {
+       "title": "Behind the title",
+       "visual": "Founder listens, chooses a next step, and organises a small activity.",
+       "narration": "Entrepreneur is a title. What does the work actually look like? A founder listens, makes choices, tests ideas, organises people and resources, delivers value, and learns from what happens. You do not have to do every task yourself. You do need to make sure the important work gets done."
+      },
+      {
+       "title": "Listen before deciding",
+       "visual": "An illustrative event visitor loses a contact; founder listens without pitching.",
+       "narration": "Imagine a visitor who cannot reconnect with someone they met at an event. Listen first. Ask what happened, how they tried to solve it, and why it mattered. One conversation is a clue, not proof that everyone needs a new app. Your responsibility is to understand before choosing a solution."
+      },
+      {
+       "title": "Decide and test",
+       "visual": "Two simple options; a small manual experiment; exact diagrams added in post.",
+       "narration": "Next, choose the most important uncertainty. Could a simple follow-up process help? Design a small test before building a large product. Decide what you will try, how you will observe the result, and what would make you change direction. A useful test can show that your first idea was wrong."
+      },
+      {
+       "title": "Organise and deliver",
+       "visual": "Owner, time limit, resources and consent shown through edited graphics.",
+       "narration": "Organising means choosing an owner, a time limit, and the resources needed. Delivering means helping someone achieve a useful result. A busy team is not enough. For this example, a manual introduction may teach you more than weeks of coding. Ask permission before sharing anyone’s contact details."
+      },
+      {
+       "title": "Learn and delegate",
+       "visual": "Editable learning loop and task handover diagram; founder reviews results.",
+       "narration": "After the test, compare what happened with what you expected. Keep observations separate from opinions. You can delegate design, research or operations, with a clear brief and a check-in. You still own the decision about what the team should do next. Changing direction after learning is progress."
+      },
+      {
+       "title": "Your action map",
+       "visual": "Actual worksheet screen recording using fictional answers, then a next-action card.",
+       "narration": "Now create your Founder Responsibility Map. For each responsibility, write one practical action. Set a time limit, name the owner, and choose a signal you can observe. If you have no idea yet, use an everyday problem you are curious about. Finish by challenging your assumptions and choosing your next small step."
+      }
+     ],
+     "summary": "Read the full narration / transcript"
+    },
+    {
+     "type": "studied",
+     "label": "I read the transcript or reviewed the learning guide. Video is not required."
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "label": "02 / LEARN",
+   "heading": "A founder turns uncertainty into useful action.",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "A founder is someone who starts a venture and takes responsibility for moving it forward. An entrepreneur looks for a way to create value through a business. In this Academy, you will practise both: understand a need, make a choice, try something small, and learn whether it helps."
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "You do not need to code, design, sell, and manage everything yourself. You can work with teammates and specialists. Your responsibility is to keep the team focused on the problem, make clear decisions, and follow through."
+       ]
+      },
+      {
+       "tag": "h3",
+       "attrs": {},
+       "children": [
+        "By the end, you can"
+       ]
+      },
+      {
+       "tag": "ul",
+       "attrs": {},
+       "children": [
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Explain six recurring founder responsibilities in plain language."
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Distinguish busy work from work that reduces uncertainty."
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Delegate a task with a clear owner and check-in."
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Create a realistic Founder Responsibility Map."
+         ]
+        }
+       ]
+      },
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "grid2"
+       },
+       "children": [
+        {
+         "tag": "div",
+         "attrs": {
+          "class": "note"
+         },
+         "children": [
+          {
+           "tag": "h3",
+           "attrs": {},
+           "children": [
+            "01 · Listen"
+           ]
+          },
+          {
+           "tag": "p",
+           "attrs": {},
+           "children": [
+            "Understand what people experience. Ask about a real situation, their current workaround, and the consequences. Listen without trying to sell your idea."
+           ]
+          },
+          {
+           "tag": "small",
+           "attrs": {},
+           "children": [
+            "Output: a short observation log, with permission where needed."
+           ]
+          }
+         ]
+        },
+        {
+         "tag": "div",
+         "attrs": {
+          "class": "note"
+         },
+         "children": [
+          {
+           "tag": "h3",
+           "attrs": {},
+           "children": [
+            "02 · Decide"
+           ]
+          },
+          {
+           "tag": "p",
+           "attrs": {},
+           "children": [
+            "Choose the problem or uncertainty to address next. Make trade-offs: what matters now, what can wait, and why?"
+           ]
+          },
+          {
+           "tag": "small",
+           "attrs": {},
+           "children": [
+            "Output: one priority and a reason for choosing it."
+           ]
+          }
+         ]
+        },
+        {
+         "tag": "div",
+         "attrs": {
+          "class": "note"
+         },
+         "children": [
+          {
+           "tag": "h3",
+           "attrs": {},
+           "children": [
+            "03 · Test"
+           ]
+          },
+          {
+           "tag": "p",
+           "attrs": {},
+           "children": [
+            "Try a small, affordable way to learn. Write what you expect, what you will observe, and what would change your mind."
+           ]
+          },
+          {
+           "tag": "small",
+           "attrs": {},
+           "children": [
+            "Output: a test plan. An unsuccessful test can still be useful."
+           ]
+          }
+         ]
+        },
+        {
+         "tag": "div",
+         "attrs": {
+          "class": "note"
+         },
+         "children": [
+          {
+           "tag": "h3",
+           "attrs": {},
+           "children": [
+            "04 · Organise"
+           ]
+          },
+          {
+           "tag": "p",
+           "attrs": {},
+           "children": [
+            "Give the work an owner, time limit, and resource boundary. Surface missing skills and ask for help early."
+           ]
+          },
+          {
+           "tag": "small",
+           "attrs": {},
+           "children": [
+            "Output: who does what, by when, using which resources."
+           ]
+          }
+         ]
+        },
+        {
+         "tag": "div",
+         "attrs": {
+          "class": "note"
+         },
+         "children": [
+          {
+           "tag": "h3",
+           "attrs": {},
+           "children": [
+            "05 · Deliver"
+           ]
+          },
+          {
+           "tag": "p",
+           "attrs": {},
+           "children": [
+            "Help someone achieve a useful result. A manual service or simple prototype can be enough to learn at this stage."
+           ]
+          },
+          {
+           "tag": "small",
+           "attrs": {},
+           "children": [
+            "Output: a clear action that provides value, not just more features."
+           ]
+          }
+         ]
+        },
+        {
+         "tag": "div",
+         "attrs": {
+          "class": "note"
+         },
+         "children": [
+          {
+           "tag": "h3",
+           "attrs": {},
+           "children": [
+            "06 · Learn"
+           ]
+          },
+          {
+           "tag": "p",
+           "attrs": {},
+           "children": [
+            "Compare the result with your expectation. Record the evidence, acknowledge uncertainty, and decide whether to continue, change, or pause."
+           ]
+          },
+          {
+           "tag": "small",
+           "attrs": {},
+           "children": [
+            "Output: what happened and the next decision."
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "tag": "h3",
+       "attrs": {},
+       "children": [
+        "Follow one simple example"
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "Illustrative case:"
+         ]
+        },
+        " an event visitor struggles to reconnect with someone they met. The founder listens to visitors, prioritises understanding the follow-up problem, and plans a small opt-in manual introduction test. They set a time limit, organise the work, ask permission before sharing details, and observe whether participants use the introduction."
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "This does not prove a market exists. The founder would still need to understand how often the problem happens, who cares, what alternatives exist, and whether a workable business can result. Today you are learning how to organise that work."
+       ]
+      },
+      {
+       "tag": "h3",
+       "attrs": {},
+       "children": [
+        "Delegate the task. Keep the direction clear."
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "A teammate may conduct agreed observations or create a visual. A useful handover includes the purpose, expected output, time limit, owner, and review point. The founder still needs to decide what the evidence means and what the team should do next."
+       ]
+      },
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "note"
+       },
+       "children": [
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "Activity is not the same as progress."
+         ]
+        },
+        " Making a logo can be useful later. If your biggest uncertainty is whether anyone experiences the problem, listening to the affected people is usually the more useful next action."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "practice",
+     "legend": "Try a founder decision",
+     "prompt": "You have two hours and have not yet spoken to anyone affected by your idea. Which action most directly helps you understand the problem?",
+     "options": [
+      {
+       "label": "Polish a logo",
+       "feedback": "That may be useful later. Right now, listening to a recent experience most directly reduces uncertainty about the problem."
+      },
+      {
+       "label": "Ask about a recent real experience",
+       "feedback": "Good choice: a recent experience helps you learn what people actually do. Avoid leading with a pitch or treating one answer as market proof."
+      },
+      {
+       "label": "Add five app features",
+       "feedback": "That may be useful later. Right now, listening to a recent experience most directly reduces uncertainty about the problem."
+      }
+     ]
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {
+        "class": "help"
+       },
+       "children": [
+        "This practice scenario is optional. The completion quiz comes later."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "build",
+   "label": "03 / BUILD",
+   "heading": "Your Founder Responsibility Map",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Write one practical action for each responsibility. Use your Lesson 01 interests or an everyday problem. You can own every action for now; delegation is optional, but a clear owner matters."
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {
+        "class": "help"
+       },
+       "children": [
+        "Arabic entries use automatic text direction. Use fictional examples when exploring sensitive situations."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "saveStatus"
+    },
+    {
+     "type": "fields",
+     "ids": [
+      "context",
+      "listen",
+      "priority",
+      "test",
+      "resources",
+      "deliver",
+      "measure",
+      "delegate",
+      "support"
+     ]
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "note"
+       },
+       "children": [
+        "Saved locally in this browser, separate from Lesson 01. Local storage is plaintext; avoid private client details or personal contact information. Download a copy before changing browsers."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "extension",
+     "id": "download",
+     "props": {
+      "label": "Download Responsibility Map"
+     }
+    },
+    {
+     "type": "reset",
+     "label": "Clear local draft"
+    }
+   ]
+  },
+  {
+   "id": "coach",
+   "label": "04 / ASK AI",
+   "heading": "Your thinking partner",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "span",
+       "attrs": {
+        "class": "badge"
+       },
+       "children": [
+        "Simulated Coach · no AI connection"
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Try four scripted guidance modes. The preview reads your current worksheet locally; it does not send information anywhere."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "extension",
+     "id": "coach",
+     "props": {
+      "modes": [
+       {
+        "id": "teach",
+        "label": "Teach me"
+       },
+       {
+        "id": "guide",
+        "label": "Guide me"
+       },
+       {
+        "id": "review",
+        "label": "Review my work"
+       },
+       {
+        "id": "challenge",
+        "label": "Challenge my idea"
+       }
+      ],
+      "replies": {
+       "teach": "Founders listen, decide, test, organise, deliver, and learn. You can delegate an action, but you still need to review what happened and choose the next direction.",
+       "guide": "Choose one problem area. Start with an action that helps you understand people. Give every planned action an owner, time limit and observable output. Keep the test small enough to actually run.",
+       "review": "Responsibility Map check: {missing} required fields still empty. All eight map fields are present. Check for a real owner, time boundary, observable signal and a result that could change your mind.\nThis scripted check cannot judge answer quality or prove demand.",
+       "challenge": "Which action is only making you feel busy? Could your test ever show that you are wrong? If the teammate is unavailable, what will you simplify? What would make you pause before building?",
+       "reviewIncomplete": "Responsibility Map check: {missing} required fields still empty. Complete the context, six responsibilities, delegation plan, and reflections.\nThis scripted check cannot judge answer quality or prove demand."
+      },
+      "heading": "SCRIPTED DEMO / ",
+      "questionNote": "Your question was entered locally. This preview does not generate a custom answer.",
+      "questionLabel": "Your question (optional)",
+      "placeholder": "What should I focus on first?",
+      "maxLength": 500,
+      "submitLabel": "Show simulated guidance"
+     }
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {
+        "class": "help"
+       },
+       "children": [
+        "Responses are predefined for this lesson, not generated answers to your question. No customer demand or venture readiness is verified."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "challenge",
+   "label": "05 / CHALLENGE",
+   "heading": "Check the plan before you get busy.",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "A strong action map admits what is uncertain. Answer these three questions honestly."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "fields",
+     "ids": [
+      "assumption",
+      "evidence",
+      "constraint"
+     ]
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "details",
+       "attrs": {},
+       "children": [
+        {
+         "tag": "summary",
+         "attrs": {},
+         "children": [
+          "More questions to discuss"
+         ]
+        },
+        {
+         "tag": "ul",
+         "attrs": {},
+         "children": [
+          {
+           "tag": "li",
+           "attrs": {},
+           "children": [
+            "Are you choosing a solution before understanding the problem?"
+           ]
+          },
+          {
+           "tag": "li",
+           "attrs": {},
+           "children": [
+            "Does your test have a result that could prove your assumption wrong?"
+           ]
+          },
+          {
+           "tag": "li",
+           "attrs": {},
+           "children": [
+            "Can you deliver something useful within the time you actually have?"
+           ]
+          },
+          {
+           "tag": "li",
+           "attrs": {},
+           "children": [
+            "Have you obtained permission before involving people or sharing details?"
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "quiz",
+   "label": "06 / CHECK YOUR UNDERSTANDING",
+   "heading": "A quick knowledge check",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Answer all three. You can retry; all three correct are required for local completion."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "quiz"
+    }
+   ]
+  },
+  {
+   "id": "finish",
+   "label": "07 / DELIVER & PROGRESS",
+   "heading": "Your deliverable: a Responsibility Map.",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Your six responsibilities, delegation plan, and red-team reflections form a practical action brief. Download it to keep a copy. A local self-completion is recorded here; no assignment is sent to a reviewer."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "checklist"
+    },
+    {
+     "type": "honest",
+     "label": "I reviewed my answers and distinguished assumptions from evidence."
+    },
+    {
+     "type": "complete",
+     "label": "Mark Lesson 02 complete locally",
+     "completedLabel": "Lesson 02 self-completed locally",
+     "completedNotice": "Lesson 02 self-completed locally. Download your Founder Responsibility Map. No reviewer approval or venture validation is recorded.",
+     "incompleteNotice": "Complete the remaining requirements above before marking this lesson complete."
+    },
+    {
+     "type": "next"
+    }
+   ]
+  }
+ ],
+ "nav": [
+  {
+   "id": "watch",
+   "label": "Watch"
+  },
+  {
+   "id": "learn",
+   "label": "Learn"
+  },
+  {
+   "id": "build",
+   "label": "Build"
+  },
+  {
+   "id": "coach",
+   "label": "Ask AI"
+  },
+  {
+   "id": "challenge",
+   "label": "Challenge"
+  },
+  {
+   "id": "quiz",
+   "label": "Knowledge check"
+  },
+  {
+   "id": "finish",
+   "label": "Deliver"
+  }
+ ]
+}

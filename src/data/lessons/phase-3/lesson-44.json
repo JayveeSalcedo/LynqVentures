@@ -1,0 +1,804 @@
+{
+  "number": 44,
+  "phase": 3,
+  "module": "3.1",
+  "title": "Choose Your Product-Building Approach",
+  "hero": {
+    "eyebrow": "Module 3.1 · Designing the Product · Lesson 44",
+    "title": "Choose Your Product-Building Approach.",
+    "intro": "Use your MVP scope, essential features and user flow to choose a bounded build approach with explicit trade-offs and unknowns.",
+    "meta": "35–45 minutes · Recommended: Lessons 41–43"
+  },
+  "fields": [
+    {
+      "id": "inputs",
+      "label": "MVP scope, essential features and user-flow references from Lessons 41–43",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "constraints",
+      "label": "Learning question, time/skills/resource limits, data/access needs and unresolved conditions",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "options",
+      "label": "At least two feasible approaches: manual/service, clickable prototype, no-code/low-code or custom/hybrid; suitability and limits",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "comparison",
+      "label": "Approach | task/flow fit | effort status | skills/ownership | data/integrations | accessibility | maintenance/exit risks",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "choice",
+      "label": "Chosen approach and reasons tied to the task; rejected alternatives and trade-offs",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "boundaries",
+      "label": "What this approach will simulate, implement or exclude; safeguards and capability unknowns",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "review",
+      "label": "Dependencies to review, responsible owner, acceptance checks and revisit/stop conditions",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "handoff",
+      "label": "Lesson 45 prototype plan: task/screens or service steps, resources, time boundary and testable learning question",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "bias",
+      "label": "Did familiarity, hype or sunk effort influence your approach more than task fit?",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "counter",
+      "label": "What evidence or constraint could favour a simpler or different approach?",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "constraint",
+      "label": "Which capability, data/access requirement or dependency must be reviewed before implementation?",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    }
+  ],
+  "questions": [
+    {
+      "prompt": "What should drive the build approach?",
+      "options": [
+        "The most fashionable tool",
+        "The scoped task, learning question and constraints",
+        "A guaranteed investment outcome"
+      ],
+      "answer": 1,
+      "explanation": "Choose for task fit and reviewed constraints."
+    },
+    {
+      "prompt": "What can a clickable prototype establish by itself?",
+      "options": [
+        "A simulated navigation path, with usability still to be tested",
+        "Real payment processing",
+        "Production security and reliability"
+      ],
+      "answer": 0,
+      "explanation": "Keep simulated behaviour distinct from actual capability."
+    },
+    {
+      "prompt": "A needed integration is unverified. What belongs in the strategy?",
+      "options": [
+        "Assume it works",
+        "Ignore it until launch",
+        "Mark it unknown, assign review and define a revisit condition"
+      ],
+      "answer": 2,
+      "explanation": "Document dependencies before relying on them."
+    }
+  ],
+  "checklist": [
+    {
+      "kind": "studied",
+      "label": "Storyboard/transcript reviewed"
+    },
+    {
+      "kind": "fields",
+      "label": "All worksheet fields completed",
+      "ids": [
+        "inputs",
+        "constraints",
+        "options",
+        "comparison",
+        "choice",
+        "boundaries",
+        "review",
+        "handoff"
+      ]
+    },
+    {
+      "kind": "fields",
+      "label": "Challenge reflections completed",
+      "ids": [
+        "bias",
+        "counter",
+        "constraint"
+      ]
+    },
+    {
+      "kind": "quiz",
+      "label": "Knowledge check answered correctly"
+    },
+    {
+      "kind": "honest",
+      "label": "Honest self-review confirmed"
+    }
+  ],
+  "deliverable": {
+    "title": "Build Strategy",
+    "filename": "LYNQ-Build-Strategy.md",
+    "footer": ""
+  },
+  "sections": [
+    {
+      "id": "watch",
+      "label": "01 / WATCH",
+      "heading": "Which approach fits your task and constraints?",
+      "blocks": [
+        {
+          "type": "video",
+          "title": "Build-approach comparison explainer + worksheet demo",
+          "subtitle": "No playable video is attached."
+        },
+        {
+          "type": "storyboard",
+          "scenes": [
+            {
+              "title": "Start with the flow",
+              "visual": "Scope, feature matrix and user-flow cards",
+              "narration": "You have scoped the MVP, prioritized features and mapped the customer task. Now choose an approach that supports that task and learning question. Choosing a tool is not the same as proving demand."
+            },
+            {
+              "title": "Compare approach types",
+              "visual": "Manual, clickable, no-code and custom cards",
+              "narration": "A manual service lets a person perform work. A clickable prototype simulates navigation. No-code and low-code use configured components. Custom or hybrid development offers another route. Each has limits; none is automatically best."
+            },
+            {
+              "title": "Use your constraints",
+              "visual": "Comparison table placeholder",
+              "narration": "Compare flow fit, resources, skills, data needs, integrations, accessibility and maintenance. Mark effort unknown where it has not been reviewed. Do not invent tool capabilities or prices."
+            },
+            {
+              "title": "Explain the choice",
+              "visual": "Fictional clickable route prototype",
+              "narration": "For a fictional registration-route task, a clickable prototype may help explore navigation before building real registration. It cannot test payment, real accounts or production reliability. A manual service would answer a different operational question."
+            },
+            {
+              "title": "Check dependencies and exit",
+              "visual": "Owner, safeguard and revisit cards",
+              "narration": "Name what needs verification, who will review it and when you will reconsider. Check access, data, export, maintainability and vendor dependencies before real implementation. Do not hide safeguards to make an approach look easier."
+            },
+            {
+              "title": "Prepare the first prototype",
+              "visual": "Approved worksheet recording placeholder",
+              "narration": "Export your Build Strategy with the chosen approach, trade-offs and prototype boundaries. Lesson 45 uses it to create your first prototype. Lesson 46 then tests prototype usability. This strategy is a plan, not an implemented product."
+            }
+          ],
+          "summary": "Six-scene storyboard placeholder and full transcript"
+        },
+        {
+          "type": "transcript",
+          "scenes": [
+            {
+              "title": "Start with the flow",
+              "visual": "Scope, feature matrix and user-flow cards",
+              "narration": "You have scoped the MVP, prioritized features and mapped the customer task. Now choose an approach that supports that task and learning question. Choosing a tool is not the same as proving demand."
+            },
+            {
+              "title": "Compare approach types",
+              "visual": "Manual, clickable, no-code and custom cards",
+              "narration": "A manual service lets a person perform work. A clickable prototype simulates navigation. No-code and low-code use configured components. Custom or hybrid development offers another route. Each has limits; none is automatically best."
+            },
+            {
+              "title": "Use your constraints",
+              "visual": "Comparison table placeholder",
+              "narration": "Compare flow fit, resources, skills, data needs, integrations, accessibility and maintenance. Mark effort unknown where it has not been reviewed. Do not invent tool capabilities or prices."
+            },
+            {
+              "title": "Explain the choice",
+              "visual": "Fictional clickable route prototype",
+              "narration": "For a fictional registration-route task, a clickable prototype may help explore navigation before building real registration. It cannot test payment, real accounts or production reliability. A manual service would answer a different operational question."
+            },
+            {
+              "title": "Check dependencies and exit",
+              "visual": "Owner, safeguard and revisit cards",
+              "narration": "Name what needs verification, who will review it and when you will reconsider. Check access, data, export, maintainability and vendor dependencies before real implementation. Do not hide safeguards to make an approach look easier."
+            },
+            {
+              "title": "Prepare the first prototype",
+              "visual": "Approved worksheet recording placeholder",
+              "narration": "Export your Build Strategy with the chosen approach, trade-offs and prototype boundaries. Lesson 45 uses it to create your first prototype. Lesson 46 then tests prototype usability. This strategy is a plan, not an implemented product."
+            }
+          ]
+        },
+        {
+          "type": "videoPrompt",
+          "prompt": "Create a beginner-friendly LYNQ animated comparison explainer plus build-strategy worksheet demo: Phase 03 Build, Module 3.1 Designing the Product, Lesson 44 — Choose Your Product-Building Approach. Target 2–4 minutes, 16:9 1080p; navy #0B2338, teal #087D79, white and mint. Warm clear narration, uncluttered diagrams, no talking avatar required. Use generic approach categories, no tool endorsements or unverified cost claims. Connect Lessons 41–43 to Lesson 45 prototype. Label fictional registration-route example Illustrative planned example.\n\nSCENE 1 (~25 seconds; final timing follows narration)\nStoryboard placeholder: Start with the flow — Scope, feature matrix and user-flow cards\nNarration: You have scoped the MVP, prioritized features and mapped the customer task. Now choose an approach that supports that task and learning question. Choosing a tool is not the same as proving demand.\n\nSCENE 2 (~25 seconds; final timing follows narration)\nStoryboard placeholder: Compare approach types — Manual, clickable, no-code and custom cards\nNarration: A manual service lets a person perform work. A clickable prototype simulates navigation. No-code and low-code use configured components. Custom or hybrid development offers another route. Each has limits; none is automatically best.\n\nSCENE 3 (~25 seconds; final timing follows narration)\nStoryboard placeholder: Use your constraints — Comparison table placeholder\nNarration: Compare flow fit, resources, skills, data needs, integrations, accessibility and maintenance. Mark effort unknown where it has not been reviewed. Do not invent tool capabilities or prices.\n\nSCENE 4 (~25 seconds; final timing follows narration)\nStoryboard placeholder: Explain the choice — Fictional clickable route prototype\nNarration: For a fictional registration-route task, a clickable prototype may help explore navigation before building real registration. It cannot test payment, real accounts or production reliability. A manual service would answer a different operational question.\n\nSCENE 5 (~25 seconds; final timing follows narration)\nStoryboard placeholder: Check dependencies and exit — Owner, safeguard and revisit cards\nNarration: Name what needs verification, who will review it and when you will reconsider. Check access, data, export, maintainability and vendor dependencies before real implementation. Do not hide safeguards to make an approach look easier.\n\nSCENE 6 (~25 seconds; final timing follows narration)\nStoryboard placeholder: Prepare the first prototype — Approved worksheet recording placeholder\nNarration: Export your Build Strategy with the chosen approach, trade-offs and prototype boundaries. Lesson 45 uses it to create your first prototype. Lesson 46 then tests prototype usability. This strategy is a plan, not an implemented product.\n\nReturn complete script, timings, storyboard, separate supported short-shot Gemini/Veo prompts, editor overlay text, voice, captions/transcript, thumbnail, assembly and QA checklist. Generate short shots separately and assemble; composite exact labels, UI and branding in post. Use actual approved worksheet recording. Do not invent research, tool capabilities, prices, working integrations, real transactions or verified security. Deliver editable project, MP4, audio, VTT/SRT, transcript and rights/provenance. Native-reviewed Arabic/RTL version separately. Video media remains unproduced; this is a production prompt.",
+          "filename": "LYNQ-Lesson-44-Gemini-Video-Prompt.md",
+          "summary": "Gemini video prompt — ready to copy"
+        },
+        {
+          "type": "studied",
+          "label": "I reviewed the storyboard/transcript."
+        }
+      ]
+    },
+    {
+      "id": "learn",
+      "label": "02 / LEARN",
+      "heading": "Choose for the next learning task.",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "A ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "build approach"
+                  ]
+                },
+                " describes how you will create the scoped experience. A ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "prototype"
+                  ]
+                },
+                " represents enough behaviour to explore a question. ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "No-code/low-code"
+                  ]
+                },
+                " uses configured components with different degrees of coding. A ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "hybrid"
+                  ]
+                },
+                " combines approaches. An ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "exit plan"
+                  ]
+                },
+                " explains how you could move data or work if the approach changes."
+              ]
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "Objective:"
+                  ]
+                },
+                " compare at least two feasible approaches and choose one with explicit boundaries. ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "Why it matters:"
+                  ]
+                },
+                " committing to a tool too early can spend resources on capabilities your task does not need."
+              ]
+            },
+            {
+              "tag": "div",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "table",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "tag": "caption",
+                      "attrs": {},
+                      "children": [
+                        "Generic approach comparison — verify fit for your context"
+                      ]
+                    },
+                    {
+                      "tag": "thead",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "tag": "tr",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "tag": "th",
+                              "attrs": {},
+                              "children": [
+                                "Approach"
+                              ]
+                            },
+                            {
+                              "tag": "th",
+                              "attrs": {},
+                              "children": [
+                                "Useful for"
+                              ]
+                            },
+                            {
+                              "tag": "th",
+                              "attrs": {},
+                              "children": [
+                                "Limits to examine"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "tbody",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "tag": "tr",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                "Manual/service"
+                              ]
+                            },
+                            {
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                "Learning how a service or operation works through people"
+                              ]
+                            },
+                            {
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                "Capacity, consistency, handling data, repeatability"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "tr",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                "Clickable prototype"
+                              ]
+                            },
+                            {
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                "Exploring a screen/navigation task"
+                              ]
+                            },
+                            {
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                "Simulated behaviour; no actual accounts, payments or reliability proof"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "tr",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                "No-code/low-code"
+                              ]
+                            },
+                            {
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                "Configuring a workflow where reviewed components fit"
+                              ]
+                            },
+                            {
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                "Platform capability, permissions, export, integrations and ongoing costs"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "tr",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                "Custom/hybrid"
+                              ]
+                            },
+                            {
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                "Building behaviour requiring an owned implementation"
+                              ]
+                            },
+                            {
+                              "tag": "td",
+                              "attrs": {},
+                              "children": [
+                                "Skills, maintenance, reviewed effort and security/data responsibilities"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "ol",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Review Lessons 41–43 and unresolved Validate conditions manually."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Name the task and learning question; list resources and constraints."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Compare at least two feasible approaches with evidence/source status."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Choose for task fit; mark effort and capabilities unknown until reviewed."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Record simulations, exclusions, safeguards, owners and revisit conditions."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Pass a bounded prototype plan into Lesson 45."
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "note"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "children": [
+                    "Fictional example"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    "A clickable registration-route prototype may help explore navigation from invitation to destination. A manual concierge approach may help explore service handling instead. Choose the clickable option for a navigation question; keep payment, accounts and production integrations excluded. No usability findings or technical estimates exist yet."
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "lesson-link",
+              "attrs": {
+                "lesson": "43",
+                "class": "btn secondary"
+              },
+              "children": [
+                "Review Lesson 43 user flow"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "practice",
+          "prompt": "Practice: your next question is whether people understand the route choices.",
+          "options": [
+            {
+              "label": "Build every production integration first",
+              "feedback": "Production integration work is not necessary to explore a simulated navigation question."
+            },
+            {
+              "label": "Plan a scoped prototype and later usability check",
+              "feedback": "Plan enough interaction to explore route comprehension; test usability later without pretending integrations exist."
+            }
+          ]
+        },
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "A plan is not implementation. Lesson 45 creates the prototype; Lesson 46 tests usability. Actual technology/integration planning and security principles follow in Lessons 48–49."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "build",
+      "label": "03 / BUILD",
+      "heading": "Your Build Strategy.",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Compare at least two approaches. Use a row for each: approach | task fit | effort unknown/range + source | skills/owner | data/integrations | access | maintenance/exit. No numeric score or tool recommendation is generated."
+              ]
+            },
+            {
+              "tag": "p",
+              "attrs": {
+                "class": "muted"
+              },
+              "children": [
+                "Local autosave only; plaintext browser storage. Use anonymous planning notes."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "saveStatus"
+        },
+        {
+          "type": "fields",
+          "ids": [
+            "inputs",
+            "constraints",
+            "options",
+            "comparison",
+            "choice",
+            "boundaries",
+            "review",
+            "handoff"
+          ]
+        },
+        {
+          "type": "extension",
+          "id": "brief",
+          "props": {
+            "previewLabel": "Preview my build strategy",
+            "downloadLabel": "Download Build Strategy"
+          }
+        },
+        {
+          "type": "reset",
+          "label": "Clear local draft"
+        }
+      ]
+    },
+    {
+      "id": "coach",
+      "label": "04 / ASK AI COACH",
+      "heading": "AI Coach · simulated",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Fixed scripted demonstration; no AI/backend. Cannot verify feasibility, permissions, evidence or readiness."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "extension",
+          "id": "coach",
+          "props": {
+            "modes": [
+              {
+                "id": "teach",
+                "label": "Teach Me",
+                "response": "Simulated teach guidance: compare at least two approaches using task fit, skills, resources, data/access, dependencies and exit risks. Explain your choice and mark capabilities/effort unknown until reviewed. This fixed reply is not a recommendation or technical assessment."
+              },
+              {
+                "id": "guide",
+                "label": "Guide Me",
+                "response": "Simulated guide guidance: compare at least two approaches using task fit, skills, resources, data/access, dependencies and exit risks. Explain your choice and mark capabilities/effort unknown until reviewed. This fixed reply is not a recommendation or technical assessment."
+              },
+              {
+                "id": "review",
+                "label": "Review My Work",
+                "response": "Scripted field check: {missing} required fields empty. Counts only; no source or feasibility verification."
+              },
+              {
+                "id": "challenge",
+                "label": "Challenge My Idea",
+                "response": "Simulated challenge guidance: compare at least two approaches using task fit, skills, resources, data/access, dependencies and exit risks. Explain your choice and mark capabilities/effort unknown until reviewed. This fixed reply is not a recommendation or technical assessment."
+              }
+            ],
+            "question": {
+              "label": "Your question",
+              "button": "Ask simulated Coach",
+              "response": "Scripted demonstration, not an AI answer to your question. Keep the scope bounded and honour Validate conditions."
+            },
+            "initial": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "challenge",
+      "label": "05 / CHALLENGE",
+      "heading": "Challenge",
+      "blocks": [
+        {
+          "type": "fields",
+          "ids": [
+            "bias",
+            "counter",
+            "constraint"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz",
+      "label": "06 / KNOWLEDGE CHECK",
+      "heading": "Knowledge check",
+      "blocks": [
+        {
+          "type": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "deliver",
+      "label": "07 / DELIVER & PROGRESS",
+      "heading": "Deliver your Build Strategy.",
+      "blocks": [
+        {
+          "type": "checklist"
+        },
+        {
+          "type": "honest",
+          "label": "I compared approaches, explained task fit and trade-offs, and kept simulations, exclusions, safeguards and unknown dependencies visible."
+        },
+        {
+          "type": "complete",
+          "label": "Mark Lesson 44 complete locally",
+          "completedNotice": "Lesson 44 self-completed locally.",
+          "incompleteNotice": "Complete remaining requirements before self-completing."
+        },
+        {
+          "type": "extension",
+          "id": "moduleStatus",
+          "props": {
+            "module": "3.1",
+            "text": " / 5 self-completed locally. All 20 Build lessons are available. Learning completion is separate from venture readiness; Phase 04 continues with Lesson 61."
+          }
+        },
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Self-completion records planning, not actual build, verified evidence, demand or production approval."
+              ]
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Next: ",
+                {
+                  "tag": "lesson-link",
+                  "attrs": {
+                    "lesson": "45",
+                    "class": "btn secondary"
+                  },
+                  "children": [
+                    "Lesson 45 — Create Your First Prototype"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

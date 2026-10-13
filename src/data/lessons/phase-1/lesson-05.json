@@ -1,0 +1,1193 @@
+{
+ "number": 5,
+ "phase": 1,
+ "module": "1.1",
+ "title": "Your Founder Commitment",
+ "hero": {
+  "eyebrow": "Module 1.1 · Becoming an Entrepreneur · Lesson 05",
+  "title": "Your Founder Commitment.",
+  "intro": "Bring your purpose, responsibilities, and support plan into a realistic four-week commitment. Choose small actions, protect your time, and decide how you will review what you learn.",
+  "badges": [
+   "Beginner friendly"
+  ],
+  "meta": "35–45 min · Recommended: Lessons 01–04"
+ },
+ "fields": [
+  {
+   "id": "commitment",
+   "label": "What will you commit to learning over four weeks?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Understand how event visitors follow up and document the questions that remain.",
+   "maxLength": 2000,
+   "hint": "Connect your purpose to a useful learning goal within your influence."
+  },
+  {
+   "id": "schedule",
+   "label": "What schedule and resource boundary can you realistically keep?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Tuesday evening, up to two hours a week, no paid tools for this learning step.",
+   "maxLength": 2000,
+   "hint": "Include when, weekly time limit, and any resource limit."
+  },
+  {
+   "id": "week1",
+   "label": "Week 1 — action, output and review point",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Observe one situation, record five notes and questions, review Friday.",
+   "maxLength": 2000,
+   "hint": "Choose one useful starting action and what you can show afterwards."
+  },
+  {
+   "id": "week2",
+   "label": "Week 2 — action, output and review point",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Draft three neutral questions, rehearse, keep revisions, review Friday.",
+   "maxLength": 2000,
+   "hint": "Build on Week 1 without assuming research has already happened."
+  },
+  {
+   "id": "week3",
+   "label": "Week 3 — action, output and review point",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Arrange suitable discovery conversations with permission; keep actual notes or an access log; review Friday.",
+   "maxLength": 2000,
+   "hint": "State any access/permission dependency and how you will handle it."
+  },
+  {
+   "id": "week4",
+   "label": "Week 4 — action, output and review point",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Summarise observations and uncertainty; choose the next learning step; review the plan Friday.",
+   "maxLength": 2000,
+   "hint": "Plan a synthesis and next decision rather than promising commercial results."
+  },
+  {
+   "id": "review",
+   "label": "How will you review actual progress and choose the next step?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Each Friday record what happened, what remains unknown and whether to continue, simplify, change or pause.",
+   "maxLength": 2000,
+   "hint": "Compare plan vs actual, record learning/uncertainty, and specify continue/change/pause criteria."
+  },
+  {
+   "id": "fallback",
+   "label": "What is your minimum useful action and fallback?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "If only 20 minutes remain, refine one question; if support is unavailable, revise with the guide and review the schedule.",
+   "maxLength": 2000,
+   "hint": "Describe a smaller action for a difficult week and a boundary that triggers adjustment."
+  },
+  {
+   "id": "support",
+   "label": "What support or dependency should remain visible?",
+   "kind": "textarea",
+   "required": false,
+   "placeholder": "Optional: planned peer review, access still needed, or an unresolved constraint…",
+   "maxLength": 2000
+  },
+  {
+   "id": "assumption",
+   "label": "Which part depends on an assumption or unavailable resource?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "I am assuming… It is not yet confirmed because…",
+   "maxLength": 2000
+  },
+  {
+   "id": "evidence",
+   "label": "What evidence will show useful learning rather than just activity?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "I can show… I will keep observations separate from…",
+   "maxLength": 2000
+  },
+  {
+   "id": "constraint",
+   "label": "What would make you simplify, change, or pause the plan?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "If… happens by… I will adjust the plan by…",
+   "maxLength": 2000
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "What should a four-week founder commitment describe?",
+   "options": [
+    "A guarantee that the business will succeed",
+    "A realistic learning goal, schedule, weekly outputs and review points",
+    "A promise that all possible supporters will help"
+   ],
+   "answer": 1,
+   "explanation": "Commit to practical learning within your influence, not guaranteed venture outcomes."
+  },
+  {
+   "prompt": "When your week becomes too busy, what is a useful response?",
+   "options": [
+    "Mark unfinished work complete",
+    "Ignore your resource boundary",
+    "Choose a smaller useful action and review the plan"
+   ],
+   "answer": 2,
+   "explanation": "Adapt the scope honestly instead of inventing progress or adding unsustainable commitments."
+  },
+  {
+   "prompt": "What does completing Module 1.1 demonstrate?",
+   "options": [
+    "You completed starter work and made a learning plan",
+    "Customer demand is proven",
+    "The venture has received investment approval"
+   ],
+   "answer": 0,
+   "explanation": "Module completion records learning and deliverables; commercial validation and review decisions are separate."
+  }
+ ],
+ "checklist": [
+  {
+   "kind": "studied",
+   "label": "Transcript or learning guide reviewed"
+  },
+  {
+   "kind": "fields",
+   "label": "Founder Commitment Plan fields complete",
+   "ids": [
+    "commitment",
+    "schedule",
+    "week1",
+    "week2",
+    "week3",
+    "week4",
+    "review",
+    "fallback"
+   ]
+  },
+  {
+   "kind": "fields",
+   "label": "Three red-team reflections complete",
+   "ids": [
+    "assumption",
+    "evidence",
+    "constraint"
+   ]
+  },
+  {
+   "kind": "quiz",
+   "label": "Knowledge check: 3 / 3 correct"
+  },
+  {
+   "kind": "honest",
+   "label": "Final self-review confirmed"
+  }
+ ],
+ "deliverable": {
+  "title": "LYNQ Academy — Founder Commitment Plan",
+  "filename": "LYNQ-Founder-Commitment-Plan.md",
+  "headerLines": [
+   "Phase 01 · Module {module} · Lesson {lesson}",
+   "Status: {status}",
+   "Created: {created}"
+  ],
+  "fieldIds": [
+   "commitment",
+   "schedule",
+   "week1",
+   "week2",
+   "week3",
+   "week4",
+   "review",
+   "fallback",
+   "support",
+   "assumption",
+   "evidence",
+   "constraint"
+  ],
+  "footer": "Local prototype export. No reviewer submission or business validation."
+ },
+ "sections": [
+  {
+   "id": "watch",
+   "label": "01 / WATCH",
+   "heading": "A commitment you can actually keep.",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "The planned explainer turns your starter work into a four-week learning plan. Use the transcript or learning guide while the video is a placeholder."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "video-placeholder"
+       },
+       "children": [
+        {
+         "tag": "span",
+         "attrs": {
+          "class": "badge"
+         },
+         "children": [
+          "Video placeholder · media not produced"
+         ]
+        },
+        {
+         "tag": "h3",
+         "attrs": {},
+         "children": [
+          "Your Founder Commitment"
+         ]
+        },
+        {
+         "tag": "p",
+         "attrs": {},
+         "children": [
+          "Planned: 2½-minute explainer + worksheet demo",
+          {
+           "tag": "br",
+           "attrs": {},
+           "children": []
+          },
+          "Schedule → Weekly outputs → Review → Adapt"
+         ]
+        },
+        {
+         "tag": "small",
+         "attrs": {},
+         "children": [
+          "No playable video or generated media is attached."
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "storyboard",
+     "scenes": [
+      {
+       "title": "Make the commitment practical",
+       "visual": "Founder brings a notebook, calendar and simple task notes together in a Dubai workspace.",
+       "narration": "You have explored your starting point, responsibilities, motivation and support needs. Now turn them into a commitment you can actually keep. This is a four-week learning plan, not a promise of business success. Start with the time and resources you really have."
+      },
+      {
+       "title": "Protect a realistic schedule",
+       "visual": "Calendar blocks assembled as editable graphics; founder chooses one small working session.",
+       "narration": "Choose a weekly time limit and a regular session. Make room for your other responsibilities. A small plan you can repeat is more useful than a large promise you cannot sustain. If you are unsure, start modestly and review after the first week."
+      },
+      {
+       "title": "Give each week a useful output",
+       "visual": "Four editable week cards, observation notebook, neutral questions and a peer practice moment.",
+       "narration": "For each week, name an action, an output and a review point. You might first observe a situation, then prepare questions, practise with a peer, and review the clues you have collected. Adapt the sequence to your context. Planned conversations are not completed research, and notes are not proof of demand."
+      },
+      {
+       "title": "Review what happened",
+       "visual": "Editable plan-versus-observation diagram, founder checks notes without success metrics.",
+       "narration": "At your review, compare the plan with what actually happened. What did you learn? What remains uncertain? Choose whether to continue, simplify, change direction or pause. Keep your observations separate from assumptions. Completing your schedule does not mean your venture has been validated."
+      },
+      {
+       "title": "Plan for a difficult week",
+       "visual": "Founder reduces a calendar block; simple minimum-action and fallback cards appear in post.",
+       "narration": "A useful commitment includes a fallback. If time or support is unavailable, choose the smallest action that still helps you learn. Set a resource boundary and a point to stop or ask for help. Missing a session is a reason to adjust the plan, not to invent progress."
+      },
+      {
+       "title": "Complete your first module",
+       "visual": "Actual Lesson 05 worksheet recording with fictional entries; five deliverable cards added in post.",
+       "narration": "Write your Founder Commitment Plan. Set the schedule, four weekly actions, review method and fallback. Then revisit your Founder Profile, Responsibility Map, Purpose and Learning Plan, and Skills and Support Map. Together they form your Module One point One starter pack. Next, you will begin noticing problems worth solving."
+      }
+     ],
+     "sceneMeta": "Planned final scene: 25 seconds · narration and precise graphics added in post",
+     "summary": "Explore the six-scene storyboard placeholder"
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {
+        "class": "help"
+       },
+       "children": [
+        "Use an explainer with editable diagrams, documentary cutaways and a real worksheet demo. Generate short assets where supported, then assemble in an editor."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "videoPrompt",
+     "prompt": "Create an engaging beginner-friendly explainer for LYNQ Venture Studio Academy, Module 1.1 Lesson 05: “Your Founder Commitment.” Desired final edit: approximately 150 seconds, 16:9, 1080p. Use natural documentary workplace shots, simple editable calendar/weekly-plan diagrams and an actual worksheet screen recording. Navy #0B2338, teal #087D79, mint #BCF2DF and white. Contemporary Dubai workspace, diverse adults, calm supportive plain-language English narrator. No dramatic success imagery or motivational pressure.\n\nTeaching goals: turn the first four lessons into a realistic four-week learning commitment; define weekly time limits and action/output/review points; distinguish planned work from completed evidence; choose continue/simplify/change/pause decisions; and create a fallback for a busy week. No promises of revenue, business validation, investment, certification or personal transformation. Use a fictional aspiring founder exploring event visitors' follow-up experiences. Label the example “Illustrative example.” No invented customers, interviews, metrics or confirmed collaborators.\n\nUse the six scenes below in order. Target about 25 seconds per final scene, adjusting after a narrator read-through and allowing natural diagram holds. Record one consistent voice track separately. Generate short visual shots only in durations supported by the selected Gemini/Veo account/model; an eight-second shot plan is optional where supported. Assemble clips, diagrams, captions and narration in an editor rather than claiming a single generation produces the whole film.\n\nSCENE 1 — Make the commitment practical. Visual: Founder brings a notebook, calendar and simple task notes together in a Dubai workspace. Narration: “You have explored your starting point, responsibilities, motivation and support needs. Now turn them into a commitment you can actually keep. This is a four-week learning plan, not a promise of business success. Start with the time and resources you really have.”\n\nSCENE 2 — Protect a realistic schedule. Visual: Calendar blocks assembled as editable graphics; founder chooses one small working session. Narration: “Choose a weekly time limit and a regular session. Make room for your other responsibilities. A small plan you can repeat is more useful than a large promise you cannot sustain. If you are unsure, start modestly and review after the first week.”\n\nSCENE 3 — Give each week a useful output. Visual: Four editable week cards, observation notebook, neutral questions and a peer practice moment. Narration: “For each week, name an action, an output and a review point. You might first observe a situation, then prepare questions, practise with a peer, and review the clues you have collected. Adapt the sequence to your context. Planned conversations are not completed research, and notes are not proof of demand.”\n\nSCENE 4 — Review what happened. Visual: Editable plan-versus-observation diagram, founder checks notes without success metrics. Narration: “At your review, compare the plan with what actually happened. What did you learn? What remains uncertain? Choose whether to continue, simplify, change direction or pause. Keep your observations separate from assumptions. Completing your schedule does not mean your venture has been validated.”\n\nSCENE 5 — Plan for a difficult week. Visual: Founder reduces a calendar block; simple minimum-action and fallback cards appear in post. Narration: “A useful commitment includes a fallback. If time or support is unavailable, choose the smallest action that still helps you learn. Set a resource boundary and a point to stop or ask for help. Missing a session is a reason to adjust the plan, not to invent progress.”\n\nSCENE 6 — Complete your first module. Visual: Actual Lesson 05 worksheet recording with fictional entries; five deliverable cards added in post. Narration: “Write your Founder Commitment Plan. Set the schedule, four weekly actions, review method and fallback. Then revisit your Founder Profile, Responsibility Map, Purpose and Learning Plan, and Skills and Support Map. Together they form your Module One point One starter pack. Next, you will begin noticing problems worth solving.”\n\nReturn a storyboard, shot prompts, narration timing and editing instructions first. Generated footage must contain no text, logos, captions, watermark, speaking presenters or fabricated product UI. Keep continuity with the same approved actor reference and wardrobe. Exact LYNQ branding and diagrams must be added as editable post-production graphics. Suggested graphics: When + Time limit + Action; Week 1 / Week 2 / Week 3 / Week 4 with Action → Output → Review; Planned ≠ Observed; Continue / Simplify / Change / Pause; Five Module 1.1 deliverables.\n\nScene 6 must use a genuine screen recording of the approved Lesson 05 worksheet with fictional data; never generate the interface or show private founder information. Module completion means local curriculum self-completion, not a certificate or venture-readiness approval. Finish with editable end card: “Make a realistic commitment. Take the next small step.”\n\nHuman production deliverables: H.264 1920×1080 MP4, editable project and graphics, narrator audio, thumbnail, timed English VTT/SRT and transcript, reference rights/generation provenance. Provide separately native-reviewed Arabic narration/captions and RTL diagrams; do not auto-mirror English UI. Review mobile caption legibility, natural pacing, audio intelligibility, curriculum accuracy, progress wording and brand before publication. No video is generated by the prototype.",
+     "filename": "LYNQ-Lesson-05-Gemini-Video-Prompt.md",
+     "title": "# LYNQ Lesson 05 — Gemini video prompt",
+     "summary": "Gemini video prompt — ready to copy"
+    },
+    {
+     "type": "transcript",
+     "scenes": [
+      {
+       "title": "Make the commitment practical",
+       "visual": "Founder brings a notebook, calendar and simple task notes together in a Dubai workspace.",
+       "narration": "You have explored your starting point, responsibilities, motivation and support needs. Now turn them into a commitment you can actually keep. This is a four-week learning plan, not a promise of business success. Start with the time and resources you really have."
+      },
+      {
+       "title": "Protect a realistic schedule",
+       "visual": "Calendar blocks assembled as editable graphics; founder chooses one small working session.",
+       "narration": "Choose a weekly time limit and a regular session. Make room for your other responsibilities. A small plan you can repeat is more useful than a large promise you cannot sustain. If you are unsure, start modestly and review after the first week."
+      },
+      {
+       "title": "Give each week a useful output",
+       "visual": "Four editable week cards, observation notebook, neutral questions and a peer practice moment.",
+       "narration": "For each week, name an action, an output and a review point. You might first observe a situation, then prepare questions, practise with a peer, and review the clues you have collected. Adapt the sequence to your context. Planned conversations are not completed research, and notes are not proof of demand."
+      },
+      {
+       "title": "Review what happened",
+       "visual": "Editable plan-versus-observation diagram, founder checks notes without success metrics.",
+       "narration": "At your review, compare the plan with what actually happened. What did you learn? What remains uncertain? Choose whether to continue, simplify, change direction or pause. Keep your observations separate from assumptions. Completing your schedule does not mean your venture has been validated."
+      },
+      {
+       "title": "Plan for a difficult week",
+       "visual": "Founder reduces a calendar block; simple minimum-action and fallback cards appear in post.",
+       "narration": "A useful commitment includes a fallback. If time or support is unavailable, choose the smallest action that still helps you learn. Set a resource boundary and a point to stop or ask for help. Missing a session is a reason to adjust the plan, not to invent progress."
+      },
+      {
+       "title": "Complete your first module",
+       "visual": "Actual Lesson 05 worksheet recording with fictional entries; five deliverable cards added in post.",
+       "narration": "Write your Founder Commitment Plan. Set the schedule, four weekly actions, review method and fallback. Then revisit your Founder Profile, Responsibility Map, Purpose and Learning Plan, and Skills and Support Map. Together they form your Module One point One starter pack. Next, you will begin noticing problems worth solving."
+      }
+     ],
+     "summary": "Read the full narration / transcript"
+    },
+    {
+     "type": "studied",
+     "label": "I read the transcript or reviewed the learning guide. Video is not required."
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "label": "02 / LEARN",
+   "heading": "Commit to learning, with room to adapt.",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "A founder commitment is a practical agreement with yourself about what you will do next. It connects your purpose to actions you can control. It should fit your time, responsibilities and resources."
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "You are not promising to build a successful company in four weeks. You are choosing a repeatable way to explore, learn and review. Changing or pausing an approach can be responsible progress when the evidence or your circumstances call for it."
+       ]
+      },
+      {
+       "tag": "h3",
+       "attrs": {},
+       "children": [
+        "By the end, you can"
+       ]
+      },
+      {
+       "tag": "ul",
+       "attrs": {},
+       "children": [
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Set a realistic weekly schedule and resource boundary."
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Plan four weeks with a clear action, output and review point."
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Separate intended work from observed evidence."
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Choose a fallback when a week does not go to plan."
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Bring together your five Module 1.1 deliverables."
+         ]
+        }
+       ]
+      },
+      {
+       "tag": "h3",
+       "attrs": {},
+       "children": [
+        "Bring your earlier work with you"
+       ]
+      },
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "grid2"
+       },
+       "children": [
+        {
+         "tag": "div",
+         "attrs": {
+          "class": "note"
+         },
+         "children": [
+          {
+           "tag": "h3",
+           "attrs": {},
+           "children": [
+            "Lesson 01 · Starting point"
+           ]
+          },
+          {
+           "tag": "p",
+           "attrs": {},
+           "children": [
+            "Use the interests, strengths and time commitment from your Founder Profile."
+           ]
+          },
+          {
+           "tag": "lesson-link",
+           "attrs": {
+            "lesson": "1",
+            "class": "btn secondary"
+           },
+           "children": [
+            "Review Founder Profile"
+           ]
+          }
+         ]
+        },
+        {
+         "tag": "div",
+         "attrs": {
+          "class": "note"
+         },
+         "children": [
+          {
+           "tag": "h3",
+           "attrs": {},
+           "children": [
+            "Lesson 02 · Useful work"
+           ]
+          },
+          {
+           "tag": "p",
+           "attrs": {},
+           "children": [
+            "Choose the next action from your Responsibility Map rather than filling the schedule with busy work."
+           ]
+          },
+          {
+           "tag": "lesson-link",
+           "attrs": {
+            "lesson": "2",
+            "class": "btn secondary"
+           },
+           "children": [
+            "Review Responsibility Map"
+           ]
+          }
+         ]
+        },
+        {
+         "tag": "div",
+         "attrs": {
+          "class": "note"
+         },
+         "children": [
+          {
+           "tag": "h3",
+           "attrs": {},
+           "children": [
+            "Lesson 03 · Direction & habits"
+           ]
+          },
+          {
+           "tag": "p",
+           "attrs": {},
+           "children": [
+            "Use your purpose, repeatable habit and boundary. Keep the purpose open to learning."
+           ]
+          },
+          {
+           "tag": "lesson-link",
+           "attrs": {
+            "lesson": "3",
+            "class": "btn secondary"
+           },
+           "children": [
+            "Review Purpose & Learning Plan"
+           ]
+          }
+         ]
+        },
+        {
+         "tag": "div",
+         "attrs": {
+          "class": "note"
+         },
+         "children": [
+          {
+           "tag": "h3",
+           "attrs": {},
+           "children": [
+            "Lesson 04 · Capability & support"
+           ]
+          },
+          {
+           "tag": "p",
+           "attrs": {},
+           "children": [
+            "Plan around your priority gap and available support. Do not treat a planned request as confirmed help."
+           ]
+          },
+          {
+           "tag": "lesson-link",
+           "attrs": {
+            "lesson": "4",
+            "class": "btn secondary"
+           },
+           "children": [
+            "Review Skills & Support Map"
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "tag": "h3",
+       "attrs": {},
+       "children": [
+        "Choose a schedule you can protect"
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Name when you will work and the maximum time or resources you will use. If your week is already full, begin with a short session and one useful output. A calendar entry is a plan; it is not evidence that the work happened."
+       ]
+      },
+      {
+       "tag": "h3",
+       "attrs": {},
+       "children": [
+        "Use action → output → review"
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "Action:"
+         ]
+        },
+        " what you will do.",
+        {
+         "tag": "br",
+         "attrs": {},
+         "children": []
+        },
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "Output:"
+         ]
+        },
+        " something you can show afterwards, such as notes or a revised question list.",
+        {
+         "tag": "br",
+         "attrs": {},
+         "children": []
+        },
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "Review:"
+         ]
+        },
+        " when you will compare the result with the plan and decide what to do next."
+       ]
+      },
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "note"
+       },
+       "children": [
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "Illustrative four-week plan:"
+         ]
+        },
+        {
+         "tag": "br",
+         "attrs": {},
+         "children": []
+        },
+        "Week 1: observe one event situation; record observations and unanswered questions; review Friday.",
+        {
+         "tag": "br",
+         "attrs": {},
+         "children": []
+        },
+        "Week 2: draft three neutral questions and rehearse; keep a revised question list; review Friday.",
+        {
+         "tag": "br",
+         "attrs": {},
+         "children": []
+        },
+        "Week 3: where appropriate and with permission, arrange a few discovery conversations; record actual notes or access limitations; review Friday.",
+        {
+         "tag": "br",
+         "attrs": {},
+         "children": []
+        },
+        "Week 4: summarise clues and uncertainty; choose the next learning step; review the whole plan.",
+        {
+         "tag": "br",
+         "attrs": {},
+         "children": []
+        },
+        {
+         "tag": "small",
+         "attrs": {},
+         "children": [
+          "This is one example, not a required pace or proof of customer demand."
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "practice",
+     "legend": "A busy-week decision",
+     "prompt": "You planned two hours, but now have only 20 minutes. Which response best preserves honest learning?",
+     "options": [
+      {
+       "label": "Mark the planned work complete anyway",
+       "feedback": "Keep the record honest and the commitment realistic. Choose a smaller useful action rather than marking unfinished work complete or adding more commitments."
+      },
+      {
+       "label": "Choose a smaller useful action and review the plan",
+       "feedback": "Useful choice: reduce the scope to something that still helps you learn, then review the schedule. Record what actually happened; planned work is not completed work."
+      },
+      {
+       "label": "Add more commitments to catch up",
+       "feedback": "Keep the record honest and the commitment realistic. Choose a smaller useful action rather than marking unfinished work complete or adding more commitments."
+      }
+     ]
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {
+        "class": "help"
+       },
+       "children": [
+        "Optional practice, separate from the scored quiz."
+       ]
+      },
+      {
+       "tag": "h3",
+       "attrs": {},
+       "children": [
+        "Review without pretending"
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Ask what you actually did, what you learned, what still needs checking, and which action is useful next. Record missed work honestly. If your plan needs unavailable people or resources, simplify it, choose another suitable source, or pause."
+       ]
+      },
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "note"
+       },
+       "children": [
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "Learning completion is not venture validation."
+         ]
+        },
+        " Finishing Module 1.1 gives you a starter pack and a plan. It does not prove demand, guarantee funding, or approve a business opportunity."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "build",
+   "label": "03 / BUILD",
+   "heading": "Your Founder Commitment Plan",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Create a four-week learning plan you can adapt. Each week needs an action, an output, and a review point. If you have no business idea yet, commit to observing and exploring rather than inventing one."
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {
+        "class": "help"
+       },
+       "children": [
+        "Arabic entries use automatic text direction. Use roles or aliases for other people. This lesson saves separately from Lessons 01–04."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "saveStatus"
+    },
+    {
+     "type": "fields",
+     "ids": [
+      "commitment",
+      "schedule",
+      "week1",
+      "week2",
+      "week3",
+      "week4",
+      "review",
+      "fallback",
+      "support"
+     ]
+    },
+    {
+     "type": "extension",
+     "id": "preview",
+     "props": {
+      "label": "Preview my four-week plan",
+      "kind": "lines",
+      "joiner": "\n",
+      "lines": [
+       {
+        "id": "commitment",
+        "label": "My learning commitment"
+       },
+       {
+        "id": "schedule",
+        "label": "Schedule and boundary"
+       },
+       {
+        "id": "week1",
+        "label": "Week 1"
+       },
+       {
+        "id": "week2",
+        "label": "Week 2"
+       },
+       {
+        "id": "week3",
+        "label": "Week 3"
+       },
+       {
+        "id": "week4",
+        "label": "Week 4"
+       },
+       {
+        "id": "review",
+        "label": "Review"
+       },
+       {
+        "id": "fallback",
+        "label": "Fallback"
+       }
+      ]
+     }
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "note"
+       },
+       "children": [
+        "This is your draft commitment, not a signed contract or externally approved plan. Local storage is plaintext; download a copy before changing browsers."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "extension",
+     "id": "download",
+     "props": {
+      "label": "Download Founder Commitment Plan"
+     }
+    },
+    {
+     "type": "reset",
+     "label": "Clear local draft"
+    }
+   ]
+  },
+  {
+   "id": "coach",
+   "label": "04 / ASK AI",
+   "heading": "Your thinking partner",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "span",
+       "attrs": {
+        "class": "badge"
+       },
+       "children": [
+        "Simulated Coach · no AI connection"
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Try four scripted guidance modes. The preview reads your current worksheet locally; it does not send information anywhere."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "extension",
+     "id": "coach",
+     "props": {
+      "modes": [
+       {
+        "id": "teach",
+        "label": "Teach me"
+       },
+       {
+        "id": "guide",
+        "label": "Guide me"
+       },
+       {
+        "id": "review",
+        "label": "Review my work"
+       },
+       {
+        "id": "challenge",
+        "label": "Challenge my idea"
+       }
+      ],
+      "replies": {
+       "teach": "A founder commitment is a realistic learning plan. Name the time limit, weekly action and output, review what actually happened, and adapt when needed. Completing Module 1.1 does not validate a venture.",
+       "guide": "Use your earlier four deliverables. Choose a small learning goal, a schedule you can protect, four weekly action/output/review entries, and a fallback for a difficult week.",
+       "review": "Founder Commitment Plan check: {missing} required fields still empty. All eight plan entries are present. Check that every week has an action, output and review point, the schedule is realistic, and unconfirmed support stays unconfirmed.\nThis scripted check only counts fields. It cannot judge feasibility, verify completed work or approve the plan.",
+       "challenge": "Which week depends on unavailable time or support? What actual evidence will you record? What will you simplify if your week changes? What would make you change direction or pause instead of continuing automatically?",
+       "reviewIncomplete": "Founder Commitment Plan check: {missing} required fields still empty. Complete the learning goal, schedule, four weeks, review method and fallback.\nThis scripted check only counts fields. It cannot judge feasibility, verify completed work or approve the plan."
+      },
+      "heading": "SCRIPTED DEMO / ",
+      "questionNote": "Your question was entered locally. This preview does not generate a custom answer.",
+      "questionLabel": "Your question (optional)",
+      "placeholder": "What should I focus on first?",
+      "maxLength": 500,
+      "submitLabel": "Show simulated guidance"
+     }
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {
+        "class": "help"
+       },
+       "children": [
+        "Responses are predefined for this lesson, not generated answers to your question. No customer demand or venture readiness is verified."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "challenge",
+   "label": "05 / CHALLENGE",
+   "heading": "Make the commitment credible.",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Check that the plan fits your actual circumstances and leaves room to learn."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "fields",
+     "ids": [
+      "assumption",
+      "evidence",
+      "constraint"
+     ]
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "details",
+       "attrs": {},
+       "children": [
+        {
+         "tag": "summary",
+         "attrs": {},
+         "children": [
+          "More questions to discuss"
+         ]
+        },
+        {
+         "tag": "ul",
+         "attrs": {},
+         "children": [
+          {
+           "tag": "li",
+           "attrs": {},
+           "children": [
+            "Does the schedule fit your responsibilities outside the venture?"
+           ]
+          },
+          {
+           "tag": "li",
+           "attrs": {},
+           "children": [
+            "Does each week have an observable output and review point?"
+           ]
+          },
+          {
+           "tag": "li",
+           "attrs": {},
+           "children": [
+            "Are you assuming a planned request has been accepted?"
+           ]
+          },
+          {
+           "tag": "li",
+           "attrs": {},
+           "children": [
+            "Can you record missed work honestly and choose a smaller next step?"
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "quiz",
+   "label": "06 / CHECK YOUR UNDERSTANDING",
+   "heading": "A quick knowledge check",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Answer all three. You can retry; all three correct are required for local completion."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "quiz"
+    }
+   ]
+  },
+  {
+   "id": "finish",
+   "label": "07 / DELIVER & PROGRESS",
+   "heading": "Your deliverable: a Founder Commitment Plan.",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Your commitment, schedule, four weekly actions, review method, and fallback form your four-week learning plan. Download it to keep a copy. A local self-completion is recorded here; no assignment is sent to a reviewer."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "checklist"
+    },
+    {
+     "type": "honest",
+     "label": "I reviewed my answers and distinguished assumptions from evidence."
+    },
+    {
+     "type": "complete",
+     "label": "Mark Lesson 05 complete locally",
+     "completedLabel": "Lesson 05 self-completed locally",
+     "completedNotice": "Lesson 05 self-completed locally. Download your Founder Commitment Plan. No reviewer approval or venture validation is recorded.",
+     "incompleteNotice": "Complete the remaining requirements above before marking this lesson complete."
+    },
+    {
+     "type": "extension",
+     "id": "moduleNote",
+     "props": {
+      "parts": [
+       {
+        "nodes": [
+         {
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+           "Module 1.1 starter pack"
+          ]
+         }
+        ]
+       },
+       {
+        "status": "1.1",
+        "complete": "All five lessons self-completed locally. Module 1.1 starter pack complete; no certificate or venture approval is issued.",
+        "incomplete": "{count} / 5 lessons self-completed. Complete or review the remaining Module 1.1 work before calling the starter pack complete."
+       },
+       {
+        "nodes": [
+         {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+           "Keep your Founder Profile, Responsibility Map, Purpose & Learning Plan, Skills & Support Map, and Founder Commitment Plan. Each worksheet can be downloaded from its lesson."
+          ]
+         }
+        ]
+       },
+       {
+        "nodes": [
+         {
+          "tag": "lesson-link",
+          "attrs": {
+           "lesson": "6",
+           "class": "btn secondary"
+          },
+          "children": [
+           "Begin Lesson 06 →"
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {
+        "class": "help"
+       },
+       "children": [
+        "Next: Module 1.2 — Finding Problems Worth Solving. Lesson 06 is available."
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "nav": [
+  {
+   "id": "watch",
+   "label": "Watch"
+  },
+  {
+   "id": "learn",
+   "label": "Learn"
+  },
+  {
+   "id": "build",
+   "label": "Build"
+  },
+  {
+   "id": "coach",
+   "label": "Ask AI"
+  },
+  {
+   "id": "challenge",
+   "label": "Challenge"
+  },
+  {
+   "id": "quiz",
+   "label": "Knowledge check"
+  },
+  {
+   "id": "finish",
+   "label": "Deliver"
+  }
+ ]
+}

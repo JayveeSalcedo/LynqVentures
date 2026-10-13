@@ -1,0 +1,757 @@
+{
+  "number": 28,
+  "phase": 2,
+  "module": "2.2",
+  "title": "Run and Record Customer Conversations",
+  "hero": {
+    "eyebrow": "Module 2.2 · Learning from Customers · Lesson 28",
+    "title": "Run and Record Customer Conversations.",
+    "intro": "Practise a respectful customer conversation and record anonymous notes with clear source status. Use a labeled rehearsal when no permitted real conversation has occurred.",
+    "badges": [
+      "Beginner friendly"
+    ],
+    "meta": "35–45 min · Recommended: Lessons 26–27"
+  },
+  "fields": [
+    {
+      "id": "session",
+      "label": "Session status: rehearsal/planned/actual, anonymous code, context and learning question",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Use anonymous notes; label rehearsal, pending access and uncertainty honestly."
+    },
+    {
+      "id": "permission",
+      "label": "Participation and recording status: confirmed or pending, limits and stop/decline handling",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Use anonymous notes; label rehearsal, pending access and uncertainty honestly."
+    },
+    {
+      "id": "opening",
+      "label": "Opening and guide used: purpose, time, voluntary choice and neutral recent-experience prompt",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Use anonymous notes; label rehearsal, pending access and uncertainty honestly."
+    },
+    {
+      "id": "account",
+      "label": "Reported account: task, steps, current approach and outcome; no invented testimony",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Use anonymous notes; label rehearsal, pending access and uncertainty honestly."
+    },
+    {
+      "id": "probe",
+      "label": "Neutral probes asked or rehearsed and answers/unknowns, labeled honestly",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Use anonymous notes; label rehearsal, pending access and uncertainty honestly."
+    },
+    {
+      "id": "source",
+      "label": "Source quality: exact captured quote / paraphrase / observation; authorised source reference or unknown",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Use anonymous notes; label rehearsal, pending access and uncertainty honestly."
+    },
+    {
+      "id": "reflection",
+      "label": "Separate interpretation, contradictory information, missing detail and sample limits",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Use anonymous notes; label rehearsal, pending access and uncertainty honestly."
+    },
+    {
+      "id": "close",
+      "label": "Close, permitted follow-up, secure note handling, owner and next review",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Use anonymous notes; label rehearsal, pending access and uncertainty honestly."
+    },
+    {
+      "id": "support",
+      "label": "Optional references or support",
+      "kind": "textarea",
+      "required": false,
+      "maxLength": 2000
+    },
+    {
+      "id": "bias",
+      "label": "Where did your pitch, suggested answer or selective listening influence the session?",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "counter",
+      "label": "Which contradiction, missing detail or unclear source could weaken your interpretation?",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "constraint",
+      "label": "How did you handle permission, declined questions, stop requests and secure note storage?",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    }
+  ],
+  "questions": [
+    {
+      "prompt": "You cannot confirm exact wording. What is appropriate?",
+      "options": [
+        "Invent a quote",
+        "Label a paraphrase and mark uncertain details",
+        "Claim market-wide demand"
+      ],
+      "answer": 1,
+      "explanation": "Preserve source quality; never reconstruct a quote as exact."
+    },
+    {
+      "prompt": "A participant declines recording. What should you do?",
+      "options": [
+        "Do not record; only proceed with an agreed note method or stop",
+        "Record quietly",
+        "Assume invitation acceptance covers recording"
+      ],
+      "answer": 0,
+      "explanation": "Recording permission is separate; respect decline."
+    },
+    {
+      "prompt": "What does a labeled rehearsal establish?",
+      "options": [
+        "Customer demand",
+        "A completed real customer interview",
+        "Practice only; it provides no customer evidence"
+      ],
+      "answer": 2,
+      "explanation": "Keep rehearsal work separate from actual research evidence."
+    }
+  ],
+  "checklist": [
+    {
+      "kind": "studied",
+      "label": "Storyboard/transcript reviewed"
+    },
+    {
+      "kind": "fields",
+      "label": "Eight worksheet fields complete",
+      "ids": [
+        "session",
+        "permission",
+        "opening",
+        "account",
+        "probe",
+        "source",
+        "reflection",
+        "close"
+      ]
+    },
+    {
+      "kind": "fields",
+      "label": "Three red-team reflections complete",
+      "ids": [
+        "bias",
+        "counter",
+        "constraint"
+      ]
+    },
+    {
+      "kind": "quiz",
+      "label": "Quiz 3 / 3 correct"
+    },
+    {
+      "kind": "honest",
+      "label": "Final self-review confirmed"
+    }
+  ],
+  "deliverable": {
+    "title": "LYNQ Academy — Customer Conversation Log",
+    "filename": "LYNQ-Customer-Conversation-Log.md",
+    "headerLines": [
+      "Phase 02 · Module {module} · Lesson {lesson}",
+      "Status: {status}"
+    ],
+    "fieldIds": [
+      "session",
+      "permission",
+      "opening",
+      "account",
+      "probe",
+      "source",
+      "reflection",
+      "close"
+    ],
+    "footer": "No real AI, test execution, source verification or demand validation.",
+    "previewFooter": "This plan does not prove demand or represent completed research."
+  },
+  "sections": [
+    {
+      "id": "watch",
+      "label": "01 / WATCH",
+      "heading": "How do you listen and keep trustworthy notes?",
+      "blocks": [
+        {
+          "type": "video",
+          "title": "Run and Record Customer Conversations",
+          "subtitle": "Planned 2½-minute explainer + worksheet demo",
+          "note": "No playable video or generated media is attached."
+        },
+        {
+          "type": "storyboard",
+          "scenes": [
+            {
+              "title": "Prepare and label the session",
+              "visual": "Anonymous guide and session-status cards",
+              "narration": "Bring your neutral guide and recruitment plan. Check participant fit and access. Label this as rehearsal, planned or an actual permitted conversation. A rehearsal can build skills but provides no customer evidence."
+            },
+            {
+              "title": "Confirm the opening",
+              "visual": "Two adults in a fictional voluntary conversation",
+              "narration": "Explain purpose and time, confirm voluntary participation and say they can skip or stop. Permission to talk does not authorise recording. If recording is declined, do not record; only proceed with an agreed note method."
+            },
+            {
+              "title": "Listen without pitching",
+              "visual": "Interviewer listens and pauses",
+              "narration": "Ask about the last relevant experience. Listen, allow pauses and avoid defending your idea. Ask what happened next or what a word means. Accept that the current approach may work well."
+            },
+            {
+              "title": "Keep faithful notes",
+              "visual": "Editable paraphrase and exact-quote columns",
+              "narration": "Record an anonymous account and its context. Mark paraphrases as notes. Only use quotation marks for words actually captured from an authorised source. If uncertain, write unknown instead of reconstructing a quote."
+            },
+            {
+              "title": "Respect limits and stop",
+              "visual": "Fictional participant declines a question",
+              "narration": "Respect decline and stop immediately when asked. Avoid unnecessary personal or sensitive details. Put recordings and identifiable notes only in an approved secure system. Do not upload them into this local prototype."
+            },
+            {
+              "title": "Close and review",
+              "visual": "Actual approved Lesson 28 screen recording",
+              "narration": "Thank the person, agree any permitted follow-up and review notes promptly. Separate the reported account from your interpretation. Log contradictions and missing details. One conversation does not establish representative demand or future payment."
+            }
+          ],
+          "summary": "Explore the six-scene storyboard placeholder",
+          "sceneMeta": "Planned scene {scene} · about 25 seconds in final edit"
+        },
+        {
+          "type": "transcript",
+          "scenes": [
+            {
+              "title": "Prepare and label the session",
+              "visual": "Anonymous guide and session-status cards",
+              "narration": "Bring your neutral guide and recruitment plan. Check participant fit and access. Label this as rehearsal, planned or an actual permitted conversation. A rehearsal can build skills but provides no customer evidence."
+            },
+            {
+              "title": "Confirm the opening",
+              "visual": "Two adults in a fictional voluntary conversation",
+              "narration": "Explain purpose and time, confirm voluntary participation and say they can skip or stop. Permission to talk does not authorise recording. If recording is declined, do not record; only proceed with an agreed note method."
+            },
+            {
+              "title": "Listen without pitching",
+              "visual": "Interviewer listens and pauses",
+              "narration": "Ask about the last relevant experience. Listen, allow pauses and avoid defending your idea. Ask what happened next or what a word means. Accept that the current approach may work well."
+            },
+            {
+              "title": "Keep faithful notes",
+              "visual": "Editable paraphrase and exact-quote columns",
+              "narration": "Record an anonymous account and its context. Mark paraphrases as notes. Only use quotation marks for words actually captured from an authorised source. If uncertain, write unknown instead of reconstructing a quote."
+            },
+            {
+              "title": "Respect limits and stop",
+              "visual": "Fictional participant declines a question",
+              "narration": "Respect decline and stop immediately when asked. Avoid unnecessary personal or sensitive details. Put recordings and identifiable notes only in an approved secure system. Do not upload them into this local prototype."
+            },
+            {
+              "title": "Close and review",
+              "visual": "Actual approved Lesson 28 screen recording",
+              "narration": "Thank the person, agree any permitted follow-up and review notes promptly. Separate the reported account from your interpretation. Log contradictions and missing details. One conversation does not establish representative demand or future payment."
+            }
+          ],
+          "summary": "Read the full narration / transcript"
+        },
+        {
+          "type": "videoPrompt",
+          "prompt": "Create an engaging LYNQ Academy explainer and fictional conversation demo: Module 2.2 Lesson 28 — Run and Record Customer Conversations. Editorial target 150 seconds, 16:9 1080p. Navy #0B2338, teal #087D79, mint #BCF2DF, white. Diverse adults in a contemporary Dubai workspace, warm plain English narration. All dialogue and participant footage fictional; label Illustrative rehearsal in post, never present it as research evidence. Teach voluntary opening, separate recording choice, neutral probing, listening, faithful anonymous notes, stop/decline and reported account versus interpretation. No fabricated real testimonials, demand or payment claims.\n\nSCENE 1: Prepare and label the session\nVisual placeholder: Anonymous guide and session-status cards\nNarration: Bring your neutral guide and recruitment plan. Check participant fit and access. Label this as rehearsal, planned or an actual permitted conversation. A rehearsal can build skills but provides no customer evidence.\n\nSCENE 2: Confirm the opening\nVisual placeholder: Two adults in a fictional voluntary conversation\nNarration: Explain purpose and time, confirm voluntary participation and say they can skip or stop. Permission to talk does not authorise recording. If recording is declined, do not record; only proceed with an agreed note method.\n\nSCENE 3: Listen without pitching\nVisual placeholder: Interviewer listens and pauses\nNarration: Ask about the last relevant experience. Listen, allow pauses and avoid defending your idea. Ask what happened next or what a word means. Accept that the current approach may work well.\n\nSCENE 4: Keep faithful notes\nVisual placeholder: Editable paraphrase and exact-quote columns\nNarration: Record an anonymous account and its context. Mark paraphrases as notes. Only use quotation marks for words actually captured from an authorised source. If uncertain, write unknown instead of reconstructing a quote.\n\nSCENE 5: Respect limits and stop\nVisual placeholder: Fictional participant declines a question\nNarration: Respect decline and stop immediately when asked. Avoid unnecessary personal or sensitive details. Put recordings and identifiable notes only in an approved secure system. Do not upload them into this local prototype.\n\nSCENE 6: Close and review\nVisual placeholder: Actual approved Lesson 28 screen recording\nNarration: Thank the person, agree any permitted follow-up and review notes promptly. Separate the reported account from your interpretation. Log contradictions and missing details. One conversation does not establish representative demand or future payment.\n\nFirst provide timings, storyboard and individual shot prompts. Generate short shots supported by the selected Gemini/Veo account; assemble with separately recorded approved narration. Add exact branding, captions and editable Source status / Paraphrase / Exact captured quote / Interpretation / Unknown cards in post. Record actual approved Lesson 28 worksheet with explicitly fictional rehearsal data; do not generate UI, text or logos. Deliver H.264 MP4, editable project, audio, transcript, VTT/SRT, thumbnail and rights/provenance. Native-reviewed Arabic narration and RTL graphics separately. Review source honesty, permission language, privacy, pacing, audio and mobile readability. Prototype generates no video and has no microphone, recording or transcription feature.",
+          "filename": "LYNQ-Lesson-28-Gemini-Video-Prompt.md",
+          "summary": "Gemini video prompt — ready to copy"
+        },
+        {
+          "type": "studied",
+          "label": "I reviewed the storyboard or transcript."
+        }
+      ]
+    },
+    {
+      "id": "learn",
+      "label": "02 / LEARN",
+      "heading": "Listen carefully. Record what you actually know.",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "A reported account"
+                  ]
+                },
+                " is what someone tells you. ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "A paraphrase"
+                  ]
+                },
+                " is your summary of that account. ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "An exact quote"
+                  ]
+                },
+                " is wording faithfully captured from an authorised source. ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "An interpretation"
+                  ]
+                },
+                " is your explanation of what it might mean."
+              ]
+            },
+            {
+              "tag": "ol",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Review your guide and recruitment permissions before starting."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Confirm purpose, time, voluntary choice and separate recording status."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Ask about a recent experience; listen without pitching or defending."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Probe neutrally: “What happened next?” or “What do you mean by that?”"
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Respect skipped questions and stop requests immediately."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Close, then review notes promptly and label gaps honestly."
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "grid2"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "note"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "children": [
+                        "Illustrative rehearsal note"
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "children": [
+                        "Source: fictional role-play. Paraphrase: the participant describes checking two pages to find registration. Interpretation: route visibility may need exploration. This is practice, not customer evidence."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "note"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "children": [
+                        "Faithful recording"
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "children": [
+                        "Do not turn a vague memory into an exact quote. Mark unclear details “unknown.” A polite compliment is not proof of adoption, payment or market demand."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "If recording is declined, do not record. Agree whether note-taking is acceptable before proceeding. If participation or notes are not permitted, stop and mark the session pending or cancelled. “Record” in this lesson includes written notes; this prototype has no audio capture or transcription."
+              ]
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Use anonymous summaries only here; keep identities, recordings and identifiable source material in an approved secure system. If no real conversation has occurred, complete a clearly labeled rehearsal without inventing customer findings. Lesson completion records your learning work, not verified interviews."
+              ]
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "actions"
+              },
+              "children": [
+                {
+                  "tag": "lesson-link",
+                  "attrs": {
+                    "lesson": "26",
+                    "class": "btn secondary"
+                  },
+                  "children": [
+                    "Review conversation guide"
+                  ]
+                },
+                {
+                  "tag": "lesson-link",
+                  "attrs": {
+                    "lesson": "27",
+                    "class": "btn secondary"
+                  },
+                  "children": [
+                    "Review recruitment plan"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "practice",
+          "legend": "Practice: you cannot remember the exact words. What do you do?",
+          "prompt": "",
+          "options": [
+            {
+              "label": "Invent a convincing quote",
+              "feedback": "Do not invent quotes or generalise one account to a whole market."
+            },
+            {
+              "label": "Label a paraphrase and mark uncertainty",
+              "feedback": "Label the paraphrase and uncertainty; use exact quotes only when faithfully captured from an authorised source."
+            },
+            {
+              "label": "Treat the account as market-wide proof",
+              "feedback": "Do not invent quotes or generalise one account to a whole market."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "build",
+      "label": "03 / BUILD",
+      "heading": "Your Customer Conversation Log.",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Record one anonymous session or clearly labeled rehearsal. A planned session has no findings yet; use “not conducted” where appropriate. No personal contacts, recordings or private transcripts belong here."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "saveStatus"
+        },
+        {
+          "type": "fields",
+          "ids": [
+            "session",
+            "permission",
+            "opening",
+            "account",
+            "probe",
+            "source",
+            "reflection",
+            "close",
+            "support"
+          ]
+        },
+        {
+          "type": "deliverable",
+          "previewLabel": "Preview my conversation log",
+          "downloadLabel": "Download Customer Conversation Log"
+        },
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "note"
+              },
+              "children": [
+                "Local storage is plaintext. This log cannot verify consent, source accuracy or interviews conducted. No microphone or recording tool is connected."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "reset",
+          "label": "Clear local draft"
+        }
+      ]
+    },
+    {
+      "id": "coach",
+      "label": "04 / ASK AI",
+      "heading": "Venture Coach · simulated",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Scripted demonstration only. No live AI, source verification, experiment execution or backend is connected."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "extension",
+          "id": "coach",
+          "props": {
+            "modes": [
+              {
+                "id": "teach",
+                "label": "Teach",
+                "response": "Label actual, planned or rehearsal status; respect stop/decline. Keep paraphrases, exact captured quotes and interpretation distinct. No recording or transcription is connected."
+              },
+              {
+                "id": "guide",
+                "label": "Guide",
+                "response": "Label actual, planned or rehearsal status; respect stop/decline. Keep paraphrases, exact captured quotes and interpretation distinct. No recording or transcription is connected."
+              },
+              {
+                "id": "review",
+                "label": "Review",
+                "response": "Conversation Log check: {missing} required fields empty. Scripted field counting cannot verify consent, source accuracy, interviews, findings or demand."
+              },
+              {
+                "id": "challenge",
+                "label": "Challenge",
+                "response": "Label actual, planned or rehearsal status; respect stop/decline. Keep paraphrases, exact captured quotes and interpretation distinct. No recording or transcription is connected."
+              }
+            ],
+            "initial": "teach",
+            "questionResponse": "This is a scripted demonstration, not an AI answer to your question.",
+            "countIds": [
+              "session",
+              "permission",
+              "opening",
+              "account",
+              "probe",
+              "source",
+              "reflection",
+              "close"
+            ],
+            "questionLabel": "Optional question for the demonstration",
+            "submitLabel": "Show simulated guidance"
+          }
+        }
+      ]
+    },
+    {
+      "id": "challenge",
+      "label": "05 / CHALLENGE",
+      "heading": "Challenge your conversation record.",
+      "blocks": [
+        {
+          "type": "fields",
+          "ids": [
+            "bias",
+            "counter",
+            "constraint"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz",
+      "label": "06 / KNOWLEDGE CHECK",
+      "heading": "Check your understanding.",
+      "blocks": [
+        {
+          "type": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "label": "07 / DELIVER & PROGRESS",
+      "heading": "Your deliverable: a Customer Conversation Log.",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Download session/source status, permission limits, anonymous account, neutral probes, source quality, interpretation and next review. Rehearsals remain labeled practice."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checklist"
+        },
+        {
+          "type": "honest",
+          "label": "I labeled session and source status honestly, avoided invented quotes/findings, respected participation and recording limits, and separated notes from interpretation."
+        },
+        {
+          "type": "complete",
+          "label": "Mark Lesson 28 complete locally",
+          "completedLabel": "Lesson 28 self-completed locally",
+          "completedNotice": "Lesson 28 self-completed locally. This is not validated demand or a submitted assignment.",
+          "incompleteNotice": "Complete the remaining requirements before local self-completion."
+        },
+        {
+          "type": "extension",
+          "id": "moduleNote",
+          "props": {
+            "heading": "Module 2.2 · Learning from Customers",
+            "lessons": [
+              26,
+              27,
+              28,
+              29,
+              30
+            ],
+            "complete": "All five lessons self-completed locally. Module 2.2 learning pack complete; source verification, demand and venture approval remain separate.",
+            "incomplete": "{count} / 5 lessons self-completed locally. Complete each separately; evidence verification remains separate.",
+            "notes": [
+              {
+                "tag": "p",
+                "attrs": {},
+                "children": [
+                  "Self-completion is learning progress. It does not verify interviews, permission, findings or demand; a rehearsal supplies no customer evidence."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {
+                "class": "help"
+              },
+              "children": [
+                "Learning completion is separate from validated demand."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "next"
+        }
+      ]
+    }
+  ],
+  "nav": [
+    {
+      "id": "watch",
+      "label": "Watch"
+    },
+    {
+      "id": "learn",
+      "label": "Learn"
+    },
+    {
+      "id": "build",
+      "label": "Build"
+    },
+    {
+      "id": "coach",
+      "label": "Ask AI"
+    },
+    {
+      "id": "challenge",
+      "label": "Challenge"
+    },
+    {
+      "id": "quiz",
+      "label": "Knowledge check"
+    },
+    {
+      "id": "finish",
+      "label": "Deliver"
+    }
+  ]
+}

@@ -1,0 +1,962 @@
+{
+ "number": 19,
+ "phase": 1,
+ "module": "1.4",
+ "title": "Build Your Opportunity Brief",
+ "hero": {
+  "eyebrow": "Module 1.4 · Shaping Your Opportunity · Lesson 19",
+  "title": "Build Your Opportunity Brief.",
+  "intro": "Bring your discovery work into a concise, source-aware opportunity brief. Show what you know, what remains a hypothesis, and what you propose to check next.",
+  "badges": [
+   "Beginner friendly"
+  ],
+  "meta": "35–45 min · Recommended: Lessons 10–18"
+ },
+ "fields": [
+  {
+   "id": "group",
+   "label": "Group, context, boundaries and roles — source lesson references",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Keep this section concise; preserve source and evidence status.",
+   "maxLength": 2000
+  },
+  {
+   "id": "problem",
+   "label": "Specific problem, desired outcome and importance hypothesis",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Keep this section concise; preserve source and evidence status.",
+   "maxLength": 2000
+  },
+  {
+   "id": "evidencebrief",
+   "label": "Key evidence: source/date/status, supported statement and limits; plans stay planned",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Keep this section concise; preserve source and evidence status.",
+   "maxLength": 2000
+  },
+  {
+   "id": "alternatives",
+   "label": "Current approaches: benefits, limits and fair comparison",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Keep this section concise; preserve source and evidence status.",
+   "maxLength": 2000
+  },
+  {
+   "id": "value",
+   "label": "Opportunity and proposed value hypotheses — no unsupported promises",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Keep this section concise; preserve source and evidence status.",
+   "maxLength": 2000
+  },
+  {
+   "id": "unknowns",
+   "label": "Contradictions, key unknowns and strongest counterargument",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Keep this section concise; preserve source and evidence status.",
+   "maxLength": 2000
+  },
+  {
+   "id": "fit",
+   "label": "Founder fit, resources, pending permissions and critical constraints",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Keep this section concise; preserve source and evidence status.",
+   "maxLength": 2000
+  },
+  {
+   "id": "nextdecision",
+   "label": "Provisional action, next ethical check, owner/timing and review or pause signal",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Keep this section concise; preserve source and evidence status.",
+   "maxLength": 2000
+  },
+  {
+   "id": "support",
+   "label": "Optional supporting references or access constraint",
+   "kind": "textarea",
+   "required": false,
+   "maxLength": 2000
+  },
+  {
+   "id": "assumption",
+   "label": "Where has concise wording hidden an assumption, conflicting source or change of focus?",
+   "kind": "textarea",
+   "required": true,
+   "maxLength": 2000
+  },
+  {
+   "id": "evidence",
+   "label": "What missing or conflicting evidence could change the proposed action?",
+   "kind": "textarea",
+   "required": true,
+   "maxLength": 2000
+  },
+  {
+   "id": "constraint",
+   "label": "Which critical permission, resource or privacy limit must remain visible in the brief?",
+   "kind": "textarea",
+   "required": true,
+   "maxLength": 2000
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "What should an opportunity brief preserve?",
+   "options": [
+    "Only positive claims",
+    "Evidence status, unknowns, contradictions and constraints",
+    "Expected findings as facts"
+   ],
+   "answer": 1,
+   "explanation": "A useful summary preserves what supports and challenges the opportunity."
+  },
+  {
+   "prompt": "Research is only planned. How should the brief describe it?",
+   "options": [
+    "As a plan with a next check, not findings",
+    "As completed evidence",
+    "As proven demand"
+   ],
+   "answer": 0,
+   "explanation": "Concise writing must not change evidence status."
+  },
+  {
+   "prompt": "What does a polished brief establish?",
+   "options": [
+    "Investor readiness",
+    "Venture approval",
+    "A readable synthesis; evidence and validation remain separate"
+   ],
+   "answer": 2,
+   "explanation": "Presentation quality does not verify research or demand."
+  }
+ ],
+ "checklist": [
+  {
+   "kind": "studied",
+   "label": "Transcript or learning guide reviewed"
+  },
+  {
+   "kind": "fields",
+   "label": "Opportunity Brief fields complete",
+   "ids": [
+    "group",
+    "problem",
+    "evidencebrief",
+    "alternatives",
+    "value",
+    "unknowns",
+    "fit",
+    "nextdecision"
+   ]
+  },
+  {
+   "kind": "fields",
+   "label": "Three red-team reflections complete",
+   "ids": [
+    "assumption",
+    "evidence",
+    "constraint"
+   ]
+  },
+  {
+   "kind": "quiz",
+   "label": "Knowledge check: 3 / 3 correct"
+  },
+  {
+   "kind": "honest",
+   "label": "Final self-review confirmed"
+  }
+ ],
+ "deliverable": {
+  "title": "LYNQ Academy — Opportunity Brief",
+  "filename": "LYNQ-Opportunity-Brief.md",
+  "headerLines": [
+   "Phase 01 · Module {module} · Lesson {lesson}",
+   "Status: {status}",
+   "Created: {created}"
+  ],
+  "fieldIds": [
+   "group",
+   "problem",
+   "evidencebrief",
+   "alternatives",
+   "value",
+   "unknowns",
+   "fit",
+   "nextdecision",
+   "support",
+   "assumption",
+   "evidence",
+   "constraint"
+  ],
+  "footer": "Local prototype export. No reviewer submission or business validation."
+ },
+ "sections": [
+  {
+   "id": "watch",
+   "label": "01 / WATCH",
+   "heading": "Can someone understand your opportunity in one brief?",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "The planned explainer combines discovery work into a concise brief while preserving sources, contradictions and unknowns. Use the transcript or guide while the video is a placeholder."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "video-placeholder"
+       },
+       "children": [
+        {
+         "tag": "span",
+         "attrs": {
+          "class": "badge"
+         },
+         "children": [
+          "Video placeholder · media not produced"
+         ]
+        },
+        {
+         "tag": "h3",
+         "attrs": {},
+         "children": [
+          "Build Your Opportunity Brief"
+         ]
+        },
+        {
+         "tag": "p",
+         "attrs": {},
+         "children": [
+          "Planned: 2½-minute explainer + worksheet demo",
+          {
+           "tag": "br",
+           "attrs": {},
+           "children": []
+          },
+          "Group → Problem → Evidence → Value → Next decision"
+         ]
+        },
+        {
+         "tag": "small",
+         "attrs": {},
+         "children": [
+          "No playable video or generated media is attached."
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "storyboard",
+     "scenes": [
+      {
+       "title": "A brief helps someone understand",
+       "visual": "Founder reviews anonymous discovery worksheets.",
+       "narration": "An opportunity brief brings your discovery work into one readable summary. It helps a reviewer understand the group, problem, evidence, proposed improvement and next decision. It is not an investor pitch, a validated business case or a reason to hide uncertainty."
+      },
+      {
+       "title": "Keep one thread through the brief",
+       "visual": "Editable group, context and problem cards.",
+       "narration": "Use the same group, task and context throughout. If your research changed the focus, say what changed and why. Keep user and possible buyer roles separate. Do not let a broad market description replace the specific experience you are exploring."
+      },
+      {
+       "title": "Summarise evidence honestly",
+       "visual": "Editable known, inferred, planned and unknown labels.",
+       "narration": "Choose the most decision-relevant evidence and preserve its source, date, context and limits. Planned research remains planned. Include contradictions and unknowns rather than smoothing them away. A polished paragraph does not make an assumption true, and lesson completion does not verify the research."
+      },
+      {
+       "title": "Connect alternatives and proposed value",
+       "visual": "Editable current approach and provisional benefit cards.",
+       "narration": "Describe what people do today, what works and what might be improved. Summarise your opportunity and value proposition as hypotheses. Do not invent competitive superiority, time saved, market size or payment intent. Keep reasons against the opportunity visible."
+      },
+      {
+       "title": "Show feasibility and the next decision",
+       "visual": "Editable constraint, next check and review cards.",
+       "narration": "Summarise founder fit, resources and critical constraints. Explain the provisional action and a bounded next check with permission, timing and a signal that could change your mind. A high rating cannot override a missing permission or another blocking constraint."
+      },
+      {
+       "title": "Create and review the brief",
+       "visual": "Actual approved Lesson 19 worksheet recording.",
+       "narration": "Create your Opportunity Brief from eight concise sections. Review earlier worksheets manually; the prototype does not merge them for you. Download the brief and check consistency and evidence labels. Next you will use it for the Discover checkpoint: go to further testing, refine or pause."
+      }
+     ],
+     "sceneMeta": "Planned final scene: 25 seconds · narration and precise graphics added in post",
+     "summary": "Explore the six-scene storyboard placeholder"
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {
+        "class": "help"
+       },
+       "children": [
+        "Use an explainer with editable diagrams, documentary cutaways and a real worksheet demo. Generate short assets where supported, then assemble in an editor."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "videoPrompt",
+     "prompt": "Create an engaging beginner-friendly LYNQ Academy explainer plus synthesis demo for Module 1.4 Lesson 19: Build Your Opportunity Brief. Editorial target about 150 seconds, 16:9 1080p. Navy #0B2338, teal #087D79, mint #BCF2DF, white; contemporary Dubai workspace, diverse adults, friendly clear English narrator. Fictional anonymous examples labeled Illustrative example in post. Teach concise consistent synthesis, source/status preservation, contradictions, current alternatives, provisional value, constraints and next checks. No fabricated findings, citations, market sizes, quantified benefits, investor traction or demand claims.\n\nSCENE 1: A brief helps someone understand\nVisual placeholder: Founder reviews anonymous discovery worksheets.\nNarration: An opportunity brief brings your discovery work into one readable summary. It helps a reviewer understand the group, problem, evidence, proposed improvement and next decision. It is not an investor pitch, a validated business case or a reason to hide uncertainty.\n\nSCENE 2: Keep one thread through the brief\nVisual placeholder: Editable group, context and problem cards.\nNarration: Use the same group, task and context throughout. If your research changed the focus, say what changed and why. Keep user and possible buyer roles separate. Do not let a broad market description replace the specific experience you are exploring.\n\nSCENE 3: Summarise evidence honestly\nVisual placeholder: Editable known, inferred, planned and unknown labels.\nNarration: Choose the most decision-relevant evidence and preserve its source, date, context and limits. Planned research remains planned. Include contradictions and unknowns rather than smoothing them away. A polished paragraph does not make an assumption true, and lesson completion does not verify the research.\n\nSCENE 4: Connect alternatives and proposed value\nVisual placeholder: Editable current approach and provisional benefit cards.\nNarration: Describe what people do today, what works and what might be improved. Summarise your opportunity and value proposition as hypotheses. Do not invent competitive superiority, time saved, market size or payment intent. Keep reasons against the opportunity visible.\n\nSCENE 5: Show feasibility and the next decision\nVisual placeholder: Editable constraint, next check and review cards.\nNarration: Summarise founder fit, resources and critical constraints. Explain the provisional action and a bounded next check with permission, timing and a signal that could change your mind. A high rating cannot override a missing permission or another blocking constraint.\n\nSCENE 6: Create and review the brief\nVisual placeholder: Actual approved Lesson 19 worksheet recording.\nNarration: Create your Opportunity Brief from eight concise sections. Review earlier worksheets manually; the prototype does not merge them for you. Download the brief and check consistency and evidence labels. Next you will use it for the Discover checkpoint: go to further testing, refine or pause.\n\nFirst return storyboard, timings and individual shot prompts. Generate only supported short shot lengths for selected Gemini/Veo account; assemble with separately recorded narration. Generated footage has no text, logos, captions, private data or fake UI. Add exact LYNQ branding and editable Group / Problem / Evidence / Alternatives / Value / Constraints / Next check cards in post. Screen-record actual approved Lesson 19 worksheet with fictional source-labeled summaries. Deliver H.264 MP4, editable project/diagrams, audio, transcript, VTT/SRT captions, thumbnail and rights/provenance. Arabic version requires native-reviewed narration and RTL graphics. Review consistency, evidence honesty, privacy, brand, audio, pacing and mobile readability before publishing. Prototype contains no generated video.",
+     "filename": "LYNQ-Lesson-19-Gemini-Video-Prompt.md",
+     "title": "# LYNQ Lesson 19 — Gemini video prompt",
+     "summary": "Gemini video prompt — ready to copy"
+    },
+    {
+     "type": "transcript",
+     "scenes": [
+      {
+       "title": "A brief helps someone understand",
+       "visual": "Founder reviews anonymous discovery worksheets.",
+       "narration": "An opportunity brief brings your discovery work into one readable summary. It helps a reviewer understand the group, problem, evidence, proposed improvement and next decision. It is not an investor pitch, a validated business case or a reason to hide uncertainty."
+      },
+      {
+       "title": "Keep one thread through the brief",
+       "visual": "Editable group, context and problem cards.",
+       "narration": "Use the same group, task and context throughout. If your research changed the focus, say what changed and why. Keep user and possible buyer roles separate. Do not let a broad market description replace the specific experience you are exploring."
+      },
+      {
+       "title": "Summarise evidence honestly",
+       "visual": "Editable known, inferred, planned and unknown labels.",
+       "narration": "Choose the most decision-relevant evidence and preserve its source, date, context and limits. Planned research remains planned. Include contradictions and unknowns rather than smoothing them away. A polished paragraph does not make an assumption true, and lesson completion does not verify the research."
+      },
+      {
+       "title": "Connect alternatives and proposed value",
+       "visual": "Editable current approach and provisional benefit cards.",
+       "narration": "Describe what people do today, what works and what might be improved. Summarise your opportunity and value proposition as hypotheses. Do not invent competitive superiority, time saved, market size or payment intent. Keep reasons against the opportunity visible."
+      },
+      {
+       "title": "Show feasibility and the next decision",
+       "visual": "Editable constraint, next check and review cards.",
+       "narration": "Summarise founder fit, resources and critical constraints. Explain the provisional action and a bounded next check with permission, timing and a signal that could change your mind. A high rating cannot override a missing permission or another blocking constraint."
+      },
+      {
+       "title": "Create and review the brief",
+       "visual": "Actual approved Lesson 19 worksheet recording.",
+       "narration": "Create your Opportunity Brief from eight concise sections. Review earlier worksheets manually; the prototype does not merge them for you. Download the brief and check consistency and evidence labels. Next you will use it for the Discover checkpoint: go to further testing, refine or pause."
+      }
+     ],
+     "summary": "Read the full narration / transcript"
+    },
+    {
+     "type": "studied",
+     "label": "I read the transcript or reviewed the learning guide. Video is not required."
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "label": "02 / LEARN",
+   "heading": "Make the opportunity understandable and reviewable.",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "An ",
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "Opportunity Brief"
+         ]
+        },
+        " is a concise summary of your discovery work and proposed next learning step. Aim for a one-page editorial summary, with source references and detailed notes available separately. The worksheet does not enforce page length."
+       ]
+      },
+      {
+       "tag": "h3",
+       "attrs": {},
+       "children": [
+        "Keep a consistent thread"
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Use one specific group, task and context across the problem, evidence and proposed value. Explain changes in focus rather than silently mixing groups. Preserve user, beneficiary and possible buyer roles."
+       ]
+      },
+      {
+       "tag": "h3",
+       "attrs": {},
+       "children": [
+        "Eight sections to summarise"
+       ]
+      },
+      {
+       "tag": "ol",
+       "attrs": {},
+       "children": [
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Group, context and boundaries."
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Problem, desired outcome and why it may matter."
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Decision-relevant evidence with source/status and limits."
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Current approaches, benefits and drawbacks."
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Opportunity and value proposition hypotheses."
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Contradictions, unknowns and strongest counterargument."
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Founder fit, resources and critical constraints."
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Provisional action, next check and review signal."
+         ]
+        }
+       ]
+      },
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "note"
+       },
+       "children": [
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "Illustrative wording:"
+         ]
+        },
+        " “We are exploring registration information for first-time visitors. The difficulty is still a hypothesis; observation permission is pending. Staff help may already be sufficient. Our next step is a permitted check of the current process.” This is honest even without completed research."
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Do not turn planned research into findings, ratings into proof, or a polished draft into validation. Avoid unsupported market size, traction, quotes, benefit metrics or willingness-to-pay claims. Include conflicting evidence."
+       ]
+      },
+      {
+       "tag": "h3",
+       "attrs": {},
+       "children": [
+        "Review your sources manually"
+       ]
+      },
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "actions"
+       },
+       "children": [
+        {
+         "tag": "lesson-link",
+         "attrs": {
+          "lesson": "10",
+          "class": "btn secondary"
+         },
+         "children": [
+          "Review problem selection"
+         ]
+        },
+        {
+         "tag": "lesson-link",
+         "attrs": {
+          "lesson": "11",
+          "class": "btn secondary"
+         },
+         "children": [
+          "Review customer snapshot"
+         ]
+        },
+        {
+         "tag": "lesson-link",
+         "attrs": {
+          "lesson": "13",
+          "class": "btn secondary"
+         },
+         "children": [
+          "Review research log"
+         ]
+        },
+        {
+         "tag": "lesson-link",
+         "attrs": {
+          "lesson": "14",
+          "class": "btn secondary"
+         },
+         "children": [
+          "Review landscape map"
+         ]
+        },
+        {
+         "tag": "lesson-link",
+         "attrs": {
+          "lesson": "16",
+          "class": "btn secondary"
+         },
+         "children": [
+          "Review opportunity statement"
+         ]
+        },
+        {
+         "tag": "lesson-link",
+         "attrs": {
+          "lesson": "17",
+          "class": "btn secondary"
+         },
+         "children": [
+          "Review value proposition"
+         ]
+        },
+        {
+         "tag": "lesson-link",
+         "attrs": {
+          "lesson": "18",
+          "class": "btn secondary"
+         },
+         "children": [
+          "Review fit assessment"
+         ]
+        }
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {
+        "class": "help"
+       },
+       "children": [
+        "Earlier drafts save separately. No source is merged or verified automatically."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "practice",
+     "legend": "Practice: research is still planned",
+     "prompt": "",
+     "options": [
+      {
+       "label": "Present expected results as findings",
+       "feedback": "Keep evidence status and unknowns visible; confidence or concise wording cannot substitute for findings."
+      },
+      {
+       "label": "Keep the plan labeled and show the next check",
+       "feedback": "Useful summary: preserve planned status and the next check. A brief should not turn expected results into evidence."
+      },
+      {
+       "label": "Remove all unknowns to sound confident",
+       "feedback": "Keep evidence status and unknowns visible; confidence or concise wording cannot substitute for findings."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "build",
+   "label": "03 / BUILD",
+   "heading": "Your Opportunity Brief.",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Summarise earlier work manually. Keep unknowns and source references visible. Aim for short sections suitable for an editorial one-page brief; there is no automatic page-length control or source merge."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "saveStatus"
+    },
+    {
+     "type": "fields",
+     "ids": [
+      "group",
+      "problem",
+      "evidencebrief",
+      "alternatives",
+      "value",
+      "unknowns",
+      "fit",
+      "nextdecision",
+      "support"
+     ]
+    },
+    {
+     "type": "extension",
+     "id": "preview",
+     "props": {
+      "label": "Preview my opportunity brief",
+      "kind": "lines",
+      "joiner": "\n\n",
+      "lines": [
+       {
+        "id": "group",
+        "label": "Group, context, boundaries and roles — source lesson references *"
+       },
+       {
+        "id": "problem",
+        "label": "Specific problem, desired outcome and importance hypothesis *"
+       },
+       {
+        "id": "evidencebrief",
+        "label": "Key evidence: source/date/status, supported statement and limits; plans stay planned *"
+       },
+       {
+        "id": "alternatives",
+        "label": "Current approaches: benefits, limits and fair comparison *"
+       },
+       {
+        "id": "value",
+        "label": "Opportunity and proposed value hypotheses — no unsupported promises *"
+       },
+       {
+        "id": "unknowns",
+        "label": "Contradictions, key unknowns and strongest counterargument *"
+       },
+       {
+        "id": "fit",
+        "label": "Founder fit, resources, pending permissions and critical constraints *"
+       },
+       {
+        "id": "nextdecision",
+        "label": "Provisional action, next ethical check, owner/timing and review or pause signal *"
+       }
+      ],
+      "footer": "This brief does not prove demand, verify evidence or approve a venture."
+     }
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "note"
+       },
+       "children": [
+        "This brief does not verify evidence, prove demand or constitute an investor-ready business case. Browser storage is plaintext; avoid confidential/private information and download a copy."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "extension",
+     "id": "download",
+     "props": {
+      "label": "Download Opportunity Brief"
+     }
+    },
+    {
+     "type": "reset",
+     "label": "Clear local draft"
+    }
+   ]
+  },
+  {
+   "id": "coach",
+   "label": "04 / ASK AI",
+   "heading": "Your thinking partner",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "span",
+       "attrs": {
+        "class": "badge"
+       },
+       "children": [
+        "Simulated Coach · no AI connection"
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Try four scripted guidance modes. The preview reads your current worksheet locally; it does not send information anywhere."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "extension",
+     "id": "coach",
+     "props": {
+      "modes": [
+       {
+        "id": "teach",
+        "label": "Teach me"
+       },
+       {
+        "id": "guide",
+        "label": "Guide me"
+       },
+       {
+        "id": "review",
+        "label": "Review my work"
+       },
+       {
+        "id": "challenge",
+        "label": "Challenge my idea"
+       }
+      ],
+      "replies": {
+       "teach": "A brief synthesises group, problem, evidence, alternatives, provisional value, unknowns, fit and next decision without hiding limits.",
+       "guide": "Review earlier worksheets manually. Keep the same group/context, source/status labels, contradictions and critical constraints. Shorten wording without changing evidence status.",
+       "review": "Opportunity Brief check: {missing} required fields still empty. This scripted check counts fields only; it cannot verify sources, consistency, business claims or demand.",
+       "challenge": "Did a plan become a finding? Did the group change silently? What source contradicts the story? Does the proposed next action respect constraints?"
+      },
+      "heading": "SCRIPTED DEMO / ",
+      "questionNote": "Your question was entered locally. This preview does not generate a custom answer.",
+      "questionLabel": "Your question (optional)",
+      "placeholder": "What should I focus on first?",
+      "maxLength": 500,
+      "submitLabel": "Show simulated guidance"
+     }
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {
+        "class": "help"
+       },
+       "children": [
+        "Responses are predefined for this lesson, not generated answers to your question. No customer demand or venture readiness is verified."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "challenge",
+   "label": "05 / CHALLENGE",
+   "heading": "Challenge the summary.",
+   "blocks": [
+    {
+     "type": "fields",
+     "ids": [
+      "assumption",
+      "evidence",
+      "constraint"
+     ]
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "details",
+       "attrs": {},
+       "children": [
+        {
+         "tag": "summary",
+         "attrs": {},
+         "children": [
+          "More questions to discuss"
+         ]
+        },
+        {
+         "tag": "p",
+         "attrs": {},
+         "children": [
+          "Is the group consistent? Are claims traceable? Have plans become findings? What works already? Would a reviewer understand what remains unknown and why you propose this next check?"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "quiz",
+   "label": "06 / CHECK YOUR UNDERSTANDING",
+   "heading": "A quick knowledge check",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Answer all three. You can retry; all three correct are required for local completion."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "quiz"
+    }
+   ]
+  },
+  {
+   "id": "finish",
+   "label": "07 / DELIVER & PROGRESS",
+   "heading": "Your deliverable: an Opportunity Brief.",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Download the eight-section summary with reflections. Review consistency, source labels and constraints. This is a draft learning brief, not verified research or venture approval."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "checklist"
+    },
+    {
+     "type": "honest",
+     "label": "I kept the group consistent, preserved evidence status, contradictions and constraints, and avoided unsupported business claims."
+    },
+    {
+     "type": "complete",
+     "label": "Mark Lesson 19 complete locally",
+     "completedLabel": "Lesson 19 self-completed locally",
+     "completedNotice": "Lesson 19 self-completed locally. Download your Opportunity Brief. No reviewer approval or venture validation is recorded.",
+     "incompleteNotice": "Complete the remaining requirements above before marking this lesson complete."
+    },
+    {
+     "type": "extension",
+     "id": "moduleNote",
+     "props": {
+      "parts": [
+       {
+        "nodes": [
+         {
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+           "Module 1.4 · Shaping Your Opportunity"
+          ]
+         }
+        ]
+       },
+       {
+        "status": "1.4",
+        "complete": "All five lessons self-completed locally. Module 1.4 learning pack complete.",
+        "incomplete": "{count} / 5 lessons self-completed locally. Complete each lesson separately."
+       },
+       {
+        "nodes": [
+         {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+           "Self-completion records learning, not certification or venture approval."
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "type": "next"
+    }
+   ]
+  }
+ ],
+ "nav": [
+  {
+   "id": "watch",
+   "label": "Watch"
+  },
+  {
+   "id": "learn",
+   "label": "Learn"
+  },
+  {
+   "id": "build",
+   "label": "Build"
+  },
+  {
+   "id": "coach",
+   "label": "Ask AI"
+  },
+  {
+   "id": "challenge",
+   "label": "Challenge"
+  },
+  {
+   "id": "quiz",
+   "label": "Knowledge check"
+  },
+  {
+   "id": "finish",
+   "label": "Deliver"
+  }
+ ]
+}

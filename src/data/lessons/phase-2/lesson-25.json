@@ -1,0 +1,741 @@
+{
+  "number": 25,
+  "phase": 2,
+  "module": "2.1",
+  "title": "Your Validation Test Plan",
+  "hero": {
+    "eyebrow": "Module 2.1 · Designing Your Validation · Lesson 25",
+    "title": "Your Validation Test Plan.",
+    "intro": "Organise your experiment design into a practical plan with responsibilities, permissions, evidence recording, stop conditions and a review decision. Planned work stays distinct from results.",
+    "badges": [
+      "Beginner friendly"
+    ],
+    "meta": "35–45 min · Recommended: Lessons 21–24"
+  },
+  "fields": [
+    {
+      "id": "focus",
+      "label": "Priority claim, group/context, decision and source design from Lesson 24",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Write planned actions; preserve pending permissions and evidence limits."
+    },
+    {
+      "id": "protocol",
+      "label": "Step-by-step protocol: preparation, check, close and consistent instructions",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Write planned actions; preserve pending permissions and evidence limits."
+    },
+    {
+      "id": "access",
+      "label": "Participants/sources, access, permission status, voluntary participation and privacy",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Write planned actions; preserve pending permissions and evidence limits."
+    },
+    {
+      "id": "schedule",
+      "label": "Owner, roles, dates, effort/resources, dependencies and readiness checks",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Write planned actions; preserve pending permissions and evidence limits."
+    },
+    {
+      "id": "recording",
+      "label": "Evidence recording: source codes, date/context, signals, deviations, storage/retention/deletion",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Write planned actions; preserve pending permissions and evidence limits."
+    },
+    {
+      "id": "interpretation",
+      "label": "Predefined supportive/weakening/inconclusive criteria, limits and review process",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Write planned actions; preserve pending permissions and evidence limits."
+    },
+    {
+      "id": "fallback",
+      "label": "Stop conditions, access failure, safety/privacy issues and ethical fallback",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Write planned actions; preserve pending permissions and evidence limits."
+    },
+    {
+      "id": "decision",
+      "label": "Review date, decision owner, next actions and what remains unvalidated",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Write planned actions; preserve pending permissions and evidence limits."
+    },
+    {
+      "id": "support",
+      "label": "Optional references or support",
+      "kind": "textarea",
+      "required": false,
+      "maxLength": 2000
+    },
+    {
+      "id": "bias",
+      "label": "Where might planned access, support or findings be treated as confirmed?",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "counter",
+      "label": "What deviation or inconclusive result would limit the next decision?",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "constraint",
+      "label": "Which unresolved permission, privacy or resource condition must stop execution?",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    }
+  ],
+  "questions": [
+    {
+      "prompt": "What should happen when the protocol changes?",
+      "options": [
+        "Hide it",
+        "Record the deviation and interpretation limits",
+        "Treat results as automatically valid"
+      ],
+      "answer": 1,
+      "explanation": "Deviations must remain visible when interpreting evidence."
+    },
+    {
+      "prompt": "Permission remains pending. Does lesson completion permit execution?",
+      "options": [
+        "No; respect pending access and use an ethical fallback",
+        "Yes",
+        "Yes if the plan is detailed"
+      ],
+      "answer": 0,
+      "explanation": "Learning completion does not grant operational permission."
+    },
+    {
+      "prompt": "What closes Module 2.1 locally?",
+      "options": [
+        "Proven demand",
+        "An experiment already executed",
+        "All five lessons self-completed; execution and validation remain separate"
+      ],
+      "answer": 2,
+      "explanation": "The module checkpoint records learning work, not results."
+    }
+  ],
+  "checklist": [
+    {
+      "kind": "studied",
+      "label": "Storyboard/transcript reviewed"
+    },
+    {
+      "kind": "fields",
+      "label": "Eight worksheet fields complete",
+      "ids": [
+        "focus",
+        "protocol",
+        "access",
+        "schedule",
+        "recording",
+        "interpretation",
+        "fallback",
+        "decision"
+      ]
+    },
+    {
+      "kind": "fields",
+      "label": "Three red-team reflections complete",
+      "ids": [
+        "bias",
+        "counter",
+        "constraint"
+      ]
+    },
+    {
+      "kind": "quiz",
+      "label": "Quiz 3 / 3 correct"
+    },
+    {
+      "kind": "honest",
+      "label": "Final self-review confirmed"
+    }
+  ],
+  "deliverable": {
+    "title": "LYNQ Academy — Validation Test Plan",
+    "filename": "LYNQ-Validation-Test-Plan.md",
+    "headerLines": [
+      "Phase 02 · Module {module} · Lesson {lesson}",
+      "Status: {status}"
+    ],
+    "fieldIds": [
+      "focus",
+      "protocol",
+      "access",
+      "schedule",
+      "recording",
+      "interpretation",
+      "fallback",
+      "decision"
+    ],
+    "footer": "No real AI, test execution, source verification or demand validation.",
+    "previewFooter": "This plan does not prove demand or represent completed research."
+  },
+  "sections": [
+    {
+      "id": "watch",
+      "label": "01 / WATCH",
+      "heading": "How will you carry out and review the check responsibly?",
+      "blocks": [
+        {
+          "type": "video",
+          "title": "Your Validation Test Plan",
+          "subtitle": "Planned 2½-minute explainer + worksheet demo",
+          "note": "No playable video or generated media is attached."
+        },
+        {
+          "type": "storyboard",
+          "scenes": [
+            {
+              "title": "Make the design executable",
+              "visual": "Founder reviews an anonymous experiment design.",
+              "narration": "Your design describes the claim and check. A validation test plan organises how you will carry it out responsibly: steps, owners, permissions, records and review. Completing this lesson creates a plan. It does not run a test, grant access or prove demand."
+            },
+            {
+              "title": "Keep one claim and protocol",
+              "visual": "Editable claim and sequence cards.",
+              "narration": "Carry forward the specific group, claim and decision from Lesson 24. Write preparation, check and close steps with consistent instructions. Keep the method aligned with the claim. If the scope changes, document why and update the design instead of silently changing the question."
+            },
+            {
+              "title": "Check access and readiness",
+              "visual": "Editable pending and confirmed permission cards.",
+              "narration": "Name relevant participants or sources, permission status and how people can decline or stop. A named contact is not confirmed help. Assign owners, timing and effort limits. Keep critical constraints visible; missing permission may mean readiness is pending even when all fields are complete."
+            },
+            {
+              "title": "Record without inventing",
+              "visual": "Editable source code, signal and deviation columns.",
+              "narration": "Plan anonymous evidence records with date, context and observable signals. Keep interpretation separate. Record deviations from the protocol and limitations rather than hiding them. Do not prefill expected findings as results or collect personal information you do not need."
+            },
+            {
+              "title": "Plan stop and review paths",
+              "visual": "Editable supportive, weakening, inconclusive and stop cards.",
+              "narration": "Preserve the criteria from the design. Decide how supportive, weakening or inconclusive information affects the next step. Record a review date and decision owner. Set stop conditions and a fallback for access, privacy or resource problems. No result should automatically approve a venture."
+            },
+            {
+              "title": "Close the design module",
+              "visual": "Actual approved Lesson 25 worksheet recording and five-deliverable list.",
+              "narration": "Create your Validation Test Plan and review your starting brief, assumption register, priority plan and experiment design. All five lessons close Module 2.1 when locally self-completed. Research execution remains separate. The next module prepares neutral customer conversations, with permission and evidence limits intact."
+            }
+          ],
+          "summary": "Explore the six-scene storyboard placeholder",
+          "sceneMeta": "Planned scene {scene} · about 25 seconds in final edit"
+        },
+        {
+          "type": "transcript",
+          "scenes": [
+            {
+              "title": "Make the design executable",
+              "visual": "Founder reviews an anonymous experiment design.",
+              "narration": "Your design describes the claim and check. A validation test plan organises how you will carry it out responsibly: steps, owners, permissions, records and review. Completing this lesson creates a plan. It does not run a test, grant access or prove demand."
+            },
+            {
+              "title": "Keep one claim and protocol",
+              "visual": "Editable claim and sequence cards.",
+              "narration": "Carry forward the specific group, claim and decision from Lesson 24. Write preparation, check and close steps with consistent instructions. Keep the method aligned with the claim. If the scope changes, document why and update the design instead of silently changing the question."
+            },
+            {
+              "title": "Check access and readiness",
+              "visual": "Editable pending and confirmed permission cards.",
+              "narration": "Name relevant participants or sources, permission status and how people can decline or stop. A named contact is not confirmed help. Assign owners, timing and effort limits. Keep critical constraints visible; missing permission may mean readiness is pending even when all fields are complete."
+            },
+            {
+              "title": "Record without inventing",
+              "visual": "Editable source code, signal and deviation columns.",
+              "narration": "Plan anonymous evidence records with date, context and observable signals. Keep interpretation separate. Record deviations from the protocol and limitations rather than hiding them. Do not prefill expected findings as results or collect personal information you do not need."
+            },
+            {
+              "title": "Plan stop and review paths",
+              "visual": "Editable supportive, weakening, inconclusive and stop cards.",
+              "narration": "Preserve the criteria from the design. Decide how supportive, weakening or inconclusive information affects the next step. Record a review date and decision owner. Set stop conditions and a fallback for access, privacy or resource problems. No result should automatically approve a venture."
+            },
+            {
+              "title": "Close the design module",
+              "visual": "Actual approved Lesson 25 worksheet recording and five-deliverable list.",
+              "narration": "Create your Validation Test Plan and review your starting brief, assumption register, priority plan and experiment design. All five lessons close Module 2.1 when locally self-completed. Research execution remains separate. The next module prepares neutral customer conversations, with permission and evidence limits intact."
+            }
+          ],
+          "summary": "Read the full narration / transcript"
+        },
+        {
+          "type": "videoPrompt",
+          "prompt": "Create an engaging beginner-friendly LYNQ Academy explainer plus planning demo for Module 2.1 Lesson 25: Your Validation Test Plan. Editorial target 150 seconds, 16:9 1080p. Navy #0B2338, teal #087D79, mint #BCF2DF, white; diverse adults in contemporary Dubai workspace, warm clear English narration. Fictional anonymous examples labeled Illustrative example in post. Teach protocol consistency, responsibilities, pending/confirmed permission, anonymous recording, deviations, interpretation, stop/fallback and review paths. No fabricated results, participant commitments, permissions, automatic readiness badge, demand or success claims.\n\nSCENE 1: Make the design executable\nVisual placeholder: Founder reviews an anonymous experiment design.\nNarration: Your design describes the claim and check. A validation test plan organises how you will carry it out responsibly: steps, owners, permissions, records and review. Completing this lesson creates a plan. It does not run a test, grant access or prove demand.\n\nSCENE 2: Keep one claim and protocol\nVisual placeholder: Editable claim and sequence cards.\nNarration: Carry forward the specific group, claim and decision from Lesson 24. Write preparation, check and close steps with consistent instructions. Keep the method aligned with the claim. If the scope changes, document why and update the design instead of silently changing the question.\n\nSCENE 3: Check access and readiness\nVisual placeholder: Editable pending and confirmed permission cards.\nNarration: Name relevant participants or sources, permission status and how people can decline or stop. A named contact is not confirmed help. Assign owners, timing and effort limits. Keep critical constraints visible; missing permission may mean readiness is pending even when all fields are complete.\n\nSCENE 4: Record without inventing\nVisual placeholder: Editable source code, signal and deviation columns.\nNarration: Plan anonymous evidence records with date, context and observable signals. Keep interpretation separate. Record deviations from the protocol and limitations rather than hiding them. Do not prefill expected findings as results or collect personal information you do not need.\n\nSCENE 5: Plan stop and review paths\nVisual placeholder: Editable supportive, weakening, inconclusive and stop cards.\nNarration: Preserve the criteria from the design. Decide how supportive, weakening or inconclusive information affects the next step. Record a review date and decision owner. Set stop conditions and a fallback for access, privacy or resource problems. No result should automatically approve a venture.\n\nSCENE 6: Close the design module\nVisual placeholder: Actual approved Lesson 25 worksheet recording and five-deliverable list.\nNarration: Create your Validation Test Plan and review your starting brief, assumption register, priority plan and experiment design. All five lessons close Module 2.1 when locally self-completed. Research execution remains separate. The next module prepares neutral customer conversations, with permission and evidence limits intact.\n\nFirst provide storyboard, timings and individual shot prompts. Generate only supported short shots for selected Gemini/Veo account, edit with separately recorded narration. No generated text/logos/captions/fake UI; composite exact branding and editable Claim / Protocol / Owner / Permission / Records / Stop / Review cards in post. Screen-record approved Lesson 25 worksheet with fictional planned entries. No experiment execution or certificate scene. Deliver H.264 MP4, editable project, audio, transcript, VTT/SRT, thumbnail and rights/provenance. Separate native-reviewed Arabic narration and RTL graphics. Review permission semantics, evidence honesty, privacy, accuracy, brand, audio, pacing and mobile readability. Prototype generates no video.",
+          "filename": "LYNQ-Lesson-25-Gemini-Video-Prompt.md",
+          "summary": "Gemini video prompt — ready to copy"
+        },
+        {
+          "type": "studied",
+          "label": "I reviewed the storyboard or transcript."
+        }
+      ]
+    },
+    {
+      "id": "learn",
+      "label": "02 / LEARN",
+      "heading": "Organise the work before executing the check.",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "A ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "test plan"
+                  ]
+                },
+                " coordinates the experiment design, protocol, owners, access, evidence records and review. A ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "protocol"
+                  ]
+                },
+                " is the consistent sequence and instructions. A ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "deviation"
+                  ]
+                },
+                " is a change from that plan that must be recorded."
+              ]
+            },
+            {
+              "tag": "ol",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Confirm one priority claim and relevant group/context."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Write preparation, check and close steps."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Record pending/confirmed permissions and voluntary participation."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Assign owner, timing, effort and dependencies."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Plan anonymous evidence records and deviations."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Preserve interpretation criteria, stop/fallback and review decisions."
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "note"
+              },
+              "children": [
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "Illustrative plan:"
+                  ]
+                },
+                " a directions-clarity task remains pending until access and voluntary participation are arranged. A document review can be a permitted fallback, but answers a different question and must be labeled accordingly."
+              ]
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Lesson completion is not operational readiness. Pending permission can remain honestly pending with a fallback; no recruitment, recording, payment collection or test execution occurs here. Do not fill planned records with expected results. If the method or claim changes, document the reason and revise the design."
+              ]
+            },
+            {
+              "tag": "h3",
+              "attrs": {},
+              "children": [
+                "Review Module 2.1 deliverables"
+              ]
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "actions"
+              },
+              "children": [
+                {
+                  "tag": "lesson-link",
+                  "attrs": {
+                    "lesson": "21",
+                    "class": "btn secondary"
+                  },
+                  "children": [
+                    "Review validation starting brief"
+                  ]
+                },
+                {
+                  "tag": "lesson-link",
+                  "attrs": {
+                    "lesson": "22",
+                    "class": "btn secondary"
+                  },
+                  "children": [
+                    "Review assumption register"
+                  ]
+                },
+                {
+                  "tag": "lesson-link",
+                  "attrs": {
+                    "lesson": "23",
+                    "class": "btn secondary"
+                  },
+                  "children": [
+                    "Review priority plan"
+                  ]
+                },
+                {
+                  "tag": "lesson-link",
+                  "attrs": {
+                    "lesson": "24",
+                    "class": "btn secondary"
+                  },
+                  "children": [
+                    "Review experiment design"
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "These drafts remain separate; nothing is merged or verified automatically."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "practice",
+          "legend": "Practice: protocol changes during a check",
+          "prompt": "",
+          "options": [
+            {
+              "label": "Hide the change to keep results clean",
+              "feedback": "Keep protocol changes visible; hidden deviations or lesson completion do not establish validation."
+            },
+            {
+              "label": "Record the deviation and its effect on interpretation",
+              "feedback": "Useful record: preserve the deviation and its effect on interpretation."
+            },
+            {
+              "label": "Claim automatic validation",
+              "feedback": "Keep protocol changes visible; hidden deviations or lesson completion do not establish validation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "build",
+      "label": "03 / BUILD",
+      "heading": "Your Validation Test Plan.",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Make the design practical. Unknown access and permissions stay pending with a fallback. No test, readiness score or result is generated automatically."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "saveStatus"
+        },
+        {
+          "type": "fields",
+          "ids": [
+            "focus",
+            "protocol",
+            "access",
+            "schedule",
+            "recording",
+            "interpretation",
+            "fallback",
+            "decision",
+            "support"
+          ]
+        },
+        {
+          "type": "deliverable",
+          "previewLabel": "Preview my validation test plan",
+          "downloadLabel": "Download Validation Test Plan"
+        },
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "note"
+              },
+              "children": [
+                "Browser storage is plaintext; avoid private/confidential data. This is a plan, not findings, confirmed permission or venture approval."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "reset",
+          "label": "Clear local draft"
+        }
+      ]
+    },
+    {
+      "id": "coach",
+      "label": "04 / ASK AI",
+      "heading": "Venture Coach · simulated",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Scripted demonstration only. No live AI, source verification, experiment execution or backend is connected."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "extension",
+          "id": "coach",
+          "props": {
+            "modes": [
+              {
+                "id": "teach",
+                "label": "Teach",
+                "response": "Connect the design to protocol, owners, pending/confirmed access, anonymous records, deviations, stop conditions and review. Completion is not execution readiness."
+              },
+              {
+                "id": "guide",
+                "label": "Guide",
+                "response": "Connect the design to protocol, owners, pending/confirmed access, anonymous records, deviations, stop conditions and review. Completion is not execution readiness."
+              },
+              {
+                "id": "review",
+                "label": "Review",
+                "response": "Validation Test Plan check: {missing} required fields still empty. This scripted check counts fields only; it cannot verify permission, readiness, protocol quality or demand."
+              },
+              {
+                "id": "challenge",
+                "label": "Challenge",
+                "response": "Connect the design to protocol, owners, pending/confirmed access, anonymous records, deviations, stop conditions and review. Completion is not execution readiness."
+              }
+            ],
+            "initial": "teach",
+            "questionResponse": "This is a scripted demonstration, not an AI answer to your question.",
+            "countIds": [
+              "focus",
+              "protocol",
+              "access",
+              "schedule",
+              "recording",
+              "interpretation",
+              "fallback",
+              "decision"
+            ],
+            "questionLabel": "Optional question for the demonstration",
+            "submitLabel": "Show simulated guidance"
+          }
+        }
+      ]
+    },
+    {
+      "id": "challenge",
+      "label": "05 / CHALLENGE",
+      "heading": "Challenge execution readiness.",
+      "blocks": [
+        {
+          "type": "fields",
+          "ids": [
+            "bias",
+            "counter",
+            "constraint"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz",
+      "label": "06 / KNOWLEDGE CHECK",
+      "heading": "Check your understanding.",
+      "blocks": [
+        {
+          "type": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "label": "07 / DELIVER & MODULE CHECKPOINT",
+      "heading": "Your deliverable: a Validation Test Plan.",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Download the protocol, responsibilities, access, records, interpretation, fallback and review decision. Review all five Module 2.1 deliverables; they save separately."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checklist"
+        },
+        {
+          "type": "honest",
+          "label": "I kept the plan separate from execution/results, preserved permission status, and addressed deviations, stop conditions and review limits."
+        },
+        {
+          "type": "complete",
+          "label": "Mark Lesson 25 complete locally",
+          "completedLabel": "Lesson 25 self-completed locally",
+          "completedNotice": "Lesson 25 self-completed locally. This is not validated demand or a submitted assignment.",
+          "incompleteNotice": "Complete the remaining requirements before local self-completion."
+        },
+        {
+          "type": "extension",
+          "id": "moduleNote",
+          "props": {
+            "heading": "Module 2.1 checkpoint",
+            "lessons": [
+              21,
+              22,
+              23,
+              24,
+              25
+            ],
+            "complete": "All five lessons self-completed locally. Module 2.1 learning pack complete; execution, permission and validation remain separate.",
+            "incomplete": "{count} / 5 lessons self-completed locally. Complete each separately to finish the learning module.",
+            "notes": [
+              {
+                "tag": "p",
+                "attrs": {},
+                "children": [
+                  "Five deliverables: Validation Starting Brief, Assumption Register, Validation Priority Plan, Small Experiment Design and Validation Test Plan. Learning completion is not permission, operational readiness, certification or validation."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {
+                "class": "help"
+              },
+              "children": [
+                "Learning completion is separate from validated demand."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "next"
+        }
+      ]
+    }
+  ],
+  "nav": [
+    {
+      "id": "watch",
+      "label": "Watch"
+    },
+    {
+      "id": "learn",
+      "label": "Learn"
+    },
+    {
+      "id": "build",
+      "label": "Build"
+    },
+    {
+      "id": "coach",
+      "label": "Ask AI"
+    },
+    {
+      "id": "challenge",
+      "label": "Challenge"
+    },
+    {
+      "id": "quiz",
+      "label": "Knowledge check"
+    },
+    {
+      "id": "finish",
+      "label": "Deliver"
+    }
+  ]
+}

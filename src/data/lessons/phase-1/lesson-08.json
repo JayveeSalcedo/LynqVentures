@@ -1,0 +1,1162 @@
+{
+ "number": 8,
+ "phase": 1,
+ "module": "1.2",
+ "title": "Symptoms, Causes & Consequences",
+ "hero": {
+  "eyebrow": "Module 1.2 · Finding Problems Worth Solving · Lesson 08",
+  "title": "Symptoms, Causes & Consequences.",
+  "intro": "Separate the visible difficulty from possible explanations and downstream effects. Build a Problem Map with competing cause hypotheses, honest evidence limits, and a next check.",
+  "badges": [
+   "Beginner friendly"
+  ],
+  "meta": "35–45 min · Recommended: Lessons 06–07"
+ },
+ "fields": [
+  {
+   "id": "clue",
+   "label": "Which problem clue, group and source are you using?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Journal entry 1, planned; first-time event visitors finding check-in.",
+   "maxLength": 2000,
+   "hint": "Refer to Lessons 06–07. Keep firsthand/reported/planned status visible."
+  },
+  {
+   "id": "symptom",
+   "label": "What is the visible or reported symptom?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Visitors asking which queue to join / planned observation of this moment.",
+   "maxLength": 2000,
+   "hint": "Describe the difficulty without naming a cause. If not observed, write what you will look for."
+  },
+  {
+   "id": "causea",
+   "label": "What is one possible cause?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Directions may be unclear; not yet checked.",
+   "maxLength": 2000,
+   "hint": "State a hypothesis, not a proven explanation."
+  },
+  {
+   "id": "causeb",
+   "label": "What is a competing explanation?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "The queue location may have changed after signs were prepared.",
+   "maxLength": 2000,
+   "hint": "Choose an alternative that could lead to a different next check. “Unknown alternative” is acceptable if you state how to explore it."
+  },
+  {
+   "id": "checks",
+   "label": "What evidence supports, challenges or is missing for each cause?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "A: need to inspect directions. B: need to ask whether the queue moved. No evidence yet.",
+   "maxLength": 2000,
+   "hint": "Compare both hypotheses; do not invent evidence. Unknown/to check is valid."
+  },
+  {
+   "id": "effects",
+   "label": "What immediate and downstream consequences are known or unknown?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Immediate extra staff interaction is possible; downstream delay and frequency unknown.",
+   "maxLength": 2000,
+   "hint": "Record the workaround too. Do not invent delay, cost or frequency."
+  },
+  {
+   "id": "links",
+   "label": "How might causes, symptom and effects connect?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "If directions are unclear, visitors may ask staff, adding a step; every link is to check.",
+   "maxLength": 2000,
+   "hint": "Write a tentative chain and label every uncertain link. A diagram or chain is not proof."
+  },
+  {
+   "id": "nextcheck",
+   "label": "What small, appropriate check will you do next?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "With access permission, compare signs and actual queue locations; revise A if directions are clear.",
+   "maxLength": 2000,
+   "hint": "Choose a neutral question/observation, permission needed, and what would change your view."
+  },
+  {
+   "id": "support",
+   "label": "What other cause or access constraint should you note?",
+   "kind": "textarea",
+   "required": false,
+   "placeholder": "Optional: another possible explanation, access still needed, or a limit to the check…",
+   "maxLength": 2000
+  },
+  {
+   "id": "assumption",
+   "label": "Which causal link is easiest to mistake for a fact?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "I assume… causes… but my actual evidence is…",
+   "maxLength": 2000
+  },
+  {
+   "id": "evidence",
+   "label": "What alternative explanation or contrary case would change your view?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "If the symptom happens even when… or does not happen when… I will reconsider…",
+   "maxLength": 2000
+  },
+  {
+   "id": "constraint",
+   "label": "How will you check the explanation without disrupting people or inventing results?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "I will seek suitable access, use a neutral question, and keep unknowns as…",
+   "maxLength": 2000
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "Which statement is a possible cause rather than a symptom or consequence?",
+   "options": [
+    "Visitors asked staff which queue to join",
+    "Staff spent time giving directions",
+    "The queue location may have changed"
+   ],
+   "answer": 2,
+   "explanation": "A changed location is a possible explanation to check; asking and staff time are the visible event/effect."
+  },
+  {
+   "prompt": "Does a chain of why-questions prove a root cause?",
+   "options": [
+    "No; it creates hypotheses that need evidence and alternatives",
+    "Yes, if it has enough steps",
+    "Yes, if the diagram looks convincing"
+   ],
+   "answer": 0,
+   "explanation": "Why-questions can guide thinking, but each causal link still needs checking."
+  },
+  {
+   "prompt": "What should you do with unknown downstream impact?",
+   "options": [
+    "Make up a plausible cost",
+    "Label it unknown and choose a way to investigate",
+    "Assume the worst consequence happened"
+   ],
+   "answer": 1,
+   "explanation": "Keep unknowns honest; investigate rather than exaggerate delay, cost, frequency or severity."
+  }
+ ],
+ "checklist": [
+  {
+   "kind": "studied",
+   "label": "Transcript or learning guide reviewed"
+  },
+  {
+   "kind": "fields",
+   "label": "Problem Map fields complete",
+   "ids": [
+    "clue",
+    "symptom",
+    "causea",
+    "causeb",
+    "checks",
+    "effects",
+    "links",
+    "nextcheck"
+   ]
+  },
+  {
+   "kind": "fields",
+   "label": "Three red-team reflections complete",
+   "ids": [
+    "assumption",
+    "evidence",
+    "constraint"
+   ]
+  },
+  {
+   "kind": "quiz",
+   "label": "Knowledge check: 3 / 3 correct"
+  },
+  {
+   "kind": "honest",
+   "label": "Final self-review confirmed"
+  }
+ ],
+ "deliverable": {
+  "title": "LYNQ Academy — Problem Map",
+  "filename": "LYNQ-Problem-Map.md",
+  "headerLines": [
+   "Phase 01 · Module {module} · Lesson {lesson}",
+   "Status: {status}",
+   "Created: {created}"
+  ],
+  "fieldIds": [
+   "clue",
+   "symptom",
+   "causea",
+   "causeb",
+   "checks",
+   "effects",
+   "links",
+   "nextcheck",
+   "support",
+   "assumption",
+   "evidence",
+   "constraint"
+  ],
+  "footer": "Local prototype export. No reviewer submission or business validation."
+ },
+ "sections": [
+  {
+   "id": "watch",
+   "label": "01 / WATCH",
+   "heading": "Look beyond the visible difficulty.",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "The planned explainer separates symptoms, possible causes and consequences without turning guesses into causal proof. Use the transcript or guide while the video is a placeholder."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "video-placeholder"
+       },
+       "children": [
+        {
+         "tag": "span",
+         "attrs": {
+          "class": "badge"
+         },
+         "children": [
+          "Video placeholder · media not produced"
+         ]
+        },
+        {
+         "tag": "h3",
+         "attrs": {},
+         "children": [
+          "Symptoms, Causes & Consequences"
+         ]
+        },
+        {
+         "tag": "p",
+         "attrs": {},
+         "children": [
+          "Planned: 2½-minute explainer + worksheet demo",
+          {
+           "tag": "br",
+           "attrs": {},
+           "children": []
+          },
+          "Symptom → Possible causes → Consequences → Next check"
+         ]
+        },
+        {
+         "tag": "small",
+         "attrs": {},
+         "children": [
+          "No playable video or generated media is attached."
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "storyboard",
+     "scenes": [
+      {
+       "title": "Start with a specific difficulty",
+       "visual": "Founder reviews one fictional journal clue; adult visitor asks venue staff for directions.",
+       "narration": "Your journal describes what happened, and your people map identifies whom to understand. Now look more closely at the problem. Separate the visible difficulty, the possible reasons behind it, and what may happen as a result. A useful map makes uncertainty clearer before you choose a solution."
+      },
+      {
+       "title": "Name the symptom",
+       "visual": "Editable symptom card: visitors ask which queue to join; natural venue process footage.",
+       "narration": "A symptom is the difficulty you can notice or describe. In our fictional event example, visitors ask which queue to join. That does not tell you why. Stay close to the observation or report, name the situation, and keep planned entries labeled as plans rather than facts."
+      },
+      {
+       "title": "Consider competing explanations",
+       "visual": "Two editable branches: unclear directions versus an unexpected queue change.",
+       "narration": "A cause is something that may contribute to the difficulty. Perhaps directions were unclear. Perhaps the queue location changed. These are different hypotheses, not proven facts. Consider at least two explanations, and ask what evidence would support or challenge each one. A convincing story is still only a story until you check it."
+      },
+      {
+       "title": "Trace the consequences",
+       "visual": "Editable possible downstream effects; staff helps a visitor without dramatic crowd distress.",
+       "narration": "Consequences are what happens after the difficulty. Asking staff may add effort or staff workload, but it may also resolve the issue quickly. Delays, missed activities or extra costs remain unknown unless you have evidence. Keep immediate and downstream effects separate, and do not invent numbers to make the problem sound important."
+      },
+      {
+       "title": "Check the links",
+       "visual": "Editable dotted hypothesis arrows and evidence questions, observer takes anonymous process notes.",
+       "narration": "A diagram can show a possible chain, but arrows do not prove that one thing caused another. Ask when the difficulty does not happen, what else could explain it, and what you could check safely. Repeatedly asking why can help you think, but it cannot establish a root cause by itself."
+      },
+      {
+       "title": "Build the problem map",
+       "visual": "Actual Lesson 08 worksheet recording with fictional labeled entries and a next-check card.",
+       "narration": "Create your Problem Map. Record the clue and source, symptom, two possible causes, evidence for and against them, consequences, tentative links, and next check. Use unknown where needed. Your goal is a clearer question and a responsible way to learn, not a proven diagnosis or a product decision."
+      }
+     ],
+     "sceneMeta": "Planned final scene: 25 seconds · narration and precise graphics added in post",
+     "summary": "Explore the six-scene storyboard placeholder"
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {
+        "class": "help"
+       },
+       "children": [
+        "Use an explainer with editable diagrams, documentary cutaways and a real worksheet demo. Generate short assets where supported, then assemble in an editor."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "videoPrompt",
+     "prompt": "Create a beginner-friendly educational explainer for LYNQ Venture Studio Academy, Module 1.2 Lesson 08: “Symptoms, Causes & Consequences.” Target final edit approximately 150 seconds, 16:9, 1080p. Combine documentary process shots, clean editable hypothesis-branch diagrams, and a genuine worksheet recording. Navy #0B2338, teal #087D79, mint #BCF2DF and white; contemporary Dubai venue/workspace; diverse adult cast; calm clear English narrator.\n\nTeach visible symptom versus possible cause versus consequence; competing explanations; evidence for/against each; immediate/downstream impacts; and a safe next check. Use a FICTIONAL venue queue example, labeled “Illustrative example.” Visitors asking which queue to join is the hypothetical symptom; unclear directions and changed queue location are alternative hypotheses. Added effort or staff workload are possible effects; no measured delay, loss, frequency or causal proof. No invented client, interviews, market metrics, medical framing or definitive root-cause diagnosis. Diagram arrows must be labeled tentative; a why-chain alone cannot prove causality.\n\nUse these six scenes and narration in order. Plan roughly 25 seconds per scene in the final edit, confirm by narrator read-through with natural holds. Record consistent narration separately. Generate short visual assets only in durations supported by the selected Gemini/Veo model/account, then assemble footage, editable diagrams, narration and captions in an editor. An eight-second shot plan is optional where supported, not a claim that one prompt produces the entire film.\n\nSCENE 1 — Start with a specific difficulty. Visual: Founder reviews one fictional journal clue; adult visitor asks venue staff for directions. Narration: “Your journal describes what happened, and your people map identifies whom to understand. Now look more closely at the problem. Separate the visible difficulty, the possible reasons behind it, and what may happen as a result. A useful map makes uncertainty clearer before you choose a solution.”\n\nSCENE 2 — Name the symptom. Visual: Editable symptom card: visitors ask which queue to join; natural venue process footage. Narration: “A symptom is the difficulty you can notice or describe. In our fictional event example, visitors ask which queue to join. That does not tell you why. Stay close to the observation or report, name the situation, and keep planned entries labeled as plans rather than facts.”\n\nSCENE 3 — Consider competing explanations. Visual: Two editable branches: unclear directions versus an unexpected queue change. Narration: “A cause is something that may contribute to the difficulty. Perhaps directions were unclear. Perhaps the queue location changed. These are different hypotheses, not proven facts. Consider at least two explanations, and ask what evidence would support or challenge each one. A convincing story is still only a story until you check it.”\n\nSCENE 4 — Trace the consequences. Visual: Editable possible downstream effects; staff helps a visitor without dramatic crowd distress. Narration: “Consequences are what happens after the difficulty. Asking staff may add effort or staff workload, but it may also resolve the issue quickly. Delays, missed activities or extra costs remain unknown unless you have evidence. Keep immediate and downstream effects separate, and do not invent numbers to make the problem sound important.”\n\nSCENE 5 — Check the links. Visual: Editable dotted hypothesis arrows and evidence questions, observer takes anonymous process notes. Narration: “A diagram can show a possible chain, but arrows do not prove that one thing caused another. Ask when the difficulty does not happen, what else could explain it, and what you could check safely. Repeatedly asking why can help you think, but it cannot establish a root cause by itself.”\n\nSCENE 6 — Build the problem map. Visual: Actual Lesson 08 worksheet recording with fictional labeled entries and a next-check card. Narration: “Create your Problem Map. Record the clue and source, symptom, two possible causes, evidence for and against them, consequences, tentative links, and next check. Use unknown where needed. Your goal is a clearer question and a responsible way to learn, not a proven diagnosis or a product decision.”\n\nFirst return storyboard, shot prompts and edit timings. Generated footage must have no visible text, logo, captions, watermark, speaking presenter or fabricated product UI. Use the same approved observer reference/wardrobe across scenes. Add exact LYNQ graphics/text in post as editable elements. Suggested diagrams: Symptom / Possible cause / Consequence; Hypothesis A / Hypothesis B; Supports / Challenges / Unknown; dashed “to check” arrows; Next question → Appropriate check. Do not use dramatic blame imagery or show unsafe experiments.\n\nScene 6 uses an actual approved Lesson 08 screen recording with fictional data and evidence labels; never generate the UI or show private research details. Keep observations separate from assumptions. End card added in post: “Map the uncertainty. Check the explanation.”\n\nHuman-produced deliverables: H.264 1920×1080 MP4, editable project/diagrams, voice track, thumbnail, timed English VTT/SRT and transcript, reference rights/generation record. Separately native-reviewed Arabic narration/captions and RTL diagrams; do not auto-mirror English UI. Review causality wording, unknowns, privacy, mobile readability, narration pace, audio intelligibility and brand before publishing. No video is generated by the prototype.",
+     "filename": "LYNQ-Lesson-08-Gemini-Video-Prompt.md",
+     "title": "# LYNQ Lesson 08 — Gemini video prompt",
+     "summary": "Gemini video prompt — ready to copy"
+    },
+    {
+     "type": "transcript",
+     "scenes": [
+      {
+       "title": "Start with a specific difficulty",
+       "visual": "Founder reviews one fictional journal clue; adult visitor asks venue staff for directions.",
+       "narration": "Your journal describes what happened, and your people map identifies whom to understand. Now look more closely at the problem. Separate the visible difficulty, the possible reasons behind it, and what may happen as a result. A useful map makes uncertainty clearer before you choose a solution."
+      },
+      {
+       "title": "Name the symptom",
+       "visual": "Editable symptom card: visitors ask which queue to join; natural venue process footage.",
+       "narration": "A symptom is the difficulty you can notice or describe. In our fictional event example, visitors ask which queue to join. That does not tell you why. Stay close to the observation or report, name the situation, and keep planned entries labeled as plans rather than facts."
+      },
+      {
+       "title": "Consider competing explanations",
+       "visual": "Two editable branches: unclear directions versus an unexpected queue change.",
+       "narration": "A cause is something that may contribute to the difficulty. Perhaps directions were unclear. Perhaps the queue location changed. These are different hypotheses, not proven facts. Consider at least two explanations, and ask what evidence would support or challenge each one. A convincing story is still only a story until you check it."
+      },
+      {
+       "title": "Trace the consequences",
+       "visual": "Editable possible downstream effects; staff helps a visitor without dramatic crowd distress.",
+       "narration": "Consequences are what happens after the difficulty. Asking staff may add effort or staff workload, but it may also resolve the issue quickly. Delays, missed activities or extra costs remain unknown unless you have evidence. Keep immediate and downstream effects separate, and do not invent numbers to make the problem sound important."
+      },
+      {
+       "title": "Check the links",
+       "visual": "Editable dotted hypothesis arrows and evidence questions, observer takes anonymous process notes.",
+       "narration": "A diagram can show a possible chain, but arrows do not prove that one thing caused another. Ask when the difficulty does not happen, what else could explain it, and what you could check safely. Repeatedly asking why can help you think, but it cannot establish a root cause by itself."
+      },
+      {
+       "title": "Build the problem map",
+       "visual": "Actual Lesson 08 worksheet recording with fictional labeled entries and a next-check card.",
+       "narration": "Create your Problem Map. Record the clue and source, symptom, two possible causes, evidence for and against them, consequences, tentative links, and next check. Use unknown where needed. Your goal is a clearer question and a responsible way to learn, not a proven diagnosis or a product decision."
+      }
+     ],
+     "summary": "Read the full narration / transcript"
+    },
+    {
+     "type": "studied",
+     "label": "I read the transcript or reviewed the learning guide. Video is not required."
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "label": "02 / LEARN",
+   "heading": "Different explanations lead to different next questions.",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Use a clue from Lesson 06 and a group from Lesson 07. Now separate three things: the difficulty people experience, possible explanations, and effects that follow. This helps you investigate before committing to a solution."
+       ]
+      },
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "actions"
+       },
+       "children": [
+        {
+         "tag": "lesson-link",
+         "attrs": {
+          "lesson": "6",
+          "class": "btn secondary"
+         },
+         "children": [
+          "Review discovery journal"
+         ]
+        },
+        {
+         "tag": "lesson-link",
+         "attrs": {
+          "lesson": "7",
+          "class": "btn secondary"
+         },
+         "children": [
+          "Review affected people"
+         ]
+        }
+       ]
+      },
+      {
+       "tag": "h3",
+       "attrs": {},
+       "children": [
+        "By the end, you can"
+       ]
+      },
+      {
+       "tag": "ul",
+       "attrs": {},
+       "children": [
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Describe a symptom without assuming its cause."
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Write at least two competing cause hypotheses."
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Distinguish immediate and downstream consequences."
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Identify evidence that supports or challenges a possible link."
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Choose one responsible next check."
+         ]
+        }
+       ]
+      },
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "grid2"
+       },
+       "children": [
+        {
+         "tag": "div",
+         "attrs": {
+          "class": "note"
+         },
+         "children": [
+          {
+           "tag": "h3",
+           "attrs": {},
+           "children": [
+            "Symptom"
+           ]
+          },
+          {
+           "tag": "p",
+           "attrs": {},
+           "children": [
+            "The visible or reported difficulty: what happens, to whom, and in what situation?"
+           ]
+          },
+          {
+           "tag": "small",
+           "attrs": {},
+           "children": [
+            "Example: visitors ask which queue to join."
+           ]
+          }
+         ]
+        },
+        {
+         "tag": "div",
+         "attrs": {
+          "class": "note"
+         },
+         "children": [
+          {
+           "tag": "h3",
+           "attrs": {},
+           "children": [
+            "Possible cause"
+           ]
+          },
+          {
+           "tag": "p",
+           "attrs": {},
+           "children": [
+            "Something that may contribute to the difficulty. There may be several causes, or an explanation you have not considered."
+           ]
+          },
+          {
+           "tag": "small",
+           "attrs": {},
+           "children": [
+            "Example: unclear directions, or a queue that changed location."
+           ]
+          }
+         ]
+        },
+        {
+         "tag": "div",
+         "attrs": {
+          "class": "note"
+         },
+         "children": [
+          {
+           "tag": "h3",
+           "attrs": {},
+           "children": [
+            "Consequence"
+           ]
+          },
+          {
+           "tag": "p",
+           "attrs": {},
+           "children": [
+            "What happens after the difficulty. An immediate extra step may lead to further effects, but those links need checking."
+           ]
+          },
+          {
+           "tag": "small",
+           "attrs": {},
+           "children": [
+            "Example: asking staff adds a step; delay is still unknown."
+           ]
+          }
+         ]
+        },
+        {
+         "tag": "div",
+         "attrs": {
+          "class": "note"
+         },
+         "children": [
+          {
+           "tag": "h3",
+           "attrs": {},
+           "children": [
+            "Evidence check"
+           ]
+          },
+          {
+           "tag": "p",
+           "attrs": {},
+           "children": [
+            "What would help you compare explanations, including what would make your preferred one less likely?"
+           ]
+          },
+          {
+           "tag": "small",
+           "attrs": {},
+           "children": [
+            "Example: compare the information available with the actual queue location."
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "tag": "h3",
+       "attrs": {},
+       "children": [
+        "Follow the illustrative example"
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "Fictional symptom:"
+         ]
+        },
+        " two first-time visitors ask staff which queue to join.",
+        {
+         "tag": "br",
+         "attrs": {},
+         "children": []
+        },
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "Hypothesis A:"
+         ]
+        },
+        " directions were unclear.",
+        {
+         "tag": "br",
+         "attrs": {},
+         "children": []
+        },
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "Hypothesis B:"
+         ]
+        },
+        " the queue location changed after directions were prepared.",
+        {
+         "tag": "br",
+         "attrs": {},
+         "children": []
+        },
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "Known in this fictional scene:"
+         ]
+        },
+        " visitors asked for help.",
+        {
+         "tag": "br",
+         "attrs": {},
+         "children": []
+        },
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "Unknown:"
+         ]
+        },
+        " what signs they noticed, why they were unsure, delay, frequency and severity."
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Different causes suggest different checks. You might inspect the available directions, ask about the recent experience, or establish whether the queue moved. That comes before deciding that a new app is the answer."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "practice",
+     "legend": "Which statement is a cause hypothesis?",
+     "prompt": "In this fictional case, choose a possible explanation rather than a symptom or consequence.",
+     "options": [
+      {
+       "label": "Visitors asked staff which queue to join",
+       "feedback": "That describes the visible event or a possible effect. A cause hypothesis proposes why the difficulty happened, and still needs checking."
+      },
+      {
+       "label": "The queue location may have changed",
+       "feedback": "Correct: a changed queue location is a possible cause to investigate. It is not established by observing visitors ask for directions."
+      },
+      {
+       "label": "Staff spent time giving directions",
+       "feedback": "That describes the visible event or a possible effect. A cause hypothesis proposes why the difficulty happened, and still needs checking."
+      }
+     ]
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {
+        "class": "help"
+       },
+       "children": [
+        "Optional practice. The possible cause is unverified."
+       ]
+      },
+      {
+       "tag": "h3",
+       "attrs": {},
+       "children": [
+        "Map effects without exaggerating them"
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "An immediate effect could be extra effort or an additional staff interaction. A downstream effect might be missing an activity, but that cannot be assumed. The workaround may resolve the issue quickly. Record “unknown” for delay, cost or frequency when you do not have evidence."
+       ]
+      },
+      {
+       "tag": "h3",
+       "attrs": {},
+       "children": [
+        "Ask why, then check"
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "A “why” question can reveal possible explanations. Asking several times can generate a chain of hypotheses, but it does not prove a root cause. At every step ask: “How do I know?” and “What else could explain this?”"
+       ]
+      },
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "note"
+       },
+       "children": [
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "Arrows show a proposed link, not proof."
+         ]
+        },
+        " Two things happening together does not establish that one caused the other. Consider cases where the symptom does not occur and evidence that contradicts your first explanation."
+       ]
+      },
+      {
+       "tag": "h3",
+       "attrs": {},
+       "children": [
+        "Choose the smallest useful investigation"
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Select a check that helps compare causes: review available information, observe an appropriate process, or ask a neutral question about a recent experience. Follow access rules and seek permission where needed. Do not change a live process or expose private information simply to test a hypothesis."
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "If your original clue is only planned, label the whole map exploratory. You can plan cause questions without inventing observations. “Unknown; next step is to observe” is a valid answer."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "build",
+   "label": "03 / BUILD",
+   "heading": "Your Problem Map",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Map one symptom, two possible explanations and their consequences. Keep evidence and missing information explicit. The map should guide investigation, not claim a root cause or prescribe a product."
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {
+        "class": "help"
+       },
+       "children": [
+        "Arabic entries use automatic text direction. Use role labels, avoid private identifiers, and label planned work honestly. Lesson 08 saves separately."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "saveStatus"
+    },
+    {
+     "type": "fields",
+     "ids": [
+      "clue",
+      "symptom",
+      "causea",
+      "causeb",
+      "checks",
+      "effects",
+      "links",
+      "nextcheck",
+      "support"
+     ]
+    },
+    {
+     "type": "extension",
+     "id": "preview",
+     "props": {
+      "label": "Preview my problem map",
+      "kind": "lines",
+      "joiner": "\n\n",
+      "lines": [
+       {
+        "id": "clue",
+        "label": "Clue / group / source"
+       },
+       {
+        "id": "symptom",
+        "label": "Symptom"
+       },
+       {
+        "id": "causea",
+        "label": "Possible cause A — unverified"
+       },
+       {
+        "id": "causeb",
+        "label": "Possible cause B — unverified"
+       },
+       {
+        "id": "checks",
+        "label": "Supports / challenges / unknowns"
+       },
+       {
+        "id": "effects",
+        "label": "Consequences and workaround"
+       },
+       {
+        "id": "links",
+        "label": "Tentative links — not proof"
+       },
+       {
+        "id": "nextcheck",
+        "label": "Next appropriate check"
+       }
+      ],
+      "footer": "This map organises hypotheses. It does not establish causality or commercial demand."
+     }
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "note"
+       },
+       "children": [
+        "Cause links are learner hypotheses, not verified causal findings. Local storage is plaintext; download a copy before changing browsers."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "extension",
+     "id": "download",
+     "props": {
+      "label": "Download Problem Map"
+     }
+    },
+    {
+     "type": "reset",
+     "label": "Clear local draft"
+    }
+   ]
+  },
+  {
+   "id": "coach",
+   "label": "04 / ASK AI",
+   "heading": "Your thinking partner",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "span",
+       "attrs": {
+        "class": "badge"
+       },
+       "children": [
+        "Simulated Coach · no AI connection"
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Try four scripted guidance modes. The preview reads your current worksheet locally; it does not send information anywhere."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "extension",
+     "id": "coach",
+     "props": {
+      "modes": [
+       {
+        "id": "teach",
+        "label": "Teach me"
+       },
+       {
+        "id": "guide",
+        "label": "Guide me"
+       },
+       {
+        "id": "review",
+        "label": "Review my work"
+       },
+       {
+        "id": "challenge",
+        "label": "Challenge my idea"
+       }
+      ],
+      "replies": {
+       "teach": "A symptom is the difficulty people experience. A cause may explain it. A consequence follows it. Keep causes as hypotheses until checked; multiple causes or another explanation may exist.",
+       "guide": "Use one clue and affected group. Describe the symptom, two possible causes, evidence for/against each, consequences, tentative links and a small appropriate next check. Unknown is better than invented certainty.",
+       "review": "Problem Map check: {missing} required fields still empty. All eight map fields are present. Check that causes are hypotheses, alternatives differ, unknown effects remain unknown, and the next check could change your view.\nThis scripted check counts fields only. It cannot establish causality, prove a root cause or verify impact.",
+       "challenge": "What would contradict the first cause? Could the symptom occur without it? Could a different cause explain the same observation? Are consequences measured or only assumed? Choose a safe check instead of a convincing story.",
+       "reviewIncomplete": "Problem Map check: {missing} required fields still empty. Complete the clue, symptom, two cause hypotheses, evidence checks, consequences, tentative links and next check.\nThis scripted check counts fields only. It cannot establish causality, prove a root cause or verify impact."
+      },
+      "heading": "SCRIPTED DEMO / ",
+      "questionNote": "Your question was entered locally. This preview does not generate a custom answer.",
+      "questionLabel": "Your question (optional)",
+      "placeholder": "What should I focus on first?",
+      "maxLength": 500,
+      "submitLabel": "Show simulated guidance"
+     }
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {
+        "class": "help"
+       },
+       "children": [
+        "Responses are predefined for this lesson, not generated answers to your question. No customer demand or venture readiness is verified."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "challenge",
+   "label": "05 / CHALLENGE",
+   "heading": "Try to disprove the neat story.",
+   "blocks": [
+    {
+     "type": "fields",
+     "ids": [
+      "assumption",
+      "evidence",
+      "constraint"
+     ]
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "details",
+       "attrs": {},
+       "children": [
+        {
+         "tag": "summary",
+         "attrs": {},
+         "children": [
+          "More questions to discuss"
+         ]
+        },
+        {
+         "tag": "ul",
+         "attrs": {},
+         "children": [
+          {
+           "tag": "li",
+           "attrs": {},
+           "children": [
+            "Is this a symptom, a possible cause, or an effect?"
+           ]
+          },
+          {
+           "tag": "li",
+           "attrs": {},
+           "children": [
+            "Could more than one cause contribute?"
+           ]
+          },
+          {
+           "tag": "li",
+           "attrs": {},
+           "children": [
+            "Does the workaround resolve the issue adequately?"
+           ]
+          },
+          {
+           "tag": "li",
+           "attrs": {},
+           "children": [
+            "Have you assumed severe consequences without evidence?"
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "quiz",
+   "label": "06 / CHECK YOUR UNDERSTANDING",
+   "heading": "A quick knowledge check",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Answer all three. You can retry; all three correct are required for local completion."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "quiz"
+    }
+   ]
+  },
+  {
+   "id": "finish",
+   "label": "07 / DELIVER & PROGRESS",
+   "heading": "Your deliverable: a Problem Map.",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Your clue, symptom, competing causes, evidence limits, consequences and next check form a starting problem map. Download it. Local self-completion does not establish causality, severity or commercial demand."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "checklist"
+    },
+    {
+     "type": "honest",
+     "label": "I separated symptoms, cause hypotheses and consequences, kept unknowns visible, and considered an alternative explanation."
+    },
+    {
+     "type": "complete",
+     "label": "Mark Lesson 08 complete locally",
+     "completedLabel": "Lesson 08 self-completed locally",
+     "completedNotice": "Lesson 08 self-completed locally. Download your Problem Map. No reviewer approval or venture validation is recorded.",
+     "incompleteNotice": "Complete the remaining requirements above before marking this lesson complete."
+    },
+    {
+     "type": "extension",
+     "id": "moduleNote",
+     "props": {
+      "parts": [
+       {
+        "nodes": [
+         {
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+           "Module 1.2 · Finding Problems Worth Solving"
+          ]
+         }
+        ]
+       },
+       {
+        "status": "1.2",
+        "complete": "All five lessons self-completed locally. Module 1.2 learning pack complete; no validation, certification or approval is implied.",
+        "incomplete": "{count} / 5 lessons self-completed locally. Complete each separately to finish this learning module."
+       },
+       {
+        "nodes": [
+         {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+           "Next you will examine current workarounds and alternatives before prioritising a problem."
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "type": "next"
+    }
+   ]
+  }
+ ],
+ "nav": [
+  {
+   "id": "watch",
+   "label": "Watch"
+  },
+  {
+   "id": "learn",
+   "label": "Learn"
+  },
+  {
+   "id": "build",
+   "label": "Build"
+  },
+  {
+   "id": "coach",
+   "label": "Ask AI"
+  },
+  {
+   "id": "challenge",
+   "label": "Challenge"
+  },
+  {
+   "id": "quiz",
+   "label": "Knowledge check"
+  },
+  {
+   "id": "finish",
+   "label": "Deliver"
+  }
+ ]
+}

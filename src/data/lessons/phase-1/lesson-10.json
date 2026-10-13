@@ -1,0 +1,903 @@
+{
+ "number": 10,
+ "phase": 1,
+ "module": "1.2",
+ "title": "Choose a Problem to Explore",
+ "hero": {
+  "eyebrow": "Module 1.2 · Finding Problems Worth Solving · Lesson 10",
+  "title": "Choose a Problem to Explore.",
+  "intro": "Compare your problem candidates, choose one provisional focus, and plan a small evidence-gathering step. Your deliverable is a Problem Selection Brief.",
+  "badges": [
+   "Beginner friendly"
+  ],
+  "meta": "35–45 min · Recommended: Lessons 06–09"
+ },
+ "fields": [
+  {
+   "id": "candidatea",
+   "label": "Candidate A: person, task, context and evidence status",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Keep facts, assumptions and unknowns separate.",
+   "maxLength": 2000
+  },
+  {
+   "id": "candidateb",
+   "label": "Candidate B: person, task, context and evidence status",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Keep facts, assumptions and unknowns separate.",
+   "maxLength": 2000
+  },
+  {
+   "id": "candidatec",
+   "label": "Candidate C or option still to find, with a search plan",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Keep facts, assumptions and unknowns separate.",
+   "maxLength": 2000
+  },
+  {
+   "id": "comparison",
+   "label": "Compare importance, evidence, ethical access and feasibility for each",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Keep facts, assumptions and unknowns separate.",
+   "maxLength": 2000
+  },
+  {
+   "id": "selected",
+   "label": "Provisional focus: a specific problem, reasons and strongest reason against it",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Keep facts, assumptions and unknowns separate.",
+   "maxLength": 2000
+  },
+  {
+   "id": "parked",
+   "label": "Why are the other candidates parked? What remains unknown?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Keep facts, assumptions and unknowns separate.",
+   "maxLength": 2000
+  },
+  {
+   "id": "nextstep",
+   "label": "Next small check: question, timing, access/permission and realistic resources",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Keep facts, assumptions and unknowns separate.",
+   "maxLength": 2000
+  },
+  {
+   "id": "reconsider",
+   "label": "What observable signal would support, weaken or change your choice?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Keep facts, assumptions and unknowns separate.",
+   "maxLength": 2000
+  },
+  {
+   "id": "support",
+   "label": "Optional support or access constraint",
+   "kind": "textarea",
+   "required": false,
+   "maxLength": 2000
+  },
+  {
+   "id": "assumption",
+   "label": "Are you choosing a familiar solution rather than a meaningful problem?",
+   "kind": "textarea",
+   "required": true,
+   "maxLength": 2000
+  },
+  {
+   "id": "evidence",
+   "label": "What would make another candidate a better next learning focus?",
+   "kind": "textarea",
+   "required": true,
+   "maxLength": 2000
+  },
+  {
+   "id": "constraint",
+   "label": "What permission, time or access limit could prevent your next check?",
+   "kind": "textarea",
+   "required": true,
+   "maxLength": 2000
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "What does selecting a problem establish?",
+   "options": [
+    "A provisional focus for further learning",
+    "Proven demand",
+    "A guaranteed business"
+   ],
+   "answer": 0,
+   "explanation": "Selection narrows your learning focus; validation requires further evidence."
+  },
+  {
+   "prompt": "How should missing evidence affect comparison?",
+   "options": [
+    "Invent a score",
+    "Label it unknown and plan a check",
+    "Ignore it"
+   ],
+   "answer": 1,
+   "explanation": "Unknown evidence remains unknown; avoid false precision."
+  },
+  {
+   "prompt": "When should you reconsider your choice?",
+   "options": [
+    "Never",
+    "Only after building an app",
+    "When new evidence weakens the reasons for your focus"
+   ],
+   "answer": 2,
+   "explanation": "Revisit the choice when evidence or feasibility changes."
+  }
+ ],
+ "checklist": [
+  {
+   "kind": "studied",
+   "label": "Transcript or learning guide reviewed"
+  },
+  {
+   "kind": "fields",
+   "label": "Problem Selection Brief fields complete",
+   "ids": [
+    "candidatea",
+    "candidateb",
+    "candidatec",
+    "comparison",
+    "selected",
+    "parked",
+    "nextstep",
+    "reconsider"
+   ]
+  },
+  {
+   "kind": "fields",
+   "label": "Three red-team reflections complete",
+   "ids": [
+    "assumption",
+    "evidence",
+    "constraint"
+   ]
+  },
+  {
+   "kind": "quiz",
+   "label": "Knowledge check: 3 / 3 correct"
+  },
+  {
+   "kind": "honest",
+   "label": "Final self-review confirmed"
+  }
+ ],
+ "deliverable": {
+  "title": "LYNQ Academy — Problem Selection Brief",
+  "filename": "LYNQ-Problem-Selection-Brief.md",
+  "headerLines": [
+   "Phase 01 · Module {module} · Lesson {lesson}",
+   "Status: {status}",
+   "Created: {created}"
+  ],
+  "fieldIds": [
+   "candidatea",
+   "candidateb",
+   "candidatec",
+   "comparison",
+   "selected",
+   "parked",
+   "nextstep",
+   "reconsider",
+   "support",
+   "assumption",
+   "evidence",
+   "constraint"
+  ],
+  "footer": "Local prototype export. No reviewer submission or business validation."
+ },
+ "sections": [
+  {
+   "id": "watch",
+   "label": "01 / WATCH",
+   "heading": "Which problem should you explore next?",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "The planned explainer compares candidate problems and shows how to make a provisional choice without claiming validation. Use the transcript or guide while the video is a placeholder."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "video-placeholder"
+       },
+       "children": [
+        {
+         "tag": "span",
+         "attrs": {
+          "class": "badge"
+         },
+         "children": [
+          "Video placeholder · media not produced"
+         ]
+        },
+        {
+         "tag": "h3",
+         "attrs": {},
+         "children": [
+          "Choose a Problem to Explore"
+         ]
+        },
+        {
+         "tag": "p",
+         "attrs": {},
+         "children": [
+          "Planned: 2½-minute explainer + worksheet demo",
+          {
+           "tag": "br",
+           "attrs": {},
+           "children": []
+          },
+          "Candidates → Evidence → Provisional choice → Next check"
+         ]
+        },
+        {
+         "tag": "small",
+         "attrs": {},
+         "children": [
+          "No playable video or generated media is attached."
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "storyboard",
+     "scenes": [
+      {
+       "title": "Choosing is a learning decision",
+       "visual": "Founder reviews three anonymous problem cards.",
+       "narration": "You have noticed problems, explored the people affected, considered possible causes, and looked at alternatives. Now choose one problem to explore further. This is a provisional learning decision. It does not prove demand, and you can change your focus when better evidence arrives."
+      },
+      {
+       "title": "Compare specific candidates",
+       "visual": "Three editable cards share the same comparison headings.",
+       "narration": "Describe each candidate as a person, a task and a situation. Compare why the difficulty may matter, what evidence you have, how you can reach people ethically, and whether a small next check is feasible. Keep unknowns visible. Do not choose only because an app would be exciting to build."
+      },
+      {
+       "title": "Evidence before enthusiasm",
+       "visual": "Observer distinguishes planned notes from observed information.",
+       "narration": "A vivid story is not the same as repeated evidence. Separate observations, reports, interpretations and planned research. Consider what existing approaches do well. If every candidate is still a hypothesis, say so. You can choose the most useful learning opportunity without inventing certainty."
+      },
+      {
+       "title": "Choose with reasons and tradeoffs",
+       "visual": "Founder writes a provisional focus and a reconsideration trigger.",
+       "narration": "Choose one candidate and explain your reasons. Record the strongest reason against it and why other candidates are parked. Avoid automatic scores that turn guesses into precision. If none is ready, narrow a candidate and plan a preliminary check. Record what would make you change your choice."
+      },
+      {
+       "title": "Make the next check practical",
+       "visual": "Calendar and anonymous consent-based research plan.",
+       "narration": "Choose one small next step: observe a permitted process or ask an adult about a recent experience. Name the setting, timing, permission needed and the question you want to answer. Set a signal that would support or weaken your focus. Do not collect private details you do not need or promise a solution."
+      },
+      {
+       "title": "Close the discovery module",
+       "visual": "Actual worksheet recording and five-deliverable checklist.",
+       "narration": "Create your Problem Selection Brief and review your journal, affected-people map, problem map and alternatives log. These five deliverables close Module 1.2 when each lesson is locally complete. This records learning, not a validated market. Next, develop a first customer snapshot with assumptions clearly labeled."
+      }
+     ],
+     "sceneMeta": "Planned final scene: 25 seconds · narration and precise graphics added in post",
+     "summary": "Explore the six-scene storyboard placeholder"
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {
+        "class": "help"
+       },
+       "children": [
+        "Use an explainer with editable diagrams, documentary cutaways and a real worksheet demo. Generate short assets where supported, then assemble in an editor."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "videoPrompt",
+     "prompt": "Create a beginner-friendly LYNQ Academy explainer and worksheet demo: Module 1.2 Lesson 10, Choose a Problem to Explore. Editorial target 150 seconds, 16:9 1080p. Navy #0B2338, teal #087D79, mint #BCF2DF and white. Diverse adult founder in a contemporary Dubai workspace. Warm clear English narration. Use fictional anonymous event-process examples. Teach provisional selection, fair comparison, evidence status, ethical access, feasibility, tradeoffs and a reconsideration trigger. No fabricated traction, market sizes, customer quotes, automatic winners or claims of validation.\n\nSCENE 1: Choosing is a learning decision\nVisual placeholder: Founder reviews three anonymous problem cards.\nNarration: You have noticed problems, explored the people affected, considered possible causes, and looked at alternatives. Now choose one problem to explore further. This is a provisional learning decision. It does not prove demand, and you can change your focus when better evidence arrives.\n\nSCENE 2: Compare specific candidates\nVisual placeholder: Three editable cards share the same comparison headings.\nNarration: Describe each candidate as a person, a task and a situation. Compare why the difficulty may matter, what evidence you have, how you can reach people ethically, and whether a small next check is feasible. Keep unknowns visible. Do not choose only because an app would be exciting to build.\n\nSCENE 3: Evidence before enthusiasm\nVisual placeholder: Observer distinguishes planned notes from observed information.\nNarration: A vivid story is not the same as repeated evidence. Separate observations, reports, interpretations and planned research. Consider what existing approaches do well. If every candidate is still a hypothesis, say so. You can choose the most useful learning opportunity without inventing certainty.\n\nSCENE 4: Choose with reasons and tradeoffs\nVisual placeholder: Founder writes a provisional focus and a reconsideration trigger.\nNarration: Choose one candidate and explain your reasons. Record the strongest reason against it and why other candidates are parked. Avoid automatic scores that turn guesses into precision. If none is ready, narrow a candidate and plan a preliminary check. Record what would make you change your choice.\n\nSCENE 5: Make the next check practical\nVisual placeholder: Calendar and anonymous consent-based research plan.\nNarration: Choose one small next step: observe a permitted process or ask an adult about a recent experience. Name the setting, timing, permission needed and the question you want to answer. Set a signal that would support or weaken your focus. Do not collect private details you do not need or promise a solution.\n\nSCENE 6: Close the discovery module\nVisual placeholder: Actual worksheet recording and five-deliverable checklist.\nNarration: Create your Problem Selection Brief and review your journal, affected-people map, problem map and alternatives log. These five deliverables close Module 1.2 when each lesson is locally complete. This records learning, not a validated market. Next, develop a first customer snapshot with assumptions clearly labeled.\n\nFirst return a storyboard, timings and individual shot prompts. Generate short shots only in durations supported by the selected Gemini/Veo account. Assemble with one consistent separately recorded narration track. No generated text, logos, captions or fabricated UI: add exact branding, comparison cards and subtitles in post. Screen-record the approved Lesson 10 worksheet with fictional source-labeled entries. Suggested post graphics: Person / Task / Context; Evidence / Access / Importance / Feasibility; Unknown stays unknown; Provisional focus; What would change my mind? Deliver editable project, H.264 MP4, VTT/SRT captions, transcript, thumbnail and media rights/provenance. Native-reviewed Arabic version requires separate narration and RTL graphics. Review fairness, permissions, brand, audio and mobile readability before publishing. Prototype contains no generated video.",
+     "filename": "LYNQ-Lesson-10-Gemini-Video-Prompt.md",
+     "title": "# LYNQ Lesson 10 — Gemini video prompt",
+     "summary": "Gemini video prompt — ready to copy"
+    },
+    {
+     "type": "transcript",
+     "scenes": [
+      {
+       "title": "Choosing is a learning decision",
+       "visual": "Founder reviews three anonymous problem cards.",
+       "narration": "You have noticed problems, explored the people affected, considered possible causes, and looked at alternatives. Now choose one problem to explore further. This is a provisional learning decision. It does not prove demand, and you can change your focus when better evidence arrives."
+      },
+      {
+       "title": "Compare specific candidates",
+       "visual": "Three editable cards share the same comparison headings.",
+       "narration": "Describe each candidate as a person, a task and a situation. Compare why the difficulty may matter, what evidence you have, how you can reach people ethically, and whether a small next check is feasible. Keep unknowns visible. Do not choose only because an app would be exciting to build."
+      },
+      {
+       "title": "Evidence before enthusiasm",
+       "visual": "Observer distinguishes planned notes from observed information.",
+       "narration": "A vivid story is not the same as repeated evidence. Separate observations, reports, interpretations and planned research. Consider what existing approaches do well. If every candidate is still a hypothesis, say so. You can choose the most useful learning opportunity without inventing certainty."
+      },
+      {
+       "title": "Choose with reasons and tradeoffs",
+       "visual": "Founder writes a provisional focus and a reconsideration trigger.",
+       "narration": "Choose one candidate and explain your reasons. Record the strongest reason against it and why other candidates are parked. Avoid automatic scores that turn guesses into precision. If none is ready, narrow a candidate and plan a preliminary check. Record what would make you change your choice."
+      },
+      {
+       "title": "Make the next check practical",
+       "visual": "Calendar and anonymous consent-based research plan.",
+       "narration": "Choose one small next step: observe a permitted process or ask an adult about a recent experience. Name the setting, timing, permission needed and the question you want to answer. Set a signal that would support or weaken your focus. Do not collect private details you do not need or promise a solution."
+      },
+      {
+       "title": "Close the discovery module",
+       "visual": "Actual worksheet recording and five-deliverable checklist.",
+       "narration": "Create your Problem Selection Brief and review your journal, affected-people map, problem map and alternatives log. These five deliverables close Module 1.2 when each lesson is locally complete. This records learning, not a validated market. Next, develop a first customer snapshot with assumptions clearly labeled."
+      }
+     ],
+     "summary": "Read the full narration / transcript"
+    },
+    {
+     "type": "studied",
+     "label": "I read the transcript or reviewed the learning guide. Video is not required."
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "label": "02 / LEARN",
+   "heading": "Choose where to learn next.",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "A ",
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "problem candidate"
+         ]
+        },
+        " is a specific difficulty experienced by a particular person doing a task in a context. Your ",
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "provisional focus"
+         ]
+        },
+        " is the candidate you will explore next, not a permanent commitment or a validated business."
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Compare candidates using the same questions: How important might this be? What evidence supports it? Can you reach the people ethically? Can you investigate it with your available time and skills? What works well about their current approach?"
+       ]
+      },
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "note"
+       },
+       "children": [
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "Illustrative example:"
+         ]
+        },
+        " an event founder compares finding registration, reconnecting after an event and locating session information. Each is only a candidate. Access to a permitted observation may make one easier to investigate; it does not prove it is the biggest market."
+       ]
+      },
+      {
+       "tag": "h3",
+       "attrs": {},
+       "children": [
+        "A fair selection process"
+       ]
+      },
+      {
+       "tag": "ol",
+       "attrs": {},
+       "children": [
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Describe three candidates or clearly label a candidate still to find."
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Use the same criteria; keep missing evidence unknown."
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Choose a provisional focus and record a reason against it."
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Park the others with a reason; do not discard their evidence."
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Set a small next check and a trigger for reconsidering."
+         ]
+        }
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "If none is sufficiently clear, choose a narrower research focus and explicitly record the uncertainty. You do not need to manufacture a winner."
+       ]
+      },
+      {
+       "tag": "h3",
+       "attrs": {},
+       "children": [
+        "Review your Module 1.2 work"
+       ]
+      },
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "actions"
+       },
+       "children": [
+        {
+         "tag": "lesson-link",
+         "attrs": {
+          "lesson": "6",
+          "class": "btn secondary"
+         },
+         "children": [
+          "Review discovery journal"
+         ]
+        },
+        {
+         "tag": "lesson-link",
+         "attrs": {
+          "lesson": "7",
+          "class": "btn secondary"
+         },
+         "children": [
+          "Review affected people"
+         ]
+        },
+        {
+         "tag": "lesson-link",
+         "attrs": {
+          "lesson": "8",
+          "class": "btn secondary"
+         },
+         "children": [
+          "Review problem map"
+         ]
+        },
+        {
+         "tag": "lesson-link",
+         "attrs": {
+          "lesson": "9",
+          "class": "btn secondary"
+         },
+         "children": [
+          "Review alternatives log"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "practice",
+     "legend": "Practice: which reason is useful?",
+     "prompt": "",
+     "options": [
+      {
+       "label": "The app would look impressive",
+       "feedback": "Look beyond enthusiasm. Choose a feasible learning focus using honest evidence and ethical access."
+      },
+      {
+       "label": "I can ethically check a specific uncertainty this week",
+       "feedback": "Useful reason: ethical access to check a specific uncertainty makes learning feasible; it does not prove demand."
+      },
+      {
+       "label": "One friend says everyone will buy it",
+       "feedback": "Look beyond enthusiasm. Choose a feasible learning focus using honest evidence and ethical access."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "build",
+   "label": "03 / BUILD",
+   "heading": "Your Problem Selection Brief.",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Use evidence from your earlier deliverables. Unknowns and planned research are acceptable when labeled honestly. No score or winner is generated automatically."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "saveStatus"
+    },
+    {
+     "type": "fields",
+     "ids": [
+      "candidatea",
+      "candidateb",
+      "candidatec",
+      "comparison",
+      "selected",
+      "parked",
+      "nextstep",
+      "reconsider",
+      "support"
+     ]
+    },
+    {
+     "type": "extension",
+     "id": "preview",
+     "props": {
+      "label": "Preview my selection brief",
+      "kind": "lines",
+      "joiner": "\n\n",
+      "lines": [
+       {
+        "id": "candidatea",
+        "label": "Candidate A: person, task, context and evidence status *"
+       },
+       {
+        "id": "candidateb",
+        "label": "Candidate B: person, task, context and evidence status *"
+       },
+       {
+        "id": "candidatec",
+        "label": "Candidate C or option still to find, with a search plan *"
+       },
+       {
+        "id": "comparison",
+        "label": "Compare importance, evidence, ethical access and feasibility for each *"
+       },
+       {
+        "id": "selected",
+        "label": "Provisional focus: a specific problem, reasons and strongest reason against it *"
+       },
+       {
+        "id": "parked",
+        "label": "Why are the other candidates parked? What remains unknown? *"
+       },
+       {
+        "id": "nextstep",
+        "label": "Next small check: question, timing, access/permission and realistic resources *"
+       },
+       {
+        "id": "reconsider",
+        "label": "What observable signal would support, weaken or change your choice? *"
+       }
+      ],
+      "footer": "This provisional choice does not prove demand. No score or winner is generated automatically."
+     }
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "note"
+       },
+       "children": [
+        "Local storage is plaintext and browser-specific. Avoid private identifying details; download a copy. A selected problem is not evidence of demand."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "extension",
+     "id": "download",
+     "props": {
+      "label": "Download Problem Selection Brief"
+     }
+    },
+    {
+     "type": "reset",
+     "label": "Clear local draft"
+    }
+   ]
+  },
+  {
+   "id": "coach",
+   "label": "04 / ASK AI",
+   "heading": "Your thinking partner",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "span",
+       "attrs": {
+        "class": "badge"
+       },
+       "children": [
+        "Simulated Coach · no AI connection"
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Try four scripted guidance modes. The preview reads your current worksheet locally; it does not send information anywhere."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "extension",
+     "id": "coach",
+     "props": {
+      "modes": [
+       {
+        "id": "teach",
+        "label": "Teach me"
+       },
+       {
+        "id": "guide",
+        "label": "Guide me"
+       },
+       {
+        "id": "review",
+        "label": "Review my work"
+       },
+       {
+        "id": "challenge",
+        "label": "Challenge my idea"
+       }
+      ],
+      "replies": {
+       "teach": "Choose a provisional learning focus using importance, evidence, ethical access and feasibility. Selection does not prove demand.",
+       "guide": "Compare three candidates fairly, explain your choice and reasons against it, park the others, and plan a small check with a reconsideration trigger.",
+       "review": "Selection Brief check: {missing} required fields still empty. This scripted check counts fields only; it cannot verify evidence, rank candidates or establish demand.",
+       "challenge": "Are you favouring a solution? What does the status quo do well? What evidence would change your focus? Can you reach people with permission?"
+      },
+      "heading": "SCRIPTED DEMO / ",
+      "questionNote": "Your question was entered locally. This preview does not generate a custom answer.",
+      "questionLabel": "Your question (optional)",
+      "placeholder": "What should I focus on first?",
+      "maxLength": 500,
+      "submitLabel": "Show simulated guidance"
+     }
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {
+        "class": "help"
+       },
+       "children": [
+        "Responses are predefined for this lesson, not generated answers to your question. No customer demand or venture readiness is verified."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "challenge",
+   "label": "05 / CHALLENGE",
+   "heading": "Challenge your choice.",
+   "blocks": [
+    {
+     "type": "fields",
+     "ids": [
+      "assumption",
+      "evidence",
+      "constraint"
+     ]
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "details",
+       "attrs": {},
+       "children": [
+        {
+         "tag": "summary",
+         "attrs": {},
+         "children": [
+          "More questions to discuss"
+         ]
+        },
+        {
+         "tag": "p",
+         "attrs": {},
+         "children": [
+          "Have you mistaken one report for frequency? Are current workarounds already good enough? Can affected people decline participation? Is your reconsideration signal observable rather than a vague feeling?"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "quiz",
+   "label": "06 / CHECK YOUR UNDERSTANDING",
+   "heading": "A quick knowledge check",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Answer all three. You can retry; all three correct are required for local completion."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "quiz"
+    }
+   ]
+  },
+  {
+   "id": "finish",
+   "label": "07 / DELIVER & PROGRESS",
+   "heading": "Your deliverable: a Problem Selection Brief.",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Download your comparison, provisional focus, tradeoffs, next check and reconsideration trigger. Review all five Module 1.2 deliverables using the links above; they save separately and are not merged automatically."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "checklist"
+    },
+    {
+     "type": "honest",
+     "label": "My choice is provisional; I labeled missing evidence and planned an ethical check without claiming demand."
+    },
+    {
+     "type": "complete",
+     "label": "Mark Lesson 10 complete locally",
+     "completedLabel": "Lesson 10 self-completed locally",
+     "completedNotice": "Lesson 10 self-completed locally. Download your Problem Selection Brief. No reviewer approval or venture validation is recorded.",
+     "incompleteNotice": "Complete the remaining requirements above before marking this lesson complete."
+    },
+    {
+     "type": "extension",
+     "id": "moduleNote",
+     "props": {
+      "parts": [
+       {
+        "nodes": [
+         {
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+           "Module 1.2 checkpoint"
+          ]
+         }
+        ]
+       },
+       {
+        "status": "1.2",
+        "complete": "All five lessons self-completed locally. Module 1.2 learning pack complete; no validation, certification or approval is implied.",
+        "incomplete": "{count} / 5 lessons self-completed locally. Complete each separately to finish this learning module."
+       },
+       {
+        "nodes": [
+         {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+           "Five deliverables: Problem Discovery Journal, Affected-People Map, Problem Map, Alternatives Log and Problem Selection Brief. Self-completion is a learning record, not an approval, certification or validation gate."
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "type": "next"
+    }
+   ]
+  }
+ ],
+ "nav": [
+  {
+   "id": "watch",
+   "label": "Watch"
+  },
+  {
+   "id": "learn",
+   "label": "Learn"
+  },
+  {
+   "id": "build",
+   "label": "Build"
+  },
+  {
+   "id": "coach",
+   "label": "Ask AI"
+  },
+  {
+   "id": "challenge",
+   "label": "Challenge"
+  },
+  {
+   "id": "quiz",
+   "label": "Knowledge check"
+  },
+  {
+   "id": "finish",
+   "label": "Deliver"
+  }
+ ]
+}

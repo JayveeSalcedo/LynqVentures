@@ -1,0 +1,769 @@
+{
+  "number": 39,
+  "phase": 2,
+  "module": "2.4",
+  "title": "Build Your Validation Brief",
+  "hero": {
+    "eyebrow": "Module 2.4 · Making Your Validation Decision · Lesson 39",
+    "title": "Build Your Validation Brief.",
+    "intro": "Bring the validation learning pack into a concise, source-linked brief. Keep findings, proposals, unknowns and unresolved risks visible before the checkpoint.",
+    "badges": [
+      "Beginner friendly"
+    ],
+    "meta": "35–45 min · Recommended: Lesson 38"
+  },
+  "fields": [
+    {
+      "id": "scope",
+      "label": "Venture/offer version, customer/context and review scope",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Preserve source status, unknowns, conditions and owner responsibilities."
+    },
+    {
+      "id": "pack",
+      "label": "References to assumption, customer, experiment, refinement and risk reviews; source/status",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Preserve source status, unknowns, conditions and owner responsibilities."
+    },
+    {
+      "id": "evidence",
+      "label": "Bounded findings and contradictory evidence, or unknown/not conducted",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Preserve source status, unknowns, conditions and owner responsibilities."
+    },
+    {
+      "id": "assessment",
+      "label": "Assumption assessments and evidence-to-claim fit; remaining unknowns",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Preserve source status, unknowns, conditions and owner responsibilities."
+    },
+    {
+      "id": "offer",
+      "label": "Current proposed offer/focus and versioned refinements",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Preserve source status, unknowns, conditions and owner responsibilities."
+    },
+    {
+      "id": "risk",
+      "label": "Feasibility, resources, unresolved risks/controls, owners and blockers",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Preserve source status, unknowns, conditions and owner responsibilities."
+    },
+    {
+      "id": "recommendation",
+      "label": "Proposed proceed / iterate / pause recommendation with reasons and conditions",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Preserve source status, unknowns, conditions and owner responsibilities."
+    },
+    {
+      "id": "handoff",
+      "label": "Next bounded work, owner/timing, permission/specialist review and decision limits",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Preserve source status, unknowns, conditions and owner responsibilities."
+    },
+    {
+      "id": "support",
+      "label": "Optional references or support",
+      "kind": "textarea",
+      "required": false,
+      "maxLength": 2000
+    },
+    {
+      "id": "bias",
+      "label": "Which claim or optimistic interpretation exceeds the actual evidence?",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "counter",
+      "label": "Which contradiction or alternative outcome would change the recommendation?",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "constraint",
+      "label": "Which blocker, specialist review or stop condition limits the next step?",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    }
+  ],
+  "questions": [
+    {
+      "prompt": "A critical permission is unresolved. What is responsible?",
+      "options": [
+        "Launch automatically",
+        "Pause dependent work and record a reopening condition",
+        "Hide it"
+      ],
+      "answer": 1,
+      "explanation": "Unresolved blockers remain visible and limit dependent work."
+    },
+    {
+      "prompt": "Does learning completion approve launch or prove demand?",
+      "options": [
+        "No; evidence and venture review are separate",
+        "Yes",
+        "Only if proceed is chosen"
+      ],
+      "answer": 0,
+      "explanation": "Proceed is bounded and conditional, not blanket approval."
+    },
+    {
+      "prompt": "Only planned/rehearsal evidence exists. What belongs in the brief?",
+      "options": [
+        "Invented demand",
+        "Guaranteed payment",
+        "Unknown actual customer claims, honest source status and next conditions"
+      ],
+      "answer": 2,
+      "explanation": "Preserve unknowns rather than fabricating results."
+    }
+  ],
+  "checklist": [
+    {
+      "kind": "studied",
+      "label": "Storyboard/transcript reviewed"
+    },
+    {
+      "kind": "fields",
+      "label": "Eight worksheet fields complete",
+      "ids": [
+        "scope",
+        "pack",
+        "evidence",
+        "assessment",
+        "offer",
+        "risk",
+        "recommendation",
+        "handoff"
+      ]
+    },
+    {
+      "kind": "fields",
+      "label": "Three red-team reflections complete",
+      "ids": [
+        "bias",
+        "counter",
+        "constraint"
+      ]
+    },
+    {
+      "kind": "quiz",
+      "label": "Quiz 3 / 3 correct"
+    },
+    {
+      "kind": "honest",
+      "label": "Final self-review confirmed"
+    }
+  ],
+  "deliverable": {
+    "title": "LYNQ Academy — Validation Brief",
+    "filename": "LYNQ-Validation-Brief.md",
+    "headerLines": [
+      "Phase 02 · Module {module} · Lesson {lesson}",
+      "Status: {status}"
+    ],
+    "fieldIds": [
+      "scope",
+      "pack",
+      "evidence",
+      "assessment",
+      "offer",
+      "risk",
+      "recommendation",
+      "handoff"
+    ],
+    "footer": "No real AI, test execution, source verification or demand validation.",
+    "previewFooter": "This plan does not prove demand or represent completed research."
+  },
+  "sections": [
+    {
+      "id": "watch",
+      "label": "01 / WATCH",
+      "heading": "What belongs in a decision-ready brief?",
+      "blocks": [
+        {
+          "type": "video",
+          "title": "Build Your Validation Brief",
+          "subtitle": "Planned 2½-minute explainer + worksheet demo",
+          "note": "No playable video or generated media is attached."
+        },
+        {
+          "type": "storyboard",
+          "scenes": [
+            {
+              "title": "Review scope",
+              "visual": "Editable offer/version and scope cards",
+              "narration": "State the exact offer version, customer context and scope of review. Keep original assumptions and source history visible."
+            },
+            {
+              "title": "Assemble the pack",
+              "visual": "Anonymous reference cards",
+              "narration": "Manually review assumption, customer, experiment, refinement and feasibility work. Label actual, planned and rehearsal status. Missing actual evidence stays unknown."
+            },
+            {
+              "title": "Preserve limits",
+              "visual": "Evidence / Contradiction / Unknown cards",
+              "narration": "Summarise bounded findings, contradictory records, deviations and remaining assumptions. Do not inflate clarity, task actions or interest into payment or representative demand."
+            },
+            {
+              "title": "Review readiness",
+              "visual": "Risk owner and blocker cards",
+              "narration": "Check delivery requirements, resources, unresolved controls, access and specialist-review needs. A written mitigation is not proof of safety. Unresolved blockers can require iteration or pause."
+            },
+            {
+              "title": "Choose a next move",
+              "visual": "Proceed / Iterate / Pause cards",
+              "narration": "Proceed means a defined next bounded step with conditions, not blanket launch approval. Iterate means revise or gather missing evidence. Pause means stop dependent work until blockers or priorities change. All three are valid reasoned outcomes."
+            },
+            {
+              "title": "Record and hand off",
+              "visual": "Approved actual Lesson 39 worksheet demo",
+              "narration": "Create your Validation Brief, with reasons, limits, conditions, next owner and review timing. Learning completion does not verify sources or approve the venture."
+            }
+          ],
+          "summary": "Explore the six-scene storyboard placeholder",
+          "sceneMeta": "Planned scene {scene} · about 25 seconds in final edit"
+        },
+        {
+          "type": "transcript",
+          "scenes": [
+            {
+              "title": "Review scope",
+              "visual": "Editable offer/version and scope cards",
+              "narration": "State the exact offer version, customer context and scope of review. Keep original assumptions and source history visible."
+            },
+            {
+              "title": "Assemble the pack",
+              "visual": "Anonymous reference cards",
+              "narration": "Manually review assumption, customer, experiment, refinement and feasibility work. Label actual, planned and rehearsal status. Missing actual evidence stays unknown."
+            },
+            {
+              "title": "Preserve limits",
+              "visual": "Evidence / Contradiction / Unknown cards",
+              "narration": "Summarise bounded findings, contradictory records, deviations and remaining assumptions. Do not inflate clarity, task actions or interest into payment or representative demand."
+            },
+            {
+              "title": "Review readiness",
+              "visual": "Risk owner and blocker cards",
+              "narration": "Check delivery requirements, resources, unresolved controls, access and specialist-review needs. A written mitigation is not proof of safety. Unresolved blockers can require iteration or pause."
+            },
+            {
+              "title": "Choose a next move",
+              "visual": "Proceed / Iterate / Pause cards",
+              "narration": "Proceed means a defined next bounded step with conditions, not blanket launch approval. Iterate means revise or gather missing evidence. Pause means stop dependent work until blockers or priorities change. All three are valid reasoned outcomes."
+            },
+            {
+              "title": "Record and hand off",
+              "visual": "Approved actual Lesson 39 worksheet demo",
+              "narration": "Create your Validation Brief, with reasons, limits, conditions, next owner and review timing. Learning completion does not verify sources or approve the venture."
+            }
+          ],
+          "summary": "Read the full narration / transcript"
+        },
+        {
+          "type": "videoPrompt",
+          "prompt": "Create an engaging LYNQ Academy explainer and decision-review demo: Module 2.4 Lesson 39 — Build Your Validation Brief. Editorial target 150 seconds, 16:9 1080p. Navy #0B2338, teal #087D79, mint #BCF2DF, white. Diverse adults in Dubai workspace, warm plain English narration. Fictional planning examples labeled Illustrative planned review in post. No fabricated evidence, payments, demand, certification or launch approval.\n\nSCENE 1: Review scope\nVisual placeholder: Editable offer/version and scope cards\nNarration: State the exact offer version, customer context and scope of review. Keep original assumptions and source history visible.\n\nSCENE 2: Assemble the pack\nVisual placeholder: Anonymous reference cards\nNarration: Manually review assumption, customer, experiment, refinement and feasibility work. Label actual, planned and rehearsal status. Missing actual evidence stays unknown.\n\nSCENE 3: Preserve limits\nVisual placeholder: Evidence / Contradiction / Unknown cards\nNarration: Summarise bounded findings, contradictory records, deviations and remaining assumptions. Do not inflate clarity, task actions or interest into payment or representative demand.\n\nSCENE 4: Review readiness\nVisual placeholder: Risk owner and blocker cards\nNarration: Check delivery requirements, resources, unresolved controls, access and specialist-review needs. A written mitigation is not proof of safety. Unresolved blockers can require iteration or pause.\n\nSCENE 5: Choose a next move\nVisual placeholder: Proceed / Iterate / Pause cards\nNarration: Proceed means a defined next bounded step with conditions, not blanket launch approval. Iterate means revise or gather missing evidence. Pause means stop dependent work until blockers or priorities change. All three are valid reasoned outcomes.\n\nSCENE 6: Record and hand off\nVisual placeholder: Approved actual Lesson 39 worksheet demo\nNarration: Create your Validation Brief, with reasons, limits, conditions, next owner and review timing. Learning completion does not verify sources or approve the venture.\n\nProvide storyboard/timings/shot prompts first. Generate supported short Gemini/Veo shots; assemble with separately recorded narration. Composite exact brand, captions and editable Evidence / Unknown / Risk / Decision / Conditions / Next work cards in post; no generated UI/text/logos. Record approved actual Lesson 39 worksheet using fictional planned data. Deliver H.264 MP4, editable project, transcript, VTT/SRT, audio, thumbnail and rights/provenance. Native-reviewed Arabic/RTL version separately. Review source honesty, decision limits, privacy, pacing and mobile readability. No video is generated by this prototype.",
+          "filename": "LYNQ-Lesson-39-Gemini-Video-Prompt.md",
+          "summary": "Gemini video prompt — ready to copy"
+        },
+        {
+          "type": "studied",
+          "label": "I reviewed the storyboard or transcript."
+        }
+      ]
+    },
+    {
+      "id": "learn",
+      "label": "02 / LEARN",
+      "heading": "A brief preserves the evidence and the gaps.",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Bring the validation learning pack into a concise, source-linked brief. Keep findings, proposals, unknowns and unresolved risks visible before the checkpoint."
+              ]
+            },
+            {
+              "tag": "ol",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Define the offer/version and review scope."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Reference the learning pack manually; preserve source status."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Summarise evidence, contradictions and remaining unknowns."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Review readiness, controls, owners and blockers."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Record a reasoned next move with conditions and stop triggers."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Assign bounded next work and a review date."
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "grid2"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "note"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "children": [
+                        "Proceed"
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "children": [
+                        "A defined next bounded step with conditions. It does not automatically permit launch, spending, payments or production data collection."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "note"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "children": [
+                        "Iterate"
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "children": [
+                        "Revise the offer/assumptions or gather missing/conflicting evidence; define a fresh check."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "note"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "children": [
+                        "Pause"
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "children": [
+                        "Stop dependent work while access, safeguards, resources or priorities remain unresolved. Record what could reopen review."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "note"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "children": [
+                        "Unknown remains honest"
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "children": [
+                        "Planned/rehearsal sources do not validate customer claims. Do not invent findings to make the review look complete."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "note"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "children": [
+                    "Illustrative planned review"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    "Only a concept and planned/rehearsal research exist; access is pending. Customer demand/payment remain unknown. A reasoned choice is iterate for missing evidence, or pause dependent outreach until permission is resolved. Record owner and next review; no launch approval exists."
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Keep technical, privacy, legal, commercial and other specialist reviews separate where the actual venture requires them. Source verification and venture approval are human responsibilities; worksheet completion cannot provide them. Use anonymous summaries only in local plaintext storage."
+              ]
+            },
+            {
+              "tag": "lesson-link",
+              "attrs": {
+                "lesson": "38",
+                "class": "btn secondary"
+              },
+              "children": [
+                "Review Lesson 38"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "practice",
+          "legend": "Practice: a critical access permission remains unresolved.",
+          "prompt": "",
+          "options": [
+            {
+              "label": "Launch automatically",
+              "feedback": "Do not hide a blocker or treat learning completion as launch approval."
+            },
+            {
+              "label": "Pause dependent work and record the reopening condition",
+              "feedback": "Pause dependent work, preserve the blocker and record an owner/reopening condition."
+            },
+            {
+              "label": "Hide the blocker",
+              "feedback": "Do not hide a blocker or treat learning completion as launch approval."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "build",
+      "label": "03 / BUILD",
+      "heading": "Your Validation Brief.",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Review earlier drafts manually. No import, source verification or approval occurs. Use unknown/not conducted where appropriate."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "saveStatus"
+        },
+        {
+          "type": "fields",
+          "ids": [
+            "scope",
+            "pack",
+            "evidence",
+            "assessment",
+            "offer",
+            "risk",
+            "recommendation",
+            "handoff",
+            "support"
+          ]
+        },
+        {
+          "type": "deliverable",
+          "previewLabel": "Preview my validation brief",
+          "downloadLabel": "Download Validation Brief"
+        },
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "note"
+              },
+              "children": [
+                "Plaintext local storage; anonymous summaries only. No backend, source verification, spending, launch or payment approval."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "reset",
+          "label": "Clear local draft"
+        }
+      ]
+    },
+    {
+      "id": "coach",
+      "label": "04 / ASK AI",
+      "heading": "Venture Coach · simulated",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Scripted demonstration only. No live AI, source verification, experiment execution or backend is connected."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "extension",
+          "id": "coach",
+          "props": {
+            "modes": [
+              {
+                "id": "teach",
+                "label": "Teach",
+                "response": "Preserve source status, contradictions, unknowns and blockers. Record proceed, iterate or pause with bounded conditions and next owner. No venture approval is connected."
+              },
+              {
+                "id": "guide",
+                "label": "Guide",
+                "response": "Preserve source status, contradictions, unknowns and blockers. Record proceed, iterate or pause with bounded conditions and next owner. No venture approval is connected."
+              },
+              {
+                "id": "review",
+                "label": "Review",
+                "response": "Review check: {missing} required fields empty. Scripted field counting cannot verify sources, decisions, readiness, compliance or demand."
+              },
+              {
+                "id": "challenge",
+                "label": "Challenge",
+                "response": "Preserve source status, contradictions, unknowns and blockers. Record proceed, iterate or pause with bounded conditions and next owner. No venture approval is connected."
+              }
+            ],
+            "initial": "teach",
+            "questionResponse": "This is a scripted demonstration, not an AI answer to your question.",
+            "countIds": [
+              "scope",
+              "pack",
+              "evidence",
+              "assessment",
+              "offer",
+              "risk",
+              "recommendation",
+              "handoff"
+            ],
+            "questionLabel": "Optional question for the demonstration",
+            "submitLabel": "Show simulated guidance"
+          }
+        }
+      ]
+    },
+    {
+      "id": "challenge",
+      "label": "05 / CHALLENGE",
+      "heading": "Challenge the recommendation.",
+      "blocks": [
+        {
+          "type": "fields",
+          "ids": [
+            "bias",
+            "counter",
+            "constraint"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz",
+      "label": "06 / KNOWLEDGE CHECK",
+      "heading": "Check your understanding.",
+      "blocks": [
+        {
+          "type": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "label": "07 / DELIVER & PROGRESS",
+      "heading": "Your deliverable: a Validation Brief.",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Download the review basis, evidence limits, recommendation/decision, conditions and next work. Earlier drafts remain separate."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checklist"
+        },
+        {
+          "type": "honest",
+          "label": "I kept evidence/status honest, preserved unknowns and blockers, recorded a bounded next move with conditions, and separated learning completion from venture approval."
+        },
+        {
+          "type": "complete",
+          "label": "Mark Lesson 39 complete locally",
+          "completedLabel": "Lesson 39 self-completed locally",
+          "completedNotice": "Lesson 39 self-completed locally. This is not validated demand or a submitted assignment.",
+          "incompleteNotice": "Complete the remaining requirements before local self-completion."
+        },
+        {
+          "type": "extension",
+          "id": "moduleNote",
+          "props": {
+            "heading": "Module 2.4 · Making Your Validation Decision",
+            "lessons": [
+              36,
+              37,
+              38,
+              39,
+              40
+            ],
+            "complete": "All five lessons self-completed locally. Module 2.4 learning pack complete; evidence and venture approval remain separate.",
+            "incomplete": "{count} / 5 lessons self-completed locally. Complete each separately.",
+            "notes": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "id": "phaseCheckpoint"
+                },
+                "children": [
+                  "Learning completion is separate from evidence verification, demand, funding and production approval."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {
+                "class": "help"
+              },
+              "children": [
+                "Learning completion is separate from validated demand."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "next"
+        }
+      ]
+    }
+  ],
+  "nav": [
+    {
+      "id": "watch",
+      "label": "Watch"
+    },
+    {
+      "id": "learn",
+      "label": "Learn"
+    },
+    {
+      "id": "build",
+      "label": "Build"
+    },
+    {
+      "id": "coach",
+      "label": "Ask AI"
+    },
+    {
+      "id": "challenge",
+      "label": "Challenge"
+    },
+    {
+      "id": "quiz",
+      "label": "Knowledge check"
+    },
+    {
+      "id": "finish",
+      "label": "Deliver"
+    }
+  ]
+}

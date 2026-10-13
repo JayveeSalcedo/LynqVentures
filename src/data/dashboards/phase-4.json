@@ -1,0 +1,149 @@
+{
+ "phase": 4,
+ "title": "Launch",
+ "hero": {
+  "eyebrow": "PHASE 04 · LAUNCH",
+  "title": "Enter the market with focus.",
+  "intro": "Build established the product and business evidence. Launch turns it into a focused route to real customers, then reviews commercial learning honestly."
+ },
+ "modules": [
+  {
+   "code": "4.1",
+   "title": "Preparing for Market",
+   "lessons": [
+    {
+     "number": 61,
+     "title": "Define Your Go-to-Market Strategy",
+     "summary": "GTM plan · Interactive"
+    },
+    {
+     "number": 62,
+     "title": "Set Your Launch Goals",
+     "summary": "Launch scorecard · Interactive"
+    },
+    {
+     "number": 63,
+     "title": "Create Your Customer Acquisition Plan",
+     "summary": "Acquisition roadmap · Interactive"
+    },
+    {
+     "number": 64,
+     "title": "Develop Your Sales Message",
+     "summary": "Sales messaging kit · Interactive"
+    },
+    {
+     "number": 65,
+     "title": "Build Your Sales Materials",
+     "summary": "Sales presentation · Interactive"
+    }
+   ]
+  },
+  {
+   "code": "4.2",
+   "title": "Building Commercial Systems",
+   "lessons": [
+    {
+     "number": 66,
+     "title": "Establish Pricing and Packaging",
+     "summary": "Pricing structure · Interactive"
+    },
+    {
+     "number": 67,
+     "title": "Set Up Your Sales Pipeline",
+     "summary": "CRM pipeline · Interactive"
+    },
+    {
+     "number": 68,
+     "title": "Prepare Your Website and Product Onboarding",
+     "summary": "Launch-ready experience · Interactive planning"
+    },
+    {
+     "number": 69,
+     "title": "Develop Your Marketing Campaign",
+     "summary": "Campaign plan · Interactive"
+    },
+    {
+     "number": 70,
+     "title": "Prepare Your Support Operations",
+     "summary": "Customer support process · Interactive"
+    }
+   ]
+  },
+  {
+   "code": "4.3",
+   "title": "Launching and Learning",
+   "lessons": [
+    {
+     "number": 71,
+     "title": "Launch Your Product",
+     "summary": "Launch record · Interactive planning"
+    },
+    {
+     "number": 72,
+     "title": "Acquire Your First Customers",
+     "summary": "Customer acquisition evidence · Interactive"
+    },
+    {
+     "number": 73,
+     "title": "Measure Activation and Usage",
+     "summary": "Activation report · Interactive"
+    },
+    {
+     "number": 74,
+     "title": "Collect Customer Feedback",
+     "summary": "Feedback register · Interactive"
+    },
+    {
+     "number": 75,
+     "title": "Improve Customer Retention",
+     "summary": "Retention experiments · Interactive"
+    }
+   ]
+  },
+  {
+   "code": "4.4",
+   "title": "Measuring Traction",
+   "lessons": [
+    {
+     "number": 76,
+     "title": "Review Revenue and Costs",
+     "summary": "Operating performance report · Interactive"
+    },
+    {
+     "number": 77,
+     "title": "Build Repeatable Sales Processes",
+     "summary": "Sales playbook · Interactive"
+    },
+    {
+     "number": 78,
+     "title": "Prepare Investor and Partner Materials",
+     "summary": "Investor-ready data room checklist · Interactive"
+    },
+    {
+     "number": 79,
+     "title": "Develop Your Next 90-Day Plan",
+     "summary": "Operating roadmap · Interactive"
+    },
+    {
+     "number": 80,
+     "title": "Checkpoint: Is Your Business Gaining Traction?",
+     "summary": "Traction assessment · Interactive"
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Launch lessons",
+   "nodes": [
+    {
+     "tag": "p",
+     "attrs": {},
+     "children": [
+      "All five Module 4.1 lessons (61–65) are interactive. All five Module 4.2 lessons (66–70) are interactive; All five Module 4.3 lessons (71–75) are interactive. All five Module 4.4 lessons (76–80) are interactive. No campaign, customer outreach, AI or backend is connected."
+     ]
+    }
+   ]
+  }
+ ]
+}

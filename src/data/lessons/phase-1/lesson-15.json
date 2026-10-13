@@ -1,0 +1,955 @@
+{
+ "number": 15,
+ "phase": 1,
+ "module": "1.3",
+ "title": "Your Discovery Research Plan",
+ "hero": {
+  "eyebrow": "Module 1.3 · Understanding People & Context · Lesson 15",
+  "title": "Your Discovery Research Plan.",
+  "intro": "Turn your most important unknowns into a small, ethical research plan. Decide whom to learn from, what to ask or observe, and how you will record and review evidence.",
+  "badges": [
+   "Beginner friendly"
+  ],
+  "meta": "35–45 min · Recommended: Lessons 11–14"
+ },
+ "fields": [
+  {
+   "id": "unknowns",
+   "label": "Priority uncertainties, source lessons and decisions they affect",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Write planned actions, not invented outcomes.",
+   "maxLength": 2000
+  },
+  {
+   "id": "people",
+   "label": "Relevant group/context, access route, feasible learning round and who may be excluded",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Write planned actions, not invented outcomes.",
+   "maxLength": 2000
+  },
+  {
+   "id": "methods",
+   "label": "Method for each question and what it can/cannot tell you",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Write planned actions, not invented outcomes.",
+   "maxLength": 2000
+  },
+  {
+   "id": "prompts",
+   "label": "Neutral recent-experience questions or permitted observation/source checklist",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Write planned actions, not invented outcomes.",
+   "maxLength": 2000
+  },
+  {
+   "id": "permission",
+   "label": "Permission, voluntary participation, decline/stop process and privacy limits",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Write planned actions, not invented outcomes.",
+   "maxLength": 2000
+  },
+  {
+   "id": "schedule",
+   "label": "Owner, timing, effort/resources and fallback if access fails",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Write planned actions, not invented outcomes.",
+   "maxLength": 2000
+  },
+  {
+   "id": "notes",
+   "label": "Evidence recording: anonymous source codes, status, dates, interpretations, retention and deletion plan",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Write planned actions, not invented outcomes.",
+   "maxLength": 2000
+  },
+  {
+   "id": "review",
+   "label": "Review date and signals that support, weaken or change your focus; next decision",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Write planned actions, not invented outcomes.",
+   "maxLength": 2000
+  },
+  {
+   "id": "support",
+   "label": "Optional help or access constraint",
+   "kind": "textarea",
+   "required": false,
+   "maxLength": 2000
+  },
+  {
+   "id": "assumption",
+   "label": "Where might your questions or recruitment seek confirmation rather than learning?",
+   "kind": "textarea",
+   "required": true,
+   "maxLength": 2000
+  },
+  {
+   "id": "evidence",
+   "label": "What conflicting account or result would change your focus?",
+   "kind": "textarea",
+   "required": true,
+   "maxLength": 2000
+  },
+  {
+   "id": "constraint",
+   "label": "What access, permission, privacy or time issue could stop the plan, and what is your fallback?",
+   "kind": "textarea",
+   "required": true,
+   "maxLength": 2000
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "Which prompt best supports learning?",
+   "options": [
+    "Wouldn’t my app help?",
+    "Tell me about the last time you did this",
+    "You will pay, right?"
+   ],
+   "answer": 1,
+   "explanation": "A neutral recent-experience prompt avoids leading with a pitch."
+  },
+  {
+   "prompt": "What should you do when access permission is pending?",
+   "options": [
+    "Keep it pending and plan an ethical fallback",
+    "Assume it is granted",
+    "Proceed because the worksheet is complete"
+   ],
+   "answer": 0,
+   "explanation": "Local completion does not grant access or participant permission."
+  },
+  {
+   "prompt": "What does completing this research plan establish?",
+   "options": [
+    "Research findings",
+    "Proven demand",
+    "A practical learning plan; execution and evidence are still needed"
+   ],
+   "answer": 2,
+   "explanation": "Planning is distinct from conducting research or validating demand."
+  }
+ ],
+ "checklist": [
+  {
+   "kind": "studied",
+   "label": "Transcript or learning guide reviewed"
+  },
+  {
+   "kind": "fields",
+   "label": "Discovery Research Plan fields complete",
+   "ids": [
+    "unknowns",
+    "people",
+    "methods",
+    "prompts",
+    "permission",
+    "schedule",
+    "notes",
+    "review"
+   ]
+  },
+  {
+   "kind": "fields",
+   "label": "Three red-team reflections complete",
+   "ids": [
+    "assumption",
+    "evidence",
+    "constraint"
+   ]
+  },
+  {
+   "kind": "quiz",
+   "label": "Knowledge check: 3 / 3 correct"
+  },
+  {
+   "kind": "honest",
+   "label": "Final self-review confirmed"
+  }
+ ],
+ "deliverable": {
+  "title": "LYNQ Academy — Discovery Research Plan",
+  "filename": "LYNQ-Discovery-Research-Plan.md",
+  "headerLines": [
+   "Phase 01 · Module {module} · Lesson {lesson}",
+   "Status: {status}",
+   "Created: {created}"
+  ],
+  "fieldIds": [
+   "unknowns",
+   "people",
+   "methods",
+   "prompts",
+   "permission",
+   "schedule",
+   "notes",
+   "review",
+   "support",
+   "assumption",
+   "evidence",
+   "constraint"
+  ],
+  "footer": "Local prototype export. No reviewer submission or business validation."
+ },
+ "sections": [
+  {
+   "id": "watch",
+   "label": "01 / WATCH",
+   "heading": "What will you learn next — and how?",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "The planned explainer turns unknowns into a feasible, ethical learning plan without pretending that research has already happened. Use the transcript or guide while the video is a placeholder."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "video-placeholder"
+       },
+       "children": [
+        {
+         "tag": "span",
+         "attrs": {
+          "class": "badge"
+         },
+         "children": [
+          "Video placeholder · media not produced"
+         ]
+        },
+        {
+         "tag": "h3",
+         "attrs": {},
+         "children": [
+          "Your Discovery Research Plan"
+         ]
+        },
+        {
+         "tag": "p",
+         "attrs": {},
+         "children": [
+          "Planned: 2½-minute explainer + worksheet demo",
+          {
+           "tag": "br",
+           "attrs": {},
+           "children": []
+          },
+          "Unknowns → Methods → Permission → Notes → Review"
+         ]
+        },
+        {
+         "tag": "small",
+         "attrs": {},
+         "children": [
+          "No playable video or generated media is attached."
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "storyboard",
+     "scenes": [
+      {
+       "title": "Choose what to learn",
+       "visual": "Founder reviews anonymous snapshot, journey and landscape maps.",
+       "narration": "Your earlier work has surfaced assumptions and unknowns. A discovery research plan turns them into practical learning steps. Choose one or two uncertainties that could change your focus. Planning research is not collecting evidence, and completion does not validate a business."
+      },
+      {
+       "title": "Reach relevant people ethically",
+       "visual": "Adult participant can accept or decline a conversation.",
+       "narration": "Describe the relevant group and context, how you can reach them, and who may be missing. Start with a small feasible learning round, not a claim of a representative sample. Ask permission, make participation voluntary, and avoid people over whom you hold authority when it could create pressure."
+      },
+      {
+       "title": "Match methods to questions",
+       "visual": "Editable observe, ask and read cards.",
+       "narration": "Choose a method for each uncertainty. Observe permitted actions, ask about a recent experience, or inspect a relevant document. Record what each method can and cannot tell you. Do not pitch a solution and treat polite approval as evidence of demand."
+      },
+      {
+       "title": "Prepare neutral prompts",
+       "visual": "Founder rehearses a recent-experience question.",
+       "narration": "Ask what happened the last time, what the person tried, and what mattered. Avoid leading questions such as wouldn’t our app make this easier. Plan a permitted observation checklist without guessing emotions. Use anonymous source codes and collect only information needed for the question."
+      },
+      {
+       "title": "Plan timing and review",
+       "visual": "Editable owner, permission, time and review cards.",
+       "narration": "Set the owner, timing, effort limit, permission needed and fallback if access fails. Decide how to record evidence, interpretations and unknowns separately. Name a review date and signals that could support, weaken or change your focus. Do not promise that a fixed number of conversations proves demand."
+      },
+      {
+       "title": "Close the learning module",
+       "visual": "Actual approved Lesson 15 worksheet recording and five-deliverable list.",
+       "narration": "Create your Discovery Research Plan and review your customer snapshot, journey map, source log and market landscape. These five deliverables close Module 1.3 when each lesson is locally complete. Research execution remains a next action. The next module turns your provisional problem into an opportunity hypothesis."
+      }
+     ],
+     "sceneMeta": "Planned final scene: 25 seconds · narration and precise graphics added in post",
+     "summary": "Explore the six-scene storyboard placeholder"
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {
+        "class": "help"
+       },
+       "children": [
+        "Use an explainer with editable diagrams, documentary cutaways and a real worksheet demo. Generate short assets where supported, then assemble in an editor."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "videoPrompt",
+     "prompt": "Create an engaging beginner-friendly LYNQ Academy explainer plus planning demo for Module 1.3 Lesson 15: Your Discovery Research Plan. Editorial target about 150 seconds, 16:9 1080p. Navy #0B2338, teal #087D79, mint #BCF2DF, white; contemporary Dubai workspace, diverse adult cast and clear friendly English narrator. All examples fictional and labeled Illustrative example in post. Teach priority unknowns, method fit, neutral recent-experience questions, ethical voluntary access, minimal anonymous notes, timing and decision review. No fabricated interviews, quotes, findings, sample-size guarantees or demand claims.\n\nSCENE 1: Choose what to learn\nVisual placeholder: Founder reviews anonymous snapshot, journey and landscape maps.\nNarration: Your earlier work has surfaced assumptions and unknowns. A discovery research plan turns them into practical learning steps. Choose one or two uncertainties that could change your focus. Planning research is not collecting evidence, and completion does not validate a business.\n\nSCENE 2: Reach relevant people ethically\nVisual placeholder: Adult participant can accept or decline a conversation.\nNarration: Describe the relevant group and context, how you can reach them, and who may be missing. Start with a small feasible learning round, not a claim of a representative sample. Ask permission, make participation voluntary, and avoid people over whom you hold authority when it could create pressure.\n\nSCENE 3: Match methods to questions\nVisual placeholder: Editable observe, ask and read cards.\nNarration: Choose a method for each uncertainty. Observe permitted actions, ask about a recent experience, or inspect a relevant document. Record what each method can and cannot tell you. Do not pitch a solution and treat polite approval as evidence of demand.\n\nSCENE 4: Prepare neutral prompts\nVisual placeholder: Founder rehearses a recent-experience question.\nNarration: Ask what happened the last time, what the person tried, and what mattered. Avoid leading questions such as wouldn’t our app make this easier. Plan a permitted observation checklist without guessing emotions. Use anonymous source codes and collect only information needed for the question.\n\nSCENE 5: Plan timing and review\nVisual placeholder: Editable owner, permission, time and review cards.\nNarration: Set the owner, timing, effort limit, permission needed and fallback if access fails. Decide how to record evidence, interpretations and unknowns separately. Name a review date and signals that could support, weaken or change your focus. Do not promise that a fixed number of conversations proves demand.\n\nSCENE 6: Close the learning module\nVisual placeholder: Actual approved Lesson 15 worksheet recording and five-deliverable list.\nNarration: Create your Discovery Research Plan and review your customer snapshot, journey map, source log and market landscape. These five deliverables close Module 1.3 when each lesson is locally complete. Research execution remains a next action. The next module turns your provisional problem into an opportunity hypothesis.\n\nFirst return storyboard, timings and individual shot prompts. Generate only short shot lengths supported by selected Gemini/Veo account. Assemble with one separately recorded narrator track. Generated footage has no text, logos, captions, private data or invented UI. Add exact LYNQ branding and editable Question / Method / Access / Permission / Notes / Review diagrams in post. Use actual approved Lesson 15 screen recording with fictional clearly planned entries. Deliver H.264 MP4, editable project, narration audio, transcript, VTT/SRT captions, thumbnail and rights/provenance. Arabic version requires native-reviewed narration and RTL graphics. Review consent language, privacy, accuracy, brand, audio, pacing and mobile readability before publication. No video is generated by the prototype.",
+     "filename": "LYNQ-Lesson-15-Gemini-Video-Prompt.md",
+     "title": "# LYNQ Lesson 15 — Gemini video prompt",
+     "summary": "Gemini video prompt — ready to copy"
+    },
+    {
+     "type": "transcript",
+     "scenes": [
+      {
+       "title": "Choose what to learn",
+       "visual": "Founder reviews anonymous snapshot, journey and landscape maps.",
+       "narration": "Your earlier work has surfaced assumptions and unknowns. A discovery research plan turns them into practical learning steps. Choose one or two uncertainties that could change your focus. Planning research is not collecting evidence, and completion does not validate a business."
+      },
+      {
+       "title": "Reach relevant people ethically",
+       "visual": "Adult participant can accept or decline a conversation.",
+       "narration": "Describe the relevant group and context, how you can reach them, and who may be missing. Start with a small feasible learning round, not a claim of a representative sample. Ask permission, make participation voluntary, and avoid people over whom you hold authority when it could create pressure."
+      },
+      {
+       "title": "Match methods to questions",
+       "visual": "Editable observe, ask and read cards.",
+       "narration": "Choose a method for each uncertainty. Observe permitted actions, ask about a recent experience, or inspect a relevant document. Record what each method can and cannot tell you. Do not pitch a solution and treat polite approval as evidence of demand."
+      },
+      {
+       "title": "Prepare neutral prompts",
+       "visual": "Founder rehearses a recent-experience question.",
+       "narration": "Ask what happened the last time, what the person tried, and what mattered. Avoid leading questions such as wouldn’t our app make this easier. Plan a permitted observation checklist without guessing emotions. Use anonymous source codes and collect only information needed for the question."
+      },
+      {
+       "title": "Plan timing and review",
+       "visual": "Editable owner, permission, time and review cards.",
+       "narration": "Set the owner, timing, effort limit, permission needed and fallback if access fails. Decide how to record evidence, interpretations and unknowns separately. Name a review date and signals that could support, weaken or change your focus. Do not promise that a fixed number of conversations proves demand."
+      },
+      {
+       "title": "Close the learning module",
+       "visual": "Actual approved Lesson 15 worksheet recording and five-deliverable list.",
+       "narration": "Create your Discovery Research Plan and review your customer snapshot, journey map, source log and market landscape. These five deliverables close Module 1.3 when each lesson is locally complete. Research execution remains a next action. The next module turns your provisional problem into an opportunity hypothesis."
+      }
+     ],
+     "summary": "Read the full narration / transcript"
+    },
+    {
+     "type": "studied",
+     "label": "I read the transcript or reviewed the learning guide. Video is not required."
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "label": "02 / LEARN",
+   "heading": "Plan a small learning round.",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "A ",
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "research plan"
+         ]
+        },
+        " connects a question to a method, relevant people or sources, practical access and a review decision. It is a plan, not findings. Start with one or two uncertainties from Lessons 11–14 that could change your focus."
+       ]
+      },
+      {
+       "tag": "h3",
+       "attrs": {},
+       "children": [
+        "Match the method to the question"
+       ]
+      },
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "grid2"
+       },
+       "children": [
+        {
+         "tag": "div",
+         "attrs": {
+          "class": "note"
+         },
+         "children": [
+          {
+           "tag": "h3",
+           "attrs": {},
+           "children": [
+            "Observe"
+           ]
+          },
+          {
+           "tag": "p",
+           "attrs": {},
+           "children": [
+            "Record permitted actions and context. Do not infer feelings from appearance or disrupt the experience."
+           ]
+          }
+         ]
+        },
+        {
+         "tag": "div",
+         "attrs": {
+          "class": "note"
+         },
+         "children": [
+          {
+           "tag": "h3",
+           "attrs": {},
+           "children": [
+            "Ask"
+           ]
+          },
+          {
+           "tag": "p",
+           "attrs": {},
+           "children": [
+            "Ask adults about recent experiences; preserve their account as reported information. Avoid pitching or pressuring agreement."
+           ]
+          }
+         ]
+        },
+        {
+         "tag": "div",
+         "attrs": {
+          "class": "note"
+         },
+         "children": [
+          {
+           "tag": "h3",
+           "attrs": {},
+           "children": [
+            "Read"
+           ]
+          },
+          {
+           "tag": "p",
+           "attrs": {},
+           "children": [
+            "Inspect relevant sources with date, scope and limits. Provider claims do not establish customer outcomes."
+           ]
+          }
+         ]
+        },
+        {
+         "tag": "div",
+         "attrs": {
+          "class": "note"
+         },
+         "children": [
+          {
+           "tag": "h3",
+           "attrs": {},
+           "children": [
+            "Review"
+           ]
+          },
+          {
+           "tag": "p",
+           "attrs": {},
+           "children": [
+            "Separate evidence, interpretation and unknowns. Look for conflicting information and choose the next check."
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "tag": "h3",
+       "attrs": {},
+       "children": [
+        "Neutral prompts"
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "“Tell me about the last time you tried to find registration.” “What did you try?” “What happened next?” “What mattered most?” These are more useful than “Wouldn’t our app solve this?”"
+       ]
+      },
+      {
+       "tag": "h3",
+       "attrs": {},
+       "children": [
+        "Permission and practical limits"
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Define voluntary participation, permission for the setting and a simple way to decline or stop. Use anonymous roles/source codes; avoid private contact details and sensitive information. Do not record audio, images or video without appropriate permission. This prototype does not contact or recruit anyone."
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Set a feasible learning round, owner, time limit, fallback and review date. A few conversations may reveal clues but do not establish representativeness or demand. Record who your access plan may exclude."
+       ]
+      },
+      {
+       "tag": "h3",
+       "attrs": {},
+       "children": [
+        "Review your Module 1.3 work"
+       ]
+      },
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "actions"
+       },
+       "children": [
+        {
+         "tag": "lesson-link",
+         "attrs": {
+          "lesson": "11",
+          "class": "btn secondary"
+         },
+         "children": [
+          "Review customer snapshot"
+         ]
+        },
+        {
+         "tag": "lesson-link",
+         "attrs": {
+          "lesson": "12",
+          "class": "btn secondary"
+         },
+         "children": [
+          "Review journey map"
+         ]
+        },
+        {
+         "tag": "lesson-link",
+         "attrs": {
+          "lesson": "13",
+          "class": "btn secondary"
+         },
+         "children": [
+          "Review research log"
+         ]
+        },
+        {
+         "tag": "lesson-link",
+         "attrs": {
+          "lesson": "14",
+          "class": "btn secondary"
+         },
+         "children": [
+          "Review landscape map"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "practice",
+     "legend": "Practice: choose a neutral question",
+     "prompt": "",
+     "options": [
+      {
+       "label": "Wouldn’t my app make this easier?",
+       "feedback": "Keep the question neutral. Leading with your solution or payment claim encourages confirmation rather than learning."
+      },
+      {
+       "label": "Tell me about the last time you tried to find registration",
+       "feedback": "Useful prompt: ask about a recent experience without pitching or pressuring agreement."
+      },
+      {
+       "label": "You will pay for this, right?",
+       "feedback": "Keep the question neutral. Leading with your solution or payment claim encourages confirmation rather than learning."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "build",
+   "label": "03 / BUILD",
+   "heading": "Your Discovery Research Plan.",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Plan one feasible learning round. Unknown access or permissions must remain pending, with a fallback. No participant is contacted, permission granted or research executed by this worksheet."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "saveStatus"
+    },
+    {
+     "type": "fields",
+     "ids": [
+      "unknowns",
+      "people",
+      "methods",
+      "prompts",
+      "permission",
+      "schedule",
+      "notes",
+      "review",
+      "support"
+     ]
+    },
+    {
+     "type": "extension",
+     "id": "preview",
+     "props": {
+      "label": "Preview my research plan",
+      "kind": "lines",
+      "joiner": "\n\n",
+      "lines": [
+       {
+        "id": "unknowns",
+        "label": "Priority uncertainties, source lessons and decisions they affect *"
+       },
+       {
+        "id": "people",
+        "label": "Relevant group/context, access route, feasible learning round and who may be excluded *"
+       },
+       {
+        "id": "methods",
+        "label": "Method for each question and what it can/cannot tell you *"
+       },
+       {
+        "id": "prompts",
+        "label": "Neutral recent-experience questions or permitted observation/source checklist *"
+       },
+       {
+        "id": "permission",
+        "label": "Permission, voluntary participation, decline/stop process and privacy limits *"
+       },
+       {
+        "id": "schedule",
+        "label": "Owner, timing, effort/resources and fallback if access fails *"
+       },
+       {
+        "id": "notes",
+        "label": "Evidence recording: anonymous source codes, status, dates, interpretations, retention and deletion plan *"
+       },
+       {
+        "id": "review",
+        "label": "Review date and signals that support, weaken or change your focus; next decision *"
+       }
+      ],
+      "footer": "This plan does not prove demand, grant permission or represent completed research."
+     }
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "note"
+       },
+       "children": [
+        "This is a plan, not collected evidence or demand validation. Browser storage is plaintext; avoid private identifying information and download a copy."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "extension",
+     "id": "download",
+     "props": {
+      "label": "Download Discovery Research Plan"
+     }
+    },
+    {
+     "type": "reset",
+     "label": "Clear local draft"
+    }
+   ]
+  },
+  {
+   "id": "coach",
+   "label": "04 / ASK AI",
+   "heading": "Your thinking partner",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "span",
+       "attrs": {
+        "class": "badge"
+       },
+       "children": [
+        "Simulated Coach · no AI connection"
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Try four scripted guidance modes. The preview reads your current worksheet locally; it does not send information anywhere."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "extension",
+     "id": "coach",
+     "props": {
+      "modes": [
+       {
+        "id": "teach",
+        "label": "Teach me"
+       },
+       {
+        "id": "guide",
+        "label": "Guide me"
+       },
+       {
+        "id": "review",
+        "label": "Review my work"
+       },
+       {
+        "id": "challenge",
+        "label": "Challenge my idea"
+       }
+      ],
+      "replies": {
+       "teach": "Connect priority unknowns to methods, ethical access and a review decision. A plan is not collected evidence.",
+       "guide": "Set relevant people/sources, neutral prompts, pending permissions, owner/timing, anonymous notes and a fallback. Define what would change your focus.",
+       "review": "Research Plan check: {missing} required fields still empty. This scripted check counts fields only; it cannot verify permission, recruit participants, execute research or establish demand.",
+       "challenge": "Are prompts leading? Can people decline? Who is excluded? What contradicts your focus? Is there a realistic fallback if access fails?"
+      },
+      "heading": "SCRIPTED DEMO / ",
+      "questionNote": "Your question was entered locally. This preview does not generate a custom answer.",
+      "questionLabel": "Your question (optional)",
+      "placeholder": "What should I focus on first?",
+      "maxLength": 500,
+      "submitLabel": "Show simulated guidance"
+     }
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {
+        "class": "help"
+       },
+       "children": [
+        "Responses are predefined for this lesson, not generated answers to your question. No customer demand or venture readiness is verified."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "challenge",
+   "label": "05 / CHALLENGE",
+   "heading": "Challenge your research design.",
+   "blocks": [
+    {
+     "type": "fields",
+     "ids": [
+      "assumption",
+      "evidence",
+      "constraint"
+     ]
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "details",
+       "attrs": {},
+       "children": [
+        {
+         "tag": "summary",
+         "attrs": {},
+         "children": [
+          "More questions to discuss"
+         ]
+        },
+        {
+         "tag": "p",
+         "attrs": {},
+         "children": [
+          "Can people freely decline? Are you relying only on friends or convenient contacts? Are methods suitable for the question? Are you collecting unnecessary private data? Have you confused planning with completed research?"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "quiz",
+   "label": "06 / CHECK YOUR UNDERSTANDING",
+   "heading": "A quick knowledge check",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Answer all three. You can retry; all three correct are required for local completion."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "quiz"
+    }
+   ]
+  },
+  {
+   "id": "finish",
+   "label": "07 / DELIVER & PROGRESS",
+   "heading": "Your deliverable: a Discovery Research Plan.",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Download your questions, access, methods, prompts, permissions, schedule, notes and review rule. Review all five Module 1.3 deliverables using the links above. They save separately and are not merged automatically."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "checklist"
+    },
+    {
+     "type": "honest",
+     "label": "I labeled this as planned research, used neutral prompts, addressed voluntary participation and privacy, and did not claim findings or demand."
+    },
+    {
+     "type": "complete",
+     "label": "Mark Lesson 15 complete locally",
+     "completedLabel": "Lesson 15 self-completed locally",
+     "completedNotice": "Lesson 15 self-completed locally. Download your Discovery Research Plan. No reviewer approval or venture validation is recorded.",
+     "incompleteNotice": "Complete the remaining requirements above before marking this lesson complete."
+    },
+    {
+     "type": "extension",
+     "id": "moduleNote",
+     "props": {
+      "parts": [
+       {
+        "nodes": [
+         {
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+           "Module 1.3 checkpoint"
+          ]
+         }
+        ]
+       },
+       {
+        "status": "1.3",
+        "complete": "All five lessons self-completed locally. Module 1.3 learning pack complete; research execution, permissions and validation remain separate.",
+        "incomplete": "{count} / 5 lessons self-completed locally. Complete each lesson separately to finish this learning module."
+       },
+       {
+        "nodes": [
+         {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+           "Five deliverables: Customer Snapshot, Customer Journey & Learning Map, Research & Source Log, Market Landscape Map and Discovery Research Plan. Self-completion is a learning record, not permission to conduct research, certification or validation."
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "type": "next"
+    }
+   ]
+  }
+ ],
+ "nav": [
+  {
+   "id": "watch",
+   "label": "Watch"
+  },
+  {
+   "id": "learn",
+   "label": "Learn"
+  },
+  {
+   "id": "build",
+   "label": "Build"
+  },
+  {
+   "id": "coach",
+   "label": "Ask AI"
+  },
+  {
+   "id": "challenge",
+   "label": "Challenge"
+  },
+  {
+   "id": "quiz",
+   "label": "Knowledge check"
+  },
+  {
+   "id": "finish",
+   "label": "Deliver"
+  }
+ ]
+}

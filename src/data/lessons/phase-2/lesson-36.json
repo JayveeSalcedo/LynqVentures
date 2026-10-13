@@ -1,0 +1,828 @@
+{
+  "number": 36,
+  "phase": 2,
+  "module": "2.4",
+  "title": "Compare Evidence with Your Assumptions",
+  "hero": {
+    "eyebrow": "Module 2.4 · Making Your Validation Decision · Lesson 36",
+    "title": "Compare Evidence with Your Assumptions.",
+    "intro": "Compare your original assumptions with relevant evidence, using the original review rules and honest source limits. Record supported-within-scope, weakened, mixed or unknown assessments without turning learning into launch approval.",
+    "badges": [
+      "Beginner friendly"
+    ],
+    "meta": "35–45 min · Recommended: Lesson 35"
+  },
+  "fields": [
+    {
+      "id": "original",
+      "label": "Original assumption: ID, wording, customer/context, priority and before-test review rule",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Link anonymous evidence to the original claim; preserve unknowns and contrary information."
+    },
+    {
+      "id": "sources",
+      "label": "Evidence references: anonymous experiment/source IDs, actual/planned/rehearsal and quality",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Link anonymous evidence to the original claim; preserve unknowns and contrary information."
+    },
+    {
+      "id": "fit",
+      "label": "Evidence-to-claim fit: what each source can address, and what it cannot",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Link anonymous evidence to the original claim; preserve unknowns and contrary information."
+    },
+    {
+      "id": "supporting",
+      "label": "Supporting evidence within scope, or none/unknown; no invented findings",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Link anonymous evidence to the original claim; preserve unknowns and contrary information."
+    },
+    {
+      "id": "challenging",
+      "label": "Challenging evidence, contradictions, deviations and alternative explanations",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Link anonymous evidence to the original claim; preserve unknowns and contrary information."
+    },
+    {
+      "id": "assessment",
+      "label": "Assessment: supported within scope / weakened / mixed / unknown, with reasons",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Link anonymous evidence to the original claim; preserve unknowns and contrary information."
+    },
+    {
+      "id": "change",
+      "label": "What changed from the original belief; remaining assumptions about adoption/payment/feasibility",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Link anonymous evidence to the original claim; preserve unknowns and contrary information."
+    },
+    {
+      "id": "nextCheck",
+      "label": "Next learning action, owner/timing, permission/safeguard limits and review boundary",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Link anonymous evidence to the original claim; preserve unknowns and contrary information."
+    },
+    {
+      "id": "support",
+      "label": "Optional references or support",
+      "kind": "textarea",
+      "required": false,
+      "maxLength": 2000
+    },
+    {
+      "id": "bias",
+      "label": "Did you select only supporting sources or change the original claim/rule after seeing evidence?",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "counter",
+      "label": "Which contrary source, mismatch or alternative explanation could change your assessment?",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "constraint",
+      "label": "Which source, sample, permission or remaining-assumption limit must stay visible?",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    }
+  ],
+  "questions": [
+    {
+      "prompt": "A clarity test supports understanding. Does it establish payment?",
+      "options": [
+        "Yes",
+        "No; payment remains a separate unknown",
+        "Only if you assign a confidence score"
+      ],
+      "answer": 1,
+      "explanation": "Evidence must address the exact assumption."
+    },
+    {
+      "prompt": "Only planned tests and fictional rehearsal exist. What assessment is honest?",
+      "options": [
+        "Unknown for actual customer claims",
+        "Demand validated",
+        "Guaranteed adoption"
+      ],
+      "answer": 0,
+      "explanation": "Planned/rehearsal work does not create actual customer evidence."
+    },
+    {
+      "prompt": "What should happen when an assumption is revised?",
+      "options": [
+        "Erase the old wording",
+        "Pretend the revised claim was originally tested",
+        "Preserve original wording/rule and record the revision and reason"
+      ],
+      "answer": 2,
+      "explanation": "Maintain a traceable history instead of rewriting the test after results."
+    }
+  ],
+  "checklist": [
+    {
+      "kind": "studied",
+      "label": "Storyboard/transcript reviewed"
+    },
+    {
+      "kind": "fields",
+      "label": "Eight worksheet fields complete",
+      "ids": [
+        "original",
+        "sources",
+        "fit",
+        "supporting",
+        "challenging",
+        "assessment",
+        "change",
+        "nextCheck"
+      ]
+    },
+    {
+      "kind": "fields",
+      "label": "Three red-team reflections complete",
+      "ids": [
+        "bias",
+        "counter",
+        "constraint"
+      ]
+    },
+    {
+      "kind": "quiz",
+      "label": "Quiz 3 / 3 correct"
+    },
+    {
+      "kind": "honest",
+      "label": "Final self-review confirmed"
+    }
+  ],
+  "deliverable": {
+    "title": "LYNQ Academy — Assumption Evidence Comparison",
+    "filename": "LYNQ-Assumption-Evidence-Comparison.md",
+    "headerLines": [
+      "Phase 02 · Module {module} · Lesson {lesson}",
+      "Status: {status}"
+    ],
+    "fieldIds": [
+      "original",
+      "sources",
+      "fit",
+      "supporting",
+      "challenging",
+      "assessment",
+      "change",
+      "nextCheck"
+    ],
+    "footer": "No real AI, test execution, source verification or demand validation.",
+    "previewFooter": "This plan does not prove demand or represent completed research."
+  },
+  "sections": [
+    {
+      "id": "watch",
+      "label": "01 / WATCH",
+      "heading": "Which assumptions changed, and which remain unknown?",
+      "blocks": [
+        {
+          "type": "video",
+          "title": "Compare Evidence with Your Assumptions",
+          "subtitle": "Planned 2½-minute explainer + worksheet demo",
+          "note": "No playable video or generated media is attached."
+        },
+        {
+          "type": "storyboard",
+          "scenes": [
+            {
+              "title": "Recover the original assumption",
+              "visual": "Editable assumption ID and original-rule cards",
+              "narration": "Start with the original assumption, customer context and before-test review rule. Preserve the wording and source history. Do not rewrite an assumption after a test and claim the new wording was always tested."
+            },
+            {
+              "title": "Check source status and fit",
+              "visual": "Anonymous evidence-reference cards",
+              "narration": "Use your experiment log and customer evidence review. Actual, planned and rehearsal sources have different status. Ask whether each source addresses this exact claim. A clarity check cannot establish payment."
+            },
+            {
+              "title": "Compare support and challenge",
+              "visual": "Editable supporting/challenging columns",
+              "narration": "Record both supporting and challenging information, with context and source quality. Preserve contradictions, deviations, assistance and missingness. Do not select only the evidence that confirms your first belief."
+            },
+            {
+              "title": "Assess within scope",
+              "visual": "Supported within scope / Weakened / Mixed / Unknown cards",
+              "narration": "Choose a reasoned assessment. Supported within scope means relevant evidence supports a narrow claim. Weakened means it challenges the assumption. Mixed means sources differ. Unknown means evidence is absent or insufficient."
+            },
+            {
+              "title": "Keep uncertainty visible",
+              "visual": "Editable remaining-unknown cards",
+              "narration": "If only fictional rehearsal or planned tests exist, actual customer evidence remains unknown. Even a supported narrow claim leaves other assumptions unresolved, including adoption, payment, retention and feasibility. Avoid invented confidence scores."
+            },
+            {
+              "title": "Write the comparison",
+              "visual": "Approved actual Lesson 36 worksheet demo",
+              "narration": "Create your Assumption Evidence Comparison with original claim, sources, evidence fit, support, challenge, assessment and next action. This begins the decision module; it does not approve launch, funding or market demand."
+            }
+          ],
+          "summary": "Explore the six-scene storyboard placeholder",
+          "sceneMeta": "Planned scene {scene} · about 25 seconds in final edit"
+        },
+        {
+          "type": "transcript",
+          "scenes": [
+            {
+              "title": "Recover the original assumption",
+              "visual": "Editable assumption ID and original-rule cards",
+              "narration": "Start with the original assumption, customer context and before-test review rule. Preserve the wording and source history. Do not rewrite an assumption after a test and claim the new wording was always tested."
+            },
+            {
+              "title": "Check source status and fit",
+              "visual": "Anonymous evidence-reference cards",
+              "narration": "Use your experiment log and customer evidence review. Actual, planned and rehearsal sources have different status. Ask whether each source addresses this exact claim. A clarity check cannot establish payment."
+            },
+            {
+              "title": "Compare support and challenge",
+              "visual": "Editable supporting/challenging columns",
+              "narration": "Record both supporting and challenging information, with context and source quality. Preserve contradictions, deviations, assistance and missingness. Do not select only the evidence that confirms your first belief."
+            },
+            {
+              "title": "Assess within scope",
+              "visual": "Supported within scope / Weakened / Mixed / Unknown cards",
+              "narration": "Choose a reasoned assessment. Supported within scope means relevant evidence supports a narrow claim. Weakened means it challenges the assumption. Mixed means sources differ. Unknown means evidence is absent or insufficient."
+            },
+            {
+              "title": "Keep uncertainty visible",
+              "visual": "Editable remaining-unknown cards",
+              "narration": "If only fictional rehearsal or planned tests exist, actual customer evidence remains unknown. Even a supported narrow claim leaves other assumptions unresolved, including adoption, payment, retention and feasibility. Avoid invented confidence scores."
+            },
+            {
+              "title": "Write the comparison",
+              "visual": "Approved actual Lesson 36 worksheet demo",
+              "narration": "Create your Assumption Evidence Comparison with original claim, sources, evidence fit, support, challenge, assessment and next action. This begins the decision module; it does not approve launch, funding or market demand."
+            }
+          ],
+          "summary": "Read the full narration / transcript"
+        },
+        {
+          "type": "videoPrompt",
+          "prompt": "Create an engaging LYNQ Academy explainer and assumption-comparison demo: Module 2.4 Lesson 36 — Compare Evidence with Your Assumptions. Editorial target 150 seconds, 16:9 1080p. Navy #0B2338, teal #087D79, mint #BCF2DF, white. Diverse adults in a contemporary Dubai workspace; warm plain English narration. Fictional examples labeled Illustrative planned/rehearsal review in post. Teach original assumption/rule, source status, evidence-to-claim fit, supporting/challenging information and supported-within-scope/weakened/mixed/unknown assessments. No fabricated actual tests, confidence scores, counts, payments, traction, demand or launch-approval claims.\n\nSCENE 1: Recover the original assumption\nVisual placeholder: Editable assumption ID and original-rule cards\nNarration: Start with the original assumption, customer context and before-test review rule. Preserve the wording and source history. Do not rewrite an assumption after a test and claim the new wording was always tested.\n\nSCENE 2: Check source status and fit\nVisual placeholder: Anonymous evidence-reference cards\nNarration: Use your experiment log and customer evidence review. Actual, planned and rehearsal sources have different status. Ask whether each source addresses this exact claim. A clarity check cannot establish payment.\n\nSCENE 3: Compare support and challenge\nVisual placeholder: Editable supporting/challenging columns\nNarration: Record both supporting and challenging information, with context and source quality. Preserve contradictions, deviations, assistance and missingness. Do not select only the evidence that confirms your first belief.\n\nSCENE 4: Assess within scope\nVisual placeholder: Supported within scope / Weakened / Mixed / Unknown cards\nNarration: Choose a reasoned assessment. Supported within scope means relevant evidence supports a narrow claim. Weakened means it challenges the assumption. Mixed means sources differ. Unknown means evidence is absent or insufficient.\n\nSCENE 5: Keep uncertainty visible\nVisual placeholder: Editable remaining-unknown cards\nNarration: If only fictional rehearsal or planned tests exist, actual customer evidence remains unknown. Even a supported narrow claim leaves other assumptions unresolved, including adoption, payment, retention and feasibility. Avoid invented confidence scores.\n\nSCENE 6: Write the comparison\nVisual placeholder: Approved actual Lesson 36 worksheet demo\nNarration: Create your Assumption Evidence Comparison with original claim, sources, evidence fit, support, challenge, assessment and next action. This begins the decision module; it does not approve launch, funding or market demand.\n\nFirst provide timings, storyboard and shot prompts. Generate short shots supported by the selected Gemini/Veo account; assemble with separately recorded approved narration. Composite exact branding, captions and editable Original assumption / Evidence fit / Support / Challenge / Assessment / Unknown cards in post; no generated UI/text/logos. Record approved actual Lesson 36 worksheet with clearly fictional planned/rehearsal data. Deliver H.264 MP4, editable project, audio, transcript, VTT/SRT, thumbnail and rights/provenance. Native-reviewed Arabic narration and RTL graphics separately. Review source honesty, claim fit, privacy, pacing, audio and mobile readability. Prototype generates no video and performs no automated evidence verification.",
+          "filename": "LYNQ-Lesson-36-Gemini-Video-Prompt.md",
+          "summary": "Gemini video prompt — ready to copy"
+        },
+        {
+          "type": "studied",
+          "label": "I reviewed the storyboard or transcript."
+        }
+      ]
+    },
+    {
+      "id": "learn",
+      "label": "02 / LEARN",
+      "heading": "Compare the claim with evidence that actually fits.",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "An ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "assumption"
+                  ]
+                },
+                " is a belief that needs checking. ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "Evidence fit"
+                  ]
+                },
+                " asks whether the source addresses that exact claim. An ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "assessment"
+                  ]
+                },
+                " summarises the comparison within its scope, with reasons and limits."
+              ]
+            },
+            {
+              "tag": "ol",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Recover the original assumption, context and before-test rule."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Reference the experiment log and customer evidence review manually."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Check source status, quality and fit to this exact claim."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Record support and challenge, including contradictory or missing records."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Choose a reasoned assessment and show what changed."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Keep unresolved assumptions visible and plan the next learning action."
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "grid2"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "note"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "children": [
+                        "Four assessment choices"
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "tag": "b",
+                          "attrs": {},
+                          "children": [
+                            "Supported within scope:"
+                          ]
+                        },
+                        " relevant evidence supports a narrow claim.",
+                        {
+                          "tag": "br",
+                          "attrs": {},
+                          "children": []
+                        },
+                        {
+                          "tag": "b",
+                          "attrs": {},
+                          "children": [
+                            "Weakened:"
+                          ]
+                        },
+                        " relevant evidence challenges it.",
+                        {
+                          "tag": "br",
+                          "attrs": {},
+                          "children": []
+                        },
+                        {
+                          "tag": "b",
+                          "attrs": {},
+                          "children": [
+                            "Mixed:"
+                          ]
+                        },
+                        " sources differ.",
+                        {
+                          "tag": "br",
+                          "attrs": {},
+                          "children": []
+                        },
+                        {
+                          "tag": "b",
+                          "attrs": {},
+                          "children": [
+                            "Unknown:"
+                          ]
+                        },
+                        " evidence is absent or insufficient."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "note"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "children": [
+                        "Evidence must fit"
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "children": [
+                        "An uncoached explanation can inform clarity. A task action can inform a bounded behaviour claim. Neither automatically tests actual payment, repeat usage or feasible delivery."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "note"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "children": [
+                    "Illustrative comparison — no real results"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    "A01: relevant adults understand a registration concept without coaching. E01 is planned/not run; R01 is fictional rehearsal. Actual customer evidence: none. Assessment: unknown. Next action: resolve access/safeguards and run an appropriately permitted clarity check. Payment and adoption remain separate unknowns."
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "If a future actual clarity test supports A01, report the context and source limits; do not change the conclusion to “customers will buy.” If sources disagree, preserve that disagreement. Record revisions as new wording with a change reason rather than rewriting the original history."
+              ]
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "No numerical confidence or demand score is generated. Field presence is not evidence quality. Use anonymous summaries here, with private originals in approved secure storage. No source verification, experiment or human approval is connected."
+              ]
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "actions"
+              },
+              "children": [
+                {
+                  "tag": "lesson-link",
+                  "attrs": {
+                    "lesson": "35",
+                    "class": "btn secondary"
+                  },
+                  "children": [
+                    "Review experiment log"
+                  ]
+                },
+                {
+                  "tag": "lesson-link",
+                  "attrs": {
+                    "lesson": "30",
+                    "class": "btn secondary"
+                  },
+                  "children": [
+                    "Review customer evidence"
+                  ]
+                },
+                {
+                  "tag": "lesson-link",
+                  "attrs": {
+                    "lesson": "22",
+                    "class": "btn secondary"
+                  },
+                  "children": [
+                    "Review assumption register"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "practice",
+          "legend": "Practice: a clarity test supports understanding. Your assumption concerns payment.",
+          "prompt": "",
+          "options": [
+            {
+              "label": "Mark payment proven",
+              "feedback": "Match evidence to the exact assumption; do not infer payment or invent a confidence score."
+            },
+            {
+              "label": "Keep payment unknown; clarity evidence does not test it",
+              "feedback": "Keep payment unknown; clarity evidence addresses understanding, not an actual transaction or willingness to pay."
+            },
+            {
+              "label": "Invent a confidence score",
+              "feedback": "Match evidence to the exact assumption; do not infer payment or invent a confidence score."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "build",
+      "label": "03 / BUILD",
+      "heading": "Your Assumption Evidence Comparison.",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Compare one priority assumption with its relevant evidence. Use none/unknown if no actual research exists; planned and rehearsal sources do not create actual customer findings. Earlier drafts are not imported automatically."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "saveStatus"
+        },
+        {
+          "type": "fields",
+          "ids": [
+            "original",
+            "sources",
+            "fit",
+            "supporting",
+            "challenging",
+            "assessment",
+            "change",
+            "nextCheck",
+            "support"
+          ]
+        },
+        {
+          "type": "deliverable",
+          "previewLabel": "Preview my assumption comparison",
+          "downloadLabel": "Download Assumption Evidence Comparison"
+        },
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "note"
+              },
+              "children": [
+                "Local storage is plaintext. This comparison verifies neither source accuracy nor assessment quality. Use anonymous summaries only."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "reset",
+          "label": "Clear local draft"
+        }
+      ]
+    },
+    {
+      "id": "coach",
+      "label": "04 / ASK AI",
+      "heading": "Venture Coach · simulated",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Scripted demonstration only. No live AI, source verification, experiment execution or backend is connected."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "extension",
+          "id": "coach",
+          "props": {
+            "modes": [
+              {
+                "id": "teach",
+                "label": "Teach",
+                "response": "Preserve the original claim/rule, check source status and evidence fit, compare support and challenge, then assess within scope. Planned/rehearsal sources leave actual customer claims unknown."
+              },
+              {
+                "id": "guide",
+                "label": "Guide",
+                "response": "Preserve the original claim/rule, check source status and evidence fit, compare support and challenge, then assess within scope. Planned/rehearsal sources leave actual customer claims unknown."
+              },
+              {
+                "id": "review",
+                "label": "Review",
+                "response": "Assumption Comparison check: {missing} required fields empty. Scripted field counting cannot verify sources, evidence fit, assessments, permissions or demand."
+              },
+              {
+                "id": "challenge",
+                "label": "Challenge",
+                "response": "Preserve the original claim/rule, check source status and evidence fit, compare support and challenge, then assess within scope. Planned/rehearsal sources leave actual customer claims unknown."
+              }
+            ],
+            "initial": "teach",
+            "questionResponse": "This is a scripted demonstration, not an AI answer to your question.",
+            "countIds": [
+              "original",
+              "sources",
+              "fit",
+              "supporting",
+              "challenging",
+              "assessment",
+              "change",
+              "nextCheck"
+            ],
+            "questionLabel": "Optional question for the demonstration",
+            "submitLabel": "Show simulated guidance"
+          }
+        }
+      ]
+    },
+    {
+      "id": "challenge",
+      "label": "05 / CHALLENGE",
+      "heading": "Challenge the assumption assessment.",
+      "blocks": [
+        {
+          "type": "fields",
+          "ids": [
+            "bias",
+            "counter",
+            "constraint"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz",
+      "label": "06 / KNOWLEDGE CHECK",
+      "heading": "Check your understanding.",
+      "blocks": [
+        {
+          "type": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "label": "07 / DELIVER & PROGRESS",
+      "heading": "Your deliverable: an Assumption Evidence Comparison.",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Download the original assumption/rule, source references, fit, support, challenge, assessment, changed belief and next action. This begins Module 2.4; earlier work saves separately."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checklist"
+        },
+        {
+          "type": "honest",
+          "label": "I preserved the original claim/rule, checked evidence fit and source status, kept contrary information and unknowns visible, and limited the assessment to what the evidence addresses."
+        },
+        {
+          "type": "complete",
+          "label": "Mark Lesson 36 complete locally",
+          "completedLabel": "Lesson 36 self-completed locally",
+          "completedNotice": "Lesson 36 self-completed locally. This is not validated demand or a submitted assignment.",
+          "incompleteNotice": "Complete the remaining requirements before local self-completion."
+        },
+        {
+          "type": "extension",
+          "id": "moduleNote",
+          "props": {
+            "heading": "Module 2.4 · Making Your Validation Decision",
+            "lessons": [
+              36,
+              37,
+              38,
+              39,
+              40
+            ],
+            "complete": "All five lessons self-completed locally. Module 2.4 learning pack complete; evidence and venture approval remain separate.",
+            "incomplete": "{count} / 5 lessons self-completed locally. Complete each separately.",
+            "notes": [
+              {
+                "tag": "p",
+                "attrs": {},
+                "children": [
+                  "Self-completion records learning work, not verified sources, market demand, payment, launch or funding approval."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {
+                "class": "help"
+              },
+              "children": [
+                "Learning completion is separate from validated demand."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "next"
+        }
+      ]
+    }
+  ],
+  "nav": [
+    {
+      "id": "watch",
+      "label": "Watch"
+    },
+    {
+      "id": "learn",
+      "label": "Learn"
+    },
+    {
+      "id": "build",
+      "label": "Build"
+    },
+    {
+      "id": "coach",
+      "label": "Ask AI"
+    },
+    {
+      "id": "challenge",
+      "label": "Challenge"
+    },
+    {
+      "id": "quiz",
+      "label": "Knowledge check"
+    },
+    {
+      "id": "finish",
+      "label": "Deliver"
+    }
+  ]
+}

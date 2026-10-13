@@ -1,0 +1,625 @@
+{
+  "number": 43,
+  "phase": 3,
+  "module": "3.1",
+  "title": "Map the Customer Experience",
+  "hero": {
+    "eyebrow": "Module 3.1 · Designing the Product · Lesson 43",
+    "title": "Map the Customer Experience.",
+    "intro": "Turn Lesson 42’s essential feature set into a clear customer path, with decisions, recovery, accessibility and observable completion.",
+    "meta": "35–45 minutes · Recommended: Lessons 41–42"
+  },
+  "fields": [
+    {
+      "id": "task",
+      "label": "Customer, context, core task and references to Lessons 41–42",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "entry",
+      "label": "Entry point, trigger and starting conditions",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "steps",
+      "label": "Main path: step ID | customer action | system response | feature ID from Lesson 42",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "decisions",
+      "label": "Decision points and alternate paths with clear conditions",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "recovery",
+      "label": "Empty/error/cancel states, recovery and safe exit",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "access",
+      "label": "Accessibility, language, data needs and safeguards at each relevant step",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "success",
+      "label": "Observable completion state and acceptance checks; separate assumptions from evidence",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "handoff",
+      "label": "Scope exclusions, unresolved dependencies and handoff to Lesson 44 build strategy",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "bias",
+      "label": "Did you assume every customer follows the happy path or understands your labels?",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "counter",
+      "label": "Which alternate path, access barrier or contradictory observation could change this flow?",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "constraint",
+      "label": "Which data requirement, dependency or unresolved Validate condition blocks this path?",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    }
+  ],
+  "questions": [
+    {
+      "prompt": "What is a user flow?",
+      "options": [
+        "Proof customers want the product",
+        "A sequence of actions, responses and branches for a task",
+        "A list of every future feature"
+      ],
+      "answer": 1,
+      "explanation": "Map the task; keep evidence claims separate."
+    },
+    {
+      "prompt": "An option is unavailable. What belongs in the flow?",
+      "options": [
+        "A clear explanation, recovery or safe exit",
+        "Only the happy path",
+        "An invented successful result"
+      ],
+      "answer": 0,
+      "explanation": "Branches and recovery prevent dead ends."
+    },
+    {
+      "prompt": "What should Lesson 44 receive?",
+      "options": [
+        "A demand guarantee",
+        "Every deferred feature added back",
+        "The scoped flow, feature links, constraints and unknown dependencies"
+      ],
+      "answer": 2,
+      "explanation": "The flow informs a build approach; it does not validate one."
+    }
+  ],
+  "checklist": [
+    {
+      "kind": "studied",
+      "label": "Storyboard/transcript reviewed"
+    },
+    {
+      "kind": "fields",
+      "label": "All worksheet fields completed",
+      "ids": [
+        "task",
+        "entry",
+        "steps",
+        "decisions",
+        "recovery",
+        "access",
+        "success",
+        "handoff"
+      ]
+    },
+    {
+      "kind": "fields",
+      "label": "Challenge reflections completed",
+      "ids": [
+        "bias",
+        "counter",
+        "constraint"
+      ]
+    },
+    {
+      "kind": "quiz",
+      "label": "Knowledge check answered correctly"
+    },
+    {
+      "kind": "honest",
+      "label": "Honest self-review confirmed"
+    }
+  ],
+  "deliverable": {
+    "title": "User Flow",
+    "filename": "LYNQ-User-Flow.md",
+    "footer": ""
+  },
+  "sections": [
+    {
+      "id": "watch",
+      "label": "01 / WATCH",
+      "heading": "How does a customer complete the core task?",
+      "blocks": [
+        {
+          "type": "video",
+          "title": "User-flow explainer + diagram demo",
+          "subtitle": "No playable video is attached."
+        },
+        {
+          "type": "storyboard",
+          "scenes": [
+            {
+              "title": "Start with one task",
+              "visual": "Task card connected to Lesson 42 matrix",
+              "narration": "A user flow shows how a customer moves through a task. Start with the customer, context and essential features selected in Lesson 42. Mapping a flow does not prove demand or usability."
+            },
+            {
+              "title": "Define the entry",
+              "visual": "Trigger and start-state placeholder",
+              "narration": "Write what brings the customer here and what must already be true. In our fictional registration-route mock-up, the customer opens a sample invitation. No real registration or payment is connected."
+            },
+            {
+              "title": "Map actions and responses",
+              "visual": "Numbered action and response cards",
+              "narration": "For each step, write what the customer does and what the system shows. Connect each step to an essential feature ID. Keep the main path small and leave deferred features outside this flow."
+            },
+            {
+              "title": "Add decisions and recovery",
+              "visual": "Decision diamond, error and exit branches",
+              "narration": "A complete flow includes decisions, empty states and errors. If an option is unavailable, explain the next safe action. Include cancel and recovery paths so the customer does not reach a dead end."
+            },
+            {
+              "title": "Check access and completion",
+              "visual": "Keyboard, language and success-state placeholders",
+              "narration": "Check keyboard access, readable labels, language direction and necessary data at each relevant step. Define what successful task completion looks like. These are planned checks, not a claim that testing has passed."
+            },
+            {
+              "title": "Prepare the handoff",
+              "visual": "Approved worksheet recording placeholder",
+              "narration": "Export your user flow with step IDs, feature links, branches and unresolved dependencies. Lesson 44 uses it to choose a product-building approach. Later prototype and usability work will test these assumptions."
+            }
+          ],
+          "summary": "Six-scene storyboard placeholder and full transcript"
+        },
+        {
+          "type": "transcript",
+          "scenes": [
+            {
+              "title": "Start with one task",
+              "visual": "Task card connected to Lesson 42 matrix",
+              "narration": "A user flow shows how a customer moves through a task. Start with the customer, context and essential features selected in Lesson 42. Mapping a flow does not prove demand or usability."
+            },
+            {
+              "title": "Define the entry",
+              "visual": "Trigger and start-state placeholder",
+              "narration": "Write what brings the customer here and what must already be true. In our fictional registration-route mock-up, the customer opens a sample invitation. No real registration or payment is connected."
+            },
+            {
+              "title": "Map actions and responses",
+              "visual": "Numbered action and response cards",
+              "narration": "For each step, write what the customer does and what the system shows. Connect each step to an essential feature ID. Keep the main path small and leave deferred features outside this flow."
+            },
+            {
+              "title": "Add decisions and recovery",
+              "visual": "Decision diamond, error and exit branches",
+              "narration": "A complete flow includes decisions, empty states and errors. If an option is unavailable, explain the next safe action. Include cancel and recovery paths so the customer does not reach a dead end."
+            },
+            {
+              "title": "Check access and completion",
+              "visual": "Keyboard, language and success-state placeholders",
+              "narration": "Check keyboard access, readable labels, language direction and necessary data at each relevant step. Define what successful task completion looks like. These are planned checks, not a claim that testing has passed."
+            },
+            {
+              "title": "Prepare the handoff",
+              "visual": "Approved worksheet recording placeholder",
+              "narration": "Export your user flow with step IDs, feature links, branches and unresolved dependencies. Lesson 44 uses it to choose a product-building approach. Later prototype and usability work will test these assumptions."
+            }
+          ]
+        },
+        {
+          "type": "videoPrompt",
+          "prompt": "Create a beginner-friendly LYNQ 2D animated explainer with a user-flow diagram demo for Phase 03 Build, Module 3.1 Designing the Product, Lesson 43 — Map the Customer Experience. Target 2–4 minutes, 16:9 1080p. Navy #0B2338, teal #087D79, white and mint accents. Warm clear English narration; minimal clutter, no talking avatar. Show fictional planned registration-route mock-up, labeled Illustrative planned example. Connect Lesson 42 essential feature IDs to customer actions and system responses; finish with Lesson 44 build-strategy handoff.\n\nSCENE 1 (~25 seconds; final timing follows narration)\nStoryboard placeholder: Start with one task — Task card connected to Lesson 42 matrix\nNarration: A user flow shows how a customer moves through a task. Start with the customer, context and essential features selected in Lesson 42. Mapping a flow does not prove demand or usability.\n\nSCENE 2 (~25 seconds; final timing follows narration)\nStoryboard placeholder: Define the entry — Trigger and start-state placeholder\nNarration: Write what brings the customer here and what must already be true. In our fictional registration-route mock-up, the customer opens a sample invitation. No real registration or payment is connected.\n\nSCENE 3 (~25 seconds; final timing follows narration)\nStoryboard placeholder: Map actions and responses — Numbered action and response cards\nNarration: For each step, write what the customer does and what the system shows. Connect each step to an essential feature ID. Keep the main path small and leave deferred features outside this flow.\n\nSCENE 4 (~25 seconds; final timing follows narration)\nStoryboard placeholder: Add decisions and recovery — Decision diamond, error and exit branches\nNarration: A complete flow includes decisions, empty states and errors. If an option is unavailable, explain the next safe action. Include cancel and recovery paths so the customer does not reach a dead end.\n\nSCENE 5 (~25 seconds; final timing follows narration)\nStoryboard placeholder: Check access and completion — Keyboard, language and success-state placeholders\nNarration: Check keyboard access, readable labels, language direction and necessary data at each relevant step. Define what successful task completion looks like. These are planned checks, not a claim that testing has passed.\n\nSCENE 6 (~25 seconds; final timing follows narration)\nStoryboard placeholder: Prepare the handoff — Approved worksheet recording placeholder\nNarration: Export your user flow with step IDs, feature links, branches and unresolved dependencies. Lesson 44 uses it to choose a product-building approach. Later prototype and usability work will test these assumptions.\n\nReturn script, timings, storyboard, separate short-shot Gemini/Veo prompts, editor overlay text, voice instructions, captions/transcript, thumbnail, assembly and QA checklist. Generate supported short clips separately and assemble; composite exact arrows, labels, UI and brand in post. Actual approved worksheet recording is a production placeholder. Include entry, action/response, decision, unavailable-option recovery, cancel and success. Do not invent research, real transactions, working integrations or tested usability. Deliver editable project, MP4, audio, VTT/SRT, transcript and asset rights/provenance. Native-reviewed Arabic narration and RTL layouts require separate production review. This prompt does not generate a video in the Academy.",
+          "filename": "LYNQ-Lesson-43-Gemini-Video-Prompt.md",
+          "summary": "Gemini video prompt — ready to copy"
+        },
+        {
+          "type": "studied",
+          "label": "I reviewed the storyboard/transcript."
+        }
+      ]
+    },
+    {
+      "id": "learn",
+      "label": "02 / LEARN",
+      "heading": "Show the path from entry to completion.",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "A ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "user flow"
+                  ]
+                },
+                " maps one task through customer actions, system responses and branches. An ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "entry point"
+                  ]
+                },
+                " starts the task. A ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "decision"
+                  ]
+                },
+                " changes the path. A ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "recovery state"
+                  ]
+                },
+                " helps someone continue or exit safely."
+              ]
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "Objective:"
+                  ]
+                },
+                " create a scoped flow connected to your essential features. ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "Why it matters:"
+                  ]
+                },
+                " features alone do not explain how someone completes a task or what happens when something goes wrong."
+              ]
+            },
+            {
+              "tag": "ol",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Review your Lesson 41 MVP scope and Lesson 42 essential features."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Identify the customer, trigger, entry point and starting conditions."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Number each customer action and system response; link feature IDs."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Add decisions, alternate paths, empty/error states, cancel and recovery."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Check accessibility, language and necessary data at relevant steps."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Define completion and unresolved dependencies for Lesson 44."
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "note"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "children": [
+                    "Fictional example: registration-route mock-up"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    "Invitation → sample event details (F01) → choose available route (F02) → review destination (F03). If no route is available, show an explanation and return/exit choice. Cancel returns to details without pretending to save a registration. Success means the correct sample destination is shown. Loyalty points and payment remain excluded. This flow is planned and untested."
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "A flow describes behaviour; a screen wireframe describes layout. This lesson creates the flow. Lesson 45 creates a prototype, and Lesson 46 tests usability. Keep customer evidence, technical feasibility and privacy obligations explicitly unresolved where they are unknown."
+              ]
+            },
+            {
+              "tag": "lesson-link",
+              "attrs": {
+                "lesson": "42",
+                "class": "btn secondary"
+              },
+              "children": [
+                "Review Lesson 42 feature priorities"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "practice",
+          "prompt": "Practice: the selected route is unavailable.",
+          "options": [
+            {
+              "label": "Hide the problem and continue",
+              "feedback": "Hiding failure creates a dead end; map recovery explicitly."
+            },
+            {
+              "label": "Explain and offer recovery or exit",
+              "feedback": "Explain the unavailable state and give a clear recovery or safe exit."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "build",
+      "label": "03 / BUILD",
+      "heading": "Your User Flow.",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Map one core task. Use numbered rows and arrows in text: S01 | open invitation | show details | F01 → S02. Record each branch with its condition and destination. You can draw a diagram separately; this prototype saves structured text."
+              ]
+            },
+            {
+              "tag": "p",
+              "attrs": {
+                "class": "muted"
+              },
+              "children": [
+                "Local autosave only; plaintext browser storage. Use anonymous planning notes."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "saveStatus"
+        },
+        {
+          "type": "fields",
+          "ids": [
+            "task",
+            "entry",
+            "steps",
+            "decisions",
+            "recovery",
+            "access",
+            "success",
+            "handoff"
+          ]
+        },
+        {
+          "type": "extension",
+          "id": "brief",
+          "props": {
+            "previewLabel": "Preview my user flow",
+            "downloadLabel": "Download User Flow"
+          }
+        },
+        {
+          "type": "reset",
+          "label": "Clear local draft"
+        }
+      ]
+    },
+    {
+      "id": "coach",
+      "label": "04 / ASK AI",
+      "heading": "AI Coach · simulated",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Fixed scripted demonstration; no AI/backend. Cannot verify feasibility, permissions, evidence or readiness."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "extension",
+          "id": "coach",
+          "props": {
+            "modes": [
+              {
+                "id": "teach",
+                "label": "Teach Me",
+                "response": "Simulated teach guidance: review your task, entry, feature-linked actions/responses, decision conditions, recovery, accessibility and completion. This fixed response does not assess your flow or verify evidence."
+              },
+              {
+                "id": "guide",
+                "label": "Guide Me",
+                "response": "Simulated guide guidance: review your task, entry, feature-linked actions/responses, decision conditions, recovery, accessibility and completion. This fixed response does not assess your flow or verify evidence."
+              },
+              {
+                "id": "review",
+                "label": "Review My Work",
+                "response": "Scripted field check: {missing} required fields empty. Counts only; no source or feasibility verification."
+              },
+              {
+                "id": "challenge",
+                "label": "Challenge My Idea",
+                "response": "Simulated challenge guidance: review your task, entry, feature-linked actions/responses, decision conditions, recovery, accessibility and completion. This fixed response does not assess your flow or verify evidence."
+              }
+            ],
+            "question": {
+              "label": "Your question",
+              "button": "Ask simulated Coach",
+              "response": "Scripted demonstration, not an AI answer to your question. Keep the scope bounded and honour Validate conditions."
+            },
+            "initial": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "challenge",
+      "label": "05 / CHALLENGE",
+      "heading": "Challenge",
+      "blocks": [
+        {
+          "type": "fields",
+          "ids": [
+            "bias",
+            "counter",
+            "constraint"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz",
+      "label": "06 / KNOWLEDGE CHECK",
+      "heading": "Knowledge check",
+      "blocks": [
+        {
+          "type": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "deliver",
+      "label": "07 / DELIVER & PROGRESS",
+      "heading": "Deliver your User Flow.",
+      "blocks": [
+        {
+          "type": "checklist"
+        },
+        {
+          "type": "honest",
+          "label": "I linked the flow to essential features, included branches/recovery/access checks and kept assumptions, exclusions and dependencies visible."
+        },
+        {
+          "type": "complete",
+          "label": "Mark Lesson 43 complete locally",
+          "completedNotice": "Lesson 43 self-completed locally.",
+          "incompleteNotice": "Complete remaining requirements before self-completing."
+        },
+        {
+          "type": "extension",
+          "id": "moduleStatus",
+          "props": {
+            "module": "3.1",
+            "text": " / 5 self-completed locally. All 20 Build lessons are available. Learning completion is separate from venture readiness; Phase 04 continues with Lesson 61."
+          }
+        },
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Self-completion records planning, not actual build, verified evidence, demand or production approval."
+              ]
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Next: ",
+                {
+                  "tag": "lesson-link",
+                  "attrs": {
+                    "lesson": "44",
+                    "class": "btn secondary"
+                  },
+                  "children": [
+                    "Lesson 44 — Choose Your Product-Building Approach"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

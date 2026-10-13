@@ -1,0 +1,267 @@
+{
+  "phase": 2,
+  "title": "Phase 02 · Validate",
+  "hero": {
+    "eyebrow": "Phase 02 · Validate",
+    "title": "Turn assumptions into better decisions.",
+    "intro": "Gather evidence through small, ethical checks. Validation is a learning process, not a guarantee of demand or success."
+  },
+  "modules": [
+    {
+      "code": "2.1",
+      "title": "Designing Your Validation",
+      "lessons": [
+        {
+          "number": 21,
+          "title": "What Validation Actually Means",
+          "summary": "Choose a priority assumption and plan a claim-specific check. Your deliverable is a Validation Starting Brief."
+        },
+        {
+          "number": 22,
+          "title": "Identify Your Riskiest Assumptions",
+          "summary": "Expose the claims your opportunity depends on. Your deliverable is an Assumption Register with evidence status, consequences if wrong, and candidate risks."
+        },
+        {
+          "number": 23,
+          "title": "Prioritise What to Test First",
+          "summary": "Compare candidate assumptions, identify a feasible first learning priority, and record why it comes before other checks. Your deliverable is a Validation Priority Plan."
+        },
+        {
+          "number": 24,
+          "title": "Design a Small Validation Experiment",
+          "summary": "Turn your first learning priority into a bounded experiment design. Define the question, method, signals, limits, permissions and decision rule before running anything."
+        },
+        {
+          "number": 25,
+          "title": "Your Validation Test Plan",
+          "summary": "Organise your experiment design into a practical plan with responsibilities, permissions, evidence recording, stop conditions and a review decision. Planned work stays distinct from results."
+        }
+      ]
+    },
+    {
+      "code": "2.2",
+      "title": "Learning from Customers",
+      "lessons": [
+        {
+          "number": 26,
+          "title": "Prepare Neutral Customer Conversations",
+          "summary": "Prepare a conversation guide that explores recent experiences without pitching or leading the answer. Keep consent, evidence limits and anonymous notes clear."
+        },
+        {
+          "number": 27,
+          "title": "Recruit Relevant Participants Ethically",
+          "summary": "Plan how to invite relevant adults voluntarily, check fit without collecting unnecessary details, and record access honestly. This lesson prepares recruitment; it sends no invitations."
+        },
+        {
+          "number": 28,
+          "title": "Run and Record Customer Conversations",
+          "summary": "Practise a respectful customer conversation and record anonymous notes with clear source status. Use a labeled rehearsal when no permitted real conversation has occurred."
+        },
+        {
+          "number": 29,
+          "title": "Separate Findings from Interpretation",
+          "summary": "Organise source-backed findings, distinguish them from your explanations, and preserve contradictions and uncertainty. Rehearsal material stays practice, not customer evidence."
+        },
+        {
+          "number": 30,
+          "title": "Your Customer Evidence Review",
+          "summary": "Bring your customer-learning work into one bounded review. Decide what to keep, revise, investigate or pause, and hand off an honest next test without claiming demand is validated."
+        }
+      ]
+    },
+    {
+      "code": "2.3",
+      "title": "Testing Value and Behaviour",
+      "lessons": [
+        {
+          "number": 31,
+          "title": "Test Your Value Proposition",
+          "summary": "Turn a proposed customer benefit into one clear, testable claim. Plan a small, honest check of understanding, relevance or behaviour without treating compliments as adoption or payment."
+        },
+        {
+          "number": 32,
+          "title": "Choose a Simple Test Format",
+          "summary": "Compare simple formats and choose one that fits your claim, access and resources. Define what the test can reveal, what it cannot, and when to stop before building or running it."
+        },
+        {
+          "number": 33,
+          "title": "Measure Behaviour Without Overclaiming",
+          "summary": "Define an observable action, a clear counting rule and a bounded interpretation. Keep planned metrics separate from actual results, and distinguish prototype actions from adoption, retention or payment."
+        },
+        {
+          "number": 34,
+          "title": "Explore Commitment and Payment Assumptions",
+          "summary": "Distinguish interest, time commitment, stated price preference and actual payment. Plan one transparent, voluntary check with clear offer limits and honest evidence status."
+        },
+        {
+          "number": 35,
+          "title": "Your Experiment Evidence Log",
+          "summary": "Bring the claim, format, measurement and commitment work into one traceable log. Keep plans, actual records, rehearsal examples, deviations and interpretations clearly separated."
+        }
+      ]
+    },
+    {
+      "code": "2.4",
+      "title": "Making the Validation Decision",
+      "lessons": [
+        {
+          "number": 36,
+          "title": "Compare Evidence with Your Assumptions",
+          "summary": "Compare your original assumptions with relevant evidence, using the original review rules and honest source limits. Record supported-within-scope, weakened, mixed or unknown assessments without turning learning into launch approval."
+        },
+        {
+          "number": 37,
+          "title": "Refine Your Offer and Focus",
+          "summary": "Use the assumption comparison to choose a bounded refinement to your customer focus, promise or scope. Preserve the original version, explain the change and plan a new check without calling the revised offer validated."
+        },
+        {
+          "number": 38,
+          "title": "Review Feasibility and Remaining Risks",
+          "summary": "Review what delivery would require and what could still fail. Separate known constraints from unknowns, assign owners and checks, and keep unresolved blockers visible before any venture decision."
+        },
+        {
+          "number": 39,
+          "title": "Build Your Validation Brief",
+          "summary": "Bring the validation learning pack into a concise, source-linked brief. Keep findings, proposals, unknowns and unresolved risks visible before the checkpoint."
+        },
+        {
+          "number": 40,
+          "title": "Validate Checkpoint: Proceed, Iterate or Pause",
+          "summary": "Make a reasoned proceed, iterate or pause decision within the evidence and readiness limits. Learning completion is separate from approval to build, launch, collect money or claim demand."
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Validate overview",
+      "nodes": [
+        {
+          "tag": "div",
+          "attrs": {
+            "class": "actions"
+          },
+          "children": [
+            {
+              "tag": "phase-link",
+              "attrs": {
+                "phase": "1",
+                "class": "secondary"
+              },
+              "children": [
+                "Open Discover prototype"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "attrs": {
+            "class": "grid3"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "card stat"
+              },
+              "children": [
+                {
+                  "tag": "small",
+                  "attrs": {},
+                  "children": [
+                    "Current deliverable"
+                  ]
+                },
+                {
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    "Validation Starting Brief"
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "card stat"
+              },
+              "children": [
+                {
+                  "tag": "small",
+                  "attrs": {},
+                  "children": [
+                    "Prototype scope"
+                  ]
+                },
+                {
+                  "tag": "strong",
+                  "attrs": {},
+                  "children": [
+                    "Lessons 21–40 available"
+                  ]
+                },
+                {
+                  "tag": "small",
+                  "attrs": {},
+                  "children": [
+                    "All 20 Validate lessons available"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Your proposed Validate roadmap",
+      "nodes": [
+        {
+          "tag": "p",
+          "attrs": {
+            "class": "muted"
+          },
+          "children": [
+            "Four modules, five lessons each. This Phase 02 sequence is a draft for review. Lessons 21–40 are interactive."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Bring your Discover decision",
+      "nodes": [
+        {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+            "Manually review your decision record. Go means further testing; refine or pause remain valid. Discover drafts are not imported, verified or merged automatically. Separate saving protects earlier work."
+          ]
+        }
+      ]
+    }
+  ],
+  "moduleStatus": {
+    "2.1": {
+      "complete": "All five lessons self-completed locally. Module 2.1 learning pack complete; execution, permission and validation remain separate.",
+      "incomplete": "Complete each separately to finish the learning module."
+    },
+    "2.2": {
+      "complete": "All five lessons self-completed locally. Module 2.2 learning pack complete; source verification, demand and venture approval remain separate.",
+      "incomplete": "Complete each separately; evidence verification remains separate."
+    },
+    "2.3": {
+      "complete": "All five lessons self-completed locally. Module 2.3 learning pack complete; execution, evidence verification, demand and venture approval remain separate.",
+      "incomplete": "Complete each separately to close the learning module."
+    },
+    "2.4": {
+      "complete": "All five lessons self-completed locally. Module 2.4 learning pack complete; evidence and venture approval remain separate.",
+      "incomplete": "Complete each separately."
+    }
+  },
+  "phaseStatus": {
+    "complete": "All 20 Validate lessons self-completed locally. Phase 02 learning pack complete. Decision, evidence verification, demand and production approval remain separate.",
+    "incomplete": "Phase 02 learning pack requires all 20 lessons separately. Decision choice does not certify demand or approve launch."
+  }
+}

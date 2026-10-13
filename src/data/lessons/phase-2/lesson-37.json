@@ -1,0 +1,753 @@
+{
+  "number": 37,
+  "phase": 2,
+  "module": "2.4",
+  "title": "Refine Your Offer and Focus",
+  "hero": {
+    "eyebrow": "Module 2.4 · Making Your Validation Decision · Lesson 37",
+    "title": "Refine Your Offer and Focus.",
+    "intro": "Use the assumption comparison to choose a bounded refinement to your customer focus, promise or scope. Preserve the original version, explain the change and plan a new check without calling the revised offer validated.",
+    "badges": [
+      "Beginner friendly"
+    ],
+    "meta": "35–45 min · Recommended: Lesson 36"
+  },
+  "fields": [
+    {
+      "id": "baseline",
+      "label": "Original offer/version: customer/context, task, proposed benefit and scope",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Preserve versions; label proposed changes, evidence limits and the next check honestly."
+    },
+    {
+      "id": "basis",
+      "label": "Evidence/assumption references and honest status; reason to change or keep",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Preserve versions; label proposed changes, evidence limits and the next check honestly."
+    },
+    {
+      "id": "focus",
+      "label": "Chosen customer/task focus and why; what is deliberately outside scope",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Preserve versions; label proposed changes, evidence limits and the next check honestly."
+    },
+    {
+      "id": "refinement",
+      "label": "One priority refinement: keep / clarify / narrow / revise / pause, with rationale",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Preserve versions; label proposed changes, evidence limits and the next check honestly."
+    },
+    {
+      "id": "revised",
+      "label": "Revised offer/version: proposed wording, capability limits and unproven benefits",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Preserve versions; label proposed changes, evidence limits and the next check honestly."
+    },
+    {
+      "id": "tradeoffs",
+      "label": "Trade-offs, exclusions, contradictions and alternative refinements considered",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Preserve versions; label proposed changes, evidence limits and the next check honestly."
+    },
+    {
+      "id": "retest",
+      "label": "New/revised assumptions and next permitted check with before-test evidence rule",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Preserve versions; label proposed changes, evidence limits and the next check honestly."
+    },
+    {
+      "id": "handoff",
+      "label": "Owner/timing, permission/privacy and delivery constraints, change history and review boundary",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Preserve versions; label proposed changes, evidence limits and the next check honestly."
+    },
+    {
+      "id": "support",
+      "label": "Optional references or support",
+      "kind": "textarea",
+      "required": false,
+      "maxLength": 2000
+    },
+    {
+      "id": "bias",
+      "label": "Did you cherry-pick evidence or add features/promises without a tested reason?",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "counter",
+      "label": "Which contradiction, trade-off or alternative refinement could change your choice?",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "constraint",
+      "label": "Which changed assumption, delivery or permission limit needs a fresh check before execution?",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    }
+  ],
+  "questions": [
+    {
+      "prompt": "You changed audience and benefit. What should happen?",
+      "options": [
+        "Old evidence automatically validates the new offer",
+        "Record the revision and retest affected assumptions",
+        "Delete the original history"
+      ],
+      "answer": 1,
+      "explanation": "Changed assumptions need an appropriate fresh check."
+    },
+    {
+      "prompt": "No actual evidence supports the refinement. How should it be labeled?",
+      "options": [
+        "Proposed hypothesis; customer claims remain unknown",
+        "Proven improvement",
+        "Guaranteed demand"
+      ],
+      "answer": 0,
+      "explanation": "Keep proposed learning changes distinct from verified results."
+    },
+    {
+      "prompt": "What belongs in a refinement brief?",
+      "options": [
+        "Only the new marketing promise",
+        "Unsupported savings numbers",
+        "Original version, evidence basis, focus/exclusions, trade-offs and retest plan"
+      ],
+      "answer": 2,
+      "explanation": "Preserve a traceable change and its limits."
+    }
+  ],
+  "checklist": [
+    {
+      "kind": "studied",
+      "label": "Storyboard/transcript reviewed"
+    },
+    {
+      "kind": "fields",
+      "label": "Eight worksheet fields complete",
+      "ids": [
+        "baseline",
+        "basis",
+        "focus",
+        "refinement",
+        "revised",
+        "tradeoffs",
+        "retest",
+        "handoff"
+      ]
+    },
+    {
+      "kind": "fields",
+      "label": "Three red-team reflections complete",
+      "ids": [
+        "bias",
+        "counter",
+        "constraint"
+      ]
+    },
+    {
+      "kind": "quiz",
+      "label": "Quiz 3 / 3 correct"
+    },
+    {
+      "kind": "honest",
+      "label": "Final self-review confirmed"
+    }
+  ],
+  "deliverable": {
+    "title": "LYNQ Academy — Offer Refinement Brief",
+    "filename": "LYNQ-Offer-Refinement-Brief.md",
+    "headerLines": [
+      "Phase 02 · Module {module} · Lesson {lesson}",
+      "Status: {status}"
+    ],
+    "fieldIds": [
+      "baseline",
+      "basis",
+      "focus",
+      "refinement",
+      "revised",
+      "tradeoffs",
+      "retest",
+      "handoff"
+    ],
+    "footer": "No real AI, test execution, source verification or demand validation.",
+    "previewFooter": "This plan does not prove demand or represent completed research."
+  },
+  "sections": [
+    {
+      "id": "watch",
+      "label": "01 / WATCH",
+      "heading": "What should change, and what should stay focused?",
+      "blocks": [
+        {
+          "type": "video",
+          "title": "Refine Your Offer and Focus",
+          "subtitle": "Planned 2½-minute explainer + worksheet demo",
+          "note": "No playable video or generated media is attached."
+        },
+        {
+          "type": "storyboard",
+          "scenes": [
+            {
+              "title": "Recover the original offer",
+              "visual": "Original version and assumption-comparison cards",
+              "narration": "Start with the original customer, task, promise and scope. Reference the assumption comparison. Keep source status honest. If evidence is absent, say the change is a proposed hypothesis, not a proven improvement."
+            },
+            {
+              "title": "Choose a focus",
+              "visual": "Editable included/excluded context cards",
+              "narration": "Choose a specific customer and task context to explore. Explain why it fits the learning question and what is outside scope. Narrowing a focus is a learning choice; it does not prove that other customers lack the problem."
+            },
+            {
+              "title": "Change one priority element",
+              "visual": "Keep / Clarify / Narrow / Revise / Pause cards",
+              "narration": "Keep a bounded offer, clarify wording, narrow the context, revise the proposed benefit or pause unresolved work. Choose one priority change where possible so the next check is interpretable. More features do not automatically resolve weak evidence."
+            },
+            {
+              "title": "Write an honest revised offer",
+              "visual": "Version 1 / Version 2 promise cards",
+              "narration": "Label the revision and preserve the original. Explain what changed and why. Disclose prototype/manual limits and unproven benefits. Do not add unsupported speed, savings, payment or demand claims to make the offer sound stronger."
+            },
+            {
+              "title": "Review trade-offs and retest",
+              "visual": "Editable trade-off and new-assumption cards",
+              "narration": "Record what the refinement excludes and which assumptions changed. Consider contradictory sources and alternatives. A revised offer needs a new appropriate check; old evidence does not automatically validate new wording, features or audiences."
+            },
+            {
+              "title": "Build the refinement brief",
+              "visual": "Approved actual Lesson 37 worksheet demo",
+              "narration": "Create your Offer Refinement Brief with original version, evidence basis, focus, priority change, revised offer, trade-offs and retest plan. The prototype changes no live product and approves no launch."
+            }
+          ],
+          "summary": "Explore the six-scene storyboard placeholder",
+          "sceneMeta": "Planned scene {scene} · about 25 seconds in final edit"
+        },
+        {
+          "type": "transcript",
+          "scenes": [
+            {
+              "title": "Recover the original offer",
+              "visual": "Original version and assumption-comparison cards",
+              "narration": "Start with the original customer, task, promise and scope. Reference the assumption comparison. Keep source status honest. If evidence is absent, say the change is a proposed hypothesis, not a proven improvement."
+            },
+            {
+              "title": "Choose a focus",
+              "visual": "Editable included/excluded context cards",
+              "narration": "Choose a specific customer and task context to explore. Explain why it fits the learning question and what is outside scope. Narrowing a focus is a learning choice; it does not prove that other customers lack the problem."
+            },
+            {
+              "title": "Change one priority element",
+              "visual": "Keep / Clarify / Narrow / Revise / Pause cards",
+              "narration": "Keep a bounded offer, clarify wording, narrow the context, revise the proposed benefit or pause unresolved work. Choose one priority change where possible so the next check is interpretable. More features do not automatically resolve weak evidence."
+            },
+            {
+              "title": "Write an honest revised offer",
+              "visual": "Version 1 / Version 2 promise cards",
+              "narration": "Label the revision and preserve the original. Explain what changed and why. Disclose prototype/manual limits and unproven benefits. Do not add unsupported speed, savings, payment or demand claims to make the offer sound stronger."
+            },
+            {
+              "title": "Review trade-offs and retest",
+              "visual": "Editable trade-off and new-assumption cards",
+              "narration": "Record what the refinement excludes and which assumptions changed. Consider contradictory sources and alternatives. A revised offer needs a new appropriate check; old evidence does not automatically validate new wording, features or audiences."
+            },
+            {
+              "title": "Build the refinement brief",
+              "visual": "Approved actual Lesson 37 worksheet demo",
+              "narration": "Create your Offer Refinement Brief with original version, evidence basis, focus, priority change, revised offer, trade-offs and retest plan. The prototype changes no live product and approves no launch."
+            }
+          ],
+          "summary": "Read the full narration / transcript"
+        },
+        {
+          "type": "videoPrompt",
+          "prompt": "Create an engaging LYNQ Academy explainer and offer-refinement demo: Module 2.4 Lesson 37 — Refine Your Offer and Focus. Editorial target 150 seconds, 16:9 1080p. Navy #0B2338, teal #087D79, mint #BCF2DF, white. Diverse adults in a contemporary Dubai workspace; warm plain English narration. Fictional planned examples labeled Illustrative proposed refinement in post. Teach original version, evidence basis, customer/task focus, one priority change, honest revised promise, trade-offs and retesting. No fabricated evidence, validated improvement, performance, savings, payment, demand or launch claims.\n\nSCENE 1: Recover the original offer\nVisual placeholder: Original version and assumption-comparison cards\nNarration: Start with the original customer, task, promise and scope. Reference the assumption comparison. Keep source status honest. If evidence is absent, say the change is a proposed hypothesis, not a proven improvement.\n\nSCENE 2: Choose a focus\nVisual placeholder: Editable included/excluded context cards\nNarration: Choose a specific customer and task context to explore. Explain why it fits the learning question and what is outside scope. Narrowing a focus is a learning choice; it does not prove that other customers lack the problem.\n\nSCENE 3: Change one priority element\nVisual placeholder: Keep / Clarify / Narrow / Revise / Pause cards\nNarration: Keep a bounded offer, clarify wording, narrow the context, revise the proposed benefit or pause unresolved work. Choose one priority change where possible so the next check is interpretable. More features do not automatically resolve weak evidence.\n\nSCENE 4: Write an honest revised offer\nVisual placeholder: Version 1 / Version 2 promise cards\nNarration: Label the revision and preserve the original. Explain what changed and why. Disclose prototype/manual limits and unproven benefits. Do not add unsupported speed, savings, payment or demand claims to make the offer sound stronger.\n\nSCENE 5: Review trade-offs and retest\nVisual placeholder: Editable trade-off and new-assumption cards\nNarration: Record what the refinement excludes and which assumptions changed. Consider contradictory sources and alternatives. A revised offer needs a new appropriate check; old evidence does not automatically validate new wording, features or audiences.\n\nSCENE 6: Build the refinement brief\nVisual placeholder: Approved actual Lesson 37 worksheet demo\nNarration: Create your Offer Refinement Brief with original version, evidence basis, focus, priority change, revised offer, trade-offs and retest plan. The prototype changes no live product and approves no launch.\n\nFirst provide timings, storyboard and shot prompts. Generate short shots supported by the selected Gemini/Veo account; assemble with separately recorded approved narration. Composite exact brand, captions and editable Original / Evidence basis / Focus / Change / Revised proposal / Retest cards in post; no generated UI/text/logos. Record approved actual Lesson 37 worksheet with clearly fictional planned data. Deliver H.264 MP4, editable project, audio, transcript, VTT/SRT, thumbnail and rights/provenance. Native-reviewed Arabic narration and RTL graphics separately. Review claim honesty, change history, privacy, pacing, audio and mobile readability. Prototype generates no video and changes no live product.",
+          "filename": "LYNQ-Lesson-37-Gemini-Video-Prompt.md",
+          "summary": "Gemini video prompt — ready to copy"
+        },
+        {
+          "type": "studied",
+          "label": "I reviewed the storyboard or transcript."
+        }
+      ]
+    },
+    {
+      "id": "learn",
+      "label": "02 / LEARN",
+      "heading": "Refine a proposal without rewriting the evidence.",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "Focus"
+                  ]
+                },
+                " defines the customer/task context you choose to explore. A ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "refinement"
+                  ]
+                },
+                " is a deliberate change to wording, audience, proposed benefit or scope. A ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "retest"
+                  ]
+                },
+                " checks the assumptions affected by that change."
+              ]
+            },
+            {
+              "tag": "ol",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Preserve the original offer/version and its assumptions."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Review evidence fit and source status from Lesson 36."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Choose one customer/task focus and explicit exclusions."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Select a priority change: keep, clarify, narrow, revise or pause."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Write a labeled revised proposal, with capability and benefit limits."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Record trade-offs, changed assumptions and a next permitted check."
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "grid2"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "note"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "children": [
+                        "Evidence-led change"
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "children": [
+                        "When actual relevant sources challenge wording or scope, explain that connection and retain its limits. Do not generalise a narrow finding to every audience."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "note"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "children": [
+                        "Evidence still unknown"
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "children": [
+                        "A refinement can be a proposed learning hypothesis. Label it as such, keep customer claims unknown and plan a check; do not fabricate justification."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "note"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "children": [
+                    "Illustrative proposed refinement"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    "V1: “An event tool for everyone.” V2: “A proposed clear registration entry point for first-time adult visitors in this event context.” Change: narrow audience/task and clarify wording. Evidence: planned/rehearsal only; not a proven improvement. Exclusions: no payment, loyalty or full event operations. Retest: an appropriately permitted uncoached explanation check; access pending."
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Old evidence about one audience or prototype does not automatically validate a revised audience, feature or promise. Adding many features can make it harder to tell which change mattered. Preserve contradictory information and alternative refinements; include what you give up."
+              ]
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Do not add untested speed, savings or revenue numbers. Use anonymous planning notes only here. Earlier drafts are reviewed manually; no product update, evidence verification or live offer publication is connected."
+              ]
+            },
+            {
+              "tag": "lesson-link",
+              "attrs": {
+                "lesson": "36",
+                "class": "btn secondary"
+              },
+              "children": [
+                "Review assumption comparison"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "practice",
+          "legend": "Practice: you changed the audience and benefit after a test.",
+          "prompt": "",
+          "options": [
+            {
+              "label": "Call the new offer validated by the old test",
+              "feedback": "Do not erase history or treat a changed offer as validated by an old test."
+            },
+            {
+              "label": "Record the revision and retest affected assumptions",
+              "feedback": "Record the revision, preserve the original version and retest affected assumptions; old evidence does not automatically validate the new offer."
+            },
+            {
+              "label": "Delete the original offer",
+              "feedback": "Do not erase history or treat a changed offer as validated by an old test."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "build",
+      "label": "03 / BUILD",
+      "heading": "Your Offer Refinement Brief.",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Choose one priority refinement or a reasoned keep/pause decision. Keep the original version visible. If actual evidence is absent, mark the refinement proposed and customer claims unknown."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "saveStatus"
+        },
+        {
+          "type": "fields",
+          "ids": [
+            "baseline",
+            "basis",
+            "focus",
+            "refinement",
+            "revised",
+            "tradeoffs",
+            "retest",
+            "handoff",
+            "support"
+          ]
+        },
+        {
+          "type": "deliverable",
+          "previewLabel": "Preview my refinement brief",
+          "downloadLabel": "Download Offer Refinement Brief"
+        },
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "note"
+              },
+              "children": [
+                "Local storage is plaintext. This brief changes no live offer or product and verifies neither evidence nor improvement. Use anonymous planning summaries only."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "reset",
+          "label": "Clear local draft"
+        }
+      ]
+    },
+    {
+      "id": "coach",
+      "label": "04 / ASK AI",
+      "heading": "Venture Coach · simulated",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Scripted demonstration only. No live AI, source verification, experiment execution or backend is connected."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "extension",
+          "id": "coach",
+          "props": {
+            "modes": [
+              {
+                "id": "teach",
+                "label": "Teach",
+                "response": "Preserve the original offer, choose a bounded focus/priority change, disclose unproven benefits and trade-offs, then plan a fresh check of changed assumptions."
+              },
+              {
+                "id": "guide",
+                "label": "Guide",
+                "response": "Preserve the original offer, choose a bounded focus/priority change, disclose unproven benefits and trade-offs, then plan a fresh check of changed assumptions."
+              },
+              {
+                "id": "review",
+                "label": "Review",
+                "response": "Refinement Brief check: {missing} required fields empty. Scripted field counting cannot verify evidence, trade-offs, improved value, deliverability or demand."
+              },
+              {
+                "id": "challenge",
+                "label": "Challenge",
+                "response": "Preserve the original offer, choose a bounded focus/priority change, disclose unproven benefits and trade-offs, then plan a fresh check of changed assumptions."
+              }
+            ],
+            "initial": "teach",
+            "questionResponse": "This is a scripted demonstration, not an AI answer to your question.",
+            "countIds": [
+              "baseline",
+              "basis",
+              "focus",
+              "refinement",
+              "revised",
+              "tradeoffs",
+              "retest",
+              "handoff"
+            ],
+            "questionLabel": "Optional question for the demonstration",
+            "submitLabel": "Show simulated guidance"
+          }
+        }
+      ]
+    },
+    {
+      "id": "challenge",
+      "label": "05 / CHALLENGE",
+      "heading": "Challenge the refinement.",
+      "blocks": [
+        {
+          "type": "fields",
+          "ids": [
+            "bias",
+            "counter",
+            "constraint"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz",
+      "label": "06 / KNOWLEDGE CHECK",
+      "heading": "Check your understanding.",
+      "blocks": [
+        {
+          "type": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "label": "07 / DELIVER & PROGRESS",
+      "heading": "Your deliverable: an Offer Refinement Brief.",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Download the original version, evidence basis, focus, priority change, revised proposal, trade-offs, retest and handoff. Earlier work saves separately."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checklist"
+        },
+        {
+          "type": "honest",
+          "label": "I preserved the original version, kept evidence and proposed changes distinct, disclosed scope/trade-offs, and planned a fresh check of affected assumptions without claiming validated improvement."
+        },
+        {
+          "type": "complete",
+          "label": "Mark Lesson 37 complete locally",
+          "completedLabel": "Lesson 37 self-completed locally",
+          "completedNotice": "Lesson 37 self-completed locally. This is not validated demand or a submitted assignment.",
+          "incompleteNotice": "Complete the remaining requirements before local self-completion."
+        },
+        {
+          "type": "extension",
+          "id": "moduleNote",
+          "props": {
+            "heading": "Module 2.4 · Making Your Validation Decision",
+            "lessons": [
+              36,
+              37,
+              38,
+              39,
+              40
+            ],
+            "complete": "All five lessons self-completed locally. Module 2.4 learning pack complete; evidence and venture approval remain separate.",
+            "incomplete": "{count} / 5 lessons self-completed locally. Complete each separately.",
+            "notes": [
+              {
+                "tag": "p",
+                "attrs": {},
+                "children": [
+                  "Self-completion records a refinement proposal, not a product update, proven improvement, demand or launch approval."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {
+                "class": "help"
+              },
+              "children": [
+                "Learning completion is separate from validated demand."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "next"
+        }
+      ]
+    }
+  ],
+  "nav": [
+    {
+      "id": "watch",
+      "label": "Watch"
+    },
+    {
+      "id": "learn",
+      "label": "Learn"
+    },
+    {
+      "id": "build",
+      "label": "Build"
+    },
+    {
+      "id": "coach",
+      "label": "Ask AI"
+    },
+    {
+      "id": "challenge",
+      "label": "Challenge"
+    },
+    {
+      "id": "quiz",
+      "label": "Knowledge check"
+    },
+    {
+      "id": "finish",
+      "label": "Deliver"
+    }
+  ]
+}

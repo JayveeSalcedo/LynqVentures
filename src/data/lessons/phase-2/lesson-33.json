@@ -1,0 +1,762 @@
+{
+  "number": 33,
+  "phase": 2,
+  "module": "2.3",
+  "title": "Measure Behaviour Without Overclaiming",
+  "hero": {
+    "eyebrow": "Module 2.3 · Testing Value and Behaviour · Lesson 33",
+    "title": "Measure Behaviour Without Overclaiming.",
+    "intro": "Define an observable action, a clear counting rule and a bounded interpretation. Keep planned metrics separate from actual results, and distinguish prototype actions from adoption, retention or payment.",
+    "badges": [
+      "Beginner friendly"
+    ],
+    "meta": "35–45 min · Recommended: Lesson 32"
+  },
+  "fields": [
+    {
+      "id": "claimScope",
+      "label": "Claim, selected format, customer/context and planned/actual/rehearsal status",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Define consistent units; label not run, rehearsal and missing records honestly."
+    },
+    {
+      "id": "action",
+      "label": "Observable action: start/end, success, partial, failure and unknown definitions",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Define consistent units; label not run, rehearsal and missing records honestly."
+    },
+    {
+      "id": "population",
+      "label": "Eligible opportunities and denominator: unit, inclusion/exclusion and unique-source rule",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Define consistent units; label not run, rehearsal and missing records honestly."
+    },
+    {
+      "id": "capture",
+      "label": "Recording plan: anonymous code, context, action, assistance, outcome, missingness and authorised source",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Define consistent units; label not run, rehearsal and missing records honestly."
+    },
+    {
+      "id": "counts",
+      "label": "Planned count template or actual bounded counts; mark not run/unknown instead of inventing results",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Define consistent units; label not run, rehearsal and missing records honestly."
+    },
+    {
+      "id": "quality",
+      "label": "Data quality: duplicates, missing records, facilitator help, instrumentation and selection limits",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Define consistent units; label not run, rehearsal and missing records honestly."
+    },
+    {
+      "id": "interpret",
+      "label": "Allowed interpretation, unsupported adoption/retention/payment claims and alternative explanations",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Define consistent units; label not run, rehearsal and missing records honestly."
+    },
+    {
+      "id": "reviewPlan",
+      "label": "Before-test review rule, stop conditions, owner, timing and privacy/permission review",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Define consistent units; label not run, rehearsal and missing records honestly."
+    },
+    {
+      "id": "support",
+      "label": "Optional references or support",
+      "kind": "textarea",
+      "required": false,
+      "maxLength": 2000
+    },
+    {
+      "id": "bias",
+      "label": "Could duplicate attempts, assistance or selective exclusions inflate your result?",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "counter",
+      "label": "How could missing records, a different context or alternative explanation change the interpretation?",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "constraint",
+      "label": "Which source, permission, counting or sample limit must be resolved or reported?",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    }
+  ],
+  "questions": [
+    {
+      "prompt": "Two of four eligible people complete a prototype task. What is justified?",
+      "options": [
+        "Half the market will buy",
+        "A bounded task count with sample/context limits",
+        "Proven retention"
+      ],
+      "answer": 1,
+      "explanation": "Report the defined count and its scope; do not generalise it to the market."
+    },
+    {
+      "prompt": "The test has not run. What count status is honest?",
+      "options": [
+        "Not run; prepare a blank template",
+        "Zero measured successes",
+        "Invent a plausible number"
+      ],
+      "answer": 0,
+      "explanation": "Absence of a test is not a measured zero."
+    },
+    {
+      "prompt": "What should happen to assisted completions and missing records?",
+      "options": [
+        "Hide them",
+        "Treat all as unassisted success",
+        "Label them separately and explain how they limit interpretation"
+      ],
+      "answer": 2,
+      "explanation": "Preserve assistance and missingness rather than inflating the outcome."
+    }
+  ],
+  "checklist": [
+    {
+      "kind": "studied",
+      "label": "Storyboard/transcript reviewed"
+    },
+    {
+      "kind": "fields",
+      "label": "Eight worksheet fields complete",
+      "ids": [
+        "claimScope",
+        "action",
+        "population",
+        "capture",
+        "counts",
+        "quality",
+        "interpret",
+        "reviewPlan"
+      ]
+    },
+    {
+      "kind": "fields",
+      "label": "Three red-team reflections complete",
+      "ids": [
+        "bias",
+        "counter",
+        "constraint"
+      ]
+    },
+    {
+      "kind": "quiz",
+      "label": "Quiz 3 / 3 correct"
+    },
+    {
+      "kind": "honest",
+      "label": "Final self-review confirmed"
+    }
+  ],
+  "deliverable": {
+    "title": "LYNQ Academy — Behaviour Measurement Plan",
+    "filename": "LYNQ-Behaviour-Measurement-Plan.md",
+    "headerLines": [
+      "Phase 02 · Module {module} · Lesson {lesson}",
+      "Status: {status}"
+    ],
+    "fieldIds": [
+      "claimScope",
+      "action",
+      "population",
+      "capture",
+      "counts",
+      "quality",
+      "interpret",
+      "reviewPlan"
+    ],
+    "footer": "No real AI, test execution, source verification or demand validation.",
+    "previewFooter": "This plan does not prove demand or represent completed research."
+  },
+  "sections": [
+    {
+      "id": "watch",
+      "label": "01 / WATCH",
+      "heading": "What happened, and how far can your claim go?",
+      "blocks": [
+        {
+          "type": "video",
+          "title": "Measure Behaviour Without Overclaiming",
+          "subtitle": "Planned 2½-minute explainer + worksheet demo",
+          "note": "No playable video or generated media is attached."
+        },
+        {
+          "type": "storyboard",
+          "scenes": [
+            {
+              "title": "Define the action",
+              "visual": "Editable task start/end cards",
+              "narration": "Begin with the claim and selected test format. Define an observable action with a start and end. A participant saying they would use something is a reported intention, not an action performed."
+            },
+            {
+              "title": "Define what you count",
+              "visual": "Editable numerator and denominator cards",
+              "narration": "Choose the unit and eligible opportunity before testing. Count unique participants or attempts consistently, not a mixture. State inclusion, exclusions and missing records. The denominator is part of the meaning of every count."
+            },
+            {
+              "title": "Capture context and assistance",
+              "visual": "Anonymous task-note columns",
+              "narration": "Record the action, context, assistance and source quality using an approved method. An assisted completion is different from an unassisted one. Keep failed, partial, abandoned and unknown outcomes visible."
+            },
+            {
+              "title": "Use bounded examples",
+              "visual": "Fictional 2 of 4 task-completion cards",
+              "narration": "In a fictional rehearsal, two of four eligible unique participants complete a prototype task without help. That describes this small simulated task only. It does not establish a market percentage, real adoption or willingness to pay."
+            },
+            {
+              "title": "Keep plans separate from results",
+              "visual": "Not run / rehearsal / actual status cards",
+              "narration": "If the test has not run, write not run and prepare a blank counting template. Do not enter zero as if it were a measured result. Rehearsal numbers stay fictional practice. Missing data is not automatically a failure or a success."
+            },
+            {
+              "title": "Write the measurement plan",
+              "visual": "Approved actual Lesson 33 worksheet demo",
+              "narration": "Create your Behaviour Measurement Plan with action definitions, denominator, capture method, count status, quality limits and a prior review rule. The prototype collects no analytics and runs no test. Payment, repeated use and retention need separate evidence."
+            }
+          ],
+          "summary": "Explore the six-scene storyboard placeholder",
+          "sceneMeta": "Planned scene {scene} · about 25 seconds in final edit"
+        },
+        {
+          "type": "transcript",
+          "scenes": [
+            {
+              "title": "Define the action",
+              "visual": "Editable task start/end cards",
+              "narration": "Begin with the claim and selected test format. Define an observable action with a start and end. A participant saying they would use something is a reported intention, not an action performed."
+            },
+            {
+              "title": "Define what you count",
+              "visual": "Editable numerator and denominator cards",
+              "narration": "Choose the unit and eligible opportunity before testing. Count unique participants or attempts consistently, not a mixture. State inclusion, exclusions and missing records. The denominator is part of the meaning of every count."
+            },
+            {
+              "title": "Capture context and assistance",
+              "visual": "Anonymous task-note columns",
+              "narration": "Record the action, context, assistance and source quality using an approved method. An assisted completion is different from an unassisted one. Keep failed, partial, abandoned and unknown outcomes visible."
+            },
+            {
+              "title": "Use bounded examples",
+              "visual": "Fictional 2 of 4 task-completion cards",
+              "narration": "In a fictional rehearsal, two of four eligible unique participants complete a prototype task without help. That describes this small simulated task only. It does not establish a market percentage, real adoption or willingness to pay."
+            },
+            {
+              "title": "Keep plans separate from results",
+              "visual": "Not run / rehearsal / actual status cards",
+              "narration": "If the test has not run, write not run and prepare a blank counting template. Do not enter zero as if it were a measured result. Rehearsal numbers stay fictional practice. Missing data is not automatically a failure or a success."
+            },
+            {
+              "title": "Write the measurement plan",
+              "visual": "Approved actual Lesson 33 worksheet demo",
+              "narration": "Create your Behaviour Measurement Plan with action definitions, denominator, capture method, count status, quality limits and a prior review rule. The prototype collects no analytics and runs no test. Payment, repeated use and retention need separate evidence."
+            }
+          ],
+          "summary": "Read the full narration / transcript"
+        },
+        {
+          "type": "videoPrompt",
+          "prompt": "Create an engaging LYNQ Academy explainer and measurement demo: Module 2.3 Lesson 33 — Measure Behaviour Without Overclaiming. Editorial target 150 seconds, 16:9 1080p. Navy #0B2338, teal #087D79, mint #BCF2DF, white. Diverse adults in a contemporary Dubai workspace; warm plain English narration. All numerical examples fictional and labeled Illustrative rehearsal in post. Teach observable action, counting unit, numerator/denominator, assistance, unknown/missing records, source quality and bounded interpretation. No fabricated real analytics, market percentages, adoption, retention or payment claims.\n\nSCENE 1: Define the action\nVisual placeholder: Editable task start/end cards\nNarration: Begin with the claim and selected test format. Define an observable action with a start and end. A participant saying they would use something is a reported intention, not an action performed.\n\nSCENE 2: Define what you count\nVisual placeholder: Editable numerator and denominator cards\nNarration: Choose the unit and eligible opportunity before testing. Count unique participants or attempts consistently, not a mixture. State inclusion, exclusions and missing records. The denominator is part of the meaning of every count.\n\nSCENE 3: Capture context and assistance\nVisual placeholder: Anonymous task-note columns\nNarration: Record the action, context, assistance and source quality using an approved method. An assisted completion is different from an unassisted one. Keep failed, partial, abandoned and unknown outcomes visible.\n\nSCENE 4: Use bounded examples\nVisual placeholder: Fictional 2 of 4 task-completion cards\nNarration: In a fictional rehearsal, two of four eligible unique participants complete a prototype task without help. That describes this small simulated task only. It does not establish a market percentage, real adoption or willingness to pay.\n\nSCENE 5: Keep plans separate from results\nVisual placeholder: Not run / rehearsal / actual status cards\nNarration: If the test has not run, write not run and prepare a blank counting template. Do not enter zero as if it were a measured result. Rehearsal numbers stay fictional practice. Missing data is not automatically a failure or a success.\n\nSCENE 6: Write the measurement plan\nVisual placeholder: Approved actual Lesson 33 worksheet demo\nNarration: Create your Behaviour Measurement Plan with action definitions, denominator, capture method, count status, quality limits and a prior review rule. The prototype collects no analytics and runs no test. Payment, repeated use and retention need separate evidence.\n\nFirst provide timings, storyboard and shot prompts. Generate short shots supported by the selected Gemini/Veo account and assemble with approved separately recorded narration. Add exact branding, captions and editable Action / Unit / Eligible opportunities / Assistance / Unknown / Scope cards in post. No generated UI/text/logos. Record approved actual Lesson 33 worksheet with fictional rehearsal or planned data, clearly labeled. Deliver H.264 MP4, editable project, audio, transcript, VTT/SRT, thumbnail and rights/provenance. Native-reviewed Arabic narration and RTL graphics separately. Review counting consistency, source honesty, privacy, pacing, audio and mobile readability. Prototype generates no video and collects no behavioural analytics.",
+          "filename": "LYNQ-Lesson-33-Gemini-Video-Prompt.md",
+          "summary": "Gemini video prompt — ready to copy"
+        },
+        {
+          "type": "studied",
+          "label": "I reviewed the storyboard or transcript."
+        }
+      ]
+    },
+    {
+      "id": "learn",
+      "label": "02 / LEARN",
+      "heading": "Count a defined action, in a defined context.",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "An ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "observable action"
+                  ]
+                },
+                " is something a person actually does. The ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "numerator"
+                  ]
+                },
+                " counts the defined outcome; the ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "denominator"
+                  ]
+                },
+                " counts eligible opportunities using the same unit. ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "Missing"
+                  ]
+                },
+                " means you lack a usable record, not that the action succeeded or failed."
+              ]
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "grid2"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "note"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "children": [
+                        "Action versus intention"
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "children": [
+                        "“I would use it” is a reported intention. Selecting the correct route in a prototype task is an observed action in that test. Neither automatically establishes actual adoption or payment."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "note"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "children": [
+                        "Assistance matters"
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "children": [
+                        "Record whether the facilitator coached or helped. Separate unassisted success from assisted completion, partial, failure, abandonment and unknown."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "ol",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Bring the claim and format from Lesson 32."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Define action start/end and outcome categories before testing."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Choose a consistent counting unit and eligible denominator."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Plan anonymous records, context, assistance and source references."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Preserve duplicate, missing and excluded-record information."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Interpret only within the actual source, task and sample scope."
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "note"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "children": [
+                    "Fictional counting example — practice only"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    "Five unique role-play participants are listed. Four have a known eligible task opportunity; one lacks a usable opportunity record and is separately marked unknown. Of the four known opportunities, two complete unassisted, one completes with help and one does not complete. Report “2 of 4 known eligible participants completed unassisted; 1 opportunity record unknown.” Explain how the unknown could affect the result. Do not claim half the market will adopt."
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Multiple clicks or attempts by one person are not multiple unique participants. If attempts are your unit, label them as attempts. Predefine inclusion/exclusion and report missingness; do not drop awkward records to improve the result. A small convenience test does not estimate a market-wide conversion rate."
+              ]
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "If no test ran, counts are “not run,” not measured zeros. Prepare a blank count template. Keep rehearsal values fictional. No tracking SDK, analytics, task recording or experiment is connected here; use anonymous planning notes only."
+              ]
+            },
+            {
+              "tag": "lesson-link",
+              "attrs": {
+                "lesson": "32",
+                "class": "btn secondary"
+              },
+              "children": [
+                "Review format selection brief"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "practice",
+          "legend": "Practice: two of four eligible people complete a fictional prototype task unassisted.",
+          "prompt": "",
+          "options": [
+            {
+              "label": "Half the market will buy",
+              "feedback": "A prototype task count does not establish market-wide purchase or retention."
+            },
+            {
+              "label": "Report the bounded task count and its limits",
+              "feedback": "Report the bounded task count, context and limits; fictional rehearsal supplies no actual customer evidence."
+            },
+            {
+              "label": "Call it proven retention",
+              "feedback": "A prototype task count does not establish market-wide purchase or retention."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "build",
+      "label": "03 / BUILD",
+      "heading": "Your Behaviour Measurement Plan.",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Prepare a measurement plan for one action. If no actual test ran, use a blank counting template and “not run.” Any practice numbers stay labeled fictional. Review the earlier brief manually."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "saveStatus"
+        },
+        {
+          "type": "fields",
+          "ids": [
+            "claimScope",
+            "action",
+            "population",
+            "capture",
+            "counts",
+            "quality",
+            "interpret",
+            "reviewPlan",
+            "support"
+          ]
+        },
+        {
+          "type": "deliverable",
+          "previewLabel": "Preview my measurement plan",
+          "downloadLabel": "Download Behaviour Measurement Plan"
+        },
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "note"
+              },
+              "children": [
+                "Local storage is plaintext. No analytics, counting automation, source verification or experiment is connected. Keep personal source material outside this worksheet."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "reset",
+          "label": "Clear local draft"
+        }
+      ]
+    },
+    {
+      "id": "coach",
+      "label": "04 / ASK AI",
+      "heading": "Venture Coach · simulated",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Scripted demonstration only. No live AI, source verification, experiment execution or backend is connected."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "extension",
+          "id": "coach",
+          "props": {
+            "modes": [
+              {
+                "id": "teach",
+                "label": "Teach",
+                "response": "Define one observable action, consistent counting units and eligible opportunities. Keep assistance, missingness, not-run/rehearsal status and scope visible. No analytics are connected."
+              },
+              {
+                "id": "guide",
+                "label": "Guide",
+                "response": "Define one observable action, consistent counting units and eligible opportunities. Keep assistance, missingness, not-run/rehearsal status and scope visible. No analytics are connected."
+              },
+              {
+                "id": "review",
+                "label": "Review",
+                "response": "Measurement Plan check: {missing} required fields empty. Scripted field counting cannot verify units, sources, metrics, permissions or market claims."
+              },
+              {
+                "id": "challenge",
+                "label": "Challenge",
+                "response": "Define one observable action, consistent counting units and eligible opportunities. Keep assistance, missingness, not-run/rehearsal status and scope visible. No analytics are connected."
+              }
+            ],
+            "initial": "teach",
+            "questionResponse": "This is a scripted demonstration, not an AI answer to your question.",
+            "countIds": [
+              "claimScope",
+              "action",
+              "population",
+              "capture",
+              "counts",
+              "quality",
+              "interpret",
+              "reviewPlan"
+            ],
+            "questionLabel": "Optional question for the demonstration",
+            "submitLabel": "Show simulated guidance"
+          }
+        }
+      ]
+    },
+    {
+      "id": "challenge",
+      "label": "05 / CHALLENGE",
+      "heading": "Challenge the metric and claim.",
+      "blocks": [
+        {
+          "type": "fields",
+          "ids": [
+            "bias",
+            "counter",
+            "constraint"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz",
+      "label": "06 / KNOWLEDGE CHECK",
+      "heading": "Check your understanding.",
+      "blocks": [
+        {
+          "type": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "label": "07 / DELIVER & PROGRESS",
+      "heading": "Your deliverable: a Behaviour Measurement Plan.",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Download action definitions, eligible units, capture template, count status, quality limits, interpretation boundaries and review rule. Earlier briefs save separately."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checklist"
+        },
+        {
+          "type": "honest",
+          "label": "I kept units and denominator consistent, preserved assistance/missingness, labeled not-run or rehearsal status, and avoided unsupported adoption, retention or payment claims."
+        },
+        {
+          "type": "complete",
+          "label": "Mark Lesson 33 complete locally",
+          "completedLabel": "Lesson 33 self-completed locally",
+          "completedNotice": "Lesson 33 self-completed locally. This is not validated demand or a submitted assignment.",
+          "incompleteNotice": "Complete the remaining requirements before local self-completion."
+        },
+        {
+          "type": "extension",
+          "id": "moduleNote",
+          "props": {
+            "heading": "Module 2.3 · Testing Value and Behaviour",
+            "lessons": [
+              31,
+              32,
+              33,
+              34,
+              35
+            ],
+            "complete": "All five lessons self-completed locally. Module 2.3 learning pack complete; execution, evidence verification, demand and venture approval remain separate.",
+            "incomplete": "{count} / 5 lessons self-completed locally. Complete each separately to close the learning module.",
+            "notes": [
+              {
+                "tag": "p",
+                "attrs": {},
+                "children": [
+                  "Self-completion records learning work, not measured outcomes, verified analytics, demand, retention or payment."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {
+                "class": "help"
+              },
+              "children": [
+                "Learning completion is separate from validated demand."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "next"
+        }
+      ]
+    }
+  ],
+  "nav": [
+    {
+      "id": "watch",
+      "label": "Watch"
+    },
+    {
+      "id": "learn",
+      "label": "Learn"
+    },
+    {
+      "id": "build",
+      "label": "Build"
+    },
+    {
+      "id": "coach",
+      "label": "Ask AI"
+    },
+    {
+      "id": "challenge",
+      "label": "Challenge"
+    },
+    {
+      "id": "quiz",
+      "label": "Knowledge check"
+    },
+    {
+      "id": "finish",
+      "label": "Deliver"
+    }
+  ]
+}

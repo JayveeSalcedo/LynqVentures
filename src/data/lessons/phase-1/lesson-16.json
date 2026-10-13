@@ -1,0 +1,916 @@
+{
+ "number": 16,
+ "phase": 1,
+ "module": "1.4",
+ "title": "From Problem to Opportunity",
+ "hero": {
+  "eyebrow": "Module 1.4 · Shaping Your Opportunity · Lesson 16",
+  "title": "From Problem to Opportunity.",
+  "intro": "Describe a meaningful improvement for a specific group without committing to a product. Build an opportunity hypothesis that preserves evidence, alternatives and unresolved questions.",
+  "badges": [
+   "Beginner friendly"
+  ],
+  "meta": "35–45 min · Recommended: Lessons 10–15"
+ },
+ "fields": [
+  {
+   "id": "context",
+   "label": "Group, task, context and selected problem/source",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Keep evidence status visible and the opportunity provisional.",
+   "maxLength": 2000
+  },
+  {
+   "id": "difficulty",
+   "label": "Specific difficulty and consequences — evidence versus assumptions",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Keep evidence status visible and the opportunity provisional.",
+   "maxLength": 2000
+  },
+  {
+   "id": "outcome",
+   "label": "Desired outcome or improvement — keep solution and quantified promises open",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Keep evidence status visible and the opportunity provisional.",
+   "maxLength": 2000
+  },
+  {
+   "id": "current",
+   "label": "Current approaches: what works, limits and possible switching burden",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Keep evidence status visible and the opportunity provisional.",
+   "maxLength": 2000
+  },
+  {
+   "id": "basis",
+   "label": "Evidence map: source/status, what it supports, limitations and unknowns",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Keep evidence status visible and the opportunity provisional.",
+   "maxLength": 2000
+  },
+  {
+   "id": "statement",
+   "label": "Provisional opportunity statement: group/context, improvement, reason and key unknown",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Keep evidence status visible and the opportunity provisional.",
+   "maxLength": 2000
+  },
+  {
+   "id": "counter",
+   "label": "Strongest counterargument: why the opportunity may be weak or unnecessary",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Keep evidence status visible and the opportunity provisional.",
+   "maxLength": 2000
+  },
+  {
+   "id": "nextcheck",
+   "label": "Next ethical check, timing/access and evidence that would refine or pause the opportunity",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Keep evidence status visible and the opportunity provisional.",
+   "maxLength": 2000
+  },
+  {
+   "id": "support",
+   "label": "Optional support or access constraint",
+   "kind": "textarea",
+   "required": false,
+   "maxLength": 2000
+  },
+  {
+   "id": "assumption",
+   "label": "Where have you mistaken a preferred solution or planned finding for evidence?",
+   "kind": "textarea",
+   "required": true,
+   "maxLength": 2000
+  },
+  {
+   "id": "evidence",
+   "label": "What would show the current workaround is sufficient or the improvement does not matter?",
+   "kind": "textarea",
+   "required": true,
+   "maxLength": 2000
+  },
+  {
+   "id": "constraint",
+   "label": "What access, permission or resource limit could prevent a fair next check?",
+   "kind": "textarea",
+   "required": true,
+   "maxLength": 2000
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "Which describes an outcome rather than a solution?",
+   "options": [
+    "Build a mobile app",
+    "Locate registration with clearer information",
+    "Add ten features"
+   ],
+   "answer": 1,
+   "explanation": "An outcome describes improvement for the person, not the technology."
+  },
+  {
+   "prompt": "Your Lesson 15 research is only planned. How should you use it?",
+   "options": [
+    "Label it planned; do not claim findings",
+    "Treat expected findings as evidence",
+    "Assume demand is proven"
+   ],
+   "answer": 0,
+   "explanation": "A plan is not collected evidence."
+  },
+  {
+   "prompt": "What should an opportunity statement include?",
+   "options": [
+    "A guarantee of sales",
+    "Only your preferred features",
+    "A specific group/improvement, evidence limits and a next uncertainty"
+   ],
+   "answer": 2,
+   "explanation": "An opportunity remains a hypothesis with a check and counterargument."
+  }
+ ],
+ "checklist": [
+  {
+   "kind": "studied",
+   "label": "Transcript or learning guide reviewed"
+  },
+  {
+   "kind": "fields",
+   "label": "Opportunity Statement & Evidence Map fields complete",
+   "ids": [
+    "context",
+    "difficulty",
+    "outcome",
+    "current",
+    "basis",
+    "statement",
+    "counter",
+    "nextcheck"
+   ]
+  },
+  {
+   "kind": "fields",
+   "label": "Three red-team reflections complete",
+   "ids": [
+    "assumption",
+    "evidence",
+    "constraint"
+   ]
+  },
+  {
+   "kind": "quiz",
+   "label": "Knowledge check: 3 / 3 correct"
+  },
+  {
+   "kind": "honest",
+   "label": "Final self-review confirmed"
+  }
+ ],
+ "deliverable": {
+  "title": "LYNQ Academy — Opportunity Statement & Evidence Map",
+  "filename": "LYNQ-Opportunity-Statement-Evidence-Map.md",
+  "headerLines": [
+   "Phase 01 · Module {module} · Lesson {lesson}",
+   "Status: {status}",
+   "Created: {created}"
+  ],
+  "fieldIds": [
+   "context",
+   "difficulty",
+   "outcome",
+   "current",
+   "basis",
+   "statement",
+   "counter",
+   "nextcheck",
+   "support",
+   "assumption",
+   "evidence",
+   "constraint"
+  ],
+  "footer": "Local prototype export. No reviewer submission or business validation."
+ },
+ "sections": [
+  {
+   "id": "watch",
+   "label": "01 / WATCH",
+   "heading": "What useful improvement might be possible?",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "The planned explainer turns a specific difficulty into a provisional opportunity while keeping solutions open and evidence limits visible. Use the transcript or guide while the video is a placeholder."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "video-placeholder"
+       },
+       "children": [
+        {
+         "tag": "span",
+         "attrs": {
+          "class": "badge"
+         },
+         "children": [
+          "Video placeholder · media not produced"
+         ]
+        },
+        {
+         "tag": "h3",
+         "attrs": {},
+         "children": [
+          "From Problem to Opportunity"
+         ]
+        },
+        {
+         "tag": "p",
+         "attrs": {},
+         "children": [
+          "Planned: 2½-minute explainer + worksheet demo",
+          {
+           "tag": "br",
+           "attrs": {},
+           "children": []
+          },
+          "Problem → Outcome → Evidence → Opportunity → Next check"
+         ]
+        },
+        {
+         "tag": "small",
+         "attrs": {},
+         "children": [
+          "No playable video or generated media is attached."
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "storyboard",
+     "scenes": [
+      {
+       "title": "A problem is a starting point",
+       "visual": "Founder reviews anonymous problem and customer cards.",
+       "narration": "A problem describes a difficulty. An opportunity hypothesis describes a useful improvement you might help a specific group achieve. It is a direction to investigate, not proof that a business should exist. Keep the people, task and context from your discovery work."
+      },
+      {
+       "title": "Name the desired outcome",
+       "visual": "Editable person, context and outcome cards.",
+       "narration": "What would become easier, clearer or more reliable for the person? Finding registration with confidence is an outcome. Building an app is a possible means. Describe the improvement without locking in a feature or technology before you understand what is needed."
+      },
+      {
+       "title": "Use evidence honestly",
+       "visual": "Founder separates reported notes from planned research.",
+       "narration": "Review what you know about the difficulty, consequences and current workarounds. Keep sources and limitations visible. If your research is only planned, say so. Do not claim that an outcome is important, frequent or costly without evidence. Completing a research plan does not make its expected findings true."
+      },
+      {
+       "title": "Respect existing approaches",
+       "visual": "Illustrative visitor gets helpful directions from staff.",
+       "narration": "Existing approaches may already work well. What improvement might matter beyond what people do today, and what burden could change create? A possible opportunity can disappear if the current workaround is sufficient. A difficulty does not establish willingness to switch or pay."
+      },
+      {
+       "title": "Write a provisional statement",
+       "visual": "Editable opportunity statement assembled in post.",
+       "narration": "Use a simple statement: for this group in this context, there may be an opportunity to improve this outcome because of this specific difficulty. Name your evidence status and key unknown. Leave solutions open. Record the strongest reason this opportunity may not be worth pursuing."
+      },
+      {
+       "title": "Choose the next check",
+       "visual": "Actual approved Lesson 16 worksheet recording.",
+       "narration": "Create your Opportunity Statement and Evidence Map. Include the group and problem, desired outcome, current approaches, evidence limits, provisional statement, counterargument and next check. Keep the opportunity revisable. Next you will draft a first value proposition as another hypothesis to test."
+      }
+     ],
+     "sceneMeta": "Planned final scene: 25 seconds · narration and precise graphics added in post",
+     "summary": "Explore the six-scene storyboard placeholder"
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {
+        "class": "help"
+       },
+       "children": [
+        "Use an explainer with editable diagrams, documentary cutaways and a real worksheet demo. Generate short assets where supported, then assemble in an editor."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "videoPrompt",
+     "prompt": "Create a beginner-friendly LYNQ Academy explainer and worksheet demo for Module 1.4 Lesson 16: From Problem to Opportunity. Editorial target about 150 seconds, 16:9 1080p. Navy #0B2338, teal #087D79, mint #BCF2DF, white. Diverse adult cast in contemporary Dubai workspace/venue; warm clear English narrator. Fictional registration example labeled Illustrative example in post. Teach problem versus outcome versus solution, opportunity hypothesis, honest evidence status, sufficient workarounds, counterarguments and next checks. No fabricated research, quotes, quantified benefits, demand, willingness-to-pay or venture-success claims.\n\nSCENE 1: A problem is a starting point\nVisual placeholder: Founder reviews anonymous problem and customer cards.\nNarration: A problem describes a difficulty. An opportunity hypothesis describes a useful improvement you might help a specific group achieve. It is a direction to investigate, not proof that a business should exist. Keep the people, task and context from your discovery work.\n\nSCENE 2: Name the desired outcome\nVisual placeholder: Editable person, context and outcome cards.\nNarration: What would become easier, clearer or more reliable for the person? Finding registration with confidence is an outcome. Building an app is a possible means. Describe the improvement without locking in a feature or technology before you understand what is needed.\n\nSCENE 3: Use evidence honestly\nVisual placeholder: Founder separates reported notes from planned research.\nNarration: Review what you know about the difficulty, consequences and current workarounds. Keep sources and limitations visible. If your research is only planned, say so. Do not claim that an outcome is important, frequent or costly without evidence. Completing a research plan does not make its expected findings true.\n\nSCENE 4: Respect existing approaches\nVisual placeholder: Illustrative visitor gets helpful directions from staff.\nNarration: Existing approaches may already work well. What improvement might matter beyond what people do today, and what burden could change create? A possible opportunity can disappear if the current workaround is sufficient. A difficulty does not establish willingness to switch or pay.\n\nSCENE 5: Write a provisional statement\nVisual placeholder: Editable opportunity statement assembled in post.\nNarration: Use a simple statement: for this group in this context, there may be an opportunity to improve this outcome because of this specific difficulty. Name your evidence status and key unknown. Leave solutions open. Record the strongest reason this opportunity may not be worth pursuing.\n\nSCENE 6: Choose the next check\nVisual placeholder: Actual approved Lesson 16 worksheet recording.\nNarration: Create your Opportunity Statement and Evidence Map. Include the group and problem, desired outcome, current approaches, evidence limits, provisional statement, counterargument and next check. Keep the opportunity revisable. Next you will draft a first value proposition as another hypothesis to test.\n\nFirst return storyboard, timings and individual shot prompts. Generate only short shot lengths supported by selected Gemini/Veo account. Assemble with one separately recorded narration track. Generated footage has no text, logos, captions or fabricated UI. Add exact branding, editable Group / Context / Difficulty / Desired outcome / Evidence / Unknown diagrams in post. Screen-record actual approved Lesson 16 worksheet with fictional source-labeled entries; clearly distinguish planned from completed research. Deliver H.264 MP4, editable project/diagrams, narrator audio, transcript, VTT/SRT captions, thumbnail and rights/provenance. Native-reviewed Arabic narration and RTL graphics are separate. Check accuracy, evidence labels, outcome-versus-feature distinction, privacy, brand, pacing, audio and mobile readability before publication. Prototype contains no generated video.",
+     "filename": "LYNQ-Lesson-16-Gemini-Video-Prompt.md",
+     "title": "# LYNQ Lesson 16 — Gemini video prompt",
+     "summary": "Gemini video prompt — ready to copy"
+    },
+    {
+     "type": "transcript",
+     "scenes": [
+      {
+       "title": "A problem is a starting point",
+       "visual": "Founder reviews anonymous problem and customer cards.",
+       "narration": "A problem describes a difficulty. An opportunity hypothesis describes a useful improvement you might help a specific group achieve. It is a direction to investigate, not proof that a business should exist. Keep the people, task and context from your discovery work."
+      },
+      {
+       "title": "Name the desired outcome",
+       "visual": "Editable person, context and outcome cards.",
+       "narration": "What would become easier, clearer or more reliable for the person? Finding registration with confidence is an outcome. Building an app is a possible means. Describe the improvement without locking in a feature or technology before you understand what is needed."
+      },
+      {
+       "title": "Use evidence honestly",
+       "visual": "Founder separates reported notes from planned research.",
+       "narration": "Review what you know about the difficulty, consequences and current workarounds. Keep sources and limitations visible. If your research is only planned, say so. Do not claim that an outcome is important, frequent or costly without evidence. Completing a research plan does not make its expected findings true."
+      },
+      {
+       "title": "Respect existing approaches",
+       "visual": "Illustrative visitor gets helpful directions from staff.",
+       "narration": "Existing approaches may already work well. What improvement might matter beyond what people do today, and what burden could change create? A possible opportunity can disappear if the current workaround is sufficient. A difficulty does not establish willingness to switch or pay."
+      },
+      {
+       "title": "Write a provisional statement",
+       "visual": "Editable opportunity statement assembled in post.",
+       "narration": "Use a simple statement: for this group in this context, there may be an opportunity to improve this outcome because of this specific difficulty. Name your evidence status and key unknown. Leave solutions open. Record the strongest reason this opportunity may not be worth pursuing."
+      },
+      {
+       "title": "Choose the next check",
+       "visual": "Actual approved Lesson 16 worksheet recording.",
+       "narration": "Create your Opportunity Statement and Evidence Map. Include the group and problem, desired outcome, current approaches, evidence limits, provisional statement, counterargument and next check. Keep the opportunity revisable. Next you will draft a first value proposition as another hypothesis to test."
+      }
+     ],
+     "summary": "Read the full narration / transcript"
+    },
+    {
+     "type": "studied",
+     "label": "I read the transcript or reviewed the learning guide. Video is not required."
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "label": "02 / LEARN",
+   "heading": "Describe an improvement before choosing a product.",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "A ",
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "problem"
+         ]
+        },
+        " is a difficulty in a specific context. An ",
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "outcome"
+         ]
+        },
+        " is what the person wants to achieve. A ",
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "solution"
+         ]
+        },
+        " is a possible way to help. An ",
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "opportunity hypothesis"
+         ]
+        },
+        " connects the group, difficulty and potential improvement; it remains unproven."
+       ]
+      },
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "note"
+       },
+       "children": [
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "Illustrative example:"
+         ]
+        },
+        " “First-time visitors may need clearer ways to locate registration before a session” leaves room for signs, staff processes or other approaches. “Build a registration app” commits to a means before establishing what helps. Neither statement proves demand."
+       ]
+      },
+      {
+       "tag": "h3",
+       "attrs": {},
+       "children": [
+        "Build the case carefully"
+       ]
+      },
+      {
+       "tag": "ol",
+       "attrs": {},
+       "children": [
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Use a specific group, task and context from discovery."
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Describe the difficulty and desired outcome separately."
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Review evidence and current approaches, including what already works."
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Write an improvement hypothesis without unsupported promises."
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Name the strongest counterargument and next uncertainty to check."
+         ]
+        }
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Research planned in Lesson 15 is not research completed. Keep planned information labeled. Do not invent frequency, cost, time saved, willingness to switch or payment intent. A sufficient workaround may mean the opportunity is weak or needs reframing."
+       ]
+      },
+      {
+       "tag": "h3",
+       "attrs": {},
+       "children": [
+        "A useful statement structure"
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "“For [group] in [context], there may be an opportunity to improve [outcome] because of [specific difficulty]. Our current basis is [source/status]; we still need to check [uncertainty].”"
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "A statement is a thinking tool, not a market claim. Keep the solution open and record when you would refine or pause."
+       ]
+      },
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "actions"
+       },
+       "children": [
+        {
+         "tag": "lesson-link",
+         "attrs": {
+          "lesson": "10",
+          "class": "btn secondary"
+         },
+         "children": [
+          "Review problem selection"
+         ]
+        },
+        {
+         "tag": "lesson-link",
+         "attrs": {
+          "lesson": "14",
+          "class": "btn secondary"
+         },
+         "children": [
+          "Review landscape map"
+         ]
+        },
+        {
+         "tag": "lesson-link",
+         "attrs": {
+          "lesson": "15",
+          "class": "btn secondary"
+         },
+         "children": [
+          "Review research plan"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "practice",
+     "legend": "Practice: which describes an outcome?",
+     "prompt": "",
+     "options": [
+      {
+       "label": "Build an app with ten features",
+       "feedback": "Separate the desired improvement from features or sales promises. An opportunity is still unproven."
+      },
+      {
+       "label": "Help visitors locate registration with clearer information",
+       "feedback": "Useful outcome: clearer registration information describes an improvement while leaving the solution open; it remains a hypothesis."
+      },
+      {
+       "label": "Guarantee everyone will buy it",
+       "feedback": "Separate the desired improvement from features or sales promises. An opportunity is still unproven."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "build",
+   "label": "03 / BUILD",
+   "heading": "Your Opportunity Statement & Evidence Map.",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Write a specific improvement hypothesis. Planned evidence and unknowns are acceptable when labeled with a check. No opportunity score, solution or approval is generated automatically."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "saveStatus"
+    },
+    {
+     "type": "fields",
+     "ids": [
+      "context",
+      "difficulty",
+      "outcome",
+      "current",
+      "basis",
+      "statement",
+      "counter",
+      "nextcheck",
+      "support"
+     ]
+    },
+    {
+     "type": "extension",
+     "id": "preview",
+     "props": {
+      "label": "Preview my opportunity statement",
+      "kind": "lines",
+      "joiner": "\n\n",
+      "lines": [
+       {
+        "id": "context",
+        "label": "Group, task, context and selected problem/source *"
+       },
+       {
+        "id": "difficulty",
+        "label": "Specific difficulty and consequences — evidence versus assumptions *"
+       },
+       {
+        "id": "outcome",
+        "label": "Desired outcome or improvement — keep solution and quantified promises open *"
+       },
+       {
+        "id": "current",
+        "label": "Current approaches: what works, limits and possible switching burden *"
+       },
+       {
+        "id": "basis",
+        "label": "Evidence map: source/status, what it supports, limitations and unknowns *"
+       },
+       {
+        "id": "statement",
+        "label": "Provisional opportunity statement: group/context, improvement, reason and key unknown *"
+       },
+       {
+        "id": "counter",
+        "label": "Strongest counterargument: why the opportunity may be weak or unnecessary *"
+       },
+       {
+        "id": "nextcheck",
+        "label": "Next ethical check, timing/access and evidence that would refine or pause the opportunity *"
+       }
+      ],
+      "footer": "This opportunity does not prove demand, switching or willingness to pay."
+     }
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "note"
+       },
+       "children": [
+        "This statement does not prove demand, switching or payment intent. Browser storage is plaintext; use anonymous role labels and download a copy."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "extension",
+     "id": "download",
+     "props": {
+      "label": "Download Opportunity Statement"
+     }
+    },
+    {
+     "type": "reset",
+     "label": "Clear local draft"
+    }
+   ]
+  },
+  {
+   "id": "coach",
+   "label": "04 / ASK AI",
+   "heading": "Your thinking partner",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "span",
+       "attrs": {
+        "class": "badge"
+       },
+       "children": [
+        "Simulated Coach · no AI connection"
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Try four scripted guidance modes. The preview reads your current worksheet locally; it does not send information anywhere."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "extension",
+     "id": "coach",
+     "props": {
+      "modes": [
+       {
+        "id": "teach",
+        "label": "Teach me"
+       },
+       {
+        "id": "guide",
+        "label": "Guide me"
+       },
+       {
+        "id": "review",
+        "label": "Review my work"
+       },
+       {
+        "id": "challenge",
+        "label": "Challenge my idea"
+       }
+      ],
+      "replies": {
+       "teach": "Separate problem, outcome and solution. Describe a provisional improvement for a specific group with honest evidence limits.",
+       "guide": "Connect group/context, difficulty, outcome, current approaches and sources. Write an opportunity hypothesis with a counterargument and next check.",
+       "review": "Opportunity Statement check: {missing} required fields still empty. This scripted check counts fields only; it cannot verify evidence, benefits, switching or demand.",
+       "challenge": "Is your outcome a feature? Are planned findings treated as facts? Is the workaround sufficient? What would make you refine or pause?"
+      },
+      "heading": "SCRIPTED DEMO / ",
+      "questionNote": "Your question was entered locally. This preview does not generate a custom answer.",
+      "questionLabel": "Your question (optional)",
+      "placeholder": "What should I focus on first?",
+      "maxLength": 500,
+      "submitLabel": "Show simulated guidance"
+     }
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {
+        "class": "help"
+       },
+       "children": [
+        "Responses are predefined for this lesson, not generated answers to your question. No customer demand or venture readiness is verified."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "challenge",
+   "label": "05 / CHALLENGE",
+   "heading": "Challenge the opportunity.",
+   "blocks": [
+    {
+     "type": "fields",
+     "ids": [
+      "assumption",
+      "evidence",
+      "constraint"
+     ]
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "details",
+       "attrs": {},
+       "children": [
+        {
+         "tag": "summary",
+         "attrs": {},
+         "children": [
+          "More questions to discuss"
+         ]
+        },
+        {
+         "tag": "p",
+         "attrs": {},
+         "children": [
+          "Is the group specific? Is the outcome a feature in disguise? Are benefits sourced or guessed? Does switching add burden? What would make you pause rather than defend the idea?"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "quiz",
+   "label": "06 / CHECK YOUR UNDERSTANDING",
+   "heading": "A quick knowledge check",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Answer all three. You can retry; all three correct are required for local completion."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "quiz"
+    }
+   ]
+  },
+  {
+   "id": "finish",
+   "label": "07 / DELIVER & PROGRESS",
+   "heading": "Your deliverable: an Opportunity Statement & Evidence Map.",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Download the problem, outcome, current approaches, evidence map, opportunity hypothesis, counterargument and next check. Earlier deliverables stay separate. This begins Module 1.4."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "checklist"
+    },
+    {
+     "type": "honest",
+     "label": "I kept the opportunity provisional, distinguished evidence from planned research, and avoided unsupported solution, benefit or demand claims."
+    },
+    {
+     "type": "complete",
+     "label": "Mark Lesson 16 complete locally",
+     "completedLabel": "Lesson 16 self-completed locally",
+     "completedNotice": "Lesson 16 self-completed locally. Download your Opportunity Statement & Evidence Map. No reviewer approval or venture validation is recorded.",
+     "incompleteNotice": "Complete the remaining requirements above before marking this lesson complete."
+    },
+    {
+     "type": "extension",
+     "id": "moduleNote",
+     "props": {
+      "parts": [
+       {
+        "nodes": [
+         {
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+           "Module 1.4 · Shaping Your Opportunity"
+          ]
+         }
+        ]
+       },
+       {
+        "status": "1.4",
+        "complete": "All five lessons self-completed locally. Module 1.4 learning pack complete.",
+        "incomplete": "{count} / 5 lessons self-completed locally. Complete each lesson separately."
+       },
+       {
+        "nodes": [
+         {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+           "Self-completion records learning, not venture validation or approval."
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "type": "next"
+    }
+   ]
+  }
+ ],
+ "nav": [
+  {
+   "id": "watch",
+   "label": "Watch"
+  },
+  {
+   "id": "learn",
+   "label": "Learn"
+  },
+  {
+   "id": "build",
+   "label": "Build"
+  },
+  {
+   "id": "coach",
+   "label": "Ask AI"
+  },
+  {
+   "id": "challenge",
+   "label": "Challenge"
+  },
+  {
+   "id": "quiz",
+   "label": "Knowledge check"
+  },
+  {
+   "id": "finish",
+   "label": "Deliver"
+  }
+ ]
+}

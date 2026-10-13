@@ -1,0 +1,1001 @@
+{
+ "profile": [
+  [
+   "What best describes you?",
+   [
+    "Aspiring entrepreneur",
+    "Founder with an idea",
+    "Founder with an existing business",
+    "Startup team member",
+    "LYNQ venture team member"
+   ]
+  ],
+  [
+   "Do you already have a business idea?",
+   [
+    "Yes",
+    "Not yet",
+    "I have several ideas"
+   ]
+  ],
+  [
+   "What industry interests you?",
+   [
+    "Technology",
+    "Retail",
+    "Events and Experiences",
+    "Education",
+    "Healthcare",
+    "Services",
+    "Other",
+    "Not sure yet"
+   ]
+  ],
+  [
+   "What is your main goal?",
+   [
+    "Start my first business",
+    "Validate an idea",
+    "Build a product",
+    "Launch a company",
+    "Grow an existing business",
+    "Explore entrepreneurship"
+   ]
+  ],
+  [
+   "What is your experience level?",
+   [
+    "Complete beginner",
+    "Some experience",
+    "Experienced entrepreneur"
+   ]
+  ]
+ ],
+ "orientationPrompt": "Create a LYNQ Module 00 — Welcome & Orientation animated explainer plus interface walkthrough, Your Journey From Idea to Venture. Target 2–3 minutes, 16:9 1080p. Navy #09243C, teal #13B9A5, white and mint; warm, confident, plain English narration with readable diagrams, no talking avatar required. Acknowledge founder overwhelm without portraying helplessness. Encourage agency and one concrete next step. Use the seven-step Academy template exactly: Watch → Learn → Build → Ask AI Coach → Challenge → Knowledge Check → Deliver & Progress.\n\nSCENE 1 (~20–30 seconds; adjust to narration)\nStoryboard placeholder: The founder’s reality — Scattered notes, competing priorities, one highlighted next action\nNarration: The ambition is yours. The next step can be clearer. You do not have to solve the whole business today. Uncertainty, limited resources and too much advice are familiar founder pressures.\n\nSCENE 2 (~20–30 seconds; adjust to narration)\nStoryboard placeholder: Why LYNQ exists — A question becomes a manageable task and worksheet\nNarration: LYNQ provides a connected path: understand the decision, do a manageable piece of work, challenge it and carry the result forward. The structure supports your effort; customers and evidence still matter.\n\nSCENE 3 (~20–30 seconds; adjust to narration)\nStoryboard placeholder: Five connected phases — Discover, Validate, Build, Launch, Scale with lesson ranges\nNarration: Discover a problem worth exploring. Validate assumptions. Build a useful version. Launch and learn. Scale with readiness and evidence. Five phases contain twenty modules and one hundred lessons. This orientation prepares you and is separate from that count.\n\nSCENE 4 (~20–30 seconds; adjust to narration)\nStoryboard placeholder: The actual lesson flow — Seven labeled cards using approved lesson interface\nNarration: Each lesson follows seven steps. Watch. Learn. Build. Ask AI Coach. Challenge. Knowledge Check. Deliver and Progress. Review the teaching, complete a worksheet, ask for guidance, examine assumptions, check understanding and export your work.\n\nSCENE 5 (~20–30 seconds; adjust to narration)\nStoryboard placeholder: One deliverable informs the next — MVP scope to features to user flow to approach to prototype\nNarration: In Build, your MVP scope informs essential features. Those features inform the user flow. The flow informs your build approach and prototype. Review previous deliverables manually. The current Coach is simulated; video media and backend services are not connected.\n\nSCENE 6 (~20–30 seconds; adjust to narration)\nStoryboard placeholder: Start where you are — Founder starting profile, checklist and Lesson 01 button\nNarration: Your first draft can be imperfect. Name what you know, what is uncertain and one next action. Complete your starting profile, challenge your assumptions, check the orientation questions and begin Lesson 01. Today’s job is one useful step.\n\nGenerate supported short shots separately and assemble. Composite exact brand, text, arrows, lesson ranges, approved UI and captions in post. Use actual approved screen recording for interface walkthrough. Do not show fabricated traction, funding, live AI or working integrations. Available interactive lessons 01–100; all lessons interactive. Module 00 is separate from the 100 lessons. Deliver script, storyboard/timings, separate short-shot Gemini/Veo prompts, editor overlay text, voice, audio, MP4, editable project, captions VTT/SRT, transcript, thumbnail, rights/provenance and QA checklist. Native-reviewed Arabic narration and RTL graphics require separate production. This is a production prompt; video footage remains unproduced.",
+ "orientationLearn": {
+  "tag": "section",
+  "attrs": {
+   "id": "learn",
+   "class": "templateStep"
+  },
+  "children": [
+   {
+    "tag": "div",
+    "attrs": {
+     "class": "ey"
+    },
+    "children": [
+     "02 / LEARN"
+    ]
+   },
+   {
+    "tag": "h2",
+    "attrs": {},
+    "children": [
+     "Understand the journey before you begin."
+    ]
+   },
+   {
+    "tag": "p",
+    "attrs": {},
+    "children": [
+     {
+      "tag": "b",
+      "attrs": {},
+      "children": [
+       "Objective:"
+      ]
+     },
+     " understand the phase handoffs, practise the lesson flow, and leave with a clear starting point. A ",
+     {
+      "tag": "b",
+      "attrs": {},
+      "children": [
+       "deliverable"
+      ]
+     },
+     " is the useful work you produce. A ",
+     {
+      "tag": "b",
+      "attrs": {},
+      "children": [
+       "checkpoint"
+      ]
+     },
+     " is a decision about readiness. ",
+     {
+      "tag": "b",
+      "attrs": {},
+      "children": [
+       "Self-completion"
+      ]
+     },
+     " records learning progress; it is not evidence of a successful business."
+    ]
+   },
+   {
+    "tag": "div",
+    "attrs": {
+     "id": "program"
+    },
+    "children": [
+     {
+      "tag": "div",
+      "attrs": {
+       "class": "ey"
+      },
+      "children": [
+       "BUILT AROUND THE FOUNDER’S REALITY"
+      ]
+     },
+     {
+      "tag": "h2",
+      "attrs": {},
+      "children": [
+       "Less overwhelm. More purposeful progress."
+      ]
+     },
+     {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+       "You can work hard and still feel stuck: too much advice, too many features, too little evidence, and nobody helping you question your own assumptions. The weight is real. You are allowed to need structure."
+      ]
+     },
+     {
+      "tag": "div",
+      "attrs": {
+       "class": "grid pain"
+      },
+      "children": [
+       {
+        "tag": "div",
+        "attrs": {
+         "class": "card"
+        },
+        "children": [
+         {
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+           "“I don’t know where to start.”"
+          ]
+         },
+         {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+           "Discover helps you turn a broad idea into a specific customer problem and opportunity you can explain."
+          ]
+         }
+        ]
+       },
+       {
+        "tag": "div",
+        "attrs": {
+         "class": "card"
+        },
+        "children": [
+         {
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+           "“I’m afraid of building the wrong thing.”"
+          ]
+         },
+         {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+           "Validate helps you test risky assumptions before adding more features or committing more resources."
+          ]
+         }
+        ]
+       },
+       {
+        "tag": "div",
+        "attrs": {
+         "class": "card"
+        },
+        "children": [
+         {
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+           "“Everything feels urgent.”"
+          ]
+         },
+         {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+           "Build, Launch and Scale turn ambition into scoped work, measured learning and decisions about what comes next."
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "tag": "div",
+      "attrs": {
+       "class": "promise"
+      },
+      "children": [
+       {
+        "tag": "b",
+        "attrs": {},
+        "children": [
+         "Why this studio exists"
+        ]
+       },
+       {
+        "tag": "p",
+        "attrs": {},
+        "children": [
+         "To turn “What do I do now?” into a manageable action: understand it, do the work, challenge it, and carry the result into the next lesson. Your worksheets become a venture record you can review and improve."
+        ]
+       }
+      ]
+     },
+     {
+      "tag": "p",
+      "attrs": {
+       "class": "small muted"
+      },
+      "children": [
+       "The Academy provides a learning structure. Customers, real-world testing and qualified support still matter. A completed worksheet is progress, not proof of demand or a promise of funding."
+      ]
+     }
+    ]
+   },
+   {
+    "tag": "div",
+    "attrs": {
+     "id": "phases"
+    },
+    "children": [
+     {
+      "tag": "div",
+      "attrs": {
+       "class": "ey"
+      },
+      "children": [
+       "ONE CONNECTED JOURNEY"
+      ]
+     },
+     {
+      "tag": "h2",
+      "attrs": {},
+      "children": [
+       "Every phase answers a founder question."
+      ]
+     },
+     {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+       "5 phases · 20 modules · 100 lessons. Each phase contains four modules of five lessons. Module 00 prepares you; it is separate from the 100 lessons."
+      ]
+     },
+     {
+      "tag": "div",
+      "attrs": {
+       "class": "phases"
+      },
+      "children": [
+       "\n",
+       {
+        "tag": "div",
+        "attrs": {
+         "class": "card"
+        },
+        "children": [
+         {
+          "tag": "small",
+          "attrs": {},
+          "children": [
+           "01 · LESSONS 01–20 · DISCOVER"
+          ]
+         },
+         {
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+           "“Which problem is worth pursuing?”"
+          ]
+         },
+         {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+           "Understand entrepreneurship, find opportunities, shape an idea and evaluate it. Carry a focused opportunity and your assumptions into Validate."
+          ]
+         },
+         {
+          "tag": "button",
+          "attrs": {
+           "class": "phaseLink",
+           "onclick": "goPhase(1)"
+          },
+          "children": [
+           "Explore Discover"
+          ]
+         }
+        ]
+       },
+       "\n",
+       {
+        "tag": "div",
+        "attrs": {
+         "class": "card"
+        },
+        "children": [
+         {
+          "tag": "small",
+          "attrs": {},
+          "children": [
+           "02 · LESSONS 21–40 · VALIDATE"
+          ]
+         },
+         {
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+           "“What do customers and evidence tell me?”"
+          ]
+         },
+         {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+           "Discover customers, understand the market, test the business model and decide whether to build. Carry findings, limits and unresolved conditions into Build."
+          ]
+         },
+         {
+          "tag": "button",
+          "attrs": {
+           "class": "phaseLink",
+           "onclick": "goPhase(2)"
+          },
+          "children": [
+           "Explore Validate"
+          ]
+         }
+        ]
+       },
+       "\n",
+       {
+        "tag": "div",
+        "attrs": {
+         "class": "card"
+        },
+        "children": [
+         {
+          "tag": "small",
+          "attrs": {},
+          "children": [
+           "03 · LESSONS 41–60 · BUILD"
+          ]
+         },
+         {
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+           "“What is the smallest useful version?”"
+          ]
+         },
+         {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+           "Design and develop the product, establish the business and prepare for launch. Scope → essential features → user flow → build approach → prototype. Then test usability, define requirements and review readiness."
+          ]
+         },
+         {
+          "tag": "button",
+          "attrs": {
+           "class": "phaseLink",
+           "onclick": "goPhase(3)"
+          },
+          "children": [
+           "Explore Build"
+          ]
+         }
+        ]
+       },
+       "\n",
+       {
+        "tag": "div",
+        "attrs": {
+         "class": "card"
+        },
+        "children": [
+         {
+          "tag": "small",
+          "attrs": {},
+          "children": [
+           "04 · LESSONS 61–80 · LAUNCH"
+          ]
+         },
+         {
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+           "“How do I reach customers and learn?”"
+          ]
+         },
+         {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+           "Prepare for market, build commercial systems, launch and learn, and measure traction. Use actual behaviour and results to improve your next decisions."
+          ]
+         },
+         {
+          "tag": "button",
+          "attrs": {
+           "class": "phaseLink",
+           "onclick": "goPhase(4)"
+          },
+          "children": [
+           "Preview Launch"
+          ]
+         }
+        ]
+       },
+       "\n",
+       {
+        "tag": "div",
+        "attrs": {
+         "class": "card"
+        },
+        "children": [
+         {
+          "tag": "small",
+          "attrs": {},
+          "children": [
+           "05 · LESSONS 100 · SCALE"
+          ]
+         },
+         {
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+           "“How do I grow responsibly?”"
+          ]
+         },
+         {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+           "Build for growth, develop the organization, address capital and governance, and consider long-term venture strategy. Growth follows readiness and evidence; it is not automatic."
+          ]
+         },
+         {
+          "tag": "button",
+          "attrs": {
+           "class": "phaseLink",
+           "onclick": "goPhase(5)"
+          },
+          "children": [
+           "Preview Scale"
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "tag": "p",
+      "attrs": {
+       "class": "small muted"
+      },
+      "children": [
+       "Available here: Module 00 and Lessons 01–100. All 100 lessons are interactive. The sidebar shows every phase, module and lesson, plus local progress. Earlier adapted lessons have a documented reconciliation record."
+      ]
+     }
+    ]
+   },
+   {
+    "tag": "div",
+    "attrs": {
+     "id": "lessons"
+    },
+    "children": [
+     {
+      "tag": "div",
+      "attrs": {
+       "class": "ey"
+      },
+      "children": [
+       "YOUR REPEATABLE WORKING RHYTHM"
+      ]
+     },
+     {
+      "tag": "h2",
+      "attrs": {},
+      "children": [
+       "Seven steps. One useful deliverable."
+      ]
+     },
+     {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+       "This is the same flow you will use inside the lessons. Module 00 lets you practise it before Lesson 01."
+      ]
+     },
+     {
+      "tag": "div",
+      "attrs": {
+       "class": "steps"
+      },
+      "children": [
+       {
+        "tag": "div",
+        "attrs": {
+         "class": "step"
+        },
+        "children": [
+         {
+          "tag": "b",
+          "attrs": {},
+          "children": [
+           "01 / WATCH"
+          ]
+         },
+         {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+           "Review the storyboard/transcript or produced video when available."
+          ]
+         }
+        ]
+       },
+       {
+        "tag": "div",
+        "attrs": {
+         "class": "step"
+        },
+        "children": [
+         {
+          "tag": "b",
+          "attrs": {},
+          "children": [
+           "02 / LEARN"
+          ]
+         },
+         {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+           "Read the plain-language explanation, definitions and example."
+          ]
+         }
+        ]
+       },
+       {
+        "tag": "div",
+        "attrs": {
+         "class": "step"
+        },
+        "children": [
+         {
+          "tag": "b",
+          "attrs": {},
+          "children": [
+           "03 / BUILD"
+          ]
+         },
+         {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+           "Complete the interactive worksheet using your previous deliverable as input. Local autosave preserves your draft."
+          ]
+         }
+        ]
+       },
+       {
+        "tag": "div",
+        "attrs": {
+         "class": "step"
+        },
+        "children": [
+         {
+          "tag": "b",
+          "attrs": {},
+          "children": [
+           "04 / ASK AI COACH"
+          ]
+         },
+         {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+           "Use Teach Me, Guide Me, Review My Work or Challenge My Idea, or type a question. Current replies are simulated."
+          ]
+         }
+        ]
+       },
+       {
+        "tag": "div",
+        "attrs": {
+         "class": "step"
+        },
+        "children": [
+         {
+          "tag": "b",
+          "attrs": {},
+          "children": [
+           "05 / CHALLENGE"
+          ]
+         },
+         {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+           "Answer the red-team questions. Separate assumptions from evidence and name what could change your decision."
+          ]
+         }
+        ]
+       },
+       {
+        "tag": "div",
+        "attrs": {
+         "class": "step"
+        },
+        "children": [
+         {
+          "tag": "b",
+          "attrs": {},
+          "children": [
+           "06 / KNOWLEDGE CHECK"
+          ]
+         },
+         {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+           "Answer the quiz and review feedback. Built lessons require all three answers correct before completion."
+          ]
+         }
+        ]
+       },
+       {
+        "tag": "div",
+        "attrs": {
+         "class": "step"
+        },
+        "children": [
+         {
+          "tag": "b",
+          "attrs": {},
+          "children": [
+           "07 / DELIVER & PROGRESS"
+          ]
+         },
+         {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+           "Preview/export the deliverable, finish the checklist and explicitly self-complete. Carry the work into the next lesson. Reviewer submission is not connected."
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "tag": "div",
+      "attrs": {
+       "class": "promise"
+      },
+      "children": [
+       {
+        "tag": "b",
+        "attrs": {},
+        "children": [
+         "Honest progress counts."
+        ]
+       },
+       {
+        "tag": "p",
+        "attrs": {},
+        "children": [
+         "“I don’t know yet” is useful when you name what you need to learn next. Narrowing scope or changing direction can be a strong founder decision."
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "orientationStory": {
+  "tag": "details",
+  "attrs": {},
+  "children": [
+   {
+    "tag": "summary",
+    "attrs": {},
+    "children": [
+     "Six-scene storyboard placeholder and full transcript"
+    ]
+   },
+   {
+    "tag": "div",
+    "attrs": {
+     "class": "story"
+    },
+    "children": [
+     {
+      "tag": "b",
+      "attrs": {},
+      "children": [
+       "1 · The founder’s reality"
+      ]
+     },
+     {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+       "Visual placeholder: Scattered notes, competing priorities, one highlighted next action"
+      ]
+     },
+     {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+       "Narration: The ambition is yours. The next step can be clearer. You do not have to solve the whole business today. Uncertainty, limited resources and too much advice are familiar founder pressures."
+      ]
+     }
+    ]
+   },
+   {
+    "tag": "div",
+    "attrs": {
+     "class": "story"
+    },
+    "children": [
+     {
+      "tag": "b",
+      "attrs": {},
+      "children": [
+       "2 · Why LYNQ exists"
+      ]
+     },
+     {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+       "Visual placeholder: A question becomes a manageable task and worksheet"
+      ]
+     },
+     {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+       "Narration: LYNQ provides a connected path: understand the decision, do a manageable piece of work, challenge it and carry the result forward. The structure supports your effort; customers and evidence still matter."
+      ]
+     }
+    ]
+   },
+   {
+    "tag": "div",
+    "attrs": {
+     "class": "story"
+    },
+    "children": [
+     {
+      "tag": "b",
+      "attrs": {},
+      "children": [
+       "3 · Five connected phases"
+      ]
+     },
+     {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+       "Visual placeholder: Discover, Validate, Build, Launch, Scale with lesson ranges"
+      ]
+     },
+     {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+       "Narration: Discover a problem worth exploring. Validate assumptions. Build a useful version. Launch and learn. Scale with readiness and evidence. Five phases contain twenty modules and one hundred lessons. This orientation prepares you and is separate from that count."
+      ]
+     }
+    ]
+   },
+   {
+    "tag": "div",
+    "attrs": {
+     "class": "story"
+    },
+    "children": [
+     {
+      "tag": "b",
+      "attrs": {},
+      "children": [
+       "4 · The actual lesson flow"
+      ]
+     },
+     {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+       "Visual placeholder: Seven labeled cards using approved lesson interface"
+      ]
+     },
+     {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+       "Narration: Each lesson follows seven steps. Watch. Learn. Build. Ask AI Coach. Challenge. Knowledge Check. Deliver and Progress. Review the teaching, complete a worksheet, ask for guidance, examine assumptions, check understanding and export your work."
+      ]
+     }
+    ]
+   },
+   {
+    "tag": "div",
+    "attrs": {
+     "class": "story"
+    },
+    "children": [
+     {
+      "tag": "b",
+      "attrs": {},
+      "children": [
+       "5 · One deliverable informs the next"
+      ]
+     },
+     {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+       "Visual placeholder: MVP scope to features to user flow to approach to prototype"
+      ]
+     },
+     {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+       "Narration: In Build, your MVP scope informs essential features. Those features inform the user flow. The flow informs your build approach and prototype. Review previous deliverables manually. The current Coach is simulated; video media and backend services are not connected."
+      ]
+     }
+    ]
+   },
+   {
+    "tag": "div",
+    "attrs": {
+     "class": "story"
+    },
+    "children": [
+     {
+      "tag": "b",
+      "attrs": {},
+      "children": [
+       "6 · Start where you are"
+      ]
+     },
+     {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+       "Visual placeholder: Founder starting profile, checklist and Lesson 01 button"
+      ]
+     },
+     {
+      "tag": "p",
+      "attrs": {},
+      "children": [
+       "Narration: Your first draft can be imperfect. Name what you know, what is uncertain and one next action. Complete your starting profile, challenge your assumptions, check the orientation questions and begin Lesson 01. Today’s job is one useful step."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "orientationFields": [
+  {
+   "id": "orientationPain",
+   "label": "What feels hardest about starting or growing your venture?",
+   "required": true,
+   "type": "textarea",
+   "placeholder": "",
+   "options": []
+  },
+  {
+   "id": "orientationUnknown",
+   "label": "What is one assumption or unanswered question you need to explore?",
+   "required": true,
+   "type": "textarea",
+   "placeholder": "",
+   "options": []
+  },
+  {
+   "id": "orientationNext",
+   "label": "What is one manageable next action, and when will you take it?",
+   "required": true,
+   "type": "textarea",
+   "placeholder": "",
+   "options": []
+  },
+  {
+   "id": "orientationBias",
+   "label": "Where might enthusiasm or fear be influencing your next decision?",
+   "required": true,
+   "type": "textarea",
+   "placeholder": "",
+   "options": []
+  },
+  {
+   "id": "orientationCounter",
+   "label": "What observation could make you change your idea or direction?",
+   "required": true,
+   "type": "textarea",
+   "placeholder": "",
+   "options": []
+  },
+  {
+   "id": "orientationConstraint",
+   "label": "Which time, resource or knowledge limit should your next step respect?",
+   "required": true,
+   "type": "textarea",
+   "placeholder": "",
+   "options": []
+  }
+ ],
+ "orientationQuestions": [
+  [
+   "What does local completion mean?",
+   [
+    "A guaranteed successful venture",
+    "Learning progress; evidence and readiness are separate",
+    "Automatic reviewer approval"
+   ],
+   1,
+   "Completion records learning, not venture success."
+  ],
+  [
+   "What comes after Build in the lesson template?",
+   [
+    "Ask AI Coach, then Challenge",
+    "Immediately skip to the next phase",
+    "Automatic funding"
+   ],
+   0,
+   "Ask for guidance, challenge assumptions, check understanding, then deliver."
+  ],
+  [
+   "How does work move between lessons in this prototype?",
+   [
+    "All drafts automatically become verified evidence",
+    "The Coach silently imports private drafts",
+    "Manually review the previous deliverable and carry the relevant work forward"
+   ],
+   2,
+   "No automatic import, reviewer submission or evidence verification is connected."
+  ]
+ ],
+ "orientationCoach": {
+  "teach": "Start with a customer problem: who experiences it, what happens, and what makes it costly or frustrating? Discover turns this into a focused opportunity.",
+  "guide": "Choose one next action: record a problem you have observed and the customer who experiences it. Begin Lesson 01, then follow the connected Discover lessons.",
+  "review": "For a useful self-review, check that your work names a customer, a task, evidence sources, assumptions and the next unanswered question. I have not inspected or approved your draft.",
+  "challenge": "What could make your idea unnecessary? How does the customer solve the problem now? Which assumption would change your decision if it were wrong?"
+ },
+ "orientationResponses": [
+  "Lesson 41 defines the MVP scope. Lesson 42 selects essential features. Lesson 43 maps the customer actions and system responses, including recovery. Lesson 44 chooses the build approach; Lesson 45 creates the prototype; Lesson 46 tests usability; Lesson 47 defines requirements; Lesson 48 plans technology/integrations; Lesson 49 establishes security/data principles; Lesson 50 builds the first usable version; Lesson 51 establishes brand identity; Lesson 52 applies it to onboarding; Lesson 53 prepares formation and ownership decisions; Lesson 54 organizes IP review; Lesson 55 defines founding-team responsibilities; Lesson 56 builds the financial plan; Lesson 57 defines analytics; Lesson 58 plans/reports controlled beta; Lesson 59 plans/records MVP improvement; Lesson 60 records launch-readiness review; Phase 04 starts with interactive Lessons 61–80 commercial preparation, evidence, operating planning and the traction checkpoint; Lesson 100 brings the final venture review and graduation learning milestone. Build learning completion does not grant launch approval. Review earlier deliverables manually; this chat does not import them.",
+  "It can feel heavy when every decision seems urgent. Make the next step smaller: write one customer problem, one unknown and one action you can take next. You can pause and return. The Academy gives structure; trusted peers or mentors can provide human support too.",
+  "Start with a problem you have seen firsthand. Name who faces it, what they do today and why it matters. If you have several ideas, record them before choosing one focused problem to explore in Discover. You do not need a perfect idea to begin Lesson 01.",
+  "Separate belief from evidence. In Validate, identify risky assumptions, speak with relevant customers and run bounded tests. Record what happened, what did not, and the limits. Interest alone is not proof of willingness to use or pay.",
+  "Use the Build sequence: scope one task, prioritize essential features and map its flow. Keep exclusions and dependencies visible. A prototype helps you test a question; it does not automatically establish demand or readiness.",
+  "This demo cannot assess funding, legal, medical or financial decisions. The curriculum includes capital, governance and planning topics, but a qualified person should review decisions using your actual circumstances. For now, write the decision, evidence needed and responsible reviewer.",
+  "I can accept your question, but this local scripted demo cannot give an open-ended answer to it. To move forward, name the decision you are making, what you know, what is uncertain and the next evidence you need. A connected production AI Coach will need a secure backend before it can respond to arbitrary questions."
+ ]
+}

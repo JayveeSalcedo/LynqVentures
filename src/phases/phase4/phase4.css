@@ -1,0 +1,9 @@
+.p4-tool label{display:block;font-weight:600;margin:12px 0 4px}
+.p4-tool input:not([type=checkbox]),.p4-tool textarea,.p4-tool select{width:100%;max-width:100%;box-sizing:border-box}
+.p4-tool textarea{min-height:80px}
+.p4-tool label.check{display:flex;gap:8px;align-items:flex-start;font-weight:500}
+.p4-tool .p4-card{white-space:pre-wrap;overflow-wrap:anywhere}
+.p4-board{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:12px}
+.p4-board>section{min-width:0}
+.p4-board h3{margin:0 0 8px;font-size:1rem}
+.p4-prompt{width:100%;min-height:200px;box-sizing:border-box;font-size:14px}

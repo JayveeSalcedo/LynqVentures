@@ -1,0 +1,972 @@
+{
+ "number": 18,
+ "phase": 1,
+ "module": "1.4",
+ "title": "Assess Opportunity & Founder Fit",
+ "hero": {
+  "eyebrow": "Module 1.4 · Shaping Your Opportunity · Lesson 18",
+  "title": "Assess Opportunity & Founder Fit.",
+  "intro": "Assess whether this opportunity is worth your next learning step and whether you can realistically investigate it. Record evidence, capability gaps, constraints and a provisional decision.",
+  "badges": [
+   "Beginner friendly"
+  ],
+  "meta": "35–45 min · Recommended: Lessons 04–05 and 16–17"
+ },
+ "fields": [
+  {
+   "id": "focus",
+   "label": "Opportunity and next learning task — sources from Lessons 16–17",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Explain the judgment with evidence, limits and a next check.",
+   "maxLength": 2000
+  },
+  {
+   "id": "importance",
+   "label": "Importance judgment (Low/Medium/High/Unknown), evidence, alternatives and limits",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Explain the judgment with evidence, limits and a next check.",
+   "maxLength": 2000
+  },
+  {
+   "id": "access",
+   "label": "Ethical reachability judgment, permission status, relevant people/sources and fallback",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Explain the judgment with evidence, limits and a next check.",
+   "maxLength": 2000
+  },
+  {
+   "id": "capability",
+   "label": "Capability judgment, demonstrated skills, learning gaps and confirmed versus planned support",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Explain the judgment with evidence, limits and a next check.",
+   "maxLength": 2000
+  },
+  {
+   "id": "resources",
+   "label": "Realistic time/budget/commitment, dependencies and effort limits",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Explain the judgment with evidence, limits and a next check.",
+   "maxLength": 2000
+  },
+  {
+   "id": "uncertainty",
+   "label": "Uncertainty judgment: unresolved assumptions, evidence gaps and what to check first",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Explain the judgment with evidence, limits and a next check.",
+   "maxLength": 2000
+  },
+  {
+   "id": "constraints",
+   "label": "Critical constraints or stop conditions, mitigation and support needed",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Explain the judgment with evidence, limits and a next check.",
+   "maxLength": 2000
+  },
+  {
+   "id": "decision",
+   "label": "Provisional action: explore/narrow/seek support/pause, reasons, next check and review trigger",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Explain the judgment with evidence, limits and a next check.",
+   "maxLength": 2000
+  },
+  {
+   "id": "support",
+   "label": "Optional support or access constraint",
+   "kind": "textarea",
+   "required": false,
+   "maxLength": 2000
+  },
+  {
+   "id": "assumption",
+   "label": "Where is enthusiasm, confidence or a planned commitment being mistaken for evidence?",
+   "kind": "textarea",
+   "required": true,
+   "maxLength": 2000
+  },
+  {
+   "id": "evidence",
+   "label": "What would lower your importance or fit judgment, or justify narrowing or pausing?",
+   "kind": "textarea",
+   "required": true,
+   "maxLength": 2000
+  },
+  {
+   "id": "constraint",
+   "label": "Which critical constraint cannot be offset by positive ratings elsewhere?",
+   "kind": "textarea",
+   "required": true,
+   "maxLength": 2000
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "What do fit ratings represent?",
+   "options": [
+    "A success prediction",
+    "Provisional judgments with evidence and limits",
+    "Verified market demand"
+   ],
+   "answer": 1,
+   "explanation": "Ratings support reasoning; they are not measured success scores."
+  },
+  {
+   "prompt": "Permission is pending. What should you do?",
+   "options": [
+    "Keep it pending and choose an ethical fallback",
+    "Override it with other high ratings",
+    "Assume a contact is permission"
+   ],
+   "answer": 0,
+   "explanation": "Critical permission constraints cannot be offset by positive ratings."
+  },
+  {
+   "prompt": "What does high uncertainty mean?",
+   "options": [
+    "High success probability",
+    "Guaranteed opportunity",
+    "More unresolved information to investigate"
+   ],
+   "answer": 2,
+   "explanation": "Assess uncertainty separately from positive opportunity or capability judgments."
+  }
+ ],
+ "checklist": [
+  {
+   "kind": "studied",
+   "label": "Transcript or learning guide reviewed"
+  },
+  {
+   "kind": "fields",
+   "label": "Opportunity & Founder Fit Assessment fields complete",
+   "ids": [
+    "focus",
+    "importance",
+    "access",
+    "capability",
+    "resources",
+    "uncertainty",
+    "constraints",
+    "decision"
+   ]
+  },
+  {
+   "kind": "fields",
+   "label": "Three red-team reflections complete",
+   "ids": [
+    "assumption",
+    "evidence",
+    "constraint"
+   ]
+  },
+  {
+   "kind": "quiz",
+   "label": "Knowledge check: 3 / 3 correct"
+  },
+  {
+   "kind": "honest",
+   "label": "Final self-review confirmed"
+  }
+ ],
+ "deliverable": {
+  "title": "LYNQ Academy — Opportunity & Founder Fit Assessment",
+  "filename": "LYNQ-Opportunity-Founder-Fit-Assessment.md",
+  "headerLines": [
+   "Phase 01 · Module {module} · Lesson {lesson}",
+   "Status: {status}",
+   "Created: {created}"
+  ],
+  "fieldIds": [
+   "focus",
+   "importance",
+   "access",
+   "capability",
+   "resources",
+   "uncertainty",
+   "constraints",
+   "decision",
+   "support",
+   "assumption",
+   "evidence",
+   "constraint"
+  ],
+  "footer": "Local prototype export. No reviewer submission or business validation."
+ },
+ "sections": [
+  {
+   "id": "watch",
+   "label": "01 / WATCH",
+   "heading": "Is this a sensible next learning step for you?",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "The planned explainer assesses evidence and practical founder fit without turning judgments into a prediction of success. Use the transcript or guide while the video is a placeholder."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "video-placeholder"
+       },
+       "children": [
+        {
+         "tag": "span",
+         "attrs": {
+          "class": "badge"
+         },
+         "children": [
+          "Video placeholder · media not produced"
+         ]
+        },
+        {
+         "tag": "h3",
+         "attrs": {},
+         "children": [
+          "Assess Opportunity & Founder Fit"
+         ]
+        },
+        {
+         "tag": "p",
+         "attrs": {},
+         "children": [
+          "Planned: 2½-minute explainer + worksheet demo",
+          {
+           "tag": "br",
+           "attrs": {},
+           "children": []
+          },
+          "Importance → Access → Capability → Constraints → Next decision"
+         ]
+        },
+        {
+         "tag": "small",
+         "attrs": {},
+         "children": [
+          "No playable video or generated media is attached."
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "storyboard",
+     "scenes": [
+      {
+       "title": "Fit is a practical question",
+       "visual": "Founder reviews opportunity and calendar cards.",
+       "narration": "An opportunity may sound useful, but is it a sensible next learning focus for you now? Founder fit means access, capability, resources and commitment for the next step. It is not a personality test or proof of business success. Separate the opportunity’s evidence from your enthusiasm."
+      },
+      {
+       "title": "Assess importance and alternatives",
+       "visual": "Editable importance and current approach cards.",
+       "narration": "How important might the problem be for the specific group, and what evidence supports that view? Include what existing approaches do well. Keep frequency, consequences and willingness to change unknown when unsupported. A strong-sounding value proposition is still a hypothesis."
+      },
+      {
+       "title": "Check access and capability",
+       "visual": "Founder maps a task to a skill or support route.",
+       "narration": "Can you ethically reach relevant people and sources? Can you perform the next check with your current skills or appropriate help? Distinguish demonstrated capability from a plan to learn or find support. Pending permission is not access, and a named contact is not a confirmed commitment."
+      },
+      {
+       "title": "Respect resources and constraints",
+       "visual": "Editable time, budget, permission and dependency cards.",
+       "narration": "Use your realistic time, budget and commitment from earlier lessons. Identify dependencies, privacy or permission limits and what would stop the next step. Fit can improve through learning, support or a narrower scope. A weak fit today does not mean you are not a founder."
+      },
+      {
+       "title": "Use ratings without false precision",
+       "visual": "Editable Low, Medium, High and Unknown cards.",
+       "narration": "You may use low, medium, high or unknown as provisional judgments for importance, access and capability. Rate uncertainty separately; high uncertainty means more is unresolved. Explain each rating with evidence and limits. Do not add them into a success score or let a number override a critical constraint."
+      },
+      {
+       "title": "Choose a bounded next action",
+       "visual": "Actual approved Lesson 18 worksheet recording.",
+       "narration": "Create your Opportunity and Founder Fit Assessment. Record judgments, evidence, resources, gaps and critical constraints. Choose to explore further, narrow, seek support or pause, with a next check and review trigger. This is a learning decision, not venture approval or a prediction of success."
+      }
+     ],
+     "sceneMeta": "Planned final scene: 25 seconds · narration and precise graphics added in post",
+     "summary": "Explore the six-scene storyboard placeholder"
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {
+        "class": "help"
+       },
+       "children": [
+        "Use an explainer with editable diagrams, documentary cutaways and a real worksheet demo. Generate short assets where supported, then assemble in an editor."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "videoPrompt",
+     "prompt": "Create a beginner-friendly LYNQ Academy explainer plus assessment demo for Module 1.4 Lesson 18: Assess Opportunity & Founder Fit. Editorial target about 150 seconds, 16:9 1080p. Navy #0B2338, teal #087D79, mint #BCF2DF, white; diverse adults in contemporary Dubai workspace; warm clear English narrator. Fictional anonymous examples labeled Illustrative example in post. Teach importance, ethical access, demonstrated capability, time/resources, dependencies and uncertainty, with reasoned provisional Low/Medium/High/Unknown judgments. High uncertainty means unresolved information, not a positive score. No automatic weighted totals, success scores, founder personality judgments, fabricated evidence, funding or demand claims.\n\nSCENE 1: Fit is a practical question\nVisual placeholder: Founder reviews opportunity and calendar cards.\nNarration: An opportunity may sound useful, but is it a sensible next learning focus for you now? Founder fit means access, capability, resources and commitment for the next step. It is not a personality test or proof of business success. Separate the opportunity’s evidence from your enthusiasm.\n\nSCENE 2: Assess importance and alternatives\nVisual placeholder: Editable importance and current approach cards.\nNarration: How important might the problem be for the specific group, and what evidence supports that view? Include what existing approaches do well. Keep frequency, consequences and willingness to change unknown when unsupported. A strong-sounding value proposition is still a hypothesis.\n\nSCENE 3: Check access and capability\nVisual placeholder: Founder maps a task to a skill or support route.\nNarration: Can you ethically reach relevant people and sources? Can you perform the next check with your current skills or appropriate help? Distinguish demonstrated capability from a plan to learn or find support. Pending permission is not access, and a named contact is not a confirmed commitment.\n\nSCENE 4: Respect resources and constraints\nVisual placeholder: Editable time, budget, permission and dependency cards.\nNarration: Use your realistic time, budget and commitment from earlier lessons. Identify dependencies, privacy or permission limits and what would stop the next step. Fit can improve through learning, support or a narrower scope. A weak fit today does not mean you are not a founder.\n\nSCENE 5: Use ratings without false precision\nVisual placeholder: Editable Low, Medium, High and Unknown cards.\nNarration: You may use low, medium, high or unknown as provisional judgments for importance, access and capability. Rate uncertainty separately; high uncertainty means more is unresolved. Explain each rating with evidence and limits. Do not add them into a success score or let a number override a critical constraint.\n\nSCENE 6: Choose a bounded next action\nVisual placeholder: Actual approved Lesson 18 worksheet recording.\nNarration: Create your Opportunity and Founder Fit Assessment. Record judgments, evidence, resources, gaps and critical constraints. Choose to explore further, narrow, seek support or pause, with a next check and review trigger. This is a learning decision, not venture approval or a prediction of success.\n\nFirst return storyboard, timings and individual shot prompts. Generate only supported short shot lengths for selected Gemini/Veo account and assemble with a separately recorded narrator track. Generated footage has no text, logos, captions or fabricated UI. Add exact LYNQ branding and editable Importance / Access / Capability / Resources / Uncertainty / Constraint cards in post. Screen-record actual approved Lesson 18 worksheet with fictional reasoned entries. Deliver H.264 MP4, editable project/diagrams, audio, transcript, VTT/SRT captions, thumbnail and rights/provenance. Arabic version needs native-reviewed narration and RTL graphics. Review honest rating semantics, constraints, accuracy, privacy, brand, audio, pacing and mobile readability before publication. Prototype contains no generated video.",
+     "filename": "LYNQ-Lesson-18-Gemini-Video-Prompt.md",
+     "title": "# LYNQ Lesson 18 — Gemini video prompt",
+     "summary": "Gemini video prompt — ready to copy"
+    },
+    {
+     "type": "transcript",
+     "scenes": [
+      {
+       "title": "Fit is a practical question",
+       "visual": "Founder reviews opportunity and calendar cards.",
+       "narration": "An opportunity may sound useful, but is it a sensible next learning focus for you now? Founder fit means access, capability, resources and commitment for the next step. It is not a personality test or proof of business success. Separate the opportunity’s evidence from your enthusiasm."
+      },
+      {
+       "title": "Assess importance and alternatives",
+       "visual": "Editable importance and current approach cards.",
+       "narration": "How important might the problem be for the specific group, and what evidence supports that view? Include what existing approaches do well. Keep frequency, consequences and willingness to change unknown when unsupported. A strong-sounding value proposition is still a hypothesis."
+      },
+      {
+       "title": "Check access and capability",
+       "visual": "Founder maps a task to a skill or support route.",
+       "narration": "Can you ethically reach relevant people and sources? Can you perform the next check with your current skills or appropriate help? Distinguish demonstrated capability from a plan to learn or find support. Pending permission is not access, and a named contact is not a confirmed commitment."
+      },
+      {
+       "title": "Respect resources and constraints",
+       "visual": "Editable time, budget, permission and dependency cards.",
+       "narration": "Use your realistic time, budget and commitment from earlier lessons. Identify dependencies, privacy or permission limits and what would stop the next step. Fit can improve through learning, support or a narrower scope. A weak fit today does not mean you are not a founder."
+      },
+      {
+       "title": "Use ratings without false precision",
+       "visual": "Editable Low, Medium, High and Unknown cards.",
+       "narration": "You may use low, medium, high or unknown as provisional judgments for importance, access and capability. Rate uncertainty separately; high uncertainty means more is unresolved. Explain each rating with evidence and limits. Do not add them into a success score or let a number override a critical constraint."
+      },
+      {
+       "title": "Choose a bounded next action",
+       "visual": "Actual approved Lesson 18 worksheet recording.",
+       "narration": "Create your Opportunity and Founder Fit Assessment. Record judgments, evidence, resources, gaps and critical constraints. Choose to explore further, narrow, seek support or pause, with a next check and review trigger. This is a learning decision, not venture approval or a prediction of success."
+      }
+     ],
+     "summary": "Read the full narration / transcript"
+    },
+    {
+     "type": "studied",
+     "label": "I read the transcript or reviewed the learning guide. Video is not required."
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "label": "02 / LEARN",
+   "heading": "Assess the opportunity and your next-step fit separately.",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "Opportunity assessment"
+         ]
+        },
+        " asks whether the problem and proposed improvement merit further investigation. ",
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "Founder fit"
+         ]
+        },
+        " asks whether you can realistically perform the next learning step, with access, skills, support and resources. Neither predicts venture success."
+       ]
+      },
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "grid2"
+       },
+       "children": [
+        {
+         "tag": "div",
+         "attrs": {
+          "class": "note"
+         },
+         "children": [
+          {
+           "tag": "h3",
+           "attrs": {},
+           "children": [
+            "Importance"
+           ]
+          },
+          {
+           "tag": "p",
+           "attrs": {},
+           "children": [
+            "Does the difficulty matter to the specific group? Preserve evidence and what current approaches already solve."
+           ]
+          }
+         ]
+        },
+        {
+         "tag": "div",
+         "attrs": {
+          "class": "note"
+         },
+         "children": [
+          {
+           "tag": "h3",
+           "attrs": {},
+           "children": [
+            "Reachability"
+           ]
+          },
+          {
+           "tag": "p",
+           "attrs": {},
+           "children": [
+            "Can you ethically reach relevant people or sources? Pending permission is not confirmed access."
+           ]
+          }
+         ]
+        },
+        {
+         "tag": "div",
+         "attrs": {
+          "class": "note"
+         },
+         "children": [
+          {
+           "tag": "h3",
+           "attrs": {},
+           "children": [
+            "Capability"
+           ]
+          },
+          {
+           "tag": "p",
+           "attrs": {},
+           "children": [
+            "Can you perform the next check? Separate demonstrated skills, learning plans and unconfirmed support."
+           ]
+          }
+         ]
+        },
+        {
+         "tag": "div",
+         "attrs": {
+          "class": "note"
+         },
+         "children": [
+          {
+           "tag": "h3",
+           "attrs": {},
+           "children": [
+            "Uncertainty"
+           ]
+          },
+          {
+           "tag": "p",
+           "attrs": {},
+           "children": [
+            "What remains unresolved? High uncertainty means more unknowns, not a high success score."
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "tag": "h3",
+       "attrs": {},
+       "children": [
+        "Use a reasoned rating"
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "For importance, access and capability, use ",
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "Low / Medium / High / Unknown"
+         ]
+        },
+        " if helpful, followed by evidence, limits and a next check. Rate uncertainty separately. These are self-judgments, not measured scores. No total or automatic recommendation is calculated."
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Critical constraints matter independently: missing permission, inadequate time or an unsafe method can block the next step even when other judgments look positive. Fit can improve by narrowing the scope, learning or securing confirmed help."
+       ]
+      },
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "note"
+       },
+       "children": [
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "Illustrative example:"
+         ]
+        },
+        " a founder with venue experience may have relevant skills, but access remains pending until permission is confirmed. A feasible desk-based source check could be a fallback. This does not prove demand or business viability."
+       ]
+      },
+      {
+       "tag": "h3",
+       "attrs": {},
+       "children": [
+        "Choose a bounded action"
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Explore further, narrow the question, seek support or pause. Explain why, state the next check and set a review trigger. Pausing can be a reasonable decision; it is not a judgment of your identity or worth."
+       ]
+      },
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "actions"
+       },
+       "children": [
+        {
+         "tag": "lesson-link",
+         "attrs": {
+          "lesson": "4",
+          "class": "btn secondary"
+         },
+         "children": [
+          "Review skills & support"
+         ]
+        },
+        {
+         "tag": "lesson-link",
+         "attrs": {
+          "lesson": "5",
+          "class": "btn secondary"
+         },
+         "children": [
+          "Review commitment plan"
+         ]
+        },
+        {
+         "tag": "lesson-link",
+         "attrs": {
+          "lesson": "16",
+          "class": "btn secondary"
+         },
+         "children": [
+          "Review opportunity statement"
+         ]
+        },
+        {
+         "tag": "lesson-link",
+         "attrs": {
+          "lesson": "17",
+          "class": "btn secondary"
+         },
+         "children": [
+          "Review value proposition"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "practice",
+     "legend": "Practice: access permission is pending",
+     "prompt": "",
+     "options": [
+      {
+       "label": "A high enthusiasm rating overrides permission",
+       "feedback": "Respect the pending permission; positive ratings do not grant access or define your worth as a founder."
+      },
+      {
+       "label": "Keep access pending and choose an ethical fallback",
+       "feedback": "Useful action: keep permission pending and use an ethical fallback. Ratings cannot override a critical constraint."
+      },
+      {
+       "label": "This proves I cannot be a founder",
+       "feedback": "Respect the pending permission; positive ratings do not grant access or define your worth as a founder."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "build",
+   "label": "03 / BUILD",
+   "heading": "Your Opportunity & Founder Fit Assessment.",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Write reasoned judgments, not an automatic score. Unknown is acceptable with a next check. No total, pass/fail result or recommendation is generated."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "saveStatus"
+    },
+    {
+     "type": "fields",
+     "ids": [
+      "focus",
+      "importance",
+      "access",
+      "capability",
+      "resources",
+      "uncertainty",
+      "constraints",
+      "decision",
+      "support"
+     ]
+    },
+    {
+     "type": "extension",
+     "id": "preview",
+     "props": {
+      "label": "Preview my fit assessment",
+      "kind": "lines",
+      "joiner": "\n\n",
+      "lines": [
+       {
+        "id": "focus",
+        "label": "Opportunity and next learning task — sources from Lessons 16–17 *"
+       },
+       {
+        "id": "importance",
+        "label": "Importance judgment (Low/Medium/High/Unknown), evidence, alternatives and limits *"
+       },
+       {
+        "id": "access",
+        "label": "Ethical reachability judgment, permission status, relevant people/sources and fallback *"
+       },
+       {
+        "id": "capability",
+        "label": "Capability judgment, demonstrated skills, learning gaps and confirmed versus planned support *"
+       },
+       {
+        "id": "resources",
+        "label": "Realistic time/budget/commitment, dependencies and effort limits *"
+       },
+       {
+        "id": "uncertainty",
+        "label": "Uncertainty judgment: unresolved assumptions, evidence gaps and what to check first *"
+       },
+       {
+        "id": "constraints",
+        "label": "Critical constraints or stop conditions, mitigation and support needed *"
+       },
+       {
+        "id": "decision",
+        "label": "Provisional action: explore/narrow/seek support/pause, reasons, next check and review trigger *"
+       }
+      ],
+      "footer": "This assessment does not prove demand, predict success or grant permission. No total score is calculated."
+     }
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "note"
+       },
+       "children": [
+        "This assessment does not predict success, prove demand or grant permission. Browser storage is plaintext; avoid private or sensitive information and download a copy."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "extension",
+     "id": "download",
+     "props": {
+      "label": "Download Founder Fit Assessment"
+     }
+    },
+    {
+     "type": "reset",
+     "label": "Clear local draft"
+    }
+   ]
+  },
+  {
+   "id": "coach",
+   "label": "04 / ASK AI",
+   "heading": "Your thinking partner",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "span",
+       "attrs": {
+        "class": "badge"
+       },
+       "children": [
+        "Simulated Coach · no AI connection"
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Try four scripted guidance modes. The preview reads your current worksheet locally; it does not send information anywhere."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "extension",
+     "id": "coach",
+     "props": {
+      "modes": [
+       {
+        "id": "teach",
+        "label": "Teach me"
+       },
+       {
+        "id": "guide",
+        "label": "Guide me"
+       },
+       {
+        "id": "review",
+        "label": "Review my work"
+       },
+       {
+        "id": "challenge",
+        "label": "Challenge my idea"
+       }
+      ],
+      "replies": {
+       "teach": "Assess importance, ethical access, capability, resources and uncertainty with reasons. Ratings are judgments, not success scores.",
+       "guide": "Separate demonstrated capability from planned support; pending permission stays pending. Choose a bounded action with a fallback and review trigger.",
+       "review": "Founder Fit check: {missing} required fields still empty. This scripted check counts fields only; it cannot verify ratings, permissions, capability or demand.",
+       "challenge": "Is enthusiasm being treated as evidence? What critical constraint blocks the next step? Could narrowing or support improve fit? High uncertainty means unresolved information."
+      },
+      "heading": "SCRIPTED DEMO / ",
+      "questionNote": "Your question was entered locally. This preview does not generate a custom answer.",
+      "questionLabel": "Your question (optional)",
+      "placeholder": "What should I focus on first?",
+      "maxLength": 500,
+      "submitLabel": "Show simulated guidance"
+     }
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {
+        "class": "help"
+       },
+       "children": [
+        "Responses are predefined for this lesson, not generated answers to your question. No customer demand or venture readiness is verified."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "challenge",
+   "label": "05 / CHALLENGE",
+   "heading": "Challenge your ratings and decision.",
+   "blocks": [
+    {
+     "type": "fields",
+     "ids": [
+      "assumption",
+      "evidence",
+      "constraint"
+     ]
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "details",
+       "attrs": {},
+       "children": [
+        {
+         "tag": "summary",
+         "attrs": {},
+         "children": [
+          "More questions to discuss"
+         ]
+        },
+        {
+         "tag": "p",
+         "attrs": {},
+         "children": [
+          "Is access confirmed? Does a contact actually agree to help? Is the next check within your commitment? Are unknowns hidden by confident ratings? Can a narrower task improve fit?"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "quiz",
+   "label": "06 / CHECK YOUR UNDERSTANDING",
+   "heading": "A quick knowledge check",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Answer all three. You can retry; all three correct are required for local completion."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "quiz"
+    }
+   ]
+  },
+  {
+   "id": "finish",
+   "label": "07 / DELIVER & PROGRESS",
+   "heading": "Your deliverable: an Opportunity & Founder Fit Assessment.",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Download the focus, judgments, evidence, resources, uncertainty, constraints and provisional action. Earlier deliverables stay separate. Revisit the assessment as evidence or circumstances change."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "checklist"
+    },
+    {
+     "type": "honest",
+     "label": "I treated ratings as judgments, preserved unknowns and critical constraints, and avoided success, demand or permission claims."
+    },
+    {
+     "type": "complete",
+     "label": "Mark Lesson 18 complete locally",
+     "completedLabel": "Lesson 18 self-completed locally",
+     "completedNotice": "Lesson 18 self-completed locally. Download your Opportunity & Founder Fit Assessment. No reviewer approval or venture validation is recorded.",
+     "incompleteNotice": "Complete the remaining requirements above before marking this lesson complete."
+    },
+    {
+     "type": "extension",
+     "id": "moduleNote",
+     "props": {
+      "parts": [
+       {
+        "nodes": [
+         {
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+           "Module 1.4 · Shaping Your Opportunity"
+          ]
+         }
+        ]
+       },
+       {
+        "status": "1.4",
+        "complete": "All five lessons self-completed locally. Module 1.4 learning pack complete.",
+        "incomplete": "{count} / 5 lessons self-completed locally. Complete each lesson separately."
+       },
+       {
+        "nodes": [
+         {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+           "Self-completion records learning, not a founder evaluation, certification or venture approval."
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "type": "next"
+    }
+   ]
+  }
+ ],
+ "nav": [
+  {
+   "id": "watch",
+   "label": "Watch"
+  },
+  {
+   "id": "learn",
+   "label": "Learn"
+  },
+  {
+   "id": "build",
+   "label": "Build"
+  },
+  {
+   "id": "coach",
+   "label": "Ask AI"
+  },
+  {
+   "id": "challenge",
+   "label": "Challenge"
+  },
+  {
+   "id": "quiz",
+   "label": "Knowledge check"
+  },
+  {
+   "id": "finish",
+   "label": "Deliver"
+  }
+ ]
+}

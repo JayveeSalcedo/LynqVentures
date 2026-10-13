@@ -1,0 +1,1037 @@
+{
+ "number": 20,
+ "phase": 1,
+ "module": "1.4",
+ "title": "Discover Checkpoint: Go, Refine or Pause",
+ "hero": {
+  "eyebrow": "Module 1.4 · Shaping Your Opportunity · Lesson 20",
+  "title": "Discover Checkpoint: Go, Refine or Pause.",
+  "intro": "Review your discovery work and choose a reasoned next learning step: go to further testing, refine the focus, or pause. Record evidence, constraints and a clear review trigger.",
+  "badges": [
+   "Beginner friendly"
+  ],
+  "meta": "35–45 min · Recommended: Review Lessons 01–19"
+ },
+ "fields": [
+  {
+   "id": "choice",
+   "label": "Provisional checkpoint decision",
+   "kind": "select",
+   "required": true,
+   "options": [
+    {
+     "value": "",
+     "label": "Choose your next learning decision"
+    },
+    {
+     "value": "Go — further testing",
+     "label": "Go — further testing"
+    },
+    {
+     "value": "Refine — adjust the focus",
+     "label": "Refine — adjust the focus"
+    },
+    {
+     "value": "Pause — revisit later",
+     "label": "Pause — revisit later"
+    }
+   ]
+  },
+  {
+   "id": "review",
+   "label": "Review summary: four module deliverables, current focus and revisions",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Keep evidence, decisions and next actions honest and specific.",
+   "maxLength": 2000
+  },
+  {
+   "id": "basis",
+   "label": "Decision-relevant evidence: sources/status, contradictions, plans and unknowns",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Keep evidence, decisions and next actions honest and specific.",
+   "maxLength": 2000
+  },
+  {
+   "id": "rationale",
+   "label": "Why this choice? Include the strongest counterargument",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Keep evidence, decisions and next actions honest and specific.",
+   "maxLength": 2000
+  },
+  {
+   "id": "changes",
+   "label": "What will you test, refine or stop? Keep scope bounded",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Keep evidence, decisions and next actions honest and specific.",
+   "maxLength": 2000
+  },
+  {
+   "id": "constraints",
+   "label": "Critical constraints, permission status, risks and fallback",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Keep evidence, decisions and next actions honest and specific.",
+   "maxLength": 2000
+  },
+  {
+   "id": "action",
+   "label": "Next action: owner, timing, effort/resources; or explicit pause action",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Keep evidence, decisions and next actions honest and specific.",
+   "maxLength": 2000
+  },
+  {
+   "id": "trigger",
+   "label": "Observable review/revisit condition and review date",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Keep evidence, decisions and next actions honest and specific.",
+   "maxLength": 2000
+  },
+  {
+   "id": "handoff",
+   "label": "Handoff notes: unresolved questions, source references and what remains unvalidated",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Keep evidence, decisions and next actions honest and specific.",
+   "maxLength": 2000
+  },
+  {
+   "id": "support",
+   "label": "Optional references or support needed",
+   "kind": "textarea",
+   "required": false,
+   "maxLength": 2000
+  },
+  {
+   "id": "assumption",
+   "label": "Are you treating lesson completion, enthusiasm or planned research as evidence?",
+   "kind": "textarea",
+   "required": true,
+   "maxLength": 2000
+  },
+  {
+   "id": "evidence",
+   "label": "What would change your go/refine/pause choice?",
+   "kind": "textarea",
+   "required": true,
+   "maxLength": 2000
+  },
+  {
+   "id": "constraint",
+   "label": "Which critical constraint prevents proceeding, regardless of positive ratings?",
+   "kind": "textarea",
+   "required": true,
+   "maxLength": 2000
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "At this checkpoint, go means…",
+   "options": [
+    "Launch immediately",
+    "Proceed to bounded further testing with unresolved questions visible",
+    "Guaranteed funding"
+   ],
+   "answer": 1,
+   "explanation": "Go is a next learning step, not validation or launch approval."
+  },
+  {
+   "prompt": "Can refine or pause complete the lesson?",
+   "options": [
+    "Yes; all three are valid reasoned learning decisions",
+    "No, only go can complete",
+    "Only if demand is proven"
+   ],
+   "answer": 0,
+   "explanation": "Learning completion is independent of whether you proceed, refine or pause."
+  },
+  {
+   "prompt": "What does completing all twenty lessons establish?",
+   "options": [
+    "Proven demand",
+    "Permission to conduct research",
+    "Local learning completion; evidence and venture validation remain separate"
+   ],
+   "answer": 2,
+   "explanation": "The phase records learning, not certification, approval or validated demand."
+  }
+ ],
+ "checklist": [
+  {
+   "kind": "studied",
+   "label": "Transcript or learning guide reviewed"
+  },
+  {
+   "kind": "fields",
+   "label": "Discover Decision Record fields complete",
+   "ids": [
+    "choice",
+    "review",
+    "basis",
+    "rationale",
+    "changes",
+    "constraints",
+    "action",
+    "trigger",
+    "handoff"
+   ]
+  },
+  {
+   "kind": "fields",
+   "label": "Three red-team reflections complete",
+   "ids": [
+    "assumption",
+    "evidence",
+    "constraint"
+   ]
+  },
+  {
+   "kind": "quiz",
+   "label": "Knowledge check: 3 / 3 correct"
+  },
+  {
+   "kind": "honest",
+   "label": "Final self-review confirmed"
+  }
+ ],
+ "deliverable": {
+  "title": "LYNQ Academy — Discover Decision Record",
+  "filename": "LYNQ-Discover-Decision-Record.md",
+  "headerLines": [
+   "Phase 01 · Module {module} · Lesson {lesson}",
+   "Status: {status}",
+   "Created: {created}"
+  ],
+  "fieldIds": [
+   "choice",
+   "review",
+   "basis",
+   "rationale",
+   "changes",
+   "constraints",
+   "action",
+   "trigger",
+   "handoff",
+   "support",
+   "assumption",
+   "evidence",
+   "constraint"
+  ],
+  "footer": "Local prototype export. No reviewer submission or business validation."
+ },
+ "sections": [
+  {
+   "id": "watch",
+   "label": "01 / WATCH",
+   "heading": "What is your next reasoned learning decision?",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "The planned explainer reviews discovery evidence and explains three valid next decisions without implying venture approval. Use the transcript or guide while the video is a placeholder."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "video-placeholder"
+       },
+       "children": [
+        {
+         "tag": "span",
+         "attrs": {
+          "class": "badge"
+         },
+         "children": [
+          "Video placeholder · media not produced"
+         ]
+        },
+        {
+         "tag": "h3",
+         "attrs": {},
+         "children": [
+          "Discover Checkpoint: Go, Refine or Pause"
+         ]
+        },
+        {
+         "tag": "p",
+         "attrs": {},
+         "children": [
+          "Planned: 2½-minute explainer + worksheet demo",
+          {
+           "tag": "br",
+           "attrs": {},
+           "children": []
+          },
+          "Review → Go / Refine / Pause → Next action → Review trigger"
+         ]
+        },
+        {
+         "tag": "small",
+         "attrs": {},
+         "children": [
+          "No playable video or generated media is attached."
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "storyboard",
+     "scenes": [
+      {
+       "title": "A checkpoint is a decision",
+       "visual": "Founder reviews anonymous four-module deliverable cards.",
+       "narration": "You have reached the Discover checkpoint. Review what you learned, what remains unknown and what you can realistically do next. Choose go, refine or pause. This is a learning decision, not a success prediction, investment approval or automatic permission to launch."
+      },
+      {
+       "title": "Review the evidence and limits",
+       "visual": "Editable supported, inferred, planned and unknown cards.",
+       "narration": "Review your founder commitment, selected problem, customer research and opportunity brief. Preserve sources, contradictions and planned research. Completing twenty lessons does not turn assumptions into facts. If evidence is weak, say so and plan the next check rather than manufacturing certainty."
+      },
+      {
+       "title": "Understand go",
+       "visual": "Editable next-test question and permission cards.",
+       "narration": "Go means proceed to a bounded next round of testing, usually in Validate. It does not mean launch, proven demand or guaranteed funding. State the unresolved question, feasible test, permission needed and what would change your direction. Critical access or safety constraints still apply."
+      },
+      {
+       "title": "Understand refine and pause",
+       "visual": "Editable refine and pause cards without success badges.",
+       "narration": "Refine means narrow or change the group, problem, approach or research design before further testing. Pause means stop active work for now because evidence, access, resources or priority do not justify it. Neither is failure. Record the reason and the condition for revisiting."
+      },
+      {
+       "title": "Make the decision reviewable",
+       "visual": "Founder records counterargument, owner and review date.",
+       "narration": "Explain the evidence for your choice, the strongest reason against it, unresolved risks and critical constraints. Set the next action, owner, timing and effort limit. Define an observable review trigger. Do not let a high rating override missing permission or treat a polite preference as purchasing evidence."
+      },
+      {
+       "title": "Close Discover honestly",
+       "visual": "Actual approved Lesson 20 worksheet and local completion state.",
+       "narration": "Create your Discover Decision Record and review all four modules. Local phase completion requires all twenty lessons, but your decision can be go, refine or pause. Learning completion and venture validation are separate. The prototype records your plan locally; Phase 02 is a planned handoff, not a connected course or automatic submission."
+      }
+     ],
+     "sceneMeta": "Planned final scene: 25 seconds · narration and precise graphics added in post",
+     "summary": "Explore the six-scene storyboard placeholder"
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {
+        "class": "help"
+       },
+       "children": [
+        "Use an explainer with editable diagrams, documentary cutaways and a real worksheet demo. Generate short assets where supported, then assemble in an editor."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "videoPrompt",
+     "prompt": "Create an engaging beginner-friendly LYNQ Academy explainer and checkpoint demo for Module 1.4 Lesson 20: Discover Checkpoint: Go, Refine or Pause. Editorial target about 150 seconds, 16:9 1080p. Navy #0B2338, teal #087D79, mint #BCF2DF, white; diverse adults in contemporary Dubai workspace; friendly clear English narrator. Fictional anonymous examples labeled Illustrative example in post. Teach evidence-aware go-to-further-testing, refine and pause, counterarguments, constraints and review triggers. All three decisions are legitimate learning outcomes. No guaranteed success, demand, funding, launch readiness, certificates or automated venture approval.\n\nSCENE 1: A checkpoint is a decision\nVisual placeholder: Founder reviews anonymous four-module deliverable cards.\nNarration: You have reached the Discover checkpoint. Review what you learned, what remains unknown and what you can realistically do next. Choose go, refine or pause. This is a learning decision, not a success prediction, investment approval or automatic permission to launch.\n\nSCENE 2: Review the evidence and limits\nVisual placeholder: Editable supported, inferred, planned and unknown cards.\nNarration: Review your founder commitment, selected problem, customer research and opportunity brief. Preserve sources, contradictions and planned research. Completing twenty lessons does not turn assumptions into facts. If evidence is weak, say so and plan the next check rather than manufacturing certainty.\n\nSCENE 3: Understand go\nVisual placeholder: Editable next-test question and permission cards.\nNarration: Go means proceed to a bounded next round of testing, usually in Validate. It does not mean launch, proven demand or guaranteed funding. State the unresolved question, feasible test, permission needed and what would change your direction. Critical access or safety constraints still apply.\n\nSCENE 4: Understand refine and pause\nVisual placeholder: Editable refine and pause cards without success badges.\nNarration: Refine means narrow or change the group, problem, approach or research design before further testing. Pause means stop active work for now because evidence, access, resources or priority do not justify it. Neither is failure. Record the reason and the condition for revisiting.\n\nSCENE 5: Make the decision reviewable\nVisual placeholder: Founder records counterargument, owner and review date.\nNarration: Explain the evidence for your choice, the strongest reason against it, unresolved risks and critical constraints. Set the next action, owner, timing and effort limit. Define an observable review trigger. Do not let a high rating override missing permission or treat a polite preference as purchasing evidence.\n\nSCENE 6: Close Discover honestly\nVisual placeholder: Actual approved Lesson 20 worksheet and local completion state.\nNarration: Create your Discover Decision Record and review all four modules. Local phase completion requires all twenty lessons, but your decision can be go, refine or pause. Learning completion and venture validation are separate. The prototype records your plan locally; Phase 02 is a planned handoff, not a connected course or automatic submission.\n\nFirst return storyboard, timings and individual shot prompts. Generate only supported short shot lengths for selected Gemini/Veo account; assemble with separately recorded narration. Generated footage has no text, logos, captions, private data or fake UI. Add exact branding and editable Go: further testing / Refine: adjust focus / Pause: revisit condition cards in post. Use actual approved Lesson 20 screen recording with fictional source-labeled decision and clearly local self-completion. Do not show Phase 02 as built or a certificate being issued. Deliver H.264 MP4, editable project/diagrams, audio, transcript, VTT/SRT captions, thumbnail and rights/provenance. Arabic version requires native-reviewed narration and RTL graphics. Review decision semantics, evidence honesty, privacy, brand, audio, pacing and mobile readability before publication. Prototype contains no generated video.",
+     "filename": "LYNQ-Lesson-20-Gemini-Video-Prompt.md",
+     "title": "# LYNQ Lesson 20 — Gemini video prompt",
+     "summary": "Gemini video prompt — ready to copy"
+    },
+    {
+     "type": "transcript",
+     "scenes": [
+      {
+       "title": "A checkpoint is a decision",
+       "visual": "Founder reviews anonymous four-module deliverable cards.",
+       "narration": "You have reached the Discover checkpoint. Review what you learned, what remains unknown and what you can realistically do next. Choose go, refine or pause. This is a learning decision, not a success prediction, investment approval or automatic permission to launch."
+      },
+      {
+       "title": "Review the evidence and limits",
+       "visual": "Editable supported, inferred, planned and unknown cards.",
+       "narration": "Review your founder commitment, selected problem, customer research and opportunity brief. Preserve sources, contradictions and planned research. Completing twenty lessons does not turn assumptions into facts. If evidence is weak, say so and plan the next check rather than manufacturing certainty."
+      },
+      {
+       "title": "Understand go",
+       "visual": "Editable next-test question and permission cards.",
+       "narration": "Go means proceed to a bounded next round of testing, usually in Validate. It does not mean launch, proven demand or guaranteed funding. State the unresolved question, feasible test, permission needed and what would change your direction. Critical access or safety constraints still apply."
+      },
+      {
+       "title": "Understand refine and pause",
+       "visual": "Editable refine and pause cards without success badges.",
+       "narration": "Refine means narrow or change the group, problem, approach or research design before further testing. Pause means stop active work for now because evidence, access, resources or priority do not justify it. Neither is failure. Record the reason and the condition for revisiting."
+      },
+      {
+       "title": "Make the decision reviewable",
+       "visual": "Founder records counterargument, owner and review date.",
+       "narration": "Explain the evidence for your choice, the strongest reason against it, unresolved risks and critical constraints. Set the next action, owner, timing and effort limit. Define an observable review trigger. Do not let a high rating override missing permission or treat a polite preference as purchasing evidence."
+      },
+      {
+       "title": "Close Discover honestly",
+       "visual": "Actual approved Lesson 20 worksheet and local completion state.",
+       "narration": "Create your Discover Decision Record and review all four modules. Local phase completion requires all twenty lessons, but your decision can be go, refine or pause. Learning completion and venture validation are separate. The prototype records your plan locally; Phase 02 is a planned handoff, not a connected course or automatic submission."
+      }
+     ],
+     "summary": "Read the full narration / transcript"
+    },
+    {
+     "type": "studied",
+     "label": "I read the transcript or reviewed the learning guide. Video is not required."
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "label": "02 / LEARN",
+   "heading": "Choose the next learning step, not a verdict on your worth.",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "grid2"
+       },
+       "children": [
+        {
+         "tag": "div",
+         "attrs": {
+          "class": "note"
+         },
+         "children": [
+          {
+           "tag": "h3",
+           "attrs": {},
+           "children": [
+            "Go"
+           ]
+          },
+          {
+           "tag": "p",
+           "attrs": {},
+           "children": [
+            "Proceed to a bounded next test. Demand, payment, permission and launch readiness remain separate questions."
+           ]
+          }
+         ]
+        },
+        {
+         "tag": "div",
+         "attrs": {
+          "class": "note"
+         },
+         "children": [
+          {
+           "tag": "h3",
+           "attrs": {},
+           "children": [
+            "Refine"
+           ]
+          },
+          {
+           "tag": "p",
+           "attrs": {},
+           "children": [
+            "Adjust or narrow your group, problem, approach or research design, then check the revised focus."
+           ]
+          }
+         ]
+        },
+        {
+         "tag": "div",
+         "attrs": {
+          "class": "note"
+         },
+         "children": [
+          {
+           "tag": "h3",
+           "attrs": {},
+           "children": [
+            "Pause"
+           ]
+          },
+          {
+           "tag": "p",
+           "attrs": {},
+           "children": [
+            "Stop active work for now; record why and what would justify revisiting. Pausing is a valid outcome."
+           ]
+          }
+         ]
+        },
+        {
+         "tag": "div",
+         "attrs": {
+          "class": "note"
+         },
+         "children": [
+          {
+           "tag": "h3",
+           "attrs": {},
+           "children": [
+            "Review trigger"
+           ]
+          },
+          {
+           "tag": "p",
+           "attrs": {},
+           "children": [
+            "An observable condition or date that prompts reconsideration. Avoid vague confidence as the only criterion."
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "tag": "h3",
+       "attrs": {},
+       "children": [
+        "Review four learning packs"
+       ]
+      },
+      {
+       "tag": "ol",
+       "attrs": {},
+       "children": [
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Module 1.1: founder profile, responsibilities, purpose, skills/support and commitment."
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Module 1.2: journal, affected people, problem map, alternatives and problem selection."
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Module 1.3: customer snapshot, journey, source log, landscape and research plan."
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Module 1.4: opportunity statement, value proposition, fit assessment, brief and this decision record."
+         ]
+        }
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Use the dashboard to review any lesson. Completion only checks field presence, acknowledgements and quiz answers. It does not review substantive evidence. Planned research remains planned; an incomplete evidence base can justify refine or pause, or a narrowly defined next test."
+       ]
+      },
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "actions"
+       },
+       "children": [
+        {
+         "tag": "lesson-link",
+         "attrs": {
+          "lesson": "5",
+          "class": "btn secondary"
+         },
+         "children": [
+          "Review founder commitment"
+         ]
+        },
+        {
+         "tag": "lesson-link",
+         "attrs": {
+          "lesson": "15",
+          "class": "btn secondary"
+         },
+         "children": [
+          "Review research plan"
+         ]
+        },
+        {
+         "tag": "lesson-link",
+         "attrs": {
+          "lesson": "18",
+          "class": "btn secondary"
+         },
+         "children": [
+          "Review fit assessment"
+         ]
+        },
+        {
+         "tag": "lesson-link",
+         "attrs": {
+          "lesson": "19",
+          "class": "btn secondary"
+         },
+         "children": [
+          "Review opportunity brief"
+         ]
+        }
+       ]
+      },
+      {
+       "tag": "h3",
+       "attrs": {},
+       "children": [
+        "Make the choice accountable"
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Explain supporting evidence, strongest counterargument, unresolved questions and constraints. Set owner, timing, effort limit, permission status and fallback. A go decision cannot override pending permission. Refine or pause never prevents local lesson completion."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "practice",
+     "legend": "Practice: what does go mean?",
+     "prompt": "",
+     "options": [
+      {
+       "label": "Launch because all lessons are complete",
+       "feedback": "Separate learning completion from validation. Go does not mean launch, proven demand or guaranteed funding."
+      },
+      {
+       "label": "Proceed to a bounded next test with unresolved questions visible",
+       "feedback": "Useful decision: go means bounded further testing, with uncertainty and permission limits preserved."
+      },
+      {
+       "label": "Demand and funding are guaranteed",
+       "feedback": "Separate learning completion from validation. Go does not mean launch, proven demand or guaranteed funding."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "build",
+   "label": "03 / BUILD",
+   "heading": "Your Discover Decision Record.",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Choose go, refine or pause, then explain your reasoning and next action. All three can complete this lesson. No recommendation, approval or Phase 02 enrollment is generated automatically."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "saveStatus"
+    },
+    {
+     "type": "fields",
+     "ids": [
+      "choice",
+      "review",
+      "basis",
+      "rationale",
+      "changes",
+      "constraints",
+      "action",
+      "trigger",
+      "handoff",
+      "support"
+     ]
+    },
+    {
+     "type": "extension",
+     "id": "preview",
+     "props": {
+      "label": "Preview my decision record",
+      "kind": "lines",
+      "joiner": "\n\n",
+      "lines": [
+       {
+        "id": "choice",
+        "label": "Provisional checkpoint decision *"
+       },
+       {
+        "id": "review",
+        "label": "Review summary: four module deliverables, current focus and revisions *"
+       },
+       {
+        "id": "basis",
+        "label": "Decision-relevant evidence: sources/status, contradictions, plans and unknowns *"
+       },
+       {
+        "id": "rationale",
+        "label": "Why this choice? Include the strongest counterargument *"
+       },
+       {
+        "id": "changes",
+        "label": "What will you test, refine or stop? Keep scope bounded *"
+       },
+       {
+        "id": "constraints",
+        "label": "Critical constraints, permission status, risks and fallback *"
+       },
+       {
+        "id": "action",
+        "label": "Next action: owner, timing, effort/resources; or explicit pause action *"
+       },
+       {
+        "id": "trigger",
+        "label": "Observable review/revisit condition and review date *"
+       },
+       {
+        "id": "handoff",
+        "label": "Handoff notes: unresolved questions, source references and what remains unvalidated *"
+       }
+      ],
+      "footer": "This decision does not prove demand, grant permission or approve a venture. Phase 02 · Validate continues with Lesson 21."
+     }
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "note"
+       },
+       "children": [
+        "This decision does not prove demand, grant permission or approve a venture. Browser storage is plaintext; avoid private/confidential information and download a copy."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "extension",
+     "id": "download",
+     "props": {
+      "label": "Download Discover Decision Record"
+     }
+    },
+    {
+     "type": "reset",
+     "label": "Clear local draft"
+    }
+   ]
+  },
+  {
+   "id": "coach",
+   "label": "04 / ASK AI",
+   "heading": "Your thinking partner",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "span",
+       "attrs": {
+        "class": "badge"
+       },
+       "children": [
+        "Simulated Coach · no AI connection"
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Try four scripted guidance modes. The preview reads your current worksheet locally; it does not send information anywhere."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "extension",
+     "id": "coach",
+     "props": {
+      "modes": [
+       {
+        "id": "teach",
+        "label": "Teach me"
+       },
+       {
+        "id": "guide",
+        "label": "Guide me"
+       },
+       {
+        "id": "review",
+        "label": "Review my work"
+       },
+       {
+        "id": "challenge",
+        "label": "Challenge my idea"
+       }
+      ],
+      "replies": {
+       "teach": "Go means further testing, refine means adjust the focus, and pause means revisit under stated conditions. All three are valid learning decisions.",
+       "guide": "Review four modules, preserve evidence/unknowns, explain your choice and counterargument, and set a bounded next action with constraints and review trigger.",
+       "review": "Checkpoint check: {missing} required fields still empty. This scripted check counts fields only; it cannot verify evidence, recommend a decision, grant permission or approve a venture.",
+       "challenge": "Are completed lessons being mistaken for validation? What contradicts the choice? Does the next action respect constraints? What would make you refine or pause?"
+      },
+      "heading": "SCRIPTED DEMO / ",
+      "questionNote": "Your question was entered locally. This preview does not generate a custom answer.",
+      "questionLabel": "Your question (optional)",
+      "placeholder": "What should I focus on first?",
+      "maxLength": 500,
+      "submitLabel": "Show simulated guidance"
+     }
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {
+        "class": "help"
+       },
+       "children": [
+        "Responses are predefined for this lesson, not generated answers to your question. No customer demand or venture readiness is verified."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "challenge",
+   "label": "05 / CHALLENGE",
+   "heading": "Challenge the checkpoint decision.",
+   "blocks": [
+    {
+     "type": "fields",
+     "ids": [
+      "assumption",
+      "evidence",
+      "constraint"
+     ]
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "details",
+       "attrs": {},
+       "children": [
+        {
+         "tag": "summary",
+         "attrs": {},
+         "children": [
+          "More questions to discuss"
+         ]
+        },
+        {
+         "tag": "p",
+         "attrs": {},
+         "children": [
+          "Is the next action small and permitted? Does the current workaround suffice? Are sources traceable? Have you made space for contradictions? Is pause a reasonable resource decision? Who reviews the result?"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "quiz",
+   "label": "06 / CHECK YOUR UNDERSTANDING",
+   "heading": "A quick knowledge check",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Answer all three. You can retry; all three correct are required for local completion."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "quiz"
+    }
+   ]
+  },
+  {
+   "id": "finish",
+   "label": "07 / DELIVER & PHASE CHECKPOINT",
+   "heading": "Your deliverable: a Discover Decision Record.",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Download your choice, evidence, counterargument, constraints, next action and review trigger. Complete or review all twenty lessons to finish the local Discover learning pack."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "checklist"
+    },
+    {
+     "type": "honest",
+     "label": "I distinguished learning completion from validation, preserved unresolved evidence and constraints, and chose a bounded go/refine/pause action."
+    },
+    {
+     "type": "complete",
+     "label": "Mark Lesson 20 complete locally",
+     "completedLabel": "Lesson 20 self-completed locally",
+     "completedNotice": "Lesson 20 self-completed locally. Download your Discover Decision Record. No reviewer approval or venture validation is recorded.",
+     "incompleteNotice": "Complete the remaining requirements above before marking this lesson complete."
+    },
+    {
+     "type": "extension",
+     "id": "moduleNote",
+     "props": {
+      "parts": [
+       {
+        "nodes": [
+         {
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+           "Module 1.4 · Shaping Your Opportunity"
+          ]
+         }
+        ]
+       },
+       {
+        "status": "1.4",
+        "complete": "All five lessons self-completed locally. Module 1.4 learning pack complete.",
+        "incomplete": "{count} / 5 lessons self-completed locally. Complete each lesson separately."
+       },
+       {
+        "nodes": [
+         {
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+           "Phase 01 · Discover learning pack"
+          ]
+         }
+        ]
+       },
+       {
+        "status": "phase",
+        "complete": "20 / 20 lessons self-completed locally. Discover learning pack complete; this is not venture validation.",
+        "incomplete": "{count} / 20 lessons self-completed locally. Finish the remaining learning work before calling Discover complete."
+       },
+       {
+        "nodes": [
+         {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+           "Completion issues no certificate, venture approval or reviewer submission. Your decision remains your recorded self-review."
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "note"
+       },
+       "children": [
+        {
+         "tag": "h3",
+         "attrs": {},
+         "children": [
+          "Phase 02 · Validate — next"
+         ]
+        },
+        {
+         "tag": "p",
+         "attrs": {},
+         "children": [
+          "Use the decision record to define the next test of the problem, benefit, behaviour or payment uncertainty. Refine or pause can return to Discover."
+         ]
+        }
+       ]
+      },
+      {
+       "tag": "phase-link",
+       "attrs": {
+        "phase": "1",
+        "class": "btn secondary"
+       },
+       "children": [
+        "Return to Discover dashboard"
+       ]
+      }
+     ]
+    },
+    {
+     "type": "next"
+    }
+   ]
+  }
+ ],
+ "nav": [
+  {
+   "id": "watch",
+   "label": "Watch"
+  },
+  {
+   "id": "learn",
+   "label": "Learn"
+  },
+  {
+   "id": "build",
+   "label": "Build"
+  },
+  {
+   "id": "coach",
+   "label": "Ask AI"
+  },
+  {
+   "id": "challenge",
+   "label": "Challenge"
+  },
+  {
+   "id": "quiz",
+   "label": "Knowledge check"
+  },
+  {
+   "id": "finish",
+   "label": "Deliver"
+  }
+ ]
+}

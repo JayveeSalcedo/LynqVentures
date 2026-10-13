@@ -1,0 +1,1142 @@
+{
+ "number": 4,
+ "phase": 1,
+ "module": "1.1",
+ "title": "Your Skills, Gaps & Support Network",
+ "hero": {
+  "eyebrow": "Module 1.1 · Becoming an Entrepreneur · Lesson 04",
+  "title": "Your Skills, Gaps & Support Network.",
+  "intro": "Recognise what you can already do, identify the one gap that matters next, and plan how to learn or ask for help. Your deliverable is a Skills & Support Map.",
+  "badges": [
+   "Beginner friendly"
+  ],
+  "meta": "35–45 min · Recommended: Lessons 01–03"
+ },
+ "fields": [
+  {
+   "id": "nexttask",
+   "label": "What is your next useful venture task?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Understand how visitors follow up after an event.",
+   "maxLength": 2000,
+   "hint": "Use an action from Lesson 02 or choose a small discovery task."
+  },
+  {
+   "id": "strengths",
+   "label": "Which strengths can you use for that task?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Organising conversations, listening, and keeping notes.",
+   "maxLength": 2000,
+   "hint": "Name two or three relevant abilities; be specific about what you can do."
+  },
+  {
+   "id": "skillproof",
+   "label": "What examples support those strengths?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "I coordinated a small event team and kept an agreed schedule.",
+   "maxLength": 2000,
+   "hint": "Say what you did and what happened. Keep sensitive names and details out."
+  },
+  {
+   "id": "gap",
+   "label": "Which one skill or access gap matters most now?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "I need to practise writing neutral questions before speaking with visitors.",
+   "maxLength": 2000,
+   "hint": "Connect the gap to the task, rather than listing everything you lack."
+  },
+  {
+   "id": "route",
+   "label": "How will you learn, practise, use a tool, or get help?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Draft three questions and rehearse with a peer for 20 minutes Thursday.",
+   "maxLength": 2000,
+   "hint": "Choose a route, action, time limit and an observable learning result."
+  },
+  {
+   "id": "network",
+   "label": "Who or which role could help, and what is their status?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "A peer with research experience; request planned, not confirmed.",
+   "maxLength": 2000,
+   "hint": "Use roles or aliases. State relevant experience and whether help is only planned, requested, or agreed."
+  },
+  {
+   "id": "request",
+   "label": "What specific support request will you make?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Could you review three discovery questions for 15 minutes this week and comment by Friday?",
+   "maxLength": 2000,
+   "hint": "Include context, help, time, output and review point. Draft only; nothing is sent."
+  },
+  {
+   "id": "fallback",
+   "label": "What is your fallback and review point?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Use the lesson guide to revise the questions, practise alone, and review Friday.",
+   "maxLength": 2000,
+   "hint": "If help is unavailable, what will you simplify or do next, and when will you review?"
+  },
+  {
+   "id": "support",
+   "label": "What access or resource constraint should you flag?",
+   "kind": "textarea",
+   "required": false,
+   "placeholder": "Optional: availability, cost, time or access to a suitable learning source…",
+   "maxLength": 2000
+  },
+  {
+   "id": "assumption",
+   "label": "Which claimed strength still needs a stronger example?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "I say I can… but I need to check this by…",
+   "maxLength": 2000
+  },
+  {
+   "id": "evidence",
+   "label": "How will you check whether the learning or support route helps?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "I will look for… If that does not happen, I will…",
+   "maxLength": 2000
+  },
+  {
+   "id": "constraint",
+   "label": "What could go wrong if the planned helper is unavailable or unsuitable?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "The risk is… My fallback or pause point is…",
+   "maxLength": 2000
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "How should you choose the first skill gap to work on?",
+   "options": [
+    "Choose what is fashionable",
+    "Choose the gap most relevant to the next useful task",
+    "List every possible skill and learn them all first"
+   ],
+   "answer": 1,
+   "explanation": "Tie the priority gap to the next task; skills that are not needed yet can wait."
+  },
+  {
+   "prompt": "What makes a claimed strength more useful?",
+   "options": [
+    "A concrete example of what you did and what happened",
+    "A confident label without an example",
+    "Assuming all skills transfer automatically"
+   ],
+   "answer": 0,
+   "explanation": "Examples help you assess capability for the specific work ahead."
+  },
+  {
+   "prompt": "How should you describe a possible helper before they agree?",
+   "options": [
+    "As a confirmed team member",
+    "As guaranteed free support",
+    "As potential support with the request status clearly stated"
+   ],
+   "answer": 2,
+   "explanation": "Availability and commitment need agreement. A contact or draft request is not confirmed help."
+  }
+ ],
+ "checklist": [
+  {
+   "kind": "studied",
+   "label": "Transcript or learning guide reviewed"
+  },
+  {
+   "kind": "fields",
+   "label": "Skills & Support Map fields complete",
+   "ids": [
+    "nexttask",
+    "strengths",
+    "skillproof",
+    "gap",
+    "route",
+    "network",
+    "request",
+    "fallback"
+   ]
+  },
+  {
+   "kind": "fields",
+   "label": "Three red-team reflections complete",
+   "ids": [
+    "assumption",
+    "evidence",
+    "constraint"
+   ]
+  },
+  {
+   "kind": "quiz",
+   "label": "Knowledge check: 3 / 3 correct"
+  },
+  {
+   "kind": "honest",
+   "label": "Final self-review confirmed"
+  }
+ ],
+ "deliverable": {
+  "title": "LYNQ Academy — Skills & Support Map",
+  "filename": "LYNQ-Skills-Support-Map.md",
+  "headerLines": [
+   "Phase 01 · Module {module} · Lesson {lesson}",
+   "Status: {status}",
+   "Created: {created}"
+  ],
+  "fieldIds": [
+   "nexttask",
+   "strengths",
+   "skillproof",
+   "gap",
+   "route",
+   "network",
+   "request",
+   "fallback",
+   "support",
+   "assumption",
+   "evidence",
+   "constraint"
+  ],
+  "footer": "Local prototype export. No reviewer submission or business validation."
+ },
+ "sections": [
+  {
+   "id": "watch",
+   "label": "01 / WATCH",
+   "heading": "You can start with the skills you have.",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "The planned explainer shows how to find one useful skill gap, choose a learning route, and ask for specific help. Use the transcript or learning guide while the video is a placeholder."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "video-placeholder"
+       },
+       "children": [
+        {
+         "tag": "span",
+         "attrs": {
+          "class": "badge"
+         },
+         "children": [
+          "Video placeholder · media not produced"
+         ]
+        },
+        {
+         "tag": "h3",
+         "attrs": {},
+         "children": [
+          "Your Skills, Gaps & Support Network"
+         ]
+        },
+        {
+         "tag": "p",
+         "attrs": {},
+         "children": [
+          "Planned: 2½-minute explainer + worksheet demo",
+          {
+           "tag": "br",
+           "attrs": {},
+           "children": []
+          },
+          "Next task → Strengths → One gap → Support plan"
+         ]
+        },
+        {
+         "tag": "small",
+         "attrs": {},
+         "children": [
+          "No playable video or generated media is attached."
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "storyboard",
+     "scenes": [
+      {
+       "title": "Start with the next task",
+       "visual": "Founder reviews a notebook and a small task list in a contemporary Dubai workspace.",
+       "narration": "You do not need every skill to begin. Start with the next useful task. Are you trying to understand a customer, plan a small test, or organise an activity? Knowing the task helps you see which skills matter now and which can wait."
+      },
+      {
+       "title": "Name strengths with examples",
+       "visual": "Founder helps organise an event, listens to a participant and coordinates a small team.",
+       "narration": "Your strengths may come from work, study, volunteering or everyday responsibilities. You might organise people, explain ideas, solve practical problems or listen carefully. Name a specific example of something you have done. Confidence is useful, but an example tells you more than a label such as “good at business.”"
+      },
+      {
+       "title": "Find one important gap",
+       "visual": "Editable task-to-skill-to-gap diagram added in post; founder reviews sample questions.",
+       "narration": "Imagine you know how to organise events but have little experience interviewing visitors. If your next task is to understand their follow-up problems, interview planning may be the priority gap. Coding can wait. Choose the missing skill that most directly affects the next useful step."
+      },
+      {
+       "title": "Choose a way to close the gap",
+       "visual": "Founder practises a question with a teammate, then reviews a short learning checklist.",
+       "narration": "You can learn, practise, use a tool, or ask someone with relevant experience for help. Match the route to the task, time and resources available. For interviews, draft a few neutral questions, practise with a peer, and ask for feedback before speaking with participants. A tool can help, but it does not remove your responsibility to check the work."
+      },
+      {
+       "title": "Make a specific support request",
+       "visual": "Two adults discuss a small written brief; editable request components appear in post.",
+       "narration": "A support network is a set of people you may be able to learn from or work with. A possible contact is not a confirmed commitment. Ask clearly: explain the task, the help you need, the time involved, and the output. Respect a no. For specialist work with important consequences, check the person’s relevant qualifications and experience."
+      },
+      {
+       "title": "Build a realistic support map",
+       "visual": "Actual Lesson 04 worksheet screen recording with fictional answers and a backup-plan card.",
+       "narration": "Now create your Skills and Support Map. Connect your strengths to examples, choose one priority gap, and plan one learning or support action. Record what is still unconfirmed, set a review point, and write a fallback if help is unavailable. You can begin small while building capability over time."
+      }
+     ],
+     "sceneMeta": "Planned final scene: 25 seconds · narration and precise graphics added in post",
+     "summary": "Explore the six-scene storyboard placeholder"
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {
+        "class": "help"
+       },
+       "children": [
+        "Use an explainer with editable diagrams, documentary cutaways and a real worksheet demo. Generate short assets where supported, then assemble in an editor."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "videoPrompt",
+     "prompt": "Create an engaging beginner-friendly explainer for LYNQ Venture Studio Academy, Module 1.1 Lesson 04: “Your Skills, Gaps & Support Network.” Desired final edit: approximately 150 seconds, 16:9, 1080p. Combine calm documentary workplace cutaways, simple animated diagrams and a real worksheet screen recording. Palette: navy #0B2338, teal #087D79, mint #BCF2DF, white. Contemporary Dubai setting, diverse adults, friendly plain-language English narrator. Use believable learning and collaboration moments, not dramatic success imagery.\n\nTeaching goals: connect strengths to concrete examples; derive the priority skill gap from the next venture task; choose a proportionate learn/practise/tool/help route; make a specific respectful request; distinguish potential support from confirmed help; and plan a fallback. No skill/personality diagnosis, hiring guarantees, real contact names, invented endorsements, traction or claims that tools replace qualified expertise. Use a FICTIONAL event coordinator who can organise events but needs to practise neutral customer questions. Label the case “Illustrative example.”\n\nUse the six scenes below in order. Target about 25 seconds per scene in the final edit, allowing natural narration timing and diagram holds. Record one consistent voice track separately. Generate short visual shots only in durations supported by the selected Gemini/Veo model; an eight-second shot plan is optional where supported. Assemble footage, diagrams, narration and screen recording in an editor. Do not claim a single generation will create the entire polished lesson.\n\nSCENE 1 — Start with the next task. Visual: Founder reviews a notebook and a small task list in a contemporary Dubai workspace. Narration: “You do not need every skill to begin. Start with the next useful task. Are you trying to understand a customer, plan a small test, or organise an activity? Knowing the task helps you see which skills matter now and which can wait.”\n\nSCENE 2 — Name strengths with examples. Visual: Founder helps organise an event, listens to a participant and coordinates a small team. Narration: “Your strengths may come from work, study, volunteering or everyday responsibilities. You might organise people, explain ideas, solve practical problems or listen carefully. Name a specific example of something you have done. Confidence is useful, but an example tells you more than a label such as “good at business.””\n\nSCENE 3 — Find one important gap. Visual: Editable task-to-skill-to-gap diagram added in post; founder reviews sample questions. Narration: “Imagine you know how to organise events but have little experience interviewing visitors. If your next task is to understand their follow-up problems, interview planning may be the priority gap. Coding can wait. Choose the missing skill that most directly affects the next useful step.”\n\nSCENE 4 — Choose a way to close the gap. Visual: Founder practises a question with a teammate, then reviews a short learning checklist. Narration: “You can learn, practise, use a tool, or ask someone with relevant experience for help. Match the route to the task, time and resources available. For interviews, draft a few neutral questions, practise with a peer, and ask for feedback before speaking with participants. A tool can help, but it does not remove your responsibility to check the work.”\n\nSCENE 5 — Make a specific support request. Visual: Two adults discuss a small written brief; editable request components appear in post. Narration: “A support network is a set of people you may be able to learn from or work with. A possible contact is not a confirmed commitment. Ask clearly: explain the task, the help you need, the time involved, and the output. Respect a no. For specialist work with important consequences, check the person’s relevant qualifications and experience.”\n\nSCENE 6 — Build a realistic support map. Visual: Actual Lesson 04 worksheet screen recording with fictional answers and a backup-plan card. Narration: “Now create your Skills and Support Map. Connect your strengths to examples, choose one priority gap, and plan one learning or support action. Record what is still unconfirmed, set a review point, and write a fallback if help is unavailable. You can begin small while building capability over time.”\n\nReturn a storyboard, edit timings and separate visual-generation prompts first. No generated visible text, logos, captions, watermark, speaking presenter or fabricated UI. Exact LYNQ wordmark, scene labels, arrows and diagrams must be editable post-production elements. Suggested diagrams: Next task → Required skill → Existing evidence → Priority gap; Learn / Practise / Tool / Ask for help; Possible contact → Request planned → Confirmed help; Task + Specific ask + Time + Output + Review point. Keep the same approved actor reference and wardrobe across continuity shots. Use realistic hands and respectful peer collaboration.\n\nScene 6 must use an actual screen recording of the approved Lesson 04 worksheet with fictional data, rather than generated product UI. Do not expose personal phone numbers, private contact lists or confidential client information. End card added in post: “Use your strengths. Close one gap. Make one clear ask.” A planned request must never appear as a confirmed commitment.\n\nFinal human-produced deliverables: H.264 1920×1080 MP4, editable project and diagrams, narrator audio, thumbnail, timed English VTT/SRT and transcript, generation/reference rights record. Produce separate native-reviewed Arabic narration/captions and RTL graphics; do not auto-mirror English UI. Check mobile legibility, pacing, intelligible audio, reference rights, educational accuracy, qualification wording and brand approval before publication. No video is generated by the prototype.",
+     "filename": "LYNQ-Lesson-04-Gemini-Video-Prompt.md",
+     "title": "# LYNQ Lesson 04 — Gemini video prompt",
+     "summary": "Gemini video prompt — ready to copy"
+    },
+    {
+     "type": "transcript",
+     "scenes": [
+      {
+       "title": "Start with the next task",
+       "visual": "Founder reviews a notebook and a small task list in a contemporary Dubai workspace.",
+       "narration": "You do not need every skill to begin. Start with the next useful task. Are you trying to understand a customer, plan a small test, or organise an activity? Knowing the task helps you see which skills matter now and which can wait."
+      },
+      {
+       "title": "Name strengths with examples",
+       "visual": "Founder helps organise an event, listens to a participant and coordinates a small team.",
+       "narration": "Your strengths may come from work, study, volunteering or everyday responsibilities. You might organise people, explain ideas, solve practical problems or listen carefully. Name a specific example of something you have done. Confidence is useful, but an example tells you more than a label such as “good at business.”"
+      },
+      {
+       "title": "Find one important gap",
+       "visual": "Editable task-to-skill-to-gap diagram added in post; founder reviews sample questions.",
+       "narration": "Imagine you know how to organise events but have little experience interviewing visitors. If your next task is to understand their follow-up problems, interview planning may be the priority gap. Coding can wait. Choose the missing skill that most directly affects the next useful step."
+      },
+      {
+       "title": "Choose a way to close the gap",
+       "visual": "Founder practises a question with a teammate, then reviews a short learning checklist.",
+       "narration": "You can learn, practise, use a tool, or ask someone with relevant experience for help. Match the route to the task, time and resources available. For interviews, draft a few neutral questions, practise with a peer, and ask for feedback before speaking with participants. A tool can help, but it does not remove your responsibility to check the work."
+      },
+      {
+       "title": "Make a specific support request",
+       "visual": "Two adults discuss a small written brief; editable request components appear in post.",
+       "narration": "A support network is a set of people you may be able to learn from or work with. A possible contact is not a confirmed commitment. Ask clearly: explain the task, the help you need, the time involved, and the output. Respect a no. For specialist work with important consequences, check the person’s relevant qualifications and experience."
+      },
+      {
+       "title": "Build a realistic support map",
+       "visual": "Actual Lesson 04 worksheet screen recording with fictional answers and a backup-plan card.",
+       "narration": "Now create your Skills and Support Map. Connect your strengths to examples, choose one priority gap, and plan one learning or support action. Record what is still unconfirmed, set a review point, and write a fallback if help is unavailable. You can begin small while building capability over time."
+      }
+     ],
+     "summary": "Read the full narration / transcript"
+    },
+    {
+     "type": "studied",
+     "label": "I read the transcript or reviewed the learning guide. Video is not required."
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "label": "02 / LEARN",
+   "heading": "Build capability around the next useful step.",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "You do not need to be an expert in every part of a business. You need to understand the next task, recognise what you can contribute, and plan how to close the gaps that could stop you doing it well."
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "A ",
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "skill"
+         ]
+        },
+        " is something you can do. A ",
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "gap"
+         ]
+        },
+        " is a capability or access you still need for a particular task. A ",
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "support network"
+         ]
+        },
+        " includes people you may learn from, get feedback from, or work with. Possible support becomes a commitment only when the person agrees."
+       ]
+      },
+      {
+       "tag": "h3",
+       "attrs": {},
+       "children": [
+        "By the end, you can"
+       ]
+      },
+      {
+       "tag": "ul",
+       "attrs": {},
+       "children": [
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Name useful strengths with concrete examples."
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Choose one skill gap based on the next venture task."
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Compare learning, practice, tools and outside help."
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Draft a specific support request without assuming agreement."
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Set a fallback and review point."
+         ]
+        }
+       ]
+      },
+      {
+       "tag": "h3",
+       "attrs": {},
+       "children": [
+        "Step 1 · Start with the task"
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Use your Lesson 02 Responsibility Map. If your next step is to understand visitors’ experiences, you may need listening, question planning and note-taking. A polished app, large team or extensive branding may come later."
+       ]
+      },
+      {
+       "tag": "h3",
+       "attrs": {},
+       "children": [
+        "Step 2 · Look for evidence of your strengths"
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "“I coordinate event teams and kept a small project on schedule” tells you more than “I’m a natural leader.” Examples may come from paid work, school, community work, caregiving or personal projects. Say what you did and what happened. Keep experience at the level you can actually support."
+       ]
+      },
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "grid2"
+       },
+       "children": [
+        {
+         "tag": "div",
+         "attrs": {
+          "class": "note"
+         },
+         "children": [
+          {
+           "tag": "h3",
+           "attrs": {},
+           "children": [
+            "Useful strengths"
+           ]
+          },
+          {
+           "tag": "p",
+           "attrs": {},
+           "children": [
+            "Listening, organising, explaining, designing, selling, research, problem-solving, practical delivery and knowledge of a community can all contribute."
+           ]
+          },
+          {
+           "tag": "small",
+           "attrs": {},
+           "children": [
+            "No one needs to bring all of them."
+           ]
+          }
+         ]
+        },
+        {
+         "tag": "div",
+         "attrs": {
+          "class": "note"
+         },
+         "children": [
+          {
+           "tag": "h3",
+           "attrs": {},
+           "children": [
+            "A priority gap"
+           ]
+          },
+          {
+           "tag": "p",
+           "attrs": {},
+           "children": [
+            "The gap matters because it affects a specific next task. “I need to practise asking neutral questions” is more actionable than “I need to know everything about business.”"
+           ]
+          },
+          {
+           "tag": "small",
+           "attrs": {},
+           "children": [
+            "Choose one gap to work on first."
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "tag": "h3",
+       "attrs": {},
+       "children": [
+        "Step 3 · Choose a proportionate route"
+       ]
+      },
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "grid2"
+       },
+       "children": [
+        {
+         "tag": "div",
+         "attrs": {
+          "class": "note"
+         },
+         "children": [
+          {
+           "tag": "h3",
+           "attrs": {},
+           "children": [
+            "Learn"
+           ]
+          },
+          {
+           "tag": "p",
+           "attrs": {},
+           "children": [
+            "Use an approved lesson, guide or experienced person to understand the method. Choose a source and a small learning outcome."
+           ]
+          }
+         ]
+        },
+        {
+         "tag": "div",
+         "attrs": {
+          "class": "note"
+         },
+         "children": [
+          {
+           "tag": "h3",
+           "attrs": {},
+           "children": [
+            "Practise"
+           ]
+          },
+          {
+           "tag": "p",
+           "attrs": {},
+           "children": [
+            "Try the skill in a small situation and get feedback. Rehearse questions with a peer before using them with customers."
+           ]
+          }
+         ]
+        },
+        {
+         "tag": "div",
+         "attrs": {
+          "class": "note"
+         },
+         "children": [
+          {
+           "tag": "h3",
+           "attrs": {},
+           "children": [
+            "Use a tool"
+           ]
+          },
+          {
+           "tag": "p",
+           "attrs": {},
+           "children": [
+            "A calendar, worksheet or software tool can help with execution. Check outputs and permissions; a tool does not automatically supply sound judgment."
+           ]
+          }
+         ]
+        },
+        {
+         "tag": "div",
+         "attrs": {
+          "class": "note"
+         },
+         "children": [
+          {
+           "tag": "h3",
+           "attrs": {},
+           "children": [
+            "Ask for help"
+           ]
+          },
+          {
+           "tag": "p",
+           "attrs": {},
+           "children": [
+            "A peer, mentor, collaborator or specialist may help. Explain the task and check their relevant experience, availability and expectations."
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "tag": "h3",
+       "attrs": {},
+       "children": [
+        "Follow one illustrative example"
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "An event coordinator can organise people but has little experience interviewing visitors. Their next task is to understand what happens after an event. They choose interview planning as the priority gap, draft three neutral questions, practise with a peer, and request a short review. The peer has not agreed yet, so the map labels that support as ",
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "request planned"
+         ]
+        },
+        "."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "practice",
+     "legend": "Choose the most useful response",
+     "prompt": "You can coordinate an event, but you are unsure how to ask neutral discovery questions. Your next task is to understand visitors. What fits best?",
+     "options": [
+      {
+       "label": "Hire a full product team now",
+       "feedback": "Match the gap to the next task. A full team may be premature, and experience in one area does not prove every skill. Start with focused practice and a clear request."
+      },
+      {
+       "label": "Practise questions and request feedback",
+       "feedback": "Useful choice: practise the specific skill needed for the next task, then request feedback. Confirm the helper’s availability and keep a fallback."
+      },
+      {
+       "label": "Assume your experience covers every skill",
+       "feedback": "Match the gap to the next task. A full team may be premature, and experience in one area does not prove every skill. Start with focused practice and a clear request."
+      }
+     ]
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {
+        "class": "help"
+       },
+       "children": [
+        "Optional practice; the scored knowledge check is below."
+       ]
+      },
+      {
+       "tag": "h3",
+       "attrs": {},
+       "children": [
+        "Step 4 · Make a clear support request"
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "A useful request says: ",
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "what I’m doing, the help I need, time involved, output, and review point."
+         ]
+        },
+        " Example: “I’m preparing three questions to understand event follow-up. Could you review whether they are neutral? I’m asking for 15 minutes this week, with comments on the question list by Friday.”"
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Ask before sharing private information, respect a no, and clarify any fee or ongoing commitment. For specialist work with important consequences, verify relevant qualifications and experience. Write roles or aliases in this prototype instead of private contact details."
+       ]
+      },
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "note"
+       },
+       "children": [
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "A possible contact is not confirmed support."
+         ]
+        },
+        " Distinguish “person/role to approach,” “request planned,” “awaiting reply,” and “agreed help.” This worksheet records your plan and does not contact anyone."
+       ]
+      },
+      {
+       "tag": "h3",
+       "attrs": {},
+       "children": [
+        "Step 5 · Have a fallback"
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "If help is unavailable, can you simplify the task, practise first, find another suitable source, or pause? Set a date to review what you learned. A support map is useful when it leads to a realistic action, not just a list of impressive names."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "build",
+   "label": "03 / BUILD",
+   "heading": "Your Skills & Support Map",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Connect the next task to strengths you can show, one priority gap, and one practical support action. You can begin with self-learning; outside help is not required to complete this lesson."
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {
+        "class": "help"
+       },
+       "children": [
+        "Arabic entries use automatic text direction. Use roles or aliases instead of private contact details. Lesson 04 saves separately."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "saveStatus"
+    },
+    {
+     "type": "fields",
+     "ids": [
+      "nexttask",
+      "strengths",
+      "skillproof",
+      "gap",
+      "route",
+      "network",
+      "request",
+      "fallback",
+      "support"
+     ]
+    },
+    {
+     "type": "extension",
+     "id": "preview",
+     "props": {
+      "label": "Preview my skills & support plan",
+      "kind": "lines",
+      "joiner": "\n",
+      "lines": [
+       {
+        "id": "nexttask",
+        "label": "Next task"
+       },
+       {
+        "id": "gap",
+        "label": "Priority gap"
+       },
+       {
+        "id": "route",
+        "label": "Learning route"
+       },
+       {
+        "id": "network",
+        "label": "Potential support and stated status"
+       },
+       {
+        "id": "request",
+        "label": "Draft request (not sent)"
+       },
+       {
+        "id": "fallback",
+        "label": "Fallback and review"
+       }
+      ]
+     }
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "note"
+       },
+       "children": [
+        "This is a draft plan. No request is sent, and no person’s availability or agreement is verified. Local storage is plaintext; download a copy before changing browsers."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "extension",
+     "id": "download",
+     "props": {
+      "label": "Download Skills & Support Map"
+     }
+    },
+    {
+     "type": "reset",
+     "label": "Clear local draft"
+    }
+   ]
+  },
+  {
+   "id": "coach",
+   "label": "04 / ASK AI",
+   "heading": "Your thinking partner",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "span",
+       "attrs": {
+        "class": "badge"
+       },
+       "children": [
+        "Simulated Coach · no AI connection"
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Try four scripted guidance modes. The preview reads your current worksheet locally; it does not send information anywhere."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "extension",
+     "id": "coach",
+     "props": {
+      "modes": [
+       {
+        "id": "teach",
+        "label": "Teach me"
+       },
+       {
+        "id": "guide",
+        "label": "Guide me"
+       },
+       {
+        "id": "review",
+        "label": "Review my work"
+       },
+       {
+        "id": "challenge",
+        "label": "Challenge my idea"
+       }
+      ],
+      "replies": {
+       "teach": "A useful skill gap comes from the next task. Name strengths with examples, choose one missing capability, then decide whether to learn, practise, use a tool or ask for help. Potential support is not confirmed until someone agrees.",
+       "guide": "Start with one task from your Responsibility Map. Which abilities can you demonstrate? What one gap could stop the task? Choose a small learning action and draft a clear request with time, output and a fallback.",
+       "review": "Skills & Support Map check: {missing} required fields still empty. All eight map entries are present. Check the evidence for strengths, the task-to-gap link, support status, request scope and fallback.\nThis scripted check only counts fields. It cannot assess competence, verify qualifications or confirm anyone’s agreement.",
+       "challenge": "Are you choosing a gap that matters now? What evidence supports your claimed strength? Is the person available and suitable? What will you do if they decline? Avoid treating a planned request as a commitment.",
+       "reviewIncomplete": "Skills & Support Map check: {missing} required fields still empty. Complete the task, strengths, examples, priority gap, route, support status, request and fallback.\nThis scripted check only counts fields. It cannot assess competence, verify qualifications or confirm anyone’s agreement."
+      },
+      "heading": "SCRIPTED DEMO / ",
+      "questionNote": "Your question was entered locally. This preview does not generate a custom answer.",
+      "questionLabel": "Your question (optional)",
+      "placeholder": "What should I focus on first?",
+      "maxLength": 500,
+      "submitLabel": "Show simulated guidance"
+     }
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {
+        "class": "help"
+       },
+       "children": [
+        "Responses are predefined for this lesson, not generated answers to your question. No customer demand or venture readiness is verified."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "challenge",
+   "label": "05 / CHALLENGE",
+   "heading": "Check capability and commitments honestly.",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Look for a specific weakness in the plan, not a judgment of your potential."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "fields",
+     "ids": [
+      "assumption",
+      "evidence",
+      "constraint"
+     ]
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "details",
+       "attrs": {},
+       "children": [
+        {
+         "tag": "summary",
+         "attrs": {},
+         "children": [
+          "More questions to discuss"
+         ]
+        },
+        {
+         "tag": "ul",
+         "attrs": {},
+         "children": [
+          {
+           "tag": "li",
+           "attrs": {},
+           "children": [
+            "Is this gap necessary for the next task, or can it wait?"
+           ]
+          },
+          {
+           "tag": "li",
+           "attrs": {},
+           "children": [
+            "Are you treating possible support as already agreed?"
+           ]
+          },
+          {
+           "tag": "li",
+           "attrs": {},
+           "children": [
+            "Does your request have a realistic time and output?"
+           ]
+          },
+          {
+           "tag": "li",
+           "attrs": {},
+           "children": [
+            "Do you need to check specialist qualifications or protect private information?"
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "quiz",
+   "label": "06 / CHECK YOUR UNDERSTANDING",
+   "heading": "A quick knowledge check",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Answer all three. You can retry; all three correct are required for local completion."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "quiz"
+    }
+   ]
+  },
+  {
+   "id": "finish",
+   "label": "07 / DELIVER & PROGRESS",
+   "heading": "Your deliverable: a Skills & Support Map.",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Your task, strengths, evidence, priority gap, learning route, support request and fallback form an action map you can revisit. Download it to keep a copy. A local self-completion is recorded here; no assignment is sent to a reviewer."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "checklist"
+    },
+    {
+     "type": "honest",
+     "label": "I reviewed my answers and distinguished assumptions from evidence."
+    },
+    {
+     "type": "complete",
+     "label": "Mark Lesson 04 complete locally",
+     "completedLabel": "Lesson 04 self-completed locally",
+     "completedNotice": "Lesson 04 self-completed locally. Download your Skills & Support Map. No reviewer approval or venture validation is recorded.",
+     "incompleteNotice": "Complete the remaining requirements above before marking this lesson complete."
+    },
+    {
+     "type": "next"
+    }
+   ]
+  }
+ ],
+ "nav": [
+  {
+   "id": "watch",
+   "label": "Watch"
+  },
+  {
+   "id": "learn",
+   "label": "Learn"
+  },
+  {
+   "id": "build",
+   "label": "Build"
+  },
+  {
+   "id": "coach",
+   "label": "Ask AI"
+  },
+  {
+   "id": "challenge",
+   "label": "Challenge"
+  },
+  {
+   "id": "quiz",
+   "label": "Knowledge check"
+  },
+  {
+   "id": "finish",
+   "label": "Deliver"
+  }
+ ]
+}

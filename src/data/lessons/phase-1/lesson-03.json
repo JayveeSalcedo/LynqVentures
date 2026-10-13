@@ -1,0 +1,1061 @@
+{
+ "number": 3,
+ "phase": 1,
+ "module": "1.1",
+ "title": "Your Motivation & Founder Mindset",
+ "hero": {
+  "eyebrow": "Module 1.1 · Becoming an Entrepreneur · Lesson 03",
+  "title": "Your Motivation & Founder Mindset.",
+  "intro": "Find your reason to begin, turn it into a useful learning habit, and decide how you will respond when evidence challenges your idea. Your deliverable is a Founder Purpose & Learning Plan.",
+  "badges": [
+   "Beginner friendly"
+  ],
+  "meta": "35–45 min · Recommended: Lessons 01–02"
+ },
+ "fields": [
+  {
+   "id": "purpose",
+   "label": "What is your honest reason for beginning?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "I want to use my experience to make event connections more useful.",
+   "maxLength": 2000,
+   "hint": "What would make this journey worthwhile? “I’m exploring” is a valid starting point."
+  },
+  {
+   "id": "people",
+   "label": "Who would you like to help or understand?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Visitors who struggle to follow up after events.",
+   "maxLength": 2000,
+   "hint": "Choose people you can realistically learn from, even if the problem is not clear yet."
+  },
+  {
+   "id": "success",
+   "label": "What useful progress would you like in the next four weeks?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Understand how five visitors follow up and document unanswered questions.",
+   "maxLength": 2000,
+   "hint": "Choose something within your influence rather than promising sales or investment."
+  },
+  {
+   "id": "values",
+   "label": "What value will guide your decisions?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Respect: I will ask permission before recording or sharing information.",
+   "maxLength": 2000,
+   "hint": "Name one value and how it changes your behaviour."
+  },
+  {
+   "id": "habit",
+   "label": "What repeatable learning habit will you practise?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Every Tuesday at my desk, record one observation and one next question.",
+   "maxLength": 2000,
+   "hint": "Include when, where, action, and output."
+  },
+  {
+   "id": "feedback",
+   "label": "How will you ask for and use feedback?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Ask visitors what they did at their last event; record their words before deciding.",
+   "maxLength": 2000,
+   "hint": "Name a person/group and a question about an actual experience; separate their words from your interpretation."
+  },
+  {
+   "id": "setback",
+   "label": "How will you respond when an idea does not help?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Pause, ask what was missing, and compare the answer with my assumptions.",
+   "maxLength": 2000,
+   "hint": "Write a practical response that makes space for evidence and a revised next step."
+  },
+  {
+   "id": "boundary",
+   "label": "What boundary and review point will you set?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Two hours a week for four weeks; review on the final Friday and change approach if there is little need.",
+   "maxLength": 2000,
+   "hint": "Include a time/resource limit and when you will decide to continue, change, or pause."
+  },
+  {
+   "id": "support",
+   "label": "What support would help you keep this realistic?",
+   "kind": "textarea",
+   "required": false,
+   "placeholder": "Optional: a teammate, mentor, access to people, or a smaller schedule…",
+   "maxLength": 2000
+  },
+  {
+   "id": "assumption",
+   "label": "Where might personal enthusiasm be replacing evidence?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "I care about… but I have not yet checked…",
+   "maxLength": 2000
+  },
+  {
+   "id": "evidence",
+   "label": "What feedback would make you change your approach?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "If people tell me or show me… I will reconsider…",
+   "maxLength": 2000
+  },
+  {
+   "id": "constraint",
+   "label": "If your habit does not fit your week, how will you adjust it?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "I will reduce the action to… and review it on…",
+   "maxLength": 2000
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "What is a useful purpose statement at this stage?",
+   "options": [
+    "A promise that my business will succeed",
+    "A fixed product idea I must defend",
+    "A working direction connecting my reason to people I want to help"
+   ],
+   "answer": 2,
+   "explanation": "A purpose gives direction and can change as you learn. It does not prove demand."
+  },
+  {
+   "prompt": "Which example is a practical learning habit?",
+   "options": [
+    "Be more confident someday",
+    "Every Tuesday, record one observation and one next question",
+    "Ignore feedback and work more hours"
+   ],
+   "answer": 1,
+   "explanation": "A repeatable habit specifies when, action and output, within a realistic schedule."
+  },
+  {
+   "prompt": "When feedback challenges your idea, what helps?",
+   "options": [
+    "Ask about the experience, check assumptions, and decide whether to change",
+    "Treat it as a judgment of your worth",
+    "Assume one response represents every customer"
+   ],
+   "answer": 0,
+   "explanation": "Investigate feedback as information; separate an observation from your interpretation and review the approach."
+  }
+ ],
+ "checklist": [
+  {
+   "kind": "studied",
+   "label": "Transcript or learning guide reviewed"
+  },
+  {
+   "kind": "fields",
+   "label": "Founder Purpose & Learning Plan fields complete",
+   "ids": [
+    "purpose",
+    "people",
+    "success",
+    "values",
+    "habit",
+    "feedback",
+    "setback",
+    "boundary"
+   ]
+  },
+  {
+   "kind": "fields",
+   "label": "Three red-team reflections complete",
+   "ids": [
+    "assumption",
+    "evidence",
+    "constraint"
+   ]
+  },
+  {
+   "kind": "quiz",
+   "label": "Knowledge check: 3 / 3 correct"
+  },
+  {
+   "kind": "honest",
+   "label": "Final self-review confirmed"
+  }
+ ],
+ "deliverable": {
+  "title": "LYNQ Academy — Founder Purpose & Learning Plan",
+  "filename": "LYNQ-Founder-Purpose-Learning-Plan.md",
+  "headerLines": [
+   "Phase 01 · Module {module} · Lesson {lesson}",
+   "Status: {status}",
+   "Created: {created}"
+  ],
+  "fieldIds": [
+   "purpose",
+   "people",
+   "success",
+   "values",
+   "habit",
+   "feedback",
+   "setback",
+   "boundary",
+   "support",
+   "assumption",
+   "evidence",
+   "constraint"
+  ],
+  "footer": "Local prototype export. No reviewer submission or business validation."
+ },
+ "sections": [
+  {
+   "id": "watch",
+   "label": "01 / WATCH",
+   "heading": "A reason to begin. A way to keep learning.",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "The planned explainer connects purpose, useful habits, feedback, and realistic boundaries. Until the video is produced, use the transcript or learning guide."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "video-placeholder"
+       },
+       "children": [
+        {
+         "tag": "span",
+         "attrs": {
+          "class": "badge"
+         },
+         "children": [
+          "Video placeholder · media not produced"
+         ]
+        },
+        {
+         "tag": "h3",
+         "attrs": {},
+         "children": [
+          "Your Motivation & Founder Mindset"
+         ]
+        },
+        {
+         "tag": "p",
+         "attrs": {},
+         "children": [
+          "Planned: 2½-minute explainer + worksheet demo",
+          {
+           "tag": "br",
+           "attrs": {},
+           "children": []
+          },
+          "Purpose → Curiosity → Feedback → Review"
+         ]
+        },
+        {
+         "tag": "small",
+         "attrs": {},
+         "children": [
+          "No playable video or generated media is attached."
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "storyboard",
+     "scenes": [
+      {
+       "title": "Start with your reason",
+       "visual": "Founder pauses with a notebook in a contemporary Dubai workspace; editable question added in post.",
+       "narration": "Why do you want to build a venture? Your reason might be independence, a problem you care about, or a useful change you want to make. There is no perfect answer. An honest reason helps you choose where to spend your time. It does not prove your idea will work."
+      },
+      {
+       "title": "Connect motivation to people",
+       "visual": "Founder listens to a fictional event visitor; simple people-and-purpose diagram assembled in post.",
+       "narration": "Personal motivation is a starting point. A business also needs to create value for someone else. Imagine you care about better event experiences. Ask whose experience you want to improve and what they find difficult. Connect your reason to people you can actually learn from."
+      },
+      {
+       "title": "Make curiosity a habit",
+       "visual": "Weekly calendar block, notebook and observation log; no generated text.",
+       "narration": "A founder mindset is something you practise. Replace “I must already know” with “What can I learn next?” Choose a small action you can repeat, such as recording one observation each week. Give it a time, a place, and a clear output. Make it fit your real schedule."
+      },
+      {
+       "title": "Use feedback as information",
+       "visual": "Editable observation, interpretation, next-question cards; thoughtful listening without dramatic reactions.",
+       "narration": "If someone dislikes your first idea, pause before defending it. Ask what did not help and how they solve the problem today. Separate what they said from what you think it means. Feedback is information to investigate, not a verdict on your worth or proof that every customer feels the same."
+      },
+      {
+       "title": "Set boundaries and review points",
+       "visual": "Founder chooses a modest calendar commitment, closes laptop; editable continue/change/pause graphic.",
+       "narration": "Persistence means returning to useful work, not ignoring evidence or exhausting your resources. Set a time or budget boundary before your next step. Decide when you will review what happened. You can continue, change direction, or pause. A responsible decision can be to stop an approach that is not helping."
+      },
+      {
+       "title": "Write your learning plan",
+       "visual": "Actual Lesson 03 worksheet screen recording with fictional data, then next-action end card.",
+       "narration": "Now write your Founder Purpose and Learning Plan. Name your motivation, the people you want to help, one value, one repeatable habit, and a way to seek feedback. Choose a boundary and a review point. Keep your purpose open to revision as you learn. Then take one small step this week."
+      }
+     ],
+     "sceneMeta": "Planned final scene: 25 seconds · narration and precise graphics added in post",
+     "summary": "Explore the six-scene storyboard placeholder"
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {
+        "class": "help"
+       },
+       "children": [
+        "Plan an animated explainer with documentary cutaways and a real worksheet demo. Generate short visual assets where supported, then assemble exact graphics and narration in an editor."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "videoPrompt",
+     "prompt": "Create an engaging beginner-friendly explainer for LYNQ Venture Studio Academy, Module 1.1 Lesson 03: “Your Motivation & Founder Mindset.” Desired final edit: approximately 150 seconds, 16:9, 1080p. Use restrained animated diagrams, natural documentary workplace cutaways and a short real worksheet demonstration. Palette: navy #0B2338, teal #087D79, mint #BCF2DF and white. Contemporary Dubai workspace, diverse adults, calm friendly English narrator, clear plain language. No motivational hype or exaggerated success imagery.\n\nTeaching goals: help learners state an honest personal reason for entrepreneurship, connect it to people they want to help, practise curiosity through a repeatable habit, respond constructively to feedback, and set practical boundaries with continue/change/pause review points. Mindset supports learning; it does not guarantee business success, prove market demand or replace resources. Do not present psychological diagnosis or promise personal transformation. Use a FICTIONAL event-experience example only, labeled “Illustrative example.”\n\nUse the following six-scene narration in order. Target roughly 25 seconds per scene, allowing natural speech timing and diagram holds; record one consistent voice track separately. Generate short visual assets separately in durations supported by the selected Gemini/Veo model. An eight-second shot plan can be used only where supported. Assemble the final film in an editor with precise graphics, narration and captions; do not claim one generation will produce the entire polished lesson.\n\nSCENE 1 — Start with your reason. Visual: Founder pauses with a notebook in a contemporary Dubai workspace; editable question added in post. Narration: “Why do you want to build a venture? Your reason might be independence, a problem you care about, or a useful change you want to make. There is no perfect answer. An honest reason helps you choose where to spend your time. It does not prove your idea will work.”\n\nSCENE 2 — Connect motivation to people. Visual: Founder listens to a fictional event visitor; simple people-and-purpose diagram assembled in post. Narration: “Personal motivation is a starting point. A business also needs to create value for someone else. Imagine you care about better event experiences. Ask whose experience you want to improve and what they find difficult. Connect your reason to people you can actually learn from.”\n\nSCENE 3 — Make curiosity a habit. Visual: Weekly calendar block, notebook and observation log; no generated text. Narration: “A founder mindset is something you practise. Replace “I must already know” with “What can I learn next?” Choose a small action you can repeat, such as recording one observation each week. Give it a time, a place, and a clear output. Make it fit your real schedule.”\n\nSCENE 4 — Use feedback as information. Visual: Editable observation, interpretation, next-question cards; thoughtful listening without dramatic reactions. Narration: “If someone dislikes your first idea, pause before defending it. Ask what did not help and how they solve the problem today. Separate what they said from what you think it means. Feedback is information to investigate, not a verdict on your worth or proof that every customer feels the same.”\n\nSCENE 5 — Set boundaries and review points. Visual: Founder chooses a modest calendar commitment, closes laptop; editable continue/change/pause graphic. Narration: “Persistence means returning to useful work, not ignoring evidence or exhausting your resources. Set a time or budget boundary before your next step. Decide when you will review what happened. You can continue, change direction, or pause. A responsible decision can be to stop an approach that is not helping.”\n\nSCENE 6 — Write your learning plan. Visual: Actual Lesson 03 worksheet screen recording with fictional data, then next-action end card. Narration: “Now write your Founder Purpose and Learning Plan. Name your motivation, the people you want to help, one value, one repeatable habit, and a way to seek feedback. Choose a boundary and a review point. Keep your purpose open to revision as you learn. Then take one small step this week.”\n\nReturn a scene plan and individual visual-generation prompts first. Generate footage with no visible words, logos, baked-in captions, fabricated UI, watermark or speaking presenter. Add exact LYNQ branding, headings and diagrams in post as editable graphics. Use these editable concepts: My reason → People I want to help; Observation → Interpretation → Next question; When + Where + Action + Output; Continue / Change / Pause. Keep the same approved actor reference and wardrobe in continuity shots. Show respectful listening and realistic hands; no founder-celebrity imitation, investor meetings, invented metrics or customers.\n\nScene 6 uses an actual screen recording of the approved Lesson 03 worksheet with fictional sample information. Do not ask the video model to generate the product interface. Avoid displaying private personal information. Finish with “Write your purpose. Choose one learning habit.” in editable post-production text.\n\nDeliver narration script, shot prompts, edit timings, diagram instructions and caption/transcript plan. Final assets after human production: H.264 1920×1080 MP4, editable project, thumbnail, narrator audio, timed English VTT/SRT and transcript. Produce a separate native-reviewed Arabic narration/caption version and RTL graphics; do not auto-mirror the English worksheet. Check mobile caption legibility, pacing, music intelligibility, reference rights, actor consistency, educational accuracy and brand approval before publication. No video is generated by this prototype.",
+     "filename": "LYNQ-Lesson-03-Gemini-Video-Prompt.md",
+     "title": "# LYNQ Lesson 03 — Gemini video prompt",
+     "summary": "Gemini video prompt — ready to copy"
+    },
+    {
+     "type": "transcript",
+     "scenes": [
+      {
+       "title": "Start with your reason",
+       "visual": "Founder pauses with a notebook in a contemporary Dubai workspace; editable question added in post.",
+       "narration": "Why do you want to build a venture? Your reason might be independence, a problem you care about, or a useful change you want to make. There is no perfect answer. An honest reason helps you choose where to spend your time. It does not prove your idea will work."
+      },
+      {
+       "title": "Connect motivation to people",
+       "visual": "Founder listens to a fictional event visitor; simple people-and-purpose diagram assembled in post.",
+       "narration": "Personal motivation is a starting point. A business also needs to create value for someone else. Imagine you care about better event experiences. Ask whose experience you want to improve and what they find difficult. Connect your reason to people you can actually learn from."
+      },
+      {
+       "title": "Make curiosity a habit",
+       "visual": "Weekly calendar block, notebook and observation log; no generated text.",
+       "narration": "A founder mindset is something you practise. Replace “I must already know” with “What can I learn next?” Choose a small action you can repeat, such as recording one observation each week. Give it a time, a place, and a clear output. Make it fit your real schedule."
+      },
+      {
+       "title": "Use feedback as information",
+       "visual": "Editable observation, interpretation, next-question cards; thoughtful listening without dramatic reactions.",
+       "narration": "If someone dislikes your first idea, pause before defending it. Ask what did not help and how they solve the problem today. Separate what they said from what you think it means. Feedback is information to investigate, not a verdict on your worth or proof that every customer feels the same."
+      },
+      {
+       "title": "Set boundaries and review points",
+       "visual": "Founder chooses a modest calendar commitment, closes laptop; editable continue/change/pause graphic.",
+       "narration": "Persistence means returning to useful work, not ignoring evidence or exhausting your resources. Set a time or budget boundary before your next step. Decide when you will review what happened. You can continue, change direction, or pause. A responsible decision can be to stop an approach that is not helping."
+      },
+      {
+       "title": "Write your learning plan",
+       "visual": "Actual Lesson 03 worksheet screen recording with fictional data, then next-action end card.",
+       "narration": "Now write your Founder Purpose and Learning Plan. Name your motivation, the people you want to help, one value, one repeatable habit, and a way to seek feedback. Choose a boundary and a review point. Keep your purpose open to revision as you learn. Then take one small step this week."
+      }
+     ],
+     "summary": "Read the full narration / transcript"
+    },
+    {
+     "type": "studied",
+     "label": "I read the transcript or reviewed the learning guide. Video is not required."
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "label": "02 / LEARN",
+   "heading": "Purpose gives you direction. Learning keeps it honest.",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Your motivation is your reason for beginning. It may be independence, creating something useful, improving a familiar industry, or exploring a problem you care about. You do not need a dramatic founder story. Start with a reason you can explain in your own words."
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "A founder mindset means practising useful ways of thinking and acting when the answers are uncertain. It includes curiosity, listening, making manageable commitments, and changing your view when the evidence calls for it."
+       ]
+      },
+      {
+       "tag": "h3",
+       "attrs": {},
+       "children": [
+        "By the end, you can"
+       ]
+      },
+      {
+       "tag": "ul",
+       "attrs": {},
+       "children": [
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Describe why entrepreneurship matters to you."
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Connect a personal reason to value for other people."
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Turn a useful attitude into a repeatable learning habit."
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Respond to feedback with questions rather than instant defence."
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Set a practical boundary and a review point."
+         ]
+        }
+       ]
+      },
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "grid2"
+       },
+       "children": [
+        {
+         "tag": "div",
+         "attrs": {
+          "class": "note"
+         },
+         "children": [
+          {
+           "tag": "h3",
+           "attrs": {},
+           "children": [
+            "Motivation: why you begin"
+           ]
+          },
+          {
+           "tag": "p",
+           "attrs": {},
+           "children": [
+            "“I want more independence” is a valid personal reason. The next question is whose problem you want to understand and how helping them could create value."
+           ]
+          },
+          {
+           "tag": "small",
+           "attrs": {},
+           "children": [
+            "A reason is not evidence of customer demand."
+           ]
+          }
+         ]
+        },
+        {
+         "tag": "div",
+         "attrs": {
+          "class": "note"
+         },
+         "children": [
+          {
+           "tag": "h3",
+           "attrs": {},
+           "children": [
+            "Purpose: where you want to contribute"
+           ]
+          },
+          {
+           "tag": "p",
+           "attrs": {},
+           "children": [
+            "A working purpose links your reason to people: “I want to use my experience in events to help visitors build useful connections.” It can change as you learn."
+           ]
+          },
+          {
+           "tag": "small",
+           "attrs": {},
+           "children": [
+            "A purpose is a direction, not a fixed solution."
+           ]
+          }
+         ]
+        },
+        {
+         "tag": "div",
+         "attrs": {
+          "class": "note"
+         },
+         "children": [
+          {
+           "tag": "h3",
+           "attrs": {},
+           "children": [
+            "Habit: what you repeat"
+           ]
+          },
+          {
+           "tag": "p",
+           "attrs": {},
+           "children": [
+            "Replace “I will be more curious” with “Every Tuesday after work, I will record one observation and one question.” Small, specific actions are easier to review."
+           ]
+          },
+          {
+           "tag": "small",
+           "attrs": {},
+           "children": [
+            "Use: when + where + action + output."
+           ]
+          }
+         ]
+        },
+        {
+         "tag": "div",
+         "attrs": {
+          "class": "note"
+         },
+         "children": [
+          {
+           "tag": "h3",
+           "attrs": {},
+           "children": [
+            "Evidence: what you check"
+           ]
+          },
+          {
+           "tag": "p",
+           "attrs": {},
+           "children": [
+            "If someone does not want your idea, ask about their experience and alternatives. Record what they actually said before drawing a conclusion."
+           ]
+          },
+          {
+           "tag": "small",
+           "attrs": {},
+           "children": [
+            "One person's answer is a clue, not the whole market."
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "tag": "h3",
+       "attrs": {},
+       "children": [
+        "An illustrative founder moment"
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "You care about event experiences and suggest a new networking app. A visitor says, “I would not download another app.” A defensive response is to explain more features. A useful response is: “How did you follow up with people at the last event?” Their answer might reveal an existing workaround, a different problem, or little need for your idea."
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "You can still care about better connections while changing the approach. Keep the purpose flexible enough to learn from people rather than protect a particular product."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "practice",
+     "legend": "Reframe the response",
+     "prompt": "A potential user says your first idea would not help. Which response helps you learn?",
+     "options": [
+      {
+       "label": "Explain why they are wrong",
+       "feedback": "Pause and ask about their actual experience. Defending your idea or treating one answer as the whole market prevents useful learning."
+      },
+      {
+       "label": "Ask what they do today",
+       "feedback": "Useful response: ask about what they do today, record their experience, and check your assumptions. One response is still only one clue."
+      },
+      {
+       "label": "Treat one answer as the whole market",
+       "feedback": "Pause and ask about their actual experience. Defending your idea or treating one answer as the whole market prevents useful learning."
+      }
+     ]
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {
+        "class": "help"
+       },
+       "children": [
+        "Optional practice. Your completion quiz is below."
+       ]
+      },
+      {
+       "tag": "h3",
+       "attrs": {},
+       "children": [
+        "Persistence needs a review point"
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Persistence means returning to useful work. It does not mean ignoring evidence, spending beyond your means, or working without rest. Before a small experiment, choose the time and resources you can afford to use. Decide when to review the result and what might lead you to continue, change, or pause."
+       ]
+      },
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "note"
+       },
+       "children": [
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "Confidence can grow through practice."
+         ]
+        },
+        " You can act before feeling fully ready, provided the step is small and responsible. Mindset alone cannot guarantee a viable business, funding, or commercial success."
+       ]
+      },
+      {
+       "tag": "h3",
+       "attrs": {},
+       "children": [
+        "Three terms to keep clear"
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "Feedback:"
+         ]
+        },
+        " what someone tells you about their experience or reaction.",
+        {
+         "tag": "br",
+         "attrs": {},
+         "children": []
+        },
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "Interpretation:"
+         ]
+        },
+        " what you think that feedback means.",
+        {
+         "tag": "br",
+         "attrs": {},
+         "children": []
+        },
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "Learning habit:"
+         ]
+        },
+        " a repeated action that helps you gather information and reflect."
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "You can record “I’m still exploring” as your purpose today. Choose a reachable group, one learning habit, and a review point rather than inventing certainty."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "build",
+   "label": "03 / BUILD",
+   "heading": "Your Founder Purpose & Learning Plan",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Write a working purpose and a small plan you can review. You are setting a direction, not promising a business outcome. Use short concrete answers; avoid sensitive personal information."
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {
+        "class": "help"
+       },
+       "children": [
+        "Arabic entries use automatic text direction. Lesson 03 saves separately from your earlier lessons."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "saveStatus"
+    },
+    {
+     "type": "fields",
+     "ids": [
+      "purpose",
+      "people",
+      "success",
+      "values",
+      "habit",
+      "feedback",
+      "setback",
+      "boundary",
+      "support"
+     ]
+    },
+    {
+     "type": "extension",
+     "id": "preview",
+     "props": {
+      "label": "Preview my purpose & habit",
+      "kind": "lines",
+      "joiner": "\n",
+      "lines": [
+       {
+        "id": "purpose",
+        "label": "My working purpose"
+       },
+       {
+        "id": "people",
+        "label": "People I want to understand"
+       },
+       {
+        "id": "habit",
+        "label": "My learning habit"
+       },
+       {
+        "id": "boundary",
+        "label": "My boundary and review point"
+       }
+      ]
+     }
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "note"
+       },
+       "children": [
+        "Saved locally in this browser as plaintext. Anyone using this browser profile may access it. Download a copy before changing browsers; cleared browser data or private mode may remove work."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "extension",
+     "id": "download",
+     "props": {
+      "label": "Download Purpose & Learning Plan"
+     }
+    },
+    {
+     "type": "reset",
+     "label": "Clear local draft"
+    }
+   ]
+  },
+  {
+   "id": "coach",
+   "label": "04 / ASK AI",
+   "heading": "Your thinking partner",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "span",
+       "attrs": {
+        "class": "badge"
+       },
+       "children": [
+        "Simulated Coach · no AI connection"
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Try four scripted guidance modes. The preview reads your current worksheet locally; it does not send information anywhere."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "extension",
+     "id": "coach",
+     "props": {
+      "modes": [
+       {
+        "id": "teach",
+        "label": "Teach me"
+       },
+       {
+        "id": "guide",
+        "label": "Guide me"
+       },
+       {
+        "id": "review",
+        "label": "Review my work"
+       },
+       {
+        "id": "challenge",
+        "label": "Challenge my idea"
+       }
+      ],
+      "replies": {
+       "teach": "Motivation is why you begin. Purpose connects that reason to people. A founder mindset becomes useful through repeatable habits, listening and changing your approach when evidence calls for it.",
+       "guide": "Start with a plain reason in your own words. Name people you can understand. Write one habit with when, where, action and output, then choose a boundary and review point.",
+       "review": "Purpose & Learning Plan check: {missing} required fields still empty. All eight plan entries are present. Check whether your habit is specific, your goal is within your influence, and your boundary includes a review point.\nThis scripted check only counts fields. It cannot judge your mindset, personal readiness or business prospects.",
+       "challenge": "Are you protecting a favourite idea instead of helping people? What feedback would change your approach? Is your commitment realistic? How will you simplify it if your week becomes busy?",
+       "reviewIncomplete": "Purpose & Learning Plan check: {missing} required fields still empty. Complete your purpose, people, progress goal, value, habit, feedback response, setback plan and boundary.\nThis scripted check only counts fields. It cannot judge your mindset, personal readiness or business prospects."
+      },
+      "heading": "SCRIPTED DEMO / ",
+      "questionNote": "Your question was entered locally. This preview does not generate a custom answer.",
+      "questionLabel": "Your question (optional)",
+      "placeholder": "What should I focus on first?",
+      "maxLength": 500,
+      "submitLabel": "Show simulated guidance"
+     }
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {
+        "class": "help"
+       },
+       "children": [
+        "Responses are predefined for this lesson, not generated answers to your question. No customer demand or venture readiness is verified."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "challenge",
+   "label": "05 / CHALLENGE",
+   "heading": "Challenge the plan, not your worth.",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Use these questions to check whether your purpose and habits will help you learn."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "fields",
+     "ids": [
+      "assumption",
+      "evidence",
+      "constraint"
+     ]
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "details",
+       "attrs": {},
+       "children": [
+        {
+         "tag": "summary",
+         "attrs": {},
+         "children": [
+          "More questions to discuss"
+         ]
+        },
+        {
+         "tag": "ul",
+         "attrs": {},
+         "children": [
+          {
+           "tag": "li",
+           "attrs": {},
+           "children": [
+            "Does your purpose describe a benefit to someone else, or only a product you want to build?"
+           ]
+          },
+          {
+           "tag": "li",
+           "attrs": {},
+           "children": [
+            "Are you setting a goal you can influence?"
+           ]
+          },
+          {
+           "tag": "li",
+           "attrs": {},
+           "children": [
+            "Do you have a clear point to review time, cost and evidence?"
+           ]
+          },
+          {
+           "tag": "li",
+           "attrs": {},
+           "children": [
+            "Can you pause a weak approach without treating it as a personal failure?"
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "quiz",
+   "label": "06 / CHECK YOUR UNDERSTANDING",
+   "heading": "A quick knowledge check",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Answer all three. You can retry; all three correct are required for local completion."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "quiz"
+    }
+   ]
+  },
+  {
+   "id": "finish",
+   "label": "07 / DELIVER & PROGRESS",
+   "heading": "Your deliverable: a Purpose & Learning Plan.",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Your purpose, learning habits, feedback approach, boundaries, and reflections form a starting plan you can revisit. Download it to keep a copy. A local self-completion is recorded here; no assignment is sent to a reviewer."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "checklist"
+    },
+    {
+     "type": "honest",
+     "label": "I reviewed my answers and distinguished assumptions from evidence."
+    },
+    {
+     "type": "complete",
+     "label": "Mark Lesson 03 complete locally",
+     "completedLabel": "Lesson 03 self-completed locally",
+     "completedNotice": "Lesson 03 self-completed locally. Download your Founder Purpose & Learning Plan. No reviewer approval or venture validation is recorded.",
+     "incompleteNotice": "Complete the remaining requirements above before marking this lesson complete."
+    },
+    {
+     "type": "next"
+    }
+   ]
+  }
+ ],
+ "nav": [
+  {
+   "id": "watch",
+   "label": "Watch"
+  },
+  {
+   "id": "learn",
+   "label": "Learn"
+  },
+  {
+   "id": "build",
+   "label": "Build"
+  },
+  {
+   "id": "coach",
+   "label": "Ask AI"
+  },
+  {
+   "id": "challenge",
+   "label": "Challenge"
+  },
+  {
+   "id": "quiz",
+   "label": "Knowledge check"
+  },
+  {
+   "id": "finish",
+   "label": "Deliver"
+  }
+ ]
+}

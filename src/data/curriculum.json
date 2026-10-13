@@ -1,0 +1,2576 @@
+{
+  "names": {
+    "1": "Welcome to Your Founder Journey",
+    "2": "What Entrepreneurs Actually Do",
+    "3": "Your Motivation & Founder Mindset",
+    "4": "Your Skills, Gaps & Support Network",
+    "5": "Your Founder Commitment",
+    "6": "See Problems in Everyday Life",
+    "7": "Who Experiences the Problem?",
+    "8": "Symptoms, Causes & Consequences",
+    "9": "Current Workarounds & Alternatives",
+    "10": "Choose a Problem to Explore",
+    "11": "Your First Customer Snapshot",
+    "12": "Customer Goals & Frustrations",
+    "13": "Research Without Guessing",
+    "14": "Explore the Market Landscape",
+    "15": "Your Discovery Research Plan",
+    "16": "From Problem to Opportunity",
+    "17": "Your First Value Proposition",
+    "18": "Assess Opportunity & Founder Fit",
+    "19": "Build Your Opportunity Brief",
+    "20": "Discover Checkpoint: Go, Refine or Pause",
+    "21": "What Validation Actually Means",
+    "22": "Identify Your Riskiest Assumptions",
+    "23": "Prioritise What to Test First",
+    "24": "Design a Small Validation Experiment",
+    "25": "Your Validation Test Plan",
+    "26": "Prepare Neutral Customer Conversations",
+    "27": "Recruit Relevant Participants Ethically",
+    "28": "Run and Record Customer Conversations",
+    "29": "Separate Findings from Interpretation",
+    "30": "Your Customer Evidence Review",
+    "31": "Test Your Value Proposition",
+    "32": "Choose a Simple Test Format",
+    "33": "Measure Behaviour Without Overclaiming",
+    "34": "Explore Commitment and Payment Assumptions",
+    "35": "Your Experiment Evidence Log",
+    "36": "Compare Evidence with Your Assumptions",
+    "37": "Refine Your Offer and Focus",
+    "38": "Review Feasibility and Remaining Risks",
+    "39": "Build Your Validation Brief",
+    "40": "Validate Checkpoint: Proceed, Iterate or Pause",
+    "41": "Define Your Minimum Viable Product",
+    "42": "Prioritize Essential Features",
+    "43": "Map the Customer Experience",
+    "44": "Choose Your Product-Building Approach",
+    "45": "Create Your First Prototype",
+    "46": "Test Prototype Usability",
+    "47": "Define Your Product Requirements",
+    "48": "Plan Technology and Integrations",
+    "49": "Establish Security and Data Principles",
+    "50": "Build the First Usable Version",
+    "51": "Establish Your Brand Identity",
+    "52": "Design the Onboarding Experience",
+    "53": "Plan Company Formation and Ownership",
+    "54": "Protect Intellectual Property",
+    "55": "Define the Founding Team",
+    "56": "Build Your Financial Plan",
+    "57": "Establish Product Analytics",
+    "58": "Run a Controlled Beta",
+    "59": "Improve Your MVP",
+    "60": "Checkpoint: Are You Ready to Launch?",
+    "61": "Define Your Go-to-Market Strategy",
+    "62": "Set Your Launch Goals",
+    "63": "Create Your Customer Acquisition Plan",
+    "64": "Develop Your Sales Message",
+    "65": "Build Your Sales Materials",
+    "66": "Establish Pricing and Packaging",
+    "67": "Set Up Your Sales Pipeline",
+    "68": "Prepare Your Website and Product Onboarding",
+    "69": "Develop Your Marketing Campaign",
+    "70": "Prepare Your Support Operations",
+    "71": "Launch Your Product",
+    "72": "Acquire Your First Customers",
+    "73": "Measure Activation and Usage",
+    "74": "Collect Customer Feedback",
+    "75": "Improve Customer Retention",
+    "76": "Review Revenue and Costs",
+    "77": "Build Repeatable Sales Processes",
+    "78": "Prepare Investor and Partner Materials",
+    "79": "Develop Your Next 90-Day Plan",
+    "80": "Checkpoint: Is Your Business Gaining Traction?",
+    "81": "What Does Scaling Really Mean?",
+    "82": "Identify Your Growth Constraints",
+    "83": "Build a Sustainable Growth Strategy",
+    "84": "Improve Unit Economics",
+    "85": "Strengthen Customer Retention",
+    "86": "Develop Partnerships and Channels",
+    "87": "Build a Scalable Organization",
+    "88": "Recruit and Develop Leaders",
+    "89": "Establish Operating Processes",
+    "90": "Create Executive Performance Dashboards",
+    "91": "Strengthen Financial Controls",
+    "92": "Build a Capital and Fundraising Strategy",
+    "93": "Prepare for Investor Due Diligence",
+    "94": "Evaluate Geographic Expansion",
+    "95": "Strengthen Governance and Risk Management",
+    "96": "Explore Strategic Acquisitions and Partnerships",
+    "97": "Understand Valuation and Dilution",
+    "98": "Prepare for Founder Succession or CEO Transition",
+    "99": "Evaluate Hold, Spin-off, or Exit Options",
+    "100": "Final Venture Review and Graduation"
+  },
+  "schemas": {
+    "1": {
+      "phase": 1,
+      "key": "lynq.discover.lesson01.v1",
+      "ids": [
+        "name",
+        "stage",
+        "why",
+        "strengths",
+        "people",
+        "problem",
+        "hours",
+        "goal",
+        "assumption",
+        "evidence",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        1,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "2": {
+      "phase": 1,
+      "key": "lynq.discover.lesson02.v1",
+      "ids": [
+        "context",
+        "listen",
+        "priority",
+        "test",
+        "resources",
+        "deliver",
+        "measure",
+        "delegate",
+        "assumption",
+        "evidence",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        2,
+        0
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "3": {
+      "phase": 1,
+      "key": "lynq.discover.lesson03.v1",
+      "ids": [
+        "purpose",
+        "people",
+        "success",
+        "values",
+        "habit",
+        "feedback",
+        "setback",
+        "boundary",
+        "assumption",
+        "evidence",
+        "constraint"
+      ],
+      "keys": [
+        2,
+        1,
+        0
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "4": {
+      "phase": 1,
+      "key": "lynq.discover.lesson04.v1",
+      "ids": [
+        "nexttask",
+        "strengths",
+        "skillproof",
+        "gap",
+        "route",
+        "network",
+        "request",
+        "fallback",
+        "assumption",
+        "evidence",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "5": {
+      "phase": 1,
+      "key": "lynq.discover.lesson05.v1",
+      "ids": [
+        "commitment",
+        "schedule",
+        "week1",
+        "week2",
+        "week3",
+        "week4",
+        "review",
+        "fallback",
+        "assumption",
+        "evidence",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        2,
+        0
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "6": {
+      "phase": 1,
+      "key": "lynq.discover.lesson06.v1",
+      "ids": [
+        "entry1source",
+        "entry1context",
+        "entry1people",
+        "entry1observation",
+        "entry1workaround",
+        "entry1impact",
+        "entry1interpretation",
+        "entry1next",
+        "entry2source",
+        "entry2context",
+        "entry2people",
+        "entry2observation",
+        "entry2workaround",
+        "entry2impact",
+        "entry2interpretation",
+        "entry2next",
+        "entry3source",
+        "entry3context",
+        "entry3people",
+        "entry3observation",
+        "entry3workaround",
+        "entry3impact",
+        "entry3interpretation",
+        "entry3next",
+        "pattern",
+        "assumption",
+        "evidence",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        2,
+        0
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "7": {
+      "phase": 1,
+      "key": "lynq.discover.lesson07.v1",
+      "ids": [
+        "problemclue",
+        "affected",
+        "situation",
+        "impact",
+        "roles",
+        "access",
+        "basis",
+        "question",
+        "assumption",
+        "evidence",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        2,
+        0
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "8": {
+      "phase": 1,
+      "key": "lynq.discover.lesson08.v1",
+      "ids": [
+        "clue",
+        "symptom",
+        "causea",
+        "causeb",
+        "checks",
+        "effects",
+        "links",
+        "nextcheck",
+        "assumption",
+        "evidence",
+        "constraint"
+      ],
+      "keys": [
+        2,
+        0,
+        1
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "9": {
+      "phase": 1,
+      "key": "lynq.discover.lesson09.v1",
+      "ids": [
+        "focus",
+        "current",
+        "alternativea",
+        "alternativeb",
+        "criteria",
+        "basis",
+        "switching",
+        "nextquestion",
+        "assumption",
+        "evidence",
+        "constraint"
+      ],
+      "keys": [
+        0,
+        1,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "10": {
+      "phase": 1,
+      "key": "lynq.discover.lesson10.v1",
+      "ids": [
+        "candidatea",
+        "candidateb",
+        "candidatec",
+        "comparison",
+        "selected",
+        "parked",
+        "nextstep",
+        "reconsider",
+        "assumption",
+        "evidence",
+        "constraint"
+      ],
+      "keys": [
+        0,
+        1,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "11": {
+      "phase": 1,
+      "key": "lynq.discover.lesson11.v1",
+      "ids": [
+        "problemlink",
+        "group",
+        "job",
+        "behaviour",
+        "roles",
+        "basis",
+        "access",
+        "question",
+        "assumption",
+        "evidence",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "12": {
+      "phase": 1,
+      "key": "lynq.discover.lesson12.v1",
+      "ids": [
+        "context",
+        "goal",
+        "before",
+        "during",
+        "after",
+        "moments",
+        "basis",
+        "question",
+        "assumption",
+        "evidence",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "13": {
+      "phase": 1,
+      "key": "lynq.discover.lesson13.v1",
+      "ids": [
+        "question",
+        "method",
+        "entrya",
+        "entryb",
+        "entryc",
+        "quality",
+        "gaps",
+        "nextcheck",
+        "assumption",
+        "evidence",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "14": {
+      "phase": 1,
+      "key": "lynq.discover.lesson14.v1",
+      "ids": [
+        "boundary",
+        "statusquo",
+        "approacha",
+        "approachb",
+        "comparison",
+        "basis",
+        "gap",
+        "nextcheck",
+        "assumption",
+        "evidence",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "15": {
+      "phase": 1,
+      "key": "lynq.discover.lesson15.v1",
+      "ids": [
+        "unknowns",
+        "people",
+        "methods",
+        "prompts",
+        "permission",
+        "schedule",
+        "notes",
+        "review",
+        "assumption",
+        "evidence",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "16": {
+      "phase": 1,
+      "key": "lynq.discover.lesson16.v1",
+      "ids": [
+        "context",
+        "difficulty",
+        "outcome",
+        "current",
+        "basis",
+        "statement",
+        "counter",
+        "nextcheck",
+        "assumption",
+        "evidence",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "17": {
+      "phase": 1,
+      "key": "lynq.discover.lesson17.v1",
+      "ids": [
+        "group",
+        "benefit",
+        "approach",
+        "alternative",
+        "difference",
+        "basis",
+        "statement",
+        "nextcheck",
+        "assumption",
+        "evidence",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "18": {
+      "phase": 1,
+      "key": "lynq.discover.lesson18.v1",
+      "ids": [
+        "focus",
+        "importance",
+        "access",
+        "capability",
+        "resources",
+        "uncertainty",
+        "constraints",
+        "decision",
+        "assumption",
+        "evidence",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "19": {
+      "phase": 1,
+      "key": "lynq.discover.lesson19.v1",
+      "ids": [
+        "group",
+        "problem",
+        "evidencebrief",
+        "alternatives",
+        "value",
+        "unknowns",
+        "fit",
+        "nextdecision",
+        "assumption",
+        "evidence",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "20": {
+      "phase": 1,
+      "key": "lynq.discover.lesson20.v1",
+      "ids": [
+        "choice",
+        "review",
+        "basis",
+        "rationale",
+        "changes",
+        "constraints",
+        "action",
+        "trigger",
+        "handoff",
+        "assumption",
+        "evidence",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "21": {
+      "phase": 2,
+      "key": "lynq.validate.lesson21.v1",
+      "ids": [
+        "handoff",
+        "group",
+        "assumption",
+        "question",
+        "method",
+        "signal",
+        "permission",
+        "review",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "22": {
+      "phase": 2,
+      "key": "lynq.validate.lesson22.v1",
+      "ids": [
+        "context",
+        "problema",
+        "valuea",
+        "behavioura",
+        "buyera",
+        "deliverya",
+        "risk",
+        "nextcheck",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "23": {
+      "phase": 2,
+      "key": "lynq.validate.lesson23.v1",
+      "ids": [
+        "context",
+        "candidatea",
+        "candidateb",
+        "candidatec",
+        "comparison",
+        "selected",
+        "sequence",
+        "nextcheck",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "24": {
+      "phase": 2,
+      "key": "lynq.validate.lesson24.v1",
+      "ids": [
+        "focus",
+        "hypothesis",
+        "method",
+        "participants",
+        "signals",
+        "rule",
+        "safeguards",
+        "review",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "25": {
+      "phase": 2,
+      "key": "lynq.validate.lesson25.v1",
+      "ids": [
+        "focus",
+        "protocol",
+        "access",
+        "schedule",
+        "recording",
+        "interpretation",
+        "fallback",
+        "decision",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "26": {
+      "phase": 2,
+      "key": "lynq.validate.lesson26.v1",
+      "ids": [
+        "focus",
+        "opening",
+        "warmup",
+        "sequence",
+        "probes",
+        "rewrites",
+        "notes",
+        "close",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "27": {
+      "phase": 2,
+      "key": "lynq.validate.lesson27.v1",
+      "ids": [
+        "fit",
+        "criteria",
+        "channels",
+        "invitation",
+        "choice",
+        "sampling",
+        "tracking",
+        "safeguards",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "28": {
+      "phase": 2,
+      "key": "lynq.validate.lesson28.v1",
+      "ids": [
+        "session",
+        "permission",
+        "opening",
+        "account",
+        "probe",
+        "source",
+        "reflection",
+        "close",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "29": {
+      "phase": 2,
+      "key": "lynq.validate.lesson29.v1",
+      "ids": [
+        "inventory",
+        "findings",
+        "quality",
+        "meaning",
+        "patterns",
+        "alternatives",
+        "gaps",
+        "next",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "30": {
+      "phase": 2,
+      "key": "lynq.validate.lesson30.v1",
+      "ids": [
+        "reviewFocus",
+        "pack",
+        "evidence",
+        "limits",
+        "assessment",
+        "decision",
+        "test",
+        "handoff",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "31": {
+      "phase": 2,
+      "key": "lynq.validate.lesson31.v1",
+      "ids": [
+        "audience",
+        "promise",
+        "claim",
+        "stimulus",
+        "method",
+        "measure",
+        "rule",
+        "review",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "32": {
+      "phase": 2,
+      "key": "lynq.validate.lesson32.v1",
+      "ids": [
+        "goal",
+        "options",
+        "selected",
+        "scope",
+        "access",
+        "procedure",
+        "reviewRule",
+        "resources",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "33": {
+      "phase": 2,
+      "key": "lynq.validate.lesson33.v1",
+      "ids": [
+        "claimScope",
+        "action",
+        "population",
+        "capture",
+        "counts",
+        "quality",
+        "interpret",
+        "reviewPlan",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "34": {
+      "phase": 2,
+      "key": "lynq.validate.lesson34.v1",
+      "ids": [
+        "context",
+        "commitment",
+        "terms",
+        "check",
+        "evidenceRule",
+        "boundaries",
+        "safeguards",
+        "ownerPlan",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "35": {
+      "phase": 2,
+      "key": "lynq.validate.lesson35.v1",
+      "ids": [
+        "experiment",
+        "design",
+        "execution",
+        "sources",
+        "results",
+        "analysis",
+        "limits",
+        "nextReview",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "36": {
+      "phase": 2,
+      "key": "lynq.validate.lesson36.v1",
+      "ids": [
+        "original",
+        "sources",
+        "fit",
+        "supporting",
+        "challenging",
+        "assessment",
+        "change",
+        "nextCheck",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "37": {
+      "phase": 2,
+      "key": "lynq.validate.lesson37.v1",
+      "ids": [
+        "baseline",
+        "basis",
+        "focus",
+        "refinement",
+        "revised",
+        "tradeoffs",
+        "retest",
+        "handoff",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "38": {
+      "phase": 2,
+      "key": "lynq.validate.lesson38.v1",
+      "ids": [
+        "scope",
+        "needs",
+        "resources",
+        "riskRegister",
+        "priority",
+        "controls",
+        "blockers",
+        "reviewAction",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "39": {
+      "phase": 2,
+      "key": "lynq.validate.lesson39.v1",
+      "ids": [
+        "scope",
+        "pack",
+        "evidence",
+        "assessment",
+        "offer",
+        "risk",
+        "recommendation",
+        "handoff",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "40": {
+      "phase": 2,
+      "key": "lynq.validate.lesson40.v1",
+      "ids": [
+        "reviewScope",
+        "pack",
+        "basis",
+        "readiness",
+        "decision",
+        "conditions",
+        "nextWork",
+        "record",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "41": {
+      "phase": 3,
+      "key": "lynq.build.lesson41.v1",
+      "ids": [
+        "focus",
+        "conditions",
+        "outcome",
+        "minimum",
+        "criteria",
+        "resources",
+        "safeguards",
+        "review",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "42": {
+      "phase": 3,
+      "key": "lynq.build.lesson42.v1",
+      "ids": [
+        "scope",
+        "basis",
+        "features",
+        "matrix",
+        "essential",
+        "deferred",
+        "checks",
+        "handoff",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "43": {
+      "phase": 3,
+      "key": "lynq.build.lesson43.v1",
+      "ids": [
+        "task",
+        "entry",
+        "steps",
+        "decisions",
+        "recovery",
+        "access",
+        "success",
+        "handoff",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "44": {
+      "phase": 3,
+      "key": "lynq.build.lesson44.v1",
+      "ids": [
+        "inputs",
+        "constraints",
+        "options",
+        "comparison",
+        "choice",
+        "boundaries",
+        "review",
+        "handoff",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "45": {
+      "phase": 3,
+      "key": "lynq.build.lesson45.v1",
+      "ids": [
+        "target",
+        "spec",
+        "artifact",
+        "agentPlan",
+        "integrations",
+        "checks",
+        "evidence",
+        "handoff",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": true,
+      "releaseAck": false
+    },
+    "46": {
+      "phase": 3,
+      "key": "lynq.build.lesson46.v1",
+      "ids": [
+        "plan",
+        "participants",
+        "script",
+        "observations",
+        "issues",
+        "decisions",
+        "limits",
+        "handoff",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "47": {
+      "phase": 3,
+      "key": "lynq.build.lesson47.v1",
+      "ids": [
+        "context",
+        "sources",
+        "functional",
+        "quality",
+        "criteria",
+        "scope",
+        "risks",
+        "handoff",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "48": {
+      "phase": 3,
+      "key": "lynq.build.lesson48.v1",
+      "ids": [
+        "brief",
+        "components",
+        "flows",
+        "choices",
+        "contracts",
+        "resilience",
+        "operations",
+        "handoff",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "49": {
+      "phase": 3,
+      "key": "lynq.build.lesson49.v1",
+      "ids": [
+        "scope",
+        "data",
+        "access",
+        "secrets",
+        "retention",
+        "providers",
+        "incident",
+        "gates",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "50": {
+      "phase": 3,
+      "key": "lynq.build.lesson50.v1",
+      "ids": [
+        "release",
+        "artifact",
+        "implementation",
+        "validation",
+        "gates",
+        "rollout",
+        "rollback",
+        "handoff",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": true
+    },
+    "51": {
+      "phase": 3,
+      "key": "lynq.build.lesson51.v1",
+      "ids": [
+        "brandContext",
+        "positioning",
+        "promise",
+        "name",
+        "voice",
+        "visual",
+        "claims",
+        "brandHandoff",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "52": {
+      "phase": 3,
+      "key": "lynq.build.lesson52.v1",
+      "ids": [
+        "onboardContext",
+        "entry",
+        "firstValue",
+        "steps",
+        "data",
+        "guidance",
+        "recovery",
+        "onboardHandoff",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "53": {
+      "phase": 3,
+      "key": "lynq.build.lesson53.v1",
+      "ids": [
+        "formationContext",
+        "jurisdiction",
+        "obligations",
+        "ownership",
+        "governance",
+        "agreements",
+        "costPlan",
+        "formationHandoff",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "54": {
+      "phase": 3,
+      "key": "lynq.build.lesson54.v1",
+      "ids": [
+        "ipContext",
+        "inventory",
+        "chain",
+        "licenses",
+        "protection",
+        "disclosure",
+        "gaps",
+        "ipHandoff",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "55": {
+      "phase": 3,
+      "key": "lynq.build.lesson55.v1",
+      "ids": [
+        "teamContext",
+        "functions",
+        "people",
+        "responsibility",
+        "authority",
+        "capacity",
+        "working",
+        "teamHandoff",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "56": {
+      "phase": 3,
+      "key": "lynq.build.lesson56.v1",
+      "ids": [
+        "financeContext",
+        "cashSources",
+        "costs",
+        "economics",
+        "timing",
+        "scenarios",
+        "decisions",
+        "financeHandoff",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "57": {
+      "phase": 3,
+      "key": "lynq.build.lesson57.v1",
+      "ids": [
+        "analyticsContext",
+        "questions",
+        "metrics",
+        "events",
+        "privacy",
+        "quality",
+        "review",
+        "analyticsHandoff",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "58": {
+      "phase": 3,
+      "key": "lynq.build.lesson58.v1",
+      "ids": [
+        "betaContext",
+        "cohort",
+        "betaScope",
+        "readiness",
+        "collection",
+        "support",
+        "stopRules",
+        "betaReport",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "59": {
+      "phase": 3,
+      "key": "lynq.build.lesson59.v1",
+      "ids": [
+        "improveContext",
+        "findings",
+        "priority",
+        "changeScope",
+        "acceptance",
+        "implementation",
+        "verification",
+        "improveHandoff",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "60": {
+      "phase": 3,
+      "key": "lynq.build.lesson60.v1",
+      "ids": [
+        "readyContext",
+        "productEvidence",
+        "controlEvidence",
+        "businessEvidence",
+        "resourceEvidence",
+        "learningEvidence",
+        "blockers",
+        "launchHandoff",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "61": {
+      "phase": 4,
+      "key": "lynq.launch.lesson61.v1",
+      "ids": [
+        "gtmContext",
+        "firstSegment",
+        "customerEvidence",
+        "positioning",
+        "offer",
+        "channel",
+        "experiment",
+        "handoff",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "62": {
+      "phase": 4,
+      "key": "lynq.launch.lesson62.v1",
+      "ids": [
+        "goalContext",
+        "goalOutcome",
+        "goalBaseline",
+        "goalDefinitions",
+        "goalTargets",
+        "goalResources",
+        "goalReview",
+        "goalHandoff",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "63": {
+      "phase": 4,
+      "key": "lynq.launch.lesson63.v1",
+      "ids": [
+        "acqContext",
+        "acqEvidence",
+        "acqJourney",
+        "acqActions",
+        "acqMetrics",
+        "acqResources",
+        "acqExperiment",
+        "acqHandoff",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "64": {
+      "phase": 4,
+      "key": "lynq.launch.lesson64.v1",
+      "ids": [
+        "msgContext",
+        "msgPain",
+        "msgOutcome",
+        "msgProof",
+        "msgDraft",
+        "msgVariants",
+        "msgObjections",
+        "msgReview",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "65": {
+      "phase": 4,
+      "key": "lynq.launch.lesson65.v1",
+      "ids": [
+        "assetContext",
+        "assetMessage",
+        "assetOutline",
+        "assetProof",
+        "assetFormats",
+        "assetDraft",
+        "assetReview",
+        "assetHandoff",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "66": {
+      "phase": 4,
+      "key": "lynq.launch.lesson66.v1",
+      "ids": [
+        "priceContext",
+        "priceValue",
+        "priceUnit",
+        "pricePackages",
+        "priceCosts",
+        "priceTerms",
+        "priceTest",
+        "priceHandoff",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "67": {
+      "phase": 4,
+      "key": "lynq.launch.lesson67.v1",
+      "ids": [
+        "pipeContext",
+        "pipeStages",
+        "pipeQualification",
+        "pipeFields",
+        "pipeHandoffs",
+        "pipeEvidence",
+        "pipeControls",
+        "pipeHandoff",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "68": {
+      "phase": 4,
+      "key": "lynq.launch.lesson68.v1",
+      "ids": [
+        "webContext",
+        "webPages",
+        "webJourney",
+        "webOffer",
+        "webData",
+        "webOnboard",
+        "webChecks",
+        "webHandoff",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "69": {
+      "phase": 4,
+      "key": "lynq.launch.lesson69.v1",
+      "ids": [
+        "campContext",
+        "campGoal",
+        "campOffer",
+        "campJourney",
+        "campSequence",
+        "campResources",
+        "campMeasure",
+        "campReview",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "70": {
+      "phase": 4,
+      "key": "lynq.launch.lesson70.v1",
+      "ids": [
+        "supportContext",
+        "supportChannels",
+        "supportIntake",
+        "supportRouting",
+        "supportPlaybooks",
+        "supportComms",
+        "supportChecks",
+        "supportHandoff",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "71": {
+      "phase": 4,
+      "key": "lynq.launch.lesson71.v1",
+      "ids": [
+        "launchContext",
+        "launchEvidence",
+        "launchCommercial",
+        "launchSupport",
+        "launchSequence",
+        "launchStop",
+        "launchRecord",
+        "launchHandoff",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "72": {
+      "phase": 4,
+      "key": "lynq.launch.lesson72.v1",
+      "ids": [
+        "customerContext",
+        "customerDefinition",
+        "customerApproach",
+        "customerQualification",
+        "customerActions",
+        "customerEvidence",
+        "customerHandoff",
+        "customerReview",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "73": {
+      "phase": 4,
+      "key": "lynq.launch.lesson73.v1",
+      "ids": [
+        "activationContext",
+        "activationDefinition",
+        "usageDefinition",
+        "activationSource",
+        "activationEvidence",
+        "activationAnalysis",
+        "activationAction",
+        "activationHandoff",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "74": {
+      "phase": 4,
+      "key": "lynq.launch.lesson74.v1",
+      "ids": [
+        "feedbackContext",
+        "feedbackSampling",
+        "feedbackQuestions",
+        "feedbackCapture",
+        "feedbackEvidence",
+        "feedbackSynthesis",
+        "feedbackActions",
+        "feedbackHandoff",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "75": {
+      "phase": 4,
+      "key": "lynq.launch.lesson75.v1",
+      "ids": [
+        "retentionContext",
+        "retentionDefinition",
+        "retentionEvidence",
+        "retentionDiagnosis",
+        "retentionExperiment",
+        "retentionGuardrails",
+        "retentionExecution",
+        "retentionDecision",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "76": {
+      "phase": 4,
+      "key": "lynq.launch.lesson76.v1",
+      "ids": [
+        "performanceContext",
+        "performanceRevenue",
+        "performanceCosts",
+        "performanceCash",
+        "performanceVariance",
+        "performanceEconomics",
+        "performanceDecisions",
+        "performanceHandoff",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "77": {
+      "phase": 4,
+      "key": "lynq.launch.lesson77.v1",
+      "ids": [
+        "salesProcessContext",
+        "salesProcessQualification",
+        "salesProcessStages",
+        "salesProcessMessaging",
+        "salesProcessFollowup",
+        "salesProcessHandoff",
+        "salesProcessMeasurement",
+        "salesProcessGovernance",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "78": {
+      "phase": 4,
+      "key": "lynq.launch.lesson78.v1",
+      "ids": [
+        "dataRoomContext",
+        "dataRoomNarrative",
+        "dataRoomEvidence",
+        "dataRoomFinancials",
+        "dataRoomPartner",
+        "dataRoomIndex",
+        "dataRoomAccess",
+        "dataRoomReview",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "79": {
+      "phase": 4,
+      "key": "lynq.launch.lesson79.v1",
+      "ids": [
+        "roadmapContext",
+        "roadmapOutcomes",
+        "roadmapPriorities",
+        "roadmapSequence",
+        "roadmapCapacity",
+        "roadmapMeasures",
+        "roadmapRisks",
+        "roadmapReview",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "80": {
+      "phase": 4,
+      "key": "lynq.launch.lesson80.v1",
+      "ids": [
+        "tractionContext",
+        "tractionCustomers",
+        "tractionValue",
+        "tractionEconomics",
+        "tractionOperations",
+        "tractionRisks",
+        "tractionDecision",
+        "tractionHandoff",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "81": {
+      "phase": 5,
+      "key": "lynq.scale.lesson81.v1",
+      "ids": [
+        "scaleContext",
+        "scaleEvidence",
+        "scaleEconomics",
+        "scaleDelivery",
+        "scaleSystems",
+        "scaleHypothesis",
+        "scaleDecision",
+        "scaleHandoff",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "82": {
+      "phase": 5,
+      "key": "lynq.scale.lesson82.v1",
+      "ids": [
+        "constraintContext",
+        "constraintFlow",
+        "constraintBaseline",
+        "constraintCandidates",
+        "constraintPriority",
+        "constraintExperiment",
+        "constraintGuardrails",
+        "constraintHandoff",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "83": {
+      "phase": 5,
+      "key": "lynq.scale.lesson83.v1",
+      "ids": [
+        "growthContext",
+        "growthOutcome",
+        "growthPath",
+        "growthValue",
+        "growthResources",
+        "growthSequence",
+        "growthGuardrails",
+        "growthReview",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "84": {
+      "phase": 5,
+      "key": "lynq.scale.lesson84.v1",
+      "ids": [
+        "econContext",
+        "econRevenue",
+        "econCosts",
+        "econAcquisition",
+        "econBaseline",
+        "econLevers",
+        "econTest",
+        "econReview",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "85": {
+      "phase": 5,
+      "key": "lynq.scale.lesson85.v1",
+      "ids": [
+        "retainContext",
+        "retainDefinition",
+        "retainEvidence",
+        "retainDiagnosis",
+        "retainLever",
+        "retainTest",
+        "retainGuardrails",
+        "retainReview",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "86": {
+      "phase": 5,
+      "key": "lynq.scale.lesson86.v1",
+      "ids": [
+        "partnerContext",
+        "partnerModel",
+        "partnerFit",
+        "partnerValue",
+        "partnerEconomics",
+        "partnerControls",
+        "partnerPilot",
+        "partnerReview",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "87": {
+      "phase": 5,
+      "key": "lynq.scale.lesson87.v1",
+      "ids": [
+        "orgContext",
+        "orgOutcomes",
+        "orgRoles",
+        "orgDecisions",
+        "orgCapacity",
+        "orgHandoffs",
+        "orgSequence",
+        "orgReview",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "88": {
+      "phase": 5,
+      "key": "lynq.scale.lesson88.v1",
+      "ids": [
+        "leaderContext",
+        "leaderScorecard",
+        "leaderResources",
+        "leaderSourcing",
+        "leaderAssessment",
+        "leaderDecision",
+        "leaderDevelopment",
+        "leaderReview",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "89": {
+      "phase": 5,
+      "key": "lynq.scale.lesson89.v1",
+      "ids": [
+        "processContext",
+        "processTrigger",
+        "processSteps",
+        "processHandoffs",
+        "processExceptions",
+        "processControls",
+        "processMeasures",
+        "processReview",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "90": {
+      "phase": 5,
+      "key": "lynq.scale.lesson90.v1",
+      "ids": [
+        "kpiContext",
+        "kpiDefinitions",
+        "kpiSources",
+        "kpiTargets",
+        "kpiQuality",
+        "kpiLayout",
+        "kpiActions",
+        "kpiGovernance",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "91": {
+      "phase": 5,
+      "key": "lynq.scale.lesson91.v1",
+      "ids": [
+        "controlScope",
+        "controlRisks",
+        "controlAuthority",
+        "controlSeparation",
+        "controlReconciliation",
+        "controlCash",
+        "controlExceptions",
+        "controlGovernance",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "92": {
+      "phase": 5,
+      "key": "lynq.scale.lesson92.v1",
+      "ids": [
+        "capitalScope",
+        "capitalNeed",
+        "capitalScenarios",
+        "capitalOptions",
+        "capitalTerms",
+        "capitalTargets",
+        "capitalProcess",
+        "capitalGovernance",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "93": {
+      "phase": 5,
+      "key": "lynq.scale.lesson93.v1",
+      "ids": [
+        "diligenceScope",
+        "diligenceIndex",
+        "diligenceFinancial",
+        "diligenceOwnership",
+        "diligenceClaims",
+        "diligenceRisks",
+        "diligenceAccess",
+        "diligenceGovernance",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "94": {
+      "phase": 5,
+      "key": "lynq.scale.lesson94.v1",
+      "ids": [
+        "expansionScope",
+        "expansionDemand",
+        "expansionOptions",
+        "expansionEconomics",
+        "expansionDelivery",
+        "expansionRules",
+        "expansionPilot",
+        "expansionGovernance",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "95": {
+      "phase": 5,
+      "key": "lynq.scale.lesson95.v1",
+      "ids": [
+        "governanceScope",
+        "governanceRights",
+        "governanceRisk",
+        "governanceControls",
+        "governanceEscalation",
+        "governanceCadence",
+        "governanceIntegrity",
+        "governanceHandoff",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "96": {
+      "phase": 5,
+      "key": "lynq.scale.lesson96.v1",
+      "ids": [
+        "strategicScope",
+        "strategicOptions",
+        "strategicFit",
+        "strategicEconomics",
+        "strategicDiligence",
+        "strategicIntegration",
+        "strategicGates",
+        "strategicHandoff",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "97": {
+      "phase": 5,
+      "key": "lynq.scale.lesson97.v1",
+      "ids": [
+        "valuationScope",
+        "valuationBasis",
+        "valuationEvidence",
+        "valuationOwnership",
+        "valuationScenarios",
+        "valuationTerms",
+        "valuationCapital",
+        "valuationHandoff",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "98": {
+      "phase": 5,
+      "key": "lynq.scale.lesson98.v1",
+      "ids": [
+        "transitionScope",
+        "transitionRoles",
+        "transitionReadiness",
+        "transitionDependencies",
+        "transitionHandover",
+        "transitionContinuity",
+        "transitionCommunication",
+        "transitionGovernance",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "99": {
+      "phase": 5,
+      "key": "lynq.scale.lesson99.v1",
+      "ids": [
+        "exitScope",
+        "exitOptions",
+        "exitValue",
+        "exitSeparation",
+        "exitEconomics",
+        "exitStakeholders",
+        "exitGates",
+        "exitRecommendation",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    },
+    "100": {
+      "phase": 5,
+      "key": "lynq.scale.lesson100.v1",
+      "ids": [
+        "finalScope",
+        "finalEvidence",
+        "finalProduct",
+        "finalTraction",
+        "finalOperating",
+        "finalStrategy",
+        "finalGaps",
+        "finalPlan",
+        "bias",
+        "counter",
+        "constraint"
+      ],
+      "keys": [
+        1,
+        0,
+        2
+      ],
+      "artifact": false,
+      "releaseAck": false
+    }
+  },
+  "phases": [
+    {
+      "id": 1,
+      "title": "Discover",
+      "modules": [
+        "1.1 \u00b7 Becoming an Entrepreneur",
+        "1.2 \u00b7 Understanding Opportunities",
+        "1.3 \u00b7 Developing Your Business Idea",
+        "1.4 \u00b7 Evaluating the Opportunity"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Validate",
+      "modules": [
+        "2.1 \u00b7 Customer Discovery",
+        "2.2 \u00b7 Understanding the Market",
+        "2.3 \u00b7 Testing the Business Model",
+        "2.4 \u00b7 Making the Build Decision"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Build",
+      "modules": [
+        "3.1 \u00b7 Designing the Product",
+        "3.2 \u00b7 Developing the Product",
+        "3.3 \u00b7 Establishing the Business",
+        "3.4 \u00b7 Preparing for Launch"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Launch",
+      "modules": [
+        "4.1 \u00b7 Preparing for Market",
+        "4.2 \u00b7 Building Commercial Systems",
+        "4.3 \u00b7 Launching and Learning",
+        "4.4 \u00b7 Measuring Traction"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Scale",
+      "modules": [
+        "5.1 \u00b7 Building for Growth",
+        "5.2 \u00b7 Building the Organization",
+        "5.3 \u00b7 Capital and Governance",
+        "5.4 \u00b7 Long-Term Venture Strategy"
+      ]
+    }
+  ]
+}

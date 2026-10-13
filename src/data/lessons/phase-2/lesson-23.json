@@ -1,0 +1,686 @@
+{
+  "number": 23,
+  "phase": 2,
+  "module": "2.1",
+  "title": "Prioritise What to Test First",
+  "hero": {
+    "eyebrow": "Module 2.1 · Designing Your Validation · Lesson 23",
+    "title": "Prioritise What to Test First.",
+    "intro": "Compare candidate assumptions, identify a feasible first learning priority, and record why it comes before other checks. Your deliverable is a Validation Priority Plan.",
+    "badges": [
+      "Beginner friendly"
+    ],
+    "meta": "35–45 min · Recommended: Lesson 22"
+  },
+  "fields": [
+    {
+      "id": "context",
+      "label": "Group/context and assumption register source",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Explain the priority; keep plans and evidence separate."
+    },
+    {
+      "id": "candidatea",
+      "label": "Candidate A: claim, uncertainty, consequence if wrong and dependencies",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Explain the priority; keep plans and evidence separate."
+    },
+    {
+      "id": "candidateb",
+      "label": "Candidate B: claim, uncertainty, consequence if wrong and dependencies",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Explain the priority; keep plans and evidence separate."
+    },
+    {
+      "id": "candidatec",
+      "label": "Candidate C or candidate still to find: claim, unknowns and investigation plan",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Explain the priority; keep plans and evidence separate."
+    },
+    {
+      "id": "comparison",
+      "label": "Compare decision impact, uncertainty, dependencies, ethical access and effort",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Explain the priority; keep plans and evidence separate."
+    },
+    {
+      "id": "selected",
+      "label": "First learning priority and reasons — include strongest counterargument",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Explain the priority; keep plans and evidence separate."
+    },
+    {
+      "id": "sequence",
+      "label": "Deferred checks, prerequisites and why this sequence is sensible",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Explain the priority; keep plans and evidence separate."
+    },
+    {
+      "id": "nextcheck",
+      "label": "Bounded next check: signals, permission, owner/timing, fallback and reprioritisation trigger",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Explain the priority; keep plans and evidence separate."
+    },
+    {
+      "id": "support",
+      "label": "Optional support or references",
+      "kind": "textarea",
+      "required": false,
+      "maxLength": 2000
+    },
+    {
+      "id": "bias",
+      "label": "Where have you used evidence for one claim to assert another?",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "counter",
+      "label": "Which false claim would materially change or stop the opportunity?",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "constraint",
+      "label": "Which critical dependency or permission remains unresolved?",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    }
+  ],
+  "questions": [
+    {
+      "prompt": "What should guide the first priority?",
+      "options": [
+        "Only the easiest activity",
+        "Decision impact, uncertainty, dependencies and feasible ethical access",
+        "Only enthusiasm"
+      ],
+      "answer": 1,
+      "explanation": "A useful first check informs a decision and respects constraints."
+    },
+    {
+      "prompt": "Permission is pending for a high-impact check. What should happen?",
+      "options": [
+        "Resolve access or use a permitted prerequisite check",
+        "Impact overrides permission",
+        "Treat permission as granted"
+      ],
+      "answer": 0,
+      "explanation": "Critical access constraints cannot be offset by impact."
+    },
+    {
+      "prompt": "What does choosing a priority establish?",
+      "options": [
+        "Demand",
+        "Completed evidence",
+        "A provisional learning sequence, not findings"
+      ],
+      "answer": 2,
+      "explanation": "Prioritisation is planning; evidence still needs to be collected."
+    }
+  ],
+  "checklist": [
+    {
+      "kind": "studied",
+      "label": "Storyboard/transcript reviewed"
+    },
+    {
+      "kind": "fields",
+      "label": "Eight worksheet fields complete",
+      "ids": [
+        "context",
+        "candidatea",
+        "candidateb",
+        "candidatec",
+        "comparison",
+        "selected",
+        "sequence",
+        "nextcheck"
+      ]
+    },
+    {
+      "kind": "fields",
+      "label": "Three red-team reflections complete",
+      "ids": [
+        "bias",
+        "counter",
+        "constraint"
+      ]
+    },
+    {
+      "kind": "quiz",
+      "label": "Quiz 3 / 3 correct"
+    },
+    {
+      "kind": "honest",
+      "label": "Final self-review confirmed"
+    }
+  ],
+  "deliverable": {
+    "title": "LYNQ Academy — Validation Priority Plan",
+    "filename": "LYNQ-Validation-Priority-Plan.md",
+    "headerLines": [
+      "Phase 02 · Module {module} · Lesson {lesson}",
+      "Status: {status}"
+    ],
+    "fieldIds": [
+      "context",
+      "candidatea",
+      "candidateb",
+      "candidatec",
+      "comparison",
+      "selected",
+      "sequence",
+      "nextcheck"
+    ],
+    "footer": "No real AI, test execution, source verification or demand validation.",
+    "previewFooter": "This plan does not prove demand or represent completed research."
+  },
+  "sections": [
+    {
+      "id": "watch",
+      "label": "01 / WATCH",
+      "heading": "Which uncertainty should you check first?",
+      "blocks": [
+        {
+          "type": "video",
+          "title": "Prioritise What to Test First",
+          "subtitle": "Planned 2½-minute explainer + worksheet demo",
+          "note": "No playable video or generated media is attached."
+        },
+        {
+          "type": "storyboard",
+          "scenes": [
+            {
+              "title": "Not every unknown comes first",
+              "visual": "Founder reviews anonymous assumption cards.",
+              "narration": "You have made assumptions visible. Now decide which uncertainty to investigate first. Prioritisation is a reasoned learning choice, not a success score. Start with claims that could change the next decision, while respecting dependencies and critical constraints."
+            },
+            {
+              "title": "Compare decision impact and uncertainty",
+              "visual": "Editable consequence and uncertainty cards.",
+              "narration": "For each candidate, ask what would change if it were wrong and how much relevant evidence you have. High uncertainty means unresolved information. Do not invent numeric scores or treat confidence as proof. Preserve the evidence status and strongest competing explanation."
+            },
+            {
+              "title": "Check prerequisites",
+              "visual": "Editable permission and dependency arrows.",
+              "narration": "Some checks depend on access, earlier learning or a clear group definition. A payment question may be premature when you do not know the buyer. Pending permission cannot be overridden by high impact. A permitted prerequisite check may need to come first."
+            },
+            {
+              "title": "Consider ethical access and effort",
+              "visual": "Founder compares bounded tasks on a calendar.",
+              "narration": "Choose a feasible method for the question, not just the easiest activity. Consider relevant participants, voluntary participation, privacy, time and resources. A cheap test that answers the wrong question is not useful. Keep a fallback if access fails."
+            },
+            {
+              "title": "Choose and explain the sequence",
+              "visual": "Editable first, later and reconsider cards.",
+              "narration": "Select a provisional first priority. Explain why it comes before other candidates, what you are deferring and the strongest reason against your choice. No automatic ranking is calculated. Record what new evidence or constraint would change the sequence."
+            },
+            {
+              "title": "Create your priority plan",
+              "visual": "Actual approved Lesson 23 worksheet recording.",
+              "narration": "Build your Validation Priority Plan with three candidate assumptions or honestly labeled options still to find. Compare them, choose a first learning priority, note prerequisites and plan the next check. Selection is not evidence collected; the next lesson designs a small validation experiment."
+            }
+          ],
+          "summary": "Explore the six-scene storyboard placeholder",
+          "sceneMeta": "Planned scene {scene} · about 25 seconds in final edit"
+        },
+        {
+          "type": "transcript",
+          "scenes": [
+            {
+              "title": "Not every unknown comes first",
+              "visual": "Founder reviews anonymous assumption cards.",
+              "narration": "You have made assumptions visible. Now decide which uncertainty to investigate first. Prioritisation is a reasoned learning choice, not a success score. Start with claims that could change the next decision, while respecting dependencies and critical constraints."
+            },
+            {
+              "title": "Compare decision impact and uncertainty",
+              "visual": "Editable consequence and uncertainty cards.",
+              "narration": "For each candidate, ask what would change if it were wrong and how much relevant evidence you have. High uncertainty means unresolved information. Do not invent numeric scores or treat confidence as proof. Preserve the evidence status and strongest competing explanation."
+            },
+            {
+              "title": "Check prerequisites",
+              "visual": "Editable permission and dependency arrows.",
+              "narration": "Some checks depend on access, earlier learning or a clear group definition. A payment question may be premature when you do not know the buyer. Pending permission cannot be overridden by high impact. A permitted prerequisite check may need to come first."
+            },
+            {
+              "title": "Consider ethical access and effort",
+              "visual": "Founder compares bounded tasks on a calendar.",
+              "narration": "Choose a feasible method for the question, not just the easiest activity. Consider relevant participants, voluntary participation, privacy, time and resources. A cheap test that answers the wrong question is not useful. Keep a fallback if access fails."
+            },
+            {
+              "title": "Choose and explain the sequence",
+              "visual": "Editable first, later and reconsider cards.",
+              "narration": "Select a provisional first priority. Explain why it comes before other candidates, what you are deferring and the strongest reason against your choice. No automatic ranking is calculated. Record what new evidence or constraint would change the sequence."
+            },
+            {
+              "title": "Create your priority plan",
+              "visual": "Actual approved Lesson 23 worksheet recording.",
+              "narration": "Build your Validation Priority Plan with three candidate assumptions or honestly labeled options still to find. Compare them, choose a first learning priority, note prerequisites and plan the next check. Selection is not evidence collected; the next lesson designs a small validation experiment."
+            }
+          ],
+          "summary": "Read the full narration / transcript"
+        },
+        {
+          "type": "videoPrompt",
+          "prompt": "Create an engaging beginner-friendly LYNQ Academy explainer and worksheet demo for Module 2.1 Lesson 23: Prioritise What to Test First. Editorial target 150 seconds, 16:9 1080p. Navy #0B2338, teal #087D79, mint #BCF2DF, white; diverse adults in contemporary Dubai workspace, friendly clear English narration. Fictional anonymous examples labeled Illustrative example in post. Teach decision impact, uncertainty, dependencies, ethical access, effort, first priority and reconsideration. No fabricated numeric scores, automatic ranking, quotes, findings or success claims.\n\nSCENE 1: Not every unknown comes first\nVisual placeholder: Founder reviews anonymous assumption cards.\nNarration: You have made assumptions visible. Now decide which uncertainty to investigate first. Prioritisation is a reasoned learning choice, not a success score. Start with claims that could change the next decision, while respecting dependencies and critical constraints.\n\nSCENE 2: Compare decision impact and uncertainty\nVisual placeholder: Editable consequence and uncertainty cards.\nNarration: For each candidate, ask what would change if it were wrong and how much relevant evidence you have. High uncertainty means unresolved information. Do not invent numeric scores or treat confidence as proof. Preserve the evidence status and strongest competing explanation.\n\nSCENE 3: Check prerequisites\nVisual placeholder: Editable permission and dependency arrows.\nNarration: Some checks depend on access, earlier learning or a clear group definition. A payment question may be premature when you do not know the buyer. Pending permission cannot be overridden by high impact. A permitted prerequisite check may need to come first.\n\nSCENE 4: Consider ethical access and effort\nVisual placeholder: Founder compares bounded tasks on a calendar.\nNarration: Choose a feasible method for the question, not just the easiest activity. Consider relevant participants, voluntary participation, privacy, time and resources. A cheap test that answers the wrong question is not useful. Keep a fallback if access fails.\n\nSCENE 5: Choose and explain the sequence\nVisual placeholder: Editable first, later and reconsider cards.\nNarration: Select a provisional first priority. Explain why it comes before other candidates, what you are deferring and the strongest reason against your choice. No automatic ranking is calculated. Record what new evidence or constraint would change the sequence.\n\nSCENE 6: Create your priority plan\nVisual placeholder: Actual approved Lesson 23 worksheet recording.\nNarration: Build your Validation Priority Plan with three candidate assumptions or honestly labeled options still to find. Compare them, choose a first learning priority, note prerequisites and plan the next check. Selection is not evidence collected; the next lesson designs a small validation experiment.\n\nFirst provide storyboard, timings and shot prompts. Generate only supported short shots for selected Gemini/Veo account, then edit with separately recorded narration. No generated text/logos/captions/fake UI; composite exact branding and editable Impact / Uncertainty / Dependency / Access / Effort / First / Later cards in post. Screen-record approved Lesson 23 worksheet with fictional source-labeled entries. Deliver H.264 MP4, editable project, audio, transcript, VTT/SRT, thumbnail and rights/provenance. Separate native-reviewed Arabic narration and RTL graphics. Review constraints, evidence honesty, privacy, accuracy, audio, pacing and mobile readability. No video generated by prototype.",
+          "filename": "LYNQ-Lesson-23-Gemini-Video-Prompt.md",
+          "summary": "Gemini video prompt — ready to copy"
+        },
+        {
+          "type": "studied",
+          "label": "I reviewed the storyboard or transcript."
+        }
+      ]
+    },
+    {
+      "id": "learn",
+      "label": "02 / LEARN",
+      "heading": "Choose the next question that can change a decision.",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Compare ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "decision impact"
+                  ]
+                },
+                ", ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "uncertainty"
+                  ]
+                },
+                ", ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "dependencies"
+                  ]
+                },
+                ", ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "ethical access"
+                  ]
+                },
+                " and ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "effort"
+                  ]
+                },
+                ". Impact is what changes if a claim is wrong. Uncertainty is the unresolved evidence gap. A dependency is a prerequisite."
+              ]
+            },
+            {
+              "tag": "ol",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Choose three specific candidate assumptions from your register."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Preserve evidence/status and consequence if wrong."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Identify prerequisites and constraints."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Choose a fitting, feasible learning check."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Explain the first priority, deferred checks and review trigger."
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "note"
+              },
+              "children": [
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "Illustrative example:"
+                  ]
+                },
+                " permission is pending for an observation. A permitted source/access check may come first. A high-impact assumption does not grant permission; asking about payment may be premature if the buyer role is unknown."
+              ]
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "No total or automatic ranking is calculated. Unknowns are acceptable with a plan. Do not choose a test just because it is easy or supports your preferred idea. A negative result may justify refining or pausing."
+              ]
+            },
+            {
+              "tag": "lesson-link",
+              "attrs": {
+                "lesson": "22",
+                "class": "btn secondary"
+              },
+              "children": [
+                "Review assumption register"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "practice",
+          "legend": "Practice: a high-impact check needs pending permission",
+          "prompt": "",
+          "options": [
+            {
+              "label": "Impact overrides permission",
+              "feedback": "Respect constraints and fit the method to the question; high impact or convenience is not permission."
+            },
+            {
+              "label": "Resolve access or choose a permitted prerequisite check",
+              "feedback": "Useful prerequisite: resolve access or choose a permitted check; impact cannot override permission."
+            },
+            {
+              "label": "Run the easiest unrelated survey",
+              "feedback": "Respect constraints and fit the method to the question; high impact or convenience is not permission."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "build",
+      "label": "03 / BUILD",
+      "heading": "Your Validation Priority Plan.",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Compare three candidates or label one still to find. Choose a first learning priority with reasons, not an automatic score."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "saveStatus"
+        },
+        {
+          "type": "fields",
+          "ids": [
+            "context",
+            "candidatea",
+            "candidateb",
+            "candidatec",
+            "comparison",
+            "selected",
+            "sequence",
+            "nextcheck",
+            "support"
+          ]
+        },
+        {
+          "type": "deliverable",
+          "previewLabel": "Preview my priority plan",
+          "downloadLabel": "Download Validation Priority Plan"
+        },
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "note"
+              },
+              "children": [
+                "Browser storage is plaintext; avoid private/confidential data. This plan does not execute or validate a test."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "reset",
+          "label": "Clear local draft"
+        }
+      ]
+    },
+    {
+      "id": "coach",
+      "label": "04 / ASK AI",
+      "heading": "Venture Coach · simulated",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Scripted demonstration only. No live AI, source verification, experiment execution or backend is connected."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "extension",
+          "id": "coach",
+          "props": {
+            "modes": [
+              {
+                "id": "teach",
+                "label": "Teach",
+                "response": "Compare decision impact, uncertainty, dependencies, ethical access and effort. Explain a first priority, counterargument, deferred checks and reconsideration trigger."
+              },
+              {
+                "id": "guide",
+                "label": "Guide",
+                "response": "Compare decision impact, uncertainty, dependencies, ethical access and effort. Explain a first priority, counterargument, deferred checks and reconsideration trigger."
+              },
+              {
+                "id": "review",
+                "label": "Review",
+                "response": "Priority Plan check: {missing} required fields still empty. This scripted check counts fields only; it cannot rank priorities, verify evidence or establish demand."
+              },
+              {
+                "id": "challenge",
+                "label": "Challenge",
+                "response": "Compare decision impact, uncertainty, dependencies, ethical access and effort. Explain a first priority, counterargument, deferred checks and reconsideration trigger."
+              }
+            ],
+            "initial": "teach",
+            "questionResponse": "This is a scripted demonstration, not an AI answer to your question.",
+            "countIds": [
+              "context",
+              "candidatea",
+              "candidateb",
+              "candidatec",
+              "comparison",
+              "selected",
+              "sequence",
+              "nextcheck"
+            ],
+            "questionLabel": "Optional question for the demonstration",
+            "submitLabel": "Show simulated guidance"
+          }
+        }
+      ]
+    },
+    {
+      "id": "challenge",
+      "label": "05 / CHALLENGE",
+      "heading": "Challenge the underlying claims.",
+      "blocks": [
+        {
+          "type": "fields",
+          "ids": [
+            "bias",
+            "counter",
+            "constraint"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz",
+      "label": "06 / KNOWLEDGE CHECK",
+      "heading": "Check your understanding.",
+      "blocks": [
+        {
+          "type": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "label": "07 / DELIVER & PROGRESS",
+      "heading": "Your deliverable: a Validation Priority Plan.",
+      "blocks": [
+        {
+          "type": "checklist"
+        },
+        {
+          "type": "honest",
+          "label": "I separated claims, preserved evidence limits and consequences, and avoided automatic risk, demand or permission claims."
+        },
+        {
+          "type": "complete",
+          "label": "Mark Lesson 23 complete locally",
+          "completedLabel": "Lesson 23 self-completed locally",
+          "completedNotice": "Lesson 23 self-completed locally. This is not validated demand or a submitted assignment.",
+          "incompleteNotice": "Complete the remaining requirements before local self-completion."
+        },
+        {
+          "type": "extension",
+          "id": "moduleNote",
+          "props": {
+            "heading": "Module 2.1 · Designing Your Validation",
+            "lessons": [
+              21,
+              22,
+              23,
+              24,
+              25
+            ],
+            "complete": "All five lessons self-completed locally. Module 2.1 learning pack complete; execution, permission and validation remain separate.",
+            "incomplete": "{count} / 5 lessons self-completed locally. Complete each separately to finish the learning module.",
+            "notes": [
+              {
+                "tag": "p",
+                "attrs": {},
+                "children": [
+                  "Only this lesson is built. Completion is a learning record, not validation, certification or venture approval."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {
+                "class": "help"
+              },
+              "children": [
+                "Learning completion is separate from validated demand."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "next"
+        }
+      ]
+    }
+  ],
+  "nav": [
+    {
+      "id": "watch",
+      "label": "Watch"
+    },
+    {
+      "id": "learn",
+      "label": "Learn"
+    },
+    {
+      "id": "build",
+      "label": "Build"
+    },
+    {
+      "id": "coach",
+      "label": "Ask AI"
+    },
+    {
+      "id": "challenge",
+      "label": "Challenge"
+    },
+    {
+      "id": "quiz",
+      "label": "Knowledge check"
+    },
+    {
+      "id": "finish",
+      "label": "Deliver"
+    }
+  ]
+}

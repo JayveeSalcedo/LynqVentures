@@ -1,0 +1,906 @@
+{
+ "number": 14,
+ "phase": 1,
+ "module": "1.3",
+ "title": "Explore the Market Landscape",
+ "hero": {
+  "eyebrow": "Module 1.3 · Understanding People & Context · Lesson 14",
+  "title": "Explore the Market Landscape.",
+  "intro": "Define the people, task and context you are exploring. Map approaches that serve the same job, compare them fairly, and keep market claims tied to sources and limits.",
+  "badges": [
+   "Beginner friendly"
+  ],
+  "meta": "35–45 min · Recommended: Lessons 09–13"
+ },
+ "fields": [
+  {
+   "id": "boundary",
+   "label": "Boundary: group, job, context, geography and exclusions",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Compare fairly; label facts, claims, plans and unknowns.",
+   "maxLength": 2000
+  },
+  {
+   "id": "statusquo",
+   "label": "Current approach/status quo: benefits, limits and source/date/status",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Compare fairly; label facts, claims, plans and unknowns.",
+   "maxLength": 2000
+  },
+  {
+   "id": "approacha",
+   "label": "Approach A: direct/indirect relative to the defined job, availability and source/status",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Compare fairly; label facts, claims, plans and unknowns.",
+   "maxLength": 2000
+  },
+  {
+   "id": "approachb",
+   "label": "Approach B or option still to find: benefits, limits and investigation plan",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Compare fairly; label facts, claims, plans and unknowns.",
+   "maxLength": 2000
+  },
+  {
+   "id": "comparison",
+   "label": "Same-job comparison criteria and sourced information — unknowns stay unknown",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Compare fairly; label facts, claims, plans and unknowns.",
+   "maxLength": 2000
+  },
+  {
+   "id": "basis",
+   "label": "Evidence ledger: source/date, provider claims, independence, search limits and missing facts",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Compare fairly; label facts, claims, plans and unknowns.",
+   "maxLength": 2000
+  },
+  {
+   "id": "gap",
+   "label": "Possible gap hypothesis and explanations that could make it disappear",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Compare fairly; label facts, claims, plans and unknowns.",
+   "maxLength": 2000
+  },
+  {
+   "id": "nextcheck",
+   "label": "Next research check: question, timing, permission/resources and revision signal",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Compare fairly; label facts, claims, plans and unknowns.",
+   "maxLength": 2000
+  },
+  {
+   "id": "support",
+   "label": "Optional support or access constraint",
+   "kind": "textarea",
+   "required": false,
+   "maxLength": 2000
+  },
+  {
+   "id": "assumption",
+   "label": "Which boundary or comparison could unfairly favour your idea?",
+   "kind": "textarea",
+   "required": true,
+   "maxLength": 2000
+  },
+  {
+   "id": "evidence",
+   "label": "What existing approach or new evidence would weaken your gap hypothesis?",
+   "kind": "textarea",
+   "required": true,
+   "maxLength": 2000
+  },
+  {
+   "id": "constraint",
+   "label": "How will you preserve source limits and avoid confidential or invented competitor information?",
+   "kind": "textarea",
+   "required": true,
+   "maxLength": 2000
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "What should a landscape include?",
+   "options": [
+    "Only similar apps",
+    "Direct/indirect alternatives and the status quo for a defined job",
+    "Only weaknesses"
+   ],
+   "answer": 1,
+   "explanation": "Include different ways people achieve the same job."
+  },
+  {
+   "prompt": "You have not found a similar product. What follows?",
+   "options": [
+    "Record search limits and investigate indirect/manual alternatives",
+    "No competitors exist",
+    "Demand is proven"
+   ],
+   "answer": 0,
+   "explanation": "An incomplete search cannot establish absence or demand."
+  },
+  {
+   "prompt": "Does a global industry figure equal your reachable market?",
+   "options": [
+    "Yes",
+    "Yes if it is large",
+    "No; definitions, scope and evidence must be checked"
+   ],
+   "answer": 2,
+   "explanation": "Industry figures do not automatically describe your reachable customers."
+  }
+ ],
+ "checklist": [
+  {
+   "kind": "studied",
+   "label": "Transcript or learning guide reviewed"
+  },
+  {
+   "kind": "fields",
+   "label": "Market Landscape Map fields complete",
+   "ids": [
+    "boundary",
+    "statusquo",
+    "approacha",
+    "approachb",
+    "comparison",
+    "basis",
+    "gap",
+    "nextcheck"
+   ]
+  },
+  {
+   "kind": "fields",
+   "label": "Three red-team reflections complete",
+   "ids": [
+    "assumption",
+    "evidence",
+    "constraint"
+   ]
+  },
+  {
+   "kind": "quiz",
+   "label": "Knowledge check: 3 / 3 correct"
+  },
+  {
+   "kind": "honest",
+   "label": "Final self-review confirmed"
+  }
+ ],
+ "deliverable": {
+  "title": "LYNQ Academy — Market Landscape Map",
+  "filename": "LYNQ-Market-Landscape-Map.md",
+  "headerLines": [
+   "Phase 01 · Module {module} · Lesson {lesson}",
+   "Status: {status}",
+   "Created: {created}"
+  ],
+  "fieldIds": [
+   "boundary",
+   "statusquo",
+   "approacha",
+   "approachb",
+   "comparison",
+   "basis",
+   "gap",
+   "nextcheck",
+   "support",
+   "assumption",
+   "evidence",
+   "constraint"
+  ],
+  "footer": "Local prototype export. No reviewer submission or business validation."
+ },
+ "sections": [
+  {
+   "id": "watch",
+   "label": "01 / WATCH",
+   "heading": "What already serves this customer’s job?",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "The planned explainer maps alternatives and market boundaries without invented competitor claims or demand estimates. Use the transcript or guide while the video is a placeholder."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "video-placeholder"
+       },
+       "children": [
+        {
+         "tag": "span",
+         "attrs": {
+          "class": "badge"
+         },
+         "children": [
+          "Video placeholder · media not produced"
+         ]
+        },
+        {
+         "tag": "h3",
+         "attrs": {},
+         "children": [
+          "Explore the Market Landscape"
+         ]
+        },
+        {
+         "tag": "p",
+         "attrs": {},
+         "children": [
+          "Planned: 2½-minute explainer + worksheet demo",
+          {
+           "tag": "br",
+           "attrs": {},
+           "children": []
+          },
+          "Boundary → Alternatives → Fair comparison → Gaps → Next check"
+         ]
+        },
+        {
+         "tag": "small",
+         "attrs": {},
+         "children": [
+          "No playable video or generated media is attached."
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "storyboard",
+     "scenes": [
+      {
+       "title": "Define your exploration boundary",
+       "visual": "Founder reviews anonymous customer and problem cards.",
+       "narration": "A market landscape helps you understand the approaches around a customer task. Start with the group, job, context and geography you are exploring. These are working boundaries, not a proven market. A broad industry headline is not automatically relevant to your specific problem."
+      },
+      {
+       "title": "Map the same job",
+       "visual": "Editable direct, indirect and status-quo cards.",
+       "narration": "Direct alternatives offer a similar approach to the same job. Indirect alternatives use a different approach. The status quo includes manual help, existing habits and doing nothing. In a fictional registration example, directions, staff help and existing information may all matter. Do not assume a new app is necessary."
+      },
+      {
+       "title": "Describe without inventing",
+       "visual": "Founder records a dated document reference.",
+       "narration": "For each approach, record whom it serves, how it helps, where it is available and the source and date. Unknown availability, pricing and performance stay unknown. A provider’s claim describes what it says; it is not independent evidence of customer outcomes."
+      },
+      {
+       "title": "Compare fairly",
+       "visual": "Editable same-context comparison diagram.",
+       "narration": "Use the same criteria for the same task and context. Include benefits as well as limits. Avoid declaring a winner or inventing weakness to make your idea look better. An incomplete search does not prove there are no competitors, and repeated reports may share one source."
+      },
+      {
+       "title": "Treat gaps as hypotheses",
+       "visual": "Editable possible gap and verification question cards.",
+       "narration": "An apparent gap may reflect incomplete research, a small need, access barriers or a good existing workaround. Record it as a hypothesis with a check. Do not turn a large industry number into your reachable market or claim demand from a few examples. Market sizing comes with its own definitions and evidence."
+      },
+      {
+       "title": "Build the landscape map",
+       "visual": "Actual approved Lesson 14 worksheet recording.",
+       "narration": "Create your Market Landscape Map: boundaries, current approach, two other approaches or options still to find, common comparison criteria, evidence limits, a possible gap and a next research check. Keep the map revisable. Next you will combine your learning into a discovery research plan."
+      }
+     ],
+     "sceneMeta": "Planned final scene: 25 seconds · narration and precise graphics added in post",
+     "summary": "Explore the six-scene storyboard placeholder"
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {
+        "class": "help"
+       },
+       "children": [
+        "Use an explainer with editable diagrams, documentary cutaways and a real worksheet demo. Generate short assets where supported, then assemble in an editor."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "videoPrompt",
+     "prompt": "Create a beginner-friendly LYNQ Academy explainer plus worksheet demo for Module 1.3 Lesson 14: Explore the Market Landscape. Editorial target about 150 seconds, 16:9 1080p. Navy #0B2338, teal #087D79, mint #BCF2DF, white; diverse adult cast in contemporary Dubai workspace. Friendly English narrator. Fictional anonymous registration example labeled Illustrative example in post. Teach boundaries, same-job direct/indirect alternatives, status quo, fair source-based comparison and gap hypotheses. No real competitors, fabricated prices, statistics, citations, market shares, customer claims or automatic winners.\n\nSCENE 1: Define your exploration boundary\nVisual placeholder: Founder reviews anonymous customer and problem cards.\nNarration: A market landscape helps you understand the approaches around a customer task. Start with the group, job, context and geography you are exploring. These are working boundaries, not a proven market. A broad industry headline is not automatically relevant to your specific problem.\n\nSCENE 2: Map the same job\nVisual placeholder: Editable direct, indirect and status-quo cards.\nNarration: Direct alternatives offer a similar approach to the same job. Indirect alternatives use a different approach. The status quo includes manual help, existing habits and doing nothing. In a fictional registration example, directions, staff help and existing information may all matter. Do not assume a new app is necessary.\n\nSCENE 3: Describe without inventing\nVisual placeholder: Founder records a dated document reference.\nNarration: For each approach, record whom it serves, how it helps, where it is available and the source and date. Unknown availability, pricing and performance stay unknown. A provider’s claim describes what it says; it is not independent evidence of customer outcomes.\n\nSCENE 4: Compare fairly\nVisual placeholder: Editable same-context comparison diagram.\nNarration: Use the same criteria for the same task and context. Include benefits as well as limits. Avoid declaring a winner or inventing weakness to make your idea look better. An incomplete search does not prove there are no competitors, and repeated reports may share one source.\n\nSCENE 5: Treat gaps as hypotheses\nVisual placeholder: Editable possible gap and verification question cards.\nNarration: An apparent gap may reflect incomplete research, a small need, access barriers or a good existing workaround. Record it as a hypothesis with a check. Do not turn a large industry number into your reachable market or claim demand from a few examples. Market sizing comes with its own definitions and evidence.\n\nSCENE 6: Build the landscape map\nVisual placeholder: Actual approved Lesson 14 worksheet recording.\nNarration: Create your Market Landscape Map: boundaries, current approach, two other approaches or options still to find, common comparison criteria, evidence limits, a possible gap and a next research check. Keep the map revisable. Next you will combine your learning into a discovery research plan.\n\nFirst return storyboard, timings and individual shot prompts. Generate only short shot lengths supported by selected Gemini/Veo account. Assemble with one separately recorded narrator track. Generated footage has no text, logos, captions or invented product/browser UI. Add exact branding and editable Boundary / Direct / Indirect / Status quo / Evidence / Unknown diagrams in post. Use actual approved Lesson 14 screen recording with fictional source-labeled answers. Deliver H.264 MP4, editable project, narration audio, transcript, VTT/SRT captions, thumbnail and rights/provenance. Native-reviewed Arabic narration and RTL graphics are separate. Check fairness, source labels, accuracy, privacy, brand, audio, pacing and mobile readability before publication. Prototype contains no generated video.",
+     "filename": "LYNQ-Lesson-14-Gemini-Video-Prompt.md",
+     "title": "# LYNQ Lesson 14 — Gemini video prompt",
+     "summary": "Gemini video prompt — ready to copy"
+    },
+    {
+     "type": "transcript",
+     "scenes": [
+      {
+       "title": "Define your exploration boundary",
+       "visual": "Founder reviews anonymous customer and problem cards.",
+       "narration": "A market landscape helps you understand the approaches around a customer task. Start with the group, job, context and geography you are exploring. These are working boundaries, not a proven market. A broad industry headline is not automatically relevant to your specific problem."
+      },
+      {
+       "title": "Map the same job",
+       "visual": "Editable direct, indirect and status-quo cards.",
+       "narration": "Direct alternatives offer a similar approach to the same job. Indirect alternatives use a different approach. The status quo includes manual help, existing habits and doing nothing. In a fictional registration example, directions, staff help and existing information may all matter. Do not assume a new app is necessary."
+      },
+      {
+       "title": "Describe without inventing",
+       "visual": "Founder records a dated document reference.",
+       "narration": "For each approach, record whom it serves, how it helps, where it is available and the source and date. Unknown availability, pricing and performance stay unknown. A provider’s claim describes what it says; it is not independent evidence of customer outcomes."
+      },
+      {
+       "title": "Compare fairly",
+       "visual": "Editable same-context comparison diagram.",
+       "narration": "Use the same criteria for the same task and context. Include benefits as well as limits. Avoid declaring a winner or inventing weakness to make your idea look better. An incomplete search does not prove there are no competitors, and repeated reports may share one source."
+      },
+      {
+       "title": "Treat gaps as hypotheses",
+       "visual": "Editable possible gap and verification question cards.",
+       "narration": "An apparent gap may reflect incomplete research, a small need, access barriers or a good existing workaround. Record it as a hypothesis with a check. Do not turn a large industry number into your reachable market or claim demand from a few examples. Market sizing comes with its own definitions and evidence."
+      },
+      {
+       "title": "Build the landscape map",
+       "visual": "Actual approved Lesson 14 worksheet recording.",
+       "narration": "Create your Market Landscape Map: boundaries, current approach, two other approaches or options still to find, common comparison criteria, evidence limits, a possible gap and a next research check. Keep the map revisable. Next you will combine your learning into a discovery research plan."
+      }
+     ],
+     "summary": "Read the full narration / transcript"
+    },
+    {
+     "type": "studied",
+     "label": "I read the transcript or reviewed the learning guide. Video is not required."
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "label": "02 / LEARN",
+   "heading": "Understand the landscape around one job.",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "A ",
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "market boundary"
+         ]
+        },
+        " defines the group, task, context and geography you will investigate. A ",
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "direct alternative"
+         ]
+        },
+        " uses a similar approach for the same job; an ",
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "indirect alternative"
+         ]
+        },
+        " uses another route. The ",
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "status quo"
+         ]
+        },
+        " includes current behaviour, manual help and doing nothing. These labels depend on the job and approach you have defined."
+       ]
+      },
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "note"
+       },
+       "children": [
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "Illustrative example:"
+         ]
+        },
+        " a first-time visitor wants to find registration at a venue. Signs, staff help and existing digital information can serve that job. Their actual availability and usefulness remain to be checked. This is not a review of real providers."
+       ]
+      },
+      {
+       "tag": "h3",
+       "attrs": {},
+       "children": [
+        "Build a fair map"
+       ]
+      },
+      {
+       "tag": "ol",
+       "attrs": {},
+       "children": [
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Define who, job, setting, geography and exclusions."
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Start with the current approach; search beyond similar apps."
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Record two other approaches or honest options still to find."
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Use the same criteria and source/date labels."
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Keep claims, verified facts and unknowns separate."
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Describe a possible gap as a hypothesis with a check."
+         ]
+        }
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "A provider’s website supports what it describes, not necessarily actual customer outcomes. Unknown prices or availability are not zero. No search is exhaustive; “not yet found” is different from “does not exist.”"
+       ]
+      },
+      {
+       "tag": "h3",
+       "attrs": {},
+       "children": [
+        "Market numbers need their own evidence"
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "A global industry figure is not your reachable customer market. Do not invent market size, share or demand here. Record scope, date, definition and source if you investigate a number later."
+       ]
+      },
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "actions"
+       },
+       "children": [
+        {
+         "tag": "lesson-link",
+         "attrs": {
+          "lesson": "9",
+          "class": "btn secondary"
+         },
+         "children": [
+          "Review alternatives log"
+         ]
+        },
+        {
+         "tag": "lesson-link",
+         "attrs": {
+          "lesson": "13",
+          "class": "btn secondary"
+         },
+         "children": [
+          "Review research log"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "practice",
+     "legend": "Practice: you have not found a similar app",
+     "prompt": "",
+     "options": [
+      {
+       "label": "There are no alternatives",
+       "feedback": "Keep the search bounded and honest. No similar app found does not establish absence of alternatives or demand."
+      },
+      {
+       "label": "Search manual and indirect approaches; record search limits",
+       "feedback": "Useful check: investigate indirect and manual approaches and preserve search limits. Not yet found does not mean absent."
+      },
+      {
+       "label": "Demand is proven",
+       "feedback": "Keep the search bounded and honest. No similar app found does not establish absence of alternatives or demand."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "build",
+   "label": "03 / BUILD",
+   "heading": "Your Market Landscape Map.",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Use a bounded customer job. Include the status quo and two other approaches or clearly labeled options to investigate. No search, competitor verification, score or winner is generated automatically."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "saveStatus"
+    },
+    {
+     "type": "fields",
+     "ids": [
+      "boundary",
+      "statusquo",
+      "approacha",
+      "approachb",
+      "comparison",
+      "basis",
+      "gap",
+      "nextcheck",
+      "support"
+     ]
+    },
+    {
+     "type": "extension",
+     "id": "preview",
+     "props": {
+      "label": "Preview my landscape map",
+      "kind": "lines",
+      "joiner": "\n\n",
+      "lines": [
+       {
+        "id": "boundary",
+        "label": "Boundary: group, job, context, geography and exclusions *"
+       },
+       {
+        "id": "statusquo",
+        "label": "Current approach/status quo: benefits, limits and source/date/status *"
+       },
+       {
+        "id": "approacha",
+        "label": "Approach A: direct/indirect relative to the defined job, availability and source/status *"
+       },
+       {
+        "id": "approachb",
+        "label": "Approach B or option still to find: benefits, limits and investigation plan *"
+       },
+       {
+        "id": "comparison",
+        "label": "Same-job comparison criteria and sourced information — unknowns stay unknown *"
+       },
+       {
+        "id": "basis",
+        "label": "Evidence ledger: source/date, provider claims, independence, search limits and missing facts *"
+       },
+       {
+        "id": "gap",
+        "label": "Possible gap hypothesis and explanations that could make it disappear *"
+       },
+       {
+        "id": "nextcheck",
+        "label": "Next research check: question, timing, permission/resources and revision signal *"
+       }
+      ],
+      "footer": "This map does not prove demand or verify competitors, market size or an exhaustive search."
+     }
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "note"
+       },
+       "children": [
+        "This map does not establish market size, demand, competitive superiority or an exhaustive search. Browser storage is plaintext; avoid confidential information and download a copy."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "extension",
+     "id": "download",
+     "props": {
+      "label": "Download Market Landscape Map"
+     }
+    },
+    {
+     "type": "reset",
+     "label": "Clear local draft"
+    }
+   ]
+  },
+  {
+   "id": "coach",
+   "label": "04 / ASK AI",
+   "heading": "Your thinking partner",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "span",
+       "attrs": {
+        "class": "badge"
+       },
+       "children": [
+        "Simulated Coach · no AI connection"
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Try four scripted guidance modes. The preview reads your current worksheet locally; it does not send information anywhere."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "extension",
+     "id": "coach",
+     "props": {
+      "modes": [
+       {
+        "id": "teach",
+        "label": "Teach me"
+       },
+       {
+        "id": "guide",
+        "label": "Guide me"
+       },
+       {
+        "id": "review",
+        "label": "Review my work"
+       },
+       {
+        "id": "challenge",
+        "label": "Challenge my idea"
+       }
+      ],
+      "replies": {
+       "teach": "Define the customer job and boundaries. Include direct/indirect alternatives and the status quo; compare benefits and limits fairly.",
+       "guide": "Map current behaviour and two other approaches or honest search plans. Preserve source/date/status, search limits and a gap hypothesis with a check.",
+       "review": "Landscape Map check: {missing} required fields still empty. This scripted check counts fields only; it cannot verify competitors, market size, source claims or demand.",
+       "challenge": "Is the gap only incomplete research? What works well already? Are provider claims verified? Does an industry number actually match your scope?"
+      },
+      "heading": "SCRIPTED DEMO / ",
+      "questionNote": "Your question was entered locally. This preview does not generate a custom answer.",
+      "questionLabel": "Your question (optional)",
+      "placeholder": "What should I focus on first?",
+      "maxLength": 500,
+      "submitLabel": "Show simulated guidance"
+     }
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {
+        "class": "help"
+       },
+       "children": [
+        "Responses are predefined for this lesson, not generated answers to your question. No customer demand or venture readiness is verified."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "challenge",
+   "label": "05 / CHALLENGE",
+   "heading": "Challenge the apparent gap.",
+   "blocks": [
+    {
+     "type": "fields",
+     "ids": [
+      "assumption",
+      "evidence",
+      "constraint"
+     ]
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "details",
+       "attrs": {},
+       "children": [
+        {
+         "tag": "summary",
+         "attrs": {},
+         "children": [
+          "More questions to discuss"
+         ]
+        },
+        {
+         "tag": "p",
+         "attrs": {},
+         "children": [
+          "Have you ignored manual help or doing nothing? Are all options serving the same job? Are provider claims independently verified? Is the gap only a search gap? Have you mistaken an industry number for reachable demand?"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "quiz",
+   "label": "06 / CHECK YOUR UNDERSTANDING",
+   "heading": "A quick knowledge check",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Answer all three. You can retry; all three correct are required for local completion."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "quiz"
+    }
+   ]
+  },
+  {
+   "id": "finish",
+   "label": "07 / DELIVER & PROGRESS",
+   "heading": "Your deliverable: a Market Landscape Map.",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Download boundaries, approaches, comparison criteria, evidence limits, gap hypothesis and next check. Earlier worksheets stay separate. Revise this map as you investigate."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "checklist"
+    },
+    {
+     "type": "honest",
+     "label": "I included the status quo, compared fairly, labeled missing evidence and kept gap and demand claims provisional."
+    },
+    {
+     "type": "complete",
+     "label": "Mark Lesson 14 complete locally",
+     "completedLabel": "Lesson 14 self-completed locally",
+     "completedNotice": "Lesson 14 self-completed locally. Download your Market Landscape Map. No reviewer approval or venture validation is recorded.",
+     "incompleteNotice": "Complete the remaining requirements above before marking this lesson complete."
+    },
+    {
+     "type": "extension",
+     "id": "moduleNote",
+     "props": {
+      "parts": [
+       {
+        "nodes": [
+         {
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+           "Module 1.3 · Understanding People & Context"
+          ]
+         }
+        ]
+       },
+       {
+        "status": "1.3",
+        "complete": "All five lessons self-completed locally. Module 1.3 learning pack complete; research execution, permissions and validation remain separate.",
+        "incomplete": "{count} / 5 lessons self-completed locally. Complete each lesson separately to finish this learning module."
+       },
+       {
+        "nodes": [
+         {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+           "Self-completion records learning, not validated market research or venture approval."
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "type": "next"
+    }
+   ]
+  }
+ ],
+ "nav": [
+  {
+   "id": "watch",
+   "label": "Watch"
+  },
+  {
+   "id": "learn",
+   "label": "Learn"
+  },
+  {
+   "id": "build",
+   "label": "Build"
+  },
+  {
+   "id": "coach",
+   "label": "Ask AI"
+  },
+  {
+   "id": "challenge",
+   "label": "Challenge"
+  },
+  {
+   "id": "quiz",
+   "label": "Knowledge check"
+  },
+  {
+   "id": "finish",
+   "label": "Deliver"
+  }
+ ]
+}

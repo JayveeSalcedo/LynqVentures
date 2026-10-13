@@ -1,0 +1,829 @@
+{
+ "number": 1,
+ "phase": 1,
+ "module": "1.1",
+ "title": "Welcome to Your Founder Journey",
+ "hero": {
+  "eyebrow": "Module 1.1 · Becoming an Entrepreneur · Lesson 01",
+  "title": "Welcome to Your Founder Journey.",
+  "intro": "Start with who you are, why this matters, and what you can realistically commit. Your first deliverable is a one-page Founder Profile.",
+  "badges": [
+   "Beginner friendly"
+  ],
+  "meta": "30–40 min · No prerequisites beyond orientation"
+ },
+ "fields": [
+  {
+   "id": "name",
+   "label": "Preferred name",
+   "kind": "input",
+   "required": true,
+   "placeholder": "Your first name or alias",
+   "maxLength": 100
+  },
+  {
+   "id": "stage",
+   "label": "Your starting point",
+   "kind": "select",
+   "required": true,
+   "options": [
+    {
+     "value": "",
+     "label": "Choose one"
+    },
+    {
+     "value": "Exploring entrepreneurship",
+     "label": "Exploring entrepreneurship"
+    },
+    {
+     "value": "I have an idea",
+     "label": "I have an idea"
+    },
+    {
+     "value": "I have several ideas",
+     "label": "I have several ideas"
+    },
+    {
+     "value": "I run an existing business",
+     "label": "I run an existing business"
+    },
+    {
+     "value": "I am part of a venture team",
+     "label": "I am part of a venture team"
+    }
+   ]
+  },
+  {
+   "id": "why",
+   "label": "Why do you want to build a venture?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "I want to solve… because…",
+   "maxLength": 2000,
+   "hint": "What would make this journey worthwhile for you?"
+  },
+  {
+   "id": "strengths",
+   "label": "Which strengths and experiences can you bring?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "For example: I organise events and can speak with venue teams.",
+   "maxLength": 2000
+  },
+  {
+   "id": "people",
+   "label": "Whose problems are you curious about?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Name a group you could realistically speak with.",
+   "maxLength": 2000
+  },
+  {
+   "id": "problem",
+   "label": "What have you noticed?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "I noticed… / I plan to observe…",
+   "maxLength": 2000,
+   "hint": "Describe an observation, or say what you plan to observe if you have no idea yet."
+  },
+  {
+   "id": "hours",
+   "label": "Weekly learning commitment",
+   "kind": "select",
+   "required": true,
+   "options": [
+    {
+     "value": "",
+     "label": "Choose one"
+    },
+    {
+     "value": "1–2 hours",
+     "label": "1–2 hours"
+    },
+    {
+     "value": "3–5 hours",
+     "label": "3–5 hours"
+    },
+    {
+     "value": "6–10 hours",
+     "label": "6–10 hours"
+    },
+    {
+     "value": "More than 10 hours",
+     "label": "More than 10 hours"
+    }
+   ]
+  },
+  {
+   "id": "goal",
+   "label": "Your next seven-day action",
+   "kind": "input",
+   "required": true,
+   "placeholder": "One small action within your control",
+   "maxLength": 300
+  },
+  {
+   "id": "support",
+   "label": "What help or constraint should you plan for?",
+   "kind": "textarea",
+   "required": false,
+   "placeholder": "Optional: time, skills, confidence, access to people…",
+   "maxLength": 2000
+  },
+  {
+   "id": "assumption",
+   "label": "Which belief about yourself or the problem might be wrong?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "I may be assuming that…",
+   "maxLength": 2000
+  },
+  {
+   "id": "evidence",
+   "label": "What would change your mind, and how could you find it?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "I would rethink this if… My next check is…",
+   "maxLength": 2000
+  },
+  {
+   "id": "constraint",
+   "label": "If you only had half the time, what would you still do?",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "The smallest useful step is…",
+   "maxLength": 2000
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "What is a useful first step for a founder?",
+   "options": [
+    "Build every feature immediately",
+    "Understand a problem and the people affected",
+    "Assume customers want your idea"
+   ],
+   "answer": 1,
+   "explanation": "Start with the problem and people; a solution is still a hypothesis."
+  },
+  {
+   "prompt": "Which statement is an observation?",
+   "options": [
+    "Everyone will pay for my app",
+    "Three visitors asked how to reconnect after an event",
+    "This market will definitely grow"
+   ],
+   "answer": 1,
+   "explanation": "A specific observed event is evidence; willingness to pay still needs testing."
+  },
+  {
+   "prompt": "What does finishing Lesson 01 show?",
+   "options": [
+    "My venture is ready for investment",
+    "My demand has been proven",
+    "I created a starting profile and learning commitment"
+   ],
+   "answer": 2,
+   "explanation": "Lesson completion records learning and a deliverable, not business validation."
+  }
+ ],
+ "checklist": [
+  {
+   "kind": "studied",
+   "label": "Storyboard or transcript reviewed"
+  },
+  {
+   "kind": "fields",
+   "label": "Founder Profile fields complete",
+   "ids": [
+    "name",
+    "stage",
+    "why",
+    "strengths",
+    "people",
+    "problem",
+    "hours",
+    "goal"
+   ]
+  },
+  {
+   "kind": "fields",
+   "label": "Three red-team reflections complete",
+   "ids": [
+    "assumption",
+    "evidence",
+    "constraint"
+   ]
+  },
+  {
+   "kind": "quiz",
+   "label": "Knowledge check: 3 / 3 correct"
+  },
+  {
+   "kind": "honest",
+   "label": "Final self-review confirmed"
+  }
+ ],
+ "deliverable": {
+  "title": "LYNQ Academy — Founder Profile",
+  "filename": "LYNQ-Founder-Profile.md",
+  "headerLines": [
+   "Phase 01 · Module {module} · Lesson {lesson}",
+   "Status: {status}",
+   "Created: {created}"
+  ],
+  "fieldIds": [
+   "name",
+   "stage",
+   "why",
+   "strengths",
+   "people",
+   "problem",
+   "hours",
+   "goal",
+   "support",
+   "assumption",
+   "evidence",
+   "constraint"
+  ],
+  "footer": "Local prototype export. No reviewer submission or business validation."
+ },
+ "sections": [
+  {
+   "id": "watch",
+   "label": "01 / WATCH",
+   "heading": "A founder starts by noticing.",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Preview the six-scene video storyboard, or read the complete narration below. No video has been generated."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "storyboard",
+     "scenes": [
+      {
+       "title": "You can start here",
+       "visual": "A diverse founder sits at a desk in a contemporary Dubai workspace, looking at a blank notebook.",
+       "narration": "You do not need a perfect idea to start. You need curiosity and a willingness to learn. Welcome to LYNQ Venture Studio Academy. This journey helps you turn questions into practical steps."
+      },
+      {
+       "title": "Notice a real problem",
+       "visual": "An event visitor searches handwritten contact notes after a networking event.",
+       "narration": "A venture begins with someone’s problem. Imagine an event visitor who cannot reconnect with a person they met. First understand that experience. Choosing an app comes later."
+      },
+      {
+       "title": "Know your starting point",
+       "visual": "Close-ups of a notebook, calendar, and a founder reflecting.",
+       "narration": "Your experience is useful. Maybe you organise events, support customers, or understand a community. Write down what you bring, what you still need to learn, and why building a venture matters to you."
+      },
+      {
+       "title": "Learn by doing",
+       "visual": "Editable five-stage roadmap added in post-production over clean navy background.",
+       "narration": "Across Discover, Validate, Build, Launch, and Scale, you will watch, learn, build, ask for guidance, challenge assumptions, and complete practical work. Finishing lessons does not prove that a business will succeed."
+      },
+      {
+       "title": "Build your profile",
+       "visual": "Screen recording of this worksheet, added in post-production.",
+       "narration": "Today, create your Founder Profile. Name the people you are curious about, describe what you have noticed, and choose a realistic weekly commitment. If you have no idea yet, decide what you will observe."
+      },
+      {
+       "title": "Take one small step",
+       "visual": "Founder closes notebook, walks into a bright community workspace.",
+       "narration": "Ask yourself what might be wrong about your assumptions, and what would change your mind. Then choose one action for the next seven days. Progress begins with an honest starting point and a small step you can take."
+      }
+     ],
+     "sceneMeta": "Planned final scene: 20 seconds · narration and precise graphics added in post"
+    },
+    {
+     "type": "transcript",
+     "scenes": [
+      {
+       "title": "You can start here",
+       "visual": "A diverse founder sits at a desk in a contemporary Dubai workspace, looking at a blank notebook.",
+       "narration": "You do not need a perfect idea to start. You need curiosity and a willingness to learn. Welcome to LYNQ Venture Studio Academy. This journey helps you turn questions into practical steps."
+      },
+      {
+       "title": "Notice a real problem",
+       "visual": "An event visitor searches handwritten contact notes after a networking event.",
+       "narration": "A venture begins with someone’s problem. Imagine an event visitor who cannot reconnect with a person they met. First understand that experience. Choosing an app comes later."
+      },
+      {
+       "title": "Know your starting point",
+       "visual": "Close-ups of a notebook, calendar, and a founder reflecting.",
+       "narration": "Your experience is useful. Maybe you organise events, support customers, or understand a community. Write down what you bring, what you still need to learn, and why building a venture matters to you."
+      },
+      {
+       "title": "Learn by doing",
+       "visual": "Editable five-stage roadmap added in post-production over clean navy background.",
+       "narration": "Across Discover, Validate, Build, Launch, and Scale, you will watch, learn, build, ask for guidance, challenge assumptions, and complete practical work. Finishing lessons does not prove that a business will succeed."
+      },
+      {
+       "title": "Build your profile",
+       "visual": "Screen recording of this worksheet, added in post-production.",
+       "narration": "Today, create your Founder Profile. Name the people you are curious about, describe what you have noticed, and choose a realistic weekly commitment. If you have no idea yet, decide what you will observe."
+      },
+      {
+       "title": "Take one small step",
+       "visual": "Founder closes notebook, walks into a bright community workspace.",
+       "narration": "Ask yourself what might be wrong about your assumptions, and what would change your mind. Then choose one action for the next seven days. Progress begins with an honest starting point and a small step you can take."
+      }
+     ],
+     "summary": "Read the full narration / transcript"
+    },
+    {
+     "type": "studied",
+     "label": "I reviewed the storyboard or read the transcript."
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "label": "02 / LEARN",
+   "heading": "You can begin before you have an idea.",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Entrepreneurship means finding a problem people care about, testing a way to solve it, and building a business that can keep delivering that value. A founder makes decisions under uncertainty. You do not need to know every answer; you need a way to learn."
+       ]
+      },
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "grid2"
+       },
+       "children": [
+        {
+         "tag": "div",
+         "attrs": {},
+         "children": [
+          {
+           "tag": "h3",
+           "attrs": {},
+           "children": [
+            "By the end, you can"
+           ]
+          },
+          {
+           "tag": "ul",
+           "attrs": {},
+           "children": [
+            {
+             "tag": "li",
+             "attrs": {},
+             "children": [
+              "Explain what a founder actually does."
+             ]
+            },
+            {
+             "tag": "li",
+             "attrs": {},
+             "children": [
+              "Connect your experience to a problem space."
+             ]
+            },
+            {
+             "tag": "li",
+             "attrs": {},
+             "children": [
+              "Separate an observation from an assumption."
+             ]
+            },
+            {
+             "tag": "li",
+             "attrs": {},
+             "children": [
+              "Set a realistic learning commitment."
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "tag": "div",
+         "attrs": {},
+         "children": [
+          {
+           "tag": "h3",
+           "attrs": {},
+           "children": [
+            "Three useful words"
+           ]
+          },
+          {
+           "tag": "p",
+           "attrs": {},
+           "children": [
+            {
+             "tag": "b",
+             "attrs": {},
+             "children": [
+              "Venture:"
+             ]
+            },
+            " a business you are trying to build.",
+            {
+             "tag": "br",
+             "attrs": {},
+             "children": []
+            },
+            {
+             "tag": "b",
+             "attrs": {},
+             "children": [
+              "Assumption:"
+             ]
+            },
+            " something you believe but have not yet tested.",
+            {
+             "tag": "br",
+             "attrs": {},
+             "children": []
+            },
+            {
+             "tag": "b",
+             "attrs": {},
+             "children": [
+              "Evidence:"
+             ]
+            },
+            " something observed or collected that helps you check a belief."
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "tag": "h3",
+       "attrs": {},
+       "children": [
+        "A simple example"
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "An event coordinator notices that visitors struggle to reconnect with people after an event. “People want an app” is an assumption. “Three visitors asked for a way to find someone they met” is an observation. The next step is to understand their experience before choosing a solution."
+       ]
+      },
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "note"
+       },
+       "children": [
+        "LYNQ was built in Dubai with a global outlook. Bring your own context: an everyday challenge in a shop, school, workplace, community, or event can be a starting point."
+       ]
+      },
+      {
+       "tag": "h3",
+       "attrs": {},
+       "children": [
+        "Your task today"
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Make a honest starting snapshot. “I’m not sure yet” is acceptable for your idea. Be specific about your motivation, skills, available time, and the people you would like to understand. This is a learning baseline, not an investor pitch."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "build",
+   "label": "03 / BUILD",
+   "heading": "Your Founder Profile",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Use short, concrete answers. Arabic entries are supported with automatic text direction. Avoid personal identifiers, confidential client details, or sensitive information."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "saveStatus"
+    },
+    {
+     "type": "fields",
+     "ids": [
+      "name",
+      "stage",
+      "why",
+      "strengths",
+      "people",
+      "problem",
+      "hours",
+      "goal",
+      "support"
+     ]
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "note"
+       },
+       "children": [
+        "Local storage is not encrypted. Anyone using this browser profile may access this draft. Download a copy before changing browsers; private browsing or browser cleanup can remove it."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "extension",
+     "id": "download",
+     "props": {
+      "label": "Download Founder Profile"
+     }
+    },
+    {
+     "type": "reset",
+     "label": "Clear local draft"
+    }
+   ]
+  },
+  {
+   "id": "coach",
+   "label": "04 / ASK AI",
+   "heading": "Your thinking partner",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "span",
+       "attrs": {
+        "class": "badge"
+       },
+       "children": [
+        "Simulated Coach · no AI connection"
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Try four scripted guidance modes. The preview reads your current worksheet locally; it does not send information anywhere."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "extension",
+     "id": "coach",
+     "props": {
+      "modes": [
+       {
+        "id": "teach",
+        "label": "Teach me"
+       },
+       {
+        "id": "guide",
+        "label": "Guide me"
+       },
+       {
+        "id": "review",
+        "label": "Review my work"
+       },
+       {
+        "id": "challenge",
+        "label": "Challenge my idea"
+       }
+      ],
+      "replies": {
+       "teach": "A founder discovers a problem, learns from people, and decides what to test next. Your profile gives you a starting point; it is not a promise to build a product.",
+       "guide": "Start with one experience you know well. Who do you interact with? What frustrates them? Write an observation, then choose a small action for this week.",
+       "review": "Worksheet check: {missing} required fields still empty. All profile entries are present. Check that your seven-day action is achievable.\nThis checks field presence only, not quality or business validation.",
+       "challenge": "What if the people you chose do not see this as a problem? What would change your mind? Choose a check that could contradict your belief.",
+       "reviewIncomplete": "Worksheet check: {missing} required fields still empty. Complete the profile fields and reflections.\nThis checks field presence only, not quality or business validation."
+      },
+      "heading": "SCRIPTED DEMO / ",
+      "questionNote": "Your question was entered locally. This preview does not generate a custom answer.",
+      "questionLabel": "Your question (optional)",
+      "placeholder": "What should I focus on first?",
+      "maxLength": 500,
+      "submitLabel": "Show simulated guidance"
+     }
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {
+        "class": "help"
+       },
+       "children": [
+        "Responses are predefined for this lesson, not generated answers to your question. No customer demand or venture readiness is verified."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "challenge",
+   "label": "05 / CHALLENGE",
+   "heading": "Be curious about what could be wrong.",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "A red-team review looks for weak assumptions so you can improve your plan. It is not a judgment of your potential."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "fields",
+     "ids": [
+      "assumption",
+      "evidence",
+      "constraint"
+     ]
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "details",
+       "attrs": {},
+       "children": [
+        {
+         "tag": "summary",
+         "attrs": {},
+         "children": [
+          "More questions to discuss"
+         ]
+        },
+        {
+         "tag": "ul",
+         "attrs": {},
+         "children": [
+          {
+           "tag": "li",
+           "attrs": {},
+           "children": [
+            "Are you interested in a customer's problem or only in your solution?"
+           ]
+          },
+          {
+           "tag": "li",
+           "attrs": {},
+           "children": [
+            "Can you reach the people you want to help?"
+           ]
+          },
+          {
+           "tag": "li",
+           "attrs": {},
+           "children": [
+            "Which skill is missing, and how can you learn or find support?"
+           ]
+          },
+          {
+           "tag": "li",
+           "attrs": {},
+           "children": [
+            "What would make you pause or choose a different problem?"
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "quiz",
+   "label": "06 / CHECK YOUR UNDERSTANDING",
+   "heading": "A quick knowledge check",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Answer all three. You can retry; all three correct are required for local completion."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "quiz"
+    }
+   ]
+  },
+  {
+   "id": "finish",
+   "label": "07 / DELIVER & PROGRESS",
+   "heading": "Your first deliverable: a Founder Profile.",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Your worksheet and red-team reflections form your one-page starting brief. Download it to keep a copy. A local self-completion is recorded here; no assignment is sent to a reviewer."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "extension",
+     "id": "download",
+     "props": {
+      "label": "Download Founder Profile",
+      "preview": true,
+      "previewLabel": "Preview my brief"
+     }
+    },
+    {
+     "type": "honest",
+     "label": "I reviewed my answers and distinguished assumptions from evidence."
+    },
+    {
+     "type": "checklist"
+    },
+    {
+     "type": "complete",
+     "label": "Mark Lesson 01 complete locally",
+     "completedLabel": "Lesson 01 self-completed locally",
+     "completedNotice": "Lesson 01 self-completed locally. Download your Founder Profile. No reviewer approval or venture validation is recorded.",
+     "incompleteNotice": "Complete the remaining requirements above before marking this lesson complete."
+    },
+    {
+     "type": "next"
+    }
+   ]
+  }
+ ],
+ "nav": [
+  {
+   "id": "watch",
+   "label": "Watch"
+  },
+  {
+   "id": "learn",
+   "label": "Learn"
+  },
+  {
+   "id": "build",
+   "label": "Build"
+  },
+  {
+   "id": "coach",
+   "label": "Ask AI"
+  },
+  {
+   "id": "challenge",
+   "label": "Challenge"
+  },
+  {
+   "id": "quiz",
+   "label": "Knowledge check"
+  },
+  {
+   "id": "finish",
+   "label": "Deliver"
+  }
+ ]
+}

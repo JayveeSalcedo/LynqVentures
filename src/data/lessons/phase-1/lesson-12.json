@@ -1,0 +1,892 @@
+{
+ "number": 12,
+ "phase": 1,
+ "module": "1.3",
+ "title": "Customer Goals & Frustrations",
+ "hero": {
+  "eyebrow": "Module 1.3 · Understanding People & Context · Lesson 12",
+  "title": "Customer Goals & Frustrations.",
+  "intro": "Map a specific current experience: what the person wants to achieve, the steps they take, what helps, and where difficulties may occur. Your deliverable is a Customer Journey & Learning Map.",
+  "badges": [
+   "Beginner friendly"
+  ],
+  "meta": "35–45 min · Recommended: Lesson 11"
+ },
+ "fields": [
+  {
+   "id": "context",
+   "label": "Group, specific experience and source/status",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Use source labels; keep unsupported details unknown.",
+   "maxLength": 2000
+  },
+  {
+   "id": "goal",
+   "label": "Goal, success criteria and journey start/end — label unknowns",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Use source labels; keep unsupported details unknown.",
+   "maxLength": 2000
+  },
+  {
+   "id": "before",
+   "label": "Before: trigger, preparation, actions and contact points",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Use source labels; keep unsupported details unknown.",
+   "maxLength": 2000
+  },
+  {
+   "id": "during",
+   "label": "During: current steps, actions and contact points",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Use source labels; keep unsupported details unknown.",
+   "maxLength": 2000
+  },
+  {
+   "id": "after",
+   "label": "After: outcome and follow-up — known versus assumed",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Use source labels; keep unsupported details unknown.",
+   "maxLength": 2000
+  },
+  {
+   "id": "moments",
+   "label": "What helps and what is difficult? Separate actions from reported feelings",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Use source labels; keep unsupported details unknown.",
+   "maxLength": 2000
+  },
+  {
+   "id": "basis",
+   "label": "Evidence ledger: claim/status/source, missing details and alternative interpretations",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Use source labels; keep unsupported details unknown.",
+   "maxLength": 2000
+  },
+  {
+   "id": "question",
+   "label": "Priority uncertainty, neutral recent-experience question and ethical next check",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Use source labels; keep unsupported details unknown.",
+   "maxLength": 2000
+  },
+  {
+   "id": "support",
+   "label": "Optional support or access constraint",
+   "kind": "textarea",
+   "required": false,
+   "maxLength": 2000
+  },
+  {
+   "id": "assumption",
+   "label": "Where did you infer a feeling, goal or difficulty without evidence?",
+   "kind": "textarea",
+   "required": true,
+   "maxLength": 2000
+  },
+  {
+   "id": "evidence",
+   "label": "What account or observation would change your sequence or priority?",
+   "kind": "textarea",
+   "required": true,
+   "maxLength": 2000
+  },
+  {
+   "id": "constraint",
+   "label": "How will you avoid identifying people, inventing quotes or disrupting their experience?",
+   "kind": "textarea",
+   "required": true,
+   "maxLength": 2000
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "Which statement describes a goal rather than a proposed solution?",
+   "options": [
+    "Use my app",
+    "Reach registration before the session",
+    "Click a new feature"
+   ],
+   "answer": 1,
+   "explanation": "A goal is the outcome the person seeks; a tool is a possible means."
+  },
+  {
+   "prompt": "What does looking around prove about a visitor’s feelings?",
+   "options": [
+    "Nothing by itself; ask and preserve evidence status",
+    "They are frustrated",
+    "They will pay"
+   ],
+   "answer": 0,
+   "explanation": "An action does not establish an emotion or payment intent."
+  },
+  {
+   "prompt": "How should an unobserved journey step be recorded?",
+   "options": [
+    "Invent a quote",
+    "Mark it as typical behaviour",
+    "Label it planned or assumed and identify a check"
+   ],
+   "answer": 2,
+   "explanation": "Keep planned steps separate from actual evidence."
+  }
+ ],
+ "checklist": [
+  {
+   "kind": "studied",
+   "label": "Transcript or learning guide reviewed"
+  },
+  {
+   "kind": "fields",
+   "label": "Customer Journey & Learning Map fields complete",
+   "ids": [
+    "context",
+    "goal",
+    "before",
+    "during",
+    "after",
+    "moments",
+    "basis",
+    "question"
+   ]
+  },
+  {
+   "kind": "fields",
+   "label": "Three red-team reflections complete",
+   "ids": [
+    "assumption",
+    "evidence",
+    "constraint"
+   ]
+  },
+  {
+   "kind": "quiz",
+   "label": "Knowledge check: 3 / 3 correct"
+  },
+  {
+   "kind": "honest",
+   "label": "Final self-review confirmed"
+  }
+ ],
+ "deliverable": {
+  "title": "LYNQ Academy — Customer Journey & Learning Map",
+  "filename": "LYNQ-Customer-Journey-Learning-Map.md",
+  "headerLines": [
+   "Phase 01 · Module {module} · Lesson {lesson}",
+   "Status: {status}",
+   "Created: {created}"
+  ],
+  "fieldIds": [
+   "context",
+   "goal",
+   "before",
+   "during",
+   "after",
+   "moments",
+   "basis",
+   "question",
+   "support",
+   "assumption",
+   "evidence",
+   "constraint"
+  ],
+  "footer": "Local prototype export. No reviewer submission or business validation."
+ },
+ "sections": [
+  {
+   "id": "watch",
+   "label": "01 / WATCH",
+   "heading": "What are they trying to achieve?",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "The planned explainer maps a current experience and separates observed actions from reported feelings and assumptions. Use the transcript or guide while the video is a placeholder."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "video-placeholder"
+       },
+       "children": [
+        {
+         "tag": "span",
+         "attrs": {
+          "class": "badge"
+         },
+         "children": [
+          "Video placeholder · media not produced"
+         ]
+        },
+        {
+         "tag": "h3",
+         "attrs": {},
+         "children": [
+          "Customer Goals & Frustrations"
+         ]
+        },
+        {
+         "tag": "p",
+         "attrs": {},
+         "children": [
+          "Planned: 2½-minute explainer + worksheet demo",
+          {
+           "tag": "br",
+           "attrs": {},
+           "children": []
+          },
+          "Goal → Before → During → After → Next question"
+         ]
+        },
+        {
+         "tag": "small",
+         "attrs": {},
+         "children": [
+          "No playable video or generated media is attached."
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "storyboard",
+     "scenes": [
+      {
+       "title": "Start with a recent experience",
+       "visual": "Adult visitor approaches a fictional venue entrance.",
+       "narration": "Your snapshot describes a group. Now explore one experience from beginning to end. A customer journey is the sequence of steps a person takes toward a goal. Start with a recent account or a clearly labeled planned observation, not the features of your future app."
+      },
+      {
+       "title": "Define the goal and boundaries",
+       "visual": "Editable start, goal and finish cards.",
+       "narration": "What is the person trying to achieve? Finding registration before a session is a goal; opening an app is usually a means. Define where this experience begins and ends. Keep motivation and success criteria unknown if you have not asked."
+      },
+      {
+       "title": "Map what happens today",
+       "visual": "Visitor follows signs, asks staff and reaches check-in.",
+       "narration": "Record the current steps and contact points: signs, a website, a staff member or a desk. Note what helps as well as what may create difficulty. A helpful staff interaction may resolve the problem. Do not invent waiting times, frequency or complaints to justify a product."
+      },
+      {
+       "title": "Separate action from emotion",
+       "visual": "Editable action, reported feeling and unknown cards.",
+       "narration": "An action can be observed. A feeling usually needs the person’s own account. Someone looking around is not proof of frustration. Label reported feelings, interpretations and unknowns separately. Never manufacture a quote or assign emotions based on appearance."
+      },
+      {
+       "title": "Choose a learning question",
+       "visual": "Observer reviews a neutral question on a notebook.",
+       "narration": "Look for the step with the most useful uncertainty. Ask about a recent experience: what happened, what they tried and what mattered. Keep the question neutral. A difficulty is not proof that people will switch or pay, and one account does not represent everyone."
+      },
+      {
+       "title": "Build your learning map",
+       "visual": "Actual approved Lesson 12 worksheet recording.",
+       "narration": "Create your Customer Journey and Learning Map: group and source, goal and boundaries, before, during and after steps, helpful and difficult moments, evidence limits and a next question. Keep the map revisable. Next you will learn how to research without guessing."
+      }
+     ],
+     "sceneMeta": "Planned final scene: 25 seconds · narration and precise graphics added in post",
+     "summary": "Explore the six-scene storyboard placeholder"
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {
+        "class": "help"
+       },
+       "children": [
+        "Use an explainer with editable diagrams, documentary cutaways and a real worksheet demo. Generate short assets where supported, then assemble in an editor."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "videoPrompt",
+     "prompt": "Create an engaging beginner-friendly explainer and current-journey worksheet demo for LYNQ Academy Module 1.3 Lesson 12: Customer Goals & Frustrations. Final editorial target about 150 seconds, 16:9 1080p. Navy #0B2338, teal #087D79, mint #BCF2DF, white; contemporary Dubai venue/workspace and diverse adult cast. Clear friendly English narrator. All examples fictional, with Illustrative example labels added in post. Teach goals versus solutions, journey boundaries, current steps/contact points, helpful moments, difficulties, evidence and neutral questions. No invented quotes, emotions, timings, frequency, traction or payment claims.\n\nSCENE 1: Start with a recent experience\nVisual placeholder: Adult visitor approaches a fictional venue entrance.\nNarration: Your snapshot describes a group. Now explore one experience from beginning to end. A customer journey is the sequence of steps a person takes toward a goal. Start with a recent account or a clearly labeled planned observation, not the features of your future app.\n\nSCENE 2: Define the goal and boundaries\nVisual placeholder: Editable start, goal and finish cards.\nNarration: What is the person trying to achieve? Finding registration before a session is a goal; opening an app is usually a means. Define where this experience begins and ends. Keep motivation and success criteria unknown if you have not asked.\n\nSCENE 3: Map what happens today\nVisual placeholder: Visitor follows signs, asks staff and reaches check-in.\nNarration: Record the current steps and contact points: signs, a website, a staff member or a desk. Note what helps as well as what may create difficulty. A helpful staff interaction may resolve the problem. Do not invent waiting times, frequency or complaints to justify a product.\n\nSCENE 4: Separate action from emotion\nVisual placeholder: Editable action, reported feeling and unknown cards.\nNarration: An action can be observed. A feeling usually needs the person’s own account. Someone looking around is not proof of frustration. Label reported feelings, interpretations and unknowns separately. Never manufacture a quote or assign emotions based on appearance.\n\nSCENE 5: Choose a learning question\nVisual placeholder: Observer reviews a neutral question on a notebook.\nNarration: Look for the step with the most useful uncertainty. Ask about a recent experience: what happened, what they tried and what mattered. Keep the question neutral. A difficulty is not proof that people will switch or pay, and one account does not represent everyone.\n\nSCENE 6: Build your learning map\nVisual placeholder: Actual approved Lesson 12 worksheet recording.\nNarration: Create your Customer Journey and Learning Map: group and source, goal and boundaries, before, during and after steps, helpful and difficult moments, evidence limits and a next question. Keep the map revisable. Next you will learn how to research without guessing.\n\nFirst return storyboard, narration timings and individual shot prompts. Generate only short shots supported by the selected Gemini/Veo account; assemble with one separately recorded voice track. Generated footage has no text, logos, captions or fabricated UI. Add exact LYNQ branding, Before / During / After cards, Action / Reported feeling / Unknown labels and captions in post. Use actual approved Lesson 12 screen recording with fictional source-labeled answers. Do not show private visitor details or portray distress as evidence. Deliver H.264 MP4, editable project and diagrams, narrator audio, transcript, VTT/SRT captions, thumbnail and rights/provenance. Native-reviewed Arabic narration and RTL graphics are separate deliverables. Review accuracy, evidence labels, privacy, brand, mobile readability, pacing and audio before publication. Prototype contains no generated video.",
+     "filename": "LYNQ-Lesson-12-Gemini-Video-Prompt.md",
+     "title": "# LYNQ Lesson 12 — Gemini video prompt",
+     "summary": "Gemini video prompt — ready to copy"
+    },
+    {
+     "type": "transcript",
+     "scenes": [
+      {
+       "title": "Start with a recent experience",
+       "visual": "Adult visitor approaches a fictional venue entrance.",
+       "narration": "Your snapshot describes a group. Now explore one experience from beginning to end. A customer journey is the sequence of steps a person takes toward a goal. Start with a recent account or a clearly labeled planned observation, not the features of your future app."
+      },
+      {
+       "title": "Define the goal and boundaries",
+       "visual": "Editable start, goal and finish cards.",
+       "narration": "What is the person trying to achieve? Finding registration before a session is a goal; opening an app is usually a means. Define where this experience begins and ends. Keep motivation and success criteria unknown if you have not asked."
+      },
+      {
+       "title": "Map what happens today",
+       "visual": "Visitor follows signs, asks staff and reaches check-in.",
+       "narration": "Record the current steps and contact points: signs, a website, a staff member or a desk. Note what helps as well as what may create difficulty. A helpful staff interaction may resolve the problem. Do not invent waiting times, frequency or complaints to justify a product."
+      },
+      {
+       "title": "Separate action from emotion",
+       "visual": "Editable action, reported feeling and unknown cards.",
+       "narration": "An action can be observed. A feeling usually needs the person’s own account. Someone looking around is not proof of frustration. Label reported feelings, interpretations and unknowns separately. Never manufacture a quote or assign emotions based on appearance."
+      },
+      {
+       "title": "Choose a learning question",
+       "visual": "Observer reviews a neutral question on a notebook.",
+       "narration": "Look for the step with the most useful uncertainty. Ask about a recent experience: what happened, what they tried and what mattered. Keep the question neutral. A difficulty is not proof that people will switch or pay, and one account does not represent everyone."
+      },
+      {
+       "title": "Build your learning map",
+       "visual": "Actual approved Lesson 12 worksheet recording.",
+       "narration": "Create your Customer Journey and Learning Map: group and source, goal and boundaries, before, during and after steps, helpful and difficult moments, evidence limits and a next question. Keep the map revisable. Next you will learn how to research without guessing."
+      }
+     ],
+     "summary": "Read the full narration / transcript"
+    },
+    {
+     "type": "studied",
+     "label": "I read the transcript or reviewed the learning guide. Video is not required."
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "label": "02 / LEARN",
+   "heading": "Understand the experience before designing a solution.",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "A ",
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "goal"
+         ]
+        },
+        " is what the person wants to achieve. A ",
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "journey"
+         ]
+        },
+        " is the sequence of steps they take. A ",
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "contact point"
+         ]
+        },
+        " is where they interact with information, people or a service. A ",
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "frustration"
+         ]
+        },
+        " is a difficulty or feeling that needs evidence; do not assume it from an observed action."
+       ]
+      },
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "note"
+       },
+       "children": [
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "Illustrative example:"
+         ]
+        },
+        " a first-time visitor wants to reach registration before a session. They look at directions, ask staff and arrive at a desk. Staff help may work well. Looking around does not establish confusion, frustration or delay."
+       ]
+      },
+      {
+       "tag": "h3",
+       "attrs": {},
+       "children": [
+        "Map the current experience"
+       ]
+      },
+      {
+       "tag": "ol",
+       "attrs": {},
+       "children": [
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Choose one group and one specific experience from Lesson 11."
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Define the start, finish and intended outcome."
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Record before, during and after steps, with the source of each account."
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Include useful moments and difficulties; avoid a pain-only story."
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Separate actions, reported feelings, interpretations and unknowns."
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Choose one neutral question that could change the map."
+         ]
+        }
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Use “planned — not yet observed” when you lack a real account. Leave times, frequency and intensity unknown unless sourced. A single experience is a clue, not a representative customer journey."
+       ]
+      },
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "actions"
+       },
+       "children": [
+        {
+         "tag": "lesson-link",
+         "attrs": {
+          "lesson": "11",
+          "class": "btn secondary"
+         },
+         "children": [
+          "Review customer snapshot"
+         ]
+        },
+        {
+         "tag": "lesson-link",
+         "attrs": {
+          "lesson": "9",
+          "class": "btn secondary"
+         },
+         "children": [
+          "Review alternatives log"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "practice",
+     "legend": "Practice: what can you conclude?",
+     "prompt": "You see a visitor looking around near registration.",
+     "options": [
+      {
+       "label": "They are definitely frustrated",
+       "feedback": "Keep the observation separate from interpretation. Do not infer frustration or payment from looking around."
+      },
+      {
+       "label": "They looked around; their reason and feeling are unknown",
+       "feedback": "Useful distinction: looking around is an action; reason and feeling remain unknown until investigated."
+      },
+      {
+       "label": "They will pay for my app",
+       "feedback": "Keep the observation separate from interpretation. Do not infer frustration or payment from looking around."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "build",
+   "label": "03 / BUILD",
+   "heading": "Your Customer Journey & Learning Map.",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Map one current experience, not a future product flow. Planned entries are acceptable if labeled honestly. No emotions, scores or journey steps are inferred automatically."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "saveStatus"
+    },
+    {
+     "type": "fields",
+     "ids": [
+      "context",
+      "goal",
+      "before",
+      "during",
+      "after",
+      "moments",
+      "basis",
+      "question",
+      "support"
+     ]
+    },
+    {
+     "type": "extension",
+     "id": "preview",
+     "props": {
+      "label": "Preview my journey map",
+      "kind": "lines",
+      "joiner": "\n\n",
+      "lines": [
+       {
+        "id": "context",
+        "label": "Group, specific experience and source/status *"
+       },
+       {
+        "id": "goal",
+        "label": "Goal, success criteria and journey start/end — label unknowns *"
+       },
+       {
+        "id": "before",
+        "label": "Before: trigger, preparation, actions and contact points *"
+       },
+       {
+        "id": "during",
+        "label": "During: current steps, actions and contact points *"
+       },
+       {
+        "id": "after",
+        "label": "After: outcome and follow-up — known versus assumed *"
+       },
+       {
+        "id": "moments",
+        "label": "What helps and what is difficult? Separate actions from reported feelings *"
+       },
+       {
+        "id": "basis",
+        "label": "Evidence ledger: claim/status/source, missing details and alternative interpretations *"
+       },
+       {
+        "id": "question",
+        "label": "Priority uncertainty, neutral recent-experience question and ethical next check *"
+       }
+      ],
+      "footer": "This provisional map does not prove demand or establish typical behaviour."
+     }
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "note"
+       },
+       "children": [
+        "This map does not establish typical behaviour, demand or payment intent. Browser storage is plaintext; use anonymous role labels and download a copy."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "extension",
+     "id": "download",
+     "props": {
+      "label": "Download Customer Journey Map"
+     }
+    },
+    {
+     "type": "reset",
+     "label": "Clear local draft"
+    }
+   ]
+  },
+  {
+   "id": "coach",
+   "label": "04 / ASK AI",
+   "heading": "Your thinking partner",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "span",
+       "attrs": {
+        "class": "badge"
+       },
+       "children": [
+        "Simulated Coach · no AI connection"
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Try four scripted guidance modes. The preview reads your current worksheet locally; it does not send information anywhere."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "extension",
+     "id": "coach",
+     "props": {
+      "modes": [
+       {
+        "id": "teach",
+        "label": "Teach me"
+       },
+       {
+        "id": "guide",
+        "label": "Guide me"
+       },
+       {
+        "id": "review",
+        "label": "Review my work"
+       },
+       {
+        "id": "challenge",
+        "label": "Challenge my idea"
+       }
+      ],
+      "replies": {
+       "teach": "Map a current experience around a goal. Separate actions from reported feelings; include what helps and keep unknowns visible.",
+       "guide": "Set boundaries, record before/during/after steps, source each claim and choose a neutral question. Avoid mapping your future app instead of current behaviour.",
+       "review": "Journey Map check: {missing} required fields still empty. This scripted check counts fields only; it cannot verify steps, feelings, sources or demand.",
+       "challenge": "Did you infer frustration? What works already? What would change the map? Are quotes, timing and frequency actually sourced?"
+      },
+      "heading": "SCRIPTED DEMO / ",
+      "questionNote": "Your question was entered locally. This preview does not generate a custom answer.",
+      "questionLabel": "Your question (optional)",
+      "placeholder": "What should I focus on first?",
+      "maxLength": 500,
+      "submitLabel": "Show simulated guidance"
+     }
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {
+        "class": "help"
+       },
+       "children": [
+        "Responses are predefined for this lesson, not generated answers to your question. No customer demand or venture readiness is verified."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "challenge",
+   "label": "05 / CHALLENGE",
+   "heading": "Challenge the story in your map.",
+   "blocks": [
+    {
+     "type": "fields",
+     "ids": [
+      "assumption",
+      "evidence",
+      "constraint"
+     ]
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "details",
+       "attrs": {},
+       "children": [
+        {
+         "tag": "summary",
+         "attrs": {},
+         "children": [
+          "More questions to discuss"
+         ]
+        },
+        {
+         "tag": "p",
+         "attrs": {},
+         "children": [
+          "What already works? Are you mapping a product you want to build rather than current behaviour? Are times and frequency sourced? Can people decline? Have you treated one journey as universal?"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "quiz",
+   "label": "06 / CHECK YOUR UNDERSTANDING",
+   "heading": "A quick knowledge check",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Answer all three. You can retry; all three correct are required for local completion."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "quiz"
+    }
+   ]
+  },
+  {
+   "id": "finish",
+   "label": "07 / DELIVER & PROGRESS",
+   "heading": "Your deliverable: a Customer Journey & Learning Map.",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Download the current steps, goals, useful moments, difficulties, evidence limits and next question. Earlier worksheets remain separate; revise the map as you learn."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "checklist"
+    },
+    {
+     "type": "honest",
+     "label": "I mapped a current experience, labeled assumptions and unknowns, and avoided invented emotions, quotes or demand claims."
+    },
+    {
+     "type": "complete",
+     "label": "Mark Lesson 12 complete locally",
+     "completedLabel": "Lesson 12 self-completed locally",
+     "completedNotice": "Lesson 12 self-completed locally. Download your Customer Journey & Learning Map. No reviewer approval or venture validation is recorded.",
+     "incompleteNotice": "Complete the remaining requirements above before marking this lesson complete."
+    },
+    {
+     "type": "extension",
+     "id": "moduleNote",
+     "props": {
+      "parts": [
+       {
+        "nodes": [
+         {
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+           "Module 1.3 · Understanding People & Context"
+          ]
+         }
+        ]
+       },
+       {
+        "status": "1.3",
+        "complete": "All five lessons self-completed locally. Module 1.3 learning pack complete; research execution, permissions and validation remain separate.",
+        "incomplete": "{count} / 5 lessons self-completed locally. Complete each lesson separately to finish this learning module."
+       },
+       {
+        "nodes": [
+         {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+           "Self-completion records learning, not validation or certification."
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "type": "next"
+    }
+   ]
+  }
+ ],
+ "nav": [
+  {
+   "id": "watch",
+   "label": "Watch"
+  },
+  {
+   "id": "learn",
+   "label": "Learn"
+  },
+  {
+   "id": "build",
+   "label": "Build"
+  },
+  {
+   "id": "coach",
+   "label": "Ask AI"
+  },
+  {
+   "id": "challenge",
+   "label": "Challenge"
+  },
+  {
+   "id": "quiz",
+   "label": "Knowledge check"
+  },
+  {
+   "id": "finish",
+   "label": "Deliver"
+  }
+ ]
+}

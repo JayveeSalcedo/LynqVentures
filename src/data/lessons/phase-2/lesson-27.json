@@ -1,0 +1,753 @@
+{
+  "number": 27,
+  "phase": 2,
+  "module": "2.2",
+  "title": "Recruit Relevant Participants Ethically",
+  "hero": {
+    "eyebrow": "Module 2.2 · Learning from Customers · Lesson 27",
+    "title": "Recruit Relevant Participants Ethically.",
+    "intro": "Plan how to invite relevant adults voluntarily, check fit without collecting unnecessary details, and record access honestly. This lesson prepares recruitment; it sends no invitations.",
+    "badges": [
+      "Beginner friendly"
+    ],
+    "meta": "35–45 min · Recommended: Lesson 26"
+  },
+  "fields": [
+    {
+      "id": "fit",
+      "label": "Participant fit: recent experience, context and why it informs your learning question",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Plan with anonymous role labels; keep unconfirmed access pending."
+    },
+    {
+      "id": "criteria",
+      "label": "Screening: inclusion/exclusion criteria and minimal neutral questions",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Plan with anonymous role labels; keep unconfirmed access pending."
+    },
+    {
+      "id": "channels",
+      "label": "Permission-based channels, gatekeeper approval and access status",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Plan with anonymous role labels; keep unconfirmed access pending."
+    },
+    {
+      "id": "invitation",
+      "label": "Invitation: purpose, time, activity, voluntary choice, decline/stop and contact route",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Plan with anonymous role labels; keep unconfirmed access pending."
+    },
+    {
+      "id": "choice",
+      "label": "Participation terms: recording separately, incentive if any and no sales pressure",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Plan with anonymous role labels; keep unconfirmed access pending."
+    },
+    {
+      "id": "sampling",
+      "label": "Recruitment target rationale, diverse contexts and sample limits",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Plan with anonymous role labels; keep unconfirmed access pending."
+    },
+    {
+      "id": "tracking",
+      "label": "Anonymous tracking: candidate codes, statuses, permission and approved follow-up",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Plan with anonymous role labels; keep unconfirmed access pending."
+    },
+    {
+      "id": "safeguards",
+      "label": "Privacy/retention owner, stop rules, access blockers and next review",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Plan with anonymous role labels; keep unconfirmed access pending."
+    },
+    {
+      "id": "support",
+      "label": "Optional references or support",
+      "kind": "textarea",
+      "required": false,
+      "maxLength": 2000
+    },
+    {
+      "id": "bias",
+      "label": "Who does your channel miss, and whose agreement might be overrepresented?",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "counter",
+      "label": "How will you include relevant people whose current approach works or who disagree?",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "constraint",
+      "label": "Which permission, privacy, pressure or access issue would make you stop and revise?",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    }
+  ],
+  "questions": [
+    {
+      "prompt": "Which recruitment approach is appropriate?",
+      "options": [
+        "Scrape group contacts",
+        "Invite relevant adults through a permitted channel with voluntary choice",
+        "Reward only positive feedback"
+      ],
+      "answer": 1,
+      "explanation": "Check relevance and channel permission; preserve free choice."
+    },
+    {
+      "prompt": "What does a target of five conversations mean?",
+      "options": [
+        "A planning target, not confirmed participants or representative proof",
+        "Five people have consented",
+        "Market-wide demand is validated"
+      ],
+      "answer": 0,
+      "explanation": "Keep planned targets distinct from actual recruitment and sample limits."
+    },
+    {
+      "prompt": "Where should actual personal contact details go?",
+      "options": [
+        "In the local worksheet",
+        "In a public screenshot",
+        "Only in an approved secure system with appropriate access and retention controls"
+      ],
+      "answer": 2,
+      "explanation": "Use anonymous codes here; review personal-data handling before recruitment."
+    }
+  ],
+  "checklist": [
+    {
+      "kind": "studied",
+      "label": "Storyboard/transcript reviewed"
+    },
+    {
+      "kind": "fields",
+      "label": "Eight worksheet fields complete",
+      "ids": [
+        "fit",
+        "criteria",
+        "channels",
+        "invitation",
+        "choice",
+        "sampling",
+        "tracking",
+        "safeguards"
+      ]
+    },
+    {
+      "kind": "fields",
+      "label": "Three red-team reflections complete",
+      "ids": [
+        "bias",
+        "counter",
+        "constraint"
+      ]
+    },
+    {
+      "kind": "quiz",
+      "label": "Quiz 3 / 3 correct"
+    },
+    {
+      "kind": "honest",
+      "label": "Final self-review confirmed"
+    }
+  ],
+  "deliverable": {
+    "title": "LYNQ Academy — Participant Recruitment Plan",
+    "filename": "LYNQ-Participant-Recruitment-Plan.md",
+    "headerLines": [
+      "Phase 02 · Module {module} · Lesson {lesson}",
+      "Status: {status}"
+    ],
+    "fieldIds": [
+      "fit",
+      "criteria",
+      "channels",
+      "invitation",
+      "choice",
+      "sampling",
+      "tracking",
+      "safeguards"
+    ],
+    "footer": "No real AI, test execution, source verification or demand validation.",
+    "previewFooter": "This plan does not prove demand or represent completed research."
+  },
+  "sections": [
+    {
+      "id": "watch",
+      "label": "01 / WATCH",
+      "heading": "How do you invite the right people respectfully?",
+      "blocks": [
+        {
+          "type": "video",
+          "title": "Recruit Relevant Participants Ethically",
+          "subtitle": "Planned 2½-minute explainer + worksheet demo",
+          "note": "No playable video or generated media is attached."
+        },
+        {
+          "type": "storyboard",
+          "scenes": [
+            {
+              "title": "Recruit for relevance",
+              "visual": "Anonymous adult role cards",
+              "narration": "Recruit people with recent relevant experience, not just people who like your idea. Start with your learning question and conversation guide. This lesson prepares a plan; it sends no invitations."
+            },
+            {
+              "title": "Check fit with minimal questions",
+              "visual": "Editable recent-task screening card",
+              "narration": "Define who is relevant and why. Ask a neutral screening question about recent context. Avoid collecting identities or sensitive details you do not need. Exclusions should relate to the research question."
+            },
+            {
+              "title": "Use permitted access",
+              "visual": "Founder requests a fictional gatekeeper approval",
+              "narration": "Choose an appropriate channel and confirm permission to use it. Membership of a group does not automatically authorise harvesting contacts or sending bulk messages. Mark access as pending until confirmed."
+            },
+            {
+              "title": "Make the invitation clear",
+              "visual": "Editable voluntary invitation card",
+              "narration": "Explain the purpose, time, activity and contact route. Make it easy to decline or stop. Separate any recording request. State any incentive honestly and do not tie it to positive feedback or a purchase."
+            },
+            {
+              "title": "Track honestly",
+              "visual": "Anonymous candidate status cards",
+              "narration": "Invited, replied, eligible, scheduled and completed are different statuses. A target is not a recruited participant. Agree permitted follow-up, accept no response and avoid repeated pressure. Do not fabricate responses."
+            },
+            {
+              "title": "Preserve limits",
+              "visual": "Actual approved recruitment worksheet demo",
+              "narration": "Plan variation across relevant contexts and record who your channels miss. A convenience sample does not represent an entire market. Keep personal contacts outside this prototype; assign privacy and retention review before recruitment."
+            }
+          ],
+          "summary": "Explore the six-scene storyboard placeholder",
+          "sceneMeta": "Planned scene {scene} · about 25 seconds in final edit"
+        },
+        {
+          "type": "transcript",
+          "scenes": [
+            {
+              "title": "Recruit for relevance",
+              "visual": "Anonymous adult role cards",
+              "narration": "Recruit people with recent relevant experience, not just people who like your idea. Start with your learning question and conversation guide. This lesson prepares a plan; it sends no invitations."
+            },
+            {
+              "title": "Check fit with minimal questions",
+              "visual": "Editable recent-task screening card",
+              "narration": "Define who is relevant and why. Ask a neutral screening question about recent context. Avoid collecting identities or sensitive details you do not need. Exclusions should relate to the research question."
+            },
+            {
+              "title": "Use permitted access",
+              "visual": "Founder requests a fictional gatekeeper approval",
+              "narration": "Choose an appropriate channel and confirm permission to use it. Membership of a group does not automatically authorise harvesting contacts or sending bulk messages. Mark access as pending until confirmed."
+            },
+            {
+              "title": "Make the invitation clear",
+              "visual": "Editable voluntary invitation card",
+              "narration": "Explain the purpose, time, activity and contact route. Make it easy to decline or stop. Separate any recording request. State any incentive honestly and do not tie it to positive feedback or a purchase."
+            },
+            {
+              "title": "Track honestly",
+              "visual": "Anonymous candidate status cards",
+              "narration": "Invited, replied, eligible, scheduled and completed are different statuses. A target is not a recruited participant. Agree permitted follow-up, accept no response and avoid repeated pressure. Do not fabricate responses."
+            },
+            {
+              "title": "Preserve limits",
+              "visual": "Actual approved recruitment worksheet demo",
+              "narration": "Plan variation across relevant contexts and record who your channels miss. A convenience sample does not represent an entire market. Keep personal contacts outside this prototype; assign privacy and retention review before recruitment."
+            }
+          ],
+          "summary": "Read the full narration / transcript"
+        },
+        {
+          "type": "videoPrompt",
+          "prompt": "Create an engaging LYNQ Academy explainer and recruitment-plan demo: Module 2.2 Lesson 27 — Recruit Relevant Participants Ethically. Editorial target 150 seconds, 16:9 1080p. Navy #0B2338, teal #087D79, mint #BCF2DF, white. Diverse adults in a contemporary Dubai workspace, warm plain English narration. Fictional examples only, labeled Illustrative example in post. Teach relevant recent experience, minimal neutral screening, permitted channels, voluntary invitation, separate recording choice, honest statuses and sampling limits. No actual outreach, contact scraping, recruitment claims, fabricated responses, testimonials or implied legal approval.\n\nSCENE 1: Recruit for relevance\nVisual placeholder: Anonymous adult role cards\nNarration: Recruit people with recent relevant experience, not just people who like your idea. Start with your learning question and conversation guide. This lesson prepares a plan; it sends no invitations.\n\nSCENE 2: Check fit with minimal questions\nVisual placeholder: Editable recent-task screening card\nNarration: Define who is relevant and why. Ask a neutral screening question about recent context. Avoid collecting identities or sensitive details you do not need. Exclusions should relate to the research question.\n\nSCENE 3: Use permitted access\nVisual placeholder: Founder requests a fictional gatekeeper approval\nNarration: Choose an appropriate channel and confirm permission to use it. Membership of a group does not automatically authorise harvesting contacts or sending bulk messages. Mark access as pending until confirmed.\n\nSCENE 4: Make the invitation clear\nVisual placeholder: Editable voluntary invitation card\nNarration: Explain the purpose, time, activity and contact route. Make it easy to decline or stop. Separate any recording request. State any incentive honestly and do not tie it to positive feedback or a purchase.\n\nSCENE 5: Track honestly\nVisual placeholder: Anonymous candidate status cards\nNarration: Invited, replied, eligible, scheduled and completed are different statuses. A target is not a recruited participant. Agree permitted follow-up, accept no response and avoid repeated pressure. Do not fabricate responses.\n\nSCENE 6: Preserve limits\nVisual placeholder: Actual approved recruitment worksheet demo\nNarration: Plan variation across relevant contexts and record who your channels miss. A convenience sample does not represent an entire market. Keep personal contacts outside this prototype; assign privacy and retention review before recruitment.\n\nFirst provide timings, storyboard and individual shot prompts. Generate short shots supported by the selected Gemini/Veo account; assemble with separately recorded narration. Add exact brand, captions, editable cards and approved actual Lesson 27 screen recording in post; do not generate illegible UI or text/logos. Deliver H.264 MP4, editable project, audio, transcript, VTT/SRT, thumbnail, rights/provenance. Native-reviewed Arabic narration and RTL graphics separately. Review clarity, permission language, privacy, mobile readability and audio. Prototype generates no video.",
+          "filename": "LYNQ-Lesson-27-Gemini-Video-Prompt.md",
+          "summary": "Gemini video prompt — ready to copy"
+        },
+        {
+          "type": "studied",
+          "label": "I reviewed the storyboard or transcript."
+        }
+      ]
+    },
+    {
+      "id": "learn",
+      "label": "02 / LEARN",
+      "heading": "Invite people who can help you learn.",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "Participant fit"
+                  ]
+                },
+                " means relevant experience in the context you want to understand. ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "Screening"
+                  ]
+                },
+                " checks that fit with a few neutral questions. ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "Sampling limits"
+                  ]
+                },
+                " describe who your chosen channels may miss."
+              ]
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "grid2"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "note"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "children": [
+                        "Relevant experience"
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "children": [
+                        "For a registration study: adults who recently registered for the type of event you are exploring, including those whose current process worked well."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "note"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "children": [
+                        "Selection bias"
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "children": [
+                        "Only asking friends who admire your idea can hide disagreement. Add another permitted channel and record the remaining limits."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "ol",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Start with Lesson 26’s learning question and guide."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Define experience/context criteria before choosing people."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Use minimal neutral screening; avoid sensitive personal details."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Confirm channel and gatekeeper permission."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Explain purpose, time, choice and any incentive clearly."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Track access honestly; accept decline or silence without pressure."
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "note"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "children": [
+                    "Illustrative invitation"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    "“I’m learning how adults recently handled event registration. Would you consider a 20-minute conversation about your experience? Participation is optional; you can skip questions or stop. There is no purchase required. We will discuss recording separately before any recording. Please use the approved contact route if interested.”"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    "Adapt the activity, time, contact route, privacy explanation and incentive to the actual approved plan. Do not promise confidentiality you cannot deliver."
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "A planning target is not a statistical sample-size claim. A small convenience sample helps explore experiences but does not establish market-wide percentages. Contact lists, identities and recordings belong in an approved secure system, not this local worksheet. Work with adults here; research involving minors or sensitive topics needs a separate reviewed process."
+              ]
+            },
+            {
+              "tag": "lesson-link",
+              "attrs": {
+                "lesson": "26",
+                "class": "btn secondary"
+              },
+              "children": [
+                "Review neutral conversation guide"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "practice",
+          "legend": "Practice: which recruitment approach supports honest learning?",
+          "prompt": "",
+          "options": [
+            {
+              "label": "Scrape every group member’s contact",
+              "feedback": "Avoid contact scraping, pressure or rewards tied to positive answers."
+            },
+            {
+              "label": "Invite relevant adults through a permitted channel",
+              "feedback": "Relevant adults, a permitted channel and voluntary choice support honest learning."
+            },
+            {
+              "label": "Offer a reward only for positive answers",
+              "feedback": "Avoid contact scraping, pressure or rewards tied to positive answers."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "build",
+      "label": "03 / BUILD",
+      "heading": "Your Participant Recruitment Plan.",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Prepare eligibility, channels and invitation wording. Use candidate codes, not names, emails or phone numbers. No messages are sent here."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "saveStatus"
+        },
+        {
+          "type": "fields",
+          "ids": [
+            "fit",
+            "criteria",
+            "channels",
+            "invitation",
+            "choice",
+            "sampling",
+            "tracking",
+            "safeguards",
+            "support"
+          ]
+        },
+        {
+          "type": "deliverable",
+          "previewLabel": "Preview my recruitment plan",
+          "downloadLabel": "Download Participant Recruitment Plan"
+        },
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "note"
+              },
+              "children": [
+                "Local storage is plaintext. Keep actual personal contacts outside this prototype. Field completion cannot verify permission, participant fit or consent."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "reset",
+          "label": "Clear local draft"
+        }
+      ]
+    },
+    {
+      "id": "coach",
+      "label": "04 / ASK AI",
+      "heading": "Venture Coach · simulated",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Scripted demonstration only. No live AI, source verification, experiment execution or backend is connected."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "extension",
+          "id": "coach",
+          "props": {
+            "modes": [
+              {
+                "id": "teach",
+                "label": "Teach",
+                "response": "Define recent relevant experience, permitted access, a voluntary invitation and anonymous status tracking. Record sampling limits; no outreach is sent here."
+              },
+              {
+                "id": "guide",
+                "label": "Guide",
+                "response": "Define recent relevant experience, permitted access, a voluntary invitation and anonymous status tracking. Record sampling limits; no outreach is sent here."
+              },
+              {
+                "id": "review",
+                "label": "Review",
+                "response": "Recruitment Plan check: {missing} required fields empty. Scripted field counting cannot verify permission, consent, participant fit, privacy compliance or recruitment."
+              },
+              {
+                "id": "challenge",
+                "label": "Challenge",
+                "response": "Define recent relevant experience, permitted access, a voluntary invitation and anonymous status tracking. Record sampling limits; no outreach is sent here."
+              }
+            ],
+            "initial": "teach",
+            "questionResponse": "This is a scripted demonstration, not an AI answer to your question.",
+            "countIds": [
+              "fit",
+              "criteria",
+              "channels",
+              "invitation",
+              "choice",
+              "sampling",
+              "tracking",
+              "safeguards"
+            ],
+            "questionLabel": "Optional question for the demonstration",
+            "submitLabel": "Show simulated guidance"
+          }
+        }
+      ]
+    },
+    {
+      "id": "challenge",
+      "label": "05 / CHALLENGE",
+      "heading": "Challenge your recruitment plan.",
+      "blocks": [
+        {
+          "type": "fields",
+          "ids": [
+            "bias",
+            "counter",
+            "constraint"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz",
+      "label": "06 / KNOWLEDGE CHECK",
+      "heading": "Check your understanding.",
+      "blocks": [
+        {
+          "type": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "label": "07 / DELIVER & PROGRESS",
+      "heading": "Your deliverable: a Participant Recruitment Plan.",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Download fit criteria, permitted channels, voluntary invitation, terms, target rationale, anonymous tracking and safeguards. Earlier lesson drafts save separately."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checklist"
+        },
+        {
+          "type": "honest",
+          "label": "I kept access and participation status honest, planned voluntary invitations and minimal anonymous data, and recorded sampling limits."
+        },
+        {
+          "type": "complete",
+          "label": "Mark Lesson 27 complete locally",
+          "completedLabel": "Lesson 27 self-completed locally",
+          "completedNotice": "Lesson 27 self-completed locally. This is not validated demand or a submitted assignment.",
+          "incompleteNotice": "Complete the remaining requirements before local self-completion."
+        },
+        {
+          "type": "extension",
+          "id": "moduleNote",
+          "props": {
+            "heading": "Module 2.2 · Learning from Customers",
+            "lessons": [
+              26,
+              27,
+              28,
+              29,
+              30
+            ],
+            "complete": "All five lessons self-completed locally. Module 2.2 learning pack complete; source verification, demand and venture approval remain separate.",
+            "incomplete": "{count} / 5 lessons self-completed locally. Complete each separately; evidence verification remains separate.",
+            "notes": [
+              {
+                "tag": "p",
+                "attrs": {},
+                "children": [
+                  "Self-completion records a prepared plan, not outreach sent, permission granted, people recruited or demand validated."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {
+                "class": "help"
+              },
+              "children": [
+                "Learning completion is separate from validated demand."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "next"
+        }
+      ]
+    }
+  ],
+  "nav": [
+    {
+      "id": "watch",
+      "label": "Watch"
+    },
+    {
+      "id": "learn",
+      "label": "Learn"
+    },
+    {
+      "id": "build",
+      "label": "Build"
+    },
+    {
+      "id": "coach",
+      "label": "Ask AI"
+    },
+    {
+      "id": "challenge",
+      "label": "Challenge"
+    },
+    {
+      "id": "quiz",
+      "label": "Knowledge check"
+    },
+    {
+      "id": "finish",
+      "label": "Deliver"
+    }
+  ]
+}

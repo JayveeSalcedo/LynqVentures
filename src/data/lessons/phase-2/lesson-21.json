@@ -1,0 +1,761 @@
+{
+  "number": 21,
+  "phase": 2,
+  "module": "2.1",
+  "title": "What Validation Actually Means",
+  "hero": {
+    "eyebrow": "Module 2.1 · Designing Your Validation · Lesson 21",
+    "title": "What Validation Actually Means.",
+    "intro": "Choose a priority assumption and plan a claim-specific check. Your deliverable is a Validation Starting Brief.",
+    "badges": [
+      "Beginner friendly"
+    ],
+    "meta": "35–45 min · Recommended: Discover decision record"
+  },
+  "fields": [
+    {
+      "id": "handoff",
+      "label": "Discover handoff: go/refine/pause choice, source and unresolved questions",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Keep claims, plans and evidence status separate."
+    },
+    {
+      "id": "group",
+      "label": "Specific group, task/context and user versus possible buyer",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Keep claims, plans and evidence status separate."
+    },
+    {
+      "id": "assumption",
+      "label": "Priority assumption — a claim that could be wrong",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Keep claims, plans and evidence status separate."
+    },
+    {
+      "id": "question",
+      "label": "Validation question and decision it affects",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Keep claims, plans and evidence status separate."
+    },
+    {
+      "id": "method",
+      "label": "Small proposed check and what it can/cannot establish",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Keep claims, plans and evidence status separate."
+    },
+    {
+      "id": "signal",
+      "label": "Observable supporting/weakening signals — avoid invented thresholds",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Keep claims, plans and evidence status separate."
+    },
+    {
+      "id": "permission",
+      "label": "Permission, voluntary participation, privacy, resources and fallback",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Keep claims, plans and evidence status separate."
+    },
+    {
+      "id": "review",
+      "label": "Owner, timing, review decision and what remains unvalidated",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Keep claims, plans and evidence status separate."
+    },
+    {
+      "id": "support",
+      "label": "Optional support or access constraint",
+      "kind": "textarea",
+      "required": false,
+      "maxLength": 2000
+    },
+    {
+      "id": "bias",
+      "label": "Where might compliments, clarity or enthusiasm be mistaken for evidence?",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "counter",
+      "label": "What result could weaken the assumption or change your decision?",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "constraint",
+      "label": "What permission, privacy or resource limit could stop the check?",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    }
+  ],
+  "questions": [
+    {
+      "prompt": "What does validation do?",
+      "options": [
+        "Guarantee success",
+        "Gather claim-specific evidence to inform decisions",
+        "Prove demand from compliments"
+      ],
+      "answer": 1,
+      "explanation": "Validation informs a decision about assumptions; it does not guarantee a business."
+    },
+    {
+      "prompt": "Someone understands your idea. What does that show?",
+      "options": [
+        "Clarity, not adoption or payment",
+        "Willingness to pay",
+        "Guaranteed demand"
+      ],
+      "answer": 0,
+      "explanation": "Evidence must match the claim being checked."
+    },
+    {
+      "prompt": "Your proposed check has not run. How should you describe it?",
+      "options": [
+        "As a successful result",
+        "As verified evidence",
+        "As a plan with limits and a review decision"
+      ],
+      "answer": 2,
+      "explanation": "Planned work is not collected evidence."
+    }
+  ],
+  "checklist": [
+    {
+      "kind": "studied",
+      "label": "Storyboard/transcript reviewed"
+    },
+    {
+      "kind": "fields",
+      "label": "Eight worksheet fields complete",
+      "ids": [
+        "handoff",
+        "group",
+        "assumption",
+        "question",
+        "method",
+        "signal",
+        "permission",
+        "review"
+      ]
+    },
+    {
+      "kind": "fields",
+      "label": "Three red-team reflections complete",
+      "ids": [
+        "bias",
+        "counter",
+        "constraint"
+      ]
+    },
+    {
+      "kind": "quiz",
+      "label": "Quiz 3 / 3 correct"
+    },
+    {
+      "kind": "honest",
+      "label": "Final self-review confirmed"
+    }
+  ],
+  "deliverable": {
+    "title": "LYNQ Academy — Validation Starting Brief",
+    "filename": "LYNQ-Validation-Starting-Brief.md",
+    "headerLines": [
+      "Phase 02 · Module {module} · Lesson {lesson}",
+      "Status: {status}"
+    ],
+    "fieldIds": [
+      "handoff",
+      "group",
+      "assumption",
+      "question",
+      "method",
+      "signal",
+      "permission",
+      "review"
+    ],
+    "footer": "No real AI, test execution, source verification or demand validation.",
+    "previewFooter": "This plan does not prove demand or represent completed research."
+  },
+  "sections": [
+    {
+      "id": "watch",
+      "label": "01 / WATCH",
+      "heading": "What evidence would change your decision?",
+      "blocks": [
+        {
+          "type": "video",
+          "title": "What Validation Actually Means",
+          "subtitle": "Planned 2½-minute explainer + worksheet demo",
+          "note": "No playable video or generated media is attached."
+        },
+        {
+          "type": "storyboard",
+          "scenes": [
+            {
+              "title": "Validation starts with uncertainty",
+              "visual": "Founder reviews an anonymous Discover decision record.",
+              "narration": "Welcome to Validate. Discover helped you define a problem and opportunity. Validation now means gathering evidence about important assumptions to inform a decision. It is not a badge that proves a whole business will succeed. Start with your Discover choice and unresolved questions."
+            },
+            {
+              "title": "Name a claim that could be wrong",
+              "visual": "Editable assumption and question cards.",
+              "narration": "Choose one specific assumption about the problem, proposed benefit, behaviour or possible payment. People understand my idea is different from people will use or pay for it. State the group and context. If your Discover decision was refine or pause, respect that choice before planning further tests."
+            },
+            {
+              "title": "Match evidence to the claim",
+              "visual": "Editable reported account, observed action and commitment cards.",
+              "narration": "A recent-experience account may inform the problem. An observed action may inform behaviour in a setting. A specific commitment may inform a next step, but its meaning depends on the conditions. No single kind of evidence proves every claim. A polite compliment or clarity check is not purchasing evidence."
+            },
+            {
+              "title": "Design a bounded check",
+              "visual": "Founder prepares a small permission-based test plan.",
+              "narration": "Choose a small check suited to the question. State what it can and cannot tell you, what might support or weaken the assumption, and how you will record results. Do not invent a passing threshold or assume a few convenient participants represent everyone. Keep plans separate from findings."
+            },
+            {
+              "title": "Respect constraints and negative results",
+              "visual": "Editable permission, privacy and reconsideration cards.",
+              "narration": "Permission, voluntary participation and privacy still matter. Do not collect money, contact participants or launch a test merely because a worksheet is complete. A negative or ambiguous result can help you refine, repeat or pause. Define the next decision before defending your idea."
+            },
+            {
+              "title": "Create your validation starting brief",
+              "visual": "Actual approved Lesson 21 worksheet recording.",
+              "narration": "Build your Validation Starting Brief. Record the handoff, group, priority assumption, question, proposed method, signals, constraints and review plan. This is a plan for learning, not evidence collected or a validated venture. Next you will identify and prioritise the assumptions that matter most."
+            }
+          ],
+          "summary": "Explore the six-scene storyboard placeholder",
+          "sceneMeta": "Planned scene {scene} · about 25 seconds in final edit"
+        },
+        {
+          "type": "transcript",
+          "scenes": [
+            {
+              "title": "Validation starts with uncertainty",
+              "visual": "Founder reviews an anonymous Discover decision record.",
+              "narration": "Welcome to Validate. Discover helped you define a problem and opportunity. Validation now means gathering evidence about important assumptions to inform a decision. It is not a badge that proves a whole business will succeed. Start with your Discover choice and unresolved questions."
+            },
+            {
+              "title": "Name a claim that could be wrong",
+              "visual": "Editable assumption and question cards.",
+              "narration": "Choose one specific assumption about the problem, proposed benefit, behaviour or possible payment. People understand my idea is different from people will use or pay for it. State the group and context. If your Discover decision was refine or pause, respect that choice before planning further tests."
+            },
+            {
+              "title": "Match evidence to the claim",
+              "visual": "Editable reported account, observed action and commitment cards.",
+              "narration": "A recent-experience account may inform the problem. An observed action may inform behaviour in a setting. A specific commitment may inform a next step, but its meaning depends on the conditions. No single kind of evidence proves every claim. A polite compliment or clarity check is not purchasing evidence."
+            },
+            {
+              "title": "Design a bounded check",
+              "visual": "Founder prepares a small permission-based test plan.",
+              "narration": "Choose a small check suited to the question. State what it can and cannot tell you, what might support or weaken the assumption, and how you will record results. Do not invent a passing threshold or assume a few convenient participants represent everyone. Keep plans separate from findings."
+            },
+            {
+              "title": "Respect constraints and negative results",
+              "visual": "Editable permission, privacy and reconsideration cards.",
+              "narration": "Permission, voluntary participation and privacy still matter. Do not collect money, contact participants or launch a test merely because a worksheet is complete. A negative or ambiguous result can help you refine, repeat or pause. Define the next decision before defending your idea."
+            },
+            {
+              "title": "Create your validation starting brief",
+              "visual": "Actual approved Lesson 21 worksheet recording.",
+              "narration": "Build your Validation Starting Brief. Record the handoff, group, priority assumption, question, proposed method, signals, constraints and review plan. This is a plan for learning, not evidence collected or a validated venture. Next you will identify and prioritise the assumptions that matter most."
+            }
+          ],
+          "summary": "Read the full narration / transcript"
+        },
+        {
+          "type": "videoPrompt",
+          "prompt": "Create a beginner-friendly LYNQ Academy explainer and worksheet demo for Phase 02 Validate, Module 2.1 Lesson 21: What Validation Actually Means. Editorial target 150 seconds, 16:9 1080p. Navy #0B2338, teal #087D79, mint #BCF2DF, white; diverse adults in contemporary Dubai workspace; warm clear English narration. Fictional anonymous examples labeled Illustrative example in post. Teach claim-specific evidence, clarity versus demand, negative/ambiguous results, constraints and plans versus findings. No invented customer quotes, metrics, thresholds, payment, guaranteed success or automatic validation badge.\n\nSCENE 1: Validation starts with uncertainty\nVisual placeholder: Founder reviews an anonymous Discover decision record.\nNarration: Welcome to Validate. Discover helped you define a problem and opportunity. Validation now means gathering evidence about important assumptions to inform a decision. It is not a badge that proves a whole business will succeed. Start with your Discover choice and unresolved questions.\n\nSCENE 2: Name a claim that could be wrong\nVisual placeholder: Editable assumption and question cards.\nNarration: Choose one specific assumption about the problem, proposed benefit, behaviour or possible payment. People understand my idea is different from people will use or pay for it. State the group and context. If your Discover decision was refine or pause, respect that choice before planning further tests.\n\nSCENE 3: Match evidence to the claim\nVisual placeholder: Editable reported account, observed action and commitment cards.\nNarration: A recent-experience account may inform the problem. An observed action may inform behaviour in a setting. A specific commitment may inform a next step, but its meaning depends on the conditions. No single kind of evidence proves every claim. A polite compliment or clarity check is not purchasing evidence.\n\nSCENE 4: Design a bounded check\nVisual placeholder: Founder prepares a small permission-based test plan.\nNarration: Choose a small check suited to the question. State what it can and cannot tell you, what might support or weaken the assumption, and how you will record results. Do not invent a passing threshold or assume a few convenient participants represent everyone. Keep plans separate from findings.\n\nSCENE 5: Respect constraints and negative results\nVisual placeholder: Editable permission, privacy and reconsideration cards.\nNarration: Permission, voluntary participation and privacy still matter. Do not collect money, contact participants or launch a test merely because a worksheet is complete. A negative or ambiguous result can help you refine, repeat or pause. Define the next decision before defending your idea.\n\nSCENE 6: Create your validation starting brief\nVisual placeholder: Actual approved Lesson 21 worksheet recording.\nNarration: Build your Validation Starting Brief. Record the handoff, group, priority assumption, question, proposed method, signals, constraints and review plan. This is a plan for learning, not evidence collected or a validated venture. Next you will identify and prioritise the assumptions that matter most.\n\nFirst provide storyboard, timings and individual shot prompts. Generate only supported short shot lengths for selected Gemini/Veo account, then assemble with separately recorded narration. No generated text, logos, captions or fake UI; composite exact LYNQ branding and editable Assumption / Question / Evidence / Limits / Decision cards in post. Use approved actual Lesson 21 screen recording with fictional planned answers. Deliver H.264 MP4, editable project, narration, transcript, VTT/SRT, thumbnail and rights/provenance. Separate native-reviewed Arabic narration and RTL graphics. Review evidence semantics, permissions, privacy, brand, pacing, audio and mobile readability. No video is generated by the prototype.",
+          "filename": "LYNQ-Lesson-21-Gemini-Video-Prompt.md",
+          "summary": "Gemini video prompt — ready to copy"
+        },
+        {
+          "type": "studied",
+          "label": "I reviewed the storyboard or transcript."
+        }
+      ]
+    },
+    {
+      "id": "learn",
+      "label": "02 / LEARN",
+      "heading": "Match evidence to a specific claim.",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "Validation"
+                  ]
+                },
+                " means gathering evidence about assumptions to inform a decision. An ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "assumption"
+                  ]
+                },
+                " is a claim that could be wrong. A ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "test"
+                  ]
+                },
+                " is a bounded way to investigate it. A ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "signal"
+                  ]
+                },
+                " is information you will interpret with its context and limitations."
+              ]
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "grid2"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "note"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "children": [
+                        "Problem"
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "children": [
+                        "Recent-experience accounts and permitted observation can inform whether a difficulty occurs and matters in a context."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "note"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "children": [
+                        "Benefit / clarity"
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "children": [
+                        "Understanding a benefit statement can indicate clarity. It does not prove adoption or payment."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "note"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "children": [
+                        "Behaviour / commitment"
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "children": [
+                        "Observe a relevant action or specific commitment under clear conditions. Preserve what it does and does not establish."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "note"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "children": [
+                        "Payment"
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "children": [
+                        "Payment assumptions require their own suitable evidence. No money is collected or payment test executed here."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "Illustrative example:"
+                  ]
+                },
+                " a visitor says directions sound helpful. That is a reported reaction, not proof they will change behaviour or pay. Ask what claim you are checking before choosing a method."
+              ]
+            },
+            {
+              "tag": "ol",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Review the Discover go/refine/pause decision."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Name one specific assumption for a group/context."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Choose a fitting small check and its limitations."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "State supporting and weakening signals without invented thresholds."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Set permission, privacy, owner, timing and review decision."
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Negative or ambiguous results can justify refine, repeat or pause. Convenient participants are not automatically representative. A plan or completed lesson is not findings."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "practice",
+          "legend": "Practice: someone understands your idea",
+          "prompt": "",
+          "options": [
+            {
+              "label": "Demand is proven",
+              "feedback": "Match the evidence to the claim; understanding or compliments do not prove demand."
+            },
+            {
+              "label": "Clarity is supported; adoption and payment remain unknown",
+              "feedback": "Useful distinction: clarity does not establish adoption or payment."
+            },
+            {
+              "label": "Launch immediately",
+              "feedback": "Match the evidence to the claim; understanding or compliments do not prove demand."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "build",
+      "label": "03 / BUILD",
+      "heading": "Your Validation Starting Brief.",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Use your Discover record manually. Nothing is imported or inferred automatically. Refine or pause can remain your appropriate next action."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "saveStatus"
+        },
+        {
+          "type": "fields",
+          "ids": [
+            "handoff",
+            "group",
+            "assumption",
+            "question",
+            "method",
+            "signal",
+            "permission",
+            "review",
+            "support"
+          ]
+        },
+        {
+          "type": "deliverable",
+          "previewLabel": "Preview my validation brief",
+          "downloadLabel": "Download Validation Starting Brief"
+        },
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "note"
+              },
+              "children": [
+                "Browser storage is plaintext. Use anonymous role labels; avoid private or confidential data. This is not collected evidence."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "reset",
+          "label": "Clear local draft"
+        }
+      ]
+    },
+    {
+      "id": "coach",
+      "label": "04 / ASK AI",
+      "heading": "Venture Coach · simulated",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Scripted demonstration only. No live AI, source verification, experiment execution or backend is connected."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "extension",
+          "id": "coach",
+          "props": {
+            "modes": [
+              {
+                "id": "teach",
+                "label": "Teach",
+                "response": "Validation gathers evidence for specific assumptions. One kind of evidence does not prove every claim."
+              },
+              {
+                "id": "guide",
+                "label": "Guide",
+                "response": "Start with the Discover choice, group, priority assumption and question. Plan a small check with signals, permission and review decision."
+              },
+              {
+                "id": "review",
+                "label": "Review",
+                "response": "Validation Brief check: {missing} required fields still empty. This scripted check counts fields only; it cannot verify evidence, execute experiments or establish demand."
+              },
+              {
+                "id": "challenge",
+                "label": "Challenge",
+                "response": "Are compliments being mistaken for demand? What would weaken the claim? Does permission or privacy block the check?"
+              }
+            ],
+            "initial": "teach",
+            "questionResponse": "This is a scripted demonstration, not an AI answer to your question. Record the assumption, fitting method, evidence limits and next decision.",
+            "countIds": [
+              "handoff",
+              "group",
+              "assumption",
+              "question",
+              "method",
+              "signal",
+              "permission",
+              "review"
+            ],
+            "questionLabel": "Optional question for the demonstration",
+            "submitLabel": "Show simulated guidance"
+          }
+        }
+      ]
+    },
+    {
+      "id": "challenge",
+      "label": "05 / CHALLENGE",
+      "heading": "Challenge your starting plan.",
+      "blocks": [
+        {
+          "type": "fields",
+          "ids": [
+            "bias",
+            "counter",
+            "constraint"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz",
+      "label": "06 / KNOWLEDGE CHECK",
+      "heading": "Check your understanding.",
+      "blocks": [
+        {
+          "type": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "label": "07 / DELIVER & PROGRESS",
+      "heading": "Your deliverable: a Validation Starting Brief.",
+      "blocks": [
+        {
+          "type": "checklist"
+        },
+        {
+          "type": "honest",
+          "label": "I kept evidence claim-specific, labeled plans and unknowns, and avoided demand, payment or permission claims."
+        },
+        {
+          "type": "complete",
+          "label": "Mark Lesson 21 complete locally",
+          "completedLabel": "Lesson 21 self-completed locally",
+          "completedNotice": "Lesson 21 self-completed locally. This is not validated demand or a submitted assignment.",
+          "incompleteNotice": "Complete the remaining requirements before local self-completion."
+        },
+        {
+          "type": "extension",
+          "id": "moduleNote",
+          "props": {
+            "heading": "Module 2.1 · Designing Your Validation",
+            "lessons": [
+              21,
+              22,
+              23,
+              24,
+              25
+            ],
+            "complete": "All five lessons self-completed locally. Module 2.1 learning pack complete; execution, permission and validation remain separate.",
+            "incomplete": "{count} / 5 lessons self-completed locally. Complete each separately to finish the learning module.",
+            "notes": [
+              {
+                "tag": "p",
+                "attrs": {},
+                "children": [
+                  "Only this lesson is built. Completion is a learning record, not validation, certification or venture approval."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {
+                "class": "help"
+              },
+              "children": [
+                "Learning completion is separate from validated demand."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "next"
+        }
+      ]
+    }
+  ],
+  "nav": [
+    {
+      "id": "watch",
+      "label": "Watch"
+    },
+    {
+      "id": "learn",
+      "label": "Learn"
+    },
+    {
+      "id": "build",
+      "label": "Build"
+    },
+    {
+      "id": "coach",
+      "label": "Ask AI"
+    },
+    {
+      "id": "challenge",
+      "label": "Challenge"
+    },
+    {
+      "id": "quiz",
+      "label": "Knowledge check"
+    },
+    {
+      "id": "finish",
+      "label": "Deliver"
+    }
+  ]
+}

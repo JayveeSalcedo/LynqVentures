@@ -1,0 +1,136 @@
+{
+  "phase": 3,
+  "title": "Phase 03 · Build",
+  "hero": {
+    "eyebrow": "Phase 03 · Build",
+    "title": "Develop the product and business foundation.",
+    "intro": "Original curriculum: four modules, five lessons each. All 20 Build lessons (41–60) interactive; Phase 04 continues with Lesson 61; all 100 lessons are interactive. Intended phase outcome: functional MVP or appropriate service equivalent, with a business foundation and readiness review."
+  },
+  "modules": [
+    {
+      "code": "3.1",
+      "title": "Designing the Product",
+      "lessons": [
+        {
+          "number": 41,
+          "title": "Define Your Minimum Viable Product",
+          "summary": "MVP scope · Interactive"
+        },
+        {
+          "number": 42,
+          "title": "Prioritize Essential Features",
+          "summary": "Feature priority matrix · Interactive"
+        },
+        {
+          "number": 43,
+          "title": "Map the Customer Experience",
+          "summary": "User flow · Interactive"
+        },
+        {
+          "number": 44,
+          "title": "Choose Your Product-Building Approach",
+          "summary": "Build strategy · Interactive"
+        },
+        {
+          "number": 45,
+          "title": "Create Your First Prototype",
+          "summary": "Prototype · Interactive"
+        }
+      ]
+    },
+    {
+      "code": "3.2",
+      "title": "Developing the Product",
+      "lessons": [
+        {
+          "number": 46,
+          "title": "Test Prototype Usability",
+          "summary": "Usability findings · Interactive"
+        },
+        {
+          "number": 47,
+          "title": "Define Your Product Requirements",
+          "summary": "Product specification · Interactive"
+        },
+        {
+          "number": 48,
+          "title": "Plan Technology and Integrations",
+          "summary": "Architecture brief · Interactive"
+        },
+        {
+          "number": 49,
+          "title": "Establish Security and Data Principles",
+          "summary": "Data and security checklist · Interactive"
+        },
+        {
+          "number": 50,
+          "title": "Build the First Usable Version",
+          "summary": "MVP release · Interactive"
+        }
+      ]
+    },
+    {
+      "code": "3.3",
+      "title": "Establishing the Business",
+      "lessons": [
+        {
+          "number": 51,
+          "title": "Establish Your Brand Identity",
+          "summary": "Brand starter kit · Interactive"
+        },
+        {
+          "number": 52,
+          "title": "Design the Onboarding Experience",
+          "summary": "Onboarding flow · Interactive"
+        },
+        {
+          "number": 53,
+          "title": "Plan Company Formation and Ownership",
+          "summary": "Legal decision checklist · Interactive"
+        },
+        {
+          "number": 54,
+          "title": "Protect Intellectual Property",
+          "summary": "IP register · Interactive"
+        },
+        {
+          "number": 55,
+          "title": "Define the Founding Team",
+          "summary": "Responsibility matrix · Interactive"
+        }
+      ]
+    },
+    {
+      "code": "3.4",
+      "title": "Preparing for Launch",
+      "lessons": [
+        {
+          "number": 56,
+          "title": "Build Your Financial Plan",
+          "summary": "Cash and runway model · Interactive"
+        },
+        {
+          "number": 57,
+          "title": "Establish Product Analytics",
+          "summary": "Measurement plan · Interactive"
+        },
+        {
+          "number": 58,
+          "title": "Run a Controlled Beta",
+          "summary": "Beta feedback report · Interactive"
+        },
+        {
+          "number": 59,
+          "title": "Improve Your MVP",
+          "summary": "Prioritized improvements · Interactive"
+        },
+        {
+          "number": 60,
+          "title": "Checkpoint: Are You Ready to Launch?",
+          "summary": "Launch-readiness assessment · Interactive"
+        }
+      ]
+    }
+  ],
+  "sections": []
+}

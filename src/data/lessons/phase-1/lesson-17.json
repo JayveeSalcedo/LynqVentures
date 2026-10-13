@@ -1,0 +1,964 @@
+{
+ "number": 17,
+ "phase": 1,
+ "module": "1.4",
+ "title": "Your First Value Proposition",
+ "hero": {
+  "eyebrow": "Module 1.4 · Shaping Your Opportunity · Lesson 17",
+  "title": "Your First Value Proposition.",
+  "intro": "Explain the benefit you hope to offer a specific group, how you might deliver it, and why it could matter alongside existing approaches. Keep the promise provisional and testable.",
+  "badges": [
+   "Beginner friendly"
+  ],
+  "meta": "35–45 min · Recommended: Lesson 16"
+ },
+ "fields": [
+  {
+   "id": "group",
+   "label": "Group/context and opportunity source — user and possible buyer roles",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Keep benefits and claims specific, honest and testable.",
+   "maxLength": 2000
+  },
+  {
+   "id": "benefit",
+   "label": "Desired benefit, why it might matter and evidence status",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Keep benefits and claims specific, honest and testable.",
+   "maxLength": 2000
+  },
+  {
+   "id": "approach",
+   "label": "Provisional approach: how it might help, scope and limits",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Keep benefits and claims specific, honest and testable.",
+   "maxLength": 2000
+  },
+  {
+   "id": "alternative",
+   "label": "Current alternative: benefits, limits and switching burden",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Keep benefits and claims specific, honest and testable.",
+   "maxLength": 2000
+  },
+  {
+   "id": "difference",
+   "label": "Possible reason to choose this approach — hypothesis, not unsupported superiority",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Keep benefits and claims specific, honest and testable.",
+   "maxLength": 2000
+  },
+  {
+   "id": "basis",
+   "label": "Evidence/unknowns for benefit, approach and difference; no invented metrics",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Keep benefits and claims specific, honest and testable.",
+   "maxLength": 2000
+  },
+  {
+   "id": "statement",
+   "label": "Plain-language value proposition draft with provisional claim labels",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Keep benefits and claims specific, honest and testable.",
+   "maxLength": 2000
+  },
+  {
+   "id": "nextcheck",
+   "label": "Next ethical check: question, timing/access and what would revise the draft",
+   "kind": "textarea",
+   "required": true,
+   "placeholder": "Keep benefits and claims specific, honest and testable.",
+   "maxLength": 2000
+  },
+  {
+   "id": "support",
+   "label": "Optional support or access constraint",
+   "kind": "textarea",
+   "required": false,
+   "maxLength": 2000
+  },
+  {
+   "id": "assumption",
+   "label": "Which benefit or difference is an unsupported promise or feature in disguise?",
+   "kind": "textarea",
+   "required": true,
+   "maxLength": 2000
+  },
+  {
+   "id": "evidence",
+   "label": "What would show that the current approach is sufficient or your proposed benefit does not matter?",
+   "kind": "textarea",
+   "required": true,
+   "maxLength": 2000
+  },
+  {
+   "id": "constraint",
+   "label": "How will you test fairly without pitching for agreement, pressuring people or inventing results?",
+   "kind": "textarea",
+   "required": true,
+   "maxLength": 2000
+  }
+ ],
+ "questions": [
+  {
+   "prompt": "Which describes a benefit rather than a feature?",
+   "options": [
+    "A location pin",
+    "Clearer directions to registration",
+    "Ten dashboard buttons"
+   ],
+   "answer": 1,
+   "explanation": "A benefit describes the useful outcome for a person."
+  },
+  {
+   "prompt": "Someone understands your proposition. What does that establish?",
+   "options": [
+    "Clarity only; demand and payment remain unproven",
+    "Guaranteed adoption",
+    "Willingness to pay"
+   ],
+   "answer": 0,
+   "explanation": "Comprehension is distinct from behaviour or purchasing evidence."
+  },
+  {
+   "prompt": "How should an untested difference be described?",
+   "options": [
+    "As proven superiority",
+    "As a guaranteed result",
+    "As a hypothesis with evidence limits and a check"
+   ],
+   "answer": 2,
+   "explanation": "Avoid unsupported promises; test the difference fairly."
+  }
+ ],
+ "checklist": [
+  {
+   "kind": "studied",
+   "label": "Transcript or learning guide reviewed"
+  },
+  {
+   "kind": "fields",
+   "label": "Value Proposition Draft & Test Plan fields complete",
+   "ids": [
+    "group",
+    "benefit",
+    "approach",
+    "alternative",
+    "difference",
+    "basis",
+    "statement",
+    "nextcheck"
+   ]
+  },
+  {
+   "kind": "fields",
+   "label": "Three red-team reflections complete",
+   "ids": [
+    "assumption",
+    "evidence",
+    "constraint"
+   ]
+  },
+  {
+   "kind": "quiz",
+   "label": "Knowledge check: 3 / 3 correct"
+  },
+  {
+   "kind": "honest",
+   "label": "Final self-review confirmed"
+  }
+ ],
+ "deliverable": {
+  "title": "LYNQ Academy — Value Proposition Draft & Test Plan",
+  "filename": "LYNQ-Value-Proposition-Draft-Test-Plan.md",
+  "headerLines": [
+   "Phase 01 · Module {module} · Lesson {lesson}",
+   "Status: {status}",
+   "Created: {created}"
+  ],
+  "fieldIds": [
+   "group",
+   "benefit",
+   "approach",
+   "alternative",
+   "difference",
+   "basis",
+   "statement",
+   "nextcheck",
+   "support",
+   "assumption",
+   "evidence",
+   "constraint"
+  ],
+  "footer": "Local prototype export. No reviewer submission or business validation."
+ },
+ "sections": [
+  {
+   "id": "watch",
+   "label": "01 / WATCH",
+   "heading": "What benefit are you proposing — and for whom?",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "The planned explainer turns an opportunity into a clear, testable benefit statement without unsupported promises. Use the transcript or guide while the video is a placeholder."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "video-placeholder"
+       },
+       "children": [
+        {
+         "tag": "span",
+         "attrs": {
+          "class": "badge"
+         },
+         "children": [
+          "Video placeholder · media not produced"
+         ]
+        },
+        {
+         "tag": "h3",
+         "attrs": {},
+         "children": [
+          "Your First Value Proposition"
+         ]
+        },
+        {
+         "tag": "p",
+         "attrs": {},
+         "children": [
+          "Planned: 2½-minute explainer + worksheet demo",
+          {
+           "tag": "br",
+           "attrs": {},
+           "children": []
+          },
+          "Group → Benefit → Approach → Alternatives → Next check"
+         ]
+        },
+        {
+         "tag": "small",
+         "attrs": {},
+         "children": [
+          "No playable video or generated media is attached."
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "storyboard",
+     "scenes": [
+      {
+       "title": "Explain the proposed value",
+       "visual": "Founder reviews an anonymous opportunity statement.",
+       "narration": "Your opportunity describes an improvement worth investigating. A value proposition describes the benefit you propose for a specific group, how you might help, and why that approach could matter. It is a hypothesis, not a slogan, proven advantage or guarantee."
+      },
+      {
+       "title": "Benefit before features",
+       "visual": "Editable feature and benefit cards.",
+       "narration": "A feature describes what an approach does. A benefit describes the useful outcome for the person. A location pin is a feature; clearer directions to registration is a possible benefit. Do not invent time saved, reduced costs or guaranteed satisfaction without evidence."
+      },
+      {
+       "title": "Choose a provisional approach",
+       "visual": "Illustrative visitor follows clearly arranged information.",
+       "narration": "Describe a simple approach that might deliver the benefit. It could be a service, process, physical information or digital tool. The choice is provisional. Do not assume an app is best, and do not turn a long feature list into a promise of value."
+      },
+      {
+       "title": "Compare with current alternatives",
+       "visual": "Editable current approach and proposed approach cards.",
+       "narration": "What already helps people, and what reason might they have to try something different? Record a possible difference fairly, with its evidence status. Include learning, trust, effort and other switching burdens. If there is no credible reason to change, revise the proposition."
+      },
+      {
+       "title": "Write a claim you can check",
+       "visual": "Editable customer, benefit, approach and evidence cards.",
+       "narration": "For this group in this situation, we propose this approach to help achieve this benefit. Compared with the current approach, our possible difference is this hypothesis. We still need to check this uncertainty. Keep user and possible buyer roles separate, and do not claim willingness to pay."
+      },
+      {
+       "title": "Draft and test understanding",
+       "visual": "Actual approved Lesson 17 worksheet recording.",
+       "narration": "Create your Value Proposition Draft and Test Plan. Include the group, benefit, approach, alternatives, possible difference, evidence limits, plain-language statement and next check. You can first check whether people understand it, but clarity is not demand, adoption or payment proof."
+      }
+     ],
+     "sceneMeta": "Planned final scene: 25 seconds · narration and precise graphics added in post",
+     "summary": "Explore the six-scene storyboard placeholder"
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {
+        "class": "help"
+       },
+       "children": [
+        "Use an explainer with editable diagrams, documentary cutaways and a real worksheet demo. Generate short assets where supported, then assemble in an editor."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "videoPrompt",
+     "prompt": "Create an engaging beginner-friendly LYNQ Academy explainer plus worksheet demo for Module 1.4 Lesson 17: Your First Value Proposition. Editorial target about 150 seconds, 16:9 1080p. Navy #0B2338, teal #087D79, mint #BCF2DF, white; contemporary Dubai workspace/venue, diverse adults, clear friendly English narrator. Fictional registration example labeled Illustrative example in post. Teach group/context, benefit versus feature, provisional approach, fair alternative comparison, switching burden, evidence limits and comprehension versus demand. No fabricated quotes, quantified benefits, proven superiority, guarantees or willingness-to-pay claims.\n\nSCENE 1: Explain the proposed value\nVisual placeholder: Founder reviews an anonymous opportunity statement.\nNarration: Your opportunity describes an improvement worth investigating. A value proposition describes the benefit you propose for a specific group, how you might help, and why that approach could matter. It is a hypothesis, not a slogan, proven advantage or guarantee.\n\nSCENE 2: Benefit before features\nVisual placeholder: Editable feature and benefit cards.\nNarration: A feature describes what an approach does. A benefit describes the useful outcome for the person. A location pin is a feature; clearer directions to registration is a possible benefit. Do not invent time saved, reduced costs or guaranteed satisfaction without evidence.\n\nSCENE 3: Choose a provisional approach\nVisual placeholder: Illustrative visitor follows clearly arranged information.\nNarration: Describe a simple approach that might deliver the benefit. It could be a service, process, physical information or digital tool. The choice is provisional. Do not assume an app is best, and do not turn a long feature list into a promise of value.\n\nSCENE 4: Compare with current alternatives\nVisual placeholder: Editable current approach and proposed approach cards.\nNarration: What already helps people, and what reason might they have to try something different? Record a possible difference fairly, with its evidence status. Include learning, trust, effort and other switching burdens. If there is no credible reason to change, revise the proposition.\n\nSCENE 5: Write a claim you can check\nVisual placeholder: Editable customer, benefit, approach and evidence cards.\nNarration: For this group in this situation, we propose this approach to help achieve this benefit. Compared with the current approach, our possible difference is this hypothesis. We still need to check this uncertainty. Keep user and possible buyer roles separate, and do not claim willingness to pay.\n\nSCENE 6: Draft and test understanding\nVisual placeholder: Actual approved Lesson 17 worksheet recording.\nNarration: Create your Value Proposition Draft and Test Plan. Include the group, benefit, approach, alternatives, possible difference, evidence limits, plain-language statement and next check. You can first check whether people understand it, but clarity is not demand, adoption or payment proof.\n\nFirst return storyboard, timings and individual shot prompts. Generate only short shots supported by selected Gemini/Veo account; assemble with one separately recorded narration track. Generated footage has no text, logos, captions or fabricated UI. Add exact LYNQ branding and editable Group / Benefit / Approach / Current alternative / Possible difference / Evidence cards in post. Screen-record actual approved Lesson 17 worksheet with fictional source-labeled answers. Deliver H.264 MP4, editable project/diagrams, audio, transcript, VTT/SRT captions, thumbnail and rights/provenance. Arabic version requires native-reviewed narration and RTL graphics. Review claims, fairness, accuracy, privacy, brand, audio, pacing and mobile readability before publication. Prototype contains no generated video.",
+     "filename": "LYNQ-Lesson-17-Gemini-Video-Prompt.md",
+     "title": "# LYNQ Lesson 17 — Gemini video prompt",
+     "summary": "Gemini video prompt — ready to copy"
+    },
+    {
+     "type": "transcript",
+     "scenes": [
+      {
+       "title": "Explain the proposed value",
+       "visual": "Founder reviews an anonymous opportunity statement.",
+       "narration": "Your opportunity describes an improvement worth investigating. A value proposition describes the benefit you propose for a specific group, how you might help, and why that approach could matter. It is a hypothesis, not a slogan, proven advantage or guarantee."
+      },
+      {
+       "title": "Benefit before features",
+       "visual": "Editable feature and benefit cards.",
+       "narration": "A feature describes what an approach does. A benefit describes the useful outcome for the person. A location pin is a feature; clearer directions to registration is a possible benefit. Do not invent time saved, reduced costs or guaranteed satisfaction without evidence."
+      },
+      {
+       "title": "Choose a provisional approach",
+       "visual": "Illustrative visitor follows clearly arranged information.",
+       "narration": "Describe a simple approach that might deliver the benefit. It could be a service, process, physical information or digital tool. The choice is provisional. Do not assume an app is best, and do not turn a long feature list into a promise of value."
+      },
+      {
+       "title": "Compare with current alternatives",
+       "visual": "Editable current approach and proposed approach cards.",
+       "narration": "What already helps people, and what reason might they have to try something different? Record a possible difference fairly, with its evidence status. Include learning, trust, effort and other switching burdens. If there is no credible reason to change, revise the proposition."
+      },
+      {
+       "title": "Write a claim you can check",
+       "visual": "Editable customer, benefit, approach and evidence cards.",
+       "narration": "For this group in this situation, we propose this approach to help achieve this benefit. Compared with the current approach, our possible difference is this hypothesis. We still need to check this uncertainty. Keep user and possible buyer roles separate, and do not claim willingness to pay."
+      },
+      {
+       "title": "Draft and test understanding",
+       "visual": "Actual approved Lesson 17 worksheet recording.",
+       "narration": "Create your Value Proposition Draft and Test Plan. Include the group, benefit, approach, alternatives, possible difference, evidence limits, plain-language statement and next check. You can first check whether people understand it, but clarity is not demand, adoption or payment proof."
+      }
+     ],
+     "summary": "Read the full narration / transcript"
+    },
+    {
+     "type": "studied",
+     "label": "I read the transcript or reviewed the learning guide. Video is not required."
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "label": "02 / LEARN",
+   "heading": "Describe value in the customer’s terms.",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "A ",
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "value proposition"
+         ]
+        },
+        " explains the benefit you propose for a specific group, your provisional approach and a possible reason to choose it. It is not proof of demand or a marketing guarantee."
+       ]
+      },
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "grid2"
+       },
+       "children": [
+        {
+         "tag": "div",
+         "attrs": {
+          "class": "note"
+         },
+         "children": [
+          {
+           "tag": "h3",
+           "attrs": {},
+           "children": [
+            "Feature"
+           ]
+          },
+          {
+           "tag": "p",
+           "attrs": {},
+           "children": [
+            "What an approach does: a location pin, printed map or staff handover."
+           ]
+          }
+         ]
+        },
+        {
+         "tag": "div",
+         "attrs": {
+          "class": "note"
+         },
+         "children": [
+          {
+           "tag": "h3",
+           "attrs": {},
+           "children": [
+            "Benefit"
+           ]
+          },
+          {
+           "tag": "p",
+           "attrs": {},
+           "children": [
+            "The useful outcome: clearer directions to registration. The importance and effectiveness still need checking."
+           ]
+          }
+         ]
+        },
+        {
+         "tag": "div",
+         "attrs": {
+          "class": "note"
+         },
+         "children": [
+          {
+           "tag": "h3",
+           "attrs": {},
+           "children": [
+            "Possible difference"
+           ]
+          },
+          {
+           "tag": "p",
+           "attrs": {},
+           "children": [
+            "A reason your approach might matter compared with current options. Treat it as a hypothesis unless supported."
+           ]
+          }
+         ]
+        },
+        {
+         "tag": "div",
+         "attrs": {
+          "class": "note"
+         },
+         "children": [
+          {
+           "tag": "h3",
+           "attrs": {},
+           "children": [
+            "Evidence limit"
+           ]
+          },
+          {
+           "tag": "p",
+           "attrs": {},
+           "children": [
+            "What is known, assumed or planned. Do not fabricate metrics, testimonials or superiority."
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "note"
+       },
+       "children": [
+        {
+         "tag": "b",
+         "attrs": {},
+         "children": [
+          "Illustrative draft:"
+         ]
+        },
+        " “For first-time visitors seeking registration, we propose clearly arranged directions to help locate the correct desk. A possible difference is easier access to relevant information; usefulness and switching burden remain untested.” This is a hypothesis, not a proven claim."
+       ]
+      },
+      {
+       "tag": "h3",
+       "attrs": {},
+       "children": [
+        "Write a plain-language draft"
+       ]
+      },
+      {
+       "tag": "ol",
+       "attrs": {},
+       "children": [
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "State the group and situation, including user versus possible buyer."
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Name the benefit rather than a feature list."
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Describe one provisional approach, with limits."
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Compare fairly with the current alternative."
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Label the possible difference and evidence gaps."
+         ]
+        },
+        {
+         "tag": "li",
+         "attrs": {},
+         "children": [
+          "Choose a check that can change the draft."
+         ]
+        }
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Checking whether someone understands the statement tests clarity. A polite reaction, preference or clear explanation does not establish adoption, switching or payment. Keep those questions separate for later evidence gathering."
+       ]
+      },
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "actions"
+       },
+       "children": [
+        {
+         "tag": "lesson-link",
+         "attrs": {
+          "lesson": "16",
+          "class": "btn secondary"
+         },
+         "children": [
+          "Review opportunity statement"
+         ]
+        },
+        {
+         "tag": "lesson-link",
+         "attrs": {
+          "lesson": "14",
+          "class": "btn secondary"
+         },
+         "children": [
+          "Review landscape map"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "practice",
+     "legend": "Practice: which describes a benefit?",
+     "prompt": "",
+     "options": [
+      {
+       "label": "A location pin and ten features",
+       "feedback": "Describe the useful outcome rather than a feature list or guaranteed sales. Keep the benefit provisional."
+      },
+      {
+       "label": "Clearer directions to the correct registration desk",
+       "feedback": "Useful benefit: clearer directions describes an outcome for the person, but its value and effectiveness still need checking."
+      },
+      {
+       "label": "Guaranteed sales from every visitor",
+       "feedback": "Describe the useful outcome rather than a feature list or guaranteed sales. Keep the benefit provisional."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "build",
+   "label": "03 / BUILD",
+   "heading": "Your Value Proposition Draft & Test Plan.",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Describe one benefit and a provisional approach. Unknowns and planned research remain labeled. No statement, score, superiority claim or test result is generated automatically."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "saveStatus"
+    },
+    {
+     "type": "fields",
+     "ids": [
+      "group",
+      "benefit",
+      "approach",
+      "alternative",
+      "difference",
+      "basis",
+      "statement",
+      "nextcheck",
+      "support"
+     ]
+    },
+    {
+     "type": "extension",
+     "id": "preview",
+     "props": {
+      "label": "Preview my value proposition",
+      "kind": "lines",
+      "joiner": "\n\n",
+      "lines": [
+       {
+        "id": "group",
+        "label": "Group/context and opportunity source — user and possible buyer roles *"
+       },
+       {
+        "id": "benefit",
+        "label": "Desired benefit, why it might matter and evidence status *"
+       },
+       {
+        "id": "approach",
+        "label": "Provisional approach: how it might help, scope and limits *"
+       },
+       {
+        "id": "alternative",
+        "label": "Current alternative: benefits, limits and switching burden *"
+       },
+       {
+        "id": "difference",
+        "label": "Possible reason to choose this approach — hypothesis, not unsupported superiority *"
+       },
+       {
+        "id": "basis",
+        "label": "Evidence/unknowns for benefit, approach and difference; no invented metrics *"
+       },
+       {
+        "id": "statement",
+        "label": "Plain-language value proposition draft with provisional claim labels *"
+       },
+       {
+        "id": "nextcheck",
+        "label": "Next ethical check: question, timing/access and what would revise the draft *"
+       }
+      ],
+      "footer": "This draft does not prove demand, adoption or willingness to pay."
+     }
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "div",
+       "attrs": {
+        "class": "note"
+       },
+       "children": [
+        "This draft does not prove demand, adoption or willingness to pay. Browser storage is plaintext; avoid private identifying information and download a copy."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "extension",
+     "id": "download",
+     "props": {
+      "label": "Download Value Proposition Draft"
+     }
+    },
+    {
+     "type": "reset",
+     "label": "Clear local draft"
+    }
+   ]
+  },
+  {
+   "id": "coach",
+   "label": "04 / ASK AI",
+   "heading": "Your thinking partner",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "span",
+       "attrs": {
+        "class": "badge"
+       },
+       "children": [
+        "Simulated Coach · no AI connection"
+       ]
+      },
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Try four scripted guidance modes. The preview reads your current worksheet locally; it does not send information anywhere."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "extension",
+     "id": "coach",
+     "props": {
+      "modes": [
+       {
+        "id": "teach",
+        "label": "Teach me"
+       },
+       {
+        "id": "guide",
+        "label": "Guide me"
+       },
+       {
+        "id": "review",
+        "label": "Review my work"
+       },
+       {
+        "id": "challenge",
+        "label": "Challenge my idea"
+       }
+      ],
+      "replies": {
+       "teach": "A value proposition links a specific group, benefit, provisional approach and possible reason to choose it. Benefits are outcomes, not feature lists.",
+       "guide": "Compare your draft with current alternatives. Label the possible difference, switching burden and evidence gaps; choose a fair next check.",
+       "review": "Value Proposition check: {missing} required fields still empty. This scripted check counts fields only; it cannot verify benefits, superiority, adoption or demand.",
+       "challenge": "Is the benefit a feature? Are promises sourced? Does the workaround already suffice? Are you confusing comprehension or polite preference with payment?"
+      },
+      "heading": "SCRIPTED DEMO / ",
+      "questionNote": "Your question was entered locally. This preview does not generate a custom answer.",
+      "questionLabel": "Your question (optional)",
+      "placeholder": "What should I focus on first?",
+      "maxLength": 500,
+      "submitLabel": "Show simulated guidance"
+     }
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {
+        "class": "help"
+       },
+       "children": [
+        "Responses are predefined for this lesson, not generated answers to your question. No customer demand or venture readiness is verified."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "challenge",
+   "label": "05 / CHALLENGE",
+   "heading": "Challenge the promised value.",
+   "blocks": [
+    {
+     "type": "fields",
+     "ids": [
+      "assumption",
+      "evidence",
+      "constraint"
+     ]
+    },
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "details",
+       "attrs": {},
+       "children": [
+        {
+         "tag": "summary",
+         "attrs": {},
+         "children": [
+          "More questions to discuss"
+         ]
+        },
+        {
+         "tag": "p",
+         "attrs": {},
+         "children": [
+          "Is the group specific? Does the buyer differ from the user? Are numbers sourced? What burden does changing approaches create? Are you treating comprehension as purchase intent?"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "quiz",
+   "label": "06 / CHECK YOUR UNDERSTANDING",
+   "heading": "A quick knowledge check",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Answer all three. You can retry; all three correct are required for local completion."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "quiz"
+    }
+   ]
+  },
+  {
+   "id": "finish",
+   "label": "07 / DELIVER & PROGRESS",
+   "heading": "Your deliverable: a Value Proposition Draft & Test Plan.",
+   "blocks": [
+    {
+     "type": "content",
+     "nodes": [
+      {
+       "tag": "p",
+       "attrs": {},
+       "children": [
+        "Download your group, benefit, approach, alternatives, possible difference, evidence limits, statement and next check. Earlier deliverables stay separate. Revise the draft as you learn."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "checklist"
+    },
+    {
+     "type": "honest",
+     "label": "I kept claims provisional, distinguished benefits from features, and did not treat clarity or preference as demand or payment proof."
+    },
+    {
+     "type": "complete",
+     "label": "Mark Lesson 17 complete locally",
+     "completedLabel": "Lesson 17 self-completed locally",
+     "completedNotice": "Lesson 17 self-completed locally. Download your Value Proposition Draft & Test Plan. No reviewer approval or venture validation is recorded.",
+     "incompleteNotice": "Complete the remaining requirements above before marking this lesson complete."
+    },
+    {
+     "type": "extension",
+     "id": "moduleNote",
+     "props": {
+      "parts": [
+       {
+        "nodes": [
+         {
+          "tag": "h3",
+          "attrs": {},
+          "children": [
+           "Module 1.4 · Shaping Your Opportunity"
+          ]
+         }
+        ]
+       },
+       {
+        "status": "1.4",
+        "complete": "All five lessons self-completed locally. Module 1.4 learning pack complete.",
+        "incomplete": "{count} / 5 lessons self-completed locally. Complete each lesson separately."
+       },
+       {
+        "nodes": [
+         {
+          "tag": "p",
+          "attrs": {},
+          "children": [
+           "Self-completion records learning, not validated claims or venture approval."
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "type": "next"
+    }
+   ]
+  }
+ ],
+ "nav": [
+  {
+   "id": "watch",
+   "label": "Watch"
+  },
+  {
+   "id": "learn",
+   "label": "Learn"
+  },
+  {
+   "id": "build",
+   "label": "Build"
+  },
+  {
+   "id": "coach",
+   "label": "Ask AI"
+  },
+  {
+   "id": "challenge",
+   "label": "Challenge"
+  },
+  {
+   "id": "quiz",
+   "label": "Knowledge check"
+  },
+  {
+   "id": "finish",
+   "label": "Deliver"
+  }
+ ]
+}

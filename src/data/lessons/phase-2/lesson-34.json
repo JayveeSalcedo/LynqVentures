@@ -1,0 +1,778 @@
+{
+  "number": 34,
+  "phase": 2,
+  "module": "2.3",
+  "title": "Explore Commitment and Payment Assumptions",
+  "hero": {
+    "eyebrow": "Module 2.3 · Testing Value and Behaviour · Lesson 34",
+    "title": "Explore Commitment and Payment Assumptions.",
+    "intro": "Distinguish interest, time commitment, stated price preference and actual payment. Plan one transparent, voluntary check with clear offer limits and honest evidence status.",
+    "badges": [
+      "Beginner friendly"
+    ],
+    "meta": "35–45 min · Recommended: Lesson 33"
+  },
+  "fields": [
+    {
+      "id": "context",
+      "label": "Customer/context, proposed offer and assumption from the measurement plan",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Plan one voluntary check; preserve offer limits and unknown payment status."
+    },
+    {
+      "id": "commitment",
+      "label": "One commitment/payment claim: interest / time / trial action / stated price preference / actual payment",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Plan one voluntary check; preserve offer limits and unknown payment status."
+    },
+    {
+      "id": "terms",
+      "label": "Honest offer scope, availability, price status, obligations and what is not delivered",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Plan one voluntary check; preserve offer limits and unknown payment status."
+    },
+    {
+      "id": "check",
+      "label": "Permitted neutral method and voluntary request; no pressure or invented scarcity",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Plan one voluntary check; preserve offer limits and unknown payment status."
+    },
+    {
+      "id": "evidenceRule",
+      "label": "Observable evidence and consistent unit; reported intention versus actual action/payment status",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Plan one voluntary check; preserve offer limits and unknown payment status."
+    },
+    {
+      "id": "boundaries",
+      "label": "Review rule, alternative explanations, incentives, stop conditions and unresolved evidence",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Plan one voluntary check; preserve offer limits and unknown payment status."
+    },
+    {
+      "id": "safeguards",
+      "label": "Permission/privacy and delivery safeguards; any future payment/refund/terms review remains pending",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Plan one voluntary check; preserve offer limits and unknown payment status."
+    },
+    {
+      "id": "ownerPlan",
+      "label": "Owner, timing, resource boundary and next review; planned/not run/rehearsal/actual status",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Plan one voluntary check; preserve offer limits and unknown payment status."
+    },
+    {
+      "id": "support",
+      "label": "Optional references or support",
+      "kind": "textarea",
+      "required": false,
+      "maxLength": 2000
+    },
+    {
+      "id": "bias",
+      "label": "Could incentives, pressure, unclear availability or polite agreement inflate the signal?",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "counter",
+      "label": "What cancellation, non-action or alternative explanation would weaken your claim?",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "constraint",
+      "label": "Which delivery, terms, permission or data-handling issue must be resolved before execution?",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    }
+  ],
+  "questions": [
+    {
+      "prompt": "A person attends an optional concept demo. What is supported?",
+      "options": [
+        "Proven willingness to pay",
+        "A bounded time commitment in that context",
+        "Guaranteed recurring revenue"
+      ],
+      "answer": 1,
+      "explanation": "Attendance is not a purchase or proof of retention."
+    },
+    {
+      "prompt": "A hypothetical price answer should be recorded as what?",
+      "options": [
+        "Stated preference, not actual payment",
+        "Verified revenue",
+        "A guaranteed order"
+      ],
+      "answer": 0,
+      "explanation": "Keep hypothetical answers separate from transactions and forecasts."
+    },
+    {
+      "prompt": "Before a future actual payment test, what is needed?",
+      "options": [
+        "An undefined promise",
+        "False scarcity",
+        "Reviewed offer/delivery scope, terms, payment handling and refund/cancellation arrangements"
+      ],
+      "answer": 2,
+      "explanation": "Resolve actual delivery and handling before any real payment test; none is connected here."
+    }
+  ],
+  "checklist": [
+    {
+      "kind": "studied",
+      "label": "Storyboard/transcript reviewed"
+    },
+    {
+      "kind": "fields",
+      "label": "Eight worksheet fields complete",
+      "ids": [
+        "context",
+        "commitment",
+        "terms",
+        "check",
+        "evidenceRule",
+        "boundaries",
+        "safeguards",
+        "ownerPlan"
+      ]
+    },
+    {
+      "kind": "fields",
+      "label": "Three red-team reflections complete",
+      "ids": [
+        "bias",
+        "counter",
+        "constraint"
+      ]
+    },
+    {
+      "kind": "quiz",
+      "label": "Quiz 3 / 3 correct"
+    },
+    {
+      "kind": "honest",
+      "label": "Final self-review confirmed"
+    }
+  ],
+  "deliverable": {
+    "title": "LYNQ Academy — Commitment and Payment Assumption Brief",
+    "filename": "LYNQ-Commitment-and-Payment-Assumption-Brief.md",
+    "headerLines": [
+      "Phase 02 · Module {module} · Lesson {lesson}",
+      "Status: {status}"
+    ],
+    "fieldIds": [
+      "context",
+      "commitment",
+      "terms",
+      "check",
+      "evidenceRule",
+      "boundaries",
+      "safeguards",
+      "ownerPlan"
+    ],
+    "footer": "No real AI, test execution, source verification or demand validation.",
+    "previewFooter": "This plan does not prove demand or represent completed research."
+  },
+  "sections": [
+    {
+      "id": "watch",
+      "label": "01 / WATCH",
+      "heading": "What does the customer actually commit to?",
+      "blocks": [
+        {
+          "type": "video",
+          "title": "Explore Commitment and Payment Assumptions",
+          "subtitle": "Planned 2½-minute explainer + worksheet demo",
+          "note": "No playable video or generated media is attached."
+        },
+        {
+          "type": "storyboard",
+          "scenes": [
+            {
+              "title": "Separate kinds of commitment",
+              "visual": "Editable interest/time/action/payment cards",
+              "narration": "Interest, giving time, taking a trial action, stating a price preference and making a payment are different signals. A stronger-looking signal still needs its context and limits. Do not treat a sign-up or compliment as a purchase."
+            },
+            {
+              "title": "Choose one assumption",
+              "visual": "Customer and offer cards",
+              "narration": "State the offer and one assumption you want to explore. Ask who decides, who uses it and what the current alternative is. A hypothetical price answer is reported preference, not a payment or a forecast of revenue."
+            },
+            {
+              "title": "Explain the offer honestly",
+              "visual": "Prototype and availability disclosure cards",
+              "narration": "Explain what exists, what is proposed and what would be delivered. Make participation voluntary. Do not invent scarcity, hide manual work or imply a service is available when it is not."
+            },
+            {
+              "title": "Plan a bounded check",
+              "visual": "Fictional scheduled-demo request",
+              "narration": "A voluntary scheduled demo may explore a time commitment; record accepted, scheduled, attended or cancelled separately. It does not establish payment. If exploring price language, use neutral questions and preserve hypothetical status."
+            },
+            {
+              "title": "Keep payments separate",
+              "visual": "No payment connected card",
+              "narration": "This lesson collects no money. Any future real payment test needs reviewed offer terms, delivery capability, payment handling and refund or cancellation arrangements before it begins. Do not take payment for an undefined or unfulfillable promise."
+            },
+            {
+              "title": "Write the brief",
+              "visual": "Approved actual Lesson 34 worksheet demo",
+              "narration": "Create your Commitment and Payment Assumption Brief with claim, honest terms, method, evidence rule and safeguards. If no test ran, write not run. Rehearsal is practice. One action or purchase does not prove repeated demand, retention or sustainable revenue."
+            }
+          ],
+          "summary": "Explore the six-scene storyboard placeholder",
+          "sceneMeta": "Planned scene {scene} · about 25 seconds in final edit"
+        },
+        {
+          "type": "transcript",
+          "scenes": [
+            {
+              "title": "Separate kinds of commitment",
+              "visual": "Editable interest/time/action/payment cards",
+              "narration": "Interest, giving time, taking a trial action, stating a price preference and making a payment are different signals. A stronger-looking signal still needs its context and limits. Do not treat a sign-up or compliment as a purchase."
+            },
+            {
+              "title": "Choose one assumption",
+              "visual": "Customer and offer cards",
+              "narration": "State the offer and one assumption you want to explore. Ask who decides, who uses it and what the current alternative is. A hypothetical price answer is reported preference, not a payment or a forecast of revenue."
+            },
+            {
+              "title": "Explain the offer honestly",
+              "visual": "Prototype and availability disclosure cards",
+              "narration": "Explain what exists, what is proposed and what would be delivered. Make participation voluntary. Do not invent scarcity, hide manual work or imply a service is available when it is not."
+            },
+            {
+              "title": "Plan a bounded check",
+              "visual": "Fictional scheduled-demo request",
+              "narration": "A voluntary scheduled demo may explore a time commitment; record accepted, scheduled, attended or cancelled separately. It does not establish payment. If exploring price language, use neutral questions and preserve hypothetical status."
+            },
+            {
+              "title": "Keep payments separate",
+              "visual": "No payment connected card",
+              "narration": "This lesson collects no money. Any future real payment test needs reviewed offer terms, delivery capability, payment handling and refund or cancellation arrangements before it begins. Do not take payment for an undefined or unfulfillable promise."
+            },
+            {
+              "title": "Write the brief",
+              "visual": "Approved actual Lesson 34 worksheet demo",
+              "narration": "Create your Commitment and Payment Assumption Brief with claim, honest terms, method, evidence rule and safeguards. If no test ran, write not run. Rehearsal is practice. One action or purchase does not prove repeated demand, retention or sustainable revenue."
+            }
+          ],
+          "summary": "Read the full narration / transcript"
+        },
+        {
+          "type": "videoPrompt",
+          "prompt": "Create an engaging LYNQ Academy explainer and commitment-check demo: Module 2.3 Lesson 34 — Explore Commitment and Payment Assumptions. Editorial target 150 seconds, 16:9 1080p. Navy #0B2338, teal #087D79, mint #BCF2DF, white. Diverse adults in a contemporary Dubai workspace; warm plain English narration. Fictional planned examples labeled Illustrative planned check in post. Distinguish interest, time commitment, trial action, stated price preference and actual payment. Teach honest availability, voluntary request, bounded evidence and review safeguards. No fabricated purchases, revenue, customer results, payment screens, scarcity or live checkout.\n\nSCENE 1: Separate kinds of commitment\nVisual placeholder: Editable interest/time/action/payment cards\nNarration: Interest, giving time, taking a trial action, stating a price preference and making a payment are different signals. A stronger-looking signal still needs its context and limits. Do not treat a sign-up or compliment as a purchase.\n\nSCENE 2: Choose one assumption\nVisual placeholder: Customer and offer cards\nNarration: State the offer and one assumption you want to explore. Ask who decides, who uses it and what the current alternative is. A hypothetical price answer is reported preference, not a payment or a forecast of revenue.\n\nSCENE 3: Explain the offer honestly\nVisual placeholder: Prototype and availability disclosure cards\nNarration: Explain what exists, what is proposed and what would be delivered. Make participation voluntary. Do not invent scarcity, hide manual work or imply a service is available when it is not.\n\nSCENE 4: Plan a bounded check\nVisual placeholder: Fictional scheduled-demo request\nNarration: A voluntary scheduled demo may explore a time commitment; record accepted, scheduled, attended or cancelled separately. It does not establish payment. If exploring price language, use neutral questions and preserve hypothetical status.\n\nSCENE 5: Keep payments separate\nVisual placeholder: No payment connected card\nNarration: This lesson collects no money. Any future real payment test needs reviewed offer terms, delivery capability, payment handling and refund or cancellation arrangements before it begins. Do not take payment for an undefined or unfulfillable promise.\n\nSCENE 6: Write the brief\nVisual placeholder: Approved actual Lesson 34 worksheet demo\nNarration: Create your Commitment and Payment Assumption Brief with claim, honest terms, method, evidence rule and safeguards. If no test ran, write not run. Rehearsal is practice. One action or purchase does not prove repeated demand, retention or sustainable revenue.\n\nFirst provide timings, storyboard and shot prompts. Generate short shots supported by the selected Gemini/Veo account; assemble with separately recorded approved narration. Composite exact branding, captions and editable Interest / Time / Action / Stated preference / Actual payment / Unknown cards in post; no generated UI/text/logos. Record approved actual Lesson 34 worksheet with fictional planned data, no results. Deliver H.264 MP4, editable project, audio, transcript, VTT/SRT, thumbnail and rights/provenance. Native-reviewed Arabic narration and RTL graphics separately. Review offer honesty, source status, privacy, pacing, audio and mobile readability. Prototype generates no video, processes no payments and runs no test.",
+          "filename": "LYNQ-Lesson-34-Gemini-Video-Prompt.md",
+          "summary": "Gemini video prompt — ready to copy"
+        },
+        {
+          "type": "studied",
+          "label": "I reviewed the storyboard or transcript."
+        }
+      ]
+    },
+    {
+      "id": "learn",
+      "label": "02 / LEARN",
+      "heading": "Name the commitment before interpreting it.",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "A ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "commitment"
+                  ]
+                },
+                " is a specific action or obligation someone agrees to. ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "Stated price preference"
+                  ]
+                },
+                " is what they say about a hypothetical price. ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "Actual payment"
+                  ]
+                },
+                " requires a real verified transaction under a defined offer; this prototype processes none."
+              ]
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "grid2"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "note"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "children": [
+                        "Different signals"
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "children": [
+                        "Compliment: reported interest.",
+                        {
+                          "tag": "br",
+                          "attrs": {},
+                          "children": []
+                        },
+                        "Demo accepted: stated agreement.",
+                        {
+                          "tag": "br",
+                          "attrs": {},
+                          "children": []
+                        },
+                        "Demo attended: observed time commitment.",
+                        {
+                          "tag": "br",
+                          "attrs": {},
+                          "children": []
+                        },
+                        "Trial task completed: bounded task action.",
+                        {
+                          "tag": "br",
+                          "attrs": {},
+                          "children": []
+                        },
+                        "Hypothetical price answer: stated preference."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "note"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "children": [
+                        "Keep limits visible"
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "children": [
+                        "Attendance does not prove purchase. A purchase under one offer does not prove retention or sustainable revenue. Context, delivery, incentives and cancellations matter."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "ol",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Specify customer, user/decision-maker context and offer."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Choose one claim and the exact commitment you will request."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Disclose proposed versus available capabilities and any obligations."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Use a neutral, voluntary request with no pressure or false scarcity."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Record the actual status and source; keep intention and action separate."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Set a review rule, stop conditions and safeguards before testing."
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "note"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "children": [
+                    "Illustrative planned check — no outreach sent"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    "Claim: relevant adults will give time to explore a clearly labeled registration concept. Request: an optional 15-minute concept demo through an approved route. Record invited, accepted, scheduled, attended or cancelled distinctly. Attendance supports a bounded time-commitment claim only; payment remains unknown. Access pending, no test run."
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "When exploring price language, ask neutrally about the current alternative and decision context. Do not insert hypothetical answers into revenue projections as verified purchases. Incentives tied to participation may affect the signal; disclose and record them. Never reward only positive feedback."
+              ]
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "This lesson designs a check and collects no money. Before any future actual payment test, the responsible owners must review deliverable scope, availability, terms, payment handling and refund/cancellation arrangements. Do not use an undefined or unfulfillable offer. Use anonymous planning notes here; no contact details or payment data."
+              ]
+            },
+            {
+              "tag": "lesson-link",
+              "attrs": {
+                "lesson": "33",
+                "class": "btn secondary"
+              },
+              "children": [
+                "Review measurement plan"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "practice",
+          "legend": "Practice: a person attends your optional concept demo.",
+          "prompt": "",
+          "options": [
+            {
+              "label": "Record proven willingness to pay",
+              "feedback": "Attendance does not prove willingness to pay or recurring revenue."
+            },
+            {
+              "label": "Record attendance as a bounded time commitment",
+              "feedback": "Record attendance as a bounded time commitment; payment, repeated use and sustainable revenue remain unknown."
+            },
+            {
+              "label": "Forecast guaranteed recurring revenue",
+              "feedback": "Attendance does not prove willingness to pay or recurring revenue."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "build",
+      "label": "03 / BUILD",
+      "heading": "Your Commitment and Payment Assumption Brief.",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Choose one specific claim and define the evidence it needs. If no test ran, write “not run.” Keep rehearsal data fictional and future payment readiness pending until reviewed."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "saveStatus"
+        },
+        {
+          "type": "fields",
+          "ids": [
+            "context",
+            "commitment",
+            "terms",
+            "check",
+            "evidenceRule",
+            "boundaries",
+            "safeguards",
+            "ownerPlan",
+            "support"
+          ]
+        },
+        {
+          "type": "deliverable",
+          "previewLabel": "Preview my commitment brief",
+          "downloadLabel": "Download Commitment and Payment Assumption Brief"
+        },
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "note"
+              },
+              "children": [
+                "Local storage is plaintext. No outreach, scheduling, payment handling, revenue forecast or test execution is connected. Use anonymous planning notes only."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "reset",
+          "label": "Clear local draft"
+        }
+      ]
+    },
+    {
+      "id": "coach",
+      "label": "04 / ASK AI",
+      "heading": "Venture Coach · simulated",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Scripted demonstration only. No live AI, source verification, experiment execution or backend is connected."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "extension",
+          "id": "coach",
+          "props": {
+            "modes": [
+              {
+                "id": "teach",
+                "label": "Teach",
+                "response": "Name one commitment, disclose offer limits and use a voluntary request. Keep interest, stated price preference, action and actual payment distinct. No payments or tests are connected."
+              },
+              {
+                "id": "guide",
+                "label": "Guide",
+                "response": "Name one commitment, disclose offer limits and use a voluntary request. Keep interest, stated price preference, action and actual payment distinct. No payments or tests are connected."
+              },
+              {
+                "id": "review",
+                "label": "Review",
+                "response": "Commitment Brief check: {missing} required fields empty. Scripted field counting cannot verify offer terms, delivery, consent, transactions or willingness to pay."
+              },
+              {
+                "id": "challenge",
+                "label": "Challenge",
+                "response": "Name one commitment, disclose offer limits and use a voluntary request. Keep interest, stated price preference, action and actual payment distinct. No payments or tests are connected."
+              }
+            ],
+            "initial": "teach",
+            "questionResponse": "This is a scripted demonstration, not an AI answer to your question.",
+            "countIds": [
+              "context",
+              "commitment",
+              "terms",
+              "check",
+              "evidenceRule",
+              "boundaries",
+              "safeguards",
+              "ownerPlan"
+            ],
+            "questionLabel": "Optional question for the demonstration",
+            "submitLabel": "Show simulated guidance"
+          }
+        }
+      ]
+    },
+    {
+      "id": "challenge",
+      "label": "05 / CHALLENGE",
+      "heading": "Challenge the commitment claim.",
+      "blocks": [
+        {
+          "type": "fields",
+          "ids": [
+            "bias",
+            "counter",
+            "constraint"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz",
+      "label": "06 / KNOWLEDGE CHECK",
+      "heading": "Check your understanding.",
+      "blocks": [
+        {
+          "type": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "label": "07 / DELIVER & PROGRESS",
+      "heading": "Your deliverable: a Commitment and Payment Assumption Brief.",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Download the offer/context, commitment claim, honest terms, method, evidence rule, limits and safeguards. Earlier briefs save separately."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checklist"
+        },
+        {
+          "type": "honest",
+          "label": "I separated interest, intention, action and payment, kept availability and status honest, avoided pressure and unsupported revenue claims, and recorded unresolved safeguards."
+        },
+        {
+          "type": "complete",
+          "label": "Mark Lesson 34 complete locally",
+          "completedLabel": "Lesson 34 self-completed locally",
+          "completedNotice": "Lesson 34 self-completed locally. This is not validated demand or a submitted assignment.",
+          "incompleteNotice": "Complete the remaining requirements before local self-completion."
+        },
+        {
+          "type": "extension",
+          "id": "moduleNote",
+          "props": {
+            "heading": "Module 2.3 · Testing Value and Behaviour",
+            "lessons": [
+              31,
+              32,
+              33,
+              34,
+              35
+            ],
+            "complete": "All five lessons self-completed locally. Module 2.3 learning pack complete; execution, evidence verification, demand and venture approval remain separate.",
+            "incomplete": "{count} / 5 lessons self-completed locally. Complete each separately to close the learning module.",
+            "notes": [
+              {
+                "tag": "p",
+                "attrs": {},
+                "children": [
+                  "Self-completion records preparation, not a recruited participant, transaction, verified willingness to pay or sustainable revenue."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {
+                "class": "help"
+              },
+              "children": [
+                "Learning completion is separate from validated demand."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "next"
+        }
+      ]
+    }
+  ],
+  "nav": [
+    {
+      "id": "watch",
+      "label": "Watch"
+    },
+    {
+      "id": "learn",
+      "label": "Learn"
+    },
+    {
+      "id": "build",
+      "label": "Build"
+    },
+    {
+      "id": "coach",
+      "label": "Ask AI"
+    },
+    {
+      "id": "challenge",
+      "label": "Challenge"
+    },
+    {
+      "id": "quiz",
+      "label": "Knowledge check"
+    },
+    {
+      "id": "finish",
+      "label": "Deliver"
+    }
+  ]
+}

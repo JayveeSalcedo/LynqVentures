@@ -1,0 +1,792 @@
+{
+  "number": 35,
+  "phase": 2,
+  "module": "2.3",
+  "title": "Your Experiment Evidence Log",
+  "hero": {
+    "eyebrow": "Module 2.3 · Testing Value and Behaviour · Lesson 35",
+    "title": "Your Experiment Evidence Log.",
+    "intro": "Bring the claim, format, measurement and commitment work into one traceable log. Keep plans, actual records, rehearsal examples, deviations and interpretations clearly separated.",
+    "badges": [
+      "Beginner friendly"
+    ],
+    "meta": "35–45 min · Recommended: Lessons 31–34"
+  },
+  "fields": [
+    {
+      "id": "experiment",
+      "label": "Experiment ID/status: planned / not run / rehearsal / actual, owner, context and learning question",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Preserve plan, source status and deviations; use not conducted/unknown when appropriate."
+    },
+    {
+      "id": "design",
+      "label": "Original claim, format, offer/stimulus, evidence rule and references to Lessons 31–34",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Preserve plan, source status and deviations; use not conducted/unknown when appropriate."
+    },
+    {
+      "id": "execution",
+      "label": "Execution record: what happened or not conducted; dates/context, changes and protocol deviations",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Preserve plan, source status and deviations; use not conducted/unknown when appropriate."
+    },
+    {
+      "id": "sources",
+      "label": "Anonymous source index and authorised record references; quality and missingness",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Preserve plan, source status and deviations; use not conducted/unknown when appropriate."
+    },
+    {
+      "id": "results",
+      "label": "Actual bounded results or not run; consistent unit, denominator, assistance and cancellations",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Preserve plan, source status and deviations; use not conducted/unknown when appropriate."
+    },
+    {
+      "id": "analysis",
+      "label": "Interpretation against the original rule: supports / weakens / inconclusive, with alternatives",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Preserve plan, source status and deviations; use not conducted/unknown when appropriate."
+    },
+    {
+      "id": "limits",
+      "label": "Contradictions, selection/source limits, unsupported claims and unresolved safeguards",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Preserve plan, source status and deviations; use not conducted/unknown when appropriate."
+    },
+    {
+      "id": "nextReview",
+      "label": "Next learning action, owner/timing, secure storage/retention review and handoff to Lesson 36",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Preserve plan, source status and deviations; use not conducted/unknown when appropriate."
+    },
+    {
+      "id": "support",
+      "label": "Optional references or support",
+      "kind": "textarea",
+      "required": false,
+      "maxLength": 2000
+    },
+    {
+      "id": "bias",
+      "label": "Did changed rules, coaching or selective records make the result look stronger?",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "counter",
+      "label": "Which contradiction, missing source or alternative explanation could change your conclusion?",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "constraint",
+      "label": "What source, permission, storage or execution limit must stay visible at handoff?",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    }
+  ],
+  "questions": [
+    {
+      "prompt": "The facilitator coached during a planned unassisted task. What should you do?",
+      "options": [
+        "Hide it",
+        "Record the deviation and limit the interpretation",
+        "Rewrite the original rule as if unchanged"
+      ],
+      "answer": 1,
+      "explanation": "Preserve what actually happened and its effect on evidence quality."
+    },
+    {
+      "prompt": "No experiment ran. What belongs in execution/results?",
+      "options": [
+        "Not conducted / unknown, with a prepared template",
+        "Invented measured zeros",
+        "A fabricated positive outcome"
+      ],
+      "answer": 0,
+      "explanation": "Design completion does not create an executed experiment."
+    },
+    {
+      "prompt": "Does completing Module 2.3 verify evidence or approve launch?",
+      "options": [
+        "Yes automatically",
+        "Yes if every field is long",
+        "No; it records learning progress, with human evidence/venture review separate"
+      ],
+      "answer": 2,
+      "explanation": "Keep learning completion distinct from verified evidence and venture approval."
+    }
+  ],
+  "checklist": [
+    {
+      "kind": "studied",
+      "label": "Storyboard/transcript reviewed"
+    },
+    {
+      "kind": "fields",
+      "label": "Eight worksheet fields complete",
+      "ids": [
+        "experiment",
+        "design",
+        "execution",
+        "sources",
+        "results",
+        "analysis",
+        "limits",
+        "nextReview"
+      ]
+    },
+    {
+      "kind": "fields",
+      "label": "Three red-team reflections complete",
+      "ids": [
+        "bias",
+        "counter",
+        "constraint"
+      ]
+    },
+    {
+      "kind": "quiz",
+      "label": "Quiz 3 / 3 correct"
+    },
+    {
+      "kind": "honest",
+      "label": "Final self-review confirmed"
+    }
+  ],
+  "deliverable": {
+    "title": "LYNQ Academy — Experiment Evidence Log",
+    "filename": "LYNQ-Experiment-Evidence-Log.md",
+    "headerLines": [
+      "Phase 02 · Module {module} · Lesson {lesson}",
+      "Status: {status}"
+    ],
+    "fieldIds": [
+      "experiment",
+      "design",
+      "execution",
+      "sources",
+      "results",
+      "analysis",
+      "limits",
+      "nextReview"
+    ],
+    "footer": "No real AI, test execution, source verification or demand validation.",
+    "previewFooter": "This plan does not prove demand or represent completed research."
+  },
+  "sections": [
+    {
+      "id": "watch",
+      "label": "01 / WATCH",
+      "heading": "Can someone trace your conclusion back to the test?",
+      "blocks": [
+        {
+          "type": "video",
+          "title": "Your Experiment Evidence Log",
+          "subtitle": "Planned 2½-minute explainer + worksheet demo",
+          "note": "No playable video or generated media is attached."
+        },
+        {
+          "type": "storyboard",
+          "scenes": [
+            {
+              "title": "Create a traceable record",
+              "visual": "Editable experiment ID/status cards",
+              "narration": "An experiment evidence log connects a claim, planned method, actual records and interpretation. Label planned, not run, rehearsal or actual status. A completed lesson is not an experiment conducted."
+            },
+            {
+              "title": "Preserve the original design",
+              "visual": "Four anonymous brief cards",
+              "narration": "Bring your value proposition claim, format, measurement definitions and commitment assumptions together. Preserve the original evidence rule. Review earlier drafts manually; the prototype imports no data automatically."
+            },
+            {
+              "title": "Record execution and deviations",
+              "visual": "Planned method and changed-method columns",
+              "narration": "For an actual test, record what happened and any changes, assistance, interruptions or deviations. Do not rewrite the original plan to fit a result. If no test ran, write not conducted and keep result fields unknown."
+            },
+            {
+              "title": "Index sources and counts",
+              "visual": "Anonymous source codes and outcome categories",
+              "narration": "Link records to anonymous source codes and authorised secure references. Keep duplicates, missingness, denominator, assistance and cancellations visible. Do not upload private source records into this worksheet."
+            },
+            {
+              "title": "Interpret within the rule",
+              "visual": "Supports / Weakens / Inconclusive cards",
+              "narration": "Compare the bounded result with the original rule and state alternative explanations. Preserve contradictions. A prototype action or time commitment does not automatically prove adoption, payment, retention or a market-wide rate."
+            },
+            {
+              "title": "Close the learning pack",
+              "visual": "Approved actual Lesson 35 worksheet demo",
+              "narration": "Create your Experiment Evidence Log and choose the next review action. All five lessons must be completed separately to close Module 2.3. Learning completion does not verify source accuracy, approve launch or validate demand."
+            }
+          ],
+          "summary": "Explore the six-scene storyboard placeholder",
+          "sceneMeta": "Planned scene {scene} · about 25 seconds in final edit"
+        },
+        {
+          "type": "transcript",
+          "scenes": [
+            {
+              "title": "Create a traceable record",
+              "visual": "Editable experiment ID/status cards",
+              "narration": "An experiment evidence log connects a claim, planned method, actual records and interpretation. Label planned, not run, rehearsal or actual status. A completed lesson is not an experiment conducted."
+            },
+            {
+              "title": "Preserve the original design",
+              "visual": "Four anonymous brief cards",
+              "narration": "Bring your value proposition claim, format, measurement definitions and commitment assumptions together. Preserve the original evidence rule. Review earlier drafts manually; the prototype imports no data automatically."
+            },
+            {
+              "title": "Record execution and deviations",
+              "visual": "Planned method and changed-method columns",
+              "narration": "For an actual test, record what happened and any changes, assistance, interruptions or deviations. Do not rewrite the original plan to fit a result. If no test ran, write not conducted and keep result fields unknown."
+            },
+            {
+              "title": "Index sources and counts",
+              "visual": "Anonymous source codes and outcome categories",
+              "narration": "Link records to anonymous source codes and authorised secure references. Keep duplicates, missingness, denominator, assistance and cancellations visible. Do not upload private source records into this worksheet."
+            },
+            {
+              "title": "Interpret within the rule",
+              "visual": "Supports / Weakens / Inconclusive cards",
+              "narration": "Compare the bounded result with the original rule and state alternative explanations. Preserve contradictions. A prototype action or time commitment does not automatically prove adoption, payment, retention or a market-wide rate."
+            },
+            {
+              "title": "Close the learning pack",
+              "visual": "Approved actual Lesson 35 worksheet demo",
+              "narration": "Create your Experiment Evidence Log and choose the next review action. All five lessons must be completed separately to close Module 2.3. Learning completion does not verify source accuracy, approve launch or validate demand."
+            }
+          ],
+          "summary": "Read the full narration / transcript"
+        },
+        {
+          "type": "videoPrompt",
+          "prompt": "Create an engaging LYNQ Academy explainer and evidence-log demo: Module 2.3 Lesson 35 — Your Experiment Evidence Log. Editorial target 150 seconds, 16:9 1080p. Navy #0B2338, teal #087D79, mint #BCF2DF, white. Diverse adults in a contemporary Dubai workspace; warm plain English narration. Fictional examples labeled Illustrative rehearsal or Planned/not run in post. Teach traceability from original claim/method/rule to execution, sources, bounded results, deviations, interpretation and next action. No fabricated actual tests, counts, payments, traction or demand claims.\n\nSCENE 1: Create a traceable record\nVisual placeholder: Editable experiment ID/status cards\nNarration: An experiment evidence log connects a claim, planned method, actual records and interpretation. Label planned, not run, rehearsal or actual status. A completed lesson is not an experiment conducted.\n\nSCENE 2: Preserve the original design\nVisual placeholder: Four anonymous brief cards\nNarration: Bring your value proposition claim, format, measurement definitions and commitment assumptions together. Preserve the original evidence rule. Review earlier drafts manually; the prototype imports no data automatically.\n\nSCENE 3: Record execution and deviations\nVisual placeholder: Planned method and changed-method columns\nNarration: For an actual test, record what happened and any changes, assistance, interruptions or deviations. Do not rewrite the original plan to fit a result. If no test ran, write not conducted and keep result fields unknown.\n\nSCENE 4: Index sources and counts\nVisual placeholder: Anonymous source codes and outcome categories\nNarration: Link records to anonymous source codes and authorised secure references. Keep duplicates, missingness, denominator, assistance and cancellations visible. Do not upload private source records into this worksheet.\n\nSCENE 5: Interpret within the rule\nVisual placeholder: Supports / Weakens / Inconclusive cards\nNarration: Compare the bounded result with the original rule and state alternative explanations. Preserve contradictions. A prototype action or time commitment does not automatically prove adoption, payment, retention or a market-wide rate.\n\nSCENE 6: Close the learning pack\nVisual placeholder: Approved actual Lesson 35 worksheet demo\nNarration: Create your Experiment Evidence Log and choose the next review action. All five lessons must be completed separately to close Module 2.3. Learning completion does not verify source accuracy, approve launch or validate demand.\n\nFirst provide timings, storyboard and shot prompts. Generate short shots supported by the selected Gemini/Veo account; assemble with separately recorded approved narration. Composite exact branding, captions and editable Plan / Execution / Source / Result / Deviation / Interpretation cards in post. No generated UI/text/logos. Record approved actual Lesson 35 worksheet with fictional rehearsal or planned data, visibly labeled. Deliver H.264 MP4, editable project, audio, transcript, VTT/SRT, thumbnail and rights/provenance. Native-reviewed Arabic narration and RTL graphics separately. Review source honesty, counting consistency, privacy, pacing, audio and mobile readability. Prototype generates no video, verifies no evidence and runs no test.",
+          "filename": "LYNQ-Lesson-35-Gemini-Video-Prompt.md",
+          "summary": "Gemini video prompt — ready to copy"
+        },
+        {
+          "type": "studied",
+          "label": "I reviewed the storyboard or transcript."
+        }
+      ]
+    },
+    {
+      "id": "learn",
+      "label": "02 / LEARN",
+      "heading": "Make the path from plan to conclusion visible.",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "An ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "evidence log"
+                  ]
+                },
+                " connects the original claim and review rule to records and interpretation. A ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "deviation"
+                  ]
+                },
+                " is a change from the planned method. ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "Traceability"
+                  ]
+                },
+                " lets a reviewer follow a conclusion back to its sources."
+              ]
+            },
+            {
+              "tag": "ol",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Assign an experiment code and honest status."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Preserve the original claim, method and before-test review rule."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Record execution and deviations, or explicitly mark not conducted."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Index anonymous sources, quality, missingness and bounded counts."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Compare results to the original rule; keep inference separate."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "State limits and a next learning action with an owner."
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "grid2"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "note"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "children": [
+                        "Planned / not run"
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "children": [
+                        "Design and evidence template can be complete while execution and results remain “not conducted / unknown.” Do not enter measured zeros or invent participants."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "note"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "children": [
+                        "Rehearsal / actual"
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "children": [
+                        "Fictional rehearsal is practice, not customer evidence. Actual records need honest source references and context; completion cannot verify them."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "note"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "children": [
+                    "Illustrative planned log"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    "E01: not run. Claim: a relevant adult can explain a registration concept without coaching. Format: labeled concept card. Original rule: an uncoached accurate explanation supports clarity only; coaching or unclear source data is inconclusive. Execution: not conducted, access pending. Sources/results: none/unknown. Next action: resolve access and safeguards before a permitted check. No adoption or payment claim."
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "If a facilitator helped during an actual check, record it as a deviation; do not quietly count an assisted outcome as unassisted. Keep rejected assumptions, cancelled sessions and contrary records visible. Do not change the original rule after seeing results without recording the change and its effect."
+              ]
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Review Lessons 31–34 manually; they save separately and are not auto-imported. Use anonymous summaries here, with private originals in an approved secure system. No upload, analytics, source verification, transaction handling or experiment execution is connected."
+              ]
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "actions"
+              },
+              "children": [
+                {
+                  "tag": "lesson-link",
+                  "attrs": {
+                    "lesson": "31",
+                    "class": "btn secondary"
+                  },
+                  "children": [
+                    "Claim brief"
+                  ]
+                },
+                {
+                  "tag": "lesson-link",
+                  "attrs": {
+                    "lesson": "32",
+                    "class": "btn secondary"
+                  },
+                  "children": [
+                    "Format"
+                  ]
+                },
+                {
+                  "tag": "lesson-link",
+                  "attrs": {
+                    "lesson": "33",
+                    "class": "btn secondary"
+                  },
+                  "children": [
+                    "Measurement"
+                  ]
+                },
+                {
+                  "tag": "lesson-link",
+                  "attrs": {
+                    "lesson": "34",
+                    "class": "btn secondary"
+                  },
+                  "children": [
+                    "Commitment"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "practice",
+          "legend": "Practice: the facilitator coached during the test.",
+          "prompt": "",
+          "options": [
+            {
+              "label": "Hide the coaching",
+              "feedback": "Do not hide deviations or rewrite the original rule without a visible change record."
+            },
+            {
+              "label": "Record the deviation and limit the interpretation",
+              "feedback": "Record the deviation, retain the original rule and limit the interpretation; do not inflate assisted evidence."
+            },
+            {
+              "label": "Rewrite the original rule to guarantee success",
+              "feedback": "Do not hide deviations or rewrite the original rule without a visible change record."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "build",
+      "label": "03 / BUILD",
+      "heading": "Your Experiment Evidence Log.",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Log one planned, not-run, rehearsal or actual experiment honestly. No invented results are required. Manually reference earlier briefs and preserve the original rule."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "saveStatus"
+        },
+        {
+          "type": "fields",
+          "ids": [
+            "experiment",
+            "design",
+            "execution",
+            "sources",
+            "results",
+            "analysis",
+            "limits",
+            "nextReview",
+            "support"
+          ]
+        },
+        {
+          "type": "deliverable",
+          "previewLabel": "Preview my experiment log",
+          "downloadLabel": "Download Experiment Evidence Log"
+        },
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "note"
+              },
+              "children": [
+                "Local storage is plaintext. Use anonymous summaries; keep private originals outside this prototype. Field checks verify neither sources nor conclusions."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "reset",
+          "label": "Clear local draft"
+        }
+      ]
+    },
+    {
+      "id": "coach",
+      "label": "04 / ASK AI",
+      "heading": "Venture Coach · simulated",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Scripted demonstration only. No live AI, source verification, experiment execution or backend is connected."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "extension",
+          "id": "coach",
+          "props": {
+            "modes": [
+              {
+                "id": "teach",
+                "label": "Teach",
+                "response": "Preserve the original claim/method/rule, honest execution status, anonymous source index and deviations. Keep plans and results separate; no evidence verification or experiments are connected."
+              },
+              {
+                "id": "guide",
+                "label": "Guide",
+                "response": "Preserve the original claim/method/rule, honest execution status, anonymous source index and deviations. Keep plans and results separate; no evidence verification or experiments are connected."
+              },
+              {
+                "id": "review",
+                "label": "Review",
+                "response": "Experiment Log check: {missing} required fields empty. Scripted field counting cannot verify sources, execution, deviations, counts, conclusions or demand."
+              },
+              {
+                "id": "challenge",
+                "label": "Challenge",
+                "response": "Preserve the original claim/method/rule, honest execution status, anonymous source index and deviations. Keep plans and results separate; no evidence verification or experiments are connected."
+              }
+            ],
+            "initial": "teach",
+            "questionResponse": "This is a scripted demonstration, not an AI answer to your question.",
+            "countIds": [
+              "experiment",
+              "design",
+              "execution",
+              "sources",
+              "results",
+              "analysis",
+              "limits",
+              "nextReview"
+            ],
+            "questionLabel": "Optional question for the demonstration",
+            "submitLabel": "Show simulated guidance"
+          }
+        }
+      ]
+    },
+    {
+      "id": "challenge",
+      "label": "05 / CHALLENGE",
+      "heading": "Challenge the evidence chain.",
+      "blocks": [
+        {
+          "type": "fields",
+          "ids": [
+            "bias",
+            "counter",
+            "constraint"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz",
+      "label": "06 / KNOWLEDGE CHECK",
+      "heading": "Check your understanding.",
+      "blocks": [
+        {
+          "type": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "label": "07 / DELIVER & PROGRESS",
+      "heading": "Your deliverable: an Experiment Evidence Log.",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Download the original design, execution/status, source index, results/status, interpretation, limits and next review. Complete Lessons 31–35 separately to close Module 2.3."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checklist"
+        },
+        {
+          "type": "honest",
+          "label": "I preserved the original plan and rule, labeled execution/source status, recorded deviations and limits, and kept conclusions within the actual evidence."
+        },
+        {
+          "type": "complete",
+          "label": "Mark Lesson 35 complete locally",
+          "completedLabel": "Lesson 35 self-completed locally",
+          "completedNotice": "Lesson 35 self-completed locally. This is not validated demand or a submitted assignment.",
+          "incompleteNotice": "Complete the remaining requirements before local self-completion."
+        },
+        {
+          "type": "extension",
+          "id": "moduleNote",
+          "props": {
+            "heading": "Module 2.3 · Testing Value and Behaviour",
+            "lessons": [
+              31,
+              32,
+              33,
+              34,
+              35
+            ],
+            "complete": "All five lessons self-completed locally. Module 2.3 learning pack complete; execution, evidence verification, demand and venture approval remain separate.",
+            "incomplete": "{count} / 5 lessons self-completed locally. Complete each separately to close the learning module.",
+            "notes": [
+              {
+                "tag": "p",
+                "attrs": {},
+                "children": [
+                  "Learning-pack completion is separate from evidence verification, actual tests, demand, payment and venture approval."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {
+                "class": "help"
+              },
+              "children": [
+                "Learning completion is separate from validated demand."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "next"
+        }
+      ]
+    }
+  ],
+  "nav": [
+    {
+      "id": "watch",
+      "label": "Watch"
+    },
+    {
+      "id": "learn",
+      "label": "Learn"
+    },
+    {
+      "id": "build",
+      "label": "Build"
+    },
+    {
+      "id": "coach",
+      "label": "Ask AI"
+    },
+    {
+      "id": "challenge",
+      "label": "Challenge"
+    },
+    {
+      "id": "quiz",
+      "label": "Knowledge check"
+    },
+    {
+      "id": "finish",
+      "label": "Deliver"
+    }
+  ]
+}

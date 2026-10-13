@@ -1,0 +1,624 @@
+{
+  "number": 42,
+  "phase": 3,
+  "module": "3.1",
+  "title": "Prioritize Essential Features",
+  "hero": {
+    "eyebrow": "Module 3.1 · Designing the Product · Lesson 42",
+    "title": "Prioritize Essential Features.",
+    "intro": "Use the MVP scope from Lesson 41 to prioritise essential features for one customer task. Keep evidence, dependencies, safeguards and deferrals visible.",
+    "meta": "35–45 minutes · Recommended: Lesson 41"
+  },
+  "fields": [
+    {
+      "id": "scope",
+      "label": "MVP task, customer/context and scope reference from Lesson 41",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "basis",
+      "label": "Evidence/assumption basis, prototype limits and unresolved Validate conditions",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "features",
+      "label": "Candidate feature list: feature ID, customer task, proposed benefit and source/status",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "matrix",
+      "label": "Priority matrix: feature ID | Must/Should/Could/Defer | reason | effort unknown/range | dependency | evidence status",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "essential",
+      "label": "Smallest essential set and why the core task or safety/accessibility needs it",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "deferred",
+      "label": "Deferred/excluded features, trade-offs and what would justify revisiting them",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "checks",
+      "label": "Acceptance criteria, essential dependencies/safeguards and checks before implementation",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "handoff",
+      "label": "Owner/time boundary, unresolved questions and input for Lesson 43 user flow",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "bias",
+      "label": "Did founder preference or feature popularity override the scoped task?",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "counter",
+      "label": "Which dependency, contradiction or smaller essential set could change your priorities?",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "constraint",
+      "label": "Which essential safeguard, effort unknown or Validate condition blocks implementation?",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    }
+  ],
+  "questions": [
+    {
+      "prompt": "What makes a feature a Must for this MVP?",
+      "options": [
+        "The founder likes it",
+        "The scoped task cannot work responsibly without it",
+        "It is fashionable"
+      ],
+      "answer": 1,
+      "explanation": "Tie priority to the scoped task and necessary safeguards."
+    },
+    {
+      "prompt": "Effort has not been reviewed. What is honest?",
+      "options": [
+        "Unknown; assign a review",
+        "Invent a precise estimate",
+        "Call it free"
+      ],
+      "answer": 0,
+      "explanation": "Keep effort status and dependencies visible."
+    },
+    {
+      "prompt": "What passes into Lesson 43?",
+      "options": [
+        "Every imagined feature",
+        "A claim that demand is proven",
+        "The essential set, exclusions, dependencies and acceptance criteria"
+      ],
+      "answer": 2,
+      "explanation": "The selected task/features inform the user flow."
+    }
+  ],
+  "checklist": [
+    {
+      "kind": "studied",
+      "label": "Storyboard/transcript reviewed"
+    },
+    {
+      "kind": "fields",
+      "label": "All worksheet fields completed",
+      "ids": [
+        "scope",
+        "basis",
+        "features",
+        "matrix",
+        "essential",
+        "deferred",
+        "checks",
+        "handoff"
+      ]
+    },
+    {
+      "kind": "fields",
+      "label": "Challenge reflections completed",
+      "ids": [
+        "bias",
+        "counter",
+        "constraint"
+      ]
+    },
+    {
+      "kind": "quiz",
+      "label": "Knowledge check answered correctly"
+    },
+    {
+      "kind": "honest",
+      "label": "Honest self-review confirmed"
+    }
+  ],
+  "deliverable": {
+    "title": "Feature Priority Matrix",
+    "filename": "LYNQ-Feature-Priority-Matrix.md",
+    "footer": ""
+  },
+  "sections": [
+    {
+      "id": "watch",
+      "label": "01 / WATCH",
+      "heading": "Which features are essential for the MVP task?",
+      "blocks": [
+        {
+          "type": "video",
+          "title": "Feature-priority explainer + worksheet demo",
+          "subtitle": "No playable video is attached."
+        },
+        {
+          "type": "storyboard",
+          "scenes": [
+            {
+              "title": "Use the MVP scope",
+              "visual": "MVP task card",
+              "narration": "Start with the MVP scope from Lesson 41. Keep one customer task, learning question and execution conditions visible. Feature priority serves that task; it is not a popularity contest."
+            },
+            {
+              "title": "List candidate features",
+              "visual": "Feature ID cards",
+              "narration": "List features with the task each supports and the evidence or assumption behind it. Do not call an attractive feature necessary just because the founder likes it."
+            },
+            {
+              "title": "Classify priorities",
+              "visual": "Must / Should / Could / Defer columns",
+              "narration": "Must means the scoped task cannot work responsibly without it. Should matters but can wait for the first version. Could is optional. Defer is outside this build or needs evidence. These are reasoned choices, not a generated score."
+            },
+            {
+              "title": "Check dependencies and safeguards",
+              "visual": "Dependency and accessibility cards",
+              "narration": "A visible feature may depend on navigation, data handling or accessibility work. Do not defer essential safeguards to make the build look smaller. Mark effort and feasibility unknown until reviewed."
+            },
+            {
+              "title": "Choose the essential set",
+              "visual": "Fictional registration-feature matrix",
+              "narration": "For a registration-route mock-up, a clear entry and destination screen may be essential to the task. Loyalty points can be deferred. Real payment remains excluded. This is fictional planning, not a tested product."
+            },
+            {
+              "title": "Prepare the matrix",
+              "visual": "Actual approved Lesson 42 worksheet recording",
+              "narration": "Write the feature matrix with reasons, effort status, dependencies and acceptance checks. Preserve deferrals and contradictions. Lesson 43 uses the essential set to map the customer experience. No live product is changed."
+            }
+          ],
+          "summary": "Six-scene storyboard placeholder and full transcript"
+        },
+        {
+          "type": "transcript",
+          "scenes": [
+            {
+              "title": "Use the MVP scope",
+              "visual": "MVP task card",
+              "narration": "Start with the MVP scope from Lesson 41. Keep one customer task, learning question and execution conditions visible. Feature priority serves that task; it is not a popularity contest."
+            },
+            {
+              "title": "List candidate features",
+              "visual": "Feature ID cards",
+              "narration": "List features with the task each supports and the evidence or assumption behind it. Do not call an attractive feature necessary just because the founder likes it."
+            },
+            {
+              "title": "Classify priorities",
+              "visual": "Must / Should / Could / Defer columns",
+              "narration": "Must means the scoped task cannot work responsibly without it. Should matters but can wait for the first version. Could is optional. Defer is outside this build or needs evidence. These are reasoned choices, not a generated score."
+            },
+            {
+              "title": "Check dependencies and safeguards",
+              "visual": "Dependency and accessibility cards",
+              "narration": "A visible feature may depend on navigation, data handling or accessibility work. Do not defer essential safeguards to make the build look smaller. Mark effort and feasibility unknown until reviewed."
+            },
+            {
+              "title": "Choose the essential set",
+              "visual": "Fictional registration-feature matrix",
+              "narration": "For a registration-route mock-up, a clear entry and destination screen may be essential to the task. Loyalty points can be deferred. Real payment remains excluded. This is fictional planning, not a tested product."
+            },
+            {
+              "title": "Prepare the matrix",
+              "visual": "Actual approved Lesson 42 worksheet recording",
+              "narration": "Write the feature matrix with reasons, effort status, dependencies and acceptance checks. Preserve deferrals and contradictions. Lesson 43 uses the essential set to map the customer experience. No live product is changed."
+            }
+          ]
+        },
+        {
+          "type": "videoPrompt",
+          "prompt": "Create a LYNQ beginner-friendly 2D animated explainer plus worksheet demo: Module 3.1 Designing the Product, Lesson 42 — Prioritize Essential Features. Target 2–4 minutes, 16:9 1080p. Navy #0B2338, teal #087D79, white, mint accents; clear warm English narration, minimal clutter, no talking avatars or unnecessary cinematic footage. Fictional planned registration-route MVP, clearly labeled Illustrative planned example. Objective: turn Lesson 41 MVP scope into a reasoned feature priority matrix used by Lesson 43 user flow.\n\nSCENE 1 (~25 seconds, adjust to narration): Use the MVP scope\nVisual placeholder: MVP task card\nNarration: Start with the MVP scope from Lesson 41. Keep one customer task, learning question and execution conditions visible. Feature priority serves that task; it is not a popularity contest.\n\nSCENE 2 (~25 seconds, adjust to narration): List candidate features\nVisual placeholder: Feature ID cards\nNarration: List features with the task each supports and the evidence or assumption behind it. Do not call an attractive feature necessary just because the founder likes it.\n\nSCENE 3 (~25 seconds, adjust to narration): Classify priorities\nVisual placeholder: Must / Should / Could / Defer columns\nNarration: Must means the scoped task cannot work responsibly without it. Should matters but can wait for the first version. Could is optional. Defer is outside this build or needs evidence. These are reasoned choices, not a generated score.\n\nSCENE 4 (~25 seconds, adjust to narration): Check dependencies and safeguards\nVisual placeholder: Dependency and accessibility cards\nNarration: A visible feature may depend on navigation, data handling or accessibility work. Do not defer essential safeguards to make the build look smaller. Mark effort and feasibility unknown until reviewed.\n\nSCENE 5 (~25 seconds, adjust to narration): Choose the essential set\nVisual placeholder: Fictional registration-feature matrix\nNarration: For a registration-route mock-up, a clear entry and destination screen may be essential to the task. Loyalty points can be deferred. Real payment remains excluded. This is fictional planning, not a tested product.\n\nSCENE 6 (~25 seconds, adjust to narration): Prepare the matrix\nVisual placeholder: Actual approved Lesson 42 worksheet recording\nNarration: Write the feature matrix with reasons, effort status, dependencies and acceptance checks. Preserve deferrals and contradictions. Lesson 43 uses the essential set to map the customer experience. No live product is changed.\n\nProvide complete script, storyboard/timings, separate short Veo shot prompts, editor text, voice instructions, captions/transcript, thumbnail, assembly instructions and QA checklist. Use approved actual worksheet recording; composite exact UI/text/brand in post. Generate supported short clips separately, never a whole four-minute clip. No fabricated evidence, automatic priority scores or validated results. Deliver editable project, MP4, VTT/SRT, audio, transcript, rights/provenance. Native-reviewed Arabic/RTL separately. Video remains unproduced.",
+          "filename": "LYNQ-Lesson-42-Gemini-Video-Prompt.md",
+          "summary": "Gemini video prompt — ready to copy"
+        },
+        {
+          "type": "studied",
+          "label": "I reviewed the storyboard/transcript."
+        }
+      ]
+    },
+    {
+      "id": "learn",
+      "label": "02 / LEARN",
+      "heading": "Make the core task work before adding extras.",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "Feature:"
+                  ]
+                },
+                " a capability that supports a task. ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "Priority:"
+                  ]
+                },
+                " its importance within this MVP scope. ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "Dependency:"
+                  ]
+                },
+                " work needed before a feature can function. ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "Deferral:"
+                  ]
+                },
+                " an explicit decision to leave work outside this version."
+              ]
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "Objective:"
+                  ]
+                },
+                " select a smallest adequate feature set with reasons, dependencies and acceptance criteria. ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "Why it matters:"
+                  ]
+                },
+                " a long feature list spreads effort and obscures the core customer task."
+              ]
+            },
+            {
+              "tag": "ol",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Review Lesson 41 MVP scope and Validate conditions manually."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "List candidates with task, evidence/assumption and source status."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Classify Must, Should, Could or Defer with reasons."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Check essential dependencies, safety, data handling and accessibility."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Keep effort unknown until reviewed; document trade-offs."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Pass the essential set and acceptance criteria to Lesson 43."
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "note"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "children": [
+                    "Fictional example"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    "Registration-route mock-up: clear entry and correct destination are Must for the scoped task. A route explanation may be Should if the task works without it. Decorative animation is Could. Loyalty points and actual payment are Defer/excluded. Keyboard access to the core route is essential, not an optional extra. No customer validation or effort estimate is established."
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Must is scoped necessity, not market proof. Avoid a numeric total that hides unknowns. A feature can be popular yet irrelevant to this task. Review real technical/security/privacy obligations with responsible owners before execution."
+              ]
+            },
+            {
+              "tag": "lesson-link",
+              "attrs": {
+                "lesson": "41",
+                "class": "btn secondary"
+              },
+              "children": [
+                "Review Lesson 41 MVP scope"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "practice",
+          "prompt": "Practice: a decorative feature is attractive but unnecessary to the scoped task.",
+          "options": [
+            {
+              "label": "Mark Must because it looks good",
+              "feedback": "Attractiveness alone does not make a feature essential."
+            },
+            {
+              "label": "Keep optional/deferred with a reason",
+              "feedback": "Keep it optional or deferred with a scoped reason; preserve essential safeguards."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "build",
+      "label": "03 / BUILD",
+      "heading": "Your Feature Priority Matrix.",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Complete the eight fields, including a row per feature in the matrix. Example row: F01 | Must | core route entry | effort unknown | destination screen | proposed, not tested. Keep actual evidence unknown where absent."
+              ]
+            },
+            {
+              "tag": "p",
+              "attrs": {
+                "class": "muted"
+              },
+              "children": [
+                "Local autosave only; plaintext browser storage. Use anonymous planning notes."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "saveStatus"
+        },
+        {
+          "type": "fields",
+          "ids": [
+            "scope",
+            "basis",
+            "features",
+            "matrix",
+            "essential",
+            "deferred",
+            "checks",
+            "handoff"
+          ]
+        },
+        {
+          "type": "extension",
+          "id": "brief",
+          "props": {
+            "previewLabel": "Preview my feature matrix",
+            "downloadLabel": "Download Feature Priority Matrix"
+          }
+        },
+        {
+          "type": "reset",
+          "label": "Clear local draft"
+        }
+      ]
+    },
+    {
+      "id": "coach",
+      "label": "04 / ASK AI",
+      "heading": "AI Coach · simulated",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Fixed scripted demonstration; no AI/backend. Cannot verify feasibility, permissions, evidence or readiness."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "extension",
+          "id": "coach",
+          "props": {
+            "modes": [
+              {
+                "id": "teach",
+                "label": "Teach Me",
+                "response": "Simulated teach: Priorities express scoped necessity, not popularity or proof of demand. No live AI answer or evidence verification."
+              },
+              {
+                "id": "guide",
+                "label": "Guide Me",
+                "response": "Simulated guide: Start with one MVP task, list candidate features and explain each inclusion or deferral. No live AI answer or evidence verification."
+              },
+              {
+                "id": "review",
+                "label": "Review My Work",
+                "response": "Scripted field check: {missing} required fields empty. Counts only; no source or feasibility verification."
+              },
+              {
+                "id": "challenge",
+                "label": "Challenge My Idea",
+                "response": "Simulated challenge: Which dependency, essential safeguard or contradictory evidence would change the feature set? No live AI answer or evidence verification."
+              }
+            ],
+            "question": {
+              "label": "Your question",
+              "button": "Ask simulated Coach",
+              "response": "Scripted demonstration, not an AI answer to your question. Keep the scope bounded and honour Validate conditions."
+            },
+            "initial": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "challenge",
+      "label": "05 / CHALLENGE",
+      "heading": "Challenge",
+      "blocks": [
+        {
+          "type": "fields",
+          "ids": [
+            "bias",
+            "counter",
+            "constraint"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz",
+      "label": "06 / KNOWLEDGE CHECK",
+      "heading": "Knowledge check",
+      "blocks": [
+        {
+          "type": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "deliver",
+      "label": "07 / DELIVER & PROGRESS",
+      "heading": "Deliver your Feature Priority Matrix.",
+      "blocks": [
+        {
+          "type": "checklist"
+        },
+        {
+          "type": "honest",
+          "label": "I tied priorities to the MVP task, preserved reasons/unknowns/dependencies, kept essential safeguards and documented deferrals for the next user flow."
+        },
+        {
+          "type": "complete",
+          "label": "Mark Lesson 42 complete locally",
+          "completedNotice": "Lesson 42 self-completed locally.",
+          "incompleteNotice": "Complete remaining requirements before self-completing."
+        },
+        {
+          "type": "extension",
+          "id": "moduleStatus",
+          "props": {
+            "module": "3.1",
+            "text": " / 5 self-completed locally. All 20 Build lessons are available. Learning completion is separate from venture readiness; Phase 04 continues with Lesson 61."
+          }
+        },
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Self-completion records planning, not actual build, verified evidence, demand or production approval."
+              ]
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Next: ",
+                {
+                  "tag": "lesson-link",
+                  "attrs": {
+                    "lesson": "43",
+                    "class": "btn secondary"
+                  },
+                  "children": [
+                    "Lesson 43 — Map the Customer Experience"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

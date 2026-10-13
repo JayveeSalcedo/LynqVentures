@@ -1,0 +1,786 @@
+{
+  "number": 22,
+  "phase": 2,
+  "module": "2.1",
+  "title": "Identify Your Riskiest Assumptions",
+  "hero": {
+    "eyebrow": "Module 2.1 · Designing Your Validation · Lesson 22",
+    "title": "Identify Your Riskiest Assumptions.",
+    "intro": "Expose the claims your opportunity depends on. Your deliverable is an Assumption Register with evidence status, consequences if wrong, and candidate risks.",
+    "badges": [
+      "Beginner friendly"
+    ],
+    "meta": "35–45 min · Recommended: Lesson 21"
+  },
+  "fields": [
+    {
+      "id": "context",
+      "label": "Group, task/context and provisional value proposition source",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Keep the claim specific; label evidence and unknowns."
+    },
+    {
+      "id": "problema",
+      "label": "Problem assumption: claim, evidence/status, consequence if wrong and check",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Keep the claim specific; label evidence and unknowns."
+    },
+    {
+      "id": "valuea",
+      "label": "Benefit assumption: claim, evidence/status, consequence if wrong and check",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Keep the claim specific; label evidence and unknowns."
+    },
+    {
+      "id": "behavioura",
+      "label": "Behaviour or switching assumption: claim, evidence/status, consequence if wrong and check",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Keep the claim specific; label evidence and unknowns."
+    },
+    {
+      "id": "buyera",
+      "label": "Buyer/payment assumption: roles, claim, evidence/status, consequence if wrong and check",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Keep the claim specific; label evidence and unknowns."
+    },
+    {
+      "id": "deliverya",
+      "label": "Access/delivery assumption: permission, capability, dependencies and consequence if wrong",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Keep the claim specific; label evidence and unknowns."
+    },
+    {
+      "id": "risk",
+      "label": "Candidate high-risk assumption: uncertainty, consequence, dependencies and reason — not an automatic rank",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Keep the claim specific; label evidence and unknowns."
+    },
+    {
+      "id": "nextcheck",
+      "label": "Disconfirming signal, ethical next check, owner/timing and what decision could change",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000,
+      "placeholder": "Keep the claim specific; label evidence and unknowns."
+    },
+    {
+      "id": "support",
+      "label": "Optional supporting references",
+      "kind": "textarea",
+      "required": false,
+      "maxLength": 2000
+    },
+    {
+      "id": "bias",
+      "label": "Where have you used evidence for one claim to assert another?",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "counter",
+      "label": "Which false claim would materially change or stop the opportunity?",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    },
+    {
+      "id": "constraint",
+      "label": "Which critical dependency or permission remains unresolved?",
+      "kind": "textarea",
+      "required": true,
+      "maxLength": 2000
+    }
+  ],
+  "questions": [
+    {
+      "prompt": "Does evidence that a problem occurs prove someone will pay?",
+      "options": [
+        "Yes",
+        "No; buyer/payment is a separate assumption",
+        "Yes if the idea is clear"
+      ],
+      "answer": 1,
+      "explanation": "Different claims need suitable evidence."
+    },
+    {
+      "prompt": "What can make an assumption a candidate high risk?",
+      "options": [
+        "Uncertainty plus a material consequence if wrong",
+        "A positive compliment",
+        "A feature you enjoy building"
+      ],
+      "answer": 0,
+      "explanation": "Explain uncertainty, consequence and dependencies without false precision."
+    },
+    {
+      "prompt": "How should an untested buyer claim be recorded?",
+      "options": [
+        "Invent a price",
+        "Treat interest as a purchase",
+        "Label it unknown or assumed and define a check"
+      ],
+      "answer": 2,
+      "explanation": "Preserve roles and uncertainty rather than inventing evidence."
+    }
+  ],
+  "checklist": [
+    {
+      "kind": "studied",
+      "label": "Storyboard/transcript reviewed"
+    },
+    {
+      "kind": "fields",
+      "label": "Eight worksheet fields complete",
+      "ids": [
+        "context",
+        "problema",
+        "valuea",
+        "behavioura",
+        "buyera",
+        "deliverya",
+        "risk",
+        "nextcheck"
+      ]
+    },
+    {
+      "kind": "fields",
+      "label": "Three red-team reflections complete",
+      "ids": [
+        "bias",
+        "counter",
+        "constraint"
+      ]
+    },
+    {
+      "kind": "quiz",
+      "label": "Quiz 3 / 3 correct"
+    },
+    {
+      "kind": "honest",
+      "label": "Final self-review confirmed"
+    }
+  ],
+  "deliverable": {
+    "title": "LYNQ Academy — Assumption Register",
+    "filename": "LYNQ-Assumption-Register.md",
+    "headerLines": [
+      "Phase 02 · Module {module} · Lesson {lesson}",
+      "Status: {status}"
+    ],
+    "fieldIds": [
+      "context",
+      "problema",
+      "valuea",
+      "behavioura",
+      "buyera",
+      "deliverya",
+      "risk",
+      "nextcheck"
+    ],
+    "footer": "No real AI, test execution, source verification or demand validation.",
+    "previewFooter": "This plan does not prove demand or represent completed research."
+  },
+  "sections": [
+    {
+      "id": "watch",
+      "label": "01 / WATCH",
+      "heading": "Which claims could change the opportunity if wrong?",
+      "blocks": [
+        {
+          "type": "video",
+          "title": "Identify Your Riskiest Assumptions",
+          "subtitle": "Planned 2½-minute explainer + worksheet demo",
+          "note": "No playable video or generated media is attached."
+        },
+        {
+          "type": "storyboard",
+          "scenes": [
+            {
+              "title": "Find the claims underneath the idea",
+              "visual": "Founder reviews an anonymous validation brief.",
+              "narration": "Every opportunity depends on claims that could be wrong. An assumption register makes those claims visible. Start with your specific group, task and proposed benefit. Listing assumptions is not evidence that they are true, and this lesson does not automatically choose what to test first."
+            },
+            {
+              "title": "Separate different kinds of claims",
+              "visual": "Editable problem, benefit, behaviour, buyer and delivery cards.",
+              "narration": "People experience a difficulty, people value an improvement, people change behaviour, someone approves or pays, and we can deliver the approach are different claims. Evidence for one does not prove the others. Keep user and possible buyer roles separate."
+            },
+            {
+              "title": "Write a claim that could be wrong",
+              "visual": "Editable specific group and context statement.",
+              "narration": "Write each assumption as one specific claim, with a group and context. Avoid vague statements such as everyone loves convenience. If the buyer or payment terms are unknown, say so. Do not invent prices, customer quotes or commitments to complete a register."
+            },
+            {
+              "title": "Record evidence and consequences",
+              "visual": "Editable claim, status, source and consequence columns.",
+              "narration": "For each claim, record the evidence basis, what remains unknown and what would happen if it were false. Plans remain plans. A provider’s description, a compliment or a single account has limits. Note dependencies: if permission is unavailable, a planned observation cannot proceed."
+            },
+            {
+              "title": "Identify candidate risk without false precision",
+              "visual": "Editable uncertainty and consequence cards without totals.",
+              "narration": "An assumption may be risky when it is uncertain and its failure would materially change the opportunity or block the next step. Explain your judgment; do not add guessed numbers into a success score. Several claims can remain unresolved. Prioritising the next test comes in Lesson 23."
+            },
+            {
+              "title": "Build the assumption register",
+              "visual": "Actual approved Lesson 22 worksheet recording.",
+              "narration": "Create your Assumption Register with problem, benefit, behaviour, buyer and delivery claims. Preserve sources and unknowns, identify a candidate risk and a disconfirming signal, then plan a small ethical check. This is a learning register, not validated demand or permission to run a test."
+            }
+          ],
+          "summary": "Explore the six-scene storyboard placeholder",
+          "sceneMeta": "Planned scene {scene} · about 25 seconds in final edit"
+        },
+        {
+          "type": "transcript",
+          "scenes": [
+            {
+              "title": "Find the claims underneath the idea",
+              "visual": "Founder reviews an anonymous validation brief.",
+              "narration": "Every opportunity depends on claims that could be wrong. An assumption register makes those claims visible. Start with your specific group, task and proposed benefit. Listing assumptions is not evidence that they are true, and this lesson does not automatically choose what to test first."
+            },
+            {
+              "title": "Separate different kinds of claims",
+              "visual": "Editable problem, benefit, behaviour, buyer and delivery cards.",
+              "narration": "People experience a difficulty, people value an improvement, people change behaviour, someone approves or pays, and we can deliver the approach are different claims. Evidence for one does not prove the others. Keep user and possible buyer roles separate."
+            },
+            {
+              "title": "Write a claim that could be wrong",
+              "visual": "Editable specific group and context statement.",
+              "narration": "Write each assumption as one specific claim, with a group and context. Avoid vague statements such as everyone loves convenience. If the buyer or payment terms are unknown, say so. Do not invent prices, customer quotes or commitments to complete a register."
+            },
+            {
+              "title": "Record evidence and consequences",
+              "visual": "Editable claim, status, source and consequence columns.",
+              "narration": "For each claim, record the evidence basis, what remains unknown and what would happen if it were false. Plans remain plans. A provider’s description, a compliment or a single account has limits. Note dependencies: if permission is unavailable, a planned observation cannot proceed."
+            },
+            {
+              "title": "Identify candidate risk without false precision",
+              "visual": "Editable uncertainty and consequence cards without totals.",
+              "narration": "An assumption may be risky when it is uncertain and its failure would materially change the opportunity or block the next step. Explain your judgment; do not add guessed numbers into a success score. Several claims can remain unresolved. Prioritising the next test comes in Lesson 23."
+            },
+            {
+              "title": "Build the assumption register",
+              "visual": "Actual approved Lesson 22 worksheet recording.",
+              "narration": "Create your Assumption Register with problem, benefit, behaviour, buyer and delivery claims. Preserve sources and unknowns, identify a candidate risk and a disconfirming signal, then plan a small ethical check. This is a learning register, not validated demand or permission to run a test."
+            }
+          ],
+          "summary": "Read the full narration / transcript"
+        },
+        {
+          "type": "videoPrompt",
+          "prompt": "Create a beginner-friendly LYNQ Academy explainer plus worksheet demo, Module 2.1 Lesson 22: Identify Your Riskiest Assumptions. Editorial target 150 seconds, 16:9 1080p. Navy #0B2338, teal #087D79, mint #BCF2DF, white. Diverse adults in contemporary Dubai workspace, clear friendly English narration. Fictional anonymous examples labeled Illustrative example in post. Teach claim specificity, problem/benefit/behaviour/buyer/delivery distinction, evidence status, consequence if wrong, uncertainty and dependencies. No fabricated quotes, prices, commitments, automatic ranking, success scores or validation claims.\n\nSCENE 1: Find the claims underneath the idea\nVisual placeholder: Founder reviews an anonymous validation brief.\nNarration: Every opportunity depends on claims that could be wrong. An assumption register makes those claims visible. Start with your specific group, task and proposed benefit. Listing assumptions is not evidence that they are true, and this lesson does not automatically choose what to test first.\n\nSCENE 2: Separate different kinds of claims\nVisual placeholder: Editable problem, benefit, behaviour, buyer and delivery cards.\nNarration: People experience a difficulty, people value an improvement, people change behaviour, someone approves or pays, and we can deliver the approach are different claims. Evidence for one does not prove the others. Keep user and possible buyer roles separate.\n\nSCENE 3: Write a claim that could be wrong\nVisual placeholder: Editable specific group and context statement.\nNarration: Write each assumption as one specific claim, with a group and context. Avoid vague statements such as everyone loves convenience. If the buyer or payment terms are unknown, say so. Do not invent prices, customer quotes or commitments to complete a register.\n\nSCENE 4: Record evidence and consequences\nVisual placeholder: Editable claim, status, source and consequence columns.\nNarration: For each claim, record the evidence basis, what remains unknown and what would happen if it were false. Plans remain plans. A provider’s description, a compliment or a single account has limits. Note dependencies: if permission is unavailable, a planned observation cannot proceed.\n\nSCENE 5: Identify candidate risk without false precision\nVisual placeholder: Editable uncertainty and consequence cards without totals.\nNarration: An assumption may be risky when it is uncertain and its failure would materially change the opportunity or block the next step. Explain your judgment; do not add guessed numbers into a success score. Several claims can remain unresolved. Prioritising the next test comes in Lesson 23.\n\nSCENE 6: Build the assumption register\nVisual placeholder: Actual approved Lesson 22 worksheet recording.\nNarration: Create your Assumption Register with problem, benefit, behaviour, buyer and delivery claims. Preserve sources and unknowns, identify a candidate risk and a disconfirming signal, then plan a small ethical check. This is a learning register, not validated demand or permission to run a test.\n\nFirst return storyboard, timings and individual shot prompts. Generate supported short shots for selected Gemini/Veo account only, then assemble with separately recorded narration. No generated text, logos, captions or fake UI. Add exact branding and editable Claim / Evidence status / If wrong / Unknown / Next check cards in post. Use approved actual Lesson 22 screen recording with fictional labeled entries. Deliver H.264 MP4, editable project, narration audio, transcript, VTT/SRT, thumbnail and rights/provenance. Native-reviewed Arabic narration and RTL graphics separately. Review claim/evidence distinctions, privacy, accuracy, brand, pacing, audio and mobile readability. No video is generated by prototype.",
+          "filename": "LYNQ-Lesson-22-Gemini-Video-Prompt.md",
+          "summary": "Gemini video prompt — ready to copy"
+        },
+        {
+          "type": "studied",
+          "label": "I reviewed the storyboard or transcript."
+        }
+      ]
+    },
+    {
+      "id": "learn",
+      "label": "02 / LEARN",
+      "heading": "Separate claims before testing them.",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "An ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "assumption"
+                  ]
+                },
+                " is a claim that could be wrong. ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "Risk"
+                  ]
+                },
+                " concerns uncertainty and the consequence if it is wrong. A ",
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "dependency"
+                  ]
+                },
+                " is something another step relies on, such as access permission."
+              ]
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "grid2"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "note"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "children": [
+                        "Problem"
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "children": [
+                        "The difficulty occurs and matters for this group/context."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "note"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "children": [
+                        "Benefit"
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "children": [
+                        "The proposed improvement matters enough to investigate."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "note"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "children": [
+                        "Behaviour"
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "children": [
+                        "People might use or switch to the approach despite effort and habits."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "note"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "attrs": {},
+                      "children": [
+                        "Buyer / payment"
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "children": [
+                        "A particular role may approve or pay under defined conditions. Unknown roles or terms stay unknown."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "note"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "attrs": {},
+                  "children": [
+                    "Access / delivery"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "attrs": {},
+                  "children": [
+                    "You can obtain permission, perform the check and potentially deliver the approach. A named contact is not confirmed access."
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "b",
+                  "attrs": {},
+                  "children": [
+                    "Illustrative example:"
+                  ]
+                },
+                " a visitor asks staff for directions. That may support an observed interaction, not importance, switching, payment or your ability to deliver a service. Record each claim separately."
+              ]
+            },
+            {
+              "tag": "ol",
+              "attrs": {},
+              "children": [
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Write a specific claim for each category."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Record source/status and what remains unknown."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Explain what changes if the claim is wrong."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Note dependencies and a disconfirming signal."
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attrs": {},
+                  "children": [
+                    "Name a candidate high-risk assumption with reasons."
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "No automatic scores or ranking are calculated. Lesson 23 will prioritise what to test first. Unknown is acceptable with a check; do not invent a price, quote or commitment."
+              ]
+            },
+            {
+              "tag": "lesson-link",
+              "attrs": {
+                "lesson": "21",
+                "class": "btn secondary"
+              },
+              "children": [
+                "Review validation starting brief"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "practice",
+          "legend": "Practice: a visitor reports a difficulty",
+          "prompt": "",
+          "options": [
+            {
+              "label": "Payment is proven",
+              "feedback": "Keep each claim separate; a reported problem does not establish payment or permission."
+            },
+            {
+              "label": "Problem and payment are separate claims",
+              "feedback": "Useful distinction: problem and payment claims need separate evidence."
+            },
+            {
+              "label": "Delivery permission is confirmed",
+              "feedback": "Keep each claim separate; a reported problem does not establish payment or permission."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "build",
+      "label": "03 / BUILD",
+      "heading": "Your Assumption Register.",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Write five claim categories with evidence/status, consequences and checks. Unknown buyer or delivery details remain unknown. No rank or test result is generated."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "saveStatus"
+        },
+        {
+          "type": "fields",
+          "ids": [
+            "context",
+            "problema",
+            "valuea",
+            "behavioura",
+            "buyera",
+            "deliverya",
+            "risk",
+            "nextcheck",
+            "support"
+          ]
+        },
+        {
+          "type": "deliverable",
+          "previewLabel": "Preview my assumption register",
+          "downloadLabel": "Download Assumption Register"
+        },
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "div",
+              "attrs": {
+                "class": "note"
+              },
+              "children": [
+                "Browser storage is plaintext. Avoid private/confidential information; this register does not verify claims or prove demand."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "reset",
+          "label": "Clear local draft"
+        }
+      ]
+    },
+    {
+      "id": "coach",
+      "label": "04 / ASK AI",
+      "heading": "Venture Coach · simulated",
+      "blocks": [
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {},
+              "children": [
+                "Scripted demonstration only. No live AI, source verification, experiment execution or backend is connected."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "extension",
+          "id": "coach",
+          "props": {
+            "modes": [
+              {
+                "id": "teach",
+                "label": "Teach",
+                "response": "Separate problem, benefit, behaviour, buyer and delivery claims. Preserve source/status, consequence if wrong, uncertainty and dependencies; no automatic ranking is calculated."
+              },
+              {
+                "id": "guide",
+                "label": "Guide",
+                "response": "Separate problem, benefit, behaviour, buyer and delivery claims. Preserve source/status, consequence if wrong, uncertainty and dependencies; no automatic ranking is calculated."
+              },
+              {
+                "id": "review",
+                "label": "Review",
+                "response": "Assumption Register check: {missing} required fields still empty. This scripted check counts fields only; it cannot verify claims, rank risk or establish demand."
+              },
+              {
+                "id": "challenge",
+                "label": "Challenge",
+                "response": "Separate problem, benefit, behaviour, buyer and delivery claims. Preserve source/status, consequence if wrong, uncertainty and dependencies; no automatic ranking is calculated."
+              }
+            ],
+            "initial": "teach",
+            "questionResponse": "This is a scripted demonstration, not an AI answer to your question.",
+            "countIds": [
+              "context",
+              "problema",
+              "valuea",
+              "behavioura",
+              "buyera",
+              "deliverya",
+              "risk",
+              "nextcheck"
+            ],
+            "questionLabel": "Optional question for the demonstration",
+            "submitLabel": "Show simulated guidance"
+          }
+        }
+      ]
+    },
+    {
+      "id": "challenge",
+      "label": "05 / CHALLENGE",
+      "heading": "Challenge the underlying claims.",
+      "blocks": [
+        {
+          "type": "fields",
+          "ids": [
+            "bias",
+            "counter",
+            "constraint"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz",
+      "label": "06 / KNOWLEDGE CHECK",
+      "heading": "Check your understanding.",
+      "blocks": [
+        {
+          "type": "quiz"
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "label": "07 / DELIVER & PROGRESS",
+      "heading": "Your deliverable: a Assumption Register.",
+      "blocks": [
+        {
+          "type": "checklist"
+        },
+        {
+          "type": "honest",
+          "label": "I separated claims, preserved evidence limits and consequences, and avoided automatic risk, demand or permission claims."
+        },
+        {
+          "type": "complete",
+          "label": "Mark Lesson 22 complete locally",
+          "completedLabel": "Lesson 22 self-completed locally",
+          "completedNotice": "Lesson 22 self-completed locally. This is not validated demand or a submitted assignment.",
+          "incompleteNotice": "Complete the remaining requirements before local self-completion."
+        },
+        {
+          "type": "extension",
+          "id": "moduleNote",
+          "props": {
+            "heading": "Module 2.1 · Designing Your Validation",
+            "lessons": [
+              21,
+              22,
+              23,
+              24,
+              25
+            ],
+            "complete": "All five lessons self-completed locally. Module 2.1 learning pack complete; execution, permission and validation remain separate.",
+            "incomplete": "{count} / 5 lessons self-completed locally. Complete each separately to finish the learning module.",
+            "notes": [
+              {
+                "tag": "p",
+                "attrs": {},
+                "children": [
+                  "Only this lesson is built. Completion is a learning record, not validation, certification or venture approval."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "content",
+          "nodes": [
+            {
+              "tag": "p",
+              "attrs": {
+                "class": "help"
+              },
+              "children": [
+                "Learning completion is separate from validated demand."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "next"
+        }
+      ]
+    }
+  ],
+  "nav": [
+    {
+      "id": "watch",
+      "label": "Watch"
+    },
+    {
+      "id": "learn",
+      "label": "Learn"
+    },
+    {
+      "id": "build",
+      "label": "Build"
+    },
+    {
+      "id": "coach",
+      "label": "Ask AI"
+    },
+    {
+      "id": "challenge",
+      "label": "Challenge"
+    },
+    {
+      "id": "quiz",
+      "label": "Knowledge check"
+    },
+    {
+      "id": "finish",
+      "label": "Deliver"
+    }
+  ]
+}
