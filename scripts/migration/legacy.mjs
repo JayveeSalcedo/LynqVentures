@@ -1,5 +1,6 @@
 // Migration-time helpers for reading the preserved legacy phase documents.
 // Nothing here runs in the application; it only converts trusted curriculum source into JSON data.
+import { applyCorrection, matches } from './stale-corrections.mjs';
 import { readFileSync } from 'node:fs';
 
 const root = new URL('../../', import.meta.url);
@@ -140,7 +141,7 @@ export function toContent(nodes, { dropIds = [], dropTags = ['script', 'style', 
  * least once across a run (`used` tracks hits) so stale text cannot silently reappear or drift.
  */
 export function correctStale(value, corrections, used = new Set()) {
-  if (typeof value === 'string') return corrections.reduce((text, [from, to], i) => text.includes(from) ? (used.add(i), text.split(from).join(to)) : text, value);
+  if (typeof value === 'string') return corrections.reduce((text, c, i) => matches(text, c) ? (used.add(i), applyCorrection(text, c)) : text, value);
   if (Array.isArray(value)) return value.map(v => correctStale(v, corrections, used));
   if (value && typeof value === 'object') return Object.fromEntries(Object.entries(value).map(([k, v]) => [k, correctStale(v, corrections, used)]));
   return value;

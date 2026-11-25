@@ -8,7 +8,7 @@ function read(key: string): { value: unknown; error: boolean } {
   try { return { value: JSON.parse(localStorage.getItem(key) || '{}'), error: false }; } catch { return { value: {}, error: true }; }
 }
 
-const OK = 'Local autosave · this browser only';
+const OK = 'Autosave · this browser only';
 
 /** Load, edit and persist one lesson record under its original localStorage key. */
 export function useLessonState({ schema, revokeOnAnyEdit, normalizeExtra, onProgress }: Options) {

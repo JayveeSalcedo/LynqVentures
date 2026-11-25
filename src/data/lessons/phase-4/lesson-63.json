@@ -384,7 +384,7 @@
          "tag": "li",
          "attrs": {},
          "children": [
-          "Keep readiness Hold, permissions, opt-out handling and support limits visible. Do not scrape or contact people through this prototype."
+          "Keep readiness Hold, permissions, opt-out handling and support limits visible. Do not scrape or contact people through the Academy."
          ]
         },
         {
@@ -833,7 +833,7 @@
      "id": "moduleStatus",
      "props": {
       "module": "4.1",
-      "suffix": "All 20 Launch lessons are interactive. Completion is local learning progress, not verified traction or scaling approval."
+      "suffix": "Completion is learning progress, not verified traction or scaling approval."
      }
     },
     {

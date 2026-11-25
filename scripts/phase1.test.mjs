@@ -30,6 +30,7 @@ const blocks = lesson => lesson.sections.flatMap(s => s.blocks);
 const ofType = (lesson, type, id) => blocks(lesson).filter(b => b.type === type && (!id || b.id === id));
 const esc = s => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#x27;');
 const full = n => ({ ...state.blankState(), fields: Object.fromEntries(schema(n).ids.map(id => [id, `Answer ${id}`])), answers: Object.fromEntries(schema(n).keys.map((k, i) => [i, k])), studied: true, honest: true });
+const FOOTER = corrected(1, 'Local prototype export. No reviewer submission or business validation.');
 const legacyLabels = n => Object.fromEntries(findAll(parseHtml(templates[n]), x => x.tag === 'label' && x.attrs.for && x.attrs.for !== 'coachQuestion' && x.attrs.for !== 'videoPrompt').map(l => [l.attrs.for, textOf(l)]));
 
 function withStorage(initial, fn) {
@@ -71,7 +72,7 @@ test('all 20 lessons match the curriculum and the legacy configs, labels, quiz a
     assert.equal(ofType(lesson, 'storyboard').length, 1); assert.equal(ofType(lesson, 'transcript').length, 1);
     const prompt = ofType(lesson, 'videoPrompt');
     if (n === 1) assert.equal(prompt.length, 0, 'Lesson 01 has no Gemini prompt in the source');
-    else { assert.equal(prompt[0].prompt, prompts[n]); assert.equal(prompt[0].filename, `LYNQ-Lesson-${pad(n)}-Gemini-Video-Prompt.md`); }
+    else { assert.equal(prompt[0].prompt, corrected(1, prompts[n])); assert.equal(prompt[0].filename, `LYNQ-Lesson-${pad(n)}-Gemini-Video-Prompt.md`); }
     assert.equal(lesson.deliverable.filename, config.filename);
     assert.equal(lesson.deliverable.title, `LYNQ Academy — ${config.deliverable}`);
     assert.equal(ofType(lesson, 'flag').length, 0, `no completion flags in ${n}`);
@@ -124,7 +125,8 @@ test('every lesson renders natively: title, labels, quiz prompts, tools; no ifra
     assert.ok(html.includes(esc(lessons[n].hero.title)), `title ${n}`);
     for (const f of lessons[n].fields) assert.ok(html.includes(esc(f.label)), `label ${n}/${f.id}`);
     for (const q of lessons[n].questions) assert.ok(html.includes(esc(q.prompt)), `question ${n}`);
-    assert.ok(html.includes('SCRIPTED DEMO / TEACH'), `coach ${n}`);
+    // The scripted coach is replaced by the live AI Coach, whose buttons are the lesson's authored modes.
+    assert.ok(html.includes('AI Coach') && html.includes('Teach me') && !html.includes('SCRIPTED DEMO'), `coach ${n}`);
     assert.ok(html.includes(`Mark Lesson ${pad(n)} complete locally`));
     assert.ok(html.includes(esc(ofType(lessons[n], 'extension', 'download')[0].props.label)), `download ${n}`);
     assert.match(html, n === 5 ? /Begin Lesson 06 →/ : n < 20 ? new RegExp(`Lesson ${pad(n + 1)} — `) : /Lesson 21 — /);
@@ -201,7 +203,7 @@ test('Lesson 01 Founder Profile export keeps the legacy Markdown format and file
   assert.equal(lesson.deliverable.filename, 'LYNQ-Founder-Profile.md');
   assert.ok(md.startsWith('# LYNQ Academy — Founder Profile\n\nPhase 01 · Module 1.1 · Lesson 01\nStatus: Self-completed locally\nCreated: 2026-01-02T03:04:05.000Z\n\n## Preferred name\nLayla\n\n## Your starting point\nAnswer stage\n\n'));
   assert.ok(md.includes('## What help or constraint should you plan for?\n   \n\n'), 'legacy writes entered values verbatim');
-  assert.ok(md.endsWith('## If you only had half the time, what would you still do?\nAnswer constraint\n\nLocal prototype export. No reviewer submission or business validation.\n'));
+  assert.ok(md.endsWith(`## If you only had half the time, what would you still do?\nAnswer constraint\n\n${FOOTER}\n`));
   assert.match(logic.buildDeliverable(lesson, state.blankState(), false), /Status: Draft[\s\S]*## Preferred name\nNot entered/);
 });
 
@@ -212,7 +214,7 @@ test('every lesson exports its deliverable with title, status, every field and t
     assert.ok(md.startsWith(`# LYNQ Academy — ${configs[n].deliverable}\n\nPhase 01 · Module ${configs[n].module || '1.1'} · Lesson ${pad(n)}\nStatus: Draft\nCreated: `), `header ${n}`);
     const labels = legacyLabels(n);
     for (const id of configs[n].ids) assert.ok(md.includes(`## ${labels[id].replace(' *', '')}\n${id === 'support' ? 'Not entered' : `Answer ${id}`}\n\n`), `field ${n}/${id}`);
-    assert.ok(md.endsWith('Local prototype export. No reviewer submission or business validation.\n'));
+    assert.ok(md.endsWith(`${FOOTER}\n`));
     assert.match(lesson.deliverable.filename, /^LYNQ-[\w-]+\.md$/);
   }
 });
@@ -272,7 +274,10 @@ test('curriculum text is carried over in full (every paragraph, list item, headi
       let t = flat(node).replace(/\s+/g, ' ').trim();
       for (const d of dropped) t = t.replace(d, '').trim();
       t = corrected(1, t);
-      if (!t || /^Next:/.test(t)) continue;
+      // Video-generation prompts are production tools, hidden from learners by default.
+      if (!t || /^Next:/.test(t) || /Gemini video prompt/.test(t)) continue;
+      // Scripted-coach disclaimers are replaced by the live AI Coach.
+      if (/scripted guidance modes|Responses are predefined|Simulated Coach/.test(t)) continue;
       assert.ok(text.includes(t) || text.replace(/ /g, '').includes(t.replace(/ /g, '')), `lesson ${n}: ${t.slice(0, 60)}`);
     }
   }

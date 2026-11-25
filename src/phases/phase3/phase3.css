@@ -1,11 +1,11 @@
 /* Phase 03 tool styles (scoped to .native-page). */
 .native-page .p3-tool .field{margin:0}
-.native-page .p3-output{white-space:pre-wrap;overflow-wrap:anywhere;background:#f3f8f7;border-radius:10px;padding:12px;font-size:13px}
+.native-page .p3-output{white-space:pre-wrap;overflow-wrap:anywhere;background:var(--surface-soft);border-radius:10px;padding:12px;font-size:13px}
 .native-page .p3-output-line{white-space:pre-wrap;overflow-wrap:anywhere}
 .native-page .p3-output-line:empty{display:none}
 .native-page .p3-rows{list-style:none;padding:0}
 .native-page .p3-code{min-height:170px;font-family:ui-monospace,monospace;font-size:13px}
-.native-page .p3-brand-preview{padding:20px;border:1px solid #cedddd;border-radius:8px;overflow-wrap:anywhere;margin:12px 0}
-.native-page .p3-prototype{border:1px solid #b8d6d3;border-radius:12px;padding:20px;margin:16px 0;background:#eef7f5}
-.native-page .p3-prototype small{color:#496674}
+.native-page .p3-brand-preview{padding:20px;border:1px solid var(--line);border-radius:8px;overflow-wrap:anywhere;margin:12px 0}
+.native-page .p3-prototype{border:1px solid var(--accent-line);border-radius:12px;padding:20px;margin:16px 0;background:var(--accent-tint)}
+.native-page .p3-prototype small{color:var(--muted)}
 .native-page .p3-coach .coach-message[hidden]{display:none}

@@ -7,11 +7,12 @@ import { createElement } from 'react';
 import { renderToString } from 'react-dom/server';
 import { load, memoryStorage } from './helpers/bundle.mjs';
 import { legacyBody, legacyScript, jsonConst, decode } from './migration/legacy.mjs';
+import { correctedDeep } from './migration/stale-corrections.mjs';
 
 const curriculum = JSON.parse(readFileSync(new URL('../src/data/curriculum.json', import.meta.url)));
 const js = legacyScript(2);
-const configs = jsonConst(js, 'configs');
-const templates = jsonConst(js, 'templates');
+const configs = correctedDeep(2, jsonConst(js, 'configs'));
+const templates = correctedDeep(2, jsonConst(js, 'templates'));
 const LESSONS = Array.from({ length: 20 }, (_, i) => 21 + i);
 const REFLECTION = ['bias', 'counter', 'constraint'];
 const lessonJson = n => JSON.parse(readFileSync(new URL(`../src/data/lessons/phase-2/lesson-${n}.json`, import.meta.url)));
@@ -199,7 +200,7 @@ test('every lesson renders natively via LessonView + the Phase 2 module', async 
       assert.doesNotMatch(html, /<iframe|<script|dangerouslySetInnerHTML|Missing lesson tool/, `lesson ${n}`);
       html = decode(html.replace(/<!-- -->/g, ''));
       for (const text of [lesson.hero.title, ...lesson.fields.map(f => f.label), ...lesson.questions.map(q => q.prompt), blocks(lesson, 'practice')[0].legend,
-        `Mark Lesson ${n} complete locally`, 'Storyboard/transcript reviewed', '0 / 5 requirements', blocks(lesson, 'coach')[0].props.modes[0].response,
+        `Mark Lesson ${n} complete locally`, 'Storyboard/transcript reviewed', '0 / 5 requirements', 'AI Coach', 'Challenge me',
         '0 / 5 lessons self-completed locally']) assert.ok(html.includes(text), `${n}: ${text}`);
       assert.ok(html.includes(`Lesson ${n + 1} — ${curriculum.names[n + 1]}`), `next lesson ${n}`);
     }

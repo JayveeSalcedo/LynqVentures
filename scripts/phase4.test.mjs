@@ -5,11 +5,12 @@ import { createElement } from 'react';
 import { renderToString } from 'react-dom/server';
 import { load, memoryStorage } from './helpers/bundle.mjs';
 import { legacyScript, jsonConst, parseHtml, findAll, textOf } from './migration/legacy.mjs';
+import { correctedDeep } from './migration/stale-corrections.mjs';
 
 const curriculum = JSON.parse(readFileSync(new URL('../src/data/curriculum.json', import.meta.url)));
 const js = legacyScript(4);
-const configs = jsonConst(js, 'configs');
-const templates = jsonConst(js, 'templates');
+const configs = correctedDeep(4, jsonConst(js, 'configs'));
+const templates = correctedDeep(4, jsonConst(js, 'templates'));
 const lessons = Array.from({ length: 20 }, (_, i) => 61 + i);
 const lessonJson = n => JSON.parse(readFileSync(new URL(`../src/data/lessons/phase-4/lesson-${n}.json`, import.meta.url)));
 const dashboard = JSON.parse(readFileSync(new URL('../src/data/dashboards/phase-4.json', import.meta.url)));
@@ -93,13 +94,14 @@ test('every lesson renders natively via LessonView with all labels, prompts and 
       const html = renderToString(createElement(LessonView, { lesson, module: phase4, navigate() {}, onProgress() {} })).replace(/<!-- -->/g, '');
       assert.doesNotMatch(html, /<iframe|<script|Missing lesson tool/);
       const decoded = html.replace(/&amp;/g, '&').replace(/&#x27;/g, "'").replace(/&quot;/g, '"').replace(/&lt;/g, '<').replace(/&gt;/g, '>');
-      for (const text of [lesson.title, ...lesson.fields.map(f => f.label), ...lesson.questions.map(q => q.prompt)]) assert.ok(decoded.includes(text), `${n}: ${text}`);
+      for (const text of [lesson.hero.title, ...lesson.fields.map(f => f.label), ...lesson.questions.map(q => q.prompt)]) assert.ok(decoded.includes(text), `${n}: ${text}`);
       for (const ext of blocks(lesson, 'extension')) {
         if (ext.props?.title) assert.ok(decoded.includes(ext.props.title), `${n} ${ext.id}`);
         for (const input of ext.props?.inputs ?? []) assert.ok(decoded.includes(input.label), `${n} ${input.label}`);
       }
       assert.ok(decoded.includes('0 / 5 requirements'));
-      assert.ok(decoded.includes(`Module ${lesson.module}: 0 / 5. All 20 Launch lessons are interactive.`));
+      assert.ok(decoded.includes(`Module ${lesson.module}: 0 / 5. Completion is learning progress, not verified traction or scaling approval.`));
+      assert.doesNotMatch(decoded, /lessons are interactive|Gemini video prompt/, `${n} learner-facing copy`);
     }
   });
 });
@@ -116,7 +118,8 @@ test('dashboard renders natively with hero, four modules and all 20 lesson links
   const html = renderToString(createElement(DashboardView, { dashboard: d, navigate() {}, progress: { complete: [61, 62], orientation: false } })).replace(/<!-- -->/g, '');
   assert.doesNotMatch(html, /<iframe|<script/);
   for (const n of lessons) assert.ok(html.includes(`<span class="lesson-number">${n}</span>`), `link ${n}`);
-  assert.ok(html.includes('GTM plan · Interactive') && html.includes('Traction assessment · Interactive'));
+  assert.ok(html.includes('GTM plan') && html.includes('Traction assessment'));
+  assert.doesNotMatch(html, /Interactive|lessons are interactive|backend/);
   assert.ok(html.includes('2 / 20'));
 });
 

@@ -7,7 +7,8 @@
 // record-log/check-panel/prompt/CEO-draft wording) are parsed out of the legacy functions with strict patterns
 // that throw when the source does not match, so nothing is silently dropped.
 import { mkdirSync, writeFileSync } from 'node:fs';
-import { legacyScript, legacyBody, jsonConst, literalConst, parseHtml, findAll, byId, toContent } from './legacy.mjs';
+import { legacyScript, legacyBody, jsonConst, literalConst, parseHtml, findAll, byId, toContent, correctStale, assertCorrectionsUsed } from './legacy.mjs';
+import { STALE as STALE_TABLE } from './stale-corrections.mjs';
 
 const root = new URL('../../', import.meta.url);
 const js = legacyScript(5);
@@ -488,12 +489,15 @@ function buildDashboard() {
   };
 }
 
+const staleUsed = new Set();
+const fix = value => correctStale(value, STALE_TABLE[5], staleUsed);
 const outLessons = new URL('src/data/lessons/phase-5/', root);
 mkdirSync(outLessons, { recursive: true });
 for (const n of LESSONS) {
-  const lesson = buildLesson(n);
+  const lesson = fix(buildLesson(n));
   writeFileSync(new URL(`lesson-${String(n).padStart(2, '0')}.json`, outLessons), JSON.stringify(lesson, null, 1) + '\n');
 }
 mkdirSync(new URL('src/data/dashboards/', root), { recursive: true });
-writeFileSync(new URL('src/data/dashboards/phase-5.json', root), JSON.stringify(buildDashboard(), null, 1) + '\n');
+writeFileSync(new URL('src/data/dashboards/phase-5.json', root), JSON.stringify(fix(buildDashboard()), null, 1) + '\n');
+assertCorrectionsUsed(STALE_TABLE[5], staleUsed);
 console.log(`Phase 5: wrote ${LESSONS.length} lessons and the dashboard.`);

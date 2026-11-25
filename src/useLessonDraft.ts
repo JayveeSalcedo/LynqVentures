@@ -8,7 +8,7 @@ export function useLessonDraft(key: string, ids: string[], keys: number[], onPro
     return orientation ? {...saved,completed:normalizeProfile(initial.profile.value).completed} : saved;
   });
   const [profile,setProfile] = useState(() => normalizeProfile(initial.profile.value));
-  const [saveStatus,setSaveStatus] = useState(initial.draft.error || orientation && initial.profile.error ? 'Saved draft could not be read. Download a copy of your work before leaving.' : 'Local autosave · this browser only');
+  const [saveStatus,setSaveStatus] = useState(initial.draft.error || orientation && initial.profile.error ? 'Saved draft could not be read. Download a copy of your work before leaving.' : 'Autosave · this browser only');
   const [notice,setNotice] = useState('');
   function update(patch: Partial<Draft>, nextProfile: Profile = profile) {
     const next = reviseDraft(draft,patch,ids,keys,!orientation || nextProfile.profileCompleted);

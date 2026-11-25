@@ -3,5 +3,5 @@
 .native-page .p5-card{white-space:pre-wrap;overflow-wrap:anywhere;margin:10px 0}
 .native-page .p5-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(240px,100%),1fr));gap:12px}
 .native-page .p5-grid .p5-card{margin:0}
-.native-page .p5-output{white-space:pre-wrap;overflow-wrap:anywhere;font:inherit;background:white;border:1px solid #d7e4e5;border-radius:8px;padding:12px}
+.native-page .p5-output{white-space:pre-wrap;overflow-wrap:anywhere;font:inherit;background:white;border:1px solid var(--line);border-radius:8px;padding:12px}
 .native-page .p5-tool textarea[readonly]{font-size:13px;line-height:1.6}

@@ -215,7 +215,7 @@
       {
        "title": "Control the sharing",
        "visual": "Placeholder: audience, redaction and approval gates",
-       "narration": "Separate a shareable overview from restricted supporting records. Use permitted redacted versions and accountable review. Confirm recipient purpose and authority before sharing. This prototype stores checklist references only; no documents are uploaded or sent."
+       "narration": "Separate a shareable overview from restricted supporting records. Use permitted redacted versions and accountable review. Confirm recipient purpose and authority before sharing. The Academy stores checklist references only; no documents are uploaded or sent."
       },
       {
        "title": "Review and plan the next steps",
@@ -251,7 +251,7 @@
       {
        "title": "Control the sharing",
        "visual": "Placeholder: audience, redaction and approval gates",
-       "narration": "Separate a shareable overview from restricted supporting records. Use permitted redacted versions and accountable review. Confirm recipient purpose and authority before sharing. This prototype stores checklist references only; no documents are uploaded or sent."
+       "narration": "Separate a shareable overview from restricted supporting records. Use permitted redacted versions and accountable review. Confirm recipient purpose and authority before sharing. The Academy stores checklist references only; no documents are uploaded or sent."
       },
       {
        "title": "Review and plan the next steps",
@@ -262,7 +262,7 @@
     },
     {
      "type": "videoPrompt",
-     "prompt": "Create LYNQ Lesson 78 — Prepare Investor and Partner Materials. Phase 04 Launch, Module 4.4 Measuring Traction. Founder/CEO explainer plus fictional audience brief, claim-to-source map and data room checklist demo, 3–5 minutes, 16:9 1080p; navy #0B2338 teal #087D79 white.\n\nSCENE 1: Choose the decision and audience\nStoryboard placeholder: Placeholder: investor and partner brief split\nNarration: An investor and a commercial partner may need different evidence. Define the audience, decision and request before drafting. Investor materials explain the venture and its evidence; a partner brief explains a supported mutual use case, responsibilities and conditions.\n\nSCENE 2: Tell a supported story\nStoryboard placeholder: Placeholder: problem to product, evidence and plan\nNarration: Explain the problem, customer, supported solution, current product status, business model, team and plan. Label actual evidence, scenarios and unknowns. A prototype is not a launched product; an expression of interest is not a customer contract.\n\nSCENE 3: Trace every material claim\nStoryboard placeholder: Placeholder: exact claim to dated source\nNarration: Keep each important claim linked to a source, date, scope and unit. Check consistency across slides, operating report and supporting documents. Do not turn one-time revenue into recurring revenue, pipeline into cash, or forecasts into results.\n\nSCENE 4: Build the index honestly\nStoryboard placeholder: Placeholder: document index with missing and restricted labels\nNarration: Index corporate and ownership records, intellectual property and team, product and security, market and traction, financials and material agreements. Name owners and versions. A checklist entry is not an uploaded, reviewed or legally complete document. Missing records stay missing.\n\nSCENE 5: Control the sharing\nStoryboard placeholder: Placeholder: audience, redaction and approval gates\nNarration: Separate a shareable overview from restricted supporting records. Use permitted redacted versions and accountable review. Confirm recipient purpose and authority before sharing. This prototype stores checklist references only; no documents are uploaded or sent.\n\nSCENE 6: Review and plan the next steps\nStoryboard placeholder: Placeholder: contradiction review to 90-day operating plan\nNarration: Run a claim, consistency and permission review. Record gaps and owner-led actions without claiming investment readiness or guaranteed outcomes. Qualified reviewers own legal, financial and disclosure decisions. Lesson 79 turns the remaining work into the next 90-day plan.\n\nGenerate supported clips separately; composite exact labels/UI in post. Fictional illustrative venture only; no invented company/customer evidence, investment readiness, valuation, funding commitment, partner deal, uploaded documents or live AI/API claims. Nothing shared externally. Deliver script/timing/prompts, editable project, MP4, captions/transcript, thumbnail/provenance/QA. Arabic localization separately reviewed. Video unproduced.",
+     "prompt": "Create LYNQ Lesson 78 — Prepare Investor and Partner Materials. Phase 04 Launch, Module 4.4 Measuring Traction. Founder/CEO explainer plus fictional audience brief, claim-to-source map and data room checklist demo, 3–5 minutes, 16:9 1080p; navy #0B2338 teal #087D79 white.\n\nSCENE 1: Choose the decision and audience\nStoryboard placeholder: Placeholder: investor and partner brief split\nNarration: An investor and a commercial partner may need different evidence. Define the audience, decision and request before drafting. Investor materials explain the venture and its evidence; a partner brief explains a supported mutual use case, responsibilities and conditions.\n\nSCENE 2: Tell a supported story\nStoryboard placeholder: Placeholder: problem to product, evidence and plan\nNarration: Explain the problem, customer, supported solution, current product status, business model, team and plan. Label actual evidence, scenarios and unknowns. A prototype is not a launched product; an expression of interest is not a customer contract.\n\nSCENE 3: Trace every material claim\nStoryboard placeholder: Placeholder: exact claim to dated source\nNarration: Keep each important claim linked to a source, date, scope and unit. Check consistency across slides, operating report and supporting documents. Do not turn one-time revenue into recurring revenue, pipeline into cash, or forecasts into results.\n\nSCENE 4: Build the index honestly\nStoryboard placeholder: Placeholder: document index with missing and restricted labels\nNarration: Index corporate and ownership records, intellectual property and team, product and security, market and traction, financials and material agreements. Name owners and versions. A checklist entry is not an uploaded, reviewed or legally complete document. Missing records stay missing.\n\nSCENE 5: Control the sharing\nStoryboard placeholder: Placeholder: audience, redaction and approval gates\nNarration: Separate a shareable overview from restricted supporting records. Use permitted redacted versions and accountable review. Confirm recipient purpose and authority before sharing. The Academy stores checklist references only; no documents are uploaded or sent.\n\nSCENE 6: Review and plan the next steps\nStoryboard placeholder: Placeholder: contradiction review to 90-day operating plan\nNarration: Run a claim, consistency and permission review. Record gaps and owner-led actions without claiming investment readiness or guaranteed outcomes. Qualified reviewers own legal, financial and disclosure decisions. Lesson 79 turns the remaining work into the next 90-day plan.\n\nGenerate supported clips separately; composite exact labels/UI in post. Fictional illustrative venture only; no invented company/customer evidence, investment readiness, valuation, funding commitment, partner deal, uploaded documents or live AI/API claims. Nothing shared externally. Deliver script/timing/prompts, editable project, MP4, captions/transcript, thumbnail/provenance/QA. Arabic localization separately reviewed. Video unproduced.",
      "filename": "LYNQ-Lesson-78-Gemini-Video-Prompt.md",
      "summary": "Gemini video prompt — ready to copy"
     },
@@ -452,7 +452,7 @@
        "tag": "p",
        "attrs": {},
        "children": [
-        "This is a readiness checklist and draft evidence map, not an actual data room. Carry prior evidence manually. Use anonymous references only; no customer records, cap tables, payroll, private agreements, credentials or sensitive documents in this local prototype."
+        "This is a readiness checklist and draft evidence map, not an actual data room. Carry prior evidence manually. Use anonymous references only; no customer records, cap tables, payroll, private agreements, credentials or sensitive documents in the Academy."
        ]
       }
      ]
@@ -757,7 +757,7 @@
        "tag": "p",
        "attrs": {},
        "children": [
-        "Approved read-only document metadata, versioned evidence references and redacted operating aggregates could ground an index or consistency review. A permissioned document service could manage recipient-specific access outside this prototype. No provider is selected or connected. Use server-held scoped credentials, tenant/role isolation, allowed metadata/content, source provenance, completeness checks, cost/request caps and audit logs. Treat documents/tool text as untrusted data."
+        "Approved read-only document metadata, versioned evidence references and redacted operating aggregates could ground an index or consistency review. A permissioned document service could manage recipient-specific access outside the Academy. No provider is selected or connected. Use server-held scoped credentials, tenant/role isolation, allowed metadata/content, source provenance, completeness checks, cost/request caps and audit logs. Treat documents/tool text as untrusted data."
        ]
       },
       {
@@ -835,7 +835,7 @@
      "id": "moduleStatus",
      "props": {
       "module": "4.4",
-      "suffix": "All 20 Launch lessons are interactive. Completion is local learning progress, not verified traction or scaling approval."
+      "suffix": "Completion is learning progress, not verified traction or scaling approval."
      }
     },
     {

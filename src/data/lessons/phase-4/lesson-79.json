@@ -220,7 +220,7 @@
       {
        "title": "Prepare the checkpoint",
        "visual": "Placeholder: roadmap evidence to traction assessment",
-       "narration": "Record continue, change or stop decisions with reasons, owners and versions. Carry outcomes, limits and unresolved risks into Lesson 80. This prototype does not schedule tasks, spend money or run an autonomous project."
+       "narration": "Record continue, change or stop decisions with reasons, owners and versions. Carry outcomes, limits and unresolved risks into Lesson 80. The Academy does not schedule tasks, spend money or run an autonomous project."
       }
      ],
      "summary": "Six-scene storyboard placeholder and full transcript"
@@ -256,13 +256,13 @@
       {
        "title": "Prepare the checkpoint",
        "visual": "Placeholder: roadmap evidence to traction assessment",
-       "narration": "Record continue, change or stop decisions with reasons, owners and versions. Carry outcomes, limits and unresolved risks into Lesson 80. This prototype does not schedule tasks, spend money or run an autonomous project."
+       "narration": "Record continue, change or stop decisions with reasons, owners and versions. Carry outcomes, limits and unresolved risks into Lesson 80. The Academy does not schedule tasks, spend money or run an autonomous project."
       }
      ]
     },
     {
      "type": "videoPrompt",
-     "prompt": "Create LYNQ Lesson 79 — Develop Your Next 90-Day Plan. Phase 04 Launch, Module 4.4 Measuring Traction. Founder/CEO explainer plus fictional operating roadmap walkthrough, 3–5 minutes, 16:9 1080p; navy #0B2338 teal #087D79 white.\n\nSCENE 1: Start from evidence\nStoryboard placeholder: Placeholder: operating review and gap cards\nNarration: Use the operating review, sales process and readiness gaps from Lessons 76 to 78. State the exact planning start and scope. A plan is a hypothesis about useful work, not a promise of traction.\n\nSCENE 2: Choose a few outcomes\nStoryboard placeholder: Placeholder: three outcomes with baselines\nNarration: Choose up to three meaningful customer or business outcomes. Define baseline, target rationale, unit, window and source. Keep unknown baselines explicit. Tasks and launches are activities, not proof of customer value.\n\nSCENE 3: Sequence 30, 60 and 90 days\nStoryboard placeholder: Placeholder: dependency and decision gates\nNarration: Sequence early evidence or risk reduction before dependent commitments. The first 30 days may establish a missing baseline; later work depends on what is learned. Keep phase boundaries and start, stop or change gates explicit.\n\nSCENE 4: Match work to capacity\nStoryboard placeholder: Placeholder: owner, effort, resources and cash constraints\nNarration: Assign one accountable owner to each milestone and check availability, cost assumptions and approvals. Defer lower-priority work when capacity is insufficient. Planned resources are not approved spending or available cash.\n\nSCENE 5: Review with guardrails\nStoryboard placeholder: Placeholder: weekly review and contingency trigger\nNarration: Review evidence weekly and at 30, 60 and 90 days. Separate planned, in-progress and learner-reported observed states. Protect customer service, privacy and quality. Use a clear trigger and response when an assumption or dependency fails.\n\nSCENE 6: Prepare the checkpoint\nStoryboard placeholder: Placeholder: roadmap evidence to traction assessment\nNarration: Record continue, change or stop decisions with reasons, owners and versions. Carry outcomes, limits and unresolved risks into Lesson 80. This prototype does not schedule tasks, spend money or run an autonomous project.\n\nGenerate clips separately; composite exact labels/UI in post. Fictional illustrative roadmap only; no guaranteed traction, approved budgets, completed milestones, scheduled tasks or live AI/API claims. Deliver script/timing/prompts, editable project, MP4, captions/transcript, thumbnail/provenance/QA. Arabic localization separately reviewed. Video unproduced.",
+     "prompt": "Create LYNQ Lesson 79 — Develop Your Next 90-Day Plan. Phase 04 Launch, Module 4.4 Measuring Traction. Founder/CEO explainer plus fictional operating roadmap walkthrough, 3–5 minutes, 16:9 1080p; navy #0B2338 teal #087D79 white.\n\nSCENE 1: Start from evidence\nStoryboard placeholder: Placeholder: operating review and gap cards\nNarration: Use the operating review, sales process and readiness gaps from Lessons 76 to 78. State the exact planning start and scope. A plan is a hypothesis about useful work, not a promise of traction.\n\nSCENE 2: Choose a few outcomes\nStoryboard placeholder: Placeholder: three outcomes with baselines\nNarration: Choose up to three meaningful customer or business outcomes. Define baseline, target rationale, unit, window and source. Keep unknown baselines explicit. Tasks and launches are activities, not proof of customer value.\n\nSCENE 3: Sequence 30, 60 and 90 days\nStoryboard placeholder: Placeholder: dependency and decision gates\nNarration: Sequence early evidence or risk reduction before dependent commitments. The first 30 days may establish a missing baseline; later work depends on what is learned. Keep phase boundaries and start, stop or change gates explicit.\n\nSCENE 4: Match work to capacity\nStoryboard placeholder: Placeholder: owner, effort, resources and cash constraints\nNarration: Assign one accountable owner to each milestone and check availability, cost assumptions and approvals. Defer lower-priority work when capacity is insufficient. Planned resources are not approved spending or available cash.\n\nSCENE 5: Review with guardrails\nStoryboard placeholder: Placeholder: weekly review and contingency trigger\nNarration: Review evidence weekly and at 30, 60 and 90 days. Separate planned, in-progress and learner-reported observed states. Protect customer service, privacy and quality. Use a clear trigger and response when an assumption or dependency fails.\n\nSCENE 6: Prepare the checkpoint\nStoryboard placeholder: Placeholder: roadmap evidence to traction assessment\nNarration: Record continue, change or stop decisions with reasons, owners and versions. Carry outcomes, limits and unresolved risks into Lesson 80. The Academy does not schedule tasks, spend money or run an autonomous project.\n\nGenerate clips separately; composite exact labels/UI in post. Fictional illustrative roadmap only; no guaranteed traction, approved budgets, completed milestones, scheduled tasks or live AI/API claims. Deliver script/timing/prompts, editable project, MP4, captions/transcript, thumbnail/provenance/QA. Arabic localization separately reviewed. Video unproduced.",
      "filename": "LYNQ-Lesson-79-Gemini-Video-Prompt.md",
      "summary": "Gemini video prompt — ready to copy"
     },
@@ -765,7 +765,7 @@
        "tag": "p",
        "attrs": {},
        "children": [
-        "Approved read-only task/dependency metadata, owner availability and redacted operating aggregates could ground planning. A task/calendar adapter could prepare a reviewed schedule outside this prototype. No provider/API is connected. Use source dates/versions, tenant/role isolation, server-held scoped credentials, allowlists, completeness checks, cost/request caps and audit logs. Treat notes/tool text as untrusted data."
+        "Approved read-only task/dependency metadata, owner availability and redacted operating aggregates could ground planning. A task/calendar adapter could prepare a reviewed schedule outside the Academy. No provider/API is connected. Use source dates/versions, tenant/role isolation, server-held scoped credentials, allowlists, completeness checks, cost/request caps and audit logs. Treat notes/tool text as untrusted data."
        ]
       },
       {
@@ -843,7 +843,7 @@
      "id": "moduleStatus",
      "props": {
       "module": "4.4",
-      "suffix": "All 20 Launch lessons are interactive. Completion is local learning progress, not verified traction or scaling approval."
+      "suffix": "Completion is learning progress, not verified traction or scaling approval."
      }
     },
     {

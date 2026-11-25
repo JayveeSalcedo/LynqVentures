@@ -3,7 +3,20 @@ import data from './data/native-lessons.json';
 import { fieldsComplete, quizCorrect, makeDeliverable, profileLimits } from './lesson-state';
 import { useLessonDraft } from './useLessonDraft';
 import { Step, Content, Worksheet, KnowledgeCheck, VideoPrompt, Checklist, downloadText, type ContentNode, type Question } from './components/LessonParts';
-import { Coach } from './components/Coach';
+import { AiCoach } from './lesson-system/coach/AiCoach';
+import { cleanGuidance, MODE_LABELS, MODE_ORDER, type Guidance } from './lesson-system/coach/guidance';
+import type { FieldDefinition as LessonField } from './lesson-system/types';
+
+/** Module 00 in the shape the AI Coach reads (lesson number 0). */
+const orientationCoachLesson = {
+  number: 0,
+  title: 'Welcome & Orientation',
+  hero: { eyebrow: 'Module 00 · Welcome & Orientation', intro: 'Record a five-question starting profile and a Founder Starting Brief: what feels hardest, one assumption to explore, one manageable next action, and an honest red-team reflection. Then begin Lesson 01.' },
+  fields: data.orientationFields.map((f): LessonField => ({ id: f.id, label: f.label, kind: f.type === 'select' ? 'select' : f.type === 'textarea' ? 'textarea' : 'input', required: f.required, options: f.options.map(o => ({ value: o, label: o })) })),
+};
+/** The authored orientation coaching modes: lesson notes for the AI and offline guidance. */
+const orientationGuidance: Guidance[] = MODE_ORDER.map(mode => ({ mode, label: MODE_LABELS[mode], text: cleanGuidance((data.orientationCoach as Record<string, string>)[mode]) }));
+const orientationSuggestions = ['I have no idea yet', 'I feel overwhelmed', 'How do the lessons connect?', 'Will customers want it?'];
 import './native.css';
 // Module 00 · Welcome & Orientation. Lesson 01 now runs on the configuration-driven lesson system (src/phases/phase1).
 // `orientation` is accepted for route compatibility; this page always renders the orientation module.
@@ -46,13 +59,13 @@ export function NativeLesson({navigate,onProgress}:Props) {
       <Worksheet fields={basicFields} draft={draft} onChange={fieldChange} requiredIds={requiredIds}/><p className="save-status" role="status">{saveStatus}</p>
       <div className="actions"><button onClick={() => downloadText(deliverable,filename)}>Download Founder Starting Brief</button></div>
     </Step>
-    <Step id="coach" number="04 / ASK AI COACH" title="Your thinking partner"><Coach/></Step>
+    <Step id="coach" number="04 / AI COACH" title="Your thinking partner"><AiCoach lesson={orientationCoachLesson} state={draft} guidance={orientationGuidance} missing={requiredIds.filter(id => !draft.fields[id]?.trim()).length} required={requiredIds.length} suggestions={orientationSuggestions} intro="Pick a mode or ask your own question. The coach reads your starting profile and what you write in this module, and knows how the five phases and 100 lessons fit together."/></Step>
     <Step id="challenge" number="05 / CHALLENGE" title="Give your ambition an honest foundation."><p>A red-team review looks for weak assumptions so you can improve your plan. It is not a judgment of your potential.</p><Worksheet fields={reflectionFields} draft={draft} onChange={fieldChange} requiredIds={requiredIds}/></Step>
     <Step id="knowledge" number="06 / KNOWLEDGE CHECK" title="Check that you know how to move forward."><p>Answer all three. You can retry; all three correct are required for completion.</p><KnowledgeCheck questions={questions} draft={draft} onAnswer={(index,value) => update({answers:{...draft.answers,[index]:value}})}/></Step>
     <Step id="deliver" number="07 / DELIVER & PROGRESS" title="Deliver your Founder Starting Brief.">
       <p>Your worksheet and reflections form your starting brief. Self-completion records learning; it does not establish venture readiness.</p><div className="actions"><button onClick={() => setPreview(!preview)}>{preview ? 'Hide preview' : 'Preview my brief'}</button><button onClick={() => downloadText(deliverable,filename)}>Download Founder Starting Brief</button></div>{preview && <pre className="deliverable-preview">{deliverable}</pre>}
       <label className="check"><input type="checkbox" checked={draft.honest} onChange={event => update({honest:event.target.checked})}/>I understand this is learning progress and will keep assumptions, evidence and unknowns separate.</label><Checklist checks={checks}/>
       <button onClick={() => {if(valid){update({completed:true});setNotice('Module 00 self-completed locally.');}else setNotice('Finish the remaining requirements before marking completion.');}}>Mark Module 00 complete locally</button><p role="status">{notice || (complete ? 'Self-completed locally.' : 'Draft · completion not yet recorded.')}</p><button disabled={!complete} onClick={() => navigate(1,1)}>Begin Phase 01 →</button>
-    </Step><footer>LYNQ · Everything. Connected. · Local learning prototype. No cloud saving, reviewer submission or certification.</footer>
+    </Step><footer>LYNQ · Everything. Connected. · Progress is saved in this browser. Instructor review and certification are coming soon.</footer>
   </div></div>;
 }
