@@ -1,0 +1,182 @@
+{
+  "brand": {
+    "name": "LYNQ",
+    "tagline": "EVERYTHING. CONNECTED.",
+    "product": "Venture Studio Academy"
+  },
+  "hero": {
+    "eyebrow": "LYNQ Venture Studio Academy",
+    "title": "Build Your Venture Step by Step, At Your Own Pace",
+    "intro": "Join the self-paced Academy and learn how to turn an idea into evidence, a product and a business, through 100 interactive lessons. You don't need a business idea to begin.",
+    "previewLabel": "Preview the first lesson",
+    "preview": {
+      "eyebrow": "Lesson 01 · Discover",
+      "summary": "Create your Founder Profile.",
+      "points": [
+        "Worked examples and guided prompts",
+        "A short quiz and checklist",
+        "A deliverable you can download"
+      ]
+    }
+  },
+  "phases": [
+    {
+      "id": 1,
+      "blurb": "Find problems worth solving, understand who has them, and choose an opportunity worth exploring.",
+      "outcome": "An opportunity brief and a go, refine or pause decision."
+    },
+    {
+      "id": 2,
+      "blurb": "Turn assumptions into evidence through small, ethical customer conversations and tests.",
+      "outcome": "A customer evidence review and a build decision."
+    },
+    {
+      "id": 3,
+      "blurb": "Design and develop the product and lay the business foundations.",
+      "outcome": "A working MVP (or service equivalent) and a launch-readiness review."
+    },
+    {
+      "id": 4,
+      "blurb": "Take the product to market with a focused route to real customers, then measure what you learn.",
+      "outcome": "A launch plan and an honest read on early traction."
+    },
+    {
+      "id": 5,
+      "blurb": "Build the organisation, capital strategy and governance to grow responsibly.",
+      "outcome": "A long-term venture strategy and graduation review."
+    }
+  ],
+  "features": [
+    {
+      "title": "Learn by doing",
+      "text": "Every lesson ends in something you produce: a worksheet, a plan, a one-page brief. No passive watching."
+    },
+    {
+      "title": "Downloadable deliverables",
+      "text": "Your work exports as Markdown so you can keep it, share it and build on it."
+    },
+    {
+      "title": "Practice with a scripted coach",
+      "text": "Rehearse hard conversations and decisions with guided coach scenarios built into the lessons."
+    },
+    {
+      "title": "Quizzes and checkpoints",
+      "text": "Check your understanding as you go and pass a checkpoint before moving to the next phase."
+    },
+    {
+      "title": "Honest by design",
+      "text": "The course teaches validation without overclaiming. Evidence is separated from interpretation."
+    },
+    {
+      "title": "Pick up where you left off",
+      "text": "Your progress is saved automatically in your browser, lesson by lesson."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Start with orientation",
+      "text": "Set up your founder profile and commitment in a short Module 00."
+    },
+    {
+      "title": "Work through five phases",
+      "text": "Discover, Validate, Build, Launch, Scale. Twenty lessons each."
+    },
+    {
+      "title": "Graduate with a body of work",
+      "text": "Finish all 100 lessons and the graduation review with a full set of deliverables."
+    }
+  ],
+  "notYet": [
+    "The coach is scripted, not live AI.",
+    "Video lessons are placeholders for now.",
+    "Progress is saved in this browser only. Accounts and cloud saving are not connected yet.",
+    "Certification and instructor feedback are not available yet."
+  ],
+  "pricing": {
+    "placeholder": true,
+    "note": "Pricing is a placeholder and will be announced later.",
+    "tiers": [
+      {
+        "name": "Explore",
+        "price": "Free",
+        "period": "",
+        "description": "Try the course and decide if it's for you.",
+        "features": [
+          "Module 00 · Welcome & Orientation",
+          "Phase dashboards",
+          "Progress saved in your browser"
+        ],
+        "cta": {
+          "label": "Start free",
+          "href": "#orientation"
+        },
+        "highlight": false
+      },
+      {
+        "name": "Full Academy",
+        "price": "$XX",
+        "period": "one-time",
+        "description": "The complete self-paced course.",
+        "features": [
+          "All 100 interactive lessons",
+          "All five phases, Discover to Scale",
+          "Downloadable deliverables",
+          "Quizzes, checkpoints and graduation review"
+        ],
+        "cta": {
+          "label": "Start the course",
+          "href": "#orientation"
+        },
+        "highlight": true
+      },
+      {
+        "name": "Cohort",
+        "price": "$XXX",
+        "period": "per seat",
+        "description": "Learn with a group and get instructor oversight.",
+        "features": [
+          "Everything in Full Academy",
+          "Instructor progress view",
+          "Verified completion",
+          "Group sessions"
+        ],
+        "cta": {
+          "label": "Join the waitlist",
+          "href": null
+        },
+        "highlight": false
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Do I need a business idea to start?",
+      "a": "No. Phase 1 helps you find and choose an opportunity."
+    },
+    {
+      "q": "How long does the course take?",
+      "a": "It is self-paced. Each phase is 20 lessons, so work at the speed that suits you."
+    },
+    {
+      "q": "Where is my progress saved?",
+      "a": "In your browser on this device. Clearing site data or switching devices will lose it until cloud saving is added."
+    },
+    {
+      "q": "Will I get a certificate?",
+      "a": "Certification is not available yet. Completion is self-recorded for now."
+    },
+    {
+      "q": "When will pricing be announced?",
+      "a": "Pricing is still to be decided. Check back soon."
+    }
+  ],
+  "story": {
+    "heading": "Ever noticed how many ventures start with an answer instead of a question?",
+    "paragraphs": [
+      "Many founders start building before they know the problem is worth solving.",
+      "That's expensive, and it's avoidable.",
+      "The Academy walks you through five phases, Discover, Validate, Build, Launch and Scale, so every decision rests on evidence instead of guesswork.",
+      "It helps you run small, ethical tests and build with clarity, purpose and confidence."
+    ]
+  }
+}
