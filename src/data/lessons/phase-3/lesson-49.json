@@ -546,7 +546,7 @@
               "tag": "p",
               "attrs": {},
               "children": [
-                "Record principles, accountable controls and release gates. Never paste actual keys, passwords, personal records or confidential incident details into this local prototype."
+                "Record principles, accountable controls and release gates. Never paste actual keys, passwords, personal records or confidential incident details into the Academy."
               ]
             },
             {
@@ -970,7 +970,7 @@
           "id": "moduleStatus",
           "props": {
             "module": "3.2",
-            "text": " / 5 self-completed locally. All 20 Build lessons are available. Learning completion is separate from venture readiness; Phase 04 continues with Lesson 61."
+            "text": " / 5 self-completed locally. Learning completion is separate from venture readiness."
           }
         },
         {

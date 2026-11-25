@@ -1,3 +1,4 @@
+import { SHOW_PRODUCTION_TOOLS } from '../flags';
 import { useId, useState, type ReactNode } from 'react';
 import type { CoachMode, FieldDefinition, LessonState, QuizQuestion, Scene } from '../types';
 import { downloadText } from '../deliverable';
@@ -25,7 +26,13 @@ export function Transcript({ scenes, summary }: { scenes: Scene[]; summary?: str
   return <details><summary>{summary ?? 'Read the full narration / transcript'}</summary>{scenes.map((scene, i) => <p key={i}><strong>{i + 1}. {scene.title}</strong><br />{scene.narration}</p>)}</details>;
 }
 
-export function VideoPrompt({ prompt, filename, summary, title }: { prompt: string; filename: string; summary?: string; title?: string }) {
+type VideoPromptProps = { prompt: string; filename: string; summary?: string; title?: string };
+/** Internal production prompt; hidden from learners unless production tools are enabled. */
+export function VideoPrompt(props: VideoPromptProps) {
+  return SHOW_PRODUCTION_TOOLS ? <VideoPromptPanel {...props} /> : null;
+}
+
+function VideoPromptPanel({ prompt, filename, summary, title }: VideoPromptProps) {
   const [status, setStatus] = useState('');
   const id = useId();
   return <details><summary>{summary ?? 'Gemini video prompt — ready to copy'}</summary>

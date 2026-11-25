@@ -101,3 +101,19 @@ test('original combined HTML is unchanged', () => {
   const hash = createHash('sha256').update(readFileSync(new URL('LYNQ_Academy_All_Phases.html', root))).digest('hex');
   assert.equal(hash, '358c13ce6c495414e3622f519cb3c41da666c3ff080497b8e6a1ff6fb46ffee8');
 });
+
+test('learner-facing pages hide production prompts and development/status wording', () => {
+  const banned = /Gemini video prompt|Copy Gemini prompt|lessons are interactive|draft for review|Original curriculum|Local prototype export|Local interactive prototype|Browser-local prototype|this (local )?prototype does|in this local prototype|Simulated Coach|SCRIPTED DEMO|Scripted demonstration|Simulated guidance|Coach · simulated/i;
+  for (let n = 1; n <= 100; n++) {
+    const html = render(n);
+    assert.doesNotMatch(html, banned, `lesson ${n}`);
+    assert.match(html, /<h3 id="ai-coach-\d+">AI Coach<\/h3>/, `AI Coach in lesson ${n}`);
+  }
+  // The prompts stay in the data for the media team (shown only with VITE_SHOW_PRODUCTION_TOOLS=true).
+  assert.ok(blocks(lessons[21]).some(b => b.type === 'videoPrompt'));
+  for (let p = 1; p <= 5; p++) {
+    const html = strip(renderToString(createElement(DashboardView, { dashboard: JSON.parse(readFileSync(new URL(`src/data/dashboards/phase-${p}.json`, root))), navigate() {}, progress: { complete: [], orientation: false } })));
+    assert.doesNotMatch(html, banned, `phase ${p} overview`);
+    assert.doesNotMatch(html, /· Interactive/, `phase ${p} overview labels`);
+  }
+});

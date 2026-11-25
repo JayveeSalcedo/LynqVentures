@@ -442,7 +442,7 @@
               "tag": "p",
               "attrs": {},
               "children": [
-                "Map one core task. Use numbered rows and arrows in text: S01 | open invitation | show details | F01 → S02. Record each branch with its condition and destination. You can draw a diagram separately; this prototype saves structured text."
+                "Map one core task. Use numbered rows and arrows in text: S01 | open invitation | show details | F01 → S02. Record each branch with its condition and destination. You can draw a diagram separately; the Academy saves structured text."
               ]
             },
             {
@@ -587,7 +587,7 @@
           "id": "moduleStatus",
           "props": {
             "module": "3.1",
-            "text": " / 5 self-completed locally. All 20 Build lessons are available. Learning completion is separate from venture readiness; Phase 04 continues with Lesson 61."
+            "text": " / 5 self-completed locally. Learning completion is separate from venture readiness."
           }
         },
         {

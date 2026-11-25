@@ -844,7 +844,7 @@
           "id": "moduleStatus",
           "props": {
             "module": "3.4",
-            "text": " / 5 self-completed locally. All 20 Build lessons are available. Learning completion is separate from venture readiness; Phase 04 continues with Lesson 61."
+            "text": " / 5 self-completed locally. Learning completion is separate from venture readiness."
           }
         },
         {
@@ -861,7 +861,7 @@
               "tag": "p",
               "attrs": {},
               "children": [
-                "Next: Phase 04 — Launch, Lesson 61 — Define Your Go-to-Market Strategy (interactive). ",
+                "Next: Phase 04 — Launch, Lesson 61 — Define Your Go-to-Market Strategy. ",
                 {
                   "tag": "phase-link",
                   "attrs": {

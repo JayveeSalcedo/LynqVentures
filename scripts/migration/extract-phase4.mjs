@@ -3,7 +3,8 @@
 //   src/data/lessons/phase-4/lesson-61.json … lesson-80.json, src/data/dashboards/phase-4.json
 // Run: node scripts/migration/extract-phase4.mjs
 import { mkdirSync, writeFileSync } from 'node:fs';
-import { legacyScript, legacyBody, jsonConst, literalConst, parseHtml, findAll, byId, textOf, toContent } from './legacy.mjs';
+import { legacyScript, legacyBody, jsonConst, literalConst, parseHtml, findAll, byId, textOf, toContent, correctStale, assertCorrectionsUsed } from './legacy.mjs';
+import { STALE as STALE_TABLE } from './stale-corrections.mjs';
 
 const root = new URL('../../', import.meta.url);
 const js = legacyScript(4);
@@ -383,6 +384,9 @@ function dashboard() {
 const out = new URL('src/data/lessons/phase-4/', root);
 mkdirSync(out, { recursive: true });
 mkdirSync(new URL('src/data/dashboards/', root), { recursive: true });
-for (const n of Object.keys(configs).map(Number)) writeFileSync(new URL(`lesson-${n}.json`, out), JSON.stringify(lesson(n), null, 1) + '\n');
-writeFileSync(new URL('src/data/dashboards/phase-4.json', root), JSON.stringify(dashboard(), null, 1) + '\n');
+const staleUsed = new Set();
+const fix = value => correctStale(value, STALE_TABLE[4], staleUsed);
+for (const n of Object.keys(configs).map(Number)) writeFileSync(new URL(`lesson-${n}.json`, out), JSON.stringify(fix(lesson(n)), null, 1) + '\n');
+writeFileSync(new URL('src/data/dashboards/phase-4.json', root), JSON.stringify(fix(dashboard()), null, 1) + '\n');
+assertCorrectionsUsed(STALE_TABLE[4], staleUsed);
 console.log(`Phase 4: wrote ${Object.keys(configs).length} lessons and the dashboard.`);

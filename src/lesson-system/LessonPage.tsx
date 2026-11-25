@@ -7,6 +7,8 @@ import { lessonName, loadPhase, phaseOf, schemaFor } from './registry';
 import { Nodes } from './components/Content';
 import { Checklist, KnowledgeCheck, Practice, ScriptedCoach, Step, Storyboard, Transcript, VideoPlaceholder, VideoPrompt, Worksheet } from './components/Blocks';
 import { GraduationReview } from './components/GraduationReview';
+import { AiCoach } from './coach/AiCoach';
+import { lessonGuidance, replacedByAiCoach } from './coach/guidance';
 import { nextStep } from '../routing';
 import '../native.css';
 
@@ -81,6 +83,10 @@ export function LessonView({ lesson, module, navigate, onProgress }: { lesson: L
     }
   }
 
+  // The Ask AI section hosts the one AI Coach; it replaces the scripted coach and its "simulated" notes.
+  const guidance = lessonGuidance(lesson);
+  const isCoachSection = (label: string) => /ASK AI/i.test(label);
+  const coach = <AiCoach lesson={lesson} state={state} guidance={guidance} missing={missingCount(state, schema.ids)} required={schema.ids.length} />;
   const nav = lesson.nav ?? lesson.sections.map(s => ({ id: s.id, label: s.label }));
   return <div className="native-scroll"><article className="native-page" aria-labelledby={`lesson-${n}-title`}>
     <header className="native-hero">
@@ -92,7 +98,9 @@ export function LessonView({ lesson, module, navigate, onProgress }: { lesson: L
       <nav aria-label="Lesson sections">{nav.map((item, i) => <a key={item.id} href={`#lesson/${n}`} onClick={e => { e.preventDefault(); document.getElementById(item.id)?.scrollIntoView({ behavior: 'smooth' }); }}>{String(i + 1).padStart(2, '0')} {item.label}</a>)}</nav>
       <p className="lesson-status" role="status">{done ? 'Self-completed locally' : 'Draft · completion not recorded'}</p>
     </header>
-    {lesson.sections.map(section => <Step key={section.id} id={section.id} number={section.label} title={section.heading} className={section.className}>{section.blocks.map(renderBlock)}</Step>)}
+    {lesson.sections.map(section => isCoachSection(section.label)
+      ? <Step key={section.id} id={section.id} number={section.label} title={section.heading.replace(/\s*·\s*simulated$/i, '')} className={section.className}>{coach}{section.blocks.map((b, i) => replacedByAiCoach(b) ? null : renderBlock(b, i))}</Step>
+      : <Step key={section.id} id={section.id} number={section.label} title={section.heading} className={section.className}>{section.blocks.map(renderBlock)}</Step>)}
     <nav className="lesson-pager actions" aria-label="Lesson navigation">
       {n > 1 && <button type="button" className="secondary" onClick={() => navigate(phaseOf(n - 1), n - 1)}>← Lesson {String(n - 1).padStart(2, '0')}</button>}
       <button type="button" className="secondary" onClick={() => navigate(phase)}>Phase overview</button>

@@ -356,7 +356,7 @@
          "tag": "li",
          "attrs": {},
          "children": [
-          "Define New → Qualified → Evaluation → Proposal → Closed won/lost with evidence and qualify-out rules. This prototype uses fixed example stages; customize the production plan separately."
+          "Define New → Qualified → Evaluation → Proposal → Closed won/lost with evidence and qualify-out rules. The Academy uses fixed example stages; customize the production plan separately."
          ]
         },
         {
@@ -835,7 +835,7 @@
      "id": "moduleStatus",
      "props": {
       "module": "4.2",
-      "suffix": "All 20 Launch lessons are interactive. Completion is local learning progress, not verified traction or scaling approval."
+      "suffix": "Completion is learning progress, not verified traction or scaling approval."
      }
     },
     {

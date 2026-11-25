@@ -1,3 +1,4 @@
+import { SHOW_PRODUCTION_TOOLS } from '../lesson-system/flags';
 import { createElement, useState, type ReactNode } from 'react';
 import type { Draft } from '../lesson-state';
 export type ContentNode = string | {tag:string;attrs:Record<string,string | null>;children:ContentNode[]};
@@ -27,7 +28,11 @@ export function downloadText(text:string,name:string) {
   const url=URL.createObjectURL(new Blob([text],{type:'text/markdown;charset=utf-8'}));
   const link=document.createElement('a');link.href=url;link.download=name;link.click();setTimeout(() => URL.revokeObjectURL(url),1000);
 }
-export function VideoPrompt({text,name}:{text:string;name:string}) {
+/** Internal production prompt; hidden from learners unless production tools are enabled. */
+export function VideoPrompt(props:{text:string;name:string}) {
+  return SHOW_PRODUCTION_TOOLS ? <VideoPromptPanel {...props}/> : null;
+}
+function VideoPromptPanel({text,name}:{text:string;name:string}) {
   const [status,setStatus]=useState('');
   return <details><summary>Video production prompt — ready to copy</summary><textarea aria-label="Video production prompt" value={text} readOnly/><div className="actions"><button onClick={async () => {try {await navigator.clipboard.writeText(text);setStatus('Prompt copied.');} catch {setStatus('Clipboard unavailable. Select the text manually or download the prompt.');}}}>Copy prompt</button><button onClick={() => downloadText(text,name)}>Download prompt</button></div><p role="status">{status}</p></details>;
 }

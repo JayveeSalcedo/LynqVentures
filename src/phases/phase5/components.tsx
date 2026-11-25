@@ -1,5 +1,6 @@
 // Typed, configurable Phase 5 (Scale) lesson tools. One component per legacy tool pattern; the
 // per-lesson wording and limits come from extension props in the lesson JSON.
+import { SHOW_PRODUCTION_TOOLS } from '../../lesson-system/flags';
 import { useId, useMemo, useState } from 'react';
 import type { ExtensionProps, LessonState } from '../../lesson-system/types';
 import { graduationStatus, readProgress } from '../../progress';
@@ -35,7 +36,12 @@ export function Story(p: ExtensionProps) {
   </details>;
 }
 
+/** Internal production prompt; hidden from learners unless production tools are enabled. */
 export function VideoPromptTool(p: ExtensionProps) {
+  return SHOW_PRODUCTION_TOOLS ? <VideoPromptPanel {...p} /> : null;
+}
+
+function VideoPromptPanel(p: ExtensionProps) {
   const c = props<VideoPromptProps>(p);
   const [status, setStatus] = useState('');
   const id = useId();

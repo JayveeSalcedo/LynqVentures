@@ -10,6 +10,7 @@ import { createElement } from 'react';
 import { renderToString } from 'react-dom/server';
 import { load, memoryStorage } from './helpers/bundle.mjs';
 import { legacyScript, jsonConst, parseHtml, findAll } from './migration/legacy.mjs';
+import { correctedDeep } from './migration/stale-corrections.mjs';
 
 const curriculum = JSON.parse(readFileSync(new URL('../src/data/curriculum.json', import.meta.url)));
 const LESSONS = Array.from({ length: 20 }, (_, i) => 81 + i);
@@ -17,7 +18,7 @@ const lessonFile = n => new URL(`../src/data/lessons/phase-5/lesson-${String(n).
 const lessons = Object.fromEntries(LESSONS.map(n => [n, JSON.parse(readFileSync(lessonFile(n)))]));
 const dashboard = JSON.parse(readFileSync(new URL('../src/data/dashboards/phase-5.json', import.meta.url)));
 const js = legacyScript(5);
-const configs = jsonConst(js, 'configs'), templates = jsonConst(js, 'templates');
+const configs = correctedDeep(5, jsonConst(js, 'configs')), templates = correctedDeep(5, jsonConst(js, 'templates'));
 const schema = n => curriculum.schemas[String(n)];
 const blocks = n => lessons[n].sections.flatMap(s => s.blocks);
 const extProps = (n, id) => blocks(n).filter(b => b.type === 'extension' && b.id === id).map(b => b.props);
@@ -171,7 +172,7 @@ test('Scale dashboard renders natively with hero, all module cards and 20 lesson
   assert.deepEqual(dashboard.modules.map(m => m.code), ['5.1', '5.2', '5.3', '5.4']);
   assert.deepEqual(dashboard.modules.map(m => m.title), curriculum.phases[4].modules.map(m => m.split(' · ')[1]));
   assert.deepEqual(dashboard.modules.flatMap(m => m.lessons.map(l => l.number)), LESSONS);
-  for (const l of dashboard.modules.flatMap(m => m.lessons)) { assert.equal(l.title, curriculum.names[l.number]); assert.equal(l.summary, 'Interactive'); }
+  for (const l of dashboard.modules.flatMap(m => m.lessons)) { assert.equal(l.title, curriculum.names[l.number]); assert.equal(l.summary, '', 'status-only "Interactive" label removed'); }
   const old = globalThis.localStorage;
   globalThis.localStorage = memoryStorage();
   try {
@@ -180,9 +181,10 @@ test('Scale dashboard renders natively with hero, all module cards and 20 lesson
     for (const n of LESSONS) assert.ok(html.includes(escapeHtml(curriculum.names[n])), `dashboard lesson ${n}`);
     assert.equal((html.match(/class="lesson-row"/g) || []).length, 20);
     assert.ok(html.includes('PHASE 05 · SCALE'));
-    assert.ok(html.includes('Lessons 81–100 are interactive. No live AI, capacity test or expansion is connected.'));
+    assert.ok(html.includes('Four modules, five lessons each, covering growth, organization, capital and long-term strategy.'));
+    assert.doesNotMatch(html, /interactive|Browser-local prototype/i);
     assert.ok(html.includes('2 / 20'));
-    assert.ok(html.includes('Browser-local prototype. Learning progress is separate from business readiness.'));
+    assert.ok(html.includes('Progress is saved in this browser. Learning progress is separate from business readiness.'));
   } finally { globalThis.localStorage = old; }
 });
 

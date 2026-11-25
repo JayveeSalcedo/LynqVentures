@@ -54,7 +54,7 @@ export function DashboardView({ dashboard, navigate, progress }: { dashboard: Da
         <ul className="lesson-list">{module.lessons.map(lesson => <li key={lesson.number}>
           <button type="button" className="lesson-row" onClick={() => navigate(phase, lesson.number)}>
             <span className="lesson-number">{String(lesson.number).padStart(2, '0')}</span>
-            <span><strong>{lesson.title}</strong><br /><small>{lesson.summary}</small></span>
+            <span><strong>{lesson.title}</strong>{lesson.summary && <><br /><small>{lesson.summary}</small></>}</span>
             <small className="rowstatus">{done(lesson.number) ? 'Self-completed' : 'Available'}</small>
           </button></li>)}</ul>
       </section>;

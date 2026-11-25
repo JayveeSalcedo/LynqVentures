@@ -4,7 +4,8 @@
 // Scripted strings embedded in legacy logic (practice/coach/render) are parsed out of the
 // legacy functions verbatim; nothing is evaluated.
 import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
-import { legacyBody, legacyScript, jsonConst, parseHtml, findAll, byId, textOf, toContent } from './legacy.mjs';
+import { legacyBody, legacyScript, jsonConst, parseHtml, findAll, byId, textOf, toContent, correctStale, assertCorrectionsUsed } from './legacy.mjs';
+import { STALE as STALE_TABLE } from './stale-corrections.mjs';
 
 const root = new URL('../../', import.meta.url);
 const curriculum = JSON.parse(readFileSync(new URL('src/data/curriculum.json', root), 'utf8'));
@@ -347,11 +348,14 @@ function convertDashboard(lessons) {
 }
 
 const lessons = LESSONS.map(convertLesson);
-const dashboard = convertDashboard(lessons);
+const staleUsed = new Set();
+const correctedLessons = lessons.map(l => correctStale(l, STALE_TABLE[2], staleUsed));
+const dashboard = correctStale(convertDashboard(lessons), STALE_TABLE[2], staleUsed);
+assertCorrectionsUsed(STALE_TABLE[2], staleUsed);
 const write = (path, data) => { const url = new URL(path, root); mkdirSync(new URL('.', url), { recursive: true }); writeFileSync(url, `${JSON.stringify(data, null, 2)}\n`); };
 const only = process.argv.includes('--check') ? null : true;
 if (only) {
-  for (const lesson of lessons) write(`src/data/lessons/phase-2/lesson-${lesson.number}.json`, lesson);
+  for (const lesson of correctedLessons) write(`src/data/lessons/phase-2/lesson-${lesson.number}.json`, lesson);
   write('src/data/dashboards/phase-2.json', dashboard);
 }
 console.log(`Phase 2: ${lessons.length} lessons and dashboard ${only ? 'written' : 'checked'}.`);

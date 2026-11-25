@@ -827,7 +827,7 @@
      "id": "moduleStatus",
      "props": {
       "module": "4.4",
-      "suffix": "All 20 Launch lessons are interactive. Completion is local learning progress, not verified traction or scaling approval."
+      "suffix": "Completion is learning progress, not verified traction or scaling approval."
      }
     },
     {
@@ -844,7 +844,7 @@
        "tag": "p",
        "attrs": {},
        "children": [
-        "Next: Phase 05 — Scale · Lesson 81 — What Does Scaling Really Mean? (interactive)."
+        "Next: Phase 05 — Scale · Lesson 81 — What Does Scaling Really Mean?."
        ]
       },
       {

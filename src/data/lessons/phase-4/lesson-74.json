@@ -210,7 +210,7 @@
       {
        "title": "Keep the record honest",
        "visual": "Placeholder: quote, paraphrase, observation and interpretation labels",
-       "narration": "Record source, date, actual version and limits. Distinguish authorized verbatim quote, paraphrase, observation and founder interpretation. Use anonymous references; no private recordings or personal records in this prototype. Missing feedback stays not run."
+       "narration": "Record source, date, actual version and limits. Distinguish authorized verbatim quote, paraphrase, observation and founder interpretation. Use anonymous references; no private recordings or personal records in the Academy. Missing feedback stays not run."
       },
       {
        "title": "Synthesize without overclaiming",
@@ -246,7 +246,7 @@
       {
        "title": "Keep the record honest",
        "visual": "Placeholder: quote, paraphrase, observation and interpretation labels",
-       "narration": "Record source, date, actual version and limits. Distinguish authorized verbatim quote, paraphrase, observation and founder interpretation. Use anonymous references; no private recordings or personal records in this prototype. Missing feedback stays not run."
+       "narration": "Record source, date, actual version and limits. Distinguish authorized verbatim quote, paraphrase, observation and founder interpretation. Use anonymous references; no private recordings or personal records in the Academy. Missing feedback stays not run."
       },
       {
        "title": "Synthesize without overclaiming",
@@ -262,7 +262,7 @@
     },
     {
      "type": "videoPrompt",
-     "prompt": "Create LYNQ Lesson 74 — Collect Customer Feedback. Phase 04 Launch, Module 4.3 Launching and Learning. Founder/CEO explainer plus fictional neutral-question and feedback-register demo, 3–5 minutes, 16:9 1080p; navy #0B2338, teal #087D79, white. Teach relevant sampling, neutral recent-task questions, permission/minimal capture, quote/paraphrase/observation/interpretation distinctions and bounded follow-up.\n\nSCENE 1: Ask to understand the actual experience\nStoryboard placeholder: Placeholder: activation report becomes learning questions\nNarration: Lesson 73 defined activation and usage. Now ask relevant users what happened around the supported task. Feedback explains experience and suggests questions; it does not by itself prove demand, retention or what the product should build.\n\nSCENE 2: Choose relevant voices\nStoryboard placeholder: Placeholder: sampling/access and missing voices\nNarration: Define which user or buyer experience matters and whose voice is missing. Use appropriate recruitment and permission. A small or self-selected sample does not represent the whole market, and a buyer is not always the product user.\n\nSCENE 3: Use neutral questions\nStoryboard placeholder: Placeholder: leading question replaced by recent-task prompt\nNarration: Ask about a recent task, expectations, observed steps, difficulties and alternatives. Invite concrete examples without pitching, praising or promising. Do not ask a question that tells the participant what answer you want.\n\nSCENE 4: Keep the record honest\nStoryboard placeholder: Placeholder: quote, paraphrase, observation and interpretation labels\nNarration: Record source, date, actual version and limits. Distinguish authorized verbatim quote, paraphrase, observation and founder interpretation. Use anonymous references; no private recordings or personal records in this prototype. Missing feedback stays not run.\n\nSCENE 5: Synthesize without overclaiming\nStoryboard placeholder: Placeholder: theme, counterexample and follow-up cards\nNarration: Compare themes and contradictory examples with actual behavior. Requests are not automatic product priorities. Record sample and source limits; record counts are not unique participants or representative prevalence. AI drafts cannot manufacture customer evidence.\n\nSCENE 6: Follow up with authority\nStoryboard placeholder: Placeholder: feedback register to retention experiment brief\nNarration: Assign clarification, supported recovery or bounded hypothesis review to an owner. Keep response and change promises within actual authority. Lesson 75 uses feedback and usage to plan retention experiments. No recruitment, recording, messaging or live AI runs here.\n\nGenerate supported clips separately and assemble to narration; composite exact questions/labels/UI text in post. Fictional illustrative notes explicitly labeled, no invented real quotes, interviews, sentiment/retention or representative market claims. No live AI/API, recruitment, recording, sending or product changes. Deliver script/timing/prompts, editable project, MP4, captions/transcript, thumbnail/provenance/QA. Native Arabic/RTL review separate. Video unproduced.",
+     "prompt": "Create LYNQ Lesson 74 — Collect Customer Feedback. Phase 04 Launch, Module 4.3 Launching and Learning. Founder/CEO explainer plus fictional neutral-question and feedback-register demo, 3–5 minutes, 16:9 1080p; navy #0B2338, teal #087D79, white. Teach relevant sampling, neutral recent-task questions, permission/minimal capture, quote/paraphrase/observation/interpretation distinctions and bounded follow-up.\n\nSCENE 1: Ask to understand the actual experience\nStoryboard placeholder: Placeholder: activation report becomes learning questions\nNarration: Lesson 73 defined activation and usage. Now ask relevant users what happened around the supported task. Feedback explains experience and suggests questions; it does not by itself prove demand, retention or what the product should build.\n\nSCENE 2: Choose relevant voices\nStoryboard placeholder: Placeholder: sampling/access and missing voices\nNarration: Define which user or buyer experience matters and whose voice is missing. Use appropriate recruitment and permission. A small or self-selected sample does not represent the whole market, and a buyer is not always the product user.\n\nSCENE 3: Use neutral questions\nStoryboard placeholder: Placeholder: leading question replaced by recent-task prompt\nNarration: Ask about a recent task, expectations, observed steps, difficulties and alternatives. Invite concrete examples without pitching, praising or promising. Do not ask a question that tells the participant what answer you want.\n\nSCENE 4: Keep the record honest\nStoryboard placeholder: Placeholder: quote, paraphrase, observation and interpretation labels\nNarration: Record source, date, actual version and limits. Distinguish authorized verbatim quote, paraphrase, observation and founder interpretation. Use anonymous references; no private recordings or personal records in the Academy. Missing feedback stays not run.\n\nSCENE 5: Synthesize without overclaiming\nStoryboard placeholder: Placeholder: theme, counterexample and follow-up cards\nNarration: Compare themes and contradictory examples with actual behavior. Requests are not automatic product priorities. Record sample and source limits; record counts are not unique participants or representative prevalence. AI drafts cannot manufacture customer evidence.\n\nSCENE 6: Follow up with authority\nStoryboard placeholder: Placeholder: feedback register to retention experiment brief\nNarration: Assign clarification, supported recovery or bounded hypothesis review to an owner. Keep response and change promises within actual authority. Lesson 75 uses feedback and usage to plan retention experiments. No recruitment, recording, messaging or live AI runs here.\n\nGenerate supported clips separately and assemble to narration; composite exact questions/labels/UI text in post. Fictional illustrative notes explicitly labeled, no invented real quotes, interviews, sentiment/retention or representative market claims. No live AI/API, recruitment, recording, sending or product changes. Deliver script/timing/prompts, editable project, MP4, captions/transcript, thumbnail/provenance/QA. Native Arabic/RTL review separate. Video unproduced.",
      "filename": "LYNQ-Lesson-74-Gemini-Video-Prompt.md",
      "summary": "Gemini video prompt — ready to copy"
     },
@@ -370,7 +370,7 @@
          "tag": "li",
          "attrs": {},
          "children": [
-          "Explain purpose and appropriate permission; minimize data. Recording/quotes need appropriate permission and retention handling outside this local prototype."
+          "Explain purpose and appropriate permission; minimize data. Recording/quotes need appropriate permission and retention handling outside the Academy."
          ]
         },
         {
@@ -846,7 +846,7 @@
      "id": "moduleStatus",
      "props": {
       "module": "4.3",
-      "suffix": "All 20 Launch lessons are interactive. Completion is local learning progress, not verified traction or scaling approval."
+      "suffix": "Completion is learning progress, not verified traction or scaling approval."
      }
     },
     {
