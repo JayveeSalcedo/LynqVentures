@@ -180,7 +180,7 @@ test('Scale dashboard renders natively with hero, all module cards and 20 lesson
     assert.doesNotMatch(html, /<iframe|<script/);
     for (const n of LESSONS) assert.ok(html.includes(escapeHtml(curriculum.names[n])), `dashboard lesson ${n}`);
     assert.equal((html.match(/class="lesson-row"/g) || []).length, 20);
-    assert.ok(html.includes('PHASE 05 · SCALE'));
+    assert.ok(html.includes('Phase 05 · Scale · Lessons 81–100'));
     assert.ok(html.includes('Four modules, five lessons each, covering growth, organization, capital and long-term strategy.'));
     assert.doesNotMatch(html, /interactive|Browser-local prototype/i);
     assert.ok(html.includes('2 / 20'));

@@ -117,3 +117,19 @@ test('learner-facing pages hide production prompts and development/status wordin
     assert.doesNotMatch(html, /· Interactive/, `phase ${p} overview labels`);
   }
 });
+
+test('one label convention: section names, nav, lesson times and overview labels', () => {
+  const steps = ['WATCH', 'LEARN', 'BUILD', 'AI COACH', 'CHALLENGE', 'KNOWLEDGE CHECK'];
+  for (let n = 1; n <= 100; n++) {
+    const html = render(n);
+    steps.forEach((name, i) => assert.ok(html.includes(`0${i + 1} / ${name}`), `lesson ${n}: 0${i + 1} / ${name}`));
+    const last = n === 100 ? '07 / DELIVER &amp; GRADUATION' : n % 20 === 0 ? '07 / DELIVER &amp; PHASE CHECKPOINT' : '07 / DELIVER &amp; PROGRESS';
+    assert.ok(html.includes(last), `lesson ${n}: ${last}`);
+    assert.doesNotMatch(html, /ASK AI|CHECK YOUR UNDERSTANDING|MODULE CHECKPOINT|\d+\s*[–-]\s*\d+ minutes/, `lesson ${n} legacy label`);
+    assert.match(html, /<nav aria-label="Lesson sections">(<a [^>]*>\d\d (Watch|Learn|Build|AI Coach|Challenge|Knowledge check|Deliver|Checkpoint|Graduation)<\/a>){7}<\/nav>/, `lesson ${n} nav`);
+  }
+  for (let p = 1; p <= 5; p++) {
+    const html = strip(renderToString(createElement(DashboardView, { dashboard: JSON.parse(readFileSync(new URL(`src/data/dashboards/phase-${p}.json`, root))), navigate() {}, progress: { complete: [], orientation: false } })));
+    assert.ok(html.includes(`Phase 0${p} · ${curriculum.phases[p - 1].title} · Lessons ${(p - 1) * 20 + 1}–${p * 20}`), `phase ${p} label`);
+  }
+});

@@ -47,3 +47,12 @@ test('layout marks the current page in the nav', () => {
   assert.match(html, /href="#pricing" aria-current="page"/);
   assert.doesNotMatch(html, /href="#catalog" aria-current/);
 });
+
+test('no stale "scripted coach" or "local prototype" claims in the site, sidebar or footers', () => {
+  const stale = /Coach replies are scripted|with a scripted coach|coach is scripted|not live AI|Local learning prototype|cloud saving are not connected|until cloud saving is added|Local autosave/i;
+  for (const file of ['src/main.tsx', 'src/site/SiteLayout.tsx', 'src/data/marketing.json', 'src/lesson-system/LessonPage.tsx', 'src/NativeLesson.tsx', 'src/useLessonDraft.ts', 'src/lesson-system/useLessonState.ts'])
+    assert.doesNotMatch(readFileSync(new URL(`../${file}`, import.meta.url), 'utf8'), stale, file);
+  const home = strip(renderToString(createElement(Home, { progress })));
+  assert.match(home, /A live AI Coach in every lesson/);
+  assert.match(home, /Accounts and cloud saving are coming/);
+});

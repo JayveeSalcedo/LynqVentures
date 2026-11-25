@@ -51,7 +51,7 @@ function App() {
           {phase.modules.map((module, mi) => <React.Fragment key={module}><p className="moduleLabel">{module}</p>{Array.from({length:5},(_,i) => (phase.id-1)*20+mi*5+i+1).map(n => <button key={n} className={`lessonLink ${location.lesson === n ? 'active' : ''}`} aria-current={location.lesson === n ? 'page' : undefined} onClick={() => navigate(phase.id,n)}><span>{String(n).padStart(2,'0')}</span><span>{curriculum.names[String(n) as keyof typeof curriculum.names]}</span><small>{progress.complete.includes(n) ? 'Self-completed' : 'Available'}</small></button>)}</React.Fragment>)}
         </details>;
       })}
-      <p className="limitations">Coach replies are scripted. Videos, cloud saving and certification are not available yet.</p>
+      <p className="limitations">100 lessons with a live AI Coach. Videos, cloud saving and certification are coming soon.</p>
     </aside>
     <main className="main"><header className="top"><button className="toggle" aria-expanded={menu} aria-controls="academy-navigation" onClick={() => setMenu(!menu)}>Phases & lessons</button><strong>{title}</strong><a className="site-link" href="#home">LYNQ Academy home</a></header>
       {!location.phase

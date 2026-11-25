@@ -68,7 +68,7 @@ export function SiteLayout({ page, children }: { page: SitePage; children: React
     <main className="site-main">{children}</main>
     <footer className="site-footer">
       <span className="footer-brand"><Logo height={18} title={marketing.brand.name}/><strong>{marketing.brand.product}</strong></span>
-      <span>Pricing, accounts and certification are not available yet.</span>
+      <span>Pricing, accounts and certification are coming soon.</span>
     </footer>
     <div className="site-glass" aria-hidden="true"/>
   </div>;

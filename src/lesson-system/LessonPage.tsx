@@ -9,6 +9,7 @@ import { Checklist, KnowledgeCheck, Practice, ScriptedCoach, Step, Storyboard, T
 import { GraduationReview } from './components/GraduationReview';
 import { AiCoach } from './coach/AiCoach';
 import { lessonGuidance, replacedByAiCoach } from './coach/guidance';
+import { lessonMeta, navLabel, sectionLabel } from './labels';
 import { nextStep } from '../routing';
 import '../native.css';
 
@@ -87,25 +88,25 @@ export function LessonView({ lesson, module, navigate, onProgress }: { lesson: L
   const guidance = lessonGuidance(lesson);
   const isCoachSection = (label: string) => /ASK AI/i.test(label);
   const coach = <AiCoach lesson={lesson} state={state} guidance={guidance} missing={missingCount(state, schema.ids)} required={schema.ids.length} />;
-  const nav = lesson.nav ?? lesson.sections.map(s => ({ id: s.id, label: s.label }));
+  const nav = lesson.sections.map(s => ({ id: s.id, label: navLabel(s.label, n) }));
   return <div className="native-scroll"><article className="native-page" aria-labelledby={`lesson-${n}-title`}>
     <header className="native-hero">
       <div className="actions"><button type="button" className="secondary" onClick={() => navigate(phase)}>← {['', 'Discover', 'Validate', 'Build', 'Launch', 'Scale'][phase]} dashboard</button></div>
       <div className="step-label">{lesson.hero.eyebrow}</div>
       <h1 id={`lesson-${n}-title`}>{lesson.hero.title}</h1>
       <p>{lesson.hero.intro}</p>
-      {lesson.hero.badges?.map(b => <span key={b} className="badge">{b}</span>)} {lesson.hero.meta && <small>{lesson.hero.meta}</small>}
+      {lesson.hero.badges?.map(b => <span key={b} className="badge">{b}</span>)} {lesson.hero.meta && <small>{lessonMeta(lesson.hero.meta)}</small>}
       <nav aria-label="Lesson sections">{nav.map((item, i) => <a key={item.id} href={`#lesson/${n}`} onClick={e => { e.preventDefault(); document.getElementById(item.id)?.scrollIntoView({ behavior: 'smooth' }); }}>{String(i + 1).padStart(2, '0')} {item.label}</a>)}</nav>
       <p className="lesson-status" role="status">{done ? 'Self-completed locally' : 'Draft · completion not recorded'}</p>
     </header>
     {lesson.sections.map(section => isCoachSection(section.label)
-      ? <Step key={section.id} id={section.id} number={section.label} title={section.heading.replace(/\s*·\s*simulated$/i, '')} className={section.className}>{coach}{section.blocks.map((b, i) => replacedByAiCoach(b) ? null : renderBlock(b, i))}</Step>
-      : <Step key={section.id} id={section.id} number={section.label} title={section.heading} className={section.className}>{section.blocks.map(renderBlock)}</Step>)}
+      ? <Step key={section.id} id={section.id} number={sectionLabel(section.label, n)} title={section.heading.replace(/\s*·\s*simulated$/i, '')} className={section.className}>{coach}{section.blocks.map((b, i) => replacedByAiCoach(b) ? null : renderBlock(b, i))}</Step>
+      : <Step key={section.id} id={section.id} number={sectionLabel(section.label, n)} title={section.heading} className={section.className}>{section.blocks.map(renderBlock)}</Step>)}
     <nav className="lesson-pager actions" aria-label="Lesson navigation">
       {n > 1 && <button type="button" className="secondary" onClick={() => navigate(phaseOf(n - 1), n - 1)}>← Lesson {String(n - 1).padStart(2, '0')}</button>}
       <button type="button" className="secondary" onClick={() => navigate(phase)}>Phase overview</button>
       {n < 100 && <button type="button" className="secondary" onClick={() => navigate(phaseOf(n + 1), n + 1)}>Lesson {String(n + 1).padStart(2, '0')} →</button>}
     </nav>
-    <footer>{lesson.footer ?? 'LYNQ · Everything. Connected. · Local learning prototype. No cloud saving, reviewer submission or certification.'}</footer>
+    <footer>{lesson.footer ?? 'LYNQ · Everything. Connected. · Progress is saved in this browser. Instructor review and certification are coming soon.'}</footer>
   </article></div>;
 }

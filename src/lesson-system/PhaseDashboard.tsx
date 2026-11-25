@@ -4,6 +4,7 @@ import type { Progress } from '../progress';
 import { loadPhase } from './registry';
 import { Nodes } from './components/Content';
 import { GraduationReview } from './components/GraduationReview';
+import { phaseEyebrow } from './labels';
 import '../native.css';
 
 const phaseNames = ['Discover', 'Validate', 'Build', 'Launch', 'Scale'];
@@ -30,10 +31,9 @@ export function DashboardView({ dashboard, navigate, progress }: { dashboard: Da
   return <div className="native-scroll"><div className="native-page dashboard" aria-labelledby={`phase-${phase}-title`}>
     <ol className="phasebar" aria-label="Five-phase journey">{phaseNames.map((name, i) => <li key={name}><button type="button" aria-current={i + 1 === phase ? 'step' : undefined} className={i + 1 === phase ? 'current' : ''} onClick={() => navigate(i + 1)}>{String(i + 1).padStart(2, '0')} {name}</button></li>)}</ol>
     <header className="native-hero dashboard-hero">
-      <div className="step-label">{dashboard.hero.eyebrow}</div>
+      <div className="step-label">{phaseEyebrow(phase)}</div>
       <h1 id={`phase-${phase}-title`}>{dashboard.hero.title}</h1>
       <p>{dashboard.hero.intro}</p>
-      {dashboard.hero.badges?.map(b => <span key={b} className="badge">{b}</span>)}
       <div className="actions">{resume ? <button type="button" onClick={() => navigate(phase, resume)}>{count ? 'Continue with' : 'Begin'} Lesson {String(resume).padStart(2, '0')} →</button> : <button type="button" onClick={() => navigate(phase, lessons[19])}>Review the phase checkpoint →</button>}</div>
     </header>
     <section className="native-step" aria-labelledby={`phase-${phase}-progress`}>

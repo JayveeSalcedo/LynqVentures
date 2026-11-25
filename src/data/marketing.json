@@ -56,8 +56,8 @@
       "text": "Your work exports as Markdown so you can keep it, share it and build on it."
     },
     {
-      "title": "Practice with a scripted coach",
-      "text": "Rehearse hard conversations and decisions with guided coach scenarios built into the lessons."
+      "title": "A live AI Coach in every lesson",
+      "text": "Teach, guide, challenge or review: the coach reads your answers and your earlier lessons, and keeps to the course’s evidence standards."
     },
     {
       "title": "Quizzes and checkpoints",
@@ -87,10 +87,10 @@
     }
   ],
   "notYet": [
-    "The coach is scripted, not live AI.",
-    "Video lessons are placeholders for now.",
-    "Progress is saved in this browser only. Accounts and cloud saving are not connected yet.",
-    "Certification and instructor feedback are not available yet."
+    "Video lessons are being produced. Transcripts and storyboards are available meanwhile.",
+    "Progress is saved in this browser only. Accounts and cloud saving are coming.",
+    "Certification and instructor feedback are not available yet.",
+    "The AI Coach can be wrong. Treat it as a thinking partner, not evidence."
   ],
   "pricing": {
     "placeholder": true,
@@ -159,7 +159,7 @@
     },
     {
       "q": "Where is my progress saved?",
-      "a": "In your browser on this device. Clearing site data or switching devices will lose it until cloud saving is added."
+      "a": "In your browser on this device. Clearing site data or switching devices will lose it until accounts are added."
     },
     {
       "q": "Will I get a certificate?",
